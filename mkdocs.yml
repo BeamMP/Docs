@@ -1,3 +1,75 @@
 site_name: BeamMP Docs
+site_url: https://docs.beammp.com
+repo_url: https://github.com/beammp/docs
+repo_name: beammp/docs
+edit_uri: edit/main/docs/
+copyright: Copyright &copy; 2019 - 2023 BeamMP Mod Team
+
 theme:
+  language: en
   name: material
+  logo: assets/logo.png
+  favicon: images/favicon.png
+  features:
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.annotate
+    - navigation.footer
+    - content.action.edit
+    - content.action.view
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - toc.follow
+  icon:
+    repo: fontawesome/brands/github
+
+extra_css:
+  - stylesheets/custom.css
+extra_javascript:
+  - javascript/custom.js
+extra:
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/beammp
+    - icon: fontawesome/brands/twitter 
+      link: https://twitter.com/beamng_mp
+    - icon: fontawesome/brands/discord 
+      link: https://discord.gg/beammp
+  alternate:
+    - name: English
+      link: /en/ 
+      lang: en
+    - name: Deutsch
+      link: /de/
+      lang: de
+    - name: Français
+      link: /fr/
+      lang: fr
+    - name: Italiano
+      link: /it/
+      lang: it
+    - name: Pусский
+      link: /ru/
+      lang: ru
+
+plugins:
+  - search
+  - social
+  - tags
+  - git-revision-date-localized:
+      enable_creation_date: true
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
