@@ -1,1 +1,1 @@
-# Docs
+# BeamMP Docs
