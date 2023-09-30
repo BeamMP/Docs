@@ -29,7 +29,7 @@ theme:
     repo: fontawesome/brands/github
   palette:
     - scheme: default
-      primary: indigo
+      primary: white
       accent: indigo
       toggle:
         icon: material/brightness-7
@@ -97,8 +97,9 @@ nav:
       - Installation: en/game/getting-started.md
       - Customizing your setup: en/game/tailoring.md
       - Using BeamMP: en/game/playing.md
-    - Creating a Server:
+    - Running a Server:
       - Installation: en/server/create-a-server.md
+      - Server Manual: en/server/manual.md
   - FAQ:
     - Installation: en/faq.md
   - Guides:
