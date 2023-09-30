@@ -99,7 +99,7 @@ nav:
       - Using BeamMP: en/game/playing.md
     - Running a Server:
       - Installation: en/server/create-a-server.md
-      - Server Manual: en/server/manual.md
+      - Server Manual: en/server/server-manual.md
   - FAQ:
     - Installation: en/faq.md
   - Guides:
