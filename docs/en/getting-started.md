@@ -1,4 +1,4 @@
-# Installing the mod
+# Getting Started
 
 ## **Before getting started**
 BeamMP is only compatible with legitimate, Steam versions of the game. "Cracked" copies are not supported.
