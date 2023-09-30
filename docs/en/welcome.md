@@ -1,6 +1,6 @@
 # Welcome to the BeamMP Docs
 
-This document goes through everything you need to know about the mod, the launcher, servers and contains many useful bits to help you get the most out of BeamMP.
+This document goes through everything you need to know about the Mod, Client and Servers and contains many useful bits to help you get the most out of BeamMP.
 
 Don't have it installed yet? Begin by [installing the mod](/en/installation)
 
