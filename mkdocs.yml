@@ -15,9 +15,11 @@ theme:
     - search.highlight
     - search.share
     - content.code.annotate
-    - navigation.footer
+    - content.code.copy
     - content.action.edit
     - content.action.view
+    - navigation.instant
+    - navigation.footer
     - navigation.tabs
     - navigation.sections
     - navigation.expand
@@ -25,6 +27,19 @@ theme:
     - toc.follow
   icon:
     repo: fontawesome/brands/github
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
 
 extra_css:
   - stylesheets/custom.css
@@ -68,8 +83,27 @@ plugins:
   - tags
   - git-revision-date-localized:
       enable_creation_date: true
+
 markdown_extensions:
   - attr_list
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+nav:
+  - Home: en/index.md
+  - Getting started:
+    - Playing BeamMP:
+      - Installation: en/game/getting-started.md
+      - Customizing your setup: en/game/tailoring.md
+      - Using BeamMP: en/game/playing.md
+    - Creating a Server:
+      - Installation: en/server/create-a-server.md
+  - FAQ:
+    - Installation: en/faq.md
+  - Guides:
+    - Mod Creation: en/guides/mod-creation.md
+  - BeamNG Documentation:
+    - Installation: en/beamng/index.md
+  - Contributing:
+    - Getting Started: en/contributing/index.md
