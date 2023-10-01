@@ -39,7 +39,7 @@ We are working hard to make performance as good as possible. Sadly, there isn't 
 ---
 #### **How can I setup my own servers**
 
-All the information to setup your own server can be found [here](/en/create-server).
+All the information to setup your own server can be found [here](../create-a-server).
 
 ---
 #### **Can you make a server using linux?**
