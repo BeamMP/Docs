@@ -9,7 +9,7 @@ copyright: Copyright &copy; 2019 - 2023 BeamMP Mod Team
 theme:
   language: en
   name: material
-  logo: assets/logo.png
+  logo: assets/beammp.png
   favicon: images/favicon.png
   custom_dir: overrides
   features:
@@ -90,6 +90,7 @@ plugins:
       enable_creation_date: true
 
 markdown_extensions:
+  - tables
   - attr_list
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
