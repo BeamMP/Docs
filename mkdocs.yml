@@ -1,5 +1,6 @@
 site_name: BeamMP Docs
 site_url: https://docs.beammp.com/
+site_description: This website serves as the new BeamMP Documentation site for general self serve support, guides and documentation. Best of all it is source available so you the community can help us to A. keep it up-to-date and B. providing the content you require.
 repo_url: https://github.com/beammp/docs
 repo_name: beammp/docs
 edit_uri: edit/main/docs/
