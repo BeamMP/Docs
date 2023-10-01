@@ -48,6 +48,8 @@ extra_css:
 extra_javascript:
   - javascript/custom.js
 extra:
+  status:
+    new: Recently added
   consent:
     title: Cookie consent
     description: >- 
