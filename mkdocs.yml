@@ -78,6 +78,7 @@ extra:
     - name: Pусский
       link: /ru/
       lang: ru
+  homepage: /en
 
 plugins:
   - search
