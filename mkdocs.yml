@@ -99,12 +99,22 @@ nav:
       - Using BeamMP: en/game/playing.md
     - Running a Server:
       - Installation: en/server/create-a-server.md
-      - Server Manual: en/server/server-manual.md
-  - FAQ:
-    - Installation: en/faq.md
+      - Server Manual: en/server/manual.md
+  - Support:
+    - Game FAQ: en/support/game-faq.md
+    - Server FAQ: en/support/server-faq.md
   - Guides:
-    - Mod Creation: en/guides/mod-creation.md
+    - en/guides/index.md
+    - Mod Creation:  
+      - UI Apps: en/guides/modding/ui-apps.md
+      - IMGUI Windows: en/guides/modding/imgui-windows.md
+      - Lua Mods: en/guides/modding/lua-mods.md
+    - Resource Creation:  
+      - UI Apps: en/guides/resources/getting-started.md
   - BeamNG Documentation:
     - Installation: en/beamng/index.md
+  - Scripting Reference:
+    - Mod (In-Game): en/scripting/mod/index.md
+    - Server: en/scripting/server/index.md
   - Contributing:
-    - Getting Started: en/contributing/index.md
+    - Getting Started: en/contributing.md
