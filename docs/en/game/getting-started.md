@@ -9,7 +9,7 @@ BeamMP is only compatible with legitimate, Steam versions of the game. "Cracked"
 1. Go to our [Official Website](https://beammp.com/) and download the latest `BeamMP_Installer.zip` by clicking the green, "Download Client" button.
 2. Open the `BeamMP_Installer.zip` archive.
 3. Launch `BeamMP_Installer.exe` and follow the instructions.
-4. The BeamMP Launcher icon should appear on your desktop. If not, just search for “BeamMP” in the windows search bar. Afterwards you should see a little black window appear, shortly after BeamNG.drive should start.
+4. The BeamMP Launcher icon should appear on your desktop. If not, just search for “BeamMP” in the windows search bar. Afterwards you should see a little black window appear, shortly after BeamNG.drive should start. Remember to keep this console open while you are playing.
 5. Once BeamNG launches, press “Play”. In the main menu you should see “Multiplayer” and from there you can play BeamMP.
 6. You will be prompted with a login pop-up, you can either play as a guest (not all servers will allow guests), or create an account on our [Forum](https://forum.beammp.com) and then login to BeamMP with your credentials.
 7. Select any server you like, and press “Connect”. Enjoy!
