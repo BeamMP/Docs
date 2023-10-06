@@ -95,6 +95,8 @@ plugins:
 markdown_extensions:
   - tables
   - attr_list
+  - admonition
+  - md_in_html
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
@@ -102,6 +104,7 @@ markdown_extensions:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
+  - pymdownx.details
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
@@ -110,11 +113,11 @@ nav:
   - Home: en/index.md
   - Getting started:
     - Playing BeamMP:
-      - Installation: en/game/getting-started.md
+      - Installing BeamMP: en/game/getting-started.md
       - Customizing your setup: en/game/tailoring.md
       - Using BeamMP: en/game/playing.md
     - Running a Server:
-      - Installation: en/server/create-a-server.md
+      - Server Installation: en/server/create-a-server.md
       - Server Manual: en/server/manual.md
   - Support:
     - Game FAQ: en/support/game-faq.md
