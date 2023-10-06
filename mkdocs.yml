@@ -47,7 +47,10 @@ extra_css:
   - stylesheets/custom.css
 extra_javascript:
   - javascript/custom.js
-extra:
+extra:  
+  analytics:
+    provider: google
+    property: G-8T6ETLZCMC
   status:
     new: Recently added
   consent:
