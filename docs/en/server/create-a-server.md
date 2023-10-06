@@ -131,27 +131,27 @@ They might be called “ServerConfig”, “Server” and “BeamMP-Server” (n
 Open the `ServerConfig.toml` with a text editor such as `Notepad`. You can do this with [Right Click] → “Open With…” and then selecting a text editor.
 
 You should see something like this:
-
-    [General]
-    AuthKey = ''
-    Debug = false
-    Description = 'BeamMP Default Description'
-    Map = '/levels/gridmap_v2/info.json'
-    MaxCars = 1
-    MaxPlayers = 10
-    Name = 'BeamMP Server'
-    Port = 30814
-    Private = false
-    ResourceFolder = 'Resources'
-
+```TOML
+[General]
+AuthKey = ''
+Debug = false
+Description = 'BeamMP Default Description'
+Map = '/levels/gridmap_v2/info.json'
+MaxCars = 1
+MaxPlayers = 10
+Name = 'BeamMP Server'
+Port = 30814
+Private = false
+ResourceFolder = 'Resources'
+```
 This is your configuration file. It uses a format called TOML. Refer to the [Server Maintenance](https://wiki.beammp.com/en/home/server-maintenance) section for more info on this file.
 
 For now, we only care about the `AuthKey` field. Between the quotes `''`, you want to paste in your AuthKey you copied in the first step.
 
 For our example key, it should then look like this:
-
-    AuthKey = '3173a2e-6az0-4542-a3p0-ddqq5ff95558'
-
+```TOML
+AuthKey = '3173a2e-6az0-4542-a3p0-ddqq5ff95558'
+```
 Give your server a name, too, in the `Name` field. You can format this with colors and more, please refer to [this section on Name customization](https://wiki.beammp.com/en/home/server-maintenance#customize-the-look-of-your-server-name) in the server maintenance page.
 
 If you picked a different **Port** other than **30814**, make sure to replace it here under `Port`.
@@ -180,9 +180,9 @@ All default maps (maps which aren't mods) work out-of-the-box and do not have to
 1.  Put your map's `.zip` file in your server's (`Resources/Client`) folder.
 2.  Next, have a look inside the map's zip file (don't extract it) and open the `levels` folder. In this folder there should be simply one other folder with the name of the map, for example “myawesomedriftmap2021”. Make sure to copy or remember this name _exactly as it is written in that folder's name._
 3.  Open your `ServerConfig.toml`. In the `Map` setting, you should see `/levels/MAPNAME/info.json`, where `MAPNAME` is likely something like `gridmap_v2`. You want to now replace this `MAPNAME` with the name of the folder from the last step, in that example it was `myawesomedriftmap2021`. In the end it should look like this (for this example) and _**should**_ have `/info.json` at the end.
-
-    Map = '/levels/myawesomedriftmap2021/info.json'
-
+```TOML
+Map = '/levels/myawesomedriftmap2021/info.json'
+```
 Now, when someone joins your server, it should download the map automatically and work as expected. 
 
 **If this does NOT work**, install the map in your singleplayer BeamNG.drive, launch it and enter the map. Then, open the Console by pressing the `~` (_tilde_) key (if you're on a non-US keyboard, look at the **Toggle System Console** action in the **Options > Controls > Bindings** menu, under the **General Debug** section), and run `print(getMissionFilename())`. This should then show you the name to use. 
