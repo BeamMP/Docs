@@ -30,17 +30,19 @@ theme:
   icon:
     repo: fontawesome/brands/github
   palette:
-    - scheme: default
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
       primary: white
       accent: indigo
       toggle:
-        icon: material/brightness-7
+        icon: material/weather-night
         name: Switch to dark mode
-    - scheme: slate
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
       primary: black
       accent: indigo
       toggle:
-        icon: material/brightness-4
+        icon: material/weather-sunny
         name: Switch to light mode
 
 extra_css:
@@ -122,7 +124,7 @@ nav:
   - Support:
     - Game FAQ: en/support/game-faq.md
     - Server FAQ: en/support/server-faq.md
-  - Guides:
+  - Development Guides:
     - en/guides/index.md
     - Mod Creation:  
       - UI Apps: en/guides/modding/ui-apps.md
