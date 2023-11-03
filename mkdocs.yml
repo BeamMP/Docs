@@ -22,11 +22,13 @@ theme:
     - content.action.edit
     - content.action.view
     - navigation.instant
+    - navigation.instant.progress
     - navigation.footer
     - navigation.tabs
     - navigation.sections
     - navigation.expand
     - navigation.path
+    - navigation.tracking
     - toc.follow
   icon:
     repo: fontawesome/brands/github
@@ -74,6 +76,9 @@ extra:
     - name: English
       link: /en/ 
       lang: en
+    - name: Español
+      link: /es/ 
+      lang: es
     - name: Deutsch
       link: /de/
       lang: de
@@ -113,7 +118,7 @@ markdown_extensions:
   - pymdownx.superfences
 
 nav:
-  - Home: en/index.md
+  - Home: index.md
   - Getting started:
     - Playing BeamMP:
       - Installing BeamMP: en/game/getting-started.md
