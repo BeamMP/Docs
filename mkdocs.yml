@@ -9,8 +9,9 @@ copyright: Copyright &copy; 2019 - 2023 BeamMP Mod Team
 theme:
   language: en
   name: material
-  logo: assets/beammp.png
-  favicon: images/favicon.png
+  logo: assets/core/beammp_dark.png
+  logo_dark: assets/core/beammp_light.png
+  favicon: assets/core/favicon.png
   custom_dir: overrides
   features:
     - search.suggest
