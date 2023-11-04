@@ -2,6 +2,14 @@
 hide:
   - navigation
 ---
+!!! warning "Questo sito è in costruzione!"
+
+    Questo sito è attualmente in fase di lavorazione.
+
+    Pensate di poter aiutare? Per favore, fatelo cliccando sulla pagina con una matita a destra!
+
+    Questo può essere fatto anche su qualsiasi altra pagina.
+
 # Benvenuti su BeamMP Docs! :tada:
 
 Benvenuti nel centro documentazione rinnovato per BeamMP! Che tu sia un giocatore, un proprietario di server o uno sviluppatore, abbiamo le risorse di cui hai bisogno per migliorare la tua esperienza multiplayer su BeamNG.drive.
