@@ -21,8 +21,6 @@ theme:
     - content.code.copy
     - content.action.edit
     - content.action.view
-    - navigation.instant
-    - navigation.instant.progress
     - navigation.footer
     - navigation.tabs
     - navigation.sections
@@ -136,6 +134,7 @@ plugins:
             Snippets: Fragmentos de Código
             BeamNG Documentation: Documentación de BeamNG
             Installation: Instalación
+            Helpful Snippets: Fragmentos Útiles
             Scripting Reference: Referencia de Scripting
             Mod (In-Game): Mod (En el Juego)
             Server: Servidor
@@ -170,6 +169,7 @@ plugins:
             Snippets: Code-Schnipsel
             BeamNG Documentation: BeamNG-Dokumentation
             Installation: Installation
+            Helpful Snippets: Nützliche Codeausschnitte
             Scripting Reference: Scripting-Referenz
             Mod (In-Game): Mod (Im Spiel)
             Server: Server
@@ -204,6 +204,7 @@ plugins:
             Snippets: Extraits de code
             BeamNG Documentation: Documentation BeamNG
             Installation: Installation
+            Helpful Snippets: Extraits Utiles
             Scripting Reference: Référence de script
             Mod (In-Game): Mod (En jeu)
             Server: Serveur
@@ -238,6 +239,7 @@ plugins:
             Snippets: Frammenti di Codice
             BeamNG Documentation: Documentazione BeamNG
             Installation: Installazione
+            Helpful Snippets: Snippet Utili
             Scripting Reference: Riferimento allo Scripting
             Mod (In-Game): Mod (In gioco)
             Server: Server
@@ -272,6 +274,7 @@ plugins:
             Snippets: Фрагменты кода
             BeamNG Documentation: Документация BeamNG
             Installation: Установка
+            Helpful Snippets: Полезные фрагменты
             Scripting Reference: Справочник по скриптингу
             Mod (In-Game): Мод (в игре)
             Server: Сервер
@@ -308,24 +311,34 @@ nav:
       - Server Installation: server/create-a-server.md
       - Server Manual: server/manual.md
     - Mod & Resource Creation:  
-      - Client Side: guides/resources/getting-started.md
-      - Server Side: guides/resources/getting-started.md
+      - Client Side: guides/mod-creation/client/getting-started.md
+      - Server Side: guides/mod-creation/server/getting-started.md
   - Support:
     - Game FAQ: support/game-faq.md
     - Server FAQ: support/server-faq.md
   - Development Guides:
     - guides/index.md
     - Mod Creation:  
-      - UI Apps: guides/modding/ui-apps.md
-      - IMGUI Windows: guides/modding/imgui-windows.md
-      - Lua Mods: guides/modding/lua-mods.md
+      - Client Mods: guides/mod-creation/client/getting-started.md
+      - Client Scripting Reference: scripting/mod-reference.md
     - Resource Creation:  
-      - UI Apps: guides/resources/getting-started.md
-    - Snippets: guides/resources/snippets.md
+      - Server Resources: guides/mod-creation/server/getting-started.md
+      - Server Scripting Reference: scripting/server-reference.md
   - BeamNG Documentation:
-    - Installation: beamng/index.md
+    - beamng/index.md
+    - Content Development:    
+      - Introduction: beamng/dev/index.md
+      - Coding:
+        - UI Apps (HTML): beamng/dev/modding/ui-apps.md
+        - IMGUI Windows (Lua): beamng/dev/modding/imgui-windows.md
+        - Lua Mods (Scripts): beamng/dev/modding/lua-mods.md
+      - Content:
+        - Maps: beamng/dev/content/maps.md
+        - Props: beamng/dev/content/props.md
+        - Vehicles: beamng/dev/content/vehicles.md
+    - Helpful Code Snippets: beamng/snippets.md
   - Scripting Reference:
-    - Mod (In-Game): scripting/mod/index.md
-    - Server: scripting/server/index.md
+    - Mod (In-Game): scripting/mod-reference.md
+    - Server: scripting/server-reference.md
   - Contributing:
     - Getting Started: contributing.md
