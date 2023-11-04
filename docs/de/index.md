@@ -2,18 +2,20 @@
 hide:
   - navigation
 ---
-# Startseite
+# Willkommen bei BeamMP Docs! :tada:
 
-## Willkommen in der neuen BeamMP-Dokumentation. :party_popper:
+Willkommen im neuen und verbesserten Dokumentationszentrum für BeamMP! Egal, ob du Spieler, Serverbesitzer oder Entwickler bist, wir haben die Ressourcen, die du benötigst, um dein Mehrspielererlebnis in BeamNG.drive zu optimieren.
 
-# Spieler
- - Neu bei BeamMP? Schau dir unsere [Einstiegsseite](game/getting-started) an, um loszulegen.
- 
-# Serverbesitzer
- - Möchtest du deinen eigenen BeamMP-Server erstellen? Sieh dir unsere Anleitung [hier](server/create-a-server) an.
+## Für Spieler
 
-# Entwickler
+Neu bei BeamMP? Schau dir unsere [Einstiegshilfe](game/getting-started) an, um dir den Einstieg zu erleichtern und das Beste aus deinen Mehrspielerabenteuern herauszuholen.
 
- - Starte mit der Entwicklung von Mods für BeamNG.drive [hier](guides/modding/index). Lerne die Grundlagen, wie Lua-Mods für BeamNG.drive erstellt werden, und erfahre dann, wie du sie multiplayerfähig machst.
- - Lerne, wie du Ressourcen für den BeamMP-Server erstellst [hier](guides/resource-development).
-Für diese Seite muss eine neue, schicke Startseite erstellt werden. :slight_smile:
+## Für Serverbesitzer
+
+Du möchtest deinen eigenen BeamMP-Server erstellen? Unsere umfassende Anleitung [hier](server/create-a-server) führt dich durch den Prozess und stellt sicher, dass du alle notwendigen Werkzeuge und Kenntnisse für die effiziente Konfiguration deines Servers zur Verfügung hast.
+
+## Für Entwickler
+
+Bist du ein Modding-Enthusiast? Tauche ein in die Welt der Mod-Entwicklung für BeamNG.drive mit unserer [Modding-Anleitung](guides/modding/index). Lerne die Grundlagen der Lua-Mod-Erstellung und entdecke, wie du deine Mods für den Mehrspielermodus kompatibel machst, für ein noch intensiveres Erlebnis. Erfahre außerdem alles Wissenswerte zur Erstellung von Ressourcen für den BeamMP-Server in unserer [Anleitung zur Ressourcenentwicklung](guides/resource-development).
+
+Aufregende Updates stehen bevor, einschließlich einer brandneuen Homepage, die entwickelt wurde, um dein Browsing-Erlebnis zu verbessern. Bleib dran für weitere Neuigkeiten! :slight_smile:

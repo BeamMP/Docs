@@ -2,18 +2,20 @@
 hide:
   - navigation
 ---
-# Accueil
+# Bienvenue sur BeamMP Docs ! :tada:
 
-## Bienvenue dans la nouvelle documentation de BeamMP. :party_popper:
+Bienvenue sur le centre de documentation amélioré pour BeamMP ! Que vous soyez joueur, propriétaire de serveur ou développeur, nous avons les ressources dont vous avez besoin pour améliorer votre expérience multijoueur sur BeamNG.drive.
 
-# Joueurs
- - Nouveau sur BeamMP ? Consultez notre page [Pour Commencer](game/getting-started) pour vous lancer.
- 
-# Propriétaires de serveurs
- - Vous souhaitez créer votre propre serveur BeamMP ? Consultez notre guide [ici](server/create-a-server).
+## Pour les Joueurs
 
-# Développeurs
+Nouveau sur BeamMP ? Consultez notre [Guide de Démarrage](game/getting-started) pour vous aider à commencer et profiter au maximum de vos aventures multijoueurs.
 
- - Commencez à développer des mods pour BeamNG.drive [ici](guides/modding/index). Apprenez les bases de la création de mods Lua pour BeamNG.drive, puis découvrez comment les rendre compatibles multijoueur.
- - Apprenez à créer des ressources pour le serveur BeamMP [ici](guides/resource-development).
-Une nouvelle page d'accueil élégante doit être créée pour cette page. :slight_smile:
+## Pour les Propriétaires de Serveur
+
+Vous envisagez de créer votre propre serveur BeamMP ? Notre guide complet [ici](server/create-a-server) vous guidera à travers le processus, en veillant à ce que vous disposiez de tous les outils et connaissances nécessaires pour configurer votre serveur de manière efficace.
+
+## Pour les Développeurs
+
+Vous êtes un passionné de modding ? Plongez dans l'univers du développement de mods pour BeamNG.drive avec notre [Guide de Modding](guides/modding/index). Apprenez les bases de la création de mods Lua et découvrez comment rendre vos mods compatibles avec le multijoueur pour une expérience encore plus immersive. De plus, explorez tous les détails sur la création de ressources pour le serveur BeamMP dans notre [Guide de Développement de Ressources](guides/resource-development).
+
+D'excitantes mises à jour sont à venir, notamment une toute nouvelle page d'accueil conçue pour améliorer votre expérience de navigation. Restez à l'écoute pour plus d'informations ! :slight_smile:

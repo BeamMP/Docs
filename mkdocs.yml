@@ -29,6 +29,7 @@ theme:
     - navigation.expand
     - navigation.path
     - navigation.tracking
+    - navigation.indexes
     - toc.follow
   icon:
     repo: fontawesome/brands/github
@@ -74,7 +75,7 @@ extra:
       link: https://discord.gg/beammp
   alternate:
     - name: English
-      link: /en/ 
+      link: / 
       lang: en
     - name: Español
       link: /es/ 
@@ -97,6 +98,185 @@ plugins:
   - search
   - social
   - tags
+  - i18n:
+      reconfigure_material: true
+      fallback_to_default: true
+      docs_structure: folder
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: es
+          name: Español
+          build: true
+          nav_translations:
+            Home: Inicio
+            Getting started: Empezando
+            Playing BeamMP: Jugando a BeamMP
+            Installing BeamMP: Instalación de BeamMP
+            Customizing your setup: Personaliza tu configuración
+            Using BeamMP: Usando BeamMP
+            Running a Server: Ejecutando un Servidor
+            Server Installation: Instalación del Servidor
+            Server Manual: Manual del Servidor
+            Mod & Resource Creation: Creación de Mods y Recursos
+            Client Side: Lado del Cliente
+            Server Side: Lado del Servidor
+            Support: Soporte
+            Game FAQ: Preguntas Frecuentes del Juego
+            Server FAQ: Preguntas Frecuentes del Servidor
+            Development Guides: Guías de Desarrollo
+            Mod Creation: Creación de Mods
+            UI Apps: Aplicaciones de IU
+            IMGUI Windows: Ventanas IMGUI
+            Lua Mods: Mods Lua
+            Resource Creation: Creación de Recursos
+            UI Apps: Aplicaciones de IU
+            Snippets: Fragmentos de Código
+            BeamNG Documentation: Documentación de BeamNG
+            Installation: Instalación
+            Scripting Reference: Referencia de Scripting
+            Mod (In-Game): Mod (En el Juego)
+            Server: Servidor
+            Contributing: Contribuir
+            Getting Started: Primeros Pasos
+        - locale: de
+          name: Deutsch
+          build: true
+          nav_translations:
+            Home: Zuhause
+            Getting started: Erste Schritte
+            Playing BeamMP: BeamMP spielen
+            Installing BeamMP: BeamMP Installation
+            Customizing your setup: Konfiguration anpassen
+            Using BeamMP: BeamMP verwenden
+            Running a Server: Server ausführen
+            Server Installation: Server Installation
+            Server Manual: Server Handbuch
+            Mod & Resource Creation: Mod- & Ressourcenerstellung
+            Client Side: Clientseite
+            Server Side: Serverseite
+            Support: Unterstützung
+            Game FAQ: Spiel FAQ
+            Server FAQ: Server FAQ
+            Development Guides: Entwicklungsanleitungen
+            Mod Creation: Mod-Erstellung
+            UI Apps: UI-Anwendungen
+            IMGUI Windows: IMGUI-Fenster
+            Lua Mods: Lua-Mods
+            Resource Creation: Ressourcenerstellung
+            UI Apps: UI-Anwendungen
+            Snippets: Code-Schnipsel
+            BeamNG Documentation: BeamNG-Dokumentation
+            Installation: Installation
+            Scripting Reference: Scripting-Referenz
+            Mod (In-Game): Mod (Im Spiel)
+            Server: Server
+            Contributing: Mitwirken
+            Getting Started: Erste Schritte
+        - locale: fr
+          name: Français
+          build: true
+          nav_translations:
+            Home: Accueil
+            Getting started: Démarrage
+            Playing BeamMP: Jouer à BeamMP
+            Installing BeamMP: Installation de BeamMP
+            Customizing your setup: Personnalisation de votre configuration
+            Using BeamMP: Utilisation de BeamMP
+            Running a Server: Exécution d'un serveur
+            Server Installation: Installation du serveur
+            Server Manual: Manuel du serveur
+            Mod & Resource Creation: Création de mods et de ressources
+            Client Side: Côté client
+            Server Side: Côté serveur
+            Support: Support
+            Game FAQ: FAQ du jeu
+            Server FAQ: FAQ du serveur
+            Development Guides: Guides de développement
+            Mod Creation: Création de mods
+            UI Apps: Applications UI
+            IMGUI Windows: Fenêtres IMGUI
+            Lua Mods: Mods Lua
+            Resource Creation: Création de ressources
+            UI Apps: Applications UI
+            Snippets: Extraits de code
+            BeamNG Documentation: Documentation BeamNG
+            Installation: Installation
+            Scripting Reference: Référence de script
+            Mod (In-Game): Mod (En jeu)
+            Server: Serveur
+            Contributing: Contribution
+            Getting Started: Premiers pas
+        - locale: it
+          name: Italiano
+          build: true
+          nav_translations:
+            Home: Home
+            Getting started: Guida introduttiva
+            Playing BeamMP: Giocare a BeamMP
+            Installing BeamMP: Installazione di BeamMP
+            Customizing your setup: Personalizza la tua configurazione
+            Using BeamMP: Utilizzare BeamMP
+            Running a Server: Eseguire un server
+            Server Installation: Installazione del server
+            Server Manual: Manuale del server
+            Mod & Resource Creation: Creazione di Mod e Risorse
+            Client Side: Lato client
+            Server Side: Lato server
+            Support: Supporto
+            Game FAQ: FAQ del gioco
+            Server FAQ: FAQ del server
+            Development Guides: Guide allo Sviluppo
+            Mod Creation: Creazione di Mod
+            UI Apps: Applicazioni UI
+            IMGUI Windows: Finestre IMGUI
+            Lua Mods: Mod Lua
+            Resource Creation: Creazione di Risorse
+            UI Apps: Applicazioni UI
+            Snippets: Frammenti di Codice
+            BeamNG Documentation: Documentazione BeamNG
+            Installation: Installazione
+            Scripting Reference: Riferimento allo Scripting
+            Mod (In-Game): Mod (In gioco)
+            Server: Server
+            Contributing: Contribuire
+            Getting Started: Primi Passi
+        - locale: ru
+          name: Pусский
+          build: true
+          nav_translations:
+            Home: Главная
+            Getting started: Начало работы
+            Playing BeamMP: Игра в BeamMP
+            Installing BeamMP: Установка BeamMP
+            Customizing your setup: Настройка конфигурации
+            Using BeamMP: Использование BeamMP
+            Running a Server: Запуск сервера
+            Server Installation: Установка сервера
+            Server Manual: Руководство по серверу
+            Mod & Resource Creation: Создание модов и ресурсов
+            Client Side: Сторона клиента
+            Server Side: Сторона сервера
+            Support: Поддержка
+            Game FAQ: Часто задаваемые вопросы об игре
+            Server FAQ: Часто задаваемые вопросы о сервере
+            Development Guides: Руководства по разработке
+            Mod Creation: Создание модов
+            UI Apps: Приложения интерфейса пользователя
+            IMGUI Windows: Окна IMGUI
+            Lua Mods: Lua-моды
+            Resource Creation: Создание ресурсов
+            UI Apps: Приложения интерфейса пользователя
+            Snippets: Фрагменты кода
+            BeamNG Documentation: Документация BeamNG
+            Installation: Установка
+            Scripting Reference: Справочник по скриптингу
+            Mod (In-Game): Мод (в игре)
+            Server: Сервер
+            Contributing: Участие
+            Getting Started: Начало работы
   - git-revision-date-localized:
       enable_creation_date: true
 
@@ -121,27 +301,31 @@ nav:
   - Home: index.md
   - Getting started:
     - Playing BeamMP:
-      - Installing BeamMP: en/game/getting-started.md
-      - Customizing your setup: en/game/tailoring.md
-      - Using BeamMP: en/game/playing.md
+      - Installing BeamMP: game/getting-started.md
+      - Customizing your setup: game/tailoring.md
+      - Using BeamMP: game/playing.md
     - Running a Server:
-      - Server Installation: en/server/create-a-server.md
-      - Server Manual: en/server/manual.md
+      - Server Installation: server/create-a-server.md
+      - Server Manual: server/manual.md
+    - Mod & Resource Creation:  
+      - Client Side: guides/resources/getting-started.md
+      - Server Side: guides/resources/getting-started.md
   - Support:
-    - Game FAQ: en/support/game-faq.md
-    - Server FAQ: en/support/server-faq.md
+    - Game FAQ: support/game-faq.md
+    - Server FAQ: support/server-faq.md
   - Development Guides:
-    - en/guides/index.md
+    - guides/index.md
     - Mod Creation:  
-      - UI Apps: en/guides/modding/ui-apps.md
-      - IMGUI Windows: en/guides/modding/imgui-windows.md
-      - Lua Mods: en/guides/modding/lua-mods.md
+      - UI Apps: guides/modding/ui-apps.md
+      - IMGUI Windows: guides/modding/imgui-windows.md
+      - Lua Mods: guides/modding/lua-mods.md
     - Resource Creation:  
-      - UI Apps: en/guides/resources/getting-started.md
+      - UI Apps: guides/resources/getting-started.md
+    - Snippets: guides/resources/snippets.md
   - BeamNG Documentation:
-    - Installation: en/beamng/index.md
+    - Installation: beamng/index.md
   - Scripting Reference:
-    - Mod (In-Game): en/scripting/mod/index.md
-    - Server: en/scripting/server/index.md
+    - Mod (In-Game): scripting/mod/index.md
+    - Server: scripting/server/index.md
   - Contributing:
-    - Getting Started: en/contributing.md
+    - Getting Started: contributing.md

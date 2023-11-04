@@ -20,5 +20,5 @@ jobs:
           path: .cache
           restore-keys: |
             mkdocs-material-
-      - run: pip install mkdocs-material mkdocs-git-revision-date-localized-plugin "mkdocs-material[imaging]"
+      - run: pip install mkdocs-material mkdocs-git-revision-date-localized-plugin "mkdocs-material[imaging]" mkdocs-static-i18n[material]
       - run: mkdocs gh-deploy --force --clean --verbose
