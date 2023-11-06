@@ -101,10 +101,6 @@ plugins:
       fallback_to_default: true
       docs_structure: folder
       languages:
-        - locale: en
-          default: true
-          name: English
-          build: true
         - locale: es
           name: Español
           build: true
@@ -280,6 +276,10 @@ plugins:
             Server: Сервер
             Contributing: Участие
             Getting Started: Начало работы
+        - locale: en
+          default: true
+          name: English
+          build: true
   - git-revision-date-localized:
       enable_creation_date: true
 
