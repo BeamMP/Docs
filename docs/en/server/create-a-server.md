@@ -88,10 +88,11 @@ For the Linux installation, see the next step.
 
 Please ensure you have port-forwarded before attempting to host a server! Without you ports being forwarded, you cannot host a server to the public!
 
-1.  Download the server zip from [beammp.com](https://www.beammp.com/). You should end up with a compressed `.zip` archive, called something like `BeamMP-Server.zip`.
-2.  Extract the `BeamMP-Server.zip`. You will end up with a `BeamMP-Server.exe` file, among others which you can ignore for now. Make a folder somewhere and put the `BeamMP-Server.exe` there. This is where your server will live.
-3.  Start the server once by double-clicking on it. This will generate all the necessary files for you, once you see text you can close it and proceed to the next step. You should see a `Server.log` file and a `ServerConfig.toml` file next to your `BeamMP-Server.exe`.
-4.  (optional) For quick access in the future you can easily create a desktop shortcut to `BeamMP-Server.exe` using **[Right click]** > **Send to** > **Desktop (create shortcut).**
+1. Ensure you have installed the [Visual C++ Redistributables](https://aka.ms/vs/17/release/vc_redist.x64.exe) in order to run the server.
+2. Download the server executable from [beammp.com](https://www.beammp.com/). You should end up with an executable file, called something like `BeamMP-Server.exe`.
+3. Once downloaded, make a folder somewhere and put the `BeamMP-Server.exe` there. This is where your server will live.
+4. Start the server once by double-clicking on it. This will generate all the necessary files for you, once you see text you can close it and proceed to the next step. You should see a `Server.log` file and a `ServerConfig.toml` file next to your `BeamMP-Server.exe`.
+5. (optional) For quick access in the future you can easily create a desktop shortcut to `BeamMP-Server.exe` using **[Right click]** > **Send to** > **Desktop (create shortcut).**
 
 Now proceed to the next step.
 
@@ -103,12 +104,13 @@ Skip this if you did “Installation on Windows”.
 
 This step will work on Debian, Ubuntu, and similar Debian-derivatives on x86_64\. If you're on a different distribution or architecture, refer to the "Building from source” step below.
 
-1.  Ensure you have the dependencies installed which are listed [here](https://github.com/BeamMP/BeamMP-Server#prerequisites).
-2.  Download the server zip from [beammp.com](https://www.beammp.com/). You should end up with a compressed `.zip` archive, called something like `BeamMP-Server.zip`.
-3.  Extract the `BeamMP-Server.zip`. You will end up with a `BeamMP-Server-linux` file, among others which you can ignore for now. Make a folder somewhere and put the `BeamMP-Server-linux` there. This is where your server will live.
-4.  Open a terminal, go to that folder you put the `BeamMP-Server-linux` in, and run `chmod +x BeamMP-Server-linux`. This ensures that you have permissions to run it.
-5.  Start the server once by running it with `./BeamMP-Server-linux`. This will generate all the necessary files for you, once you see text you can close it and proceed to the next step. You should see a `Server.log` file and a `ServerConfig.toml` file next to your `BeamMP-Server-linux`.
-6.  (optional) It is heavily recommended to set up a user called `beammpserver` (or similar), as we do NOT recommend running the server as root, sudo or with your personal user account. You should then take steps to make sure that you start the server as this user only.
+1. Ensure you have the dependencies installed which are listed [here](https://github.com/BeamMP/BeamMP-Server#runtime-dependencies).
+2. Go to [beammp.com](https://beammp.com/) and click the “Download Server” button, you will be redirected to the server's Github release page.
+3. Download the correct version for your distro. For sake of semplicity it will be called `BeamMP-Server-xxx` from now on, where `xxx` denotes the version for the distro you're using.
+4. Once downloaded, you should see one file called `BeamMP-Server-xxx`, among others which you can ignore for now. Make a folder somewhere and put the `BeamMP-Server-xxx` there. This is where your server will live.
+5. Open a terminal, go to that folder you put the `BeamMP-Server-xxx` in, and run `chmod +x BeamMP-Server-xxx`. This ensures that you have permissions to run it.
+6. Start the server once by running it with `./BeamMP-Server-xxx`. This will generate all the necessary files for you, once you see text you can close it and proceed to the next step. You should see a `Server.log` file and a `ServerConfig.toml` file next to your `BeamMP-Server-xxx`.
+7. (optional) It is heavily recommended to set up a user called `beammpserver` (or similar), as we do NOT recommend running the server as root, sudo or with your personal user account. You should then take steps to make sure that you start the server as this user only.
 
 Now proceed to the next step.
 
