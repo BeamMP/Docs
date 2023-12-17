@@ -12,7 +12,7 @@ Servers are an integral part of BeamMP; players are connected to each other thro
 
 You can make private servers, which only people you invite can join, or public servers, which will show in our official server list.
 
-Getting a server up and running is a process with a few steps! It's quite easy, but if you run into any issues, feel free to ask on our [Forum](https://forum.beammp.com) or on our [Discord server](https://discord.gg/beammp) in the `#server-support` channel. Also refer to the [Server Maintenance](https://wiki.beammp.com/en/home/server-maintenance) section for more info. 
+Getting a server up and running is a process with a few steps! It's quite easy, but if you run into any issues, feel free to ask on our [Forum](https://forum.beammp.com) or on our [Discord server](https://discord.gg/beammp) in the `#support` channel. Also refer to the [Server Maintenance](https://wiki.beammp.com/en/home/server-maintenance) section for more info. 
 
 Please make sure to read the [LICENSE](https://raw.githubusercontent.com/BeamMP/BeamMP-Server/master/LICENSE) of the server before use.
 
@@ -32,7 +32,7 @@ This step is the same for almost every game's server, such as Minecraft Servers,
 
 While the default **Port** you want to “forward” is **30814**, you can choose any other number >1024, but you need to note down what you picked if it's not 30814\. You need to forward both **TCP** and **UDP**. 
 
-If you have issues, also feel free to ask on our [Forum](https://forum.beammp.com) or on our [Discord server](https://discord.gg/beammp) in the `#server-support` channel.
+If you have issues, also feel free to ask on our [Forum](https://forum.beammp.com) or on our [Discord server](https://discord.gg/beammp) in the `#support` channel.
 
 #### 1.1 Firewall
 
