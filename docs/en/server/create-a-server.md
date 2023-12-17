@@ -102,7 +102,7 @@ Skip this if you did “Installation on Windows”.
 
 #### Using our build (recommended)
 
-This step will work on Debian, Ubuntu, and similar Debian-derivatives on x86_64\. If you're on a different distribution or architecture, refer to the "Building from source” step below.
+This step will work on all distributions we provide binaries for [here](https://github.com/BeamMP/BeamMP-Server/releases/latest). If you're on a different distribution or architecture, refer to the "Building from source” step below.
 
 1. Ensure you have the dependencies installed which are listed [here](https://github.com/BeamMP/BeamMP-Server#runtime-dependencies).
 2. Go to [beammp.com](https://beammp.com/) and click the “Download Server” button, you will be redirected to the server's Github release page.
@@ -116,7 +116,7 @@ Now proceed to the next step.
 
 #### Building from source
 
-BeamMP-Server for Linux can be officially built on both Debian, Ubuntu, other Debian-derivatives, and ArchLinux. Other distributions are likely to work, too, but aren't officially supported. If you want to build it yourself you can do it by downloading the source on our [GitHub](https://github.com/BeamMP/BeamMP-Server), a tutorial can be found [here](https://github.com/BeamMP/BeamMP-Server#build-instructions).
+BeamMP-Server for Linux can be officially built on Debian, Ubuntu, other Debian-derivatives, and ArchLinux. Other distributions are likely to work, too, but aren't officially supported. If you want to build it yourself you can do it by downloading the source on our [GitHub](https://github.com/BeamMP/BeamMP-Server), a tutorial can be found [here](https://github.com/BeamMP/BeamMP-Server#build-instructions).
 
 At the end, make sure to run your server once with `./BeamMP-Server` and then proceed to the next step.
 
