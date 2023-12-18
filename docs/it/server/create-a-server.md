@@ -116,7 +116,7 @@ Procedi ora al passo "4\. Configurazione".
 
 #### Compilazione file sorgente
 
-BeamMP-Server per Linux può essere compilato in modo ufficiale su Debian, Ubuntu, altre distribuzioni derivate da Debian e ArchLinux. Altre distribuzioni non sono state provate, ma è molto probabile che funzionino lo stesso. Se vuoi compilare i codice sorgente puoi farlo, scaricando il codice dal nostro [GitHub](https://github.com/BeamMP/BeamMP-Server), una guida si può trovare [qui](https://github.com/BeamMP/BeamMP-Server#build-instructions).
+È molto probabile, ma non è stato ufficialmente provato, che BeamMP-Server per Linux funzioni su distribuzioni differenti da quelle per cui offriamo i files binari [qui](https://github.com/BeamMP/BeamMP-Server/releases/latest). Se vuoi compilare i codice sorgente puoi farlo, scaricando il codice dal nostro [GitHub](https://github.com/BeamMP/BeamMP-Server), una guida si può trovare [qui](https://github.com/BeamMP/BeamMP-Server#build-instructions).
 
 Infine ricordati di eseguire il server con il comando `./BeamMP-Server-xxx`, dopodiché vai al passo successivo.
 
