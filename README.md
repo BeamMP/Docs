@@ -5,7 +5,7 @@ Welcome to the BeamMP Docs GitHub Repository. We are glad you are here because t
 # Contributing to the BeamMP Docs
 
 BeamMP is using [Material for MkDocs](https://squidfunk.github.io/mkdocs-material) as its theme. This is a theme for [MkDocs](https://www.mkdocs.org).
-Full documentation can be found at their respective sites.cs.org).
+Full documentation can be found at their respective sites.
 
 ## Getting Started
 
@@ -36,10 +36,11 @@ Editing our docs this way will still take a similar approach as in option 1 howe
 2. Fork the project into your own GitHub account.
 3. Clone the project locally.
 4. Setup Material for MkDocs according to their guide [here](https://squidfunk.github.io/mkdocs-material/getting-started/)
-5. Run `mkdocs serve` to start the live-reloading docs server from where you cloned the fork to.
-6. Make the changes that you see fit.
-7. Commit your changes to your fork.
-8. Raise a pull request against our repository [here](https://github.com/BeamMP/Docs).
+5. Install the required plugins using the following command: `pip install mkdocs-material mkdocs-git-revision-date-localized-plugin "mkdocs-material[imaging]" mkdocs-static-i18n[material]`
+6. Run `mkdocs serve` to start the live-reloading docs server from where you cloned the fork to.
+7. Make the changes that you see fit.
+8. Commit your changes to your fork.
+9. Raise a pull request against our repository [here](https://github.com/BeamMP/Docs).
 
 
 ## Project layout
