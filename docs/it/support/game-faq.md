@@ -36,8 +36,7 @@ Stiamo lavorando il più possibile per garantire prestazioni stabili a tutti. Se
 ---
 #### **Dove posso trovare il codice?**
 Tutto il codice sorgente è disponibile su [GitHub](https://github.com/BeamMP).
-Prima di modificare il codice, ricordati che è protetto dai nostri [termini di utilizzo](https://forum.beammp.com/t/terms-of-use-v1-0/43).
-Il server, il launcher e il client Lua sono protetti da licenze disponibili qui:
+Prima di modificare il codice, ricordati che è soggetto ai nostri [termini di utilizzo](https://forum.beammp.com/t/terms-of-use-v1-0/43) e con le seguenti licenze:
 
 | Codice     | Licenza                                                                    |
 |------------|:--------------------------------------------------------------------------:|

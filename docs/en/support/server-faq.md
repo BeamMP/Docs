@@ -12,7 +12,7 @@ All the information to setup your own server can be found [here](https://docs.be
 ---
 #### **Can you make a server using linux?**
 
-We provide binaries for many Linux distributions [here](https://github.com/BeamMP/BeamMP-Server/releases/latest). If there are no binaries for your distribution, you can build it yourself you can do it by downloading the source on our [GitHub](https://github.com/BeamMP/BeamMP-Server), a tutorial can be found [here](https://github.com/BeamMP/BeamMP-Server#build-instructions).
+We provide binaries for many Linux distributions [here](https://github.com/BeamMP/BeamMP-Server/releases/latest). If there are no binaries for your distribution, you can build it yourself by downloading the source on our [GitHub](https://github.com/BeamMP/BeamMP-Server), a tutorial can be found [here](https://github.com/BeamMP/BeamMP-Server#build-instructions).
 
 ---
 ## **Miscellaneous**
@@ -21,8 +21,7 @@ We provide binaries for many Linux distributions [here](https://github.com/BeamM
 #### **Where can I find the code?**
 
 All the source code can be found on our [GitHub](https://github.com/BeamMP).
-Before doing anything keep in mind that the code is under [Terms of Use](https://forum.beammp.com/t/terms-of-use-v1-0/43).
-The server, launcher and Lua client code also have licenses:
+Before doing anything keep in mind that the code is subject to our [Terms of Use](https://forum.beammp.com/t/terms-of-use-v1-0/43) and licenses:
 
 |   Code     | License                                                                    |
 |------------|:--------------------------------------------------------------------------:|

@@ -38,8 +38,7 @@ We are working hard to make performance as good as possible. Sadly, there isn't 
 #### **Where can I find the code?**
 
 All the source code can be found on our [GitHub](https://github.com/BeamMP).
-Before doing anything keep in mind that the code is under [Terms of Use](https://forum.beammp.com/t/terms-of-use-v1-0/43).
-The server, launcher and Lua client code also have licenses:
+Before doing anything keep in mind that the code is subject to our [Terms of Use](https://forum.beammp.com/t/terms-of-use-v1-0/43) and licenses:
 
 |   Code     | License                                                                    |
 |------------|:--------------------------------------------------------------------------:|
