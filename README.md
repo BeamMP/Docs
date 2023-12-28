@@ -5,7 +5,7 @@ Welcome to the BeamMP Docs GitHub Repository. We are glad you are here because t
 # Contributing to the BeamMP Docs
 
 BeamMP is using [Material for MkDocs](https://squidfunk.github.io/mkdocs-material) as its theme. This is a theme for [MkDocs](https://www.mkdocs.org).
-Full documentation can be found at their respective sites.cs.org).
+Full documentation can be found at their respective sites.
 
 ## Getting Started
 
