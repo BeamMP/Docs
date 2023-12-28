@@ -3,6 +3,7 @@
 # Environment
 
 The server is affected by the state of various external parameters:
+
 - The "Resources" folder
 - The ENV (process environment)
 - The commandline arguments
