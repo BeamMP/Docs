@@ -12,9 +12,9 @@ All the information to setup your own server can be found [here](https://docs.be
 ---
 #### **Can you make a server using linux?**
 
-BeamMP server can be used on Linux and other OS, however builds are usually only provided for Ubuntu 22.04 and Debian 11. The newest builds can be found [here](https://github.com/BeamMP/BeamMP-Server/releases).
+BeamMP server can be used on Linux and other OS, however builds are usually only provided for a few distributions. The newest builds can be found [here](https://github.com/BeamMP/BeamMP-Server/releases).
 
-For other OS, you need to build from source yourself. Information for this can be found [here](https://github.com/BeamMP/BeamMP-Server#build-instructions).
+For different OS/Distro, you need to build from source yourself. Information for this can be found [here](https://github.com/BeamMP/BeamMP-Server#build-instructions).
 
 ---
 #### **What are the minimum system requirements to run a BeamMP server?**
