@@ -7,7 +7,6 @@ List of commonly asked questions and known bugs.
 ---
 #### **How can I setup my own servers**
 
-
 All the information to set up your own server can be found [here](https://docs.beammp.com/server/create-a-server/).
 
 ---
