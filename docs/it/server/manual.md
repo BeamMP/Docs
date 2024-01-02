@@ -25,8 +25,8 @@ Con la versione v3.2.0, il server BeamMP accetta varaibili di contesto, che **so
 - `Description` -> `BEAMMP_DESCRIPTION`
 - ...ecc.
 
-Qualsiasi variabile di contesto che corrisponde a un parametro di configurazione che è una stringa o un numero, deve essere una stringa, ad esempio `BEAMMP_NAME="Cool Server"`, `BEAMMP_NAME=Server1`, `BEAMMP_PORT=12345`.
-Variabili di contesto che corrispondono a un parametro di configurazione che è booleano (true/false, on/off) deve essere `true` o `1` (entrambi significano ON), o qualsiasi altro valore (significa OFF).
+Qualsiasi variabile di contesto corrispondenti a un parametro di configurazione che è una stringa o un numero, deve essere una stringa, ad esempio `BEAMMP_NAME="Cool Server"`, `BEAMMP_NAME=Server1`, `BEAMMP_PORT=12345`.
+Le variabili di contesto che corrispondono a un parametro di configurazione che è booleano (true/false, on/off) devono essere `true` o `1` (entrambi significano ON), o qualsiasi altro valore (significa OFF).
 
 ## Argomenti da linea di comando
 
