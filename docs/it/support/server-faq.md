@@ -12,23 +12,25 @@ Tutte le informazioni per creare un server sono contenute in [questa guida](http
 ---
 #### **Posso creare un server su Linux?**
 
-Offriamo i binari pre-compilati per diverse distribuzioni Linux [qui](https://github.com/BeamMP/BeamMP-Server/releases/latest). Nel caso la tua distribuzione non fosse presente, puoi compilare i file sorgente scaricando il codice dal nostro [GitHub](https://github.com/BeamMP/BeamMP-Server), una guida si può trovare [qui](https://github.com/BeamMP/BeamMP-Server#build-instructions).
+Offriamo i binari pre-compilati per diverse distribuzioni Linux [qui](https://github.com/BeamMP/BeamMP-Server/releases/latest).
+Nel caso la tua distribuzione non fosse presente, puoi compilare i file sorgente scaricando il codice dal nostro [GitHub](https://github.com/BeamMP/BeamMP-Server), una guida si può trovare [qui](https://github.com/BeamMP/BeamMP-Server#build-instructions).
 
 ---
 #### **Quali sono i requisiti di sistema necessari per il server?**
 
-RAM: 50+ MiB (senza contare l'overhead del sistema operativo)
-CPU: >1GHz, preferibilmente multicore
-OS: Windows, Linux (in teoria qualsiasi POSIX)
-GPU: non necessaria
-HDD: 10 MiB + spazio per eventuali mod/plugin
-Larghezza di banda internet: almeno 5-10 Mb/s in upload
+- RAM: 50+ MiB (senza contare l'overhead del sistema operativo)
+- CPU: >1GHz, preferibilmente multicore
+- OS: Windows, Linux (in teoria qualsiasi POSIX)
+- GPU: non necessaria
+- HDD: 10 MiB + spazio per eventuali mod/plugin
+- Larghezza di banda internet: almeno 5-10 Mb/s in upload
 
 ---
 #### **I giocatori all'esterno della mia rete locale non riescono a connettersi al mio server**
 
 Leggi il passo `1. Port Forwarding` della nostra guida disponibile [qui](https://docs.beammp.com/it/server/create-a-server/#1-port-forwarding). Di seguito c'è un breve riassunto dei punti salienti.
 Se giocatori esterni alla tua LAN non riescono a connettersi e ricevono sul launcher codici di errore come 10060, 10061 o 10038, segui questi passi:
+
 - Fai port forwarding della porta specificata nel file `ServerConfig.toml` (quella predefinita è 30814), sia con protocollo TCP sia UDP;
 - Permetti il traffico sia in entrata sia in uscita e sia TCP sia UDP di BeamMP-Server attraverso il firewall. Spegnere il firewall di solito **non** funziona.
 - Assicurati di non stare usando una VPN.
@@ -51,6 +53,7 @@ Se non vuoi usare il pulsante `Direct Connect` e vuoi connetterti tramite la lis
 
 ---
 #### **Dove posso trovare il codice?**
+
 Tutto il codice sorgente è disponibile su [GitHub](https://github.com/BeamMP).
 Prima di modificare il codice, ricordati che è soggetto ai nostri [termini di utilizzo](https://forum.beammp.com/t/terms-of-use-v1-0/43) e con le seguenti licenze:
 
