@@ -111,6 +111,7 @@ plugins:
             Installing BeamMP: Instalación de BeamMP
             Customizing your setup: Personaliza tu configuración
             Using BeamMP: Usando BeamMP
+            Getting Started: Empezando
             Running a Server: Ejecutando un Servidor
             Server Installation: Instalación del Servidor
             Server Manual: Manual del Servidor
@@ -146,6 +147,7 @@ plugins:
             Installing BeamMP: BeamMP Installation
             Customizing your setup: Konfiguration anpassen
             Using BeamMP: BeamMP verwenden
+            Getting Started: Erste Schritte
             Running a Server: Server ausführen
             Server Installation: Server Installation
             Server Manual: Server Handbuch
@@ -181,6 +183,7 @@ plugins:
             Installing BeamMP: Installation de BeamMP
             Customizing your setup: Personnalisation de votre configuration
             Using BeamMP: Utilisation de BeamMP
+            Getting Started: Démarrage
             Running a Server: Exécution d'un serveur
             Server Installation: Installation du serveur
             Server Manual: Manuel du serveur
@@ -216,6 +219,7 @@ plugins:
             Installing BeamMP: Installazione di BeamMP
             Customizing your setup: Personalizza la tua configurazione
             Using BeamMP: Utilizzare BeamMP
+            Getting Started: Guida Introduttiva
             Running a Server: Eseguire un server
             Server Installation: Installazione del server
             Server Manual: Manuale del server
@@ -251,6 +255,7 @@ plugins:
             Installing BeamMP: Установка BeamMP
             Customizing your setup: Настройка конфигурации
             Using BeamMP: Использование BeamMP
+            Getting Started: Начало Pаботы
             Running a Server: Запуск сервера
             Server Installation: Установка сервера
             Server Manual: Руководство по серверу
@@ -311,6 +316,7 @@ nav:
       - Customizing your setup: game/tailoring.md
       - Using BeamMP: game/playing.md
     - Running a Server:
+      - Getting Started: server/introduction.md
       - Server Installation: server/create-a-server.md
       - Server Manual: server/manual.md
     - Mod & Resource Creation:  
