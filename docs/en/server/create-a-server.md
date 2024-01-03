@@ -40,6 +40,8 @@ Depending on your setup, you may need to let BeamMP-Server through your firewall
 
 There, just like with the port forwarding, you want to allow the BeamMP-Server through the firewall, **both incoming and outgoing connections**, and **both TCP and UDP**. If your firewall asks for a port instead, that will have to be the same port you used in step “1\. Port Forwarding” (usually 30814).
 
+If you have issues, also feel free to ask on our [Forum](https://forum.beammp.com) or on our [Discord server](https://discord.gg/beammp) in the `#support` channel.
+
 ### 2. Obtaining an Authentication Key
 
 The “Authentication Key”, often called “AuthKey”, is necessary for making a **public** server, but **should** be done for private servers, too.

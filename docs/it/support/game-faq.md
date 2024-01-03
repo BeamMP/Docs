@@ -23,6 +23,7 @@ Il client non è ufficialmente supportato su Linux, ma dovrebbe comunque funzion
 #### **Perché il launcher è segnalato come un virus da Windows defender?**
 
 Il launcher è segnalato come **falso positivo** perché non è stato firmato con delle licenze specifiche che, essendo molto costose, non sono state acquistate.
+
 Non c'è alcun codice malevolo in BeamMP; tutto il codice per il server, launcher e il client Lua è disponibile sul nostro [GitHub](https://github.com/BeamMP).
 
 ---
@@ -35,6 +36,7 @@ Stiamo lavorando il più possibile per garantire prestazioni stabili a tutti. Se
 
 ---
 #### **Dove posso trovare il codice?**
+
 Tutto il codice sorgente è disponibile su [GitHub](https://github.com/BeamMP).
 Prima di modificare il codice, ricordati che è soggetto ai nostri [termini di utilizzo](https://forum.beammp.com/t/terms-of-use-v1-0/43) e con le seguenti licenze:
 
