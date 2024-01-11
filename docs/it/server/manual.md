@@ -43,6 +43,7 @@ La cartella di lavoro del server, e non la posizione dell'eseguibile del server,
 # Limitazioni
 
 Le seguenti limitazioni sono imposte dal backend e riguardano il server:
+
 - Il nome del server è limitato a 250 caratteri.
 - La descrizione del server è limitata a 1000 caratteri.
 - La mappa è limitata a 100 caratteri.
