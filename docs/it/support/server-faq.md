@@ -39,6 +39,7 @@ Se giocatori esterni alla tua LAN non riescono a connettersi e ricevono sul laun
 Puoi vedere se la porta è aperta correttamente usando un sito come ['portchecker.co'](https://portchecker.co/) mentre il server è attivo.
 
 Note:
+
 - Alcuni ISP non offrono un indirizzo IPv4 dedicato a tutti (trattasi di [CGNAT](https://en.wikipedia.org/wiki/Carrier-grade_NAT)), quindi il port forwarding potrebbe non essere possibile.
 - Non è possibile effettuare port forwarding su connessioni mobili (4G/5G).
 
@@ -69,5 +70,6 @@ Prima di modificare il codice, ricordati che è soggetto ai nostri [termini di u
 Se il problema è legato al codice e sai come usare GitHub, crea una nuova "Issue" nel repo corretto sul nostro [GitHub](https://github.com/BeamMP). Il nostro flusso di lavoro è basato sulle "Issue" di GitHub; anche se hai già una soluzione al bug, sei pregato di creare una nuova "Issue" e poi chiedere una "Pull Request" che risolva la "Issue". Maggiori informazioni [qui](https://github.com/BeamMP/BeamMP/blob/development/CONTRIBUTING.md).
 
 Nel caso non abbia o non sappia usare GitHub, puoi procedere nei seguenti modi:
+
 - Se il problema non concerne nulla di sensibile, puoi creare un nuovo post sul nostro [forum](https://forum.beammp.com) o sul nostro [Discord](https://discord.gg/beammp).
 - Se il problema concerne informazioni sensibili, contatta un nostro membro dello staff su [Discord](https://discord.gg/beammp).
