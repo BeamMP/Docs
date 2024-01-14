@@ -9,8 +9,8 @@ Se vuoi aiutare contribuendo a questa documentazione puoi seguire uno dei due ap
 
 ### 1. Modificare direttamente i file markdown
 
-Modificare direttamente i file markdown è il metodo più veloce per correzioni grammaticali, ortografici o nuove parti del contenuto.
-Questo modo necessita di una conoscenza del linguaggio di Markdown, siccome devi essere alla luce di ciò che il tuo contributo produrrà.
+Modificare direttamente i file markdown è il metodo più veloce per correzioni grammaticali, ortografiche o per l'aggiunta di nuove parti di contenuto.
+Questo modo necessita di una conoscenza del linguaggio di Markdown, siccome devi sapere già come verrà visualizzata la tua modifica.
 
 Se questo metodo fa per te, segui questi passi:
 
@@ -20,7 +20,7 @@ Se questo metodo fa per te, segui questi passi:
 4. Fai commit dei cambiamenti sulla tua fork.
 5. Apri una pull request sul nostro repo [qui](https://github.com/BeamMP/Docs).
 
-Una volta che avrai creato la pull request, qualcuno del team di BeamMP la controllerà e potrà approvarla o richiedere delle modifiche.
+Una volta creata la pull request, qualcuno del team di BeamMP la controllerà e potrà approvarla o richiedere delle modifiche.
 Nel caso fossero richieste delle correzioni, a seguito del loro completamento ri-controlleremo la pull request.
 La tua pull request, quando viene approvata, verrà unita tramite merge al repo e sarà automaticamente rilasciata al pubblico.
 
