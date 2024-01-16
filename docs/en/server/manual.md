@@ -18,15 +18,43 @@ The "Client" subdirectory accepts *only* `.zip` files, which are loaded when the
 
 ## ENV
 
-As of Server release v3.2.0, the BeamMP Server accepts environment variables, which **override** settings in the ServerConfig.toml. All ServerConfig variables which exist in the "General" category/section are PascalCase, the environment variables are ALL_CAPS and prefixed with `BEAMMP_`. For example, the `MaxPlayers` setting converted to ALL_CAPS is `MAX_PLAYERS` (note the `_` where a new word starts), and prefixed it becomes `BEAMMP_MAX_PLAYERS`. This is the format followed for all "General" settings. More examples follow:
+### General Settings
 
-- `AuthKey` -> `BEAMMP_AUTH_KEY`
-- `Port` -> `BEAMMP_PORT`
-- `Description` -> `BEAMMP_DESCRIPTION`
-- ... etc.
+As of Server release v3.2.0, the BeamMP Server accepts environment variables, which **override** settings in the ServerConfig.toml. All ServerConfig variables which exist in the "General" category/section are PascalCase, the environment variables are ALL_CAPS and prefixed with `BEAMMP_`. For example, the `MaxPlayers` setting converted to ALL_CAPS is `MAX_PLAYERS` (note the `_` where a new word starts), and prefixed it becomes `BEAMMP_MAX_PLAYERS`. This is the format followed for all "General" settings. The follwing ENV variables exist:
+
+- `BEAMMP_DEBUG`
+- `BEAMMP_PRIVATE`
+- `BEAMMP_PORT`
+- `BEAMMP_MAX_CARS`
+- `BEAMMP_MAX_PLAYERS`
+- `BEAMMP_MAP`
+- `BEAMMP_NAME`
+- `BEAMMP_DESCRIPTION`
+- `BEAMMP_TAGS`
+- `BEAMMP_RESOURCE_FOLDER`
+- `BEAMMP_AUTH_KEY`
+- `BEAMMP_LOG_CHAT`
 
 Any environment variables corresponding to config parameters which are strings or numbers must be strings, for example `BEAMMP_NAME="Cool Server"`, `BEAMMP_NAME=Server1`, `BEAMMP_PORT=12345`.
 Environment variables corresponding to config parameters which are booleans (true/false, on/off) must be either `true` or `1` (both meaning ON), or any other value (meaning OFF).
+
+### Provider Settings
+
+These environment variables allow hosting providers (and other users with a larger number of servers), here called "providers", to overwrite certain provider-specific settings.
+
+#### `BEAMMP_PROVIDER_UPDATE_MESSAGE` (since v3.2.2)
+
+When set to a non-empty string, this replaces the entire update message, which by default is "NEW VERSION IS OUT! Please update to the new..." etc.
+It is **REQUIRED** that the update message you provide contains `{}` somewhere, which the server will replace with the new version number. For example, your update message could look like: 
+```sh
+BEAMMP_PROVIDER_UPDATE_MESSAGE="NEW VERSION of the BeamMP-Server has been released: {}! Please follow the update guide here: https://example.com/update-guide"
+```
+Which would result in an update message like
+```
+NEW VERSION of the BeamMP-Server has been released: v5.0.2! Please follow the update guide here: https://example.com/update-guide
+```
+
+Please take care to make it clear to the users that they should update, and explain how to update.
 
 ## Commandline arguments
 
