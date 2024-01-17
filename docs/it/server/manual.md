@@ -20,7 +20,7 @@ La cartella "Client" accetta *solo* file `.zip` che sono caricati all'avvio del 
 
 ### Impostazioni generali
 
-Con la versione v3.2.0, il server BeamMP accetta varaibili di contesto, che **prevalgono** sulle impostazioni contenute nel file `ServerConfig.toml`. Tutte le variabili che esistono nella sezione "General" seguono la convenzione [PascalCase](https://it.wikipedia.org/wiki/Notazione_a_cammello), le variabili di contesto sono IN_MAIUSCOLO e con il prefisso `BEAMMP_`. Per esempio il campo `MaxPlayers` convertito IN_MAIUSCOLO diventa `MAX_PLAYERS` (si noti il `_` all'inizio di una nuova parola) e con il prefisso diventa `BEAMMP_MAX_PLAYERS`. Questa formattazione è seguita per tutte le impostazioni della sezione "General". Esistono le seguenti variabili ENV:
+Con la versione v3.2.0, il server BeamMP accetta variabili di contesto, che **prevalgono** sulle impostazioni contenute nel file `ServerConfig.toml`. Tutte le variabili che esistono nella sezione "General" seguono la convenzione [PascalCase](https://it.wikipedia.org/wiki/Notazione_a_cammello), le variabili di contesto sono IN_MAIUSCOLO e con il prefisso `BEAMMP_`. Per esempio il campo `MaxPlayers` convertito IN_MAIUSCOLO diventa `MAX_PLAYERS` (si noti il `_` all'inizio di una nuova parola) e con il prefisso diventa `BEAMMP_MAX_PLAYERS`. Questa formattazione è seguita per tutte le impostazioni della sezione "General". Esistono le seguenti variabili ENV:
 
 - `BEAMMP_DEBUG`
 - `BEAMMP_PRIVATE`
@@ -47,14 +47,14 @@ Queste variabili di contesto permettono ai fornitori di host (e altri utenti con
 Quando non è una stringa vuota, questa variabile rimpiazza l'intero messaggio per l'aggiornamento, che di default è "NEW VERSION IS OUT! Please update to the new..." ecc.
 È **OBBLIGATORIO** che il tuo messaggio contenga da qualche parte `{}`, che il server poi sostituirà con il numero della nuova versione. Per esempio, il tuo messaggio per l'aggiornamento può essere così:
 ```sh
-BEAMMP_PROVIDER_UPDATE_MESSAGE="Una NUOVA VERSIONE di BeamMP-Server è stata rilasciata: {}! Per favore segui la guida per aggiornare qui: https://example.com/update-guide"
+BEAMMP_PROVIDER_UPDATE_MESSAGE="Una NUOVA VERSIONE di BeamMP-Server è stata rilasciata: {}! Per favore segui questa guida per aggiornare: https://example.com/update-guide"
 ```
 Che risulterà in un messaggio così:
 ```
-Una NUOVA VERSIONE di BeamMP-Server è stata rilasciata: v5.0.2! Per favore segui la guida per aggiornare qui: https://example.com/update-guide
+Una NUOVA VERSIONE di BeamMP-Server è stata rilasciata: v5.0.2! Per favore segui questa guida per aggiornare: https://example.com/update-guide
 ```
 
-Per favore assicurati di rendere chiaro agli utenti che devono aggiornare il server e spiega come farlo.
+Per favore assicurati di rendere chiaro agli utenti che devono aggiornare il server e spiega loro come farlo.
 
 ## Argomenti da linea di comando
 
