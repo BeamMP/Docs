@@ -90,7 +90,7 @@ extra:
     - name: Pусский
       link: /ru/
       lang: ru
-  homepage: /en
+  homepage: /
 
 plugins:
   - search
