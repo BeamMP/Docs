@@ -113,6 +113,7 @@ plugins:
             Using BeamMP: Usando BeamMP
             Running a Server: Ejecutando un Servidor
             Server Installation: Instalación del Servidor
+            Server Maintenance: Manutención del Servidor
             Server Manual: Manual del Servidor
             Mod & Resource Creation: Creación de Mods y Recursos
             Client Side: Lado del Cliente
@@ -148,6 +149,7 @@ plugins:
             Using BeamMP: BeamMP verwenden
             Running a Server: Server ausführen
             Server Installation: Server Installation
+            Server Maintenance: Server Wartung
             Server Manual: Server Handbuch
             Mod & Resource Creation: Mod- & Ressourcenerstellung
             Client Side: Clientseite
@@ -183,6 +185,7 @@ plugins:
             Using BeamMP: Utilisation de BeamMP
             Running a Server: Exécution d'un serveur
             Server Installation: Installation du serveur
+            Server Maintenance: Maintenance du serveur
             Server Manual: Manuel du serveur
             Mod & Resource Creation: Création de mods et de ressources
             Client Side: Côté client
@@ -218,6 +221,7 @@ plugins:
             Using BeamMP: Utilizzare BeamMP
             Running a Server: Eseguire un server
             Server Installation: Installazione del server
+            Server Maintenance: Manutenzione del server
             Server Manual: Manuale del server
             Mod & Resource Creation: Creazione di Mod e Risorse
             Client Side: Lato client
@@ -253,6 +257,7 @@ plugins:
             Using BeamMP: Использование BeamMP
             Running a Server: Запуск сервера
             Server Installation: Установка сервера
+            Server Maintenance: Обслуживание сервера
             Server Manual: Руководство по серверу
             Mod & Resource Creation: Создание модов и ресурсов
             Client Side: Сторона клиента
@@ -312,6 +317,7 @@ nav:
       - Using BeamMP: game/playing.md
     - Running a Server:
       - Server Installation: server/create-a-server.md
+      - Server Maintenance: server/server-maintenance.md
       - Server Manual: server/manual.md
     - Mod & Resource Creation:  
       - Client Side: guides/mod-creation/client/getting-started.md

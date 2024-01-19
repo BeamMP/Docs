@@ -12,7 +12,7 @@ I server sono una parte integrante di BeamMP, tutti i giocatori sono connessi tr
 
 Puoi creare server privati, ai quali si possono connettere solo persone che inviti, o server pubblici, che saranno visibili sulla nostra ufficiale lista di server.
 
-Per far funzionare correttamente un server è necessario seguire alcuni passi! È abbastanza semplice, ma se hai dei problemi, chiedi pure sul nostro [Forum](https://forum.beammp.com) o sul nostro [server Discord](https://discord.gg/beammp) nel canale `#support`. Fai anche riferimento alla sezione di [Manutenzione Server](https://wiki.beammp.com/en/home/server-maintenance) per ulteriori informazioni.
+Per far funzionare correttamente un server è necessario seguire alcuni passi! È abbastanza semplice, ma se hai dei problemi, chiedi pure sul nostro [Forum](https://forum.beammp.com) o sul nostro [server Discord](https://discord.gg/beammp) nel canale `#support`. Fai anche riferimento alla sezione di [Manutenzione Server](server-maintenance.md) per ulteriori informazioni.
 
 Assicurati di aver letto e compreso la [LICENZA](https://raw.githubusercontent.com/BeamMP/BeamMP-Server/master/LICENSE) del server prima dell'uso.
 
@@ -147,7 +147,7 @@ Private = false
 ResourceFolder = 'Resources'
 ```
 
-Questo è il tuo file di configurazione. Utilizza un formato chiamato TOML. Fai anche riferimento alla sezione di [Manutenzione Server](https://wiki.beammp.com/en/home/server-maintenance) per maggiori informazioni.
+Questo è il tuo file di configurazione. Utilizza un formato chiamato TOML. Fai anche riferimento alla sezione di [Manutenzione Server](server-maintenance.md) per maggiori informazioni.
 
 Per ora ci interessa soltanto il campo `AuthKey`. Incolla tra le virgolette `''` la chiave ottenuta nel passo "2\. Ottenere una chiave di autenticazione".
 
@@ -156,7 +156,7 @@ Per questo esempio, dovrà essere così:
 AuthKey = '3173a2e-6az0-4542-a3p0-ddqq5ff95558'
 ```
 
-Dai anche un nome al tuo server tramite il campo `Name`. Puoi utilizzare colori e altri tipi di formattazione seguendo le indicazioni di [questa sezione](https://wiki.beammp.com/en/home/server-maintenance#customize-the-look-of-your-server-name) della pagina di manutenzione del server.
+Dai anche un nome al tuo server tramite il campo `Name`. Puoi utilizzare colori e altri tipi di formattazione seguendo le indicazioni di [questa sezione](server-maintenance.md#personalizza-laspetto-del-nome-del-tuo-server) della pagina di manutenzione del server.
 
 Se hai scelto una **porta** differente da **30814** inseriscila al posto di quella predefinita in `Port`.
 
@@ -178,7 +178,7 @@ Se ti interessa aggiungere mod di veicoli, basta aggiungerle alla cartella `Reso
 
 ### Mappe
 
-Tutte le mappe ufficiali del gioco (quindi che non sono mod) non necessitano di essere installate, devi soltanto cambiare il valore del campo `Map` del file `ServerConfig.toml` con una di [queste stringhe](https://wiki.beammp.com/en/home/server-maintenance#all-vanilla-maps-names). Per mappe non ufficiali (mod), bisogna fare così:
+Tutte le mappe ufficiali del gioco (quindi che non sono mod) non necessitano di essere installate, devi soltanto cambiare il valore del campo `Map` del file `ServerConfig.toml` con una di [queste stringhe](server-maintenance.md#tutti-i-nomi-delle-mappe-vanilla). Per mappe non ufficiali (mod), bisogna fare così:
 
 1. Inserire il file `.zip` della mappa nella cartella `Resources/Client` all'interno della cartella del server.
 2. Apri il file `.zip` della mappa senza estrarlo e naviga alla cartella `/levels/`. In questa cartella ce ne dovrebbe essere un'altra con il nome della mappa, ad esempio `myawesomedriftmap2021`. Copia o ricordati questo nome _esattamente come è scritto su tale cartella_.
