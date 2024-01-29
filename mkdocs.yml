@@ -119,6 +119,7 @@ plugins:
             Client Side: Lado del Cliente
             Server Side: Lado del Servidor
             Support: Soporte
+            Player FAQ: Preguntas frecuentes del jugador
             Game FAQ: Preguntas Frecuentes del Juego
             Server FAQ: Preguntas Frecuentes del Servidor
             Development Guides: Guías de Desarrollo
@@ -155,6 +156,7 @@ plugins:
             Client Side: Clientseite
             Server Side: Serverseite
             Support: Unterstützung
+            Player FAQ: Spieler-FAQ
             Game FAQ: Spiel FAQ
             Server FAQ: Server FAQ
             Development Guides: Entwicklungsanleitungen
@@ -191,6 +193,7 @@ plugins:
             Client Side: Côté client
             Server Side: Côté serveur
             Support: Support
+            Player FAQ: FAQ del giocatore
             Game FAQ: FAQ du jeu
             Server FAQ: FAQ du serveur
             Development Guides: Guides de développement
@@ -227,6 +230,7 @@ plugins:
             Client Side: Lato client
             Server Side: Lato server
             Support: Supporto
+            Player FAQ: FAQ del giocatore
             Game FAQ: FAQ del gioco
             Server FAQ: FAQ del server
             Development Guides: Guide allo Sviluppo
@@ -263,6 +267,7 @@ plugins:
             Client Side: Сторона клиента
             Server Side: Сторона сервера
             Support: Поддержка
+            Player FAQ: Игроки ЧаВо
             Game FAQ: Часто задаваемые вопросы об игре
             Server FAQ: Часто задаваемые вопросы о сервере
             Development Guides: Руководства по разработке
@@ -323,6 +328,7 @@ nav:
       - Client Side: guides/mod-creation/client/getting-started.md
       - Server Side: guides/mod-creation/server/getting-started.md
   - Support:
+    - Player FAQ: support/player-faq.md
     - Game FAQ: support/game-faq.md
     - Server FAQ: support/server-faq.md
   - Development Guides:
