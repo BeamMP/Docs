@@ -19,6 +19,6 @@ Please be patient, the system checks approximately every 4 hours. If you have no
 
 ## I have more questions?
 
-If your question or issue relates to the Game or playing please refer to the [Game FAQs](support/game-faq.md). 
-If your question or issue relates to running a Server please refer to the [Server FAQs](support/server-faq.md).
+If your question or issue relates to the Game or playing please refer to the [Game FAQs](game-faq.md). 
+If your question or issue relates to running a Server please refer to the [Server FAQs](server-faq.md).
 Otherwise please check out the [forums](https://forum.beammp.com/c/faq/35) where the community can ask questions and get answers.
