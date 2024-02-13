@@ -54,7 +54,7 @@ Login with Discord to the [Keymaster](https://beammp.com/keymaster).
 From the Keymaster homepage click on "Keys" on the left of the screen:
 
 <figure markdown>
-	![](/assets/content/keymaster_homepage.png)
+  ![](/assets/content/keymaster_homepage.png)
 </figure>
 
 #### 2.2. Creating a key
@@ -88,7 +88,7 @@ You have a limited number of keys. One key can be used on one server at a time, 
 Now copy the text in the “Key” field, in this example that is `3173a2e-6az0-4542-a3p0-ddqq5ff95558` and hold onto it for the next step. You can do this by clicking the clipboard on the right of the key:
 
 <figure markdown>
-	![](/assets/content/keymaster_copy_key.PNG)
+  ![](/assets/content/keymaster_copy_key.png)
 </figure>
 
 ### 3. Installation
