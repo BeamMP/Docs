@@ -48,37 +48,48 @@ La chiave di autenticazione, spesso chiamata "AuthKey", è necessaria per creare
 
 Ti servirà un account [Discord](https://discord.com) per questo passo. Discord è necessario per evitare problemi di spam.
 
-#### 2.1
+#### 2.1. Accedere alla pagina delle chiavi
 
-Richiedi la tua chiave al [Keymaster](https://beammp.com/keymaster), clicca su "Keys" sulla sinistra (con il simbolo di una chiave) e poi clicca sul testo blu '_here_'.
+Fai il login con Discord al [Keymaster](https://beammp.com/keymaster).
+Dalla homepage del Keymaster, clicca su "Keys" a sinistra dello schermo:
 
 <figure markdown>
-  ![](/assets/content/keymaster1.png)
+	![](/assets/content/keymaster_homepage.png)
 </figure>
 
-#### 2.2
+#### 2.2. Creare una chiave
 
-Inserisci il nome del server (questo è solo il nome per la chiave, non è il nome vero e proprio del server), ad esempio:
+Per creare una chiave clicca il "+" verde presente in alto a destra.
+
+<figure markdown>
+  ![](/assets/content/keymaster_new_key.png)
+</figure>
+
+#### 2.3. Compilare i dati per la chiave
+
+Inserisci il nome del server (questo è solo il nome per la chiave, non è il nome vero e proprio del server), poi clicca "Create", ad esempio:
 
 <figure class="image image_resized" style="width:44.84%;" markdown>
-  ![](/assets/content//keymaster_key.png)
+  ![](/assets/content/keymaster_server_name.png)
 </figure>
 
 Il risultato dovrebbe essere simile a questo:
 
 <figure markdown>
-  ![](/assets/content//keymaster3.png)
+  ![](/assets/content/keymaster_key_done.png)
 </figure>
-
-Ignora il campo '_IP_'.
 
 **NON CONDIVIDERE MAI QUESTA CHIAVE. TRATTALA COME UNA PASSWORD**
 
 Hai un numero limitato di chiavi. Puoi utilizzare una chiave su un server per volta, quindi non puoi far partire due server con la stessa chiave nello stesso momento.
 
-#### 2.3
+#### 2.4. Copiare la chiave
 
-Copia il testo del campo "key", in questo esempio è `3173a2e-6az0-4542-a3p0-ddqq5ff95558` e tienilo pronto per il passo successivo.
+Copia il testo del campo "key", in questo esempio è `3173a2e-6az0-4542-a3p0-ddqq5ff95558` e tienilo pronto per il passo successivo. Puoi fare questo cliccando l'icona a destra della chiave:
+
+<figure markdown>
+	![](/assets/content/keymaster_copy_key.PNG)
+</figure>
 
 ### 3. Installazione
 
@@ -93,7 +104,7 @@ Ricordati di fare il port forwarding, altrimenti il tuo server non sarà raggiun
 1. Assicurati di aver installato i [Visual C++ Redistributables](https://aka.ms/vs/17/release/vc_redist.x64.exe), necessari per eseguire il server.
 2. Scarica l'eseguibile del server da [beammp.com](https://www.beammp.com/). Dovresti trovarti con un file chiamato `BeamMP-Server.exe`.
 3. Una volta scaricato, crea una cartella dove desideri e sposta al suo interno `BeamMP-Server.exe`. Qui è dove il server risiederà.
-4. Avvia il server cliccandoci due volte. Questo genererà tutti i files necessari e quando vedi del testo sul terminale, puoi chiuderlo. Dovresti vedere questi files chiamati `Server.log` e `ServerConfig.toml` nella stessa cartella di `BeamMP-Server.exe`.
+4. Avvia il server cliccandoci due volte. Questo genererà tutti i files necessari e quando vedi del testo sul terminale, puoi chiuderlo. Dovresti vedere questo file chiamato `ServerConfig.toml` nella stessa cartella di `BeamMP-Server.exe`.
 5. (opzionale) Per accedere velocemente al server, crea un collegamento al desktop **cliccando col tasto destro** su `BeamMP-Server.exe` > **Invia a** > **Desktop (crea collegamento)**.
 
 Procedi ora al passo "4\. Configurazione".
@@ -109,7 +120,7 @@ Questo passo è valido per tutte le distribuzioni Linux per cui offriamo i files
 3. Scarica la versione corretta per la tua distribuzione. Per semplicità sarà chiamata `BeamMP-Server-xxx` durante la guida, dove `xxx` è la versione per la distribuzione che stai usando.
 4. Una volta scaricato, crea una cartella dove desideri e sposta al suo interno `BeamMP-Server-xxx`. Qui è dove il server risiederà.
 5. Apri un terminale, naviga alla cartella dove si trova `BeamMP-Server-xxx` e incolla il comando `chmod +x BeamMP-Server-xxx`. Questo farà in modo che si abbiano i permessi per eseguire il server.
-6. Avvia il server con il comando `./BeamMP-Server-xxx`. Questo genererà tutti i files necessari e quando vedi del testo sul terminale, puoi chiuderlo. Dovresti vedere questi files chiamati `Server.log` e `ServerConfig.toml` nella stessa cartella di `BeamMP-Server-xxx`.
+6. Avvia il server con il comando `./BeamMP-Server-xxx`. Questo genererà tutti i files necessari e quando vedi del testo sul terminale, puoi chiuderlo. Dovresti vedere questo file chiamato `ServerConfig.toml` nella stessa cartella di `BeamMP-Server-xxx`.
 7. (opzionale) È consigliato creare un utente chiamato `beammpserver` (o simile), siccome **non** raccomandiamo di eseguire il server come root, sudo o con il proprio utente personale. Dovresti poi rendere possibile l'esecuzione del server solo da questo utente.
 
 Procedi ora al passo "4\. Configurazione".
