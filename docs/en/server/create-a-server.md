@@ -95,7 +95,7 @@ Now copy the text in the “Key” field, in this example that is `3173a2e-6az0-
 
 The BeamMP-Server is available for Windows and Linux. The next two sections are dedicated to Windows and Linux each. 
 
-### 3.a. Installation on Windows
+#### 3.a. Installation on Windows
 
 For the Linux installation, see the next step.
 
@@ -107,13 +107,11 @@ Please ensure you have port-forwarded before attempting to host a server! Withou
 4. Start the server once by double-clicking on it. This will generate all the necessary files for you, once you see text you can close it and proceed to the next step. You should see a `ServerConfig.toml` file next to your `BeamMP-Server.exe`.
 5. (optional) For quick access in the future you can easily create a desktop shortcut to `BeamMP-Server.exe` using **[Right click]** > **Send to** > **Desktop (create shortcut).**
 
-Now proceed to the next step.
+Now proceed to step "4\. Configuration".
 
-### 3.b. Installation on Linux
+#### 3.b. Installation on Linux
 
-Skip this if you did “Installation on Windows”.
-
-#### Using our build (recommended)
+##### Using our build (recommended)
 
 This step will work on all distributions we provide binaries for [here](https://github.com/BeamMP/BeamMP-Server/releases/latest). If you're on a different distribution or architecture, refer to the "Building from source” step below.
 
@@ -125,9 +123,9 @@ This step will work on all distributions we provide binaries for [here](https://
 6. Start the server once by running it with `./BeamMP-Server-xxx`. This will generate all the necessary files for you, once you see text you can close it and proceed to the next step. You should see a `ServerConfig.toml` file next to your `BeamMP-Server-xxx`.
 7. (optional) It is heavily recommended to set up a user called `beammpserver` (or similar), as we do NOT recommend running the server as root, sudo or with your personal user account. You should then take steps to make sure that you start the server as this user only.
 
-Now proceed to the next step.
+Now proceed to step "4\. Configuration".
 
-#### Building from source
+##### Building from source
 
 Other distributions in addition to the ones that already have a binary [here](https://github.com/BeamMP/BeamMP-Server/releases/latest) are likely to work too, but aren't officially supported. If you want to build it yourself you can do it by downloading the source on our [GitHub](https://github.com/BeamMP/BeamMP-Server), a tutorial can be found [here](https://github.com/BeamMP/BeamMP-Server#build-instructions).
 

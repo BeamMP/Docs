@@ -95,7 +95,7 @@ Copia il testo del campo "key", in questo esempio è `3173a2e-6az0-4542-a3p0-ddq
 
 Il BeamMP-Server è disponibile per Windows e Linux. Le prossime due sezioni sono dedicate all'installazione su Windows e Linux rispettivamente.
 
-### 3.a Installazione su Windows
+#### 3.a Installazione su Windows
 
 Per l'installazione su Linux, salta alla sezione succesiva.
 
@@ -109,9 +109,9 @@ Ricordati di fare il port forwarding, altrimenti il tuo server non sarà raggiun
 
 Procedi ora al passo "4\. Configurazione".
 
-### 3.b Installazione su Linux
+#### 3.b Installazione su Linux
 
-#### Utilizzando la build precompilata (consigliato)
+##### Utilizzando la build precompilata (consigliato)
 
 Questo passo è valido per tutte le distribuzioni Linux per cui offriamo i files binari [qui](https://github.com/BeamMP/BeamMP-Server/releases/latest). Se usi una distribuzione o architettura differente, salta al passo "Compilazione file sorgente".
 
@@ -125,7 +125,7 @@ Questo passo è valido per tutte le distribuzioni Linux per cui offriamo i files
 
 Procedi ora al passo "4\. Configurazione".
 
-#### Compilazione file sorgente
+##### Compilazione file sorgente
 
 È molto probabile, ma non è stato ufficialmente provato, che BeamMP-Server per Linux funzioni su distribuzioni differenti da quelle per cui offriamo i files binari [qui](https://github.com/BeamMP/BeamMP-Server/releases/latest). Se vuoi compilare i codice sorgente puoi farlo, scaricando il codice dal nostro [GitHub](https://github.com/BeamMP/BeamMP-Server), una guida si può trovare [qui](https://github.com/BeamMP/BeamMP-Server#build-instructions).
 
