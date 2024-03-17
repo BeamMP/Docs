@@ -16,11 +16,11 @@ Willkommen im neuen und verbesserten Dokumentationszentrum für BeamMP! Egal, ob
 
 ## Für Spieler
 
-Neu bei BeamMP? Schau dir unsere [Einstiegshilfe](../game/getting-started) an, um dir den Einstieg zu erleichtern und das Beste aus deinen Mehrspielerabenteuern herauszuholen.
+Neu bei BeamMP? Schau dir unsere [Einstiegshilfe](../game/getting-started.md) an, um dir den Einstieg zu erleichtern und das Beste aus deinen Mehrspielerabenteuern herauszuholen.
 
 ## Für Serverbesitzer
 
-Du möchtest deinen eigenen BeamMP-Server erstellen? Unsere umfassende Anleitung [hier](../server/create-a-server) führt dich durch den Prozess und stellt sicher, dass du alle notwendigen Werkzeuge und Kenntnisse für die effiziente Konfiguration deines Servers zur Verfügung hast.
+Du möchtest deinen eigenen BeamMP-Server erstellen? Unsere umfassende Anleitung [hier](../server/create-a-server.md) führt dich durch den Prozess und stellt sicher, dass du alle notwendigen Werkzeuge und Kenntnisse für die effiziente Konfiguration deines Servers zur Verfügung hast.
 
 ## Für Entwickler
 
