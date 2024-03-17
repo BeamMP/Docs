@@ -55,26 +55,34 @@ Ti servirà un account [Discord](https://discord.com) per questo passo. Discord 
 Fai il login con Discord al [Keymaster](https://beammp.com/keymaster). Dalla homepage del Keymaster, clicca su "Keys" a sinistra dello schermo:
 
 
-<figure markdown="">   ![](/assets/content/keymaster_homepage.png) </figure>
+<figure markdown>
+  ![](../../assets/content/keymaster_homepage.png)
+</figure>
 
 #### 2.2. Creare una chiave
 
 Per creare una chiave clicca il "+" verde presente in alto a destra.
 
 
-<figure markdown="">   ![](/assets/content/keymaster_new_key.png) </figure>
+<figure markdown>
+  ![](../../assets/content/keymaster_new_key.png)
+</figure>
 
 #### 2.3. Compilare i dati per la chiave
 
 Inserisci il nome del server (questo è solo il nome per la chiave, non è il nome vero e proprio del server), poi clicca "Create", ad esempio:
 
 
-<figure class="image image_resized" style="width:44.84%;" markdown="">   ![](/assets/content/keymaster_server_name.png) </figure>
+<figure class="image image_resized" style="width:44.84%;" markdown>
+  ![](../../assets/content/keymaster_server_name.png)
+</figure>
 
 Il risultato dovrebbe essere simile a questo:
 
 
-<figure markdown="">   ![](/assets/content/keymaster_key_done.png) </figure>
+<figure markdown>
+  ![](../../assets/content/keymaster_key_done.png)
+</figure>
 
 **NON CONDIVIDERE MAI QUESTA CHIAVE. TRATTALA COME UNA PASSWORD**
 
@@ -85,7 +93,9 @@ Hai un numero limitato di chiavi. Puoi utilizzare una chiave su un server per vo
 Copia il testo del campo "key", in questo esempio è `3173a2e-6az0-4542-a3p0-ddqq5ff95558` e tienilo pronto per il passo successivo. Puoi fare questo cliccando l'icona a destra della chiave:
 
 
-<figure markdown="">   ![](/assets/content/keymaster_copy_key.png) </figure>
+<figure markdown>
+  ![](../../assets/content/keymaster_copy_key.png)
+</figure>
 
 ### 3. Installazione
 
@@ -132,7 +142,9 @@ Infine ricordati di eseguire il server con il comando `./BeamMP-Server-xxx`, dop
 Dopo che il server è stato avviato almeno una volta, dovrebbe aver creato diversi files e mostrato un paio di errori; questo perché manca ancora qualcosa. La tua cartella dovrebbe contenere questi files:
 
 
-<figure markdown="">   ![](/assets/content/after-running-once.png) </figure>
+<figure markdown>
+  ![](../../assets/content/after-running-once.png)
+</figure>
 
 Potrebbero chiamarsi `ServerConfig`, `Server` e `BeamMP-Server` senza estensioni, ma è corretto anche questo!
 
