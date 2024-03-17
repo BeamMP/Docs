@@ -54,7 +54,7 @@ Login with Discord to the [Keymaster](https://beammp.com/keymaster).
 From the Keymaster homepage click on "Keys" on the left of the screen:
 
 <figure markdown>
-  ![](/assets/content/keymaster_homepage.png)
+  ![](../../assets/content/keymaster_homepage.png)
 </figure>
 
 #### 2.2. Creating a key
@@ -62,7 +62,7 @@ From the Keymaster homepage click on "Keys" on the left of the screen:
 To create your key click on the green "+" button in the top right. 
 
 <figure markdown>
-  ![](/assets/content/keymaster_new_key.png)
+  ![](../../assets/content/keymaster_new_key.png)
 </figure>
 
 #### 2.3. Filling out the key information
@@ -70,13 +70,13 @@ To create your key click on the green "+" button in the top right. 
 Next, fill out the Server Name field (this is just the key name not the actual name of the server on the list), then click "Create". Example:
 
 <figure class="image image_resized" style="width:44.84%;" markdown>
-  ![](/assets/content/keymaster_server_name.png)
+  ![](../../assets/content/keymaster_server_name.png)
 </figure>
 
 It should, in the end, look something like this:
 
 <figure markdown>
-  ![](/assets/content/keymaster_key_done.png)
+  ![](../../assets/content/keymaster_key_done.png)
 </figure>
 
 **DO NOT EVER SHARE THIS KEY OR SHOW IT TO ANYONE. TREAT THIS LIKE A PASSWORD.**
@@ -88,7 +88,7 @@ You have a limited number of keys. One key can be used on one server at a time, 
 Now copy the text in the “Key” field, in this example that is `3173a2e-6az0-4542-a3p0-ddqq5ff95558` and hold onto it for the next step. You can do this by clicking the clipboard on the right of the key:
 
 <figure markdown>
-  ![](/assets/content/keymaster_copy_key.png)
+  ![](../../assets/content/keymaster_copy_key.png)
 </figure>
 
 ### 3. Installation
@@ -136,7 +136,7 @@ At the end, make sure to run your server once with `./BeamMP-Server` and then pr
 Now that you ran the server once, it should have created some files and probably uttered an error or two. This is because we are not yet done. Your folder should have these files:
 
 <figure markdown>
-  ![](/assets/content/after-running-once.png)
+  ![](../../assets/content/after-running-once.png)
 </figure>
 
 They might be called “ServerConfig”, “Server” and “BeamMP-Server” (no extensions like “.exe”), but that's correct, too!
