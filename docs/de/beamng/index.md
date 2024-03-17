@@ -8,4 +8,4 @@ Diese Dokumentation ist inoffiziell und wurde vom BeamMP Mod Team und der BeamNG
 
 ## Ausschnitte
 
-Helpful code snippets can be found here: [Snippets](snippets.md)
+Hilfreiche Code-Ausschnitte finden Sie hier: [Snippets](snippets.md)
