@@ -1,11 +1,11 @@
 !!! Warnung „Diese Seite befindet sich im Aufbau!“
 
 ```
-This site is being actively worked on.
+An dieser Seite wird aktiv gearbeitet.
 
-Feel you could help? Please do by clicking on the page with a pencil on the right!
+Haben Sie das Gefühl, Sie könnten helfen? Bitte klicken Sie dazu auf das Blatt-mit-Bleistift Symbol auf der rechten Seite!
 
-This can be done any page too.
+Dies kann auch auf jeder anderen Seite erfolgen.
 ```
 
 # BeamNG.drive Fahrzeugerstellung
