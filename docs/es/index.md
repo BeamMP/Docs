@@ -1,29 +1,32 @@
 ---
 hide:
-  - navigation
+  - navegación
 ---
-!!! warning "¡Este sitio está en construcción!"
 
-    Este sitio está siendo activamente trabajado en.
+¡¡¡ ADVERTENCIA !!! "¡Esta página está bajo construcción!"
 
-    ¿Crees que puedes ayudar? Por favor, hazlo haciendo clic en la página con un lápiz a la derecha.
+```
+Se está trabajando en este sitio.
 
-    Esto también se puede hacer en cualquier página.
-    
+¿Crees que puedes ayudar? Por favor, hazlo haciendo clic en la página con un lápiz a la derecha.
+
+Esto puede ser hecho en cualquier página.
+```
+
 # ¡Bienvenido a BeamMP Docs! :tada:
 
-¡Bienvenido al nuevo y mejorado centro de documentación para BeamMP! Ya seas jugador, propietario de servidor o desarrollador, tenemos los recursos que necesitas para mejorar tu experiencia multijugador en BeamNG.drive.
+¡Bienvenido al nuevo y mejorado centro de documentación para BeamMP! Ya seas jugador, propietario de un servidor o desarrollador, tenemos los recursos que necesitas para mejorar tu experiencia multijugador en BeamNG.drive.
 
 ## Para Jugadores
 
-¿Eres nuevo en BeamMP? Consulta nuestra [Guía de Inicio](game/getting-started) para ayudarte a empezar y sacar el máximo provecho de tus aventuras multijugador.
+¿Nuevo en BeamMP? Échale un vistazo [Cómo Empezar](game/getting-started.md) para ayudarte a tocar la carretera y hacer la mayoría de tus aventuras en multijugador. Para preguntas generales y problemas, por favor échale un ojo a [Players FAQ](support/player-faq.md).
 
 ## Para Propietarios de Servidor
 
-¿Estás pensando en crear tu propio servidor BeamMP? Nuestra guía completa [aquí](server/create-a-server) te guiará en el proceso, asegurándote de tener todas las herramientas y conocimientos para configurar tu servidor de manera eficiente.
+¿Pensando en crear tu propio servidor de BeamMP? Nuestra [guía comprensiva](server/create-a-server.md) te ayudará a través del proceso, asegurándose de que tengas todas las herramientas y conocimientos necesarios para para configurar tu servidor eficientemente.
 
 ## Para Desarrolladores
 
-¿Eres un entusiasta del modding? Sumérgete en el mundo del desarrollo de mods para BeamNG.drive con nuestra [Guía de Modding](guides/modding/index). Aprende los fundamentos de la creación de mods Lua y descubre cómo hacer que tus mods sean compatibles con multijugador para una experiencia aún más inmersiva. Además, explora todos los detalles sobre cómo crear recursos para el servidor de BeamMP en nuestra [Guía de Desarrollo de Recursos](guides/resource-development).
+¿Eres un entusiasta del modding? Sumérgete en el mundo del desarrollo de mods para BeamNG.drive con nuestra [Guía de Modding](guides/mod-creation/client/getting-started.md). Aprende los fundamentos de la creación de Mods con Lua y explora cómo hacer tus mods compatibles con el modo Multijugador para una experiencia todavía más inmersiva. Adicionalmente, descubre los entresijos de la creación de recursos para los Servidores de BeamMP en nuestra [Guía de Desarrollo de Recursos](guides/mod-creation/server/getting-started.md).
 
-Emocionantes actualizaciones están en camino, incluyendo una nueva página de inicio diseñada para mejorar tu experiencia de navegación. ¡Mantente atento para más novedades! :slight_smile:
+Emocionantes actualizaciones están en camino, incluyendo una nueva página de inicio diseñada para mejorar tu experiencia de navegación. ¡Mantente al tanto para más novedades! :slight_smile:
