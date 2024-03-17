@@ -16,14 +16,14 @@ Bienvenue sur le centre de documentation amélioré pour BeamMP ! Que vous soyez
 
 ## Pour les Joueurs
 
-Nouveau sur BeamMP ? Consultez notre [Guide de Démarrage](game/getting-started) pour vous aider à commencer et profiter au maximum de vos aventures multijoueurs.
+Nouveau sur BeamMP ? Consultez notre [Guide de Démarrage](../game/getting-started) pour vous aider à commencer et profiter au maximum de vos aventures multijoueurs.
 
 ## Pour les Propriétaires de Serveur
 
-Vous envisagez de créer votre propre serveur BeamMP ? Notre guide complet [ici](server/create-a-server) vous guidera à travers le processus, en veillant à ce que vous disposiez de tous les outils et connaissances nécessaires pour configurer votre serveur de manière efficace.
+Vous envisagez de créer votre propre serveur BeamMP ? Notre guide complet [ici](../server/create-a-server) vous guidera à travers le processus, en veillant à ce que vous disposiez de tous les outils et connaissances nécessaires pour configurer votre serveur de manière efficace.
 
 ## Pour les Développeurs
 
-Vous êtes un passionné de modding ? Plongez dans l'univers du développement de mods pour BeamNG.drive avec notre [Guide de Modding](guides/modding/index). Apprenez les bases de la création de mods Lua et découvrez comment rendre vos mods compatibles avec le multijoueur pour une expérience encore plus immersive. De plus, explorez tous les détails sur la création de ressources pour le serveur BeamMP dans notre [Guide de Développement de Ressources](guides/resource-development).
+Vous êtes un passionné de modding ? Plongez dans l'univers du développement de mods pour BeamNG.drive avec notre [Guide de Modding](../guides/mod-creation/client/getting-started.md). Apprenez les bases de la création de mods Lua et découvrez comment rendre vos mods compatibles avec le multijoueur pour une expérience encore plus immersive. De plus, explorez tous les détails sur la création de ressources pour le serveur BeamMP dans notre [Guide de Développement de Ressources](../guides/mod-creation/server/getting-started.md).
 
 D'excitantes mises à jour sont à venir, notamment une toute nouvelle page d'accueil conçue pour améliorer votre expérience de navigation. Restez à l'écoute pour plus d'informations ! :slight_smile:
