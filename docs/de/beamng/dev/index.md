@@ -1,11 +1,11 @@
 !!! Warnung „Diese Seite befindet sich im Aufbau!“
 
 ```
-This site is being actively worked on.
+An dieser Seite wird aktiv gearbeitet.
 
-Feel you could help? Please do by clicking on the page with a pencil on the right!
+Haben Sie das Gefühl, Sie könnten helfen? Bitte klicken Sie dazu mit einem Bleistift rechts auf die Seite!
 
-This can be done any page too.
+Dies kann auch auf jeder Seite erfolgen.
 ```
 
-# BeamNG.drive Development Introduction
+# Einführung in die BeamNG.drive Entwicklungsumgebung
