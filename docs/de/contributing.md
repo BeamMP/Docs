@@ -2,38 +2,38 @@
 
 BeamMP verwendet [Material for MkDocs](https://squidfunk.github.io/mkdocs-material) sowie [MkDocs](https://www.mkdocs.org) . Die vollständige Dokumentation finden Sie auf den jeweiligen Websites.
 
-## Getting Started
+## Erste Schritte
 
 Um zu dieser Dokumentation beizutragen, können Sie einen der beiden Ansätze wählen:
 
-### 1. Edit the raw markdown files
+### 1. Bearbeiten Sie die rohen Markdown-Dateien
 
 Das Bearbeiten der rohen Markdown-Dateien ist der schnellste Ansatz und eignet sich am besten für schnelle Änderungen wie Rechtschreibung, Grammatik oder neue Inhaltsausschnitte. Dieser Ansatz erfordert jedoch Vorkenntnisse über Markdown, da Sie verstehen müssen, was Ihre Änderung bewirken wird.
 
-If this is the approach you wish to take then please follow these steps:
+Wenn dies der Ansatz ist, den Sie wählen möchten, befolgen Sie bitte diese Schritte:
 
-1. Click edit on the page you wish to edit.
-2. Fork the project into your own GitHub account.
-3. Make the changes you see fit.
-4. Commit your changes to your fork.
+1. Klicken Sie auf der Seite, die Sie bearbeiten möchten, auf Bearbeiten.
+2. Forken Sie das Projekt in Ihr eigenes GitHub-Konto.
+3. Nehmen Sie die Änderungen vor, die Sie für richtig halten.
+4. Übernehmen Sie Ihre Änderungen in Ihren Fork.
 5. Stellen Sie [hier](https://github.com/BeamMP/Docs) einen Pull-Request für unser Repository.
 
 Sobald Sie Ihren Pull-Request erstellt haben, wird jemand vom BeamMP-Mod-Team Ihren Pull-Request prüfen und ihn entweder genehmigen oder Änderungen anfordern. Wenn Änderungen angefordert wurden und Sie diese abgeschlossen haben, werden wir Ihren Pull-Request erneut prüfen. Anschließend werden Ihre Änderungen im Repository zusammengeführt und im Rahmen unserer kontinuierlichen Integration automatisch bereitgestellt.
 
-### 2. Make edits with live preview
+### 2. Nehmen Sie Änderungen mit der Live-Vorschau vor
 
 Wenn Sie unsere Dokumentation auf diese Weise bearbeiten, erfolgt dies ähnlich wie bei Option 1. Allerdings können Sie auf diese Weise eine Vorschau Ihrer Änderungen anzeigen.
 
-1. Click edit on the page you wish to edit.
-2. Fork the project into your own GitHub account.
-3. Clone the project locally.
+1. Klicken Sie auf der Seite, die Sie bearbeiten möchten, auf Bearbeiten.
+2. Forken Sie das Projekt in Ihr eigenes GitHub-Konto.
+3. Klonen Sie das Projekt lokal.
 4. Richten Sie Material for MkDocs gemäß der Anleitung [hier](https://squidfunk.github.io/mkdocs-material/getting-started/) ein
-5. Run `mkdocs serve` to start the live-reloading docs server from where you cloned the fork to.
-6. Make the changes that you see fit.
-7. Commit your changes to your fork.
+5. Führen Sie `mkdocs serve` aus, um den Live-Reload-Docs-Server von dort aus zu starten, wo Sie den Fork geklont haben.
+6. Nehmen Sie die Änderungen vor, die Sie für richtig halten.
+7. Übernehmen Sie Ihre Änderungen in Ihren Fork.
 8. Stellen Sie [hier](https://github.com/BeamMP/Docs) einen Pull-Request für unser Repository.
 
-## Project layout
+## Projektlayout
 
 ```
 mkdocs.yml # Die Konfigurationsdatei.
