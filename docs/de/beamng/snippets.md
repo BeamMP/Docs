@@ -1,16 +1,16 @@
 !!! Warnung „Diese Seite befindet sich im Aufbau!“
 
 ```
-This site is being actively worked on.
+An dieser Seite wird aktiv gearbeitet.
 
-Feel you could help? Please do by clicking on the page with a pencil on the right!
+Haben Sie das Gefühl, Sie könnten helfen? Bitte klicken Sie dazu auf das "Blatt mit Bleistift"-Symbol rechts auf dieser Seite!
 
-This can be done any page too.
+Dies kann auch auf jeder anderen Seite erfolgen.
 ```
 
-# BeamNG.drive Snippets
+# BeamNG.drive Code Ausschnitte
 
-## Lua Code Snippets
+## Lua-Code-Ausschnitte
 
 ### Zeichnen einer Markierung und Fahrzeugerkennung
 
@@ -126,7 +126,7 @@ guihooks.trigger('Message', {msg = "Message Text Here", ttl = 5.0, category = "s
 guihooks.trigger('Message', {msg = "Message Text Here", ttl = 5.0, category = "settings", icon = "settings"})
 ```
 
-#### Center large or small display flash
+#### Zentrales, aufblinkendes, großes oder kleines Anzeigefenster
 
 ![Bild](https://github.com/StanleyDudek/Docs/assets/49531350/d0cf754f-83f8-4d15-9159-27350da127de)![Bild](https://github.com/StanleyDudek/Docs/assets/49531350/1df6fc9b-756f-484e-b8d9-5df346dc4c26)
 
