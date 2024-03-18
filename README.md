@@ -49,3 +49,25 @@ Editing our docs this way will still take a similar approach as in option 1 howe
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
+
+## Translations
+
+The BeamMP Docs are translated in multiple languages. The current progress of this sits at: [![gitlocalized ](https://gitlocalize.com/repo/9180/whole_project/badge.svg)](https://gitlocalize.com/repo/9180?utm_source=badge)
+
+We use [GitLocalize](https://gitlocalize.com/) for managing this. You can contribute if you wish here: https://gitlocalize.com/repo/9180
+
+The individual language progress is as follows:
+
+| Language | Badge                                                                                                                     |
+|----------|---------------------------------------------------------------------------------------------------------------------------|
+| German   | [![gitlocalized ](https://gitlocalize.com/repo/9180/de/badge.svg)](https://gitlocalize.com/repo/9180/de?utm_source=badge) |
+| Spanish  | [![gitlocalized ](https://gitlocalize.com/repo/9180/es/badge.svg)](https://gitlocalize.com/repo/9180/es?utm_source=badge) |
+| French   | [![gitlocalized ](https://gitlocalize.com/repo/9180/fr/badge.svg)](https://gitlocalize.com/repo/9180/fr?utm_source=badge) |
+| Italian  | [![gitlocalized ](https://gitlocalize.com/repo/9180/it/badge.svg)](https://gitlocalize.com/repo/9180/it?utm_source=badge) |
+| Russian  | [![gitlocalized ](https://gitlocalize.com/repo/9180/ru/badge.svg)](https://gitlocalize.com/repo/9180/ru?utm_source=badge) |
+| Chinese  | [![gitlocalized ](https://gitlocalize.com/repo/9180/zh/badge.svg)](https://gitlocalize.com/repo/9180/zh?utm_source=badge) |
+
+> [!NOTE]
+> GitLocalize may show some paragraphs as "not translated" while in fact they already are, messing up the whole page.
+>
+> Please double check if the page is already translated before committing anything!
