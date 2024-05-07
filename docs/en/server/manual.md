@@ -42,6 +42,16 @@ Environment variables corresponding to config parameters which are booleans (tru
 
 These environment variables allow hosting providers (and other users with a larger number of servers), here called "providers", to overwrite certain provider-specific settings.
 
+#### `BEAMMP_PROVIDER_PORT_ENV` (since v3.3.0)
+
+When set to a non-empty string, this replaces the `BEAMMP_PORT` variable with another, in order to read the variable from an existing ENV. For example, Pterodactyl may expose `SERVER_PORT` as an ENV. To use it with BeamMP-Server, you'd have to do `BEAMMP_PORT=${SERVER_PORT}`, which is a little silly.
+
+Instead, you can now use `BEAMMP_PROVIDER_PORT_ENV="SERVER_PORT"`, which leads BeamMP-Server to read the port from the `SERVER_PORT` ENV variable.
+
+#### `BEAMMP_PROVIDER_DISABLE_CONFIG` (since v3.3.0)
+
+If set to `1` or `true`, the `ServerConfig.toml` is **not generated**, and is **not read** if it exists. The `BEAMMP_AUTH_KEY` must be set in order for the server to function.
+
 #### `BEAMMP_PROVIDER_UPDATE_MESSAGE` (since v3.2.2)
 
 When set to a non-empty string, this replaces the entire update message, which by default is "NEW VERSION IS OUT! Please update to the new..." etc.
