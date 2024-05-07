@@ -631,6 +631,25 @@ Results in:
 randFloat: 420.6969
 ```
 
+#### `Util.LogInfo(params: ...)` et al (since v3.3.0)
+
+```lua
+Util.LogInfo("Hello, World!")
+Util.LogWarn("Cool warning")
+Util.LogError("Oh no!")
+Util.LogDebug("hi")
+```
+produces
+
+```
+[19/04/24 11:06:50.142] [Test] [INFO] Hello, World!    
+[19/04/24 11:06:50.142] [Test] [WARN] Cool warning    
+[19/04/24 11:06:50.142] [Test] [ERROR] Oh no!
+[19/04/24 11:06:50.142] [Test] [DEBUG] hi
+```
+
+Supports the exact same printing / dumping of data as `print()` does.
+
 ### FS Functions
 
 `FS` functions are **f**ile**s**ystem functions, which aim to be better than the default Lua capabilities.
