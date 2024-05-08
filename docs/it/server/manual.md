@@ -42,6 +42,16 @@ Le variabili di contesto che corrispondono a un parametro di configurazione che 
 
 Queste variabili di contesto permettono ai fornitori di host (e altri utenti con un gran numero di server), qui denominati "providers", di sovrascrivere alcune impostazioni specifiche per i provider.
 
+#### `BEAMMP_PROVIDER_PORT_ENV` (da v3.3.0)
+
+Quando non è una stringa vuota, questa variabile rimpiazza `BEAMMP_PORT` con un'altra in modo tale da poter leggere la variabile da un ENV esistente. Per esempio Pterodactyl può esporre `SERVER_PORT` come un ENV. Per usarla con il server BeamMP si dovrebbe scrivere `BEAMMP_PORT=${SERVER_PORT}`, che è macchinoso.
+
+Ora invece si può usare `BEAMMP_PROVIDER_PORT_ENV="SERVER_PORT"`, che fa leggere al server la porta dalla variabile ENV `SERVER_PORT`.
+
+#### `BEAMMP_PROVIDER_DISABLE_CONFIG` (da v3.3.0)
+
+Se impostata a `1` oppure `true`, il file `ServerConfig.toml` **non è generato** e **non è letto** se esiste. La `BEAMMP_AUTH_KEY` deve essere impostata per far funzionare il server.
+
 #### `BEAMMP_PROVIDER_UPDATE_MESSAGE` (da v3.2.2)
 
 Quando non è una stringa vuota, questa variabile rimpiazza l'intero messaggio per l'aggiornamento, che di default è "NEW VERSION IS OUT! Please update to the new..." ecc.
