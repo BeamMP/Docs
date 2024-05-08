@@ -650,6 +650,65 @@ produces
 
 Supports the exact same printing / dumping of data as `print()` does.
 
+#### `Util.DebugExecutionTime() -> table`
+
+When Lua code runs in the server, each event handler's execution is timed. The min, max, average (mean) and standard deviation of these execution times are calculated, and are returned in a table by this function. The calculation takes place incrementally, so every time an event handler runs the min, max, average and standard deviation are updated. This way, `Util.DebugExecutionTime()` does not usually take any significant amount of time to execute (sub 0.25ms).
+
+It returns a table like this:
+```lua
+[[table: 0x7af6d400aca0]]: {
+	printStuff: [[table: 0x7af6d400be60]]: {
+		mean: 0.250433,
+		n: 76,
+		max: 0.074475,
+		stdev: 0.109405,
+		min: 0.449274,
+	},
+	onInit: [[table: 0x7af6d400b130]]: {
+		mean: 0.033095,
+		n: 1,
+		max: 0.033095,
+		stdev: 0,
+		min: 0.033095,
+	},
+}	
+```
+Per event *handler*, returns the following data:
+
+- `n`: Amount of times the event triggered and a handler was called
+- `mean`: Average/mean of all execution times, in ms
+- `max`: The longest execution time, in ms
+- `min`: The shortest execution time, in ms
+- `stdev`: The standard deviation of all execution time averages, in ms
+
+Here's a function you can use to pretty-print this data:
+
+```lua
+function printDebugExecutionTime()
+    local stats = Util.DebugExecutionTime()
+    local pretty = "DebugExecutionTime:\n"
+    local longest = 0
+    for name, t in pairs(stats) do
+        if #name > longest then
+            longest = #name
+        end
+    end
+    for name, t in pairs(stats) do
+        pretty = pretty .. string.format("%" .. longest + 1 .. "s: %12f +/- %12f (min: %12f, max: %12f) (called %d time(s))\n", name, t.mean, t.stdev, t.min, t.max, t.n)
+    end
+    print(pretty)
+end
+```
+
+You may call it like this to debug your code if it's slow:
+
+```lua
+-- event to print the debug times
+MP.RegisterEvent("printStuff", "printDebugExecutionTime")
+-- run every 5000 ms = 5 seconds (or 10, or 60, whatever makes sense for you
+MP.CreateEventTimer("printStuff", 5000)
+```
+
 ### FS Functions
 
 `FS` functions are **f**ile**s**ystem functions, which aim to be better than the default Lua capabilities.
