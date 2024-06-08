@@ -12,11 +12,11 @@
 
 ## Lua代码片段
 
-### Drawing a marker &amp; Vehicle detection
+### 绘制标记和车辆检测
 
-Drawing markers in the map can be one of the best ways to indicate to the user that there is some form of interaction that they can do there.
+在地图中绘制标记可能是向用户表明他们可以在那里进行某种形式的交互的最佳方式之一。
 
-Drawing a marker is fairly easy. Here is an example of how the bus route marker is drawn:
+绘制标记相当容易。以下是如何绘制公交车路线标记的示例：
 
 ```Lua
   local function createBusMarker(markerName)
@@ -58,7 +58,7 @@ Drawing a marker is fairly easy. Here is an example of how the bus route marker 
   end
 ```
 
-Here is a custom marker example from [BeamNG-FuelStations](https://github.com/BeamMP/BeamNG-FuelStations/tree/master):
+以下是来自[BeamNG-FuelStations](https://github.com/BeamMP/BeamNG-FuelStations/tree/master)的自定义标记示例：
 
 ```Lua
   local stations = [
@@ -97,7 +97,7 @@ Here is a custom marker example from [BeamNG-FuelStations](https://github.com/Be
 
 #### Toast通知，位于屏幕右上角
 
-![image](https://github.com/StanleyDudek/Docs/assets/49531350/c8a87842-b95a-4eca-84dc-93072ecc9158)
+![图像](https://github.com/StanleyDudek/Docs/assets/49531350/c8a87842-b95a-4eca-84dc-93072ecc9158)
 
 ```lua
 --guihooks.trigger('toastrMsg', {type, title, msg, config = {timeOut}})
@@ -106,9 +106,9 @@ guihooks.trigger('toastrMsg', {type = "warning", title = "Warning Message:", msg
 guihooks.trigger('toastrMsg', {type = "error", title = "Error Message:", msg = "Error Message Text Here", config = {timeOut = 5000}})
 ```
 
-#### Message notifications, top left of screen by default in Messages app
+#### 消息通知，消息应用程序中默认位于屏幕左上角
 
-![image](https://github.com/StanleyDudek/Docs/assets/49531350/6baef813-50cb-43c3-9c59-0de550b014b6)
+![图像](https://github.com/StanleyDudek/Docs/assets/49531350/6baef813-50cb-43c3-9c59-0de550b014b6)
 
 ```lua
 --guihooks.trigger('Message', {msg, ttl, category, icon}) --requires Messages app
@@ -128,7 +128,7 @@ guihooks.trigger('Message', {msg = "Message Text Here", ttl = 5.0, category = "s
 
 #### 位于中心，大，小型短暂显示
 
-![image](https://github.com/StanleyDudek/Docs/assets/49531350/d0cf754f-83f8-4d15-9159-27350da127de) ![image](https://github.com/StanleyDudek/Docs/assets/49531350/1df6fc9b-756f-484e-b8d9-5df346dc4c26)
+![图像](https://github.com/StanleyDudek/Docs/assets/49531350/d0cf754f-83f8-4d15-9159-27350da127de)![图像](https://github.com/StanleyDudek/Docs/assets/49531350/1df6fc9b-756f-484e-b8d9-5df346dc4c26)
 
 ```lua
 --guihooks.trigger('ScenarioFlashMessage', {{msg, ttl, sound, big}} ) -- requires RaceCountdown ui app
@@ -147,7 +147,7 @@ guihooks.trigger('ScenarioFlashMessage', {{"Teleported!", 3.0, "Engine.Audio.pla
 
 #### 位于中心，中型持续显示
 
-![image](https://github.com/StanleyDudek/Docs/assets/49531350/6290e018-6b3d-4674-98f2-34282a723258)
+![图像](https://github.com/StanleyDudek/Docs/assets/49531350/6290e018-6b3d-4674-98f2-34282a723258)
 
 ```lua
 --guihooks.trigger('ScenarioRealtimeDisplay', {msg = msg} ) -- requires Race Realtime Display ui app
