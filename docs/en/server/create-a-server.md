@@ -6,7 +6,7 @@ Basics of setting up the server application
 ---
 ## **Overview**
 
-**Creating a Home Server is free, hosting one with a VPS is easy and more secure**
+**Creating a Home Server is free, hosting one with a VPS is easier and more secure**
 
 Servers are an integral part of BeamMP; players are connected to each other through the server. They run natively on Windows and Linux.
 
@@ -237,7 +237,7 @@ Start the Server. You have to give the people the IP Address of your Server. How
 ### For public Servers:
 Start the Server, wait a few minutes and the Server should be in the **Public Servers** List upon searching it by its name entered into the `ServerConfig.toml`
 Make sure search filters are disabled and the Map set to "Any" if you can't find it.
-You can also check the [Keymaster](https://beammp.com/keymaster).
+You can also check the [Keymaster](https://beammp.com/keymaster) Website for the Servers IP Address.
 
 Should you or your friends experience a "Connection Failed!" Error, check the Launcher Window for codes like 10060, 10061, 10030.
 This means you eihter have a CGNAT IPv4, or you have done something wrong during Step **1 Port Forwarding** or **1.1. Firewall**.
