@@ -369,3 +369,6 @@ nav:
     - Server: scripting/server-reference.md
   - Contributing:
     - Getting Started: contributing.md
+  - Community:
+    - General Information: community/index.md
+    - Rules: community/rules.md
