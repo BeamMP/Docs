@@ -15,4 +15,4 @@ hide:
 ## Introduction
 
 ## Our Rules
-You can find our rules [here](en/community/rules)
+You can find our rules [here](rules.md)
