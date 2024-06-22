@@ -8,7 +8,7 @@ hide:
     
     Feel you could help? Please do by clicking on the page with a pencil on the right!
 
-    This can be done any page too.
+    This can be done on any page, too.
 
 # Welcome to BeamMP Docs! :tada:
 
