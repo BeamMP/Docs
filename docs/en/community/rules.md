@@ -9,31 +9,31 @@ hide:
 
 ## 1. BeamMP General Rules:
 
-### 1.01 No Discrimination (e.g. sexism, racism, etc…)
+### 1.1 No Discrimination (e.g. sexism, racism, etc…)
 This includes using racial/sexual slurs or other vocabulary used to target an individual or group of people, either directly or with the intention of doing so.
 
-### 1.02 No Bullying or Harassment
+### 1.2 No Bullying or Harassment
 This includes targeting individuals with the use of unwanted actions, unsolicited DM's or targeting them with messages, images or verbal communication.
 
-### 1.03 No NSFW Content
+### 1.3 No NSFW Content
 This includes content containing nudity, pornography, excessive profanity, or material otherwise offensive and/or not suitable for public spaces.
 
-### 1.04 No Spamming Text/Voice Channels or Posts
+### 1.4 No Spamming Text/Voice Channels or Posts
 This includes generating multiple posts or threads, spamming the same or similar messages and abusing voice communication channels or other actions that include join/leave spamming.
 
-### 1.05 Speak English
+### 1.5 Speak English
 All communication within BeamMP should be in the English language where possible, except in specific areas designated otherwise.
 
-### 1.06 No Inappropriate Profiles
+### 1.6 No Inappropriate Profiles
 This includes profile names, photos, bios or other user-controlled content that doesn't align with BeamMP/BeamNG/Discord rules and ToS.
 
-### 1.07 No Doxing
+### 1.7 No Doxing
 No publishing of personal information (“doxing”) (including, but not limited to, real names, addresses, emails, passwords, bank account and credit card information, etc...).
 
-### 1.08 No Politics
+### 1.8 No Politics
 This includes discussing past or current world events outside of BeamMP/BeamNG or gaming as a whole. There are places for valid discussion of these topics but BeamMP is not one of them.
 
-### 1.09 No advertising Non-BeamMP/BeamNG Content
+### 1.9 No advertising Non-BeamMP/BeamNG Content
 This includes non-BeamMP communities, social media channels or other external links.
 
 ### 1.10 No Impersonating Staff
@@ -50,19 +50,19 @@ This should go unsaid, but you need to have respect for everyone around you and 
 
 ## 2. Discord Voice Chat Specific
 
-### 2.01 All Rules Apply
+### 2.1 All Rules Apply
 All rules mentioned in this document apply to the voice chats.
 
-### 2.02 No NSFW Audio/Streams
+### 2.2 No NSFW Audio/Streams
 Players should not stream any content that violates BeamMP rules stated in Section 1 of this document.
 
-### 2.03 No Excessive Audio:
+### 2.3 No Excessive Audio:
 The excessive use of soundboards, playing music loudly or other uses of audio channels to intentionally agitate or target others is not allowed.
 
-### 2.04 No Join-Leave Spamming:
+### 2.4 No Join-Leave Spamming:
 Most users will have sound effects enabled, do not join and leave chats rapidly.
 
-### 2.05 No Badgering Others:
+### 2.5 No Badgering Others:
 This includes asking others repeatedly for a response after being ignored or told no.
 
 ## How to appeal actions against you:
