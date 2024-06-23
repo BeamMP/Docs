@@ -30,10 +30,11 @@ BeamMP is split into three main parts:
 ## Using an unpacked folder for BeamNG
 
 In order to efficiently work on mods in BeamNG, it is advised to use an `unpacked` folder, rather than packaging zips after every change.
-Further information about the userfolder can be found at [https://documentation.beamng.com/support/userfolder/](https://documentation.beamng.com/support/userfolder/)
 
 Open up the BeamNG userfolder by navigating to `%appdata%/Local/BeamNG.drive/0.xx/mods` where `xx` is the most recent BeamNG version.
 Create a folder called `unpacked` inside the `mods` folder.
+
+Further information about the userfolder can be found at [https://documentation.beamng.com/support/userfolder/](https://documentation.beamng.com/support/userfolder/)
 
 ## Enabling dev mode in BeamMP
 
@@ -44,21 +45,23 @@ Once dev mode was succesfully enabled, the launcher will stop with `[DEBUG] Core
 
 ## Cloning the BeamMP repo into the unpacked folder
 
-While you can manually copy the BeamMP mod files, it is highly recommended to use a source-control system like git.
+While you can manually copy the BeamMP mod files from our github repo, it is highly recommended to use a source-control system like git.
 First create a fork of [https://github.com/BeamMP/BeamMP](https://github.com/BeamMP/BeamMP)
 
 Most efficient would be to clone the repo directly into the `unpacked` folder.
 
 For `git`, do `git clone https://github.com/yourName/BeamMP` while in the `unpacked` folder
-While in the uderfolder, make sure theres no `multiplayer` folder left in `mods` and that now theres `unpacked/beammp`
+While in the userfolder, make sure theres no `multiplayer` folder left in `mods` and that now theres `unpacked/beammp`
 
 Now give the dev mode a try. Start the BeamMP launcher, start BeamNG manually, once ingame make sure that BeamMP is the only active mod.
 You should be able to use BeamMP as usual.
+
+Using a code editor, you can now add or change code directly in the `unpacked` folder, try these changes with minimal effort and then sync them using the source control.
 
 ---
 # Setting up a local server
 
 While working on BeamMP, it can be beneficial to use a local server. You can follow the general [server installation](docs/en/server/create-a-server.md) while omitting the first two steps for purely local connections.
 
-Set the server to private in the `serverConfig.toml` while using any string as the `authKey`
+Set the server to private in the `serverConfig.toml` while using any string as the `authKey`.
 
