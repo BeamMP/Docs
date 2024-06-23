@@ -140,6 +140,7 @@ plugins:
             Server: Servidor
             Contributing: Contribuir
             Getting Started: Primeros Pasos
+            Community: Comunidad
         - locale: de
           name: Deutsch
           build: true
@@ -179,6 +180,7 @@ plugins:
             Server: Server
             Contributing: Mitwirken
             Getting Started: Erste Schritte
+            Community: Gemeinschaft
         - locale: fr
           name: Français
           build: true
@@ -218,6 +220,7 @@ plugins:
             Server: Serveur
             Contributing: Contribution
             Getting Started: Premiers pas
+            Community: Communauté
         - locale: it
           name: Italiano
           build: true
@@ -257,6 +260,7 @@ plugins:
             Server: Server
             Contributing: Contribuire
             Getting Started: Primi Passi
+            Community: Comunità
         - locale: ru
           name: Pусский
           build: true
@@ -296,6 +300,7 @@ plugins:
             Server: Сервер
             Contributing: Участие
             Getting Started: Начало работы
+            Community: Сообщество
         - locale: en
           default: true
           name: English
