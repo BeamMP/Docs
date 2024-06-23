@@ -345,7 +345,7 @@ nav:
     - Server FAQ: support/server-faq.md
   - Development Guides:
     - guides/index.md
-    - BeamMP Development: guides/beammp-dev/beammp-dev.md
+    - Development Environment Setup: guides/beammp-dev/beammp-dev.md
     - Mod Creation:  
       - Client Mods: guides/mod-creation/client/getting-started.md
       - Client Scripting Reference: scripting/mod-reference.md
