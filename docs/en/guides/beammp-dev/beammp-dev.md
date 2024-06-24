@@ -20,9 +20,10 @@ In order to get started with development for BeamMP you will need at least:
 
 BeamMP is split into three main parts:
 
-- The mod is loaded by BeamNG, like any other vehicle or UI mod for the game. Its main function is to establish a local connection with the launcher and to display the multiplayer UI elements. It is mostly written in Lua, with some JavaScript, HTML, and CSS for the UI elements. Its repo is [https://github.com/BeamMP/BeamMP](https://github.com/BeamMP/BeamMP)
+- The mod is loaded by BeamNG, like any other vehicle or UI mod for the game. Its main function is to establish a local connection with the launcher and to display the multiplayer UI elements. It's mostly written in Lua, with some JavaScript, HTML, and CSS for the UI elements. Its repo is [https://github.com/BeamMP/BeamMP](https://github.com/BeamMP/BeamMP)
 - The launcher's main function is to establish a constant connection to the mod, and once necessary, establish a connection to the chosen server, as well as handling user login with the BeamMP backend. It's written in C++, is precompiled by BeamMP and can be found at [https://github.com/BeamMP/BeamMP-Launcher](https://github.com/BeamMP/BeamMP-Launcher)
 - The server establishes connections between one or many launchers, as well as "heartbeating" to the BeamMP backend, providing information such as IP, port, version, number of players, etc. Additionally, it manages and runs server-side Lua plugins. It's written in C++, precompiled by BeamMP for a few different OS and CPU architectures, and can be found at [https://github.com/BeamMP/BeamMP-Server](https://github.com/BeamMP/BeamMP-Server)
+
 ---
 # Setting up a development environment to work on the mod
 
@@ -69,6 +70,7 @@ While working on BeamMP, it can be beneficial to use a local server. You can fol
 
 Set the server to private in the `serverConfig.toml` while using any string as the `AuthKey`.
 
+---
 # Contribution Guidelines
 
 For details on code format, commit message format, general development best practices, etc. please see the `CONTRIBUTING.md` file in each repo. This file contains more detailed information on how to contribute. The `README.md` in each repo usually contains build steps as well (for compiled projects).
