@@ -51,7 +51,7 @@ First create a fork of [https://github.com/BeamMP/BeamMP](https://github.com/Bea
 Most efficient would be to clone the repo directly into the `unpacked` folder.
 
 For `git`, run `git clone https://github.com/yourName/BeamMP` from a PowerShell or CMD window started from the `unpacked` folder
-While in the userfolder, make sure theres no `multiplayer` folder left in `mods` and that now theres `unpacked/beammp`
+While in the userfolder, make sure theres no `multiplayer` folder left in `mods` and that now there's `unpacked/beammp`
 
 Now give the dev mode a try. Start the BeamMP launcher, start BeamNG manually, once ingame make sure that BeamMP is the only active mod.
 You should be able to use BeamMP as usual.
