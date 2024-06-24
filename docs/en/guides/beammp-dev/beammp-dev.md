@@ -70,3 +70,6 @@ While working on BeamMP, it can be beneficial to use a local server. You can fol
 
 Set the server to private in the `serverConfig.toml` while using any string as the `authKey`.
 
+# Contribution Guidelines
+
+For details on code format, commit message format, general development best practices, etc. please see the `CONTRIBUTING.md` file in each repo. This file contains more detailed information on how to contribute. The `README.md` in each repo usually contains build steps as well (for compiled projects).
