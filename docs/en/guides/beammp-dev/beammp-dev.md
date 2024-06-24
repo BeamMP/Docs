@@ -56,7 +56,12 @@ While in the userfolder, make sure theres no `multiplayer` folder left in `mods`
 Now give the dev mode a try. Start the BeamMP launcher, start BeamNG manually, once ingame make sure that BeamMP is the only active mod.
 You should be able to use BeamMP as usual.
 
-Using a code editor, you can now add or change code directly in the `unpacked` folder, try these changes with minimal effort and then sync them using the source control.
+Using a code editor, you can now add or change code directly in the `unpacked` folder.
+You can then try the changes by reloading Lua ingame by pressing `Ctrl+L` (and `F5` if you made UI changes).
+
+Once you're happy with your changes, you can commit them through git. See [the Git-SCM website](https://git-scm.com/doc) for tutorials and documentation on how to use Git. As soon as your changes are committed and pushed (to your fork), you can make a pull-request.
+
+Feel free to ask in the #scripting channel in our [Discord](https://discord.gg/beammp) if you encounter any issues.
 
 ---
 # Setting up a local server
