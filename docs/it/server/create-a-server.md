@@ -30,7 +30,29 @@ La configurazione consiste di pochi passi che sono obbligatori da seguire.
 
 Questo passo è necessario se vuoi che qualcuno all'esterno della tua casa ("all'esterno del tuo network locale o LAN") possa accedere al server.
 
-Questo passo è praticamente il medesimo per tutti i server di gioco, come i server di Minecraft, quindi puoi trovare molte guide su internet riguardo all'argomento, anche per il tuo router in specifico. Una buona guida è [la seguente](https://www.aranzulla.it/come-aprire-le-porte-del-router-31808.html). Assicurati di aggiungere nelle regole di forwarding la porta **30814** sia in protocollo **TCP** sia in **UDP**.
+#### LIMITAZIONE DI RESPONSABILITA'
+
+Facendo il port forwarding sei a conoscenza dei rischi legati ad aprire le porte del tuo network di casa al pubblico e di conseguenza sollevi BeamMP da ogni responsabilità di danni che potrebbero succedere a te o al tuo ambiente domestico.
+
+Sapendo ciò, è raccomandato per gli utenti meno esperti di utilizzare uno dei seguenti partner di hosting:
+
+Servizi a pagamento:
+* [Horizon Hosting](https://hrzn.link/beammp)
+* [Racing Game Servers](https://racinggameservers.com/games/beamng-drive/)
+* [Snakecraft Hosting](https://schost.us/beammp-plans)
+* [Connect Hosting](https://connecthosting.net/beammp)
+* [Assetto Hosting](https://assettohosting.com/en/games/beamng)
+* [WinHeberg](https://winheberg.fr/offres/gaming/beammp?lang=en)
+* [Street Inc](https://billing.streetinc.org/)
+* [Zap Hosting](https://zap-hosting.com/en/beammp-server-hosting/)
+* [HostHavoc](https://hosthavoc.com/)
+* [PedalHost](https://pedal.host/)
+
+**Altre compagnie che offrono hosting di BeamMP-Server non sono affiliate e sono più costose dei nostri partner.**
+
+*NOTA: se se sceglie di acquistare il server da uno dei partner, il passo di Port Forwarding è superfluo.*
+
+Tornando al port forwarding, questo passo è praticamente il medesimo per tutti i server di gioco, come i server di Minecraft, quindi puoi trovare molte guide su internet riguardo all'argomento, anche per il tuo router in specifico. Una buona guida è [la seguente](https://www.aranzulla.it/come-aprire-le-porte-del-router-31808.html). Assicurati di aggiungere nelle regole di forwarding la porta **30814** sia in protocollo **TCP** sia in **UDP**.
 
 La **porta** di default può essere cambiata con quella che desideri, basta che non sia già utilizzata da altri servizi e che il numero sia &gt;1024. Ricordati o segnati quale porta hai scelto se non usi quella predefinita. Il forwarding deve essere sempre fatto sia in protocollo **TCP** sia in **UDP**.
 
@@ -188,15 +210,15 @@ Avvia nuovamente il server e guarda se mostra altri messaggi con l'etichetta `[E
 
 ---
 
-## Come aggiungere mod al tuo server
+#### 5.1. Come aggiungere mod al tuo server
 
 Sia le mod dei veicoli che una mappa mod, vanno inserite nella cartella `Resources/Client` all'interno della cartella del server.
 
-### Mod generiche
+#### 5.2. Mod generiche
 
 Se ti interessa aggiungere mod di veicoli, basta aggiungerle alla cartella `Resources/Client`. Verranno scaricate automaticamente da chiunque si connetta al server.
 
-### Mappe
+#### 5.3. Mappe
 
 Tutte le mappe ufficiali del gioco (quindi che non sono mod) non necessitano di essere installate, devi soltanto cambiare il valore del campo `Map` del file `ServerConfig.toml` con una di [queste stringhe](server-maintenance.md#tutti-i-nomi-delle-mappe-vanilla). Per mappe non ufficiali (mod), bisogna fare così:
 
@@ -214,22 +236,33 @@ La mappa, come tutte le altre mod, verrà scaricata automaticamente da chiunque 
 
 Il tuo server con la mappa moddata è pronto!
 
-## Come connettersi a un server
+### 6. Come connettersi a un server
 
 Come tu e altre persone possono connettersi al tuo server.
 
-### Connettersi al proprio server
+#### 6.a. Connettersi al proprio server
 
 Se sei il proprietario del server devi connetterti tramite connessione diretta, per fare questo, clicca il pulsante **Direct Connect** a sinistra della lista dei server. Lascia i parametri predefiniti (IP `127.0.0.1` e porta `30814`) e clicca `Connect`. Se il tuo server è in esecuzione all'esterno della tua LAN devi prima [trovare il suo IP](https://whatismyipaddress.com/) e poi connetterti direttamente.
 
-### Connessione di altre persone al proprio server (Pubblico)
+#### 6.b. Connessione di altre persone al proprio server privato
 
-Chiunque può connettersi al tuo server fintanto che si sia fatto port forwarding (una buona guida è [la seguente](https://www.aranzulla.it/come-aprire-le-porte-del-router-31808.html)). Per connettersi a un server pubblico basta andare sulla lista dei server, cercare il nome del server e cliccare `Connect`. Se non sei sicuro del nome del server, è lo stesso che hai messo nel file `ServerConfig.toml`.
+Avviare il server. Devi condividere l'indirizzo IP e la porta del tuo server alle persone che vuoi che si connettano. Presta attenzione a chi condividi il tuo indirizzo IP! Per connettersi a un server privato clicca il pulsante **Direct Connect** a sinistra della lista dei server, dopodiché inserisci l'indirizzo IP e la porta del server.
 
-### Connessione di altre persone al proprio server (Privato)
+#### 6.c. Connessione di altre persone al proprio server pubblico
 
-Chiunque può connettersi al tuo server fintanto che si sia fatto port forwarding (una buona guida è [la seguente](https://www.aranzulla.it/come-aprire-le-porte-del-router-31808.html)). Per connettersi a un server privato clicca il pulsante **Direct Connect** a sinistra della lista dei server, dopodiché inserisci l'indirizzo IP e la porta del server. Se non sei sicuro di quale sia il tuo IP, puoi verificarlo da [questo sito](https://whatismyipaddress.com/). Se non sei sicuro della porta, è la stessa che hai messo nel file `ServerConfig.toml`.
+Per connettersi a un server pubblico basta andare sulla lista dei server, cercare il nome del server e cliccare `Connect`. Se non sei sicuro del nome del server, è lo stesso che hai messo nel file `ServerConfig.toml`.
+Assicurarsi che i filtri di ricerca siano disabilitati e che la ricerca per mappa sia impostata su "Any".
+Puoi controllare il [Keymaster](https://beammp.com/keymaster) per recuperare l'indirizzo IP.
 
-### Connessione di altre persone al proprio server (Hamachi)
+Nel caso in cui si vede l'errore "Connection Failed!", controllare il launcher per dei codici come 10060, 10061, 10030.
+In questo caso siete sotto CGNAT o qualcosa è andato storto nel passo `1. Port forwarding` o `1.1 Firewall`.
+Per controllare se si è sotto CGNAT, confrontare l'indirizzo IP WAN dalla pagina del router con l'indirizzo IP visibile da [_whatsmyip.org_](https://www.whatsmyip.org/).
+IPv6 **non** è ancora supportato.
+
+#### 6.e. **[POTREBBE NON FUNZIONARE]** Connessione di altre persone al proprio server (Hamachi)
 
 Solo le persone nel tuo network di Hamachi possono connettersi al tuo server, non è necessario fare port forwarding in questo caso. Chi vuole connettersi, dopo essere entrato nel tuo network Hamachi, userà l'IP di Hamachi e la porta predefinita per eseguire una connessione diretta al tuo server. Per maggiori informazioni guarda la nostra guida per gli utenti [Hamachi](https://forum.beammp.com/t/tutorial-how-to-host-a-server-with-logmein-hamachi/52).
+
+## Hai ancora dei problemi?
+
+Apri un thread sul [Forum](https://forum.beammp.com) o sul nostro [server Discord](https://discord.gg/beammp) nel canale `#support`.
