@@ -11,7 +11,7 @@
 In order to get started with development for BeamMP you will need at least:
 
 - BeamNG.drive, installed locally
-- BeamMP,installed locally, at least the launcher, additionally also the server
+- BeamMP, installed locally; at least the launcher, additionally also the server
 - Git, installed locally, and a GitHub.com account
 - A code editor, for example VSCode or notepad++
 
