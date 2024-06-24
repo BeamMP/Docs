@@ -4,7 +4,7 @@
 Basics of setting up the server application
 
 ---
-## **Overview**
+### **Overview**
 
 **Creating a Home Server is free, hosting one with a VPS is easier and more secure**
 
@@ -22,14 +22,16 @@ Note: _The server only supports IPv4\. If you don't know which one you have, loo
 
 Setup consists of the following steps, you should follow all of them.
 
-## 1. Port forwarding
+### 1. Port forwarding
 
 _If you are on a VPS (Virtual Private Server) or Rootserver, you can skip this step. If you're unsure about what a VPS or Rootserver is, you most likely aren't on one._
 
 This step is necessary if you want someone outside of your household to join ("outside of your local network").
 
-### DISCLAIMER:
+#### DISCLAIMER:
+
 By Port forwarding you understand the risks of opening up ports on your home network to the public and therefor void the right to hold BeamMP accountable for any (serious) damages that may happen to you or your household.
+
 Therefore it is recommended to host a Server with one of our partnered Services!
 
 Paid Services
@@ -46,13 +48,15 @@ Paid Services
 
 **any other companies offering BeamMP-Server hosting which aren't listed here are not legit and WILL charge you more than our partners**
 
+*NOTE: if you host your server using one of our partners, the Port Forwarding step is not needed.*
+
 Now back to Port Forwarding. This step is the same for almost every game's server, such as Minecraft Servers, so you can find many tutorials online for this, even for your specific router model. A good full guide is [this tutorial](https://www.noip.com/support/knowledgebase/general-port-forwarding-guide/). Make sure you forward port  **30814**, as **TCP** and **UDP**. 
 
 While the default **Port** you want to “forward” is **30814**, you can choose any other number >1024, but you need to note down what you picked if it's not 30814\. You need to forward both **TCP** and **UDP**.
 It is recommended to stick to the default port as that one is very unlikely to be used by another Service on your PC.
 NOTE: If you are hosting multiple Servers on one machine, each Server needs a different Port. Server 1: 30814, Server 2: 30815 for example.
 
-## 1.1 Firewall
+#### 1.1 Firewall
 
 Depending on your setup, you may need to let BeamMP-Server through your firewall. This is the case on Windows (turning the firewall off does **not** work usually), and on a lot of preinstalled Linux servers. 
 
@@ -60,13 +64,13 @@ There, just like with the port forwarding, you want to allow the BeamMP-Server t
 
 If you have issues, also feel free to ask on our [Forum](https://forum.beammp.com) or on our [Discord server](https://discord.gg/beammp) in the `#support` channel.
 
-## 2. Obtaining an Authentication Key
+### 2. Obtaining an Authentication Key
 
 The “Authentication Key”, often called “AuthKey”, is necessary for making a **public** server, but **should** be done for private servers, too.
 
 You will need a [Discord](https://discord.com) account for this step. This is necessary to prevent spam.
 
-### 2.1. Accessing the keys page
+#### 2.1. Accessing the keys page
 
 Login with Discord to the [Keymaster](https://beammp.com/keymaster).
 From the Keymaster homepage click on "Keys" on the left of the screen:
@@ -75,7 +79,7 @@ From the Keymaster homepage click on "Keys" on the left of the screen:
   ![](../../assets/content/keymaster_homepage.png)
 </figure>
 
-### 2.2. Creating a key
+#### 2.2. Creating a key
 
 To create your key click on the green "+" button in the top right. 
 
@@ -83,7 +87,7 @@ To create your key click on the green "+" button in the top right. 
   ![](../../assets/content/keymaster_new_key.png)
 </figure>
 
-### 2.3. Filling out the key information
+#### 2.3. Filling out the key information
 
 Next, fill out the Server Name field (this is just the key name not the actual name of the server on the list), then click "Create". Example:
 
@@ -101,7 +105,7 @@ It should, in the end, look something like this:
 
 You have a limited number of keys. One key can be used on one server at a time, so you cannot start two servers at the same time with the same key.
 
-### 2.4. Copying the key
+#### 2.4. Copying the key
 
 Now copy the text in the “Key” field, in this example that is `3173a2e-6az0-4542-a3p0-ddqq5ff95558` and hold onto it for the next step. You can do this by clicking the clipboard on the right of the key:
 
@@ -109,11 +113,11 @@ Now copy the text in the “Key” field, in this example that is `3173a2e-6az0-
   ![](../../assets/content/keymaster_copy_key.png)
 </figure>
 
-## 3. Installation
+### 3. Installation
 
 The BeamMP-Server is available for Windows and Linux. The next two sections are dedicated to Windows and Linux each. 
 
-### 3.a. Installation on Windows
+#### 3.a. Installation on Windows
 
 For the Linux installation, see the next step.
 
@@ -127,7 +131,7 @@ Please ensure you have port-forwarded before attempting to host a server at home
 
 Now proceed to step "4\. Configuration".
 
-### 3.b. Installation on Linux
+#### 3.b. Installation on Linux
 
 ##### Using our build (recommended)
 
@@ -149,7 +153,7 @@ Other distributions in addition to the ones that already have a binary [here](ht
 
 At the end, make sure to run your server once with `./BeamMP-Server` and then proceed to the next step.
 
-## 4. Configuration
+### 4. Configuration
 
 Now that you ran the server once, it should have created some files and probably uttered an error or two. This is because we are not yet done. Your folder should have these files:
 
@@ -162,6 +166,7 @@ They might be called “ServerConfig”, “Server” and “BeamMP-Server” (n
 Open the `ServerConfig.toml` with a text editor such as `Notepad`. You can do this with [Right Click] → “Open With…” and then selecting a text editor.
 
 You should see something like this:
+
 ```TOML
 [General]
 AuthKey = ''
@@ -175,6 +180,7 @@ Port = 30814
 Private = false
 ResourceFolder = 'Resources'
 ```
+
 This is your configuration file. It uses a format called TOML. Refer to the [Server Maintenance](server-maintenance.md) section for more info on this file.
 
 For now, we only care about the `AuthKey` field. Between the quotes `''`, you want to paste in your AuthKey you copied in the first step.
@@ -189,61 +195,65 @@ If you picked a different **Port** other than **30814**, make sure to replace it
 
 **IMPORTANT:** Your server will **NOT** show in the server list as long as `Private = True`. _If_ you want it to show in the list, set that to `**Private = False**`.
 
-## 5. Validation
+### 5. Validation
 
 Now run your server again, and see if it spits out any more `[ERROR]` messages. It should just stay open. At this point, you can start BeamMP through the BeamMP-Launcher and you should find your server by the Name you entered in the `ServerConfig.toml` in the server list.
 
-
 ---
 
-### 5.1 How to add mods to your server
+#### 5.1 How to add mods to your server
 
 Vehicle mods and map mods are different to install, but both require you to put them in your server's (`Resources/Client`) folder. Simply slide any mod you want to add in that folder. 
 
-### 5.2 General Mods
+#### 5.2 General Mods
 
 If you only wanted to add modded vehicles, you simply put the zip file of the mod in the `Resources/Client` folder. They will automatically be downloaded by anyone who joins your server.
 
-### 5.3 Maps
+#### 5.3 Maps
 
 All default maps (maps which aren't mods) work out-of-the-box and do not have to be installed. You simply change the `Map` setting in the `ServerConfig.toml` file to any of [these](server-maintenance.md#all-vanilla-maps-names). For any other modded maps, do this:
 
 1.  Put your map's `.zip` file in your server's (`Resources/Client`) folder.
 2.  Next, have a look inside the map's zip file (don't extract it) and open the `levels` folder. In this folder there should be simply one other folder with the name of the map, for example “myawesomedriftmap2021”. Make sure to copy or remember this name _exactly as it is written in that folder's name._
 3.  Open your `ServerConfig.toml`. In the `Map` setting, you should see `/levels/MAPNAME/info.json`, where `MAPNAME` is likely something like `gridmap_v2`. You want to now replace this `MAPNAME` with the name of the folder from the last step, in that example it was `myawesomedriftmap2021`. In the end it should look like this (for this example) and _**should**_ have `/info.json` at the end.
+
 ```TOML
 Map = '/levels/myawesomedriftmap2021/info.json'
 ```
+
 Now, when someone joins your server, it should download the map automatically and work as expected. 
 
 **If this does NOT work**, install the map in your singleplayer BeamNG.drive, launch it and enter the map. Then, open the Console by pressing the `~` (_tilde_) key (if you're on a non-US keyboard, look at the **Toggle System Console** action in the **Options > Controls > Bindings** menu, under the **General Debug** section), and run `print(getMissionFilename())`. This should then show you the name to use. 
 
 That's it! Your modded map should now be available to join!
 
-## 6 How to join your server
+### 6. How to join your server
 
 How you and other people can join your server.
 
-### 6.1a Joining your own server
+#### 6.a. Joining your own server
 
 You must join your server by direct connecting, to do this, click the **Direct Connect Tab** on the left from the server list. Leave the default info in there (should be 127.0.0.1 and a port of 30814) then hit connect.If you server is hosted outside of your house you must [find your IP](https://whatismyipaddress.com/) on that machine and direct connect that way.
 
-### 6.1b Other people joining your server
+#### 6.b. Other people joining your private server
 
-### For private servers:
-Start the Server. You have to give the people the IP Address of your Server. However, be careful sharing your homes public IP Address!
+Start the Server. You have to give the people the IP Address of your Server. However, be careful sharing your homes public IP Address! To join your private server the players must go to the **Direct Connect Tab** in BeamMP, then type your IP and Port.
 
-### For public Servers:
-Start the Server, wait a few minutes and the Server should be in the **Public Servers** List upon searching it by its name entered into the `ServerConfig.toml`
+#### 6.c. Other people joining your public server
+
+To join your public server they can simply go to the server list, type the name of the server, and click connect. If you are unsure of what your server name is, it will be the name you put in the `ServerConfig.toml`.
 Make sure search filters are disabled and the Map set to "Any" if you can't find it.
 You can also check the [Keymaster](https://beammp.com/keymaster) Website for the Servers IP Address.
 
 Should you or your friends experience a "Connection Failed!" Error, check the Launcher Window for codes like 10060, 10061, 10030.
 This means you eihter have a CGNAT IPv4, or you have done something wrong during Step **1 Port Forwarding** or **1.1. Firewall**.
-To check if you have a CGNAT IPv4, look up the WAN IP Address on your routers interface. Compare it to your public IP listed on [_whatsmyip.org_](https://www.whatsmyip.org/)
+To check if you have a CGNAT IPv4, look up the WAN IP Address on your routers interface. Compare it to your public IP listed on [_whatsmyip.org_](https://www.whatsmyip.org/).
 IPv6 Support is **NOT** yet implemented.
+
+#### 6.d. **[MAY NOT WORK]** For private servers (Hamachi):
+
+For someone to join your server, they must be on your Hamachi network, you do not need to be port forwarded for this. After joining your Hamachi network they will use the Hamachi IP and default port to direct connect to your server. For more info see our [Hamachi](https://forum.beammp.com/t/tutorial-how-to-host-a-server-with-logmein-hamachi/52) guide.
 
 ## Still facing issues?
 
 Open a Thread on the [Forum](https://forum.beammp.com) or on our [Discord server](https://discord.gg/beammp) in the `#support` channel.
-
