@@ -5,7 +5,7 @@ hide:
 # Regole della comunità di BeamMP
 
 !!! info
-    *I moderatori giudicano caso per caso, applicando anche regole di buon senso non scritte nero su bianco in questo documento. Se qualcosa non è nelle regole non è detto che non sia moderato.*
+    *I moderatori non sono strettamente legati a queste regole e applicano queste ultime secondo loro discrezioni. In aggiunta a queste regole, si applicano anche le regole delle [community di Discord](https://discord.com/guidelines/) e i [Termini di Servizio](https://discord.com/terms/).*
 	
 ## 1. Regole generali di BeamMP:
 
@@ -28,7 +28,7 @@ Tutte le comunicazioni all'interno di BeamMP devono essere effettuate in inglese
 Questo include il nome del profilo, foto, messaggi di stato o altro contenuto controllato dall'utente che non si allinea alle regole di BeamMP/BeamNG/Discord e ai Termini di Servizio.
 
 ### 1.7 No doxing
-Questo include la diffusione di informazioni personali ("[doxing](<https://it.wikipedia.org/wiki/Doxing>)" (tra cui nomi veri, indirizzi fisici, email, password, account bancari, informazioni di carte di credito, ecc.).
+Questo include la diffusione di informazioni personali ("[doxing](https://it.wikipedia.org/wiki/Doxing)" (tra cui nomi veri, indirizzi fisici, email, password, account bancari, informazioni di carte di credito, ecc.).
 
 ### 1.8 No discussioni di politica
 Questo include discussioni di eventi politici passati o presenti all'esterno della sfera BeamMP/BeamNG o della sfera del gaming in generale. Ci sono posti per discutere di questi argomenti, BeamMP non è uno di questi.
@@ -67,7 +67,7 @@ Questo include chiedere agli altri di rispondere dopo essere stati ignorati o do
 
 ## Come presentare appello ad azioni fatte nei tuoi confronti
 
-**Puoi presentare appello ai ban sul forum, nella [sezione dedicata](<https://forum.beammp.com/category/28/ban-appeal>).**
+**Puoi presentare appello ai ban sul forum, nella [sezione dedicata](https://forum.beammp.com/category/28/ban-appeal).**
 
 Tutti gli appelli sono investigati scrupolosamente, da almeno due (2) membri dello staff/moderatori che non erano coinvolti nel caso in questione. Il membro dello staff che ha emesso il ban potrà commentare, ma non potrà decidere il risultato dell'appello. Il risultato dell'appello al ban è definitivo e non può essere controbattuto. BeamMP si riserva il diritto di ammettere o meno i membri come ritiene opportuno in base alle [Linee guida della comunità BeamMP](https://forum.beammp.com/t/beammp-rules/282059), ai [ToS di Discord](https://discord.com/terms) e ad [altri fattori](https://forum.beammp.com/category/28/ban-appeal).
 
