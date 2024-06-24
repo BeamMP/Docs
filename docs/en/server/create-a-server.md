@@ -41,9 +41,8 @@ Paid Services
 * [WinHeberg](https://winheberg.fr/offres/gaming/beammp?lang=en)
 * [Street Inc](https://billing.streetinc.org/)
 * [Zap Hosting](https://zap-hosting.com/en/beammp-server-hosting/)
-
-Free Services
-* [Connect Hosting](https://connecthosting.net/beammp)
+* [HostHavoc](https://hosthavoc.com/)
+* [PedalHost](https://pedal.host/)
 
 **any other companies offering BeamMP-Server hosting which aren't listed here are not legit and WILL charge you more than our partners**
 
