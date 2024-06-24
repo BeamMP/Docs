@@ -5,7 +5,7 @@ hide:
 # BeamMP Community Rules
 
 !!! info
-    *Moderators can use discretion on a case-by-case basis. Even for things that are not black and white on the list of rules. Just because something is not on the rule list, doesn't mean it can't be moderated.*
+    *BeamMP Staff are not strictly bound by these rules and may operate at their own discretion. In addition to these rules, Discord's [Community Guidelines](https://discord.com/guidelines/) and [Terms of Service](https://discord.com/terms/) apply, and are enforced.*
 
 ## 1. BeamMP General Rules:
 
