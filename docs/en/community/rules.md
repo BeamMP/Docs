@@ -33,8 +33,8 @@ No publishing of personal information (“doxing”) (including, but not limited
 ### 1.8 No Politics
 This includes discussing past or current world events outside of BeamMP/BeamNG or gaming as a whole. There are places for valid discussion of these topics but BeamMP is not one of them.
 
-### 1.9 No advertising Non-BeamMP/BeamNG Content
-This includes non-BeamMP communities, social media channels or other external links.
+## 1.9 No advertising Non-BeamMP/BeamNG Content
+This includes non-BeamMP communities, social media channels or other external links.  This applies to posting within the BeamMP community, as well as sending users unsolicited DM's for the purpose of personal advertising.
 
 ### 1.10 No Impersonating Staff
 This includes claiming to be a staff member of BeamMP, or claiming to have the abilities associated with being a staff member. This also includes the imitation of staff members.
