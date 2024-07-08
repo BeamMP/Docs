@@ -37,6 +37,7 @@ Facendo il port forwarding sei a conoscenza dei rischi legati ad aprire le porte
 Sapendo ciò, è raccomandato per gli utenti meno esperti di utilizzare uno dei seguenti partner di hosting:
 
 Servizi a pagamento:
+
 * [Horizon Hosting](https://hrzn.link/beammp)
 * [Racing Game Servers](https://racinggameservers.com/games/beamng-drive/)
 * [Snakecraft Hosting](https://schost.us/beammp-plans)
