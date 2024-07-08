@@ -34,7 +34,8 @@ By Port forwarding you understand the risks of opening up ports on your home net
 
 Therefore it is recommended to host a Server with one of our partnered Services!
 
-Paid Services
+Paid Services:
+
 * [Horizon Hosting](https://hrzn.link/beammp)
 * [Racing Game Servers](https://racinggameservers.com/games/beamng-drive/)
 * [Snakecraft Hosting](https://schost.us/beammp-plans)
@@ -46,7 +47,7 @@ Paid Services
 * [HostHavoc](https://hosthavoc.com/)
 * [PedalHost](https://pedal.host/)
 
-**any other companies offering BeamMP-Server hosting which aren't listed here are not legit and WILL charge you more than our partners**
+**Any other companies offering BeamMP-Server hosting which aren't listed here are not legit and WILL charge you more than our partners**
 
 *NOTE: if you host your server using one of our partners, the Port Forwarding step is not needed.*
 
