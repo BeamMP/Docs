@@ -949,22 +949,6 @@ Cancellable: YES
 Triggered when a player edits their vehicle and applies the edit. The `data` argument contains the car's change config as json. When cancelled, the edit is not applied.
 
 ##### `onVehicleDeleted`
- Lua, among other things.
-
-Custom Commands
-In order to implement custom commands for the server console, the event onConsoleInput can be used. This can be useful when you want to add a way for the server owner to signal something to your plugin, or to display internal state in a custom way.
-
-Here’s an example:
-
-function handleConsoleInput(cmd)
-    local delim = cmd:find(' ')
-    if delim then
-        local message = cmd:sub(delim+1)
-        if cmd:sub(1, delim-1) == "print" then
-            return message
-        end
-    end
-end
 
 Arguments: `player_id: number`, `vehicle_id: number`
 Cancellable: NO
