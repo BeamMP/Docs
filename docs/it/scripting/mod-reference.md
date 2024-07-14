@@ -1,4 +1,4 @@
-!!! Attenzione "Questo sito è ancora in costruzione"
+!!! warning "Questo sito è ancora in costruzione"
 
 	Questo sito è in fase di lavorazione.
 	
