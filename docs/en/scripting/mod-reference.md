@@ -14,11 +14,11 @@ BeamMP allows you to create your own client side plugins as well. We have provid
 
 List of available functions for scripting:
 
-| Function                                  | Notes                                                                                                                                                                                 |
-|-------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `TriggerServerEvent("eventName", "data")` | Triggers an event in the server lua environment, both parameters are strings.                                                                                                         |
-| `TriggerClientEvent("eventName", "data")` | Triggers an event in the local lua environment, both parameters are strings. Good for communication between plugins.                                                                  |
-| `AddEventHandler("eventName", Function)`  | Adds the 2nd parameter to the table to be called when eventName is received (either locally or from the server), `Function` will get 1 parameter, a string containing the event data. |
+| Function                                  | Notes                                                                                                                                                                                   |
+|-------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `TriggerServerEvent("eventName", "data")` | Triggers an event in the server lua environment, both parameters are strings.                                                                                                           |
+| `TriggerClientEvent("eventName", "data")` | Triggers an event in the local lua environment, both parameters are strings. Good for communication between plugins.                                                                    |
+| `AddEventHandler("eventName", Function)`  | Adds the 2nd parameter to the table to be called when `eventName` is received (either locally or from the server), `Function` will get 1 parameter, a string containing the event data. |
 
 # Code snippets
 
