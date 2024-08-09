@@ -30,7 +30,7 @@ This step is necessary if you want someone outside of your household to join ("o
 
 #### DISCLAIMER:
 
-By Port forwarding you understand the risks of opening up ports on your home network to the public and therefor void the right to hold BeamMP accountable for any (serious) damages that may happen to you or your household.
+By Port forwarding you understand the risks of opening up ports on your home network to the public and therefore void the right to hold BeamMP accountable for any (serious) damages that may happen to you or your household.
 
 Therefore it is recommended to host a Server with one of our partnered Services!
 
