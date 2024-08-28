@@ -22,7 +22,7 @@ The Client is not officially  supported on Linux. However, you might be able to 
 ---
 #### **Why is the launcher flagged by my antivirus or by Windows Defender**
 
-For BeamMP to be a trusted source for various Antivirus programs, a very expensive licecence would be needed.
+For BeamMP to be a trusted source for various Antivirus programs, a very expensive licence would be needed.
 Some antivirus prgroams may flag BeamMP as a threat, due to it interacting with the network and other stuff. There are **no viruses** in any of the code. The code for the launcher, server, and lua client can be found on our [GitHub](https://github.com/BeamMP).
 
 ---
