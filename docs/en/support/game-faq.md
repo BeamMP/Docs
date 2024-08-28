@@ -12,7 +12,7 @@ There is a full guide on how to install BeamMP on Windows, you can find it [here
 ---
 #### **Does BeamMP work on a cracked version of BeamNG?**
 
-BeamMP does not work with cracked versions or outdated versions of BeamNG.drive. If you want to use BeamMP, you need to own a legit copy of BeamNG.Drive off Steam.
+BeamMP does not work with cracked versions or outdated versions of BeamNG.drive. If you want to use BeamMP, you need to own a legitimate copy of BeamNG.Drive from Steam.
 
 ---
 #### **Does BeamMP work on linux?**
