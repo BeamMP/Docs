@@ -720,13 +720,13 @@ Please always use `/` as a separator when specifying paths, as this is cross-pla
 
 Creates the specified directory, and any parent directories if they don't exist. Behavior is roughly equivalent to the common linux command `mkdir -p`.
 
-Returns whether the operation had an error, and, if it *did*, an error message. This means that, if `true` is returned, an error occurred.
+If successful, returns `true` and `""`. If creating the directory failed, `false` and an error message (`string`) is returned.
 
 Example:
 ```lua
-local error, error_message = FS.CreateDirectory("data/mystuff/somefolder")
+local success, error_message = FS.CreateDirectory("data/mystuff/somefolder")
 
-if error then
+if not success then
 	print("failed to create directory: " .. error_message)
 else
 	-- do something with the directory
