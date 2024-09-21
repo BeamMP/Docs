@@ -731,6 +731,11 @@ if not success then
 else
 	-- do something with the directory
 end
+
+-- Be careful not to do this! This will ALWAYS be true!
+if error_message then
+	-- ...
+end
 ```
 
 #### `FS.Remove(path: string) -> bool,string`
