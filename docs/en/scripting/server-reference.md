@@ -904,7 +904,14 @@ Triggered when the server shuts down. Currently happens after all players were k
 Arguments: `player_name: string`, `player_role: string`, `is_guest: bool`, `identifiers: table -> beammp, ip`
 Cancellable: YES
 
-First event that gets triggered when a player wants to join.
+First event that gets triggered when a player wants to join. A player can be denied from joining by returning `1` or a reason (`string`) from the handler function.
+
+```lua
+function myPlayerAuthorizer(name, role, is_guest, identifiers)
+	return "Sorry, you cannot join at this time."
+end
+MP.RegisterEvent("onPlayerAuth", "myPlayerAuthorizer")
+```
 
 ##### `onPlayerConnecting`
 
