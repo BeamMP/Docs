@@ -12,7 +12,7 @@ There is a full guide on how to install BeamMP on Windows, you can find it [here
 ---
 #### **Does BeamMP work on a cracked version of BeamNG?**
 
-BeamMP does not work with cracked versions or outdated versions of BeamNG.drive. If you want to use BeamMP, you need to own a legitimate copy of BeamNG.Drive from Steam.
+BeamMP is not guaranted not work with cracked versions or outdated versions of BeamNG.drive.
 
 ---
 #### **Does BeamMP work on linux?**
@@ -22,8 +22,7 @@ The Client is not officially  supported on Linux. However, you might be able to 
 ---
 #### **Why is the launcher flagged by my antivirus or by Windows Defender**
 
-For BeamMP to be a trusted source for various Antivirus programs, a very expensive licence would be needed.
-Some antivirus prgroams may flag BeamMP as a threat, due to it interacting with the network and other stuff. There are **no viruses** in any of the code. The code for the launcher, server, and lua client can be found on our [GitHub](https://github.com/BeamMP).
+Some antivirus programs may flag BeamMP as a threat, due to it interacting with the network and other stuff. There are **no viruses** in any of the code. The code for the launcher, server, and lua client can be found on our [GitHub](https://github.com/BeamMP).
 
 ---
 #### **I have poor gameplay performance, what should I do?**
@@ -48,7 +47,7 @@ Before making any changes, keep in mind that the code is subject to our [Terms o
 ---
 #### **I have found a bug or an exploit what should I do?**
 
-If the issue is code related and you know how to use Github, create a new "Issue" in the appropriate repository on our [GitHub](https://github.com/BeamMP). We use an issue-based workflow so even if you already have a fix for the bug, consider opening a new "Issue", then request a "Pull Request" with the solutions for the issue. More info on contributing can be found [here](https://github.com/BeamMP/BeamMP/blob/development/CONTRIBUTING.md).
+If the issue is code related and you know how to use Github, open a new "Issue" in the appropriate repository on our [GitHub](https://github.com/BeamMP). We use an issue-based workflow so even if you already have a fix for the bug, consider opening a new "Issue", then open a "Pull Request" with the solutions for the issue. More info on contributing can be found [here](https://github.com/BeamMP/BeamMP/blob/development/CONTRIBUTING.md).
 
 If you don't have a GitHub account or you don't know how to use GitHub or have any other questions, you can get in touch with us in the following ways:
 
