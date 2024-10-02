@@ -181,7 +181,7 @@ Vergib deinem Server einen Namen im `Name` Feld. Du kannst diesen mit Farbe und 
 
 Wenn du einen anderen **Port** als **30814** ausgewählt hast, achte darauf, ihn hier unter `Port` zu ersetzen.
 
-**WICHTIG:** Der Server wird **NICHT** in der Serverliste angezeigt, solange `Private = True` ist. *Wenn* du möchtest, dass er in der Liste angezeigt wird, setze dies auf **`Private = False`**.
+**WICHTIG:** Der Server wird **NICHT** in der Serverliste angezeigt, solange `Private = true` ist. *Wenn* du möchtest, dass er in der Liste angezeigt wird, setze dies auf **`Private = false`**.
 
 ## 5. Validierung
 
