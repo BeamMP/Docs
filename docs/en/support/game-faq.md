@@ -12,7 +12,7 @@ There is a full guide on how to install BeamMP on Windows, you can find it [here
 ---
 #### **Does BeamMP work on a cracked version of BeamNG?**
 
-BeamMP is not guaranted not work with cracked versions or outdated versions of BeamNG.drive.
+BeamMP is not guaranted to work with cracked versions or outdated versions of BeamNG.drive.
 
 ---
 #### **Does BeamMP work on linux?**
@@ -27,7 +27,7 @@ Some antivirus programs may flag BeamMP as a threat, due to it interacting with 
 ---
 #### **I have poor gameplay performance, what should I do?**
 
-We are working hard to make the Multiplayer experience as stable as possible. If you have already lowered your graphic settings and your performance is still poor, consider playing on a server with less players. The game is mainly CPU bound when you play with lots of people, so older CPUs (even quadcores) will suffer with more than a handful of people. (1 Car uses one CPU Thread)
+We are working hard to make the Multiplayer experience as stable as possible. If you have already lowered your graphic settings and your performance is still poor, consider playing on a server with less players. The game is mainly CPU bound when you play with lots of people, so older CPUs (even quadcores) will suffer with more than a handful of people. (General Rule of Thumb: 1 car per CPU Thread)
 
 ---
 ## **Miscellaneous**
