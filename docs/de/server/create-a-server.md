@@ -49,7 +49,7 @@ Kostenpflichtige Server:
 - [HostHavoc](https://hosthavoc.com/)
 - [PedalHost](https://pedal.host/)
 
-**Alle anderen Unternehmen, die BeamMP-Server-Hosting anbieten und hier nicht aufgeführt sind, sind nicht seriös und berechnen Ihnen mehr als unsere Partner**
+**Alle anderen Unternehmen, die BeamMP-Server-Hosting anbieten und hier nicht aufgeführt sind, sind nicht seriös und berechnen dir möglicherweise mehr als unsere Partner**
 
 *HINWEIS: Wenn du einen Server über einen unserer Partner hostest, ist der Schritt zur Portweiterleitung nicht erforderlich.*
 
@@ -207,7 +207,7 @@ Wenn du nur modifizierte Fahrzeuge hinzufügen möchtest, lege die Zip-Datei der
 
 #### 5.3 Karten
 
-Alle Standardkarten (Karten, die keine Mods sind) funktionieren sofort und müssen nicht installiert werden. Du änderst einfach die `Karte` in der `ServerConfig.toml` Datei auf eine der [folgenden](server-maintenance.md#all-vanilla-maps-names) . Für alle anderen modifizierten Karten gehen Sie wie folgt vor:
+Alle Standardkarten (Karten, die keine Mods sind) funktionieren sofort und müssen nicht installiert werden. Du änderst einfach die `Map` in der `ServerConfig.toml` Datei auf eine der [folgenden](server-maintenance.md#all-vanilla-maps-names) . Für alle anderen modifizierten Karten gehen Sie wie folgt vor:
 
 1. Legen die `.zip` Datei der Karte in den Ordner <br> `Resources/Client` des Servers.
 2. Sieh dir als Nächstes in die Zip-Datei der Karte (entpacke sie nicht) und öffne den Ordner „ `levels` “. In diesem Ordner sollte sich lediglich ein weiterer Ordner mit dem Namen der Karte befinden, zum Beispiel „myawesomedriftmap2021“. Achte darauf, diesen Namen *genau so zu kopieren oder zu merken, wie er im Namen dieses Ordners geschrieben ist.*
