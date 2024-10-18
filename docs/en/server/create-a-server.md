@@ -37,12 +37,10 @@ Therefore it is recommended to host a Server with one of our partnered Services!
 Paid Services:
 
 * [Horizon Hosting](https://hrzn.link/beammp)
-* [Racing Game Servers](https://racinggameservers.com/games/beamng-drive/)
 * [Snakecraft Hosting](https://schost.us/beammp-plans)
 * [Connect Hosting](https://connecthosting.net/beammp)
 * [Assetto Hosting](https://assettohosting.com/en/games/beamng)
 * [WinHeberg](https://winheberg.fr/offres/gaming/beammp?lang=en)
-* [Street Inc](https://billing.streetinc.org/)
 * [Zap Hosting](https://zap-hosting.com/en/beammp-server-hosting/)
 * [HostHavoc](https://hosthavoc.com/)
 * [PedalHost](https://pedal.host/)
