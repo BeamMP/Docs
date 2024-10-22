@@ -8,13 +8,13 @@ Liste häufig gestellter Fragen und bekannter Probleme.
 
 ---
 
-#### **How can I setup my own servers**
+#### **Wie kann ich meine eigenen Server einrichten?**
 
 Alle Informationen um einen eigenen Server zu erstellen findest du [hier](https://docs.beammp.com/server/create-a-server/).
 
 ---
 
-#### **Can you make a server using linux?**
+#### **Kann man unter Linux einen Server erstellen?**
 
 Wir bieten Binaries für mehrere Linux Distributionen [hier](https://github.com/BeamMP/BeamMP-Server/releases/latest) an. Wenn es keine Binaries für dein OS oder deine Distro gibt, kannst du diese selber bauen, indem du dir die Source von unserem [GitHub](https://github.com/BeamMP/BeamMP-Server) runter lädst. Ein Tutorial kannst du [hier](https://github.com/BeamMP/BeamMP-Server#build-instructions) finden.
 
