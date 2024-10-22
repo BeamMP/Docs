@@ -4,7 +4,7 @@ Liste häufig gestellter Fragen und bekannter Fehler.
 
 ---
 
-## **Client**
+## **Spiel/Client**
 
 ---
 
@@ -16,17 +16,17 @@ Eine vollständige Anleitung zur Installation von BeamMP unter Windows findet ma
 
 #### **Funktioniert BeamMP mit einer gecrackten Version von BeamNG?**
 
-BeamMP does not work with cracked versions or outdated versions of BeamNG.drive. If you want to use BeamMP please consider buying the game.
+BeamMP funktioniert nicht mit gecrackten oder veralteten Versionen von BeamNG.drive. Wenn Sie BeamMP nutzen möchten, denken Sie bitte über den Kauf des Spiels nach.
 
 ---
 
 #### **Funktioniert BeamMP unter Linux?**
 
-The Client is not officially  supported on Linux. However, you might be able to get it working by running the launcher in the same proton prefix as the game.
+BeamMP wird unter Linux nicht offiziell unterstützt. Möglicherweise können Sie es jedoch zum Laufen bringen, indem Sie den Launcher mit demselben Proton-Präfix wie das Spiel ausführen.
 
 ---
 
-#### **Why is the launcher flagged by my antivirus or by Windows Defender**
+#### **Warum wird der Launcher von meinem Antivirenprogramm oder Windows Defender als Virus erkannt?**
 
 Um nicht als Virus erkannt zu werden, müsste BeamMP eine teure Lizenz kaufen. Daher kann es sein, dass BeamMP durch Antivirus Programme als Bedrohung erkannt, oder blockiert wird.
 
@@ -34,9 +34,9 @@ Einige Antivirenprogramme markieren BeamMP als Virus, da es mit dem Netzwerk und
 
 ---
 
-#### **I have poor performance, what should I do?**
+#### **Meine Spieleleistung ist schlecht, was soll ich tun?**
 
-We are working hard to make performance as good as possible. Sadly, there isn't a lot you can do about it, if you have already lowered your graphic settings and your performance is still poor, consider playing on a server with less players. The game is mainly CPU bound when you play with lots of people, so older CPUs (even quadcores) will suffer with more than a handful of people.
+Wir arbeiten hart daran, die Leistung so gut wie möglich zu machen. Leider können Sie nicht viel dagegen tun. Wenn Sie Ihre Grafikeinstellungen bereits gesenkt haben und Ihre Leistung immer noch schlecht ist, sollten Sie überlegen, auf einem Server mit weniger Spielern zu spielen. Das Spiel ist hauptsächlich auf die CPU angewiesen wenn Sie mit vielen Leuten spielen, sodass ältere CPUs (sogar Quadcore-Prozessoren) bei mehr als einer Handvoll Leuten Probleme haben.
 
 ---
 
@@ -63,4 +63,4 @@ Wenn das Problem mit dem Code zusammenhängt und du weißt, wie man Github verwe
 Wenn du kein GitHub-Konto hast oder nicht weißt, wie du GitHub verwendest, kannst du auf folgende Weise mit uns Kontakt aufnehmen:
 
 - Wenn es sich nicht um etwas Sensibles handelt, können Sie einen Beitrag in unserem [BeamMP-Forum](https://forum.beammp.com) erstellen oder dies auf unserem [offiziellen Discord](https://discord.gg/beammp) melden.
-- If the information is sensitive you can directly report the issue to a Staff member on our [Discord](https://discord.gg/beammp).
+- Wenn die Informationen vertraulich sind, können Sie das Problem direkt einem Teammitglied auf unserem [Discord](https://discord.gg/beammp) melden.
