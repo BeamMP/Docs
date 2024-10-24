@@ -15,7 +15,7 @@ Please ensure you do the following to automatically receive your perks:
 1. Link your Discord account on Patreon to receive the Roles and Access in the Discord server.
 2. Please ensure you use the same email address on Patreon as you do for your BeamMP account on the [Forum](https://forum.beammp.com/).
 
-Please be patient, the system checks approximately every 4 hours. If you have not received your perks after 12 hours and have completed the above steps please contact BeamMP support.
+Please be patient, the system checks approximately every 6 hours. If you have not received your perks after 12 hours and have completed the above steps please contact BeamMP support.
 
 ## I have more questions!
 
