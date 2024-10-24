@@ -203,7 +203,7 @@ Dai anche un nome al tuo server tramite il campo `Name`. Puoi utilizzare colori 
 
 Se hai scelto una **porta** differente da **30814** inseriscila al posto di quella predefinita in `Port`.
 
-**IMPORTANTE:** Il tuo server **non** sarà visibile sulla lista di server fintanto che `Private = true`. *Se* vuoi rendere visibile su tale lista il tuo server, metti `Private = false`.
+**IMPORTANTE:** Il tuo server **non** sarà visibile sulla lista di server fintanto che `Private = true`. *Se* vuoi rendere visibile su tale lista il tuo server, metti **`Private = false`**.
 
 ### 5. Verifica di corretto funzionamento
 

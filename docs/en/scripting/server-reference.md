@@ -720,16 +720,21 @@ Please always use `/` as a separator when specifying paths, as this is cross-pla
 
 Creates the specified directory, and any parent directories if they don't exist. Behavior is roughly equivalent to the common linux command `mkdir -p`.
 
-Returns whether the operation had an error, and, if it *did*, an error message. This means that, if `true` is returned, an error occurred.
+If successful, returns `true` and `""`. If creating the directory failed, `false` and an error message (`string`) is returned.
 
 Example:
 ```lua
-local error, error_message = FS.CreateDirectory("data/mystuff/somefolder")
+local success, error_message = FS.CreateDirectory("data/mystuff/somefolder")
 
-if error then
+if not success then
 	print("failed to create directory: " .. error_message)
 else
 	-- do something with the directory
+end
+
+-- Be careful not to do this! This will ALWAYS be true!
+if error_message then
+	-- ...
 end
 ```
 
@@ -904,7 +909,14 @@ Triggered when the server shuts down. Currently happens after all players were k
 Arguments: `player_name: string`, `player_role: string`, `is_guest: bool`, `identifiers: table -> beammp, ip`
 Cancellable: YES
 
-First event that gets triggered when a player wants to join.
+First event that gets triggered when a player wants to join. A player can be denied from joining by returning `1` or a reason (`string`) from the handler function.
+
+```lua
+function myPlayerAuthorizer(name, role, is_guest, identifiers)
+	return "Sorry, you cannot join at this time."
+end
+MP.RegisterEvent("onPlayerAuth", "myPlayerAuthorizer")
+```
 
 ##### `onPlayerConnecting`
 

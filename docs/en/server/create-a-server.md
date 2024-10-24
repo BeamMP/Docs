@@ -37,12 +37,10 @@ Therefore it is recommended to host a Server with one of our partnered Services!
 Paid Services:
 
 * [Horizon Hosting](https://hrzn.link/beammp)
-* [Racing Game Servers](https://racinggameservers.com/games/beamng-drive/)
 * [Snakecraft Hosting](https://schost.us/beammp-plans)
 * [Connect Hosting](https://connecthosting.net/beammp)
 * [Assetto Hosting](https://assettohosting.com/en/games/beamng)
 * [WinHeberg](https://winheberg.fr/offres/gaming/beammp?lang=en)
-* [Street Inc](https://billing.streetinc.org/)
 * [Zap Hosting](https://zap-hosting.com/en/beammp-server-hosting/)
 * [HostHavoc](https://hosthavoc.com/)
 * [PedalHost](https://pedal.host/)
@@ -194,7 +192,7 @@ Give your server a name, too, in the `Name` field. You can format this with colo
 
 If you picked a different **Port** other than **30814**, make sure to replace it here under `Port`.
 
-**IMPORTANT:** Your server will **NOT** show in the server list as long as `Private = True`. _If_ you want it to show in the list, set that to `**Private = False**`.
+**IMPORTANT:** Your server will **NOT** show in the server list as long as `Private = true`. _If_ you want it to show in the list, set that to **`Private = false`**.
 
 ### 5. Validation
 
