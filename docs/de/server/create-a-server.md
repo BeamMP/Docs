@@ -6,7 +6,7 @@ Die Grundlagen für das Erstellen eines Servers
 
 ---
 
-### **Übersicht**
+## **Übersicht**
 
 **Von Zuhause aus einen Server anzubieten ist kostenlos. Einen externen VPS zu verwenden ist jedoch meist leichter und wesentlich sicherer!**
 
@@ -24,13 +24,13 @@ Achtung: Der Server unterstützt nur IPv4 . Wenn du dir nicht sicher bist, welch
 
 Das Aufsetzten besteht aus ein paar Schritten. Du solltest unbedingt alle befolgen.
 
-### 1. Port Weiterleitung
+## 1. Port Weiterleitung
 
 *Wenn du auf einem VPS (Virtual Private Server) oder Rootserver bist, kannst du den folgenden Schritt überspringen. Wenn du nicht weißt was ein VPS oder Rootserver ist, bist du warscheinlich auch auf keinem.*
 
 Dieser Schritt ist wichtig, wenn jemand außerhalb des Heim-Netzwerks deinem Server beitreten möchte.
 
-#### ACHTUNG:
+### ACHTUNG:
 
 Durch die Portweiterleitung bist du dir der Risiken bewusst, die mit der  Öffnung von Ports in dein Heimnetzwerk verbunden sind. Daher erlischt das Recht, BeamMP für etwaige (schwerwiegende) Schäden haftbar zu machen, die dir oder Ihrem Haushalt entstehen können.
 
@@ -57,7 +57,7 @@ Nun zurück zu Port Forwarding. Dieser Schritt ist derselbe wie für fast alle a
 
 Der **Standard-Port** für BeamMP ist **30814**, wenn nötig kann jedoch auch ein anderer Port statt 30814 gewählt werden, sollte aber nicht unterhalb von 1024 sein. Der Port muss sowohl auf **TCP** wie auch auf **UDP** weitergeleitet werden. Es ist zu empfehlen den Port bei 30814 zu belassen, da es hier am unwahrscheinlichsten ist, dass ein anderer Service diesen Port verwendet. ACHTUNG: Wenn du mehrere Server auf einem Computer hostest, benötigt jeder Server einen eigenen Port. Beispiel: Server 1: 30814, Server 2: 30815.
 
-#### 1.1 Firewall
+### 1.1 Firewall
 
 Abhängig von deinem Setup, muss in der Firewall eine Ausnahme für den BeamMP-Server erstellt werden. Dies ist der Fall bei Windows (das ausschalten der Firewall funktioniert meistens **nicht**) und auf vielen vorinstallierten Linux Servern.
 
@@ -65,13 +65,13 @@ Sowohl Ein- als auch Ausgehende Verbindungen auf **TCP** und **UDP** müssen als
 
 Wenn du Probleme hast, frag auf unserem [Forum](https://forum.beammp.com) oder dem[Discord Server](https://discord.gg/beammp) im `#support` Kanal.
 
-### 2. Authentifizierungsschlüssel
+## 2. Authentifizierungsschlüssel
 
 Der Authentifizierungsschlüssel, auch “Authentication Key” oder “AuthKey” genannt, ist nötig, um einen Öffentlichen Server zu erstellen. Für einen privaten Server benötigst du nicht zwingend einen offiziellen Schlüssel, jedoch darf das Feld in der Konfigurationsdatei nicht leer gelassen werden.
 
 Um einen Schlüssel zu erwerben ist ein [Discord](https://discord.com) Konto erforderlich. Das ist wichtig um gegen Spam zu schützen.
 
-#### 2.1. Die Schlüssel-Übersicht öffnen
+### 2.1. Die Schlüssel-Übersicht öffnen
 
 Melde dich mit Discord beim [Keymaster](https://beammp.com/keymaster) an. Klicke auf der Keymaster-Homepage links auf dem Bildschirm auf „Keys“:
 
@@ -85,7 +85,7 @@ Um einen Schlüssel zu erstellen, klicke oben rechts auf die grüne Schaltfläch
 
 <figure markdown="">   ![](../../assets/content/keymaster_new_key.png) </figure>
 
-#### 2.3. Schlüssel-Informationen eingeben
+### 2.3. Schlüssel-Informationen eingeben
 
 Fülle das Feld „Servername“ aus (dies dient nur zur Information für dich, damit zu einem späteren Zeitpunkt ein Schlüssel einem Server zugeordnet werden kann) und klicke dann auf „Erstellen“. Beispiel:
 
@@ -101,18 +101,18 @@ es sollte am Ende wie folgt aussehen:
 
 Du hast die Möglichkeit, zwei kostenlose Schlüssel zu erstellen. Ein Schlüssel kann jeweils nur auf einem aktiven Server gleichzeitig verwendet werden. Du kannst also nicht zwei Server gleichzeitig mit demselben Schlüssel betreiben.
 
-#### 2.4. Den Schlüssel kopieren
+### 2.4. Den Schlüssel kopieren
 
 Kopiere den Text im “Key” Feld. In diesem Beispiel wäre das  `3173a2e-6az0-4542-a3p0-ddqq5ff95558`. Klicke das ,,Klemmbrett Symbol" neben dem Schlüssel um diesen zu kopieren.
 
 
 <figure markdown="">   ![](../../assets/content/keymaster_copy_key.png) </figure>
 
-### 3. Installation
+## 3. Installation
 
 Es gibt Server-Anwendungen für Windows und Linux. Die folgenden zwei Abschnitte widmen sich Windows und Linux separat.
 
-#### 3.a. Installation auf Windows
+### 3.a. Installation auf Windows
 
 Für die Linux Installation, springe zum nächsten Punkt.
 
@@ -126,7 +126,7 @@ Sei sicher, dass du die nötigen Ports weitergeleitet hast. Ansonsten kann niema
 
 Nun springe zu Schritt "4. Konfiguration".
 
-#### 3.b. Installation auf Linux
+### 3.b. Installation auf Linux
 
 ##### Vorgefertigte Binaries verwenden
 
@@ -148,7 +148,7 @@ Andere Distributionen zusätzlich zu denen, für die es [hier](https://github.co
 
 Führe zum Abschluss den Server unbedingt einmal mit `./BeamMP-Server` aus und fahre dann mit dem nächsten Schritt fort.
 
-### 4. Konfiguration
+## 4. Konfiguration
 
 Nachdem der Server einmal gestartet wurde, sollte er die nötigen Dateien erstellt haben und einen oder zwei Fehler in die Konsole schreiben. Das ist normal, da wir noch nicht fertig sind.<br>Es sollten nun folgende Dateien vorhanden sein:
 
@@ -197,15 +197,15 @@ Nun führe den Server nochmal aus und prüfe, ob er weitere `[ERROR]` Zeilen aus
 
 ---
 
-#### 5.1 Wie man dem Server Mods hinzufügt
+### 5.1 Wie man dem Server Mods hinzufügt
 
 Fahrzeug und Map Mods werden unterschiedlich im Server installiert, müssen aber beide im Ordner  (`Resources/Client`) abelegt werden. Alle Mods die hinzugefügt werden sollen kommen in diesen Ordner.
 
-#### 5.2 Allgemeine Mods
+### 5.2 Allgemeine Mods
 
 Wenn du nur modifizierte Fahrzeuge hinzufügen möchtest, lege die Zip-Datei der Mods einfach in den Ordner `Resources/Client`. Diese werden automatisch von jedem heruntergeladen, der dem Server beitritt.
 
-#### 5.3 Karten
+### 5.3 Karten
 
 Alle Standardkarten (Karten, die keine Mods sind) funktionieren sofort und müssen nicht installiert werden. Du änderst einfach die `Map` in der `ServerConfig.toml` Datei auf eine der [folgenden](server-maintenance.md#all-vanilla-maps-names) . Für alle anderen modifizierten Karten gehen Sie wie folgt vor:
 
@@ -223,25 +223,25 @@ Wenn jemand deinem Server beitritt, sollte die Karte automatisch heruntergeladen
 
 Das wärs! Die modifizierte Karte sollte jetzt geladen werden!
 
-### 6. Dem eigenen Server beitreten
+## 6. Dem eigenen Server beitreten
 
 Wie du und andere Personen deinem Server beitreten können.
 
-#### 6.a. Dem eigenen Server beitreten
+### 6.a. Dem eigenen Server beitreten
 
 Du solltest dich per Direktverbindung mit dem Server verbinden, auch wenn dieser öffentlich ist. Klicke dazu links neben der Serverliste auf die **Registerkarte „Direktverbindung“** . Lasse die Standardinformationen dort (sollte 127.0.0.1 und Port 30814 sein) und klicke dann auf „Verbinden“. Wenn der Server außerhalb des Hauses gehostet wird, musst du [die IP auf diesem Computer finden](https://whatismyipaddress.com/) und auf diese Weise eine Direktverbindung herstellen.
 
-#### 6.b. Andere Personen, die die privaten Server beitreten
+### 6.b. Andere Personen, die die privaten Server beitreten
 
 Starte den Server. Du  musst den Personen die IP-Adresse deines Servers geben. Sei jedoch vorsichtig, mit wem du deine öffentliche IP-Adresse deines Zuhauses weitergibst! Um dem privaten Server beizutreten, müssen die Spieler in BeamMP zur **Registerkarte „Direktverbindung“** gehen und dann deine IP und den Port eingeben.
 
-#### 6.c. Andere Personen, die deinem öffentlichen Server beitreten
+### 6.c. Andere Personen, die deinem öffentlichen Server beitreten
 
 Um deinem öffentlichen Server beizutreten, kannst du einfach zur Serverliste gehen, den Namen des Servers eingeben und auf „Verbinden“ klicken. Wenn du dir nicht sicher bist, wie der Servername lautet, ist es der Name, welcher in der  `ServerConfig.toml` hinterlegt ist. Stelle sicher, dass Suchfilter deaktiviert sind und die Karte auf „Beliebig“ eingestellt ist, wenn der Server nicht auftaucht. Man kann die IP-Adresse des Servers auch auf der [Keymaster-](https://beammp.com/keymaster) Website überprüfen.
 
 Solltest du oder deine Freunde die Fehlermeldung „Verbindung fehlgeschlagen!“ erhalten, suche im BeamMP Fenster nach Codes wie 10060, 10061, 10030. Dies bedeutet, dass dein Router entweder eine CGNAT IPv4 oder IPv6 hat, oder bei Schritt **1 Portweiterleitung** oder **1.1 Firewall etwas falsch gemacht wurde.** Um zu prüfen, ob du eine CGNAT IPv4 hast, suche die WAN-IP-Adresse auf der Schnittstelle des Routers. Vergleiche diese mit Ihrer öffentlichen IP, die auf [*whatsmyip.org*](https://www.whatsmyip.org/) aufgeführt ist. IPv6-Unterstützung ist noch **NICHT** implementiert.
 
-#### 6.d. **[FUNKTIONIERT MÖGLICHERWEISE NICHT]** Für private Server (Hamachi):
+### 6.d. **[FUNKTIONIERT MÖGLICHERWEISE NICHT]** Für private Server (Hamachi):
 
 Damit jemand deinem Server beitreten kann, muss er sich in deinem Hamachi-Netzwerk befinden. Du musst hierfür keine Portweiterleitung durchführen. Nach dem Beitritt zu deinem Hamachi-Netzwerk verwendet der Benutzer die Hamachi-IP und den Standardport, um eine direkte Verbindung zu dem Server herzustellen. Weitere Informationen findest du in diesemr [Hamachi-](https://forum.beammp.com/t/tutorial-how-to-host-a-server-with-logmein-hamachi/52) Anleitung.
 
