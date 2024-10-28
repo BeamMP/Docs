@@ -6,7 +6,9 @@ The bot will respond with a link for you to sign into your BeamMP account. Simpl
 
 ## How do I get early access?
 
-Early access (including the purple nametag and other benefits) can be obtained by supporting us financially on [Patreon](https://patreon.com/BeamMP) or boosting the Discord Server. (Last option gives you +4 Server keys in addition to other in-game benefits).
+Early access (including the purple nametag and other benefits) can be obtained by supporting us financially on [Patreon](https://patreon.com/BeamMP) by buying a tier, donating, or by boosting the Discord Server.
+Donating **x** amount US$ = **x** additional server key(s) including EA benefits.
+Boosting gives you +4 Server keys in addition to EA benefits.
 
 ## I subscribed on Patreon. How do I get my perks?
 
