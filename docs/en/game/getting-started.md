@@ -1,4 +1,4 @@
-ä# Getting Started
+# Getting Started
 
 ---
 ## **Before getting started**
