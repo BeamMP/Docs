@@ -1,4 +1,4 @@
-# Getting Started
+ä# Getting Started
 
 ---
 ## **Before getting started**
@@ -33,6 +33,6 @@ BeamMP should work with `wine`, but is not officially supported (yet).
 - If you don’t see the “Multiplayer” button. Make sure that the BeamMP mod is present and activated in the “Mod Manager” then try pressing CTRL + L.
 - VPNs of any type may cause connection issues.
 - If the Launcher reports any errors, read the [FAQ](https://forum.beammp.com/c/faq/35).
-- The Launcher tends to have issues with non-genuine versions of BeamNG.drive. (Not a BeamMP issue)
+- The Launcher tends to have issues with non-genuine versions of BeamNG.drive.
 
 Should you need further help with installation, you are welcome to create a post on our [forum](https://forum.beammp.com) or ask on our [Discord server](https://discord.gg/beammp).
