@@ -13,6 +13,7 @@ There is a full guide on how to install BeamMP on Windows, you can find it [here
 #### **Does BeamMP work on a cracked version of BeamNG?**
 
 BeamMP is not guaranted to work with cracked versions or outdated versions of BeamNG.drive.
+The BeamMP support team will not assist users when non-genuine copies of the game are being used.
 
 ---
 #### **Does BeamMP work on linux?**
