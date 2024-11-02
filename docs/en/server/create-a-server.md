@@ -18,6 +18,24 @@ Please make sure to read the [LICENSE](https://raw.githubusercontent.com/BeamMP/
 
 Note: _The server only supports IPv4\. If you don't know which one you have, look at the IP address you see on [_whatsmyip.org_](https://www.whatsmyip.org/) - if it contains_ `_:_` _colons, it's **IPv6**. In that case, you should investigate further whether you also have an IPv4\. You can call your ISP to find this out, or ask someone who lives with you (if they're tech-savvy, they might know!). IPv6 support is planned._
 
+## Downloading the Server application
+
+### Using Windows
+
+Download the current release version of the server aaplication from our website https://beammp.com/
+
+Once downloaded, move the application to a folder of your liking, for example C:/beammp_server/
+
+### Using Linux
+
+Download the current release version of the server application from our github repo https://github.com/BeamMP/BeamMP-Server/releases/latest
+
+Choose a build that matches your system. For example, when using Ubuntu 22.04 on a X86 CPU, choose BeamMP-Server.ubuntu.22.04.x86_64
+
+If theres no prebuilt version matching your system, then you need to build it yourself, follow the instructions on the main page of the beammp server github repo https://github.com/BeamMP/BeamMP-Server?tab=readme-ov-file#about-building-from-source
+
+Once downloaded/built, move the application to a folder of your liking, for example /home/USER/beammp_server/
+
 ## Setting up the Server
 
 Setup consists of the following steps, you should follow all of them.
