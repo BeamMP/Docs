@@ -1,10 +1,10 @@
-# F.A.Q. und bekannte Probleme
+# F.A.Q.
 
-Liste häufig gestellter Fragen und bekannter Fehler.
+Liste der öfters auftretenden Fragen.
 
 ---
 
-## **Spiel/Client**
+## **Client**
 
 ---
 
@@ -16,7 +16,7 @@ Eine vollständige Anleitung zur Installation von BeamMP unter Windows findet ma
 
 #### **Funktioniert BeamMP mit einer gecrackten Version von BeamNG?**
 
-BeamMP funktioniert nicht mit gecrackten oder veralteten Versionen von BeamNG.drive. Wenn Sie BeamMP nutzen möchten, denken Sie bitte über den Kauf des Spiels nach.
+BeamMP garantiert nicht, dass es mit gecrackten Versionen von BeamNG.Drive funktioniert.
 
 ---
 
@@ -28,15 +28,13 @@ BeamMP wird unter Linux nicht offiziell unterstützt. Möglicherweise können Si
 
 #### **Warum wird der Launcher von meinem Antivirenprogramm oder Windows Defender als Virus erkannt?**
 
-Um nicht als Virus erkannt zu werden, müsste BeamMP eine teure Lizenz kaufen. Daher kann es sein, dass BeamMP durch Antivirus Programme als Bedrohung erkannt, oder blockiert wird.
-
-Einige Antivirenprogramme markieren BeamMP als Virus, da es mit dem Netzwerk und anderen Dingen interagiert. Der Code enthält **keine Viren** . Der Code für den Launcher, den Server und den Lua-Client ist auf unserem [GitHub](https://github.com/BeamMP) einsehbar.
+Einige Antivirus Programme Melden BeamMP möglicherweise als Bedrohung, weil es mit dem Netzwerk und anderen Komponenten interagiert. Es gibt **keine Schadsoftware** im Code. Der Code für den Launcher, Server und Lua Client können auf unserem [GitHub](https://github.com/BeamMP) gefunden werden.
 
 ---
 
-#### **Meine Spieleleistung ist schlecht, was soll ich tun?**
+#### **Ich habe schlechte Spiel Leistung, was soll ich tun?**
 
-Wir arbeiten hart daran, die Leistung so gut wie möglich zu machen. Leider können Sie nicht viel dagegen tun. Wenn Sie Ihre Grafikeinstellungen bereits gesenkt haben und Ihre Leistung immer noch schlecht ist, sollten Sie überlegen, auf einem Server mit weniger Spielern zu spielen. Das Spiel ist hauptsächlich auf die CPU angewiesen wenn Sie mit vielen Leuten spielen, sodass ältere CPUs (sogar Quadcore-Prozessoren) bei mehr als einer Handvoll Leuten Probleme haben.
+Wir arbeiten hart daran, die Mehrspieler Erfahrung so Stabil wie möglich zu gestalten. Wenn du schon deine Grafik Einstellungen gesenkt hast, aber die Leistung immer noch niedrig ist, versuche auf einem Server mit weniger Spielern zu spielen. Das Spiel ist hauptsächlich CPU gebunden, wenn du mit mehreren Personen spielst, ältere CPUs (sogar quadcores) werden schon unter einer Hand voll an Spielern leiden. (Generelle Daumenregel: 1 Auto pro 1 CPU Thread)
 
 ---
 
@@ -46,7 +44,7 @@ Wir arbeiten hart daran, die Leistung so gut wie möglich zu machen. Leider kön
 
 #### **Wo finde ich den Code?**
 
-Den gesamten Quellcode findet man auf unserem [GitHub](https://github.com/BeamMP) . Bevor Änderungen vorgenommen werden sollen, denke daran, dass der Code unseren [Nutzungsbedingungen](https://forum.beammp.com/t/terms-of-use-v1-0/43) und Lizenzen unterliegt:
+Der gesamte Source Code kann auf unserem [GitHub](https://github.com/BeamMP) gefunden werden. Bevor du Änderungen vornimmst, beachte, dass der Code unseren [Nutzungsbedingungen](https://forum.beammp.com/t/terms-of-use-v1-0/43) und Lizenzen unterliegt:
 
 Code | Lizenz
 --- | :-:
@@ -58,9 +56,9 @@ Client Lua | [LIZENZ](https://github.com/BeamMP/BeamMP/blob/development/LICENSE.
 
 #### **Ich habe einen Fehler oder einen Exploit gefunden, was soll ich tun?**
 
-Wenn das Problem mit dem Code zusammenhängt und du weißt, wie man Github verwendet, erstelle eine neue „Issue“ im entsprechenden Repository auf unserem [GitHub](https://github.com/BeamMP) . Wir verwenden einen Problem-basierten Workflow. Selbst wenn du also bereits eine Lösung für den Fehler hast, solltest du eine „Issue“ öffnen und dann einen „Pull Request“ anfordern, der <br> das „Problem“ löst. Weitere Informationen zum Mitwirken findest du [hier](https://github.com/BeamMP/BeamMP/blob/development/CONTRIBUTING.md) .
+Wenn das Problem etwas mit dem Code zu tun hat, öffne eine neue "Issue" in dem jeweiligen Repository auf unserer [GitHub](https://github.com/BeamMP) Seite. Wir nutzen einen issue-basierten Workflow. Also auch wenn du bereits einen Fix für den Bug hast, erstelle eine neue "Issue", dann einen "Pull Request" mit der Lösung für das Problem. Weitere Informationen, wie du beitragen kannst, findest du [hier](https://github.com/BeamMP/BeamMP/blob/development/CONTRIBUTING.md).
 
-Wenn du kein GitHub-Konto hast oder nicht weißt, wie du GitHub verwendest, kannst du auf folgende Weise mit uns Kontakt aufnehmen:
+Wenn du kein GitHub Konto hast, nicht weiß wie man GitHub verwendet, oder hast andere Fragen, kannst du gerne mit uns in Kontakt über folgende Wege treten:
 
-- Wenn es sich nicht um etwas Sensibles handelt, können Sie einen Beitrag in unserem [BeamMP-Forum](https://forum.beammp.com) erstellen oder dies auf unserem [offiziellen Discord](https://discord.gg/beammp) melden.
-- Wenn die Informationen vertraulich sind, können Sie das Problem direkt einem Teammitglied auf unserem [Discord](https://discord.gg/beammp) melden.
+- Wenn es sich nicht um etwas Sensibles handelt, kannst du einen Beitrag in unserem [BeamMP-Forum](https://forum.beammp.com) erstellen, oder dies auf unserem [offiziellen Discord](https://discord.gg/beammp) melden.
+- Wenn die Informationen vertraulich sind, kannst du das Problem direkt einem Teammitglied auf unserem [Discord](https://discord.gg/beammp) melden.
