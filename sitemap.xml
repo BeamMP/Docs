@@ -1,0 +1,1983 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://docs.beammp.com/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/contributing/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/contributing/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/contributing/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/contributing/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/contributing/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/contributing/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/contributing/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/beamng/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/beamng/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/beamng/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/beamng/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/beamng/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/beamng/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/beamng/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/beamng/snippets/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/beamng/snippets/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/beamng/snippets/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/beamng/snippets/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/beamng/snippets/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/beamng/snippets/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/beamng/snippets/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/beamng/dev/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/beamng/dev/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/beamng/dev/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/beamng/dev/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/beamng/dev/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/beamng/dev/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/beamng/dev/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/beamng/dev/content/maps/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/beamng/dev/content/maps/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/beamng/dev/content/maps/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/beamng/dev/content/maps/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/beamng/dev/content/maps/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/beamng/dev/content/maps/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/beamng/dev/content/maps/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/beamng/dev/content/props/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/beamng/dev/content/props/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/beamng/dev/content/props/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/beamng/dev/content/props/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/beamng/dev/content/props/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/beamng/dev/content/props/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/beamng/dev/content/props/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/beamng/dev/content/vehicles/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/beamng/dev/content/vehicles/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/beamng/dev/content/vehicles/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/beamng/dev/content/vehicles/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/beamng/dev/content/vehicles/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/beamng/dev/content/vehicles/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/beamng/dev/content/vehicles/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/beamng/dev/modding/imgui-windows/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/beamng/dev/modding/imgui-windows/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/beamng/dev/modding/imgui-windows/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/beamng/dev/modding/imgui-windows/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/beamng/dev/modding/imgui-windows/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/beamng/dev/modding/imgui-windows/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/beamng/dev/modding/imgui-windows/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/beamng/dev/modding/lua-mods/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/beamng/dev/modding/lua-mods/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/beamng/dev/modding/lua-mods/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/beamng/dev/modding/lua-mods/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/beamng/dev/modding/lua-mods/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/beamng/dev/modding/lua-mods/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/beamng/dev/modding/lua-mods/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/beamng/dev/modding/ui-apps/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/beamng/dev/modding/ui-apps/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/beamng/dev/modding/ui-apps/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/beamng/dev/modding/ui-apps/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/beamng/dev/modding/ui-apps/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/beamng/dev/modding/ui-apps/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/beamng/dev/modding/ui-apps/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/community/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/community/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/community/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/community/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/community/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/community/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/community/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/community/rules/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/community/rules/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/community/rules/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/community/rules/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/community/rules/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/community/rules/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/community/rules/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/game/error-codes/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/game/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/game/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/game/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/game/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/game/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/game/error-codes/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/game/getting-started/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/game/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/game/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/game/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/game/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/game/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/game/getting-started/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/game/playing/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/game/playing/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/game/playing/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/game/playing/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/game/playing/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/game/playing/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/game/playing/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/game/tailoring/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/game/tailoring/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/game/tailoring/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/game/tailoring/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/game/tailoring/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/game/tailoring/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/game/tailoring/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/guides/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/guides/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/guides/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/guides/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/guides/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/guides/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/guides/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/guides/beammp-dev/beammp-dev/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/guides/beammp-dev/beammp-dev/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/guides/beammp-dev/beammp-dev/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/guides/beammp-dev/beammp-dev/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/guides/beammp-dev/beammp-dev/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/guides/beammp-dev/beammp-dev/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/guides/beammp-dev/beammp-dev/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/guides/mod-creation/client/getting-started/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/guides/mod-creation/client/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/guides/mod-creation/client/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/guides/mod-creation/client/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/guides/mod-creation/client/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/guides/mod-creation/client/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/guides/mod-creation/client/getting-started/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/guides/mod-creation/server/getting-started/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/guides/mod-creation/server/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/guides/mod-creation/server/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/guides/mod-creation/server/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/guides/mod-creation/server/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/guides/mod-creation/server/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/guides/mod-creation/server/getting-started/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/scripting/mod-reference/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/scripting/mod-reference/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/scripting/mod-reference/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/scripting/mod-reference/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/scripting/mod-reference/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/scripting/mod-reference/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/scripting/mod-reference/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/scripting/server-reference/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/scripting/server-reference/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/scripting/server-reference/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/scripting/server-reference/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/scripting/server-reference/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/scripting/server-reference/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/scripting/server-reference/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/server/create-a-server/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/server/create-a-server/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/server/create-a-server/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/server/create-a-server/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/server/create-a-server/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/server/create-a-server/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/server/create-a-server/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/server/error-codes/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/server/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/server/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/server/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/server/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/server/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/server/error-codes/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/server/manual/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/server/manual/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/server/manual/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/server/manual/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/server/manual/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/server/manual/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/server/manual/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/server/server-maintenance/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/server/server-maintenance/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/server/server-maintenance/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/server/server-maintenance/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/server/server-maintenance/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/server/server-maintenance/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/server/server-maintenance/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/support/game-faq/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/support/game-faq/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/support/game-faq/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/support/game-faq/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/support/game-faq/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/support/game-faq/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/support/game-faq/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/support/player-faq/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/support/player-faq/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/support/player-faq/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/support/player-faq/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/support/player-faq/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/support/player-faq/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/support/player-faq/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/support/server-faq/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/support/server-faq/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/support/server-faq/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/support/server-faq/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/support/server-faq/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/support/server-faq/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/support/server-faq/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/es/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/es/contributing/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/contributing/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/contributing/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/contributing/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/contributing/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/contributing/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/contributing/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/es/beamng/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/beamng/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/beamng/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/beamng/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/beamng/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/beamng/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/beamng/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/es/beamng/snippets/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/beamng/snippets/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/beamng/snippets/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/beamng/snippets/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/beamng/snippets/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/beamng/snippets/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/beamng/snippets/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/es/beamng/dev/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/beamng/dev/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/beamng/dev/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/beamng/dev/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/beamng/dev/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/beamng/dev/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/beamng/dev/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/es/beamng/dev/content/maps/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/beamng/dev/content/maps/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/beamng/dev/content/maps/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/beamng/dev/content/maps/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/beamng/dev/content/maps/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/beamng/dev/content/maps/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/beamng/dev/content/maps/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/es/beamng/dev/content/props/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/beamng/dev/content/props/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/beamng/dev/content/props/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/beamng/dev/content/props/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/beamng/dev/content/props/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/beamng/dev/content/props/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/beamng/dev/content/props/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/es/beamng/dev/content/vehicles/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/beamng/dev/content/vehicles/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/beamng/dev/content/vehicles/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/beamng/dev/content/vehicles/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/beamng/dev/content/vehicles/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/beamng/dev/content/vehicles/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/beamng/dev/content/vehicles/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/es/beamng/dev/modding/imgui-windows/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/beamng/dev/modding/imgui-windows/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/beamng/dev/modding/imgui-windows/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/beamng/dev/modding/imgui-windows/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/beamng/dev/modding/imgui-windows/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/beamng/dev/modding/imgui-windows/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/beamng/dev/modding/imgui-windows/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/es/beamng/dev/modding/lua-mods/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/beamng/dev/modding/lua-mods/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/beamng/dev/modding/lua-mods/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/beamng/dev/modding/lua-mods/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/beamng/dev/modding/lua-mods/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/beamng/dev/modding/lua-mods/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/beamng/dev/modding/lua-mods/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/es/beamng/dev/modding/ui-apps/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/beamng/dev/modding/ui-apps/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/beamng/dev/modding/ui-apps/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/beamng/dev/modding/ui-apps/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/beamng/dev/modding/ui-apps/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/beamng/dev/modding/ui-apps/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/beamng/dev/modding/ui-apps/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/es/community/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/community/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/community/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/community/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/community/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/community/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/community/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/es/community/rules/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/community/rules/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/community/rules/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/community/rules/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/community/rules/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/community/rules/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/community/rules/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/es/game/error-codes/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/game/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/game/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/game/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/game/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/game/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/game/error-codes/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/es/game/getting-started/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/game/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/game/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/game/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/game/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/game/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/game/getting-started/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/es/game/playing/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/game/playing/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/game/playing/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/game/playing/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/game/playing/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/game/playing/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/game/playing/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/es/game/tailoring/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/game/tailoring/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/game/tailoring/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/game/tailoring/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/game/tailoring/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/game/tailoring/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/game/tailoring/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/es/guides/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/guides/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/guides/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/guides/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/guides/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/guides/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/guides/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/es/guides/beammp-dev/beammp-dev/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/guides/beammp-dev/beammp-dev/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/guides/beammp-dev/beammp-dev/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/guides/beammp-dev/beammp-dev/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/guides/beammp-dev/beammp-dev/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/guides/beammp-dev/beammp-dev/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/guides/beammp-dev/beammp-dev/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/es/guides/mod-creation/client/getting-started/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/guides/mod-creation/client/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/guides/mod-creation/client/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/guides/mod-creation/client/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/guides/mod-creation/client/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/guides/mod-creation/client/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/guides/mod-creation/client/getting-started/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/es/guides/mod-creation/server/getting-started/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/guides/mod-creation/server/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/guides/mod-creation/server/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/guides/mod-creation/server/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/guides/mod-creation/server/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/guides/mod-creation/server/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/guides/mod-creation/server/getting-started/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/es/scripting/mod-reference/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/scripting/mod-reference/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/scripting/mod-reference/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/scripting/mod-reference/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/scripting/mod-reference/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/scripting/mod-reference/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/scripting/mod-reference/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/es/scripting/server-reference/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/scripting/server-reference/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/scripting/server-reference/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/scripting/server-reference/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/scripting/server-reference/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/scripting/server-reference/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/scripting/server-reference/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/es/server/create-a-server/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/server/create-a-server/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/server/create-a-server/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/server/create-a-server/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/server/create-a-server/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/server/create-a-server/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/server/create-a-server/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/es/server/error-codes/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/server/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/server/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/server/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/server/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/server/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/server/error-codes/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/es/server/manual/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/server/manual/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/server/manual/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/server/manual/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/server/manual/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/server/manual/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/server/manual/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/es/server/server-maintenance/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/server/server-maintenance/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/server/server-maintenance/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/server/server-maintenance/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/server/server-maintenance/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/server/server-maintenance/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/server/server-maintenance/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/es/support/game-faq/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/support/game-faq/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/support/game-faq/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/support/game-faq/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/support/game-faq/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/support/game-faq/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/support/game-faq/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/es/support/player-faq/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/support/player-faq/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/support/player-faq/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/support/player-faq/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/support/player-faq/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/support/player-faq/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/support/player-faq/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/es/support/server-faq/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/support/server-faq/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/support/server-faq/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/support/server-faq/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/support/server-faq/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/support/server-faq/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/support/server-faq/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/de/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/de/contributing/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/contributing/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/contributing/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/contributing/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/contributing/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/contributing/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/contributing/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/de/beamng/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/beamng/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/beamng/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/beamng/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/beamng/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/beamng/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/beamng/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/de/beamng/snippets/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/beamng/snippets/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/beamng/snippets/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/beamng/snippets/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/beamng/snippets/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/beamng/snippets/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/beamng/snippets/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/de/beamng/dev/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/beamng/dev/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/beamng/dev/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/beamng/dev/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/beamng/dev/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/beamng/dev/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/beamng/dev/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/de/beamng/dev/content/maps/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/beamng/dev/content/maps/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/beamng/dev/content/maps/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/beamng/dev/content/maps/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/beamng/dev/content/maps/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/beamng/dev/content/maps/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/beamng/dev/content/maps/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/de/beamng/dev/content/props/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/beamng/dev/content/props/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/beamng/dev/content/props/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/beamng/dev/content/props/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/beamng/dev/content/props/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/beamng/dev/content/props/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/beamng/dev/content/props/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/de/beamng/dev/content/vehicles/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/beamng/dev/content/vehicles/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/beamng/dev/content/vehicles/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/beamng/dev/content/vehicles/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/beamng/dev/content/vehicles/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/beamng/dev/content/vehicles/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/beamng/dev/content/vehicles/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/de/beamng/dev/modding/imgui-windows/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/beamng/dev/modding/imgui-windows/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/beamng/dev/modding/imgui-windows/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/beamng/dev/modding/imgui-windows/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/beamng/dev/modding/imgui-windows/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/beamng/dev/modding/imgui-windows/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/beamng/dev/modding/imgui-windows/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/de/beamng/dev/modding/lua-mods/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/beamng/dev/modding/lua-mods/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/beamng/dev/modding/lua-mods/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/beamng/dev/modding/lua-mods/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/beamng/dev/modding/lua-mods/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/beamng/dev/modding/lua-mods/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/beamng/dev/modding/lua-mods/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/de/beamng/dev/modding/ui-apps/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/beamng/dev/modding/ui-apps/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/beamng/dev/modding/ui-apps/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/beamng/dev/modding/ui-apps/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/beamng/dev/modding/ui-apps/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/beamng/dev/modding/ui-apps/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/beamng/dev/modding/ui-apps/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/de/server/create-a-server/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/server/create-a-server/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/server/create-a-server/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/server/create-a-server/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/server/create-a-server/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/server/create-a-server/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/server/create-a-server/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/de/support/game-faq/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/support/game-faq/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/support/game-faq/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/support/game-faq/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/support/game-faq/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/support/game-faq/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/support/game-faq/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/de/support/server-faq/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/support/server-faq/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/support/server-faq/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/support/server-faq/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/support/server-faq/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/support/server-faq/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/support/server-faq/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/de/community/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/community/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/community/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/community/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/community/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/community/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/community/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/de/community/rules/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/community/rules/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/community/rules/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/community/rules/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/community/rules/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/community/rules/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/community/rules/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/de/game/error-codes/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/game/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/game/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/game/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/game/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/game/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/game/error-codes/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/de/game/getting-started/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/game/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/game/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/game/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/game/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/game/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/game/getting-started/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/de/game/playing/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/game/playing/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/game/playing/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/game/playing/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/game/playing/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/game/playing/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/game/playing/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/de/game/tailoring/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/game/tailoring/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/game/tailoring/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/game/tailoring/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/game/tailoring/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/game/tailoring/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/game/tailoring/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/de/guides/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/guides/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/guides/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/guides/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/guides/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/guides/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/guides/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/de/guides/beammp-dev/beammp-dev/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/guides/beammp-dev/beammp-dev/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/guides/beammp-dev/beammp-dev/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/guides/beammp-dev/beammp-dev/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/guides/beammp-dev/beammp-dev/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/guides/beammp-dev/beammp-dev/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/guides/beammp-dev/beammp-dev/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/de/guides/mod-creation/client/getting-started/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/guides/mod-creation/client/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/guides/mod-creation/client/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/guides/mod-creation/client/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/guides/mod-creation/client/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/guides/mod-creation/client/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/guides/mod-creation/client/getting-started/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/de/guides/mod-creation/server/getting-started/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/guides/mod-creation/server/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/guides/mod-creation/server/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/guides/mod-creation/server/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/guides/mod-creation/server/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/guides/mod-creation/server/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/guides/mod-creation/server/getting-started/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/de/scripting/mod-reference/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/scripting/mod-reference/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/scripting/mod-reference/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/scripting/mod-reference/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/scripting/mod-reference/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/scripting/mod-reference/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/scripting/mod-reference/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/de/scripting/server-reference/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/scripting/server-reference/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/scripting/server-reference/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/scripting/server-reference/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/scripting/server-reference/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/scripting/server-reference/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/scripting/server-reference/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/de/server/error-codes/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/server/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/server/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/server/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/server/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/server/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/server/error-codes/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/de/server/manual/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/server/manual/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/server/manual/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/server/manual/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/server/manual/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/server/manual/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/server/manual/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/de/server/server-maintenance/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/server/server-maintenance/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/server/server-maintenance/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/server/server-maintenance/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/server/server-maintenance/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/server/server-maintenance/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/server/server-maintenance/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/de/support/player-faq/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/support/player-faq/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/support/player-faq/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/support/player-faq/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/support/player-faq/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/support/player-faq/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/support/player-faq/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/fr/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/fr/contributing/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/contributing/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/contributing/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/contributing/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/contributing/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/contributing/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/contributing/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/fr/beamng/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/beamng/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/beamng/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/beamng/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/beamng/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/beamng/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/beamng/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/fr/beamng/snippets/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/beamng/snippets/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/beamng/snippets/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/beamng/snippets/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/beamng/snippets/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/beamng/snippets/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/beamng/snippets/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/fr/beamng/dev/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/beamng/dev/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/beamng/dev/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/beamng/dev/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/beamng/dev/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/beamng/dev/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/beamng/dev/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/fr/beamng/dev/content/maps/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/beamng/dev/content/maps/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/beamng/dev/content/maps/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/beamng/dev/content/maps/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/beamng/dev/content/maps/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/beamng/dev/content/maps/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/beamng/dev/content/maps/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/fr/beamng/dev/content/props/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/beamng/dev/content/props/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/beamng/dev/content/props/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/beamng/dev/content/props/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/beamng/dev/content/props/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/beamng/dev/content/props/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/beamng/dev/content/props/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/fr/beamng/dev/content/vehicles/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/beamng/dev/content/vehicles/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/beamng/dev/content/vehicles/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/beamng/dev/content/vehicles/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/beamng/dev/content/vehicles/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/beamng/dev/content/vehicles/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/beamng/dev/content/vehicles/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/fr/beamng/dev/modding/imgui-windows/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/beamng/dev/modding/imgui-windows/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/beamng/dev/modding/imgui-windows/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/beamng/dev/modding/imgui-windows/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/beamng/dev/modding/imgui-windows/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/beamng/dev/modding/imgui-windows/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/beamng/dev/modding/imgui-windows/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/fr/beamng/dev/modding/lua-mods/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/beamng/dev/modding/lua-mods/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/beamng/dev/modding/lua-mods/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/beamng/dev/modding/lua-mods/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/beamng/dev/modding/lua-mods/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/beamng/dev/modding/lua-mods/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/beamng/dev/modding/lua-mods/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/fr/beamng/dev/modding/ui-apps/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/beamng/dev/modding/ui-apps/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/beamng/dev/modding/ui-apps/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/beamng/dev/modding/ui-apps/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/beamng/dev/modding/ui-apps/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/beamng/dev/modding/ui-apps/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/beamng/dev/modding/ui-apps/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/fr/community/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/community/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/community/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/community/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/community/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/community/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/community/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/fr/community/rules/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/community/rules/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/community/rules/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/community/rules/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/community/rules/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/community/rules/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/community/rules/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/fr/game/error-codes/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/game/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/game/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/game/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/game/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/game/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/game/error-codes/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/fr/game/getting-started/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/game/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/game/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/game/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/game/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/game/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/game/getting-started/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/fr/game/playing/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/game/playing/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/game/playing/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/game/playing/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/game/playing/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/game/playing/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/game/playing/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/fr/game/tailoring/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/game/tailoring/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/game/tailoring/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/game/tailoring/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/game/tailoring/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/game/tailoring/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/game/tailoring/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/fr/guides/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/guides/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/guides/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/guides/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/guides/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/guides/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/guides/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/fr/guides/beammp-dev/beammp-dev/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/guides/beammp-dev/beammp-dev/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/guides/beammp-dev/beammp-dev/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/guides/beammp-dev/beammp-dev/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/guides/beammp-dev/beammp-dev/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/guides/beammp-dev/beammp-dev/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/guides/beammp-dev/beammp-dev/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/fr/guides/mod-creation/client/getting-started/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/guides/mod-creation/client/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/guides/mod-creation/client/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/guides/mod-creation/client/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/guides/mod-creation/client/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/guides/mod-creation/client/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/guides/mod-creation/client/getting-started/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/fr/guides/mod-creation/server/getting-started/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/guides/mod-creation/server/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/guides/mod-creation/server/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/guides/mod-creation/server/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/guides/mod-creation/server/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/guides/mod-creation/server/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/guides/mod-creation/server/getting-started/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/fr/scripting/mod-reference/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/scripting/mod-reference/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/scripting/mod-reference/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/scripting/mod-reference/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/scripting/mod-reference/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/scripting/mod-reference/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/scripting/mod-reference/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/fr/scripting/server-reference/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/scripting/server-reference/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/scripting/server-reference/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/scripting/server-reference/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/scripting/server-reference/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/scripting/server-reference/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/scripting/server-reference/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/fr/server/create-a-server/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/server/create-a-server/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/server/create-a-server/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/server/create-a-server/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/server/create-a-server/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/server/create-a-server/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/server/create-a-server/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/fr/server/error-codes/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/server/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/server/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/server/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/server/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/server/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/server/error-codes/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/fr/server/manual/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/server/manual/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/server/manual/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/server/manual/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/server/manual/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/server/manual/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/server/manual/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/fr/server/server-maintenance/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/server/server-maintenance/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/server/server-maintenance/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/server/server-maintenance/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/server/server-maintenance/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/server/server-maintenance/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/server/server-maintenance/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/fr/support/game-faq/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/support/game-faq/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/support/game-faq/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/support/game-faq/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/support/game-faq/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/support/game-faq/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/support/game-faq/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/fr/support/player-faq/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/support/player-faq/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/support/player-faq/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/support/player-faq/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/support/player-faq/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/support/player-faq/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/support/player-faq/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/fr/support/server-faq/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/support/server-faq/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/support/server-faq/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/support/server-faq/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/support/server-faq/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/support/server-faq/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/support/server-faq/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/it/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/it/contributing/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/contributing/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/contributing/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/contributing/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/contributing/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/contributing/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/contributing/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/it/beamng/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/beamng/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/beamng/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/beamng/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/beamng/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/beamng/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/beamng/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/it/beamng/snippets/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/beamng/snippets/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/beamng/snippets/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/beamng/snippets/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/beamng/snippets/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/beamng/snippets/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/beamng/snippets/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/it/beamng/dev/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/beamng/dev/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/beamng/dev/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/beamng/dev/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/beamng/dev/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/beamng/dev/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/beamng/dev/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/it/beamng/dev/content/maps/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/beamng/dev/content/maps/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/beamng/dev/content/maps/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/beamng/dev/content/maps/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/beamng/dev/content/maps/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/beamng/dev/content/maps/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/beamng/dev/content/maps/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/it/beamng/dev/content/props/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/beamng/dev/content/props/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/beamng/dev/content/props/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/beamng/dev/content/props/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/beamng/dev/content/props/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/beamng/dev/content/props/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/beamng/dev/content/props/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/it/beamng/dev/content/vehicles/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/beamng/dev/content/vehicles/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/beamng/dev/content/vehicles/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/beamng/dev/content/vehicles/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/beamng/dev/content/vehicles/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/beamng/dev/content/vehicles/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/beamng/dev/content/vehicles/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/it/beamng/dev/modding/imgui-windows/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/beamng/dev/modding/imgui-windows/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/beamng/dev/modding/imgui-windows/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/beamng/dev/modding/imgui-windows/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/beamng/dev/modding/imgui-windows/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/beamng/dev/modding/imgui-windows/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/beamng/dev/modding/imgui-windows/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/it/beamng/dev/modding/lua-mods/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/beamng/dev/modding/lua-mods/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/beamng/dev/modding/lua-mods/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/beamng/dev/modding/lua-mods/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/beamng/dev/modding/lua-mods/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/beamng/dev/modding/lua-mods/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/beamng/dev/modding/lua-mods/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/it/beamng/dev/modding/ui-apps/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/beamng/dev/modding/ui-apps/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/beamng/dev/modding/ui-apps/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/beamng/dev/modding/ui-apps/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/beamng/dev/modding/ui-apps/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/beamng/dev/modding/ui-apps/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/beamng/dev/modding/ui-apps/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/it/community/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/community/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/community/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/community/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/community/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/community/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/community/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/it/community/rules/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/community/rules/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/community/rules/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/community/rules/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/community/rules/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/community/rules/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/community/rules/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/it/game/error-codes/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/game/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/game/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/game/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/game/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/game/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/game/error-codes/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/it/game/getting-started/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/game/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/game/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/game/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/game/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/game/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/game/getting-started/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/it/game/playing/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/game/playing/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/game/playing/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/game/playing/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/game/playing/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/game/playing/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/game/playing/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/it/game/tailoring/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/game/tailoring/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/game/tailoring/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/game/tailoring/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/game/tailoring/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/game/tailoring/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/game/tailoring/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/it/guides/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/guides/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/guides/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/guides/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/guides/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/guides/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/guides/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/it/guides/beammp-dev/beammp-dev/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/guides/beammp-dev/beammp-dev/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/guides/beammp-dev/beammp-dev/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/guides/beammp-dev/beammp-dev/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/guides/beammp-dev/beammp-dev/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/guides/beammp-dev/beammp-dev/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/guides/beammp-dev/beammp-dev/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/it/guides/mod-creation/client/getting-started/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/guides/mod-creation/client/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/guides/mod-creation/client/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/guides/mod-creation/client/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/guides/mod-creation/client/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/guides/mod-creation/client/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/guides/mod-creation/client/getting-started/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/it/guides/mod-creation/server/getting-started/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/guides/mod-creation/server/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/guides/mod-creation/server/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/guides/mod-creation/server/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/guides/mod-creation/server/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/guides/mod-creation/server/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/guides/mod-creation/server/getting-started/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/it/scripting/mod-reference/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/scripting/mod-reference/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/scripting/mod-reference/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/scripting/mod-reference/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/scripting/mod-reference/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/scripting/mod-reference/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/scripting/mod-reference/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/it/scripting/server-reference/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/scripting/server-reference/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/scripting/server-reference/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/scripting/server-reference/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/scripting/server-reference/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/scripting/server-reference/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/scripting/server-reference/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/it/server/create-a-server/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/server/create-a-server/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/server/create-a-server/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/server/create-a-server/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/server/create-a-server/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/server/create-a-server/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/server/create-a-server/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/it/server/error-codes/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/server/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/server/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/server/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/server/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/server/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/server/error-codes/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/it/server/manual/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/server/manual/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/server/manual/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/server/manual/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/server/manual/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/server/manual/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/server/manual/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/it/server/server-maintenance/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/server/server-maintenance/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/server/server-maintenance/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/server/server-maintenance/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/server/server-maintenance/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/server/server-maintenance/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/server/server-maintenance/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/it/support/game-faq/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/support/game-faq/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/support/game-faq/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/support/game-faq/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/support/game-faq/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/support/game-faq/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/support/game-faq/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/it/support/player-faq/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/support/player-faq/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/support/player-faq/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/support/player-faq/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/support/player-faq/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/support/player-faq/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/support/player-faq/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/it/support/server-faq/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/support/server-faq/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/support/server-faq/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/support/server-faq/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/support/server-faq/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/support/server-faq/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/support/server-faq/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/ru/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/ru/contributing/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/contributing/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/contributing/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/contributing/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/contributing/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/contributing/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/contributing/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/ru/beamng/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/beamng/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/beamng/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/beamng/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/beamng/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/beamng/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/beamng/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/ru/beamng/snippets/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/beamng/snippets/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/beamng/snippets/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/beamng/snippets/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/beamng/snippets/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/beamng/snippets/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/beamng/snippets/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/ru/beamng/dev/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/beamng/dev/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/beamng/dev/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/beamng/dev/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/beamng/dev/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/beamng/dev/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/beamng/dev/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/ru/beamng/dev/content/maps/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/beamng/dev/content/maps/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/beamng/dev/content/maps/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/beamng/dev/content/maps/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/beamng/dev/content/maps/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/beamng/dev/content/maps/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/beamng/dev/content/maps/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/ru/beamng/dev/content/props/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/beamng/dev/content/props/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/beamng/dev/content/props/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/beamng/dev/content/props/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/beamng/dev/content/props/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/beamng/dev/content/props/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/beamng/dev/content/props/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/ru/beamng/dev/content/vehicles/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/beamng/dev/content/vehicles/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/beamng/dev/content/vehicles/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/beamng/dev/content/vehicles/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/beamng/dev/content/vehicles/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/beamng/dev/content/vehicles/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/beamng/dev/content/vehicles/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/ru/beamng/dev/modding/imgui-windows/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/beamng/dev/modding/imgui-windows/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/beamng/dev/modding/imgui-windows/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/beamng/dev/modding/imgui-windows/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/beamng/dev/modding/imgui-windows/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/beamng/dev/modding/imgui-windows/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/beamng/dev/modding/imgui-windows/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/ru/beamng/dev/modding/lua-mods/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/beamng/dev/modding/lua-mods/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/beamng/dev/modding/lua-mods/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/beamng/dev/modding/lua-mods/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/beamng/dev/modding/lua-mods/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/beamng/dev/modding/lua-mods/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/beamng/dev/modding/lua-mods/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/ru/beamng/dev/modding/ui-apps/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/beamng/dev/modding/ui-apps/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/beamng/dev/modding/ui-apps/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/beamng/dev/modding/ui-apps/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/beamng/dev/modding/ui-apps/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/beamng/dev/modding/ui-apps/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/beamng/dev/modding/ui-apps/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/ru/community/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/community/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/community/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/community/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/community/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/community/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/community/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/ru/community/rules/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/community/rules/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/community/rules/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/community/rules/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/community/rules/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/community/rules/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/community/rules/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/ru/game/error-codes/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/game/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/game/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/game/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/game/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/game/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/game/error-codes/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/ru/game/getting-started/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/game/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/game/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/game/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/game/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/game/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/game/getting-started/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/ru/game/playing/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/game/playing/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/game/playing/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/game/playing/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/game/playing/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/game/playing/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/game/playing/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/ru/game/tailoring/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/game/tailoring/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/game/tailoring/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/game/tailoring/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/game/tailoring/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/game/tailoring/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/game/tailoring/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/ru/guides/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/guides/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/guides/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/guides/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/guides/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/guides/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/guides/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/ru/guides/beammp-dev/beammp-dev/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/guides/beammp-dev/beammp-dev/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/guides/beammp-dev/beammp-dev/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/guides/beammp-dev/beammp-dev/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/guides/beammp-dev/beammp-dev/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/guides/beammp-dev/beammp-dev/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/guides/beammp-dev/beammp-dev/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/ru/guides/mod-creation/client/getting-started/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/guides/mod-creation/client/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/guides/mod-creation/client/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/guides/mod-creation/client/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/guides/mod-creation/client/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/guides/mod-creation/client/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/guides/mod-creation/client/getting-started/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/ru/guides/mod-creation/server/getting-started/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/guides/mod-creation/server/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/guides/mod-creation/server/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/guides/mod-creation/server/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/guides/mod-creation/server/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/guides/mod-creation/server/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/guides/mod-creation/server/getting-started/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/ru/scripting/mod-reference/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/scripting/mod-reference/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/scripting/mod-reference/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/scripting/mod-reference/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/scripting/mod-reference/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/scripting/mod-reference/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/scripting/mod-reference/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/ru/scripting/server-reference/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/scripting/server-reference/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/scripting/server-reference/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/scripting/server-reference/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/scripting/server-reference/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/scripting/server-reference/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/scripting/server-reference/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/ru/server/create-a-server/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/server/create-a-server/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/server/create-a-server/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/server/create-a-server/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/server/create-a-server/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/server/create-a-server/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/server/create-a-server/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/ru/server/error-codes/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/server/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/server/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/server/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/server/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/server/error-codes/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/server/error-codes/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/ru/server/manual/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/server/manual/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/server/manual/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/server/manual/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/server/manual/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/server/manual/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/server/manual/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/ru/server/server-maintenance/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/server/server-maintenance/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/server/server-maintenance/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/server/server-maintenance/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/server/server-maintenance/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/server/server-maintenance/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/server/server-maintenance/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/ru/support/game-faq/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/support/game-faq/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/support/game-faq/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/support/game-faq/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/support/game-faq/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/support/game-faq/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/support/game-faq/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/ru/support/player-faq/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/support/player-faq/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/support/player-faq/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/support/player-faq/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/support/player-faq/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/support/player-faq/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/support/player-faq/"/>
+    </url>
+    <url>
+        <loc>https://docs.beammp.com/ru/support/server-faq/</loc>
+        <lastmod>2024-12-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.beammp.com/ru/support/server-faq/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.beammp.com/de/support/server-faq/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.beammp.com/support/server-faq/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.beammp.com/es/support/server-faq/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://docs.beammp.com/fr/support/server-faq/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://docs.beammp.com/it/support/server-faq/"/>
+    </url>
+</urlset>
