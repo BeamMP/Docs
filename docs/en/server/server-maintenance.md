@@ -134,7 +134,7 @@ If you built from source, you just rebuild. Make sure to run `git submodule upda
 #### On Linux
 
 1. Go to [BeamMP.com](https://beammp.com/) and click the “Download Server” button, you will be redirected to the server's Github release page.
-2. Download the correct version for your distro. For sake of semplicity it will be called `BeamMP-Server-xxx` from now on, where `xxx` denotes the version for the distro you're using.
+2. Download the correct version for your distro. For simplicity, it will now be called `BeamMP-Server-xxx` from now on, where `xxx` denotes the version for the distro you're using.
 3. Once downloaded, you should see one file called `BeamMP-Server-xxx` depending on the version you've downloaded. We will call this one the “new executable”.
 4. Go to the folder where your current `BeamMP-Server-xxx` executable is located (same folder where your `ServerConfig.toml` is, usually). We will call this one the “old executable”.
 5. Replace the old executable with the new executable (for example by copying or moving the new executable into the folder).
