@@ -13,9 +13,9 @@ Early Access (mit dem Violetten Namensschild und weiteren Vorteilen) kann erworb
 Stelle sicher, dass du folgendes tust um deine Vorteile automatisch zu bekommen:
 
 1. Verbinde dein Discord Konto auf Patreon um die Rollen und den Zugriff im Discord Server zu erhalten.
-2. Beachte, dass du dieselbe E-Mail Adresse auf Patreon verwendest wie für dein BeamMP Konto auf dem<br>[Forum](https://forum.beammp.com/).
+2. Beachte, dass du dieselbe E-Mail Adresse für Patreon und dein BeamMP Konto auf dem<br>[Forum](https://forum.beammp.com/) verwendest.
 
-Bitte habe Geduld. es kann ein paar Stunden, manchmal bis zu 12, dauern damit das System synchronisiert. Wenn du deine Vorteile nach 12 Stunden immer noch nicht erhalten hast, aber alle Schritte oben vervollständigt hast, kontaktiere den BeamMP Support.
+Bitte habe Geduld. Es kann ein paar Stunden, manchmal bis zu 12, dauern damit das System die Daten synchronisiert. Wenn du deine Vorteile nach 12 Stunden immer noch nicht erhalten hast, aber alle Schritte oben vervollständigt hast, kontaktiere den BeamMP Support.
 
 ## Ich habe weitere Fragen!
 
