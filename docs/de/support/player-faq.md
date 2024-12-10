@@ -2,7 +2,7 @@
 
 ## Wie verbinde ich mein Discord Konto?
 
-Das Verbinden deines Discord und BeamMP Kontos ist ein neues Feature bei BeamMP. Um das zu tun, musst du `!link` in Form einer Nachricht an den [BeamMP Konto](https://discordapp.com/channels/@me/1201234743568634026/) Bot schicken. Der Bot wird mit einem Link antworten um dich dann mit deinem BeamMP Konto anzumelden. Logge dich einfach mit deinem BeamMP Konto ein. Erstmal abgeschlossen, wirst du eine zweite Nachricht erhalten, dass deine Konten nun verbunden sind.🎉
+Das Verknüpfen deines Discord sowohl wie deinem BeamMP Kontos ist eine neue Funktion bei BeamMP. Um das zu tun, musst du `!link` in Form einer Nachricht an den [BeamMP Konto](https://discordapp.com/channels/@me/1201234743568634026/) Bot schicken. Der Bot wird mit einem Link antworten um dich dann mit deinem BeamMP Konto anzumelden. Logge dich einfach mit deinem BeamMP Konto ein. Erstmal abgeschlossen, wirst du eine zweite Nachricht erhalten, dass deine Konten nun verbunden sind.🎉
 
 ## Wie bekomme ich Early Access?
 
