@@ -342,6 +342,7 @@ nav:
       - Server Maintenance: server/server-maintenance.md
       - Error Codes: server/error-codes.md
       - Server Manual: server/manual.md
+      - Port Forwarding: server/port-forwarding.md
     - Mod & Resource Creation:  
       - Client Side: guides/mod-creation/client/getting-started.md
       - Server Side: guides/mod-creation/server/getting-started.md
