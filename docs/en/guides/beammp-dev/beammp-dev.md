@@ -42,7 +42,7 @@ In order to prevent auto-update to overwrite your local git clone, its necessary
 If you also dont want the launcher to start beamNG and would like to see debug prints, then using `--dev` is advised.
 
 | Argument                 | Note                                       |
-|--------------------------|--------------------------------------------|
+|:-------------------------|:-------------------------------------------|
 | `--help` or `-h`         | Will print the following list of arguments |
 | `--port <port>` or `-p`  | Change the default listen port to <port>. This must be configured ingame, too |
 | `--verbose` or `-v`      | Verbose mode, prints debug messages |
