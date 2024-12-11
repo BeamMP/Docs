@@ -44,7 +44,7 @@ If you also dont want the launcher to start beamNG and would like to see debug p
 | Argument                 | Note                                       |
 |:-------------------------|:-------------------------------------------|
 | `--help` or `-h`         | Will print the following list of arguments |
-| `--port <port>` or `-p`  | Change the default listen port to <port>. This must be configured ingame, too |
+| `--port <port>` or `-p`  | Change the default listen port to `<port>`. This must be configured ingame too |
 | `--verbose` or `-v`      | Verbose mode, prints debug messages |
 | `--no-download`          | Skip downloading and installing the BeamMP Lua mod |
 | `--no-update`            | Skip applying launcher updates (you must update manually) |
