@@ -41,16 +41,16 @@ Further information about the userfolder can be found at [https://documentation.
 In order to prevent auto-update deleting your local git clone, it's necessary to disable it, using `--no-download`.
 If you also don't want the launcher to start BeamNG, and would like to see debug prints, then using `--dev` is advised.
 
-| Argument                 | Note                                       |
-|:-------------------------|:-------------------------------------------|
-| `--help` or `-h`         | Will print the following list of arguments |
-| `--port <port>` or `-p`  | Change the default listen port to `<port>`. This must be configured ingame too |
-| `--verbose` or `-v`      | Verbose mode, prints debug messages |
-| `--no-download`          | Skip downloading and installing the BeamMP Lua mod |
-| `--no-update`            | Skip applying launcher updates (you must update manually) |
-| `--no-launch`            | Skip launching the game (you must launch the game manually) |
-| `--dev`                  | Developer mode, same as --verbose --no-download --no-launch --no-update |
-| `--game <args...>`       | Passes arguments to the game |
+| Argument                              | Note                                       |
+|:--------------------------------------|:-------------------------------------------|
+| `--help` or `-h`                      | Will print the following list of arguments |
+| `--port <port>` or `-p`               | Change the default listen port to `<port>`. This must be configured ingame too |
+| `--verbose` or `-v`                   | Verbose mode, prints debug messages |
+| `--no-download`                       | Skip downloading and installing the BeamMP Lua mod |
+| `--no-update`                         | Skip applying launcher updates (you must update manually) |
+| `--no-launch`                         | Skip launching the game (you must launch the game manually) |
+| `--dev`                               | Developer mode, same as --verbose --no-download --no-launch --no-update |
+| `--game <args...>` or `-- <args...>`  | Passes arguments to the game |
 
 ## Cloning the BeamMP repo into the unpacked folder
 
