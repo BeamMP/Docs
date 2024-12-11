@@ -39,7 +39,7 @@ Further information about the userfolder can be found at [https://documentation.
 ## Enabling dev mode in the BeamMP launcher
 
 In order to prevent auto-update to overwrite your local git clone, its necessary to disable it, using `--no-download`.
-If you also dont want the launcher to start beamNG and would like to see debug prints, then using `--dev` is advised.
+If you also don't want the launcher to start BeamNG, and would like to see debug prints, then using `--dev` is advised.
 
 | Argument                 | Note                                       |
 |:-------------------------|:-------------------------------------------|
