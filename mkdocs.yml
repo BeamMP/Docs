@@ -373,7 +373,9 @@ nav:
     - Helpful Code Snippets: beamng/snippets.md
   - Scripting Reference:
     - Mod (In-Game): scripting/mod-reference.md
-    - Server: scripting/server-reference.md
+    - Server: 
+      - V3.X (Latest): scripting/server/latest-server-reference.md
+      - V2.X: scripting/server/v2-server-reference.md
   - Contributing:
     - Getting Started: contributing.md
   - Community:
