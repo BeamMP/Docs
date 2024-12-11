@@ -36,12 +36,21 @@ Create a folder called `unpacked` inside the `mods` folder.
 
 Further information about the userfolder can be found at [https://documentation.beamng.com/support/userfolder/](https://documentation.beamng.com/support/userfolder/)
 
-## Enabling dev mode in BeamMP
+## Enabling dev mode in the BeamMP launcher
 
-By starting the launcher with the arguments ` 0 0` its development mode will be enabled. This will do two things, deactivate automatic mod updates and deactivate auto-starting BeamNG.
-On Windows you can achieve this by opening the settings of the launcher shortcut on your desktop. Then add ` 0 0` (thats spaceZEROspaceZERO) to the end of the shortcut link.
+In order to prevent auto-update to overwrite your local git clone, its necessary to disable it, using `--no-download`.
+If you also dont want the launcher to start beamNG and would like to see debug prints, then using `--dev` is advised.
 
-Once dev mode was succesfully enabled, the launcher will stop with `[DEBUG] Core Network on start!` and wait until BeamNG was started by the user.
+You can use the following launch arguments:
+
+| `--help` or `-h`         | Will print the following list of arguments |
+| `--port <port>` or `-p`  | Change the default listen port to <port>. This must be configured ingame, too |
+| `--verbose` or `-v`      | Verbose mode, prints debug messages |
+| `--no-download`          | Skip downloading and installing the BeamMP Lua mod |
+| `--no-update`            | Skip applying launcher updates (you must update manually) |
+| `--no-launch`            | Skip launching the game (you must launch the game manually) |
+| `--dev`                  | Developer mode, same as --verbose --no-download --no-launch --no-update |
+| `--game <args...>`       | Passes arguments to the game |
 
 ## Cloning the BeamMP repo into the unpacked folder
 
@@ -50,8 +59,8 @@ First create a fork of [https://github.com/BeamMP/BeamMP](https://github.com/Bea
 
 Most efficient would be to clone the repo directly into the `unpacked` folder.
 
-For `git`, run `git clone https://github.com/yourName/BeamMP` from a PowerShell or CMD window started from the `unpacked` folder
-While in the userfolder, make sure theres no `multiplayer` folder left in `mods` and that now there's `unpacked/beammp`
+For `git`, run `git clone https://github.com/yourName/BeamMP` from a PowerShell or CMD window started from the `unpacked` folder.
+While in the userfolder, make sure theres no `multiplayer` folder left in `mods` and that now there's `unpacked/beammp`.
 
 Now give the dev mode a try. Start the BeamMP launcher, start BeamNG manually, once ingame make sure that BeamMP is the only active mod.
 You should be able to use BeamMP as usual.
