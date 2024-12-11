@@ -28,13 +28,18 @@ _If you are on a VPS (Virtual Private Server) or Rootserver, you can skip this s
 
 This step is necessary if you want someone outside of your household to join ("outside of your local network").
 
-#### DISCLAIMER:
+####
+!!! danger ":material-scale-balance: DISCLAIMER:"
 
-By Port forwarding you understand the risks of opening up ports on your home network to the public and therefore void the right to hold BeamMP accountable for any (serious) damages that may happen to you or your household.
+    **Port forwarding is a risk**.
+
+    By Port forwarding you understand the risks of opening up ports on your home network to the public and therefore void the right to hold BeamMP accountable for **any and all** damages that may happen to you or your household.
+
+    We take no responsibility for any content on any externally linked services or websites.
 
 Therefore it is recommended to host a Server with one of our partnered Services!
 
-Paid Services:
+#### Paid Services:
 
 * [Horizon Hosting](https://hrzn.link/beammp)
 * [Snakecraft Hosting](https://schost.us/beammp-plans)
