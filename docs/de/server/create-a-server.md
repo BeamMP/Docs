@@ -210,7 +210,7 @@ Wenn du nur modifizierte Fahrzeuge hinzufügen möchtest, lege die Zip-Datei der
 
 #### 5.3 Karten
 
-Alle vanilla Karten (welche keine Mods  sind) funktionieren sofort und müssen nicht installiert werden. Du änderst einfach den `Map` Pfad in der `ServerConfig.toml` Datei auf einen [dieser](server-maintenance.md#all-vanilla-maps-names). Für jegliche Mod Karten, gehe wie folgt vor:
+Alle in BeamNG.Drive mitgelieferten Karten (welche keine Mods  sind) funktionieren sofort und müssen nicht installiert werden. Du änderst einfach den `Map` Pfad in der `ServerConfig.toml` Datei auf einen [dieser](server-maintenance.md#all-vanilla-maps-names). Für jegliche Mod Karten, gehe wie folgt vor:
 
 1. Legen die `.zip` Datei der Karte in den Ordner <br> `Resources/Client` des Servers.
 2. Sieh dir als Nächstes in die Zip-Datei der Karte (entpacke sie nicht) und öffne den Ordner „ `levels` “. In diesem Ordner sollte sich lediglich ein weiterer Ordner mit dem Namen der Karte befinden, zum Beispiel „myawesomedriftmap2021“. Achte darauf, diesen Namen *genau so zu kopieren oder zu merken, wie er im Namen dieses Ordners geschrieben ist.*
