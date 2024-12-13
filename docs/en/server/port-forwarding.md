@@ -60,7 +60,15 @@ There are 4 major steps to setting up a port forward.
 
 ### 1. Assigning a static IP address
 
-### Method 1: Assign a static IP in Windows
+### Method 1: Set Up a Static IP Address Using DHCP Reservations
+
+Another way to set up a static IP address is to use your router's DHCP reservations feature. Not all routers have this feature, so this may not be an option for you. Please search the internet with the model of your router to find out if you can.
+
+However, if your router does have this feature, it is an excellent choice for reserving a static IP address for all of the devices in your home. DHCP reservations allow you to centrally manage all of your home IP addresses from a single interface and will enable you to change settings on devices that you may otherwise not be able to edit. 
+
+If you have managed to do this, please skip directly to [step 2](port-forwarding.md#2-log-in-to-your-router)
+
+### Method 2: Assign a static IP in Windows
 
 #### 1.1. Find your current IP Address, Gateway and DNS servers:
 
@@ -73,7 +81,7 @@ Open up a command prompt. The 3 main ways are:
 
 - Windows Key, then start typing the phrase "cmd", then press Enter when you see "Command Prompt" highlighted.
 - Windows Key + R (opens the Run dialog box), followed by 'cmd', then Enter
-- Right-click the Windows Key, then choose 'Windows PowerShell' (white text on blue background)
+- Right-click the Windows Icon, then choose 'Windows PowerShell' (white text on blue background)
 
 
 <figure class="image image_resized" style="width:62%;" markdown>
@@ -87,7 +95,7 @@ ipconfig /all
 ```
 
 You will see a lot of data. 
-If you have virtual network adapters or multiple network adapters, then you will see even more data. 
+If you have virtual or multiple network adapters, then you will see even more data. 
 It is common to see many virtual adapters if you have either Hyper-V or Docker installed.
 
 
@@ -95,9 +103,8 @@ It is common to see many virtual adapters if you have either Hyper-V or Docker i
   ![](../../assets/content/win11-command-prompt-ipconfig-highlighted.png)
 </figure>
 
-Most of the network adapters will not work for port forwarding. 
-It is also recommended that you hard-wire your device which will be running this server, however, it will work on a wireless device such as a laptop.
-You will need to find an adapter which has valid settings. Scroll through the list of adapters and find one that has a Default Gateway assigned. 
+It is recommended to use a wired network connection which will be running this server, however, it will work over a wireless connection.
+You will need to look for an adapter in this list which has valid settings. Scroll through the list and find one that has a Default Gateway assigned. 
 Many of the virtual adapters will not have a Default Gateway. 
 You need to find a Default Gateway that has a similar IP address to the IPv4 address listed for the adapter.
 
@@ -116,7 +123,7 @@ Subnet Mask (most likely 255.255.255.0)
 Default Gateway (most likely 192.168.0.1 or 192.168.1.1)
 
 !!! info "Please Note"
-    BeamMP does not support IPv6 at this moment for hosting a server. 
+    BeamMP currently does not support IPv6 for hosting a server. 
 
 #### 1.2. Modify Adapter Settings
 
@@ -140,13 +147,13 @@ Look for any adapters that are not named "Hyper-V".
 </figure>
 
 
-Right-click on your adapter and choose properties. If Internet Protocol Version 4 is not checked, then this is the wrong adapter. Choose a different one.
+Right-click on your adapter and choose properties. If `Internet Protocol Version 4` is not checked, then this is the wrong adapter. Choose a different one.
 
 <figure class="image image_resized" style="width:62%;" markdown>
   ![](../../assets/content/win11-ethernet-properties-highlighted.png)
 </figure>
 
-Double click on Internet Protocol Version 4. Change Obtain an IP address automatically to Use the following IP address.
+Double click on `Internet Protocol Version 4`. Change `Obtain an IP address automatically` to `Use the following IP address`.
 
 Fill out the IP address, Subnet mask, Default gateway, and Preferred DNS server with the information from command prompt (ipconfig /all).
 
@@ -161,12 +168,6 @@ Alternatively, instead of using your DNS servers, you can use either the CloudFl
 </figure>
 
 Click Ok, then click Ok again, and your adapter is now changed from DHCP to static. Surf the web to make sure that you still have internet connectivity. If you do not, then change your settings back to Obtain an IP address automatically and try the next method.
-
-### Method 2: Set Up a Static IP Address Using DHCP Reservations
-
-Another way to set up a static IP address is to use your router's DHCP reservations feature. Not all routers have this feature, so this may not be an option for you. Please search the internet with the model of your router to find out if you can.
-
-However, if your router does have this feature, it is an excellent choice for reserving a static IP address for all of the devices in your home. DHCP reservations allow you to centrally manage all of your home IP addresses from a single interface and will enable you to change settings on devices that you may otherwise not be able to edit. 
 
 ### 2. Log in to your router
 
@@ -211,13 +212,13 @@ BeamMP requires both UDP and TCP port 30814 (Unless you have changed this in you
 
 
 !!! info "Something to note:"
-    While the default **Port** you want to “forward” is **30814**, you can choose any other number >1024, but you need to note down what you picked if it's not 30814\. You need to forward both **TCP** and **UDP**.
+    While the default **Port** you want to “forward” is **30814**, you can choose any other number greater than 1024 but less than 65535, but you need to note down what you picked if it's not 30814\. You need to forward both **TCP** and **UDP**.
     </br>
     It is recommended to stick to the default port as that one is very unlikely to be used by another service on your PC.
     </br>
     However, If you are hosting multiple servers on one machine, each server needs a different Port. Server 1: 30814, Server 2: 30815 for example.
 
-On some routers you may need to create 2 rules for this, whilst others are nice and allow you to do both with a single rule!
+On some routers you may need to create 2 rules, one for UDP and one for TCP, whilst others are nice and allow you to do both with a single rule!
 
 Most routers have a Save button, and some routers require a restart or reboot for the changes to take effect.
 
@@ -227,7 +228,7 @@ There are a few different ways to test the connection.
 
 Our recommend way is to use a tool called [Probably Up](https://probablyup.net/api) as this tests for BeamMP specific issues and protocols.
 
-This can be done by getting your public IPv4 Address, this once again can be done in a few different ways. The main way it to use a website called [icanhazip.com](https://icanhazip.com/). This is a very simple website which displays your public IP Address. You should be looking for an IP address with the formatting: xxx.xxx.xxx.xxx
+This can be done by getting your public IPv4 Address, this once again can be done in a few different ways. The main way is to use a website called [icanhazip.com](https://icanhazip.com/). This is a very simple website which displays your public IP Address. You should be looking for an IP address with the formatting: xxx.xxx.xxx.xxx
 
 <figure class="image image_resized" style="width:62%;" markdown>
   ![](../../assets/content/probably-up.png)
@@ -238,6 +239,9 @@ Once you have entered in the information required, click on Run test and it shou
 <figure class="image image_resized" style="width:62%;" markdown>
   ![](../../assets/content/probably-up-sucessful.png)
 </figure>
+
+If you get the output above you can now join your server!
+You have 2 ways to join, either directly with the details you entered into Probably UP, or, if your server is public, through the server-list.
 
 ## Still not working?
 
