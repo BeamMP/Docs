@@ -52,11 +52,7 @@ It is therefore recommended to host a Server with one of our partnered Services!
 
 *NOTE: if you host your server using one of our partners, the Port Forwarding step is not needed.*
 
-Now back to Port Forwarding. This step is the same for almost every game's server, such as Minecraft Servers, so you can find many tutorials online for this, even for your specific router model. A good full guide is [this tutorial](https://www.noip.com/support/knowledgebase/general-port-forwarding-guide/). Make sure you forward port  **30814**, as **TCP** and **UDP**. 
-
-While the default **Port** you want to “forward” is **30814**, you can choose any other number >1024, but you need to note down what you picked if it's not 30814\. You need to forward both **TCP** and **UDP**.
-It is recommended to stick to the default port as that one is very unlikely to be used by another Service on your PC.
-NOTE: If you are hosting multiple Servers on one machine, each Server needs a different Port. Server 1: 30814, Server 2: 30815 for example.
+Please see [this guide on how to port forward](port-forwarding.md)
 
 #### 1.1 Firewall
 
