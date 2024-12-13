@@ -43,8 +43,8 @@ Prima di modificare il codice, ricordati che è soggetto ai nostri [termini di u
 | Codice     | Licenza                                                                    |
 |------------|:--------------------------------------------------------------------------:|
 | Server     | [LICENSE](https://github.com/BeamMP/BeamMP-Server/blob/master/LICENSE)     |
-| Launcher   | [LICENSE](https://github.com/BeamMP/BeamMP-Launcher/blob/master/README.md) |
-| Client Lua | [LICENSE](https://github.com/BeamMP/BeamMP/blob/development/LICENSE.md)    |
+| Launcher   | [LICENSE](https://github.com/BeamMP/BeamMP-Launcher/blob/master/LICENSE)   |
+| Client Lua | [LICENSE](https://github.com/BeamMP/BeamMP/blob/development/LICENSE)       |
 
 ---
 #### **Ho trovato un bug o un exploit cosa faccio?**
