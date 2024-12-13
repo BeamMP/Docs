@@ -34,7 +34,7 @@ Einige Antivirus Programme Melden BeamMP möglicherweise als Bedrohung, weil es 
 
 #### **Ich habe schlechte Spiel Leistung, was soll ich tun?**
 
-Wir arbeiten hart daran, die Mehrspieler Erfahrung so Stabil wie möglich zu gestalten. Wenn du schon deine Grafik Einstellungen gesenkt hast, aber die Leistung immer noch niedrig ist, versuche auf einem Server mit weniger Spielern zu spielen. Das Spiel ist hauptsächlich CPU gebunden, wenn du mit mehreren Personen spielst, ältere CPUs (sogar quadcores) werden schon unter einer Hand voll an Spielern leiden. (Generelle Daumenregel: 1 Auto pro 1 CPU Thread)
+Wir arbeiten hart daran, die Mehrspieler Erfahrung so Stabil wie möglich zu gestalten. Wenn du deine Grafik Einstellungen bereits heruntergesetzt hast, aber die Leistung immer noch eingeschränkt ist, versuche es auf Servern mit weniger Spieler. Das Spiel ist hauptsächlich CPU gebunden, wenn du mit mehreren Personen spielst, ältere CPUs (sogar quadcores) werden schon unter einer Hand voll an Spielern leiden. (Generelle Daumenregel: 1 Auto pro 1 CPU Thread)
 
 ---
 
