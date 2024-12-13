@@ -37,7 +37,7 @@ This step is necessary if you want someone outside of your household to join ("o
 
     We take no responsibility for any content on any externally linked services or websites.
 
-Therefore it is recommended to host a Server with one of our partnered Services!
+It is therefore recommended to host a Server with one of our partnered Services!
 
 #### Paid Services:
 
@@ -49,8 +49,6 @@ Therefore it is recommended to host a Server with one of our partnered Services!
 * [Zap Hosting](https://zap-hosting.com/en/beammp-server-hosting/)
 * [HostHavoc](https://hosthavoc.com/)
 * [PedalHost](https://pedal.host/)
-
-**Any other companies offering BeamMP-Server hosting which aren't listed here are not legit and WILL charge you more than our partners**
 
 *NOTE: if you host your server using one of our partners, the Port Forwarding step is not needed.*
 
