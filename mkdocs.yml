@@ -339,6 +339,7 @@ nav:
       - Using BeamMP: game/playing.md
     - Running a Server:
       - Server Installation: server/create-a-server.md
+      - Port Forwarding: server/port-forwarding.md
       - Server Maintenance: server/server-maintenance.md
       - Error Codes: server/error-codes.md
       - Server Manual: server/manual.md
