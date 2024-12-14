@@ -30,13 +30,20 @@ Das Aufsetzten besteht aus ein paar Schritten. Du solltest unbedingt alle befolg
 
 Dieser Schritt ist wichtig, wenn jemand außerhalb des Heim-Netzwerks deinem Server beitreten möchte.
 
-#### ACHTUNG:
+####
 
-Durch die Port Weiterleitung verstehst du die Risiken des öffnen von Ports von deinem Heim-Netzwerk in das öffentliche und verzichtest auf dein Recht, BeamMP für (ernste) Schäden an dir oder einem Netzwerk verantwortlich zu machen.
+!!! danger ":material-scale-balance: WARNUNG:"
 
-Daher wird empfohlen, einen Server mit einen unserer Partner zu hosten.
+```
+**Das weiterleiten von Ports ist ein Risiko**.
 
-Kostenpflichtige Dienste:
+Durch das weiterleiten von Ports akzeptierst du das Risiko beim öffnen von Ports auf einem lokalen Netzwerk in das öffentliche Netzwerk. Dadurch kannst du BeamMP für **jegliche und alle** Schäden die an dir oder deinem Haushalt passieren können, nicht verantwortlich machen.
+Wir sind nicht verantwortlich für jegliches verlinktest Material auf externen Seiten oder Services.
+```
+
+Es ist zu empfehlen, einen Server mit einem unserer Partner-Services zu hosten!
+
+#### Kostenpflichtige Dienste:
 
 - [Horizon Hosting](https://hrzn.link/beammp)
 - [Snakecraft Hosting](https://schost.us/beammp-plans)
@@ -46,8 +53,6 @@ Kostenpflichtige Dienste:
 - [Zap Hosting](https://zap-hosting.com/en/beammp-server-hosting/)
 - [HostHavoc](https://hosthavoc.com/)
 - [PedalHost](https://pedal.host/)
-
-**Andere Anbieter, welche BeamMP-Server hosting anbieten und hier nicht gelistet sind, sind nicht von uns verifiziert und KÖNNEN mehr als unsere Partner verlangen.**
 
 *Achtung: Wenn du einen Server mit unseren Partnern hostest, kannst du den ,,Port Weiterleitung" Schritt überspringen.*
 
@@ -61,7 +66,7 @@ Abhängig von deinem Setup, muss in der Firewall eine Ausnahme für den BeamMP-S
 
 Sowohl Ein- als auch Ausgehende Verbindungen auf **TCP** und **UDP** müssen als Firewall-Regel für die Anwendung BeamMP-Server.exe freigegeben werden. Wenn deine Firewall stattdessen nach einem Port fragt, muss dies derselbe Port sein, den du in Schritt „1. Portweiterleitung“ verwendet hast (Standard ist 30814).
 
-Wenn du  Probleme hast, kannst du diese auch gerne in unserem [Forum](https://forum.beammp.com) oder auf unserem [Discord-Server](https://discord.gg/beammp) im `#support` Kanal fragen.
+Solltest du Probleme haben, frage auf unserem [Forum](https://forum.beammp.com) oder auf unserem [Discord server](https://discord.gg/beammp) im `#support` Kanal.
 
 ### 2. Authentifizierungsschlüssel
 
@@ -183,7 +188,7 @@ Für unser Beispiel sollte der Eintrag so aussehen:
 AuthKey = '3173a2e-6az0-4542-a3p0-ddqq5ff95558'
 ```
 
-Vergib deinem Server einen Namen im `Name` Feld. Du kannst diesen mit Farbe und mehr formatieren. Siehe [diese Sektion zu Namensformatierung](server-maintenance.md#customize-the-look-of-your-server-name) auf der Serverwartungssteite.
+Gib deinem Server auch einen Namen, in dem du das `Name` Feld befüllst. Man kann dies mit farben und mehr formatieren. Siehe [diesen Eintrag zu benutzerdefinierten Namen](server-maintenance.md#customize-the-look-of-your-server-name) auf der Server-Wartungs Seite..
 
 Wenn du einen anderen **Port** als **30814** ausgewählt hast, achte darauf, ihn hier unter `Port` zu ersetzen.
 
@@ -205,7 +210,7 @@ Wenn du nur modifizierte Fahrzeuge hinzufügen möchtest, lege die Zip-Datei der
 
 #### 5.3 Karten
 
-Alle Standardkarten (Karten, die keine Mods sind) funktionieren sofort und müssen nicht installiert werden. Man ändert einfach die `Map` in der Datei `ServerConfig.toml` auf eine der [folgenden](server-maintenance.md#all-vanilla-maps-names) . Für alle anderen mod Karten befolge folgende Schritte:
+Alle in BeamNG.Drive mitgelieferten Karten (welche keine Mods  sind) funktionieren sofort und müssen nicht installiert werden. Du änderst einfach den `Map` Pfad in der `ServerConfig.toml` Datei auf einen [dieser](server-maintenance.md#all-vanilla-maps-names). Für jegliche Mod Karten, gehe wie folgt vor:
 
 1. Legen die `.zip` Datei der Karte in den Ordner <br> `Resources/Client` des Servers.
 2. Sieh dir als Nächstes in die Zip-Datei der Karte (entpacke sie nicht) und öffne den Ordner „ `levels` “. In diesem Ordner sollte sich lediglich ein weiterer Ordner mit dem Namen der Karte befinden, zum Beispiel „myawesomedriftmap2021“. Achte darauf, diesen Namen *genau so zu kopieren oder zu merken, wie er im Namen dieses Ordners geschrieben ist.*
