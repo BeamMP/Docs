@@ -16,7 +16,7 @@ Eine vollständige Anleitung zur Installation von BeamMP unter Windows findet ma
 
 #### **Funktioniert BeamMP mit einer gecrackten Version von BeamNG?**
 
-BeamMP garantiert nicht, dass es mit gecrackten Versionen von BeamNG.Drive funktioniert.
+BeamMP garantiert keine Funktion mit gecrackten oder veralteten Versionen von BeamNG.drive. Das BeamMP Support Team wird Nutzern keine unterstützung gewähren, wenn eine nicht echte Kopie vom Spiel in Verwendung ist.
 
 ---
 
@@ -49,8 +49,8 @@ Der gesamte Source Code kann auf unserem [GitHub](https://github.com/BeamMP) gef
 Code | Lizenz
 --- | :-:
 Server | [LIZENZ](https://github.com/BeamMP/BeamMP-Server/blob/master/LICENSE)
-Launcher | [LIZENZ](https://github.com/BeamMP/BeamMP-Launcher/blob/master/README.md)
-Client Lua | [LIZENZ](https://github.com/BeamMP/BeamMP/blob/development/LICENSE.md)
+Launcher | [LIZENZ](https://github.com/BeamMP/BeamMP-Launcher/blob/master/LICENSE)
+Client Lua | [LIZENZ](https://github.com/BeamMP/BeamMP/blob/development/LICENSE)
 
 ---
 
