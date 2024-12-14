@@ -49,7 +49,7 @@ Der gesamte Source Code kann auf unserem [GitHub](https://github.com/BeamMP) gef
 Code | Lizenz
 --- | :-:
 Server | [LIZENZ](https://github.com/BeamMP/BeamMP-Server/blob/master/LICENSE)
-Launcher | [LIZENZ](https://github.com/BeamMP/BeamMP-Launcher/blob/master/README.md)
+Launcher | [LIZENZ](https://github.com/BeamMP/BeamMP-Launcher/blob/master/LICENSE).
 Client Lua | [LIZENZ](https://github.com/BeamMP/BeamMP/blob/development/LICENSE.md)
 
 ---
