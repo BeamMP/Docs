@@ -176,7 +176,7 @@ Private = false
 ResourceFolder = 'Resources'
 ```
 
-Das ist die Konfigurationsdatei. Sie nutzt das sogenannte ,,Toml" Format. Siehe die [Server Wartung](server-maintenance.md) Sektion für weitere Informationen bezüglich dieser Datei.
+Das ist die Konfigurationsdatei. Sie nutzt das sogenannte ,,TOML" Format. Siehe die [Server Wartung](server-maintenance.md) Sektion für weitere Informationen bezüglich dieser Datei.
 
 Als erstes kümmern wir uns um den <code>AuthKey</code>. Dazu muss der Schlüssel zwischen die Anführungszeichen <code>" "</code> eingefügt werden.
 
@@ -186,7 +186,7 @@ Für unser Beispiel sollte der Eintrag so aussehen:
 AuthKey = '3173a2e-6az0-4542-a3p0-ddqq5ff95558'
 ```
 
-Vergib deinem Server einen Namen im `Name` Feld. Du kannst diese mit Farben und mehr formatieren. Siehe [diese Sesktion](server-maintenance.md#customize-the-look-of-your-server-name) auf der Server-wartungsseite.
+Vergib deinem Server einen Namen im `Name` Feld. Du kannst diesen mit Farben und mehr formatieren. Siehe [diese Sesktion](server-maintenance.md#customize-the-look-of-your-server-name) auf der Server-Wartungsseite.
 
 Wenn du einen anderen **Port** als **30814** ausgewählt hast, achte darauf, ihn hier unter `Port` zu ersetzen.
 
