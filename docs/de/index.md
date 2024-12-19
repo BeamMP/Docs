@@ -8,7 +8,7 @@ hide:
 ```
 Diese Seite steht unter aktiver Bearbeitung.
 
-Denkst du, dass du helfen könntest? Das kannst du tun, indem du auf das Editier Symbol auf der Rechten Seite klickst!
+Denkst du, dass du helfen könntest? Das kannst du tun, indem du auf das Editier Symbol auf der rechten Seite klickst!
 
 Das trifft auch auf alle anderen Seiten zu.
 ```
