@@ -56,9 +56,7 @@ Es ist zu empfehlen, einen Server mit einem unserer Partner-Services zu hosten!
 
 *Achtung: Wenn du einen Server mit unseren Partnern hostest, kannst du den ,,Port Weiterleitung" Schritt überspringen.*
 
-Nun zurück zu Port Forwarding. Dieser Schritt ist derselbe wie für fast alle anderen Spielserver wie Minecraft Server. Du kannst gute Tutorials online finden, sogar Anleitungen für dein spezifisches Routermodell. Eine gute Anleitung wäre [dieses tutorial](https://www.noip.com/support/knowledgebase/general-port-forwarding-guide/). Stelle sicher, dass du den Port **30814** für **TCP** and **UDP** weiterleitest.
-
-Der **Standard-Port** für BeamMP ist **30814**, wenn nötig kann jedoch auch ein anderer Port statt 30814 gewählt werden, sollte aber nicht unterhalb von 1024 sein. Der Port muss sowohl auf **TCP** wie auch auf **UDP** weitergeleitet werden. Es ist zu empfehlen den Port bei 30814 zu belassen, da es hier am unwahrscheinlichsten ist, dass ein anderer Service diesen Port verwendet. ACHTUNG: Wenn du mehrere Server auf einem Computer hostest, benötigt jeder Server einen eigenen Port. Beispiel: Server 1: 30814, Server 2: 30815.
+Schau dir [diese Anleitung zum Port Weiterleiten](port-forwarding.md) an.
 
 #### 1.1 Firewall
 
@@ -178,7 +176,7 @@ Private = false
 ResourceFolder = 'Resources'
 ```
 
-Das ist die Konfigurationsdatei des Servers. Sie verwendet das TOML Format. Siehe [Server Maintenance](server-maintenance.md) Sektion für mehr Informationen.
+Das ist die Konfigurationsdatei. Sie nutzt das sogenannte ,,Toml" Format. Siehe die [Server Wartung](server-maintenance.md) Sektion für weitere Informationen bezüglich dieser Datei.
 
 Als erstes kümmern wir uns um den <code>AuthKey</code>. Dazu muss der Schlüssel zwischen die Anführungszeichen <code>" "</code> eingefügt werden.
 
@@ -188,7 +186,7 @@ Für unser Beispiel sollte der Eintrag so aussehen:
 AuthKey = '3173a2e-6az0-4542-a3p0-ddqq5ff95558'
 ```
 
-Gib deinem Server auch einen Namen, in dem du das `Name` Feld befüllst. Man kann dies mit farben und mehr formatieren. Siehe [diesen Eintrag zu benutzerdefinierten Namen](server-maintenance.md#customize-the-look-of-your-server-name) auf der Server-Wartungs Seite..
+Vergib deinem Server einen Namen im `Name` Feld. Du kannst diese mit Farben und mehr formatieren. Siehe [diese Sesktion](server-maintenance.md#customize-the-look-of-your-server-name) auf der Server-wartungsseite.
 
 Wenn du einen anderen **Port** als **30814** ausgewählt hast, achte darauf, ihn hier unter `Port` zu ersetzen.
 
@@ -210,7 +208,7 @@ Wenn du nur modifizierte Fahrzeuge hinzufügen möchtest, lege die Zip-Datei der
 
 #### 5.3 Karten
 
-Alle in BeamNG.Drive mitgelieferten Karten (welche keine Mods  sind) funktionieren sofort und müssen nicht installiert werden. Du änderst einfach den `Map` Pfad in der `ServerConfig.toml` Datei auf einen [dieser](server-maintenance.md#all-vanilla-maps-names). Für jegliche Mod Karten, gehe wie folgt vor:
+Alle vanilla Karten (Karten, die keine Mods sind) funktionieren out-of-the-box und müssen nicht installiert werden. Du änderst einfach den `Map` Pfad in der `ServerConfig.toml` Datei auf eine von [diesen](server-maintenance.md#all-vanilla-maps-names). Für andere Mod Karten, siehe folgende Instruktionen.
 
 1. Legen die `.zip` Datei der Karte in den Ordner <br> `Resources/Client` des Servers.
 2. Sieh dir als Nächstes in die Zip-Datei der Karte (entpacke sie nicht) und öffne den Ordner „ `levels` “. In diesem Ordner sollte sich lediglich ein weiterer Ordner mit dem Namen der Karte befinden, zum Beispiel „myawesomedriftmap2021“. Achte darauf, diesen Namen *genau so zu kopieren oder zu merken, wie er im Namen dieses Ordners geschrieben ist.*
