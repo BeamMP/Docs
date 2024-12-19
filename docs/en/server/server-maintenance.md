@@ -86,76 +86,76 @@ You can add multiple tags separated by comma `Tags = "Events,Offroad,lang:englis
 You can choose from the following list:
 
    - Age/Content:
-       - Mature/18+
+       - `Mature/18+`
 
    - Gameplay Types:
-       - Freeroam
-       - Roleplay
-       - Economy
-       - Traffic
+       - `Freeroam`
+       - `Roleplay`
+       - `Economy`
+       - `Traffic`
 
    - Racing Categories:
-       - Racing
-       - Racing:NASCAR
-       - Racing:Track
-       - Racing:Drag
-       - Racing:Rally
-       - Touge
+       - `Racing`
+       - `Racing:NASCAR`
+       - `Racing:Track`
+       - `Racing:Drag`
+       - `Racing:Rally`
+       - `Touge`
 
    - Off-Roading and Challenges:
-       - Offroad
-       - Crawling
-       - Dakar
-       - Challenge
+       - `Offroad`
+       - `Crawling`
+       - `Dakar`
+       - `Challenge`
 
    - Destruction Events:
-       - Derby
-       - Arena
+       - `Derby`
+       - `Arena`
 
    - Weather and Time Conditions:
-       - Snow/Ice
-       - Rain
-       - Night
-       - Weather
+       - `Snow/Ice`
+       - `Rain`
+       - `Night`
+       - `Weather`
 
    - Gamemodes:
-       - Gamemode
-       - Gamemode:Racing
-       - Gamemode:Rally
-       - Gamemode:Drag
-       - Gamemode:Derby
-       - Gamemode:Infection
-       - Gamemode:Cops-Robbers
-       - Gamemode:Delivery
-       - Gamemode:Sumo
+       - `Gamemode`
+       - `Gamemode:Racing`
+       - `Gamemode:Rally`
+       - `Gamemode:Drag`
+       - `Gamemode:Derby`
+       - `Gamemode:Infection`
+       - `Gamemode:Cops-Robbers`
+       - `Gamemode:Delivery`
+       - `Gamemode:Sumo`
 
    - Community and Events:
-       - Scenarios
-       - Events
-       - Leaderboard
+       - `Scenarios`
+       - `Events`
+       - `Leaderboard`
 
    - Mods:
-       - Modded
-       - Mod:BeamPaint
-       - Mod:BeamJoy
-       - Mod:CEI
+       - `Modded`
+       - `Mod:BeamPaint`
+       - `Mod:BeamJoy`
+       - `Mod:CEI`
 
    - Languages:
-       - Lang:English
-       - Lang:Russian
-       - Lang:French
-       - Lang:Spanish
-       - Lang:Portuguese
-       - Lang:German
-       - Lang:Polish
-       - Lang:Arabic
+       - `Lang:English`
+       - `Lang:Russian`
+       - `Lang:French`
+       - `Lang:Spanish`
+       - `Lang:Portuguese`
+       - `Lang:German`
+       - `Lang:Polish`
+       - `Lang:Arabic`
 
    - Other:
-       - Vanilla
-       - Moderated
+       - `Vanilla`
+       - `Moderated`
 
 
-Should a tag be missing from this list, you can submit a request for it to be added [here](https://forum.beammp.com/t/introducing-server-tags/1320081)
+Should a tag be missing from this list, you can submit a request for it to be adde`[here](https://forum.beammp.com/t/introducing-server-tags/1320081)
 
 ## The Server.log file
 
