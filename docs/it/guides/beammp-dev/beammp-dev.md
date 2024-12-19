@@ -75,7 +75,7 @@ Chiedi pure nel canale #scripting nel nostro [Discord](https://discord.gg/beammp
 ---
 # Creare un server in locale
 
-Mentre si lavora su BeamMP può essere d'aiuto l'utilizzo di un server in locale. Puoi seguire la [guida di installazione del server](docs/en/server/create-a-server.md) saltando i primi due passi per quanto riguarda le connessioni locali.
+Mentre si lavora su BeamMP può essere d'aiuto l'utilizzo di un server in locale. Puoi seguire la [guida di installazione del server](../../server/create-a-server.md) saltando i primi due passi per quanto riguarda le connessioni locali.
 
 Imposta il server come privato in `serverConfig.toml` e puoi usare una qualunque stringa come `AuthKey`.
 

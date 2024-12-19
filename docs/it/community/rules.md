@@ -24,7 +24,7 @@ hide:
 13. Rispettare le altre persone:material-information-outline:{ title="È inutile dire che alla base della comunità c'è il rispetto reciproco." }
 14. Attieniti all'argomento del canale:material-information-outline:{ title="Non mandare messaggi non pertinenti al canale in cui ti trovi, ad esempio il canale di supporto deve essere usato solo nel caso in cui si richieda supporto tecnico." }
 15. No uso eccessivo di MAIUSCOLO o reazioni/emote:material-information-outline:{ title="Gli utenti devono astenersi dall'utilizzare un numero eccessivo di maiuscole o di emoji/reazioni per non disperdere l'attenzione dal punto in questione." }
-16. Prima di chiedere aiuto nei canali di supporto, guarda le [FAQ di BeamMP](/support/player-faq/) e le [FAQ della comunità](https://forum.beammp.com/c/faq/35).
+16. Prima di chiedere aiuto nei canali di supporto, guarda le [FAQ di BeamMP](../../support/player-faq.md) e le [FAQ della comunità](https://forum.beammp.com/c/faq/35).
 
 ## Regole specifiche al server Discord
 
