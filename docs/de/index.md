@@ -1,15 +1,18 @@
 ---
 hide:
-  - navigation
+  - Navigation
 ---
+
 !!! warning "Diese Seite befindet sich im Aufbau!"
 
-    Diese Seite wird aktiv bearbeitet.
+```
+Diese Seite steht unter aktiver Bearbeitung.
 
-    Denken Sie, Sie könnten helfen? Bitte tun Sie dies, indem Sie auf die Seite mit einem Bleistift rechts klicken!
+Denkst du, dass du helfen könntest? Das kannst du tun, indem du auf das Editier Symbol auf der Rechten Seite klickst!
 
-    Dies kann auch auf jeder anderen Seite gemacht werden.
-    
+Das trifft auch auf alle anderen Seiten zu.
+```
+
 # Willkommen bei BeamMP Docs! :tada:
 
 Willkommen im neuen und verbesserten Dokumentationszentrum für BeamMP! Egal, ob du Spieler, Serverbesitzer oder Entwickler bist, wir haben die Ressourcen, die du benötigst, um dein Mehrspielererlebnis in BeamNG.drive zu optimieren.
