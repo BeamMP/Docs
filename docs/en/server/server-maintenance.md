@@ -81,59 +81,81 @@ Use these special symbols before your text and it'll apply an effect to that tex
 
 Tags can be used to allow people to search for a specific type of server. Your serverConfig.toml will generate with the freeroam tag `Tags = "Freeroam"`.
 
-You can add multiple tags separated by comma `Tags = "Events,Offroad, lang:english"`, they are not case sensitive.
+You can add multiple tags separated by comma `Tags = "Events,Offroad,lang:english"`, they are not case sensitive.
 
 You can choose from the following list:
 
-   - `Arena`
-   - `Challenge`
-   - `Crawling`
-   - `Dakar`
-   - `Derby`
-   - `Drift`
-   - `Economy`
-   - `Events`
-   - `Freeroam`
-   - `Gamemode`
-   - `Gamemode:Cops-Robbers`
-   - `Gamemode:Delivery`
-   - `Gamemode:Derby`
-   - `Gamemode:Drag`
-   - `Gamemode:Infection`
-   - `Gamemode:Racing`
-   - `Gamemode:Rally`
-   - `Gamemode:Sumo`
-   - `Lang:Arabic`
-   - `Lang:English`
-   - `Lang:French`
-   - `Lang:German`
-   - `Lang:Polish`
-   - `Lang:Portuguese`
-   - `Lang:Russian`
-   - `Lang:Spanish`
-   - `Leaderboard`
-   - `Mature/18+`
-   - `Mod:BeamJoy`
-   - `Mod:BeamPaint`
-   - `Mod:CEI`
-   - `Modded`
-   - `Moderated`
-   - `Night`
-   - `Offroad`
-   - `Racing`
-   - `Racing:Drag`
-   - `Racing:NASCAR`
-   - `Racing:Rally`
-   - `Racing:Track`
-   - `Rain`
-   - `Rally`
-   - `Roleplay`
-   - `Scenarios`
-   - `Snow/Ice`
-   - `Touge`
-   - `Traffic`
-   - `Vanilla`
-   - `Weather`
+   - Age/Content:
+       - Mature/18+
+
+   - Gameplay Types:
+       - Freeroam
+       - Roleplay
+       - Economy
+       - Traffic
+
+   - Racing Categories:
+       - Racing
+       - Racing:NASCAR
+       - Racing:Track
+       - Racing:Drag
+       - Racing:Rally
+       - Touge
+
+   - Off-Roading and Challenges:
+       - Offroad
+       - Crawling
+       - Dakar
+       - Challenge
+
+   - Destruction Events:
+       - Derby
+       - Arena
+
+   - Weather and Time Conditions:
+       - Snow/Ice
+       - Rain
+       - Night
+       - Weather
+
+   - Gamemodes:
+       - Gamemode
+       - Gamemode:Racing
+       - Gamemode:Rally
+       - Gamemode:Drag
+       - Gamemode:Derby
+       - Gamemode:Infection
+       - Gamemode:Cops-Robbers
+       - Gamemode:Delivery
+       - Gamemode:Sumo
+
+   - Community and Events:
+       - Scenarios
+       - Events
+       - Leaderboard
+
+   - Mods:
+       - Modded
+       - Mod:BeamPaint
+       - Mod:BeamJoy
+       - Mod:CEI
+
+   - Languages:
+       - Lang:English
+       - Lang:Russian
+       - Lang:French
+       - Lang:Spanish
+       - Lang:Portuguese
+       - Lang:German
+       - Lang:Polish
+       - Lang:Arabic
+
+   - Other:
+       - Vanilla
+       - Moderated
+
+
+Should a tag be missing from this list, you can submit a request for it to be added [here](https://forum.beammp.com/t/introducing-server-tags/1320081)
 
 ## The Server.log file
 
