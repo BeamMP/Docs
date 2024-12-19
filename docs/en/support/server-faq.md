@@ -28,7 +28,7 @@ If there are no binaries for your Operating System/Distribution, you can build i
 ---
 ### **Players outside my network can not join my self-hosted server**
 
-Read the step `1. Port Forwarding` of our guide that's available [here](https://docs.beammp.com/server/create-a-server/#1-port-forwarding). Below there's a brief summary of the most noteworthy steps.
+Read the port forwarding guide that's available [here](https://docs.beammp.com/server/port-forwarding/). Below there's a brief summary of the most noteworthy steps.
 If other players, trying to connect to your server, receive an error code 10060, 10061 or 10038 in their BeamMP launcher, then you should check the following steps:
 
 - Forward port 30814 (or whichever port you set in your ServerConfig.toml), both TCP and UDP protocols.
@@ -36,11 +36,11 @@ If other players, trying to connect to your server, receive an error code 10060,
 - Make sure you're not using a VPN (this can cause issues).
 - Make sure the server is actually running, without any errors or warnings.
 
-You can check if you have successfully portforwarded using the site 'portchecker.co' whilst the server is running.
+You can check if you have successfully portforwarded using the site '[probablyup.net](https://probablyup.net/api)' whilst the server is running.
 
 Notes:
 
-- Some internet providers do not offer dedicated IPv4 addresses to your connection, so port forwarding may not be possible, despite it being available in the router.
+- Some internet providers do not offer dedicated IPv4 addresses to your connection (CGNAT), so port forwarding may not be possible, despite it being available in the router.
 - Port forwarding is not possible if you are using a mobile (4G/5G) internet connection.
 
 ---
