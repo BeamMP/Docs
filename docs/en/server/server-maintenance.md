@@ -155,7 +155,7 @@ You can choose from the following list:
        - `Moderated`
 
 
-Should a tag be missing from this list, you can submit a request for it to be adde`[here](https://forum.beammp.com/t/introducing-server-tags/1320081)
+Should a tag be missing from this list, you can submit a request for it to be added [here](https://forum.beammp.com/t/introducing-server-tags/1320081)
 
 ## The Server.log file
 
