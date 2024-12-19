@@ -79,9 +79,9 @@ Use these special symbols before your text and it'll apply an effect to that tex
 
 ### Customize your server tags
 
-Tags can be used to allow people to search for a specific type of server. Your serverConfig.toml will generate with the freeroam tag `Tags = "Freeroam"`
-You can add multiple tags separated by comma `Tags = "Events,Offroad, lang:english"` they are not case sensitive
-You can choose from the following list
+Tags can be used to allow people to search for a specific type of server. Your serverConfig.toml will generate with the freeroam tag `Tags = "Freeroam"`.
+You can add multiple tags separated by comma `Tags = "Events,Offroad, lang:english"` they are not case sensitive.
+You can choose from the following list:
 
    - Arena
    - Challenge
