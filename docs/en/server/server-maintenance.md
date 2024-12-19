@@ -77,6 +77,62 @@ Use these special symbols before your text and it'll apply an effect to that tex
 | `^e`  | Yellow                      |
 | `^f`  | White                       |
 
+### Customize your server tags
+
+Tags can be used to allow people to search for a specific type of server. Your serverConfig.toml will generate with the freeroam tag `Tags = "Freeroam"`
+You can add multiple tags separated by comma `Tags = "Events,Offroad, lang:english"` they are not case sensitive
+You can choose from the following list
+
+   - Arena
+   - Challenge
+   - Crawling
+   - Dakar
+   - Derby
+   - Drift
+   - Economy
+   - Events
+   - Freeroam
+   - Gamemode
+   - Gamemode:Cops-Robbers
+   - Gamemode:Delivery
+   - Gamemode:Derby
+   - Gamemode:Drag
+   - Gamemode:Infection
+   - Gamemode:Racing
+   - Gamemode:Rally
+   - Gamemode:Sumo
+   - Lang:Arabic
+   - Lang:English
+   - Lang:French
+   - Lang:German
+   - Lang:Polish
+   - Lang:Portuguese
+   - Lang:Russian
+   - Lang:Spanish
+   - Leaderboard
+   - Mature/18+
+   - Mod:BeamJoy
+   - Mod:BeamPaint
+   - Mod:CEI
+   - Modded
+   - Moderated
+   - Night
+   - Offroad
+   - Racing
+   - Racing:Drag
+   - Racing:NASCAR
+   - Racing:Rally
+   - Racing:Track
+   - Rain
+   - Rally
+   - Roleplay
+   - Scenarios
+   - Snow/Ice
+   - Touge
+   - Traffic
+   - Vanilla
+   - Weather
+
 ## The Server.log file
 
 This file will be generated when the server runs. It's a mirror of the messages you see in the console when you run the server. You should attach this file every time you need support from our support staff, and it will never show your AuthKey, so you can usually send it without modifications.
