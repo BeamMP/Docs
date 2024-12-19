@@ -358,7 +358,6 @@ nav:
       - Client Scripting Reference: scripting/mod-reference.md
     - Resource Creation:  
       - Server Resources: guides/mod-creation/server/getting-started.md
-      - Server Scripting Reference: scripting/server-reference.md
   - BeamNG Documentation:
     - beamng/index.md
     - Content Development:    
