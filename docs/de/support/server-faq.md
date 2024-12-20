@@ -33,18 +33,18 @@ Wir bieten Binaries für mehrere Linux Distributionen [hier](https://github.com/
 
 ### **Spieler außerhalb meines Netzwerks können meinem selbst gehosteten Server nicht beitreten**
 
-Lese dir Schritt `1. Port Forwarding` in unserer Dokumentation, diese ist [hier](https://docs.beammp.com/server/create-a-server/#1-port-forwarding) verfügbar. Unten findest du eine Zusammenfassung von den wichtigsten Schritten. Wenn andere Spieler versuchen deinem Server beizutreten, und den Error Code 10060, 10061 oder 10083 im BeamMP-Launcher vorfinden, dann solltest du folgende Schritte prüfen:
+Lies die Anleitung für das weiterleiten von Ports in [diesem Artikel](https://docs.beammp.com/server/port-forwarding/). Unten findest du die wichtigsten Schritte. Wenn andere Spieler versuchen deinen Server beizutreten, erhalten aber Fehlercodes wie 10060, 10061 oder 10038 in ihrem BeamMP-Launcher, dann beachte folgende Schritte.
 
 - Leite Port 30814 weiter (oder welchen Port du in der  ServerConfig.toml gesetzt hast), für die Protokolle TCP und UDP.
 - Erlaube BeamMP durch die Firewall für Einkommende und ausgehende Verbindungen. Das Deaktivieren der Firewall wird NICHT helfen
 - Stelle sicher, dass du keinen VPN verwendest (dies wird Probleme verursachen).
 - Stelle sicher, dass der Server ohne Probleme oder Fehlermeldungen läuft.
 
-Du kanns prüfen, ob du den Port erfolgreich weitergeleitet hast, indem du die Website 'portchecker.co' nutzt während der Server läuft.
+Du kannst prüfen, ob du erfolgreich Ports weitergeleitet hast, indem du '[probablyup.net](https://probablyup.net/api)' verwendest während der Server läuft.
 
 Beachte:
 
-- Einige Internet Anbieter bieten keine dezidierten IPv4 Adressen an. Das bedeutet, dass eine Port Weiterleitung eventuell nicht möglich ist, obwohl diese Option am Router verfügbar ist.
+- Einige Internet Anbieter bieten keine dezidierte IPv4 Adresse zu deinem Router (CGNAT), also ist Port forwarding eventuell nicht möglich, auch wenn der Router diese Option besitzt.
 - Die Weiterleitung von Ports ist nicht möglich, wenn du eine Mobile (4G/5G) Internet Verbindung hast.
 
 ---
