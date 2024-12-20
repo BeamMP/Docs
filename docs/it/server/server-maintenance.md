@@ -77,6 +77,86 @@ Puoi usare questi simboli prima del tuo testo per applicarci un effetto:
 | `^e`   | Giallo                           |
 | `^f`   | Bianco                           |
 
+### Personalizza i tag del server
+
+Le etichette del server possono aiutare le persone a filtrare la ricerca per un tipo specifico di server. Il tuo file serverConfig.toml genererà in automatico l'etichetta `Tags = "Freeroam"`.
+
+Puoi aggiungere ulteriori etichette separandole con una virgola `Tags = "Events,Offroad,lang:english"`, non c'è differenza tra maiuscole o minuscole.
+
+Puoi scegliere tra le seguenti etichette:
+
+   - Età/Contenuto:
+       - `Mature/18+`
+
+   - Tipo di gameplay:
+       - `Freeroam`
+       - `Roleplay`
+       - `Economy`
+       - `Traffic`
+
+   - Categorie di corse:
+       - `Racing`
+       - `Racing:NASCAR`
+       - `Racing:Track`
+       - `Racing:Drag`
+       - `Racing:Rally`
+       - `Touge`
+
+   - Fuori strada e sfide:
+       - `Offroad`
+       - `Crawling`
+       - `Dakar`
+       - `Challenge`
+
+   - Demolition derby:
+       - `Derby`
+       - `Arena`
+
+   - Condizioni meteo e orario:
+       - `Snow/Ice`
+       - `Rain`
+       - `Night`
+       - `Weather`
+
+   - Modalità di gioco:
+       - `Gamemode`
+       - `Gamemode:Racing`
+       - `Gamemode:Rally`
+       - `Gamemode:Drag`
+       - `Gamemode:Derby`
+       - `Gamemode:Infection`
+       - `Gamemode:Cops-Robbers`
+       - `Gamemode:Delivery`
+       - `Gamemode:Sumo`
+
+   - Comunità ed eventi:
+       - `Scenarios`
+       - `Events`
+       - `Leaderboard`
+
+   - Mod:
+       - `Modded`
+       - `Mod:BeamPaint`
+       - `Mod:BeamJoy`
+       - `Mod:CEI`
+
+   - Lingua:
+       - `Lang:English`
+       - `Lang:Russian`
+       - `Lang:French`
+       - `Lang:Spanish`
+       - `Lang:Portuguese`
+       - `Lang:German`
+       - `Lang:Polish`
+       - `Lang:Arabic`
+
+   - Altro:
+       - `Vanilla`
+       - `Moderated`
+
+
+Se manca qualche etichetta da questa lista, siete pregati di creare una richiesta per aggiungerla [qui](https://forum.beammp.com/t/introducing-server-tags/1320081).
+
 ## Il file Server.log
 
 Questo file è generato automaticamente quando il server è avviato. Contiene tutti i messaggi visualizzati nella console del server. È buona norma allegare questo file nel caso chiedessi aiuto al nostro staff di supporto; in questo file non è mai presente la tua AuthKey quindi puoi inviarlo senza alcuna modifica.

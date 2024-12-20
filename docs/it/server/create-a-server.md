@@ -1,14 +1,12 @@
 # Installazione del server
 
 ## **Creazione del server**
-
 Basi per la creazione di un server
 
 ---
-
 ### **Introduzione**
 
-**Creare un server per BeamMP è facile e veloce!**
+**Creare un server casalingo è gratuito, ma usare a un VPS è più facile e più sicuro**
 
 I server sono una parte integrante di BeamMP, tutti i giocatori sono connessi tra loro attraverso il server. I server possono funzionare nativamente su Windows e Linux.
 
@@ -30,34 +28,31 @@ La configurazione consiste di pochi passi che sono obbligatori da seguire.
 
 Questo passo è necessario se vuoi che qualcuno all'esterno della tua casa ("all'esterno del tuo network locale o LAN") possa accedere al server.
 
-#### LIMITAZIONE DI RESPONSABILITA'
+####
+!!! danger ":material-scale-balance: LIMITAZIONE DI RESPONSABILITA':"
+	
+    **Port forward è rischioso**
 
-Facendo il port forwarding sei a conoscenza dei rischi legati ad aprire le porte del tuo network di casa al pubblico e di conseguenza sollevi BeamMP da ogni responsabilità di danni che potrebbero succedere a te o al tuo ambiente domestico.
+    Facendo il port forwarding sei a conoscenza dei rischi legati ad aprire le porte del tuo network di casa al pubblico e di conseguenza sollevi BeamMP da ogni responsabilità di danni che potrebbero succedere a te o al tuo ambiente domestico.
 
-Sapendo ciò, è raccomandato per gli utenti meno esperti di utilizzare uno dei seguenti partner di hosting:
+    Non ci assumiamo alcuna responsabilità per i contenuti presenti su pagine esterne dei servizi presentati.
 
-Servizi a pagamento:
+È consigliato affidarsi a uno dei nostri partner per l'hosting del server!
+
+#### Servizi a pagamento:
 
 * [Horizon Hosting](https://hrzn.link/beammp)
-* [Racing Game Servers](https://racinggameservers.com/games/beamng-drive/)
 * [Snakecraft Hosting](https://schost.us/beammp-plans)
 * [Connect Hosting](https://connecthosting.net/beammp)
 * [Assetto Hosting](https://assettohosting.com/en/games/beamng)
 * [WinHeberg](https://winheberg.fr/offres/gaming/beammp?lang=en)
-* [Street Inc](https://billing.streetinc.org/)
 * [Zap Hosting](https://zap-hosting.com/en/beammp-server-hosting/)
 * [HostHavoc](https://hosthavoc.com/)
 * [PedalHost](https://pedal.host/)
 
-**Altre compagnie che offrono hosting di BeamMP-Server non sono affiliate e sono più costose dei nostri partner.**
-
 *NOTA: se se sceglie di acquistare il server da uno dei partner, il passo di Port Forwarding è superfluo.*
 
-Tornando al port forwarding, questo passo è praticamente il medesimo per tutti i server di gioco, come i server di Minecraft, quindi puoi trovare molte guide su internet riguardo all'argomento, anche per il tuo router in specifico. Una buona guida è [la seguente](https://www.aranzulla.it/come-aprire-le-porte-del-router-31808.html). Assicurati di aggiungere nelle regole di forwarding la porta **30814** sia in protocollo **TCP** sia in **UDP**.
-
-La **porta** di default può essere cambiata con quella che desideri, basta che non sia già utilizzata da altri servizi e che il numero sia &gt;1024. Ricordati o segnati quale porta hai scelto se non usi quella predefinita. Il forwarding deve essere sempre fatto sia in protocollo **TCP** sia in **UDP**.
-
-Se hai dei problemi, chiedi pure sul nostro [Forum](https://forum.beammp.com) o sul nostro [server Discord](https://discord.gg/beammp) nel canale `#support`.
+Per effettuare il port forwarding, affidarsi [a questa guida esterna](https://www.aranzulla.it/come-aprire-le-porte-del-router-31808.html).
 
 #### 1.1 Firewall
 
@@ -75,8 +70,8 @@ Ti servirà un account [Discord](https://discord.com) per questo passo. Discord 
 
 #### 2.1. Accedere alla pagina delle chiavi
 
-Fai il login con Discord al [Keymaster](https://beammp.com/keymaster). Dalla homepage del Keymaster, clicca su "Keys" a sinistra dello schermo:
-
+Fai il login con Discord al [Keymaster](https://beammp.com/keymaster).
+Dalla homepage del Keymaster, clicca su "Keys" a sinistra dello schermo:
 
 <figure markdown>
   ![](../../assets/content/keymaster_homepage.png)
@@ -86,7 +81,6 @@ Fai il login con Discord al [Keymaster](https://beammp.com/keymaster). Dalla hom
 
 Per creare una chiave clicca il "+" verde presente in alto a destra.
 
-
 <figure markdown>
   ![](../../assets/content/keymaster_new_key.png)
 </figure>
@@ -95,13 +89,11 @@ Per creare una chiave clicca il "+" verde presente in alto a destra.
 
 Inserisci il nome del server (questo è solo il nome per la chiave, non è il nome vero e proprio del server), poi clicca "Create", ad esempio:
 
-
 <figure class="image image_resized" style="width:44.84%;" markdown>
   ![](../../assets/content/keymaster_server_name.png)
 </figure>
 
 Il risultato dovrebbe essere simile a questo:
-
 
 <figure markdown>
   ![](../../assets/content/keymaster_key_done.png)
@@ -114,7 +106,6 @@ Hai un numero limitato di chiavi. Puoi utilizzare una chiave su un server per vo
 #### 2.4. Copiare la chiave
 
 Copia il testo del campo "key", in questo esempio è `3173a2e-6az0-4542-a3p0-ddqq5ff95558` e tienilo pronto per il passo successivo. Puoi fare questo cliccando l'icona a destra della chiave:
-
 
 <figure markdown>
   ![](../../assets/content/keymaster_copy_key.png)
@@ -164,7 +155,6 @@ Infine ricordati di eseguire il server con il comando `./BeamMP-Server-xxx`, dop
 
 Dopo che il server è stato avviato almeno una volta, dovrebbe aver creato diversi files e mostrato un paio di errori; questo perché manca ancora qualcosa. La tua cartella dovrebbe contenere questi files:
 
-
 <figure markdown>
   ![](../../assets/content/after-running-once.png)
 </figure>
@@ -194,11 +184,9 @@ Questo è il tuo file di configurazione. Utilizza un formato chiamato TOML. Fai 
 Per ora ci interessa soltanto il campo `AuthKey`. Incolla tra le virgolette `''` la chiave ottenuta nel passo "2. Ottenere una chiave di autenticazione".
 
 Per questo esempio, dovrà essere così:
-
 ```TOML
 AuthKey = '3173a2e-6az0-4542-a3p0-ddqq5ff95558'
 ```
-
 Dai anche un nome al tuo server tramite il campo `Name`. Puoi utilizzare colori e altri tipi di formattazione seguendo le indicazioni di [questa sezione](server-maintenance.md#personalizza-laspetto-del-nome-del-tuo-server) della pagina di manutenzione del server.
 
 Se hai scelto una **porta** differente da **30814** inseriscila al posto di quella predefinita in `Port`.

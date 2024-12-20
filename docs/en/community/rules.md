@@ -24,7 +24,7 @@ hide:
 13. Respect Everyone :material-information-outline:{ title="This should go unsaid, but you need to have respect for everyone around you and act accordingly." }
 14. Keep to the topic of the category or channel. :material-information-outline:{ title="This should go unsaid, but keep your content on the topic of the area that you are posting within. E.g. support should helping people or used when seeking support." }
 15. No excessive CAPS LOCK or Reactions/Emojis :material-information-outline:{ title="Users should refrain from using excessive caps or emojis/reactions as not to obscure the point at hand." }
-16. Check the [BeamMP FAQ](/support/player-faq/) & [BeamMP Community FAQ](https://forum.beammp.com/c/faq/35) before posting in support areas.
+16. Check the [BeamMP FAQ](../../support/player-faq.md) & [BeamMP Community FAQ](https://forum.beammp.com/c/faq/35) before posting in support areas.
 
 ## Discord Rules
 
