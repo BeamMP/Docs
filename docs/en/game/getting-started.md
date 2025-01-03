@@ -2,14 +2,12 @@
 
 ## **Compatibility**
 
-BeamMP is natively compatible only with Windows at the moment.
-Compatibility for both Linux and MacOS is being worked on.
+BeamMP is fully compatible with Windows and Linux, compatibility with MacOS is being worked on.
+However, both Linux and MacOS are secondary platforms, this means bugs are to be expected.
 
 BeamMP might not work with pirated copies of the game.
 
 ## **Installation**
-
-
 
 ### **Windows Installation**
 1. Go to [beammp.com](https://beammp.com/) and click the "Download client" button.
@@ -29,7 +27,7 @@ Note: _As you are loading into a map with multiple vehicles spawned it might tak
 Currently you need to build the Launcher yourself.
 In order to do this, you need a basic understanding of how to build an application.
 
-Make sure you have `vcpkg` installed, as well as basic development tools, often found in packages, for example:
+Make sure you have [`vcpkg` installed](https://learn.microsoft.com/en-us/vcpkg/get_started/get-started?pivots=shell-bash#1---set-up-vcpkg), as well as basic development tools, often found in packages, for example:
 
 - Debian: `sudo apt install build-essential`
 - Fedora: `sudo dnf groupinstall "Development Tools"`
