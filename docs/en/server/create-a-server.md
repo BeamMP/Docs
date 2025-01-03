@@ -27,6 +27,7 @@ Setup consists of the following steps, you should follow all of them.
 _If you are on a VPS (Virtual Private Server) or Rootserver, you can skip this step. If you're unsure about what a VPS or Rootserver is, you most likely aren't on one._
 
 This step is necessary if you want someone outside of your household to join ("outside of your local network").
+Please note that VPNs lkie Hamachi or Radmin are not supported.
 
 ####
 !!! danger ":material-scale-balance: DISCLAIMER:"
@@ -247,10 +248,6 @@ Should you or your friends experience a "Connection Failed!" Error, check the La
 This means you eihter have a CGNAT IPv4, or you have done something wrong during Step **1 Port Forwarding** or **1.1. Firewall**.
 To check if you have a CGNAT IPv4, look up the WAN IP Address on your routers interface. Compare it to your public IP listed on [_whatsmyip.org_](https://www.whatsmyip.org/).
 IPv6 Support is **NOT** yet implemented.
-
-#### 6.d. **[MAY NOT WORK]** For private servers (Hamachi):
-
-For someone to join your server, they must be on your Hamachi network, you do not need to be port forwarded for this. After joining your Hamachi network they will use the Hamachi IP and default port to direct connect to your server. For more info see our [Hamachi](https://forum.beammp.com/t/tutorial-how-to-host-a-server-with-logmein-hamachi/52) guide.
 
 ## Still facing issues?
 
