@@ -107,7 +107,7 @@ plugins:
           build: true
           nav_translations:
             Home: Inicio
-            Getting started: Empezando
+            Getting Started: Empezando
             Playing BeamMP: Jugando a BeamMP
             Installing BeamMP: Instalación de BeamMP
             Error Codes: Códigos de error
@@ -147,7 +147,7 @@ plugins:
           build: true
           nav_translations:
             Home: Hauptseite
-            Getting started: Erste Schritte
+            Getting Started: Erste Schritte
             Playing BeamMP: BeamMP spielen
             Installing BeamMP: BeamMP Installation
             Error Codes: Fehlercodes
@@ -187,7 +187,7 @@ plugins:
           build: true
           nav_translations:
             Home: Accueil
-            Getting started: Démarrage
+            Getting Started: Démarrage
             Playing BeamMP: Jouer à BeamMP
             Installing BeamMP: Installation de BeamMP
             Error Codes: Codes d'erreur
@@ -227,7 +227,7 @@ plugins:
           build: true
           nav_translations:
             Home: Home
-            Getting started: Guida introduttiva
+            Getting Started: Guida introduttiva
             Playing BeamMP: Giocare a BeamMP
             Installing BeamMP: Installazione di BeamMP
             Error Codes: Codici di errore
@@ -267,7 +267,7 @@ plugins:
           build: true
           nav_translations:
             Home: Главная
-            Getting started: Начало работы
+            Getting Started: Начало работы
             Playing BeamMP: Игра в BeamMP
             Installing BeamMP: Установка BeamMP
             Error Codes: коды ошибок
