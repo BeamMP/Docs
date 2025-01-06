@@ -331,11 +331,11 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Getting started:
+  - Getting Started:
     - Playing BeamMP:
       - Installing BeamMP: game/getting-started.md
       - Error Codes: game/error-codes.md
-      - Customizing your setup: game/tailoring.md
+      - Customizing Your Setup: game/tailoring.md
       - Using BeamMP: game/playing.md
     - Running a Server:
       - Server Installation: server/create-a-server.md
@@ -362,7 +362,7 @@ nav:
     - beamng/index.md
     - Content Development:    
       - Introduction: beamng/dev/index.md
-      - Coding:
+      - Programming:
         - UI Apps (HTML): beamng/dev/modding/ui-apps.md
         - IMGUI Windows (Lua): beamng/dev/modding/imgui-windows.md
         - Lua Mods (Scripts): beamng/dev/modding/lua-mods.md
@@ -374,8 +374,8 @@ nav:
   - Scripting Reference:
     - Mod (In-Game): scripting/mod-reference.md
     - Server: 
-      - V3.X (Latest): scripting/server/latest-server-reference.md
-      - V2.X: scripting/server/v2-server-reference.md
+      - Version 3.X (Latest): scripting/server/latest-server-reference.md
+      - Version 2.X (Deprecated): scripting/server/v2-server-reference.md
   - Contributing:
     - Getting Started: contributing.md
   - Community:

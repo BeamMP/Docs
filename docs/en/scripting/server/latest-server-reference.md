@@ -4,7 +4,7 @@
     
     Feel you could help? Please do by clicking on the page with a pencil on the right!
 
-    This can be done any page too.
+    This can be done on any page too.
 
 # Server Scripting Reference
 ## Server Version 3.X
@@ -265,6 +265,19 @@ For a list of events the server provides, see [here](/en/Scripting/new-lua-scrip
 
 If the event with that name doesn't exist, it's created, and thus RegisterEvent cannot fail. This can be used to create custom events.
 
+Example:
+
+```lua
+function ChatHandler(player_id, player_name, msg)
+    if msg == "damn" then
+        return 1
+    else
+        return 0
+    end
+end
+
+MP.RegisterEvent("onChatMessage", "ChatHandler")
+```
 #### `MP.CreateEventTimer(event_name: string, interval_ms: number, [strategy: number (since v3.0.2)])`
 
 Starts a timer inside the server which triggers the event `event_name` every `interval_ms` milliseconds.
@@ -351,6 +364,19 @@ In the game, this will not appear as a directed message.
 
 You can use this, for example, to tell a player *why* you cancelled their vehicle spawn, chat message, or similar, or to display some information about your server.
 
+Example:
+```lua
+function ChatHandler(player_id, player_name, msg)
+    if string.match(msg, "damn") then
+        MP.SendChatMessage(player_id, "Please do not use profanity.")
+        return 1
+    else
+        return 0
+    end
+end
+
+MP.RegisterEvent("onCh)
+    
 #### `MP.TriggerClientEvent(player_id: number, event_name: string, data: string) -> boolean`
 *until v3.1.0*
 
