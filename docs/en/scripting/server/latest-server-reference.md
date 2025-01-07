@@ -411,6 +411,43 @@ local player_id = 4
 local vehicle_id = 0
 
 local raw_pos, error = MP.GetPositionRaw(player_id, vehicle_id)
+
+print(raw_pos)
+```
+Output:
+```json
+ {
+    tim: 49.824, // Time since spawn
+    rvel: { // Rotational velocity
+            1: -1.33564e-05,
+            2: -9.16553e-06,
+            3: 8.33364e-07,
+    }, 
+    vel: { // Velocity
+            1: -4.29755e-06,
+            2: -5.79335e-06,
+            3: 4.95236e-06,
+    },
+    pos: { // Position
+            1: 269.979,
+            2: -759.068,
+            3: 46.554,
+    },
+    ping: 0.0125, // Vehicle latency
+    rot: { // Rotation
+            1: -0.00559953,
+            2: 0.00894832,
+            3: 0.772266,
+            4: 0.635212,
+    },
+}
+```
+Example 2:
+```lua
+local player_id = 4
+local vehicle_id = 0
+
+local raw_pos, error = MP.GetPositionRaw(player_id, vehicle_id)
 local x, y, z = table.unpack(raw_pos["pos"])
 
 print("X:", x)
@@ -423,7 +460,6 @@ X: -603.459
 Y: -175.078
 Z: 26.9505
 ```
-TODO: Document fields. For now, users need to print() the result.
 
 #### `MP.IsPlayerConnected(player_id: number) -> boolean`
 
@@ -567,9 +603,9 @@ Example:
 MP.Set(MP.Settings.Debug, true)
 ```
 
-#### `MP.Settings`
+#### `MP.Settings -> table`
 
-Up-to-date list of current server settings.
+Table map of setting ID's to name. Used with `MP.Set` to change ServerConfig settings. 
 
 Example:
 ```lua
@@ -578,13 +614,13 @@ print(MP.Settings)
 Output:
 ```json
 {
-    Name: 0,
-    Private: 0,
-    Map: 0,
-    MaxPlayers: 0,
-    Description: 0,
+    MaxPlayers: 3,
     Debug: 0,
-    MaxCars: 0,
+    Name: 5,
+    Description: 6,
+    MaxCars: 2,
+    Private: 1,
+    Map: 4,
 }
 ```
 ### Util Functions
