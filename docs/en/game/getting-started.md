@@ -34,13 +34,17 @@ Make sure you have [`vcpkg` installed](https://learn.microsoft.com/en-us/vcpkg/g
 - Arch: `sudo pacman -S base-devel`
 - openSUSE: `zypper in -t pattern devel-basis`
 
-Clone the BeamMP-Launcher to your system trough `git`
+Clone the BeamMP-Launcher Repository to your system using `git`, for example:
+`git clone https://github.com/BeamMP/BeamMP-Launcher.git`
+[Additional information about cloning a GitHub Repo](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
 
 Checkout the tag that was used for the [latest release](https://github.com/BeamMP/BeamMP-Launcher/releases/latest). For example, if `v2.3.2` is used in the latest release, then do `git checkout v2.3.2`
 
 In the root directory of the project,
 1. `cmake -DCMAKE_BUILD_TYPE=Release . -B bin -DCMAKE_TOOLCHAIN_FILE=~/vcpkg/scripts/buildsystems/vcpkg.cmake -DVCPKG_TARGET_TRIPLET=x64-linux`
 2. `cmake --build bin --parallel --config Release`
+
+> Should you run out of RAM while building, you can ommit the --parallel instruction, it will then use less RAM due to building only on one CPU thread.
 
 Move the finished application out of the `/bin` folder into its own folder and run it from there
 
@@ -64,7 +68,7 @@ This can be done for example by creating a symlink
 ---
 
 ## **Known Issues**
-- The native linux BeamMP-Launcher currently can only connect to a server once, after disconnecting you need to restart the launcher
+- The native linux BeamMP-Launcher currently can only connect to a server once, after disconnecting you need to restart the launcher. You can do that without closing the game inbetween
 - If you don’t see the “Multiplayer” button. Make sure that the BeamMP mod is present and activated in the “Mod Manager” then try pressing CTRL + L.
 - VPNs of any type may cause connection issues.
 - If the Launcher reports any errors, read the [FAQ](https://forum.beammp.com/c/faq/35).
