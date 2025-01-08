@@ -1,14 +1,13 @@
 # Getting Started
 
----
-## **Before getting started**
-BeamMP is only compatible with legitimate, Steam versions of the game. "Cracked" copies are not supported.
+## **Compatibility**
 
----
+BeamMP is fully compatible with Windows and Linux, compatibility with MacOS is being worked on.
+However, both Linux and MacOS are secondary platforms, this means bugs are to be expected.
+
+BeamMP might not work with pirated copies of the game.
 
 ## **Installation**
-
-BeamMP is natively compatible only with Windows at the moment.
 
 ### **Windows Installation**
 1. Go to [beammp.com](https://beammp.com/) and click the "Download client" button.
@@ -23,16 +22,55 @@ BeamMP is natively compatible only with Windows at the moment.
 
 Note: _As you are loading into a map with multiple vehicles spawned it might take longer than expected to join._
 
-## **Linux Installation**
+### **Linux Installation**
 
-BeamMP should work with `wine`, but is not officially supported (yet).
+Currently you need to build the Launcher yourself.
+In order to do this, you need a basic understanding of how to build an application.
+
+Make sure you have [`vcpkg` installed](https://learn.microsoft.com/en-us/vcpkg/get_started/get-started?pivots=shell-bash#1---set-up-vcpkg), as well as basic development tools, often found in packages, for example:
+
+- Debian: `sudo apt install build-essential`
+- Fedora: `sudo dnf groupinstall "Development Tools"`
+- Arch: `sudo pacman -S base-devel`
+- openSUSE: `zypper in -t pattern devel-basis`
+
+Clone the BeamMP-Launcher Repository to your system using `git`, for example:
+`git clone https://github.com/BeamMP/BeamMP-Launcher.git`
+[Additional information about cloning a GitHub Repo](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
+
+Checkout the tag that was used for the [latest release](https://github.com/BeamMP/BeamMP-Launcher/releases/latest). For example, if `v2.3.2` is used in the latest release, then do `git checkout v2.3.2`
+
+In the root directory of the project,
+1. `cmake -DCMAKE_BUILD_TYPE=Release . -B bin -DCMAKE_TOOLCHAIN_FILE=~/vcpkg/scripts/buildsystems/vcpkg.cmake -DVCPKG_TARGET_TRIPLET=x64-linux`
+2. `cmake --build bin --parallel --config Release`
+
+> Should you run out of RAM while building, you can ommit the --parallel instruction, it will then use less RAM due to building only on one CPU thread.
+
+Move the finished application out of the `/bin` folder into its own folder and run it from there
+
+The native linux BeamMP-Launcher will start and use native linux BeamNG.drive
+
+#### **Using beamNG.drive with Proton**
+
+Should you want to use the native linux BeamMP-Launcher together with BeamNG.drive running through Proton, you can do so:
+
+Run the BeamMP-Launcher using the argument ` -no-launch` (This will prevent the Launcher from starting native linux BeamNG.drive). Further information about launcher arguments can be found in the [Development Environment Setup](../guides/beammp-dev/beammp-dev.md)
+
+Change the userfolder location of Proton-BeamNG.drive to the location of Linux-BeamNG.drive (since the native linux BeamMP-Launcher currently only writes into the Linux-BeamNG.drive userfolder)
+
+This can be done for example by creating a symlink
+
+- Note the Linux-BeamNG.drive userfolder location (this is usually found in `~/.local/share/BeamNG.drive`) and rename it, for example to ``BeamNG.drive_old
+- Note the Proton-BeamNG.drive userfolder location (this is usually found in `~/.local/share/Steam/steamapps/compatdata/284160/pfx/drive_c/users/steamuser/AppData/Local/BeamNG.drive`)
+- Create a symlink between both userfolders ```ln -s ~/.local/share/Steam/steamapps/compatdata/284160/pfx/drive_c/users/steamuser/AppData/Local/BeamNG.drive ~/.local/share```
+
 
 ---
 
 ## **Known Issues**
+- The native linux BeamMP-Launcher currently can only connect to a server once, after disconnecting you need to restart the launcher. You can do that without closing the game inbetween
 - If you don’t see the “Multiplayer” button. Make sure that the BeamMP mod is present and activated in the “Mod Manager” then try pressing CTRL + L.
 - VPNs of any type may cause connection issues.
 - If the Launcher reports any errors, read the [FAQ](https://forum.beammp.com/c/faq/35).
-- The Launcher tends to have issues with non-genuine versions of BeamNG.drive.
 
 Should you need further help with installation, you are welcome to create a post on our [forum](https://forum.beammp.com) or ask on our [Discord server](https://discord.gg/beammp).
