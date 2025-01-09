@@ -20,14 +20,13 @@ Note: _The server only supports IPv4\. If you don't know which one you have, loo
 
 ## Setting up the Server
 
-Setup consists of the following steps, you should follow all of them.
+The setup consists of the following steps, you should follow all of them.
 
 ### 1. Port forwarding
 
 _If you are on a VPS (Virtual Private Server) or Rootserver, you can skip this step. If you're unsure about what a VPS or Rootserver is, you most likely aren't on one._
 
 This step is necessary if you want someone outside of your household to join ("outside of your local network").
-Please note that VPNs lkie Hamachi or Radmin are not supported.
 
 ####
 !!! danger ":material-scale-balance: DISCLAIMER:"
@@ -80,7 +79,7 @@ From the Keymaster homepage click on "Keys" on the left of the screen:
 
 #### 2.2. Creating a key
 
-To create your key click on the green "+" button in the top right. 
+To create your key, click on the green "+" button in the top right. 
 
 <figure markdown>
   ![](../../assets/content/keymaster_new_key.png)
@@ -88,7 +87,7 @@ To create your key click on the green "+" button in the top right. 
 
 #### 2.3. Filling out the key information
 
-Next, fill out the Server Name field (this is just the key name not the actual name of the server on the list), then click "Create". Example:
+Next, fill out the Server Name field (this is just the keys name and not the actual name of the server on the list), then click "Create". Example:
 
 <figure class="image image_resized" style="width:44.84%;" markdown>
   ![](../../assets/content/keymaster_server_name.png)
@@ -160,7 +159,7 @@ Now that you ran the server once, it should have created some files and probably
   ![](../../assets/content/after-running-once.png)
 </figure>
 
-They might be called “ServerConfig”, “Server” and “BeamMP-Server” (no extensions like “.exe”), but that's correct, too!
+They are called “ServerConfig.toml”, “Server.log” and “BeamMP-Server.exe”! (Depending on your settings, you might not see the [.toml] [.log] [.exe] extentions)
 
 Open the `ServerConfig.toml` with a text editor such as `Notepad`. You can do this with [Right Click] → “Open With…” and then selecting a text editor.
 
@@ -196,7 +195,7 @@ If you picked a different **Port** other than **30814**, make sure to replace it
 
 ### 5. Validation
 
-Now run your server again, and see if it spits out any more `[ERROR]` messages. It should just stay open. At this point, you can start BeamMP through the BeamMP-Launcher and you should find your server by the Name you entered in the `ServerConfig.toml` in the server list.
+Now run your server again, and see if it spits out any more `[ERROR]` or `[WARN]` messages. In the following steps below you can find out how to join the server.
 
 ---
 
@@ -228,15 +227,15 @@ That's it! Your modded map should now be available to join!
 
 ### 6. How to join your server
 
-How you and other people can join your server.
+How you and other people should be able to join your server.
 
 #### 6.a. Joining your own server
 
-You must join your server by direct connecting, to do this, click the **Direct Connect Tab** on the left from the server list. Leave the default info in there (should be 127.0.0.1 and a port of 30814) then hit connect.If you server is hosted outside of your house you must [find your IP](https://whatismyipaddress.com/) on that machine and direct connect that way.
+If the server is hosted at home, you must join your server by direct connecting, to do this, click the **Direct Connect Tab** on the left from the server list. Leave the default info in there (should be 127.0.0.1 and corresponding port) then hit connect. If you server is hosted outside of your house (e.g. VPS) you must find its [public IP](https://whatismyipaddress.com/) on that machine and direct connect that way.
 
 #### 6.b. Other people joining your private server
 
-Start the Server. You have to give the people the IP Address of your Server. However, be careful sharing your homes public IP Address! To join your private server the players must go to the **Direct Connect Tab** in BeamMP, then type your IP and Port.
+Start the Server. You have to give other users the public IP Address of your Server. However, be careful sharing your public home Address! To join your private server the players must go to the **Direct Connect Tab** in BeamMP, then type your IP and Port.
 
 #### 6.c. Other people joining your public server
 
@@ -246,7 +245,7 @@ You can also check the [Keymaster](https://beammp.com/keymaster) Website for the
 
 Should you or your friends experience a "Connection Failed!" Error, check the Launcher Window for codes like 10060, 10061, 10030.
 This means you eihter have a CGNAT IPv4, or you have done something wrong during Step **1 Port Forwarding** or **1.1. Firewall**.
-To check if you have a CGNAT IPv4, look up the WAN IP Address on your routers interface. Compare it to your public IP listed on [_whatsmyip.org_](https://www.whatsmyip.org/).
+To check if you have a CGNAT IPv4, look up the WAN IP Address on your routers interface. Compare it to your [public IP](https://www.whatsmyip.org/). If they're the same, you are not behind a CGNAT.
 IPv6 Support is **NOT** yet implemented.
 
 ## Still facing issues?
