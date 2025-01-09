@@ -195,7 +195,7 @@ If you picked a different **Port** other than **30814**, make sure to replace it
 
 ### 5. Validation
 
-Now run your server again, and see if it spits out any more `[ERROR]` or `[WARN]` messages. In the following steps below you can find out how to join the server.
+Now run your server again, and see if it spits out any more `[ERROR]` or `[WARN]` messages. The server should stay open now. In the following steps (6.) below you can find out how to join the server.
 
 ---
 
