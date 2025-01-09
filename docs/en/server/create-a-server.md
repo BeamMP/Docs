@@ -227,7 +227,7 @@ That's it! Your modded map should now be available to join!
 
 ### 6. How to join your server
 
-How you and other people should be able to join your server.
+How you and other players can join your server.
 
 #### 6.a. Joining your own server
 
