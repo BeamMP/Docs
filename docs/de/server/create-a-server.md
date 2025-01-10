@@ -22,13 +22,13 @@ Achtung: Der Server unterstützt nur IPv4 . Wenn du dir nicht sicher bist, welch
 
 ## Den Server aufsetzen
 
-Das Aufsetzten besteht aus ein paar Schritten. Du solltest unbedingt alle befolgen.
+Das Setup besteht aus folgenden Schritten. Du solltest alle davon durchgehen.
 
 ### 1. Port Weiterleitung
 
 *Wenn du auf einem VPS (Virtual Private Server) oder Rootserver bist, kannst du den folgenden Schritt überspringen. Wenn du nicht weißt was ein VPS oder Rootserver ist, bist du warscheinlich auch auf keinem.*
 
-Dieser Schritt ist wichtig, wenn jemand außerhalb des Heim-Netzwerks deinem Server beitreten möchte.
+Dieser Schritt ist erforderlich, wenn jemand außerhalb des Haushalts (,,außerhalb des Local Area Networks") beitreten soll.
 
 ####
 
@@ -81,14 +81,14 @@ Melde dich mit Discord beim [Keymaster](https://beammp.com/keymaster) an. Klicke
 
 #### 2.2. Einen Schlüssel erstellen
 
-Um einen Schlüssel zu erstellen, klicke oben rechts auf die grüne Schaltfläche „+“.
+Um einen Schlüssel zu erstellen, klicke das grüne ,,+" oben rechts.
 
 
 <figure markdown="">   ![](../../assets/content/keymaster_new_key.png) </figure>
 
 #### 2.3. Schlüssel-Informationen eingeben
 
-Fülle das Feld „Servername“ aus (dies dient nur zur Information für dich, damit zu einem späteren Zeitpunkt ein Schlüssel einem Server zugeordnet werden kann) und klicke dann auf „Erstellen“. Beispiel:
+Als nächstes, fülle das Feld für den Servernamen (das ist lediglich der Name des Schlüssels, nicht der Name vom Server in der Liste), dann klick ,,Create".<br>Beispiel:
 
 
 <figure class="image image_resized" style="width:44.84%;" markdown="">   ![](../../assets/content/keymaster_server_name.png) </figure>
@@ -156,7 +156,7 @@ Nachdem der Server einmal gestartet wurde, sollte er die nötigen Dateien erstel
 
 <figure markdown="">   ![](../../assets/content/after-running-once.png) </figure>
 
-Diese werden oft “ServerConfig”, “Server” und “BeamMP-Server” (keine Erweiterungen wie “.exe”) genannt. Diese sind aber auch korrekt!
+Genannt ,,ServerConfig.toml”, ,,Server.log” und ,,BeamMP-Server.exe”! (Je nach deinen Einstellungen, siehst du möglicherweise die [.toml] [.log] [.exe] Erweiterungen nicht)
 
 Öffne die `ServerConfig.toml` mit einem Texteditor wie zum Beispiel `Notepad` . Dies kannst du mit <strong>[Rechtsklick] → „Öffnen mit…“</strong> und anschließender Auswahl eines Texteditors tun.
 
@@ -194,7 +194,7 @@ Wenn du einen anderen **Port** als **30814** ausgewählt hast, achte darauf, ihn
 
 ### 5. Validierung
 
-Nun führe den Server nochmal aus und prüfe, ob er weitere `[ERROR]` Zeilen ausspuckt. Das Konsolenfenster muss offen bleiben. Ab diesem Punkt kannst du BeamMP mit dem BeamMP-Launcher starten und solltest den Server inder Liste mit dem vergebenen Namen in der `ServerConfig.toml` sehen.
+Nun führe den Server erneut aus und sieh nach, ob weitere `[ERROR]` oder `[WARN]` Meldungen erscheinen. Der Server sollte nun offen bleiben. In den folgenden Schritten (6.) erfährst du, wie man dem Server beitretet.
 
 ---
 
@@ -226,25 +226,21 @@ Das wärs! Die modifizierte Karte sollte jetzt geladen werden!
 
 ### 6. Wie du deinem Server beitrittst
 
-Wie du und andere Personen deinem Server beitreten können.
+Wie du und andere Spieler deinem Server beitreten können.
 
 #### 6.a. Deinem eigenen Server beitreten
 
-Du solltest dich per Direktverbindung mit dem Server verbinden, auch wenn dieser öffentlich ist. Klicke dazu links neben der Serverliste auf die **Registerkarte „Direktverbindung“** . Lasse die Standardinformationen dort (sollte 127.0.0.1 und Port 30814 sein) und klicke dann auf „Verbinden“. Wenn der Server außerhalb des Hauses gehostet wird, musst du [die IP auf diesem Computer finden](https://whatismyipaddress.com/) und auf diese Weise eine Direktverbindung herstellen.
+Wenn der Server zuhause gehosted wird, musst du per direct connect beitreten. Um das zu tun, klicke **Direkte Verbindnug** zur Linken von der Serverliste. Lasse die Standard IP stehen (sollte 127.0.0.1 und der korrespondierende Port sein) dann klicke ,,Verbinden". Wenn dein Server außer Haus gehsoted wird, z.B. VPS) musst du dessen[öffentliche IP](https://whatismyipaddress.com/) der Maschine herausfinden und zu dieser eine Direkte Verbindung herstellen.
 
 #### 6.b. Andere Spieler die deinem Server beitreten
 
-Starte den Server. Du musst anderen Spielern die IP Adresse von deinem Server geben. Sei achtsam beim teilen deiner öffentlichen Heim IP Adresse! Um deinem privaten Server beizutreten, müssen Spieler auf den **Direct Connect Tab** in BeamMP gehen, dann die IP und den Port eingeben.
+Starte den Server. Nun musst du die öffentliche IP des Servers anderen spielern geben. Sei jedoch vorsichtig beim teilen deiner hauseigenen IP Adresse! Um deinem privaten Server beizutreten, müssen Spieler die **Direkte Verbindung** in BeamMP aufrufen, dann die IP und den Port des Servers eingeben.
 
 #### 6.c. Andere Spieler treten deinem öffentlichen Server bei
 
 Um deinem öffentlichen Server beizutreten, gehe zur Server Liste und gib den Namen des Servers ein und klicke ,,Connect". Wenn du dir nicht sicher über den Namen des Server bist, es wird der Name sein, welchen du in der `ServerConfig.toml` festlegst. Stelle sicher dass Suchfilter deaktiviert sind und dass die Karte auf "Any" gesetzt ist, wenn du ihn nicht findest. Du kannst auch die [Keymaster](https://beammp.com/keymaster) Webseite für die IP des Servers prüfen.
 
-Sollten du und / oder deine Freunde einen "Connection Failed!" Fehler bekommen, prüfe das Launcher Fenster auf Codes wie 10060, 10061, 10030. Das bedeutet, dass du entweder ein CGNAT IPv4 hast, oder du hast etwas während Schritt **1. Port Forwarding** oder **1.1. Firewall** falsch gemacht. Um zu prüfen ob du eine CGNAT IPv4 besitzt, finde die WAN IP Adresse auf dem Router Interface. Vergleiche diese mit der IP, welche auf Tools wie [*whatsmyip.org*](https://www.whatsmyip.org/) gelistet sind. IPv6 Support ist **NOCH NICHT** implementiert.
-
-#### 6.d. **[FUNKTIONIERT MÖGLICHERWEISE NICHT]** Für private Server (Hamachi):
-
-Damit jemand deinem Server beitreten kann, muss derjenige in demselben Hamachi Netzwerk sein. Du musst hierfür keine Ports weiterleiten. Nachdem jemand deinem Hamachi Netzwerk beigetreten ist, müssen diese die Hamachi IP und den Standardport für eine direkte Verbindung verwenden. Für mehr Infos, siehe den [Hamachi](https://forum.beammp.com/t/tutorial-how-to-host-a-server-with-logmein-hamachi/52) Artikel.
+Sollten du oder deine Freunde einen ,,Verbindung Fehlgeschlagen!" Fehler bekommen, prüfe das Launcher Fenster auf Codes wie 10060, 10061 oder 10030. Das bedeutet, dass du entweder eine CGNAT IPv4 hast, oder du hast etwas bei Schritt **1 Port Forwarding** oder **1.1. Firewall** falsch gemacht. Um zu prüfen ob du eine CGNAT IPv4 hast, finde die WAN IP Adresse im Router Interface. Vergleiche diese mit deiner [öffentlichen IP](https://www.whatsmyip.org/). Wenn diese gleich sind, hast du keine CGNAT IP. IPv6 Support ist noch **NICHT** implementiert.
 
 ## Immer noch Probleme?
 
