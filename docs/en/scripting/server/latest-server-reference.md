@@ -1059,6 +1059,13 @@ Cancellable: NO
 
 Triggered right after all files in the plugin were initialized.
 
+##### `onConsoleInput`
+
+Arguments: `input: string`
+Cancellable: NO
+
+Triggered when the BeamMP console receives an input.
+
 ##### `onShutdown`
 
 Arguments: NONE
