@@ -22,7 +22,7 @@ Achtung: Der Server unterstützt nur IPv4 . Wenn du dir nicht sicher bist, welch
 
 ## Den Server aufsetzen
 
-Das Setup besteht aus folgenden Schritten. Du solltest alle davon durchgehen.
+Das Aufsetzen besteht aus folgenden Schritten. Du solltest alle davon durchgehen.
 
 ### 1. Port Weiterleitung
 
@@ -230,11 +230,11 @@ Wie du und andere Spieler deinem Server beitreten können.
 
 #### 6.a. Deinem eigenen Server beitreten
 
-Wenn der Server zuhause gehosted wird, musst du per direct connect beitreten. Um das zu tun, klicke **Direkte Verbindnug** zur Linken von der Serverliste. Lasse die Standard IP stehen (sollte 127.0.0.1 und der korrespondierende Port sein) dann klicke ,,Verbinden". Wenn dein Server außer Haus gehsoted wird, z.B. VPS) musst du dessen[öffentliche IP](https://whatismyipaddress.com/) der Maschine herausfinden und zu dieser eine Direkte Verbindung herstellen.
+Wenn der Server zuhause gehosted wird, musst du per direkter Verbindung beitreten. Um das zu tun, klicke **Direkte Verbindnug** zur Linken von der Serverliste. Lasse die Standard IP stehen (sollte 127.0.0.1 und der korrespondierende Port sein) dann klicke ,,Verbinden". Wenn dein Server außer Haus gehsoted wird (z.B. VPS), musst du dessen[öffentliche IP](https://whatismyipaddress.com/) der Maschine herausfinden und zu dieser eine Direkte Verbindung herstellen.
 
 #### 6.b. Andere Spieler die deinem Server beitreten
 
-Starte den Server. Nun musst du die öffentliche IP des Servers anderen spielern geben. Sei jedoch vorsichtig beim teilen deiner hauseigenen IP Adresse! Um deinem privaten Server beizutreten, müssen Spieler die **Direkte Verbindung** in BeamMP aufrufen, dann die IP und den Port des Servers eingeben.
+Starte den Server. Nun musst du die öffentliche IP des Servers anderen Spielern geben. Sei jedoch vorsichtig beim teilen deiner hauseigenen IP Adresse! Um deinem privaten Server beizutreten, müssen Spieler die **Direkte Verbindung** in BeamMP aufrufen, dann die IP und den Port des Servers eingeben.
 
 #### 6.c. Andere Spieler treten deinem öffentlichen Server bei
 
