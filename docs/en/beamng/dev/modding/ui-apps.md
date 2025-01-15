@@ -199,7 +199,7 @@ M.modifyMessage            = modifyMessage
 return M
 ```
 
-Note that its very important to return the M (module) variable with the needed functions inside !
+Note that its very important to return the M (module) variable with the needed functions inside!
 Example, without the ``M.modifyMessage = modifyMessage`` line, the ``bngApi.engineLua('extensions.exampleMod.modifyMessage("' + $scope.message + '")')`` function will not be able to find the modifyMessage() function
 
 
