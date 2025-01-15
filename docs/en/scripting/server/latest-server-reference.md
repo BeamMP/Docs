@@ -413,7 +413,11 @@ local vehicle_id = 0
 
 local raw_pos, error = MP.GetPositionRaw(player_id, vehicle_id)
 
-print(raw_pos)
+if error == "" then
+    print(raw_pos)
+else
+    print(error)
+end
 ```
 Output:
 ```json
