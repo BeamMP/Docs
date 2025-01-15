@@ -466,7 +466,7 @@ Z: 26.9505
 
 #### `MP.IsPlayerConnected(player_id: number) -> boolean`
 
-Whether the player is connected.
+Whether the player is connected and if the server has received a UDP packet from them.
 
 Example:
 ```lua
@@ -487,9 +487,7 @@ Gets the display-name of the player.
 Example:
 ```lua
 local player_id = 4
-local player_name = MP.GetPlayerName(player_id)
-
-print(player_name)
+print(MP.GetPlayerName(player_id)) -- Get the name of the player with ID 4
 ```
 Output:
 ```
@@ -502,15 +500,11 @@ Removes the specified vehicle for the specified player.
 Example:
 ```lua
 local player_id = 3
-local vcount = 0
 local player_vehicles = MP.GetPlayerVehicles(player_id)
 
+-- Loop over all of player 3's vehicles and delete them
 for vehicle_id, vehicle_data in pairs(player_vehicles) do
-    vcount = vcount + 1
-    if vcount > 1 then
-        MP.RemoveVehicle(player_id, vehicle_id)
-        MP.SendChatMessage(player_id, "You cannot have more than one vehicle spawned")
-    end
+      MP.RemoveVehicle(player_id, vehicle_id)
 end
 ```
 
