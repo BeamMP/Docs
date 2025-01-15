@@ -243,7 +243,7 @@ ui\modules\apps\ExampleApp\app.json
   "directive": "exampleApp"
 }
 ```
-The directive need to be the same as in the <b>Javascript</b> file
+The directive needs to be the same as in the <b>Javascript</b> file
 
 
 
