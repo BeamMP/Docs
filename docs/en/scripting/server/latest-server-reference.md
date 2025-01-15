@@ -451,11 +451,15 @@ local player_id = 4
 local vehicle_id = 0
 
 local raw_pos, error = MP.GetPositionRaw(player_id, vehicle_id)
-local x, y, z = table.unpack(raw_pos["pos"])
+if error = "" then
+    local x, y, z = table.unpack(raw_pos["pos"])
 
-print("X:", x)
-print("Y:", y)
-print("Z:", z)
+    print("X:", x)
+    print("Y:", y)
+    print("Z:", z)
+else
+    print(error)
+end
 ```
 Output:
 ```
