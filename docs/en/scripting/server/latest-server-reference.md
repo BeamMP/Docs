@@ -366,8 +366,8 @@ You can use this, for example, to tell a player *why* you cancelled their vehicl
 Example:
 ```lua
 function ChatHandler(player_id, player_name, msg)
-    if string.match(msg, "damn") then
-        MP.SendChatMessage(player_id, "Please do not use profanity.")
+    if string.match(msg, "darn") then
+        MP.SendChatMessage(player_id, "Please do not use profanity.") -- If the player sends a message containing "darn", notify the player and cancel the message
         return 1
     else
         return 0
@@ -375,6 +375,15 @@ function ChatHandler(player_id, player_name, msg)
 end
 
 MP.RegisterEvent("onChatMessage", "ChatHandler")
+```
+Example 2:
+```lua
+function ChatHandler(player_id, player_name, msg)
+    if msg == "hello" then
+        MP.SendChatMessage(-1, "Hello World!") -- If the player sends the exact message "hello", announce to the entire server "Hello World!"
+        return 0
+    end
+end
 ```
 
 #### `MP.TriggerClientEvent(player_id: number, event_name: string, data: string) -> boolean`
@@ -519,16 +528,9 @@ Returns a table of all vehicles the player currently has. Each entry in the tabl
 Example:
 ```lua
 local player_id = 3
-local vcount = 0
 local player_vehicles = MP.GetPlayerVehicles(player_id)
 
-for vehicle_id, vehicle_data in pairs(player_vehicles) do
-    vcount = vcount + 1
-    if vcount > 1 then
-        MP.RemoveVehicle(player_id, vehicle_id)
-        MP.SendChatMessage(player_id, "You cannot have more than one vehicle spawned")
-    end
-end
+print(Utils.JsonDecode(player_vehicles))
 ```
 
 #### `MP.GetPlayers() -> table`
@@ -553,7 +555,7 @@ Kicks the player with the specified ID. The reason parameter is optional.
 
 ```lua
 function ChatHandler(player_id, player_name, message)
-    if string.find(message, "damn") then
+    if string.match(message, "darn") then
         MP.DropPlayer(player_id, "Profanity is not allowed")
         return 1
     else
