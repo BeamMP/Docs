@@ -115,7 +115,7 @@ angular.module('beamng.apps')
     }
 }])
 ```
-The first things you see is the usage of <b>$scope</b>. This is very important because you will need to define your variables and functions within <b>$scope</b> to be able to access it from the <b>Html</b> inside any <b>ng-*</b> tag.
+Note the usage of <b>$scope</b>. This is very important because you will need to define your variables and functions within <b>$scope</b> to be able to access it from the <b>Html</b> inside any <b>ng-*</b> tag.
 So in this example, after the ``sendMessage()`` function being executed from the <b>Html</b> it will send it to a lua file located in the extensions directory of the mod and execute the ``modifyMessage()`` function inside this lua file.
 
 This lua function look like this :
