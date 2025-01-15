@@ -261,9 +261,9 @@ Remembers the function with name `Function Name` as an event handler to event wi
 
 You can register as many handlers to an event as you like.
 
-For a list of events the server provides, see [here](/en/Scripting/new-lua-scripting#events-1).
+For a list of events the server provides, see [here](#events-1).
 
-If the event with that name doesn't exist, it's created, and thus RegisterEvent cannot fail. This can be used to create custom events.
+If the event with that name doesn't exist, it's created, and thus RegisterEvent cannot fail. This can be used to create custom events. See [Custom Events](#custom-events) and [Events](#events) for more.
 
 Example:
 
@@ -271,8 +271,6 @@ Example:
 function ChatHandler(player_id, player_name, msg)
     if msg == "hello" then
         print("Hello World!")
-        return 1
-    else
         return 0
     end
 end
