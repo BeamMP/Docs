@@ -127,7 +127,7 @@ end
 ```
 ^ This is a simplified version of the lua to just show the function
 
-The main things here is the usage of <b>guihooks.trigger</b> which triggers an AngularJS event defined with ``$scope.$on()``. As you can see at the very bottom of the Javascript file the event is named MessageReady and will be executed by the <b>guihooks.trigger</b> function with the message payload and then will be pushed inside the ``$scope.messages`` variable to be displayed by the li tag using <b>ng-repeat</b> in the <b>Html</b> file
+The main focus here is the usage of <b>guihooks.trigger</b> which triggers an AngularJS event defined with ``$scope.$on()``. As you can see at the very bottom of the Javascript file the event is named MessageReady and will be executed by the <b>guihooks.trigger</b> function with the message payload and then will be pushed inside the ``$scope.messages`` variable to be displayed by the li tag using <b>ng-repeat</b> in the <b>Html</b> file
 
 The full lua file is just below
 
