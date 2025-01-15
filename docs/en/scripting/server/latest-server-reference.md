@@ -498,15 +498,11 @@ Removes the specified vehicle for the specified player.
 Example:
 ```lua
 local player_id = 3
-local vcount = 0
 local player_vehicles = MP.GetPlayerVehicles(player_id)
 
+-- Loop over all of player 3's vehicles and delete them
 for vehicle_id, vehicle_data in pairs(player_vehicles) do
-    vcount = vcount + 1
-    if vcount > 1 then
-        MP.RemoveVehicle(player_id, vehicle_id)
-        MP.SendChatMessage(player_id, "You cannot have more than one vehicle spawned")
-    end
+      MP.RemoveVehicle(player_id, vehicle_id)
 end
 ```
 
