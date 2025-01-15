@@ -464,7 +464,7 @@ Z: 26.9505
 
 #### `MP.IsPlayerConnected(player_id: number) -> boolean`
 
-Whether the player is connected.
+Whether the player is connected and if the server has received a UDP packet from them.
 
 Example:
 ```lua
