@@ -253,7 +253,7 @@ The directive needs to be the same as in the <b>Javascript</b> file
 ```js
 bngApi.engineLua("lua_path.function()")
 ```
-Usefull to run a lua function with or without arguments
+Useful to run a lua function with or without arguments
 
 # Lua functions provided by BeamNG for UI-Apps
 
