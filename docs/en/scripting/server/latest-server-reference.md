@@ -548,17 +548,14 @@ As guests are anonymous, you may want to disallow them to join, however it is re
 Kicks the player with the specified ID. The reason parameter is optional.
 
 ```lua
-local player_id = 3
-local vcount = 0
-local player_vehicles = MP.GetPlayerVehicles(player_id)
-
-for vehicle_id, vehicle_data in pairs(player_vehicles) do
-    vcount = vcount + 1
-    if vcount > 1 then
-        MP.RemoveVehicle(player_id, vehicle_id)
-        MP.DropPlayer(player_id, "You can only have one vehicle spawned at once.")
+function ChatHandler(player_id, player_name, message)
+    if string.find(message, "damn") then
+        MP.DropPlayer(player_id, "Profanity is not allowed")
+        return 1
+    else
+        return 0
     end
-end
+end 
 ```
 #### `MP.GetStateMemoryUsage() -> number`
 
