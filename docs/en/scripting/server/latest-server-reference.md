@@ -545,7 +545,7 @@ Returns a table of all connected players. This table maps IDs to Names, like so:
 
 Whether the player is a guest. A guest is someone who didn't log in, and instead chose to play as a guest. Their name is usually `guest` followed by a long number.
 
-As guests are anonymous, you may want to disallow them to join, however it is recommended you use the [`onPlayerAuth`](#onplayerauth) `is_guest` argument.
+Because guests are anonymous, you may want to disallow them to join, if so it is recommended to use the [`onPlayerAuth`](#onplayerauth) `is_guest` argument instead.
 
 #### `MP.DropPlayer(player_id: number, [reason: string])`
 
