@@ -530,7 +530,58 @@ Example:
 local player_id = 3
 local player_vehicles = MP.GetPlayerVehicles(player_id)
 
-print(Utils.JsonDecode(player_vehicles))
+for vehicle_id, vehicle_data in pairs(player_vehicles) do
+    local start = string.find(vehicle_data, "{")
+    local formattedVehicleData = string.sub(vehicle_data, start, -1)
+    print(Util.JsonDecode(formattedVehicleData))
+end
+```
+Output:
+```json
+{
+    pid: 0,
+    pro: "0",
+    rot: {
+            1: 0,
+             2: 0,
+            3: 0.776866,
+            4: 0.629665,
+    },
+    jbm: "miramar",
+    vcf: {
+            parts: {
+                    miramar_exhaust: "miramar_exhaust",
+                    miramar_shock_R: "miramar_shock_R",
+                    miramar_taillight: "miramar_taillight",
+                    miramar_door_RL: "miramar_door_RL"
+                    // ... continue
+            },
+            paints: {
+                    1: {
+                            roughness: 1,
+                            metallic: 0,
+                            clearcoat: 1,
+                            baseColor: {
+                                    1: 0.85,
+                                    2: 0.84,
+                                    3: 0.8,
+                                    4: 1.2,
+                            },
+                            clearcoatRoughness: 0.09,
+                    } // ... continue
+            },
+            partConfigFilename: "vehicles/miramar/base_M.pc",
+            vars: {},
+            mainPartName: "miramar",
+    },
+    pos: {
+            1: 283.669,
+            2: -754.332,
+            3: 48.2151,
+    },
+    vid: 64822,
+    ign: 0,
+}
 ```
 
 #### `MP.GetPlayers() -> table`
@@ -600,7 +651,7 @@ Sets a ServerConfig setting temporarily. For this, the `MP.Settings` table is us
 
 Example:
 ```lua
-MP.Set(MP.Settings.Debug, true)
+MP.Set(MP.Settings.Debug, true) -- Turns on debug mode
 ```
 
 #### `MP.Settings -> table`
