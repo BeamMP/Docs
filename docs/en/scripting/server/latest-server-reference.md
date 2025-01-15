@@ -571,7 +571,9 @@ Returns the memory usage of all lua states combined, in bytes.
 
 #### `MP.GetPlayerIdentifiers(player_id: number) -> table`
 
-Returns a table with information about the player, such as beammp forum ID and IP address.
+Returns a table with information about the player, such as BeamMP forum ID, IP address and Discord account ID. Discord ID will only be returned if the user has it linked to their forum account.
+
+You can find a users forum ID by navigating to `https://forum.beammp.com/u/USERNAME.json` and looking for `"user": {"id": 123456}`. A BeamMP ID is unique to the player and cannot be changed unlike the username.
 
 Example:
 
