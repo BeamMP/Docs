@@ -8,28 +8,28 @@ Du meinst, du könntest helfen? Dann klicke einfach auf die Seite mit dem Bleist
 Dies kann auch auf jeder Seite erfolgen.
 ```
 
-# Getting started
+# Erste Schritte
 
 Um mit der Entwicklung für BeamMP zu beginnen, benötigst du mindestens:
 
-- BeamNG.drive, installed locally
+- BeamNG.drive, lokal installiert
 - BeamMP, lokal installiert; mindestens der Launcher, eventuell auch der Server
-- Git, installed locally, and a GitHub.com account
-- A code editor, for example VSCode or notepad++
+- Git, lokal installiert, und ein GitHub.com-Konto
+- Ein Code-Editor, zum Beispiel VSCode oder Notepad++
 
 ---
 
-# Difference between mod, launcher and server
+# Unterschied zwischen Mod, Launcher und Server
 
-BeamMP is split into three main parts:
+BeamMP ist in drei Hauptteile unterteilt:
 
-- The mod is loaded by BeamNG, like any other vehicle or UI mod for the game. Its main function is to establish a local connection with the launcher and to display the multiplayer UI elements. It's mostly written in Lua, with some JavaScript, HTML, and CSS for the UI elements. Its repo is [https://github.com/BeamMP/BeamMP](https://github.com/BeamMP/BeamMP)
-- The launcher's main function is to establish a constant connection to the mod, and once necessary, establish a connection to the chosen server, as well as handling user login with the BeamMP backend. It's written in C++, is precompiled by BeamMP and can be found at [https://github.com/BeamMP/BeamMP-Launcher](https://github.com/BeamMP/BeamMP-Launcher)
-- The server establishes connections between one or many launchers, as well as "heartbeating" to the BeamMP backend, providing information such as IP, port, version, number of players, etc. Additionally, it manages and runs server-side Lua plugins. It's written in C++, precompiled by BeamMP for a few different OS and CPU architectures, and can be found at [https://github.com/BeamMP/BeamMP-Server](https://github.com/BeamMP/BeamMP-Server)
+- Der Mod wird von BeamNG geladen, wie jeder andere Fahrzeug- oder UI-Mod für das Spiel. Seine Hauptfunktion besteht darin, eine lokale Verbindung mit dem Launcher herzustellen und die Multiplayer-UI-Elemente anzuzeigen. Er ist größtenteils in Lua geschrieben, mit etwas JavaScript, HTML und CSS für die UI-Elemente. Sein Repo ist [https://github.com/BeamMP/BeamMP](https://github.com/BeamMP/BeamMP)
+- Die Hauptfunktion des Launchers besteht darin, eine konstante Verbindung zum Mod herzustellen und bei Bedarf eine Verbindung zum ausgewählten Server herzustellen sowie die Benutzeranmeldung beim BeamMP-Backend abzuwickeln. Er ist in C++ geschrieben, wird von BeamMP vorkompiliert und ist unter [https://github.com/BeamMP/BeamMP-Launcher](https://github.com/BeamMP/BeamMP-Launcher) zu finden.
+- Der Server stellt Verbindungen zwischen einem oder mehreren Launchern her und sendet „Heartbeats“ an das BeamMP-Backend, wobei er Informationen wie IP, Port, Version, Anzahl der Spieler usw. bereitstellt. Darüber hinaus verwaltet und führt er serverseitige Lua-Plugins aus. Er ist in C++ geschrieben, von BeamMP für einige verschiedene Betriebssysteme und CPU-Architekturen vorkompiliert und kann unter [https://github.com/BeamMP/BeamMP-Server](https://github.com/BeamMP/BeamMP-Server) gefunden werden.
 
 ---
 
-# Setting up a development environment to work on the mod
+# Einrichten einer Entwicklungsumgebung zum Arbeiten am Mod
 
 ## Einen "unpacked" Ordner für BeamNG verwenden
 
@@ -39,24 +39,24 @@ Um effizient an Mods in BeamNG arbeiten zu können, empfiehlt es sich, einen `un
 
 Weitere Informationen zum Benutzerordner finden sich unter [https://documentation.beamng.com/support/userfolder/](https://documentation.beamng.com/support/userfolder/)
 
-## Enabling dev mode in the BeamMP launcher
+## Aktivieren des Entwicklermodus im BeamMP-Launcher
 
 Um zu verhindern, dass ein automatisches Update den lokalen Git-Klon überschreibt, kannst du dies mit dem Start-Argument `--no-download` deaktivieren. Wenn du außerdem nicht möchtest, dass der Launcher BeamNG automatisch startet, und Debug-Ausdrucke sehen möchtest, wird die Verwendung von `--dev` empfohlen.
 
-Argument | Note
+Argument | Notiz
 :-- | :--
-`--help` or `-h` | Gibt die folgende Liste von Argumenten aus
-`--port <port>` or `-p` | Ändere den Standard-Port auf `<port>` . Dies muss auch im Spiel geändert werden
-`--verbose` or `-v` | Ausführlicher Modus, gibt Debugmeldungen aus
+`--help` oder `-h` | Gibt die folgende Liste von Argumenten aus
+`--port <port>` oder `-p` | Ändere den Standard-Port auf `<port>` . Dies muss auch im Spiel geändert werden
+`--verbose` oder `-v` | Ausführlicher Modus, gibt Debugmeldungen aus
 `--no-download` | Überspringt den Download und die Installation des BeamMP Lua-Mods
 `--no-update` | Überspringe das Anwenden von Launcher-Updates (Du musst manuell aktualisieren)
 `--no-launch` | Überspringe den Start des Spiels (Du musst das Spiel manuell starten)
 `--dev` | Entwicklermodus, dasselbe wie --verbose --no-download --no-launch --no-update
-`--game <args...>` or `-- <args...>` | Passes arguments to the game
+`--game <args...>` oder `-- <args...>` | Übergibt Argumente an das Spiel
 
-## Cloning the BeamMP repo into the unpacked folder
+## Klonen des BeamMP-Repos in den entpackten Ordner
 
-While you can manually copy the BeamMP mod files from our github repo, it is highly recommended to use a source-control system like git. First create a fork of [https://github.com/BeamMP/BeamMP](https://github.com/BeamMP/BeamMP)
+Sie können die BeamMP-Mod-Dateien zwar manuell aus unserem GitHub-Repo kopieren, es wird jedoch dringend empfohlen, ein Quellcodeverwaltungssystem wie Git zu verwenden. Erstellen Sie zunächst einen Fork von [https://github.com/BeamMP/BeamMP](https://github.com/BeamMP/BeamMP)
 
 Am effizientesten ist es, das Repo direkt in den `unpacked` Ordner zu klonen.
 
@@ -72,7 +72,7 @@ Wenn du auf Probleme stößt, kannst du jederzeit im #scripting-Kanal in unserem
 
 ---
 
-# Setting up a local server
+# Einrichten eines lokalen Servers
 
 Beim Arbeiten mit BeamMP kann es von Vorteil sein, einen lokalen Server zu verwenden. Du kannst die allgemeine [Serverinstallation](../../server/create-a-server.md) durchführen und dabei die ersten beiden Schritte für rein lokale Verbindungen überspringen.
 
