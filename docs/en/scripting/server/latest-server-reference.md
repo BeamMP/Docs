@@ -580,9 +580,7 @@ Example:
 
 ```lua
 local player_id = 5
-local ident = MP.GetPlayerIdentifiers(player_id)
-
-print(ident)
+print(MP.GetPlayerIdentifiers(player_id))
 ```
 Output:
 ```json
