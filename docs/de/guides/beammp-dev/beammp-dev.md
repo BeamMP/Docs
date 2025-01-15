@@ -1,11 +1,11 @@
 !!! warning „Diese Site befindet sich im Aufbau!“
 
 ```
-This site is being actively worked on.
+An dieser Seite wird aktiv gearbeitet.
 
-Feel you could help? Please do by clicking on the page with a pencil on the right!
+Du meinst, du könntest helfen? Dann klicke einfach auf die Seite mit dem Bleistift rechts!
 
-This can be done any page too.
+Dies kann auch auf jeder Seite erfolgen.
 ```
 
 # Getting started
