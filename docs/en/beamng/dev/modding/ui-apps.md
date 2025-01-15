@@ -1,6 +1,6 @@
 # UI-App Creation
 
-In order to make an UI-App you will need some knowledge of the AngularJS framework, the main documentations can be found here : [AngularJS docs](https://docs.angularjs.org/guide)
+In order to make a UI-App you will need some knowledge of the AngularJS framework, the main documentation can be found here: [AngularJS docs](https://docs.angularjs.org/guide)
 
 ## File structure
 
