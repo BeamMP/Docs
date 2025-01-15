@@ -260,7 +260,7 @@ Useful to run a lua function with or without arguments
 ```lua
 guihooks.trigger("EventName", Payload)
 ```
-The payload can be any types but its better to keep it as an Array / Object or a String to not be lost.
+The payload can be any type but its better to keep it as an Array / Object or a String to not be lost.
 
 <b>IMPORTANT</b> : Sometime it can happen that the event name you use is already used internally by something else and cause problems, so for example if your app is named Nickel, it can be a good practice to name every of your Angular event like NKEventName instead of EventName
 
