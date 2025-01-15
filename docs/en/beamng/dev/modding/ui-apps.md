@@ -5,7 +5,7 @@ In order to make a UI-App you will need some knowledge of the AngularJS framewor
 ## File structure
 
 A UI-App needs four important files to work:
-- app.js | Contain the main code used by the UI-App [Javascript docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- app.js | Contains the main code used by the UI-App [Javascript docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - app.html | The code that displays your app [Html docs](https://developer.mozilla.org/fr/docs/Web/HTML)
 - app.json | Contains the information of the UI-App
 - app.png | The image file showing in the app selector
