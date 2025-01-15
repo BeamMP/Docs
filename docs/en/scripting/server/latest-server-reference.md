@@ -269,7 +269,8 @@ Example:
 
 ```lua
 function ChatHandler(player_id, player_name, msg)
-    if msg == "damn" then
+    if msg == "hello" then
+        print("Hello World!")
         return 1
     else
         return 0
@@ -587,8 +588,8 @@ Output:
 ```json
 {
     ip: "127.0.0.1",
-    discord: "680149671821181011",
-    beammp: "1100385",
+    discord: "12345678987654321",
+    beammp: "1234567",
 }
 ```
 
