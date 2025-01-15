@@ -485,9 +485,7 @@ Gets the display-name of the player.
 Example:
 ```lua
 local player_id = 4
-local player_name = MP.GetPlayerName(player_id)
-
-print(player_name)
+print(MP.GetPlayerName(player_id)) -- Get the name of the player with ID 4
 ```
 Output:
 ```
