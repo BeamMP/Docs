@@ -1,6 +1,6 @@
 # Erste Schritte
 
-## **Compatibility**
+## **Kompatibilität**
 
 BeamMP ist vollständig kompatibel mit Windows und Linux, an der Kompatibilität mit MacOS noch wird gearbeitet. Da es sich bei Linux und MacOS jedoch um sekundäre Plattformen handelt, sind Fehler zu erwarten.
 
@@ -8,7 +8,7 @@ BeamMP funktioniert möglicherweise nicht mit Raubkopien des Spiels.
 
 ## **Installation**
 
-### **Windows Installation**
+### **Windows-Installation**
 
 1. Öffne [beammp.com](https://beammp.com/) und klicke auf die Schaltfläche „Download Client“.
 2. Extrahiere das Archiv `BeamMP_Installer.zip` .
@@ -22,7 +22,7 @@ BeamMP funktioniert möglicherweise nicht mit Raubkopien des Spiels.
 
 Hinweis: *Da beim Verbinden mit einem Server wahrscheinlich Fahrzeuge von anderen Spielern geladen werden müssen, kann der Beitritt länger als erwartet dauern.*
 
-### **Linux Installation**
+### **Linux-Installation**
 
 Derzeit musst du den Launcher selbst erstellen. Dazu benötigst du grundlegende Kenntnisse zum Erstellen einer Anwendung.
 
@@ -48,7 +48,7 @@ Verschiebe die fertige Anwendung aus dem `/bin` Ordner in einen eigenen Ordner u
 
 Der native Linux BeamMP-Launcher wird gestartet und verwendet das native Linux BeamNG.drive
 
-#### **Using beamNG.drive with Proton**
+#### **Verwenden von beamNG.drive mit Proton**
 
 Wenn du den nativen Linux BeamMP-Launcher zusammen mit BeamNG.drive, das über Proton läuft, verwenden möchtest, kannst du dies folgendermassen tun:
 
@@ -64,7 +64,7 @@ Dies kann beispielsweise durch die Erstellung eines symbolischen Links erfolgen.
 
 ---
 
-## **Known Issues**
+## **Bekannte Probleme**
 
 - Der native Linux BeamMP-Launcher kann sich derzeit nur einmal mit einem Server verbinden, nach dem Trennen der Verbindung muss der Launcher neu gestartet werden. Dies ist möglich, ohne das Spiel zwischendurch schließen zu müssen.
 - Wenn die Schaltfläche „Multiplayer“ nicht angezeigt wird, stelle sicher, dass der BeamMP-Mod im „Mod Manager“ vorhanden und aktiviert ist, und drücke dann STRG + L.
