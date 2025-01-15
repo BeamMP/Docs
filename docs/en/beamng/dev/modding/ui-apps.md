@@ -11,7 +11,7 @@ A UI-App needs four important files to work:
 - app.png | The image file showing in the app selector
 
 ### UI-App style
-I recommend using the <style> tag to style your app, a .css file will work, but you will not be able to see the changes in real-time.
+We recommend using the <style> tag to style your app, a .css file will work, but you will not be able to see the changes in real-time.
 
 ## Example
 
