@@ -484,9 +484,7 @@ Whether the player is connected and if the server has received a UDP packet from
 Example:
 ```lua
 local player_id = 8
-local conn_status = MP.IsPlayerConnected(player_id)
-
-print(connStatus)
+print(MP.IsPlayerConnected(player_id)) -- Check if player with ID 8 is properly connected.
 ```
 Output:
 ```lua
