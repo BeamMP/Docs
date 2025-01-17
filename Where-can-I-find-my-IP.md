@@ -6,7 +6,7 @@ You can also find the IP for your Server(s) on the [Keymaster](https://keymaster
 
 ## For Home-Hosted Servers
 For Servers hosted at home, open [whatsmyip.org](https://whatsmyip.org) in a Browser.
-This will output the public IPv4 address your you are being contacted with from the Global Network.
+This will output the public IPv4 address you are being contacted with from the Internet.
 
 Note, that 127.0.0.1 is the localhost address and can only be used by yourself, if the Server is hosted on the same Computer.
 If you are still having connection troubles with your home hosted server, check (probablyup.net)[https://probablyup.net/api] and the (port forwarding guide)[https://docs.beammp.com/server/port-forwarding/]
