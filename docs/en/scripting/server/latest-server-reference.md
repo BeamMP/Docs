@@ -4,7 +4,7 @@
     
     Feel you could help? Please do by clicking on the page with a pencil on the right!
 
-    This can be done any page too.
+    This can be done on any page too.
 
 # Server Scripting Reference
 ## Server Version 3.X
@@ -261,10 +261,22 @@ Remembers the function with name `Function Name` as an event handler to event wi
 
 You can register as many handlers to an event as you like.
 
-For a list of events the server provides, see [here](/en/Scripting/new-lua-scripting#events-1).
+For a list of events the server provides, see [here](#events-1).
 
-If the event with that name doesn't exist, it's created, and thus RegisterEvent cannot fail. This can be used to create custom events.
+If the event with that name doesn't exist, it's created, and thus RegisterEvent cannot fail. This can be used to create custom events. See [Custom Events](#custom-events) and [Events](#events) for more.
 
+Example:
+
+```lua
+function ChatHandler(player_id, player_name, msg)
+    if msg == "hello" then
+        print("Hello World!")
+        return 0
+    end
+end
+
+MP.RegisterEvent("onChatMessage", "ChatHandler")
+```
 #### `MP.CreateEventTimer(event_name: string, interval_ms: number, [strategy: number (since v3.0.2)])`
 
 Starts a timer inside the server which triggers the event `event_name` every `interval_ms` milliseconds.
@@ -351,6 +363,29 @@ In the game, this will not appear as a directed message.
 
 You can use this, for example, to tell a player *why* you cancelled their vehicle spawn, chat message, or similar, or to display some information about your server.
 
+Example:
+```lua
+function ChatHandler(player_id, player_name, msg)
+    if string.match(msg, "darn") then
+        MP.SendChatMessage(player_id, "Please do not use profanity.") -- If the player sends a message containing "darn", notify the player and cancel the message
+        return 1
+    else
+        return 0
+    end
+end
+
+MP.RegisterEvent("onChatMessage", "ChatHandler")
+```
+Example 2:
+```lua
+function ChatHandler(player_id, player_name, msg)
+    if msg == "hello" then
+        MP.SendChatMessage(-1, "Hello World!") -- If the player sends the exact message "hello", announce to the entire server "Hello World!"
+        return 0
+    end
+end
+```
+
 #### `MP.TriggerClientEvent(player_id: number, event_name: string, data: string) -> boolean`
 *until v3.1.0*
 
@@ -376,27 +411,176 @@ Returns the amount of players currently in the server.
 
 Returns the current position of the vehicle `vid` (vehicle id) of player `pid` (player id), and an error string if an error occurred.
 
-The table is decoded from a position packet, so it has a variety of data (that's why this function is postfixed "Raw").
+The table is decoded from a position packet, so it has a variety of data including position and rotation (that's why this function is postfixed "Raw").
 
-TODO: Document fields. For now, users need to print() the result.
+Example:
+```lua
+local player_id = 4
+local vehicle_id = 0
+
+local raw_pos, error = MP.GetPositionRaw(player_id, vehicle_id)
+
+if error == "" then
+    print(raw_pos)
+else
+    print(error)
+end
+```
+Output:
+```json
+ {
+    tim: 49.824, // Time since spawn
+    rvel: { // Rotational velocity
+            1: -1.33564e-05,
+            2: -9.16553e-06,
+            3: 8.33364e-07,
+    }, 
+    vel: { // Velocity
+            1: -4.29755e-06,
+            2: -5.79335e-06,
+            3: 4.95236e-06,
+    },
+    pos: { // Position
+            1: 269.979,
+            2: -759.068,
+            3: 46.554,
+    },
+    ping: 0.0125, // Vehicle latency
+    rot: { // Rotation
+            1: -0.00559953,
+            2: 0.00894832,
+            3: 0.772266,
+            4: 0.635212,
+    },
+}
+```
+Example 2:
+```lua
+local player_id = 4
+local vehicle_id = 0
+
+local raw_pos, error = MP.GetPositionRaw(player_id, vehicle_id)
+if error = "" then
+    local x, y, z = table.unpack(raw_pos["pos"])
+
+    print("X:", x)
+    print("Y:", y)
+    print("Z:", z)
+else
+    print(error)
+end
+```
+Output:
+```
+X: -603.459
+Y: -175.078
+Z: 26.9505
+```
 
 #### `MP.IsPlayerConnected(player_id: number) -> boolean`
 
-// TODO Documentation incomplete
+Whether the player is connected and if the server has received a UDP packet from them.
 
-Whether the player is connected.
+Example:
+```lua
+local player_id = 8
+print(MP.IsPlayerConnected(player_id)) -- Check if player with ID 8 is properly connected.
+```
+Output:
+```lua
+true
+```
 
 #### `MP.GetPlayerName(player_id: number) -> string`
 
 Gets the display-name of the player.
 
+Example:
+```lua
+local player_id = 4
+print(MP.GetPlayerName(player_id)) -- Get the name of the player with ID 4
+```
+Output:
+```
+ilovebeammp2004
+```
 #### `MP.RemoveVehicle(player_id: number, vehicle_id: number)`
 
 Removes the specified vehicle for the specified player.
 
+Example:
+```lua
+local player_id = 3
+local player_vehicles = MP.GetPlayerVehicles(player_id)
+
+-- Loop over all of player 3's vehicles and delete them
+for vehicle_id, vehicle_data in pairs(player_vehicles) do
+      MP.RemoveVehicle(player_id, vehicle_id)
+end
+```
+
 #### `MP.GetPlayerVehicles(player_id: number) -> table`
 
 Returns a table of all vehicles the player currently has. Each entry in the table is a mapping from vehicle ID to vehicle data (which is currently a raw json string).
+
+Example:
+```lua
+local player_id = 3
+local player_vehicles = MP.GetPlayerVehicles(player_id)
+
+for vehicle_id, vehicle_data in pairs(player_vehicles) do
+    local start = string.find(vehicle_data, "{")
+    local formattedVehicleData = string.sub(vehicle_data, start, -1)
+    print(Util.JsonDecode(formattedVehicleData))
+end
+```
+Output:
+```json
+{
+    pid: 0,
+    pro: "0",
+    rot: {
+            1: 0,
+             2: 0,
+            3: 0.776866,
+            4: 0.629665,
+    },
+    jbm: "miramar",
+    vcf: {
+            parts: {
+                    miramar_exhaust: "miramar_exhaust",
+                    miramar_shock_R: "miramar_shock_R",
+                    miramar_taillight: "miramar_taillight",
+                    miramar_door_RL: "miramar_door_RL"
+                    // ... continue
+            },
+            paints: {
+                    1: {
+                            roughness: 1,
+                            metallic: 0,
+                            clearcoat: 1,
+                            baseColor: {
+                                    1: 0.85,
+                                    2: 0.84,
+                                    3: 0.8,
+                                    4: 1.2,
+                            },
+                            clearcoatRoughness: 0.09,
+                    } // ... continue
+            },
+            partConfigFilename: "vehicles/miramar/base_M.pc",
+            vars: {},
+            mainPartName: "miramar",
+    },
+    pos: {
+            1: 283.669,
+            2: -754.332,
+            3: 48.2151,
+    },
+    vid: 64822,
+    ign: 0,
+}
+```
 
 #### `MP.GetPlayers() -> table`
 
@@ -412,12 +596,22 @@ Returns a table of all connected players. This table maps IDs to Names, like so:
 
 Whether the player is a guest. A guest is someone who didn't log in, and instead chose to play as a guest. Their name is usually `guest` followed by a long number.
 
-As guests aren't logged in, you might want to disallow them from joining, for example when running a serious racing server or similar.
+Because guests are anonymous, you may want to disallow them to join, if so it is recommended to use the [`onPlayerAuth`](#onplayerauth) `is_guest` argument instead.
 
 #### `MP.DropPlayer(player_id: number, [reason: string])`
 
 Kicks the player with the specified ID. The reason parameter is optional.
 
+```lua
+function ChatHandler(player_id, player_name, message)
+    if string.match(message, "darn") then
+        MP.DropPlayer(player_id, "Profanity is not allowed")
+        return 1
+    else
+        return 0
+    end
+end 
+```
 #### `MP.GetStateMemoryUsage() -> number`
 
 Returns the memory usage of the current Lua state in bytes.
@@ -428,14 +622,22 @@ Returns the memory usage of all lua states combined, in bytes.
 
 #### `MP.GetPlayerIdentifiers(player_id: number) -> table`
 
-Returns a table with information about the player, such as beammp forum ID and IP address.
+Returns a table with information about the player, such as BeamMP forum ID, IP address and Discord account ID. Discord ID will only be returned if the user has it linked to their forum account.
+
+You can find a users forum ID by navigating to `https://forum.beammp.com/u/USERNAME.json` and looking for `"user": {"id": 123456}`. A BeamMP ID is unique to the player and cannot be changed unlike the username.
 
 Example:
 
+```lua
+local player_id = 5
+print(MP.GetPlayerIdentifiers(player_id))
+```
+Output:
 ```json
 {
-	ip: "1.2.3.4",
-	beammp: "1234"
+    ip: "127.0.0.1",
+    discord: "12345678987654321",
+    beammp: "1234567",
 }
 ```
 
@@ -446,19 +648,30 @@ Example:
 Sets a ServerConfig setting temporarily. For this, the `MP.Settings` table is useful.
 
 Example:
-
-Turning on Debug mode
 ```lua
-MP.Set(MP.Settings.Debug, true)
+MP.Set(MP.Settings.Debug, true) -- Turns on debug mode
 ```
 
-#### `MP.Settings`
+#### `MP.Settings -> table`
 
-You can see an up-to-date list of these by printing them, like so:
+Table map of setting ID's to name. Used with `MP.Set` to change ServerConfig settings. 
+
+Example:
 ```lua
 print(MP.Settings)
 ```
-
+Output:
+```json
+{
+    MaxPlayers: 3,
+    Debug: 0,
+    Name: 5,
+    Description: 6,
+    MaxCars: 2,
+    Private: 1,
+    Map: 4,
+}
+```
 ### Util Functions
 
 #### `Util.Json*`
@@ -894,6 +1107,13 @@ Arguments: NONE
 Cancellable: NO
 
 Triggered right after all files in the plugin were initialized.
+
+##### `onConsoleInput`
+
+Arguments: `input: string`
+Cancellable: NO
+
+Triggered when the BeamMP console receives an input.
 
 ##### `onShutdown`
 
