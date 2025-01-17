@@ -15,7 +15,7 @@ If you are still having connection troubles with your home hosted server, check 
 
 CGNAT, short for Carrier Grade Network address translation, shares a public IP with multiple clients of the same Internet Service Provider, which means you will be unable to host a server at home.
 To get around this, you can ask a friend to host the server, or host it with one of our (partnered hosting services)[https://docs.beammp.com/server/create-a-server/#1-port-forwarding:~:text=our%20partnered%20Services!-,Paid%20Services%3A,-Horizon%20Hosting]!
-You can also try calling your ISP. Be aware, that a *static* IPv4 isn't necessary.
+You can also try calling your ISP and ask them if its possible to change your connection to an exclusive public IP. Be aware that a *static* IPv4 isn't necessary, but most likely your ISP can only appoint an exclusive IP if its also static. There might also be extra costs involved.
 
 For further assistance, you can open a support ticket with the BeamMP Support team on the (Discord Server)[https://discord.gg/beammp].
 
