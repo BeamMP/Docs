@@ -24,9 +24,9 @@ The setup consists of the following steps, you should follow all of them.
 
 ### 1. Port forwarding
 
-_If you are on a VPS (Virtual Private Server) or Rootserver, you can skip this step. If you're unsure about what a VPS or Rootserver is, you most likely aren't on one._
+_If you are on a VPS (Virtual Private Server), Rootserver or plan on hosting this server locally (with players in the same house as you), you can skip this step. If you're unsure about what a VPS or Rootserver is, you most likely aren't on one._
 
-This step is necessary if you want someone outside of your household to join ("outside of your local network").
+This step is necessary if you want someone **outside** of your household to join your home-hosted server (outside of your local network).
 
 ####
 !!! danger ":material-scale-balance: DISCLAIMER:"
