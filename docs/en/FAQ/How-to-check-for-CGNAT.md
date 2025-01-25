@@ -4,7 +4,7 @@ How to check for CGNAT?
 All Firewall and Port forwarding rules are 100% correct, yet nobody can join your home-hosted Server!
 
 If you have connection problems and you are using a Hosting-Service, contact them for assistance. If you want to use a VPS, take a look at this
-[list of Partnered hosting services](https://docs.beammp.com/server/create-a-server/#_1:~:text=our%20partnered%20Services!-,Paid%20Services%3A,-Horizon%20Hosting)
+[list of Partnered hosting services](https://docs.beammp.com/server/create-a-server/#_1:~:text=our%20partnered%20Services!-,Paid%20Services%3A,-Horizon%20Hosting) (Server setup documentation)
 
 # How to check for CGNAT?
 
