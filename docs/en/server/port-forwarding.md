@@ -127,7 +127,7 @@ Default Gateway (most likely 192.168.0.1 or 192.168.1.1)
 
 #### 1.2. Modify Adapter Settings
 
-Now we need to change the settings on your network card or ethernet adapter. To get to the settings for your network, the fastest method is:
+Now we need to change the settings on your network card or ethernet adapter in order for your PC to keep the IP configuration it currently has. To get to the settings for your network, the fastest method is:
 
 - Single tap the Windows key
 - Type the phrase "network connections" until you see "View network connections".
