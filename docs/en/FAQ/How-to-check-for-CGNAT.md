@@ -16,11 +16,11 @@ If multiple IP addresses within the range of ``100.64.x.x``-``100.127.x.x`` or `
 The first hop is your Router/Modem/Gateway and differs between Devices.
 
 ## Method 2:
-Find out the WAN IP on your routers interface. Compare it to the IP posted on e.g. https://whatsmyip.org . If they are NOT the same, you are behind a CGNAT.
+Find out the WAN IP on your router by looking it up on its interface. Compare it to the IP posted on e.g. https://whatsmyip.org . If they are NOT the same, you are behind a CGNAT.
 
 ## Method 3/Solution:
 Call your Internet Service Provider for assistance.
-Depending on your ISP, they might not offer dedicated *dynamic* IP adresses (a static IP is not necessary).
+Depending on your ISP, they might not offer dedicated *dynamic* IP adresses, or as a paid option only. Keep in mind, that a static IP is not necessary.
 
 Example of a non-CGNAT Network:
 
