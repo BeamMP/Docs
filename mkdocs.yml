@@ -123,6 +123,7 @@ plugins:
             Server Side: Lado del Servidor
             FAQ: FAQ
             How to check for CGNAT?: Cómo comprobar si hay CGNAT?
+            Where can I find my IP address?: ¿Dónde puedo encontrar mi dirección IP?
             Player FAQ: Preguntas frecuentes del jugador
             Game FAQ: Preguntas Frecuentes del Juego
             Server FAQ: Preguntas Frecuentes del Servidor
@@ -164,6 +165,7 @@ plugins:
             Server Side: Serverseite
             FAQ: FAQ
             How to check for CGNAT?: Wie überprüft man auf CGNAT?
+            Where can I find my IP address?: Wo finde ich meine IP Adresse?
             Player FAQ: Spieler-FAQ
             Game FAQ: Spiel FAQ
             Server FAQ: Server FAQ
@@ -205,6 +207,7 @@ plugins:
             Server Side: Côté serveur
             FAQ: FAQ
             How to check for CGNAT?: Comment puis-je vérifier cgnat?
+            Where can I find my IP address?: Où puis-je trouver mon adresse IP ?
             Player FAQ: FAQ del giocatore
             Game FAQ: FAQ du jeu
             Server FAQ: FAQ du serveur
@@ -246,6 +249,7 @@ plugins:
             Server Side: Lato server
             FAQ: FAQ
             How to check for CGNAT?: Come verificare la presenza di CGNAT?
+            Where can I find my IP address?: Dove posso trovare il mio indirizzo IP?
             Player FAQ: FAQ del giocatore
             Game FAQ: FAQ del gioco
             Server FAQ: FAQ del server
@@ -287,6 +291,7 @@ plugins:
             Server Side: Сторона сервера
             FAQ: FAQ
             How to check for CGNAT?: Как проверить наличие CGNAT?
+            Where can I find my IP address?: Где я могу найти свой IP-адрес?
             Player FAQ: Игроки ЧаВо
             Game FAQ: Часто задаваемые вопросы об игре
             Server FAQ: Часто задаваемые вопросы о сервере
@@ -353,6 +358,7 @@ nav:
       - Server Side: guides/mod-creation/server/getting-started.md
   - FAQ:
     - How to check for CGNAT?: FAQ/How-to-check-for-CGNAT.md
+    - Where can I find my IP address?: FAQ/where-to-find-my-IP.md
     - Player FAQ: support/player-faq.md
     - Game FAQ: support/game-faq.md
     - Server FAQ: support/server-faq.md
