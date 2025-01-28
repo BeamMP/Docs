@@ -2,7 +2,10 @@
 
 Having Mods besides BeamMP installed or enabled can lead to issues with the operation of BeamMP.
 When you are not able to disable mods or all mods (e.g. stuck in loading screen), it is likely that atleast one corrupt, broken or incompatible mod in the mod manager.
-This often leads to BeamMP not functioning properly, even if you have just one additional mod besides BeamMP.
+Having local mods installed and active often leads to BeamMP not functioning properly, even if you have just one additional mod besides BeamMP.
+This includes mods placed into the BeamNG/Content folder. As stated by BeamNG in their text file:
+
+!!! warning "Do NOT copy mods into this folder: it can lead to broken mods, slower installation of updates, a broken mod manager, broken Safe Mode and others."
 
 ## How can I fix this?
 
