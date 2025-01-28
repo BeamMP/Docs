@@ -1,7 +1,7 @@
 # Why do i need to deactivate my mods?
 
 In BeamMP, the Server you decide to connect to, provides the mods.
-When you are not able to disable mods or all mods (e.g. stuck in loading screen), it is likely that atleast one corrupt, broken or incompatible mod in the mod manager.
+They get downloaded and activated automatically upon connecting.
 Having local mods installed and active often leads to BeamMP not functioning properly, even if you have just one additional mod besides BeamMP.
 This includes mods placed into the BeamNG/Content folder. As stated by BeamNG in their text file:
 
