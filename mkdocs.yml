@@ -107,7 +107,7 @@ plugins:
           build: true
           nav_translations:
             Home: Inicio
-            Getting Started: Empezando
+            Support: Soporte
             Playing BeamMP: Jugando a BeamMP
             Installing BeamMP: Instalación de BeamMP
             Error Codes: Códigos de error
@@ -121,7 +121,8 @@ plugins:
             Mod & Resource Creation: Creación de Mods y Recursos
             Client Side: Lado del Cliente
             Server Side: Lado del Servidor
-            Support: Soporte
+            FAQ: FAQ
+            How to check for CGNAT?: Cómo comprobar si hay CGNAT?
             Player FAQ: Preguntas frecuentes del jugador
             Game FAQ: Preguntas Frecuentes del Juego
             Server FAQ: Preguntas Frecuentes del Servidor
@@ -147,7 +148,7 @@ plugins:
           build: true
           nav_translations:
             Home: Hauptseite
-            Getting Started: Erste Schritte
+            Support: Support
             Playing BeamMP: BeamMP spielen
             Installing BeamMP: BeamMP Installation
             Error Codes: Fehlercodes
@@ -161,7 +162,8 @@ plugins:
             Mod & Resource Creation: Mod- & Ressourcenerstellung
             Client Side: Clientseite
             Server Side: Serverseite
-            Support: Unterstützung
+            FAQ: FAQ
+            How to check for CGNAT?: Wie überprüft man auf CGNAT?
             Player FAQ: Spieler-FAQ
             Game FAQ: Spiel FAQ
             Server FAQ: Server FAQ
@@ -187,7 +189,7 @@ plugins:
           build: true
           nav_translations:
             Home: Accueil
-            Getting Started: Démarrage
+            Support: Support
             Playing BeamMP: Jouer à BeamMP
             Installing BeamMP: Installation de BeamMP
             Error Codes: Codes d'erreur
@@ -201,7 +203,8 @@ plugins:
             Mod & Resource Creation: Création de mods et de ressources
             Client Side: Côté client
             Server Side: Côté serveur
-            Support: Support
+            FAQ: FAQ
+            How to check for CGNAT?: Comment puis-je vérifier cgnat?
             Player FAQ: FAQ del giocatore
             Game FAQ: FAQ du jeu
             Server FAQ: FAQ du serveur
@@ -227,7 +230,7 @@ plugins:
           build: true
           nav_translations:
             Home: Home
-            Getting Started: Guida introduttiva
+            Support: Supporto
             Playing BeamMP: Giocare a BeamMP
             Installing BeamMP: Installazione di BeamMP
             Error Codes: Codici di errore
@@ -241,7 +244,8 @@ plugins:
             Mod & Resource Creation: Creazione di Mod e Risorse
             Client Side: Lato client
             Server Side: Lato server
-            Support: Supporto
+            FAQ: FAQ
+            How to check for CGNAT?: Come verificare la presenza di CGNAT?
             Player FAQ: FAQ del giocatore
             Game FAQ: FAQ del gioco
             Server FAQ: FAQ del server
@@ -267,7 +271,7 @@ plugins:
           build: true
           nav_translations:
             Home: Главная
-            Getting Started: Начало работы
+            Support: Поддержка
             Playing BeamMP: Игра в BeamMP
             Installing BeamMP: Установка BeamMP
             Error Codes: коды ошибок
@@ -281,7 +285,8 @@ plugins:
             Mod & Resource Creation: Создание модов и ресурсов
             Client Side: Сторона клиента
             Server Side: Сторона сервера
-            Support: Поддержка
+            FAQ: FAQ
+            How to check for CGNAT?: Как проверить наличие CGNAT?
             Player FAQ: Игроки ЧаВо
             Game FAQ: Часто задаваемые вопросы об игре
             Server FAQ: Часто задаваемые вопросы о сервере
@@ -331,7 +336,7 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Getting Started:
+  - Support:
     - Playing BeamMP:
       - Installing BeamMP: game/getting-started.md
       - Error Codes: game/error-codes.md
@@ -346,7 +351,8 @@ nav:
     - Mod & Resource Creation:  
       - Client Side: guides/mod-creation/client/getting-started.md
       - Server Side: guides/mod-creation/server/getting-started.md
-  - Support:
+  - FAQ:
+    - How to check for CGNAT?: FAQ/How-to-check-for-CGNAT.md
     - Player FAQ: support/player-faq.md
     - Game FAQ: support/game-faq.md
     - Server FAQ: support/server-faq.md
