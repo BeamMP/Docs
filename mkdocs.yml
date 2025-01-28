@@ -121,6 +121,8 @@ plugins:
             Mod & Resource Creation: Creación de Mods y Recursos
             Client Side: Lado del Cliente
             Server Side: Lado del Servidor
+            FAQ: FAQ
+            How to check for CGNAT?: Cómo comprobar si hay CGNAT?
             Support: Soporte
             Player FAQ: Preguntas frecuentes del jugador
             Game FAQ: Preguntas Frecuentes del Juego
@@ -161,6 +163,8 @@ plugins:
             Mod & Resource Creation: Mod- & Ressourcenerstellung
             Client Side: Clientseite
             Server Side: Serverseite
+            FAQ: FAQ
+            How to check for CGNAT?: Wie überprüft man auf CGNAT?
             Support: Unterstützung
             Player FAQ: Spieler-FAQ
             Game FAQ: Spiel FAQ
@@ -201,6 +205,8 @@ plugins:
             Mod & Resource Creation: Création de mods et de ressources
             Client Side: Côté client
             Server Side: Côté serveur
+            FAQ: FAQ
+            How to check for CGNAT?: Comment puis-je vérifier cgnat?
             Support: Support
             Player FAQ: FAQ del giocatore
             Game FAQ: FAQ du jeu
@@ -241,6 +247,8 @@ plugins:
             Mod & Resource Creation: Creazione di Mod e Risorse
             Client Side: Lato client
             Server Side: Lato server
+            FAQ: FAQ
+            How to check for CGNAT?: Come verificare la presenza di CGNAT?
             Support: Supporto
             Player FAQ: FAQ del giocatore
             Game FAQ: FAQ del gioco
@@ -281,6 +289,8 @@ plugins:
             Mod & Resource Creation: Создание модов и ресурсов
             Client Side: Сторона клиента
             Server Side: Сторона сервера
+            FAQ: FAQ
+            How to check for CGNAT?: Как проверить наличие CGNAT?
             Support: Поддержка
             Player FAQ: Игроки ЧаВо
             Game FAQ: Часто задаваемые вопросы об игре
@@ -346,6 +356,8 @@ nav:
     - Mod & Resource Creation:  
       - Client Side: guides/mod-creation/client/getting-started.md
       - Server Side: guides/mod-creation/server/getting-started.md
+  - FAQ:
+    - How to check for CGNAT?: FAQ/How-to-check-for-CGNAT.md
   - Support:
     - Player FAQ: support/player-faq.md
     - Game FAQ: support/game-faq.md
