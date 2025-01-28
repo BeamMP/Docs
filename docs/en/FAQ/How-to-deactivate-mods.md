@@ -1,4 +1,4 @@
-# I need help deactivating my mods!
+# Why do i need to deactivate my mods?
 
 Having Mods besides BeamMP installed or enabled can lead to issues with the operation of BeamMP.
 When you are not able to disable mods or all mods (e.g. stuck in loading screen), it is likely that atleast one corrupt, broken or incompatible mod in the mod manager.
