@@ -7,7 +7,7 @@ This includes mods placed into the BeamNG/Content folder. As stated by BeamNG in
 
 !!! warning "Do NOT copy mods into this folder: it can lead to broken mods, slower installation of updates, a broken mod manager, broken Safe Mode and others."
 
-## How can I fix this?
+## How do I deactivate/remove my mods?
 
 There are 3 options to do this.
 1. Deactivate all mods besides 'multiplayerbeammp' .
