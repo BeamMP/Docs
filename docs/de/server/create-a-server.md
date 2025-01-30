@@ -35,7 +35,7 @@ Dieser Schritt ist nötig, wenn du möchtest, dass andere **außerhalb[/strong0}
 
     Durch das weiterleiten von Ports akzeptierst du das Risiko beim öffnen von Ports auf einem lokalen Netzwerk in das öffentliche Netzwerk. Dadurch kannst du BeamMP für **jegliche und alle** Schäden die an dir oder deinem Haushalt passieren können, nicht verantwortlich machen.
     
-    Wir sind nicht verantwortlich für jegliches verlinktest Material auf externen Seiten oder Services.
+    Wir sind nicht verantwortlich für jegliches verlinktes Material auf externen Seiten oder Services.
 
 Es ist zu empfehlen, einen Server mit einem unserer Partner-Services zu hosten!
 
