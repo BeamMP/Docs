@@ -3,9 +3,15 @@
 In BeamMP, the Server you decide to connect to, provides the mods.
 They get downloaded and activated automatically upon connecting.
 Having local mods installed and active often leads to BeamMP not functioning properly, even if you have just one additional mod besides BeamMP.
-This includes mods placed into the BeamNG/Content folder. As stated by BeamNG in their text file:
 
-!!! warning "Do NOT copy mods into this folder: it can lead to broken mods, slower installation of updates, a broken mod manager, broken Safe Mode and others."
+!!! warning
+
+    Remove any mods you have placed in the BeamNG.Drive\content\vehicles folder. That location is not for the use of mods and can lead to issues as stated in the Text file by BeamNG, which is located in the same location and reads as follows:
+
+    !!!quote "DO_NOT_INSTALL_MODS_HERE.txt"
+    
+        Do NOT copy mods into this folder: it can lead to broken mods, slower installation of updates, a broken mod manager, broken Safe Mode and others.
+
 
 ## How do I deactivate/remove my mods?
 
