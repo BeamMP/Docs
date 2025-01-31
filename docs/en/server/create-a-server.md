@@ -252,7 +252,7 @@ IPv6 Support is **NOT** yet implemented.
 
 !!! warning "I want to use a VPN such as RadminVPN, Hamachi, or similar."
     
-    BeamMP does not support these VPNs, as they often cause issues. One of these issues is UDP traffic not being forwarded. To resolve this, reffer to section 1.
+    BeamMP does not support these VPNs, as they often cause issues. One of these issues is UDP traffic not being forwarded. To resolve this, refer to section 1.
     
     !!! question "But why has it worked in the past?"
 
