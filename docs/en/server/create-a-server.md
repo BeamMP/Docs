@@ -191,7 +191,9 @@ Give your server a name, too, in the `Name` field. You can format this with colo
 
 If you picked a different **Port** other than **30814**, make sure to replace it here under `Port`.
 
-**IMPORTANT:** Your server will **NOT** show in the server list as long as `Private = true`. _If_ you want it to show in the list, set that to **`Private = false`**.
+!!! info
+
+      Your server will **NOT** show in the server list as long as `Private = true`. _If_ you want it to show in the list, set that to **`Private = false`**.
 
 ### 5. Validation
 
