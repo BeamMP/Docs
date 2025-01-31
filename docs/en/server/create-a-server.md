@@ -248,6 +248,12 @@ This means you eihter have a CGNAT IPv4, or you have done something wrong during
 To check if you have a CGNAT IPv4, look up the WAN IP Address on your routers interface. Compare it to your [public IP](https://www.whatsmyip.org/). If they're the same, you are not behind a CGNAT.
 IPv6 Support is **NOT** yet implemented.
 
+!!! warning "I am using a VPN such as RadminVPN, Hamachi, or similar."
+   BeamMP does not support these VPNs, as they often cause issues. One of these issues is UDP traffic not being forwarded. To resolve this, reffer to section 1.
+   !!! question "But why has it worked in the past?"
+      This is due to the developers of these applications updating their software and implementing changeswhich BeamMP has no control over.
+      It is up to the developers of these applications to provide support for specific use cases like a BeamMP-Server.
+
 ## Still facing issues?
 
 Open a Thread on the [Forum](https://forum.beammp.com) or on our [Discord server](https://discord.gg/beammp) in the `#support` channel.
