@@ -24,5 +24,5 @@ After you are done, start BeamNG.Drive via the BeamMP-Launcher and you should ha
 
 ## My settings and configs are gone!
 
-If you renamed the userfolder, you forced the game to craete a new, clean userfolder. You may copy the 'settings' and 'vehicles' folder from the folder you renamed (e.g. 0.34_OLD) to the new folder it created.
+If you renamed the userfolder, you forced the game to create a new, clean userfolder. You may copy the 'settings' and 'vehicles' folder from the folder you renamed (e.g. 0.34_OLD) to the new folder it created.
 Make sure BeamNG.Drive is closed and replace all elements in the location you want to copy the folders to. You should now have all configs and settings as they were before.
