@@ -228,7 +228,7 @@ There are a few different ways to test the connection.
 
 Our recommend way is to use a tool called [Probably Up](https://probablyup.net/api) as this tests for BeamMP specific issues and protocols.
 
-This can be done by getting your public IPv4 Address, this once again can be done in a few different ways. The main way is to use a website called [icanhazip.com](https://icanhazip.com/). This is a very simple website which displays your public IP Address. You should be looking for an IP address with the formatting: xxx.xxx.xxx.xxx
+This can be done by getting your public IPv4 Address, this once again can be done in a few different ways. The main way is to use a website called [whatsmyip.org](https://whatsmyip.org/). This is a simple website which displays your public IP Address. You should be looking for an IP address with the formatting: xxx.xxx.xxx.xxx
 
 <figure class="image image_resized" style="width:62%;" markdown>
   ![](../../assets/content/probably-up.png)
@@ -245,4 +245,5 @@ You have 2 ways to join, either directly with the details you entered into Proba
 
 ## Still not working?
 
+Your ISP could be using CGNAT (Carrier Grade Network Address Translation). For more details, please check [How to check for CGNAT?](https://docs.beammp.com/FAQ/How-to-check-for-CGNAT/)
 Please open a Server Support ticket on our [Discord server](https://discord.gg/beammp) in the `#support` channel and one of our staff will get to your ticket!
