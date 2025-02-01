@@ -245,5 +245,5 @@ You have 2 ways to join, either directly with the details you entered into Proba
 
 ## Still not working?
 
-Your ISP could be using CGNAT (Carrier Grade Network Address Translation). For more details, please check [How to check for CGNAT?](https://docs.beammp.com/FAQ/How-to-check-for-CGNAT/)
+Your ISP could be using CGNAT (Carrier Grade Network Address Translation). For more details, please check [How to check for CGNAT?](../FAQ/How-to-check-for-CGNAT.md)
 Please open a Server Support ticket on our [Discord server](https://discord.gg/beammp) in the `#support` channel and one of our staff will get to your ticket!
