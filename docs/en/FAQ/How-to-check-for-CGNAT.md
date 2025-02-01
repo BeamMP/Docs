@@ -24,7 +24,7 @@ Find out the WAN IP on your router by looking it up on its interface. Compare it
 Call your Internet Service Provider for assistance.
 Depending on your ISP, they might not offer dedicated *dynamic* IP adresses. Keep in mind, that a static IP is not necessary.
 
-!!! Warning
+!!! warning
 
         Internet Service Providers may only offer dedicated IP addresses as a **pad option**.
         Please check the prices of our partnered hosting services as they could be cheaper than this fee!
