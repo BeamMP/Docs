@@ -26,7 +26,7 @@ Depending on your ISP, they might not offer dedicated *dynamic* IP adresses. Kee
 
 !!! warning
 
-        Internet Service Providers may only offer dedicated IP addresses as a **pad option**.
+        Internet Service Providers may only offer dedicated IP addresses as a **paid option**.
         Please check the prices of our partnered hosting services as they could be cheaper than this fee!
 
 Example of a non-CGNAT Network:
