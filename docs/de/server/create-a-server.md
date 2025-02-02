@@ -1,9 +1,11 @@
 # Server Installation
 
 ## **Einen Server erstellen**
+
 Die Grundlagen für das Erstellen eines Servers
 
 ---
+
 ### **Übersicht**
 
 **Von Zuhause aus einen Server anzubieten ist kostenlos. Einen externen VPS zu verwenden ist jedoch meist leichter und wesentlich sicherer!**
@@ -29,13 +31,16 @@ Das Aufsetzen besteht aus folgenden Schritten. Du solltest alle davon durchgehen
 Dieser Schritt ist nötig, wenn du möchtest, dass andere **außerhalb[/strong0} deines Haushalts deinem daheim-gehosteten Server beitreten können (außerhalb deines lokalen Netzwerks)**
 
 ####
+
 !!! danger ":material-scale-balance: WARNUNG:"
 
-    **Das weiterleiten von Ports ist ein Risiko**.
+```
+**Das weiterleiten von Ports ist ein Risiko**.
 
-    Durch das weiterleiten von Ports akzeptierst du das Risiko beim öffnen von Ports auf einem lokalen Netzwerk in das öffentliche Netzwerk. Dadurch kannst du BeamMP für **jegliche und alle** Schäden die an dir oder deinem Haushalt passieren können, nicht verantwortlich machen.
-    
-    Wir sind nicht verantwortlich für jegliches verlinktes Material auf externen Seiten oder Services.
+Durch das weiterleiten von Ports akzeptierst du das Risiko beim öffnen von Ports auf einem lokalen Netzwerk in das öffentliche Netzwerk. Dadurch kannst du BeamMP für **jegliche und alle** Schäden die an dir oder deinem Haushalt passieren können, nicht verantwortlich machen.
+
+Wir sind nicht verantwortlich für jegliches verlinktes Material auf externen Seiten oder Services.
+```
 
 Es ist zu empfehlen, einen Server mit einem unserer Partner-Services zu hosten!
 
@@ -70,34 +75,29 @@ Um einen Schlüssel zu erwerben ist ein [Discord](https://discord.com) Konto erf
 
 #### 2.1. Die Schlüssel-Übersicht öffnen
 
-Melde dich mit Discord beim [Keymaster](https://beammp.com/keymaster) an.
-Klicke auf der Keymaster-Homepage links auf dem Bildschirm auf „Keys“:
+Melde dich mit Discord beim [Keymaster](https://beammp.com/keymaster) an. Klicke auf der Keymaster-Homepage links auf dem Bildschirm auf „Keys“:
 
-<figure markdown="">
-    ![](../../assets/content/keymaster_homepage.png)
-</figure>
+
+<figure markdown="">     ![](../../assets/content/keymaster_homepage.png) </figure>
 
 #### 2.2. Einen Schlüssel erstellen
 
 Um einen Schlüssel zu erstellen, klicke das grüne ,,+" oben rechts.
 
-<figure markdown="">
-    ![](../../assets/content/keymaster_new_key.png)
-</figure>
+
+<figure markdown="">     ![](../../assets/content/keymaster_new_key.png) </figure>
 
 #### 2.3. Schlüssel-Informationen eingeben
 
 Als nächstes, fülle das Feld für den Servernamen (das ist lediglich der Name des Schlüssels, nicht der Name vom Server in der Liste), dann klick ,,Create".<br>Beispiel:
 
-<figure class="image image_resized" style="width:44.84%;" markdown="">
-    ![](../../assets/content/keymaster_server_name.png)
-</figure>
+
+<figure class="image image_resized" style="width:44.84%;" markdown="">     ![](../../assets/content/keymaster_server_name.png) </figure>
 
 es sollte am Ende wie folgt aussehen:
 
-<figure markdown="">
-    ![](../../assets/content/keymaster_key_done.png)
-</figure>
+
+<figure markdown="">     ![](../../assets/content/keymaster_key_done.png) </figure>
 
 **GEBE DIESEN SCHLÜSSEL NIEMALS AN ANDERE WEITER UND ZEIGEN IHN AUCH NIEMANDEM. BEHANDLE IHN WIE EIN PASSWORT.**
 
@@ -107,9 +107,8 @@ Du hast die Möglichkeit, zwei kostenlose Schlüssel zu erstellen. Ein Schlüsse
 
 Kopiere den Text im “Key” Feld. In diesem Beispiel wäre das  `3173a2e-6az0-4542-a3p0-ddqq5ff95558`. Klicke das ,,Klemmbrett Symbol" neben dem Schlüssel um diesen zu kopieren.
 
-<figure markdown="">
-    ![](../../assets/content/keymaster_copy_key.png)
-</figure>
+
+<figure markdown="">     ![](../../assets/content/keymaster_copy_key.png) </figure>
 
 ### 3. Installation
 
@@ -155,9 +154,8 @@ Führe zum Abschluss den Server unbedingt einmal mit `./BeamMP-Server` aus und f
 
 Nachdem der Server einmal gestartet wurde, sollte er die nötigen Dateien erstellt haben und einen oder zwei Fehler in die Konsole schreiben. Das ist normal, da wir noch nicht fertig sind.<br>Es sollten nun folgende Dateien vorhanden sein:
 
-<figure markdown="">
-    ![](../../assets/content/after-running-once.png)
-</figure>
+
+<figure markdown="">     ![](../../assets/content/after-running-once.png) </figure>
 
 Genannt ,,ServerConfig.toml”, ,,Server.log” und ,,BeamMP-Server.exe”! (Je nach deinen Einstellungen, siehst du möglicherweise die [.toml] [.log] [.exe] Erweiterungen nicht)
 
@@ -184,14 +182,20 @@ Das ist die Konfigurationsdatei. Sie nutzt das sogenannte ,,TOML" Format. Siehe 
 Als erstes kümmern wir uns um den <code>AuthKey</code>. Dazu muss der Schlüssel zwischen die Anführungszeichen <code>" "</code> eingefügt werden.
 
 Für unser Beispiel sollte der Eintrag so aussehen:
+
 ```TOML
 AuthKey = '3173a2e-6az0-4542-a3p0-ddqq5ff95558'
 ```
+
 Vergib deinem Server einen Namen im `Name` Feld. Du kannst diesen mit Farben und mehr formatieren. Siehe [diese Sesktion](server-maintenance.md#customize-the-look-of-your-server-name) auf der Server-Wartungsseite.
 
 Wenn du einen anderen **Port** als **30814** ausgewählt hast, achte darauf, ihn hier unter `Port` zu ersetzen.
 
-**WICHTIG:** Der Server wird **NICHT** in der Serverliste angezeigt, solange `Private = true` ist. *Wenn* du möchtest, dass er in der Liste angezeigt wird, setze dies auf **`Private = false`**.
+!!! info
+
+```
+ Dein Server wird **NICHT** in der Serverliste aufscheinen, solange `Private = true` ist. _Wenn_ du ihn gelistet haben willst, stell den Parameter auf **`Private = false`**.
+```
 
 ### 5. Validierung
 
@@ -239,14 +243,20 @@ Starte den Server. Nun musst du die öffentliche IP des Servers anderen Spielern
 
 #### 6.c. Andere Spieler treten deinem öffentlichen Server bei
 
-Um deinem öffentlichen Server beizutreten, gehe zur Server Liste und gib den Namen des Servers ein und klicke ,,Connect". Wenn du dir nicht sicher über den Namen des Server bist, es wird der Name sein, welchen du in der `ServerConfig.toml` festlegst.
-Stelle sicher dass Suchfilter deaktiviert sind und dass die Karte auf "Any" gesetzt ist, wenn du ihn nicht findest.
-Du kannst auch die [Keymaster](https://beammp.com/keymaster) Webseite für die IP des Servers prüfen.
+Um deinem öffentlichen Server beizutreten, gehe zur Server Liste und gib den Namen des Servers ein und klicke ,,Connect". Wenn du dir nicht sicher über den Namen des Server bist, es wird der Name sein, welchen du in der `ServerConfig.toml` festlegst. Stelle sicher dass Suchfilter deaktiviert sind und dass die Karte auf "Any" gesetzt ist, wenn du ihn nicht findest. Du kannst auch die [Keymaster](https://beammp.com/keymaster) Webseite für die IP des Servers prüfen.
 
-Sollten du oder deine Freunde einen ,,Verbindung Fehlgeschlagen!" Fehler bekommen, prüfe das Launcher Fenster auf Codes wie 10060, 10061 oder 10030.
-Das bedeutet, dass du entweder eine CGNAT IPv4 hast, oder du hast etwas bei Schritt **1 Port Forwarding** oder **1.1. Firewall** falsch gemacht.
-Um zu prüfen ob du eine CGNAT IPv4 hast, finde die WAN IP Adresse im Router Interface. Vergleiche diese mit deiner [öffentlichen IP](https://www.whatsmyip.org/). Wenn diese gleich sind, hast du keine CGNAT IP.
-IPv6 Support ist noch **NICHT** implementiert.
+Sollten du oder deine Freunde einen ,,Verbindung Fehlgeschlagen!" Fehler bekommen, prüfe das Launcher Fenster auf Codes wie 10060, 10061 oder 10030. Das bedeutet, dass du entweder eine CGNAT IPv4 hast, oder du hast etwas bei Schritt **1 Port Forwarding** oder **1.1. Firewall** falsch gemacht. Um zu prüfen ob du eine CGNAT IPv4 hast, finde die WAN IP Adresse im Router Interface. Vergleiche diese mit deiner [öffentlichen IP](https://www.whatsmyip.org/). Wenn diese gleich sind, hast du keine CGNAT IP. IPv6 Support ist noch **NICHT** implementiert.
+
+!!! warning "Ich möchte einen VPN wie RadminVPN, Hamachi oder ähnlich verwenden"
+
+```
+BeamMP unterstützt diese VPNs nicht, weil diese oft Probleme verursachen. Eines davon ist das blockieren von UDP Verkehr. Um dies zu beheben, siehe Sektion 1.
+
+!!! question "Aber warum hat es vorher funktioniert?"
+
+    Das passiert, weil die Entwickler dieser Applikationen updaten und Änderungen implementiere, über welche BeamMP keine Kontroll hat.
+    Es liegt an den Entwicklern diesen Applikationen, um Support für spezifische Fälle wie eines BeamMP-Servers zu unterstützen.
+```
 
 ## Immer noch Probleme?
 
