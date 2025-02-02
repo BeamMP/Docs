@@ -8,7 +8,7 @@ If you have connection problems and you are using a Hosting-Service, contact the
 
 # What even is CGNAT?
 
-For a detailed explanation, on what CGNAT is and why it's an issue when trying to host a server at home, take a look at [this page](wikipedia.org/wiki/Carrier-grade_NAT).
+For a detailed explanation, on what CGNAT is and why it's an issue when trying to host a server at home, take a look at [this page](https://en.wikipedia.org/wiki/Carrier-grade_NAT).
 
 # How to check for CGNAT?
 
