@@ -34,15 +34,13 @@ Dieser Schritt ist nötig, wenn du möchtest, dass andere **außerhalb[/strong0}
 
 !!! danger ":material-scale-balance: WARNUNG:"
 
-```
-**Das weiterleiten von Ports ist ein Risiko**.
+    **Das weiterleiten von Ports ist ein Risiko**.
 
-Durch das weiterleiten von Ports akzeptierst du das Risiko beim öffnen von Ports auf einem lokalen Netzwerk in das öffentliche Netzwerk. Dadurch kannst du BeamMP für **jegliche und alle** Schäden die an dir oder deinem Haushalt passieren können, nicht verantwortlich machen.
+    Durch das weiterleiten von Ports akzeptierst du das Risiko beim öffnen von Ports auf einem lokalen Netzwerk in das öffentliche Netzwerk. Dadurch kannst du BeamMP für **jegliche und alle** Schäden die an dir oder deinem Haushalt passieren können, nicht verantwortlich machen.
 
-Wir sind nicht verantwortlich für jegliches verlinktes Material auf externen Seiten oder Services.
-```
+    Wir sind nicht verantwortlich für jegliches verlinktes Material auf externen Seiten oder Services.
 
-Es ist zu empfehlen, einen Server mit einem unserer Partner-Services zu hosten!
+    Es ist zu empfehlen, einen Server mit einem unserer Partner-Services zu hosten!
 
 #### Kostenpflichtige Dienste:
 
@@ -193,7 +191,7 @@ Wenn du einen anderen **Port** als **30814** ausgewählt hast, achte darauf, ihn
 
 !!! info
 
- Dein Server wird **NICHT** in der Serverliste aufscheinen, solange `Private = true` ist. _Wenn_ du ihn gelistet haben willst, stell den Parameter auf **`Private = false`**.
+    Dein Server wird **NICHT** in der Serverliste aufscheinen, solange `Private = true` ist. _Wenn_ du ihn gelistet haben willst, stell den Parameter auf **`Private = false`**.
 
 ### 5. Validierung
 
@@ -247,12 +245,12 @@ Sollten du oder deine Freunde einen ,,Verbindung Fehlgeschlagen!" Fehler bekomme
 
 !!! warning "Ich möchte einen VPN wie RadminVPN, Hamachi oder ähnlich verwenden"
 
-BeamMP unterstützt diese VPNs nicht, weil diese oft Probleme verursachen. Eines davon ist das blockieren von UDP Verkehr. Um dies zu beheben, siehe Sektion 1.
+    BeamMP unterstützt diese VPNs nicht, weil diese oft Probleme verursachen. Eines davon ist das blockieren von UDP Verkehr. Um dies zu beheben, siehe Sektion 1.
 
-!!! question "Aber warum hat es vorher funktioniert?"
+    !!! question "Aber warum hat es vorher funktioniert?"
 
-    Das passiert, weil die Entwickler dieser Applikationen updaten und Änderungen implementiere, über welche BeamMP keine Kontroll hat.
-    Es liegt an den Entwicklern diesen Applikationen, um Support für spezifische Fälle wie eines BeamMP-Servers zu unterstützen.
+        Das passiert, weil die Entwickler dieser Applikationen updaten und Änderungen implementiere, über welche BeamMP keine Kontroll hat.
+        Es liegt an den Entwicklern diesen Applikationen, um Support für spezifische Fälle wie eines BeamMP-Servers zu unterstützen.
 
 ## Immer noch Probleme?
 
