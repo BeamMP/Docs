@@ -40,7 +40,7 @@ Dieser Schritt ist nötig, wenn du möchtest, dass andere **außerhalb[/strong0}
 
     Wir sind nicht verantwortlich für jegliches verlinktes Material auf externen Seiten oder Services.
 
-    Es ist zu empfehlen, einen Server mit einem unserer Partner-Services zu hosten!
+Es ist zu empfehlen, einen Server mit einem unserer Partner-Services zu hosten!
 
 #### Kostenpflichtige Dienste:
 
