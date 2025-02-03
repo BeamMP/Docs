@@ -1,10 +1,14 @@
 How to check for CGNAT?
 ## Issue
 
-All Firewall and Port forwarding rules are 100% correct, yet nobody can join your home-hosted Server!
+All Firewall exclusions and Port forwarding rules are set up correctly, yet nobody can join your home-hosted Server?
 
-If you have connection problems and you are using a Hosting-Service, contact them for assistance. If you want to use a VPS, take a look at this
-[list of Partnered hosting services](https://docs.beammp.com/server/create-a-server/#_1:~:text=our%20partnered%20Services!-,Paid%20Services%3A,-Horizon%20Hosting) (Server setup documentation)
+If you have connection problems and you are using a Hosting-Service, contact them for assistance. If you want to use a VPS or cannot host a server at home, take a look at our
+[list of Partnered hosting services](https://docs.beammp.com/server/create-a-server/#_1:~:text=our%20partnered%20Services!-,Paid%20Services%3A,-Horizon%20Hosting) (Server setup documentation).
+
+# What even is CGNAT?
+
+For a detailed explanation, on what CGNAT is and why it's an issue when trying to host a server at home, take a look at [this page](https://en.wikipedia.org/wiki/Carrier-grade_NAT).
 
 # How to check for CGNAT?
 
