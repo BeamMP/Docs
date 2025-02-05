@@ -56,7 +56,7 @@ The native linux BeamMP-Launcher will start and use native linux BeamNG.drive
 
 Should you want to use the native linux BeamMP-Launcher together with BeamNG.drive running through Proton, you can do so:
 
-Run the BeamMP-Launcher using the argument ` -no-launch` (This will prevent the Launcher from starting native linux BeamNG.drive). Further information about launcher arguments can be found in the [Development Environment Setup](../guides/beammp-dev/beammp-dev.md)
+Run the BeamMP-Launcher using the argument ` --no-launch` (This will prevent the Launcher from starting native linux BeamNG.drive). Further information about launcher arguments can be found in the [Development Environment Setup](../guides/beammp-dev/beammp-dev.md)
 
 Change the userfolder location of Proton-BeamNG.drive to the location of Linux-BeamNG.drive (since the native linux BeamMP-Launcher currently only writes into the Linux-BeamNG.drive userfolder)
 
