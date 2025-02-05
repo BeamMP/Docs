@@ -30,7 +30,7 @@ In order to do this, you need a basic understanding of how to build an applicati
 Make sure you have [`vcpkg` installed](https://learn.microsoft.com/en-us/vcpkg/get_started/get-started?pivots=shell-bash#1---set-up-vcpkg), as well as basic development tools, often found in packages, for example:
 
 - Debian: `sudo apt install build-essential`
-- Fedora: `sudo dnf groupinstall "Development Tools"`
+- Fedora: `sudo dnf install @development-tools`
 - Arch: `sudo pacman -S base-devel`
 - openSUSE: `zypper in -t pattern devel-basis`
 
