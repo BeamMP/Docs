@@ -41,7 +41,9 @@ Clone the BeamMP-Launcher Repository to your system using `git`, for example:
 Checkout the tag that was used for the [latest release](https://github.com/BeamMP/BeamMP-Launcher/releases/latest). For example, if `v2.3.2` is used in the latest release, then do `git checkout v2.3.2`
 
 In the root directory of the project,
+
 1. `cmake -DCMAKE_BUILD_TYPE=Release . -B bin -DCMAKE_TOOLCHAIN_FILE=~/vcpkg/scripts/buildsystems/vcpkg.cmake -DVCPKG_TARGET_TRIPLET=x64-linux`
+
 2. `cmake --build bin --parallel --config Release`
 
 > Should you run out of RAM while building, you can ommit the --parallel instruction, it will then use less RAM due to building only on one CPU thread.
@@ -54,16 +56,17 @@ The native linux BeamMP-Launcher will start and use native linux BeamNG.drive
 
 Should you want to use the native linux BeamMP-Launcher together with BeamNG.drive running through Proton, you can do so:
 
-Run the BeamMP-Launcher using the argument ` -no-launch` (This will prevent the Launcher from starting native linux BeamNG.drive). Further information about launcher arguments can be found in the [Development Environment Setup](../guides/beammp-dev/beammp-dev.md)
+Run the BeamMP-Launcher using the argument ` --no-launch` (This will prevent the Launcher from starting native linux BeamNG.drive). Further information about launcher arguments can be found in the [Development Environment Setup](../guides/beammp-dev/beammp-dev.md)
 
 Change the userfolder location of Proton-BeamNG.drive to the location of Linux-BeamNG.drive (since the native linux BeamMP-Launcher currently only writes into the Linux-BeamNG.drive userfolder)
 
 This can be done for example by creating a symlink
 
-- Note the Linux-BeamNG.drive userfolder location (this is usually found in `~/.local/share/BeamNG.drive`) and rename it, for example to ``BeamNG.drive_old
+- Note the Linux-BeamNG.drive userfolder location (this is usually found in `~/.local/share/BeamNG.drive`) and rename it, for example to `BeamNG.drive_old`
 - Note the Proton-BeamNG.drive userfolder location (this is usually found in `~/.local/share/Steam/steamapps/compatdata/284160/pfx/drive_c/users/steamuser/AppData/Local/BeamNG.drive`)
-- Create a symlink between both userfolders ```ln -s ~/.local/share/Steam/steamapps/compatdata/284160/pfx/drive_c/users/steamuser/AppData/Local/BeamNG.drive ~/.local/share```
+- Create a symlink between both userfolders `ln -s ~/.local/share/Steam/steamapps/compatdata/284160/pfx/drive_c/users/steamuser/AppData/Local/BeamNG.drive ~/.local/share`
 
+Now you can start the native linux BeamMP-Launcher. It will then wait for the game to start, so you need to do that manually, for example trough Steam.
 
 ---
 
