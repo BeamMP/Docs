@@ -17,5 +17,5 @@ If you have installed BeamMP elsewhere, for example 'D:\BeamMP-Launcher', then p
 6. Start the BeamMP-Launcher as usual to see if it works.
 
 ## Still facing issue?
-Create a support ticket on our (Discord Server)[]
+Create a support ticket on our [Discord Server](https://discord.gg/BeamMP).
 Tags: Launcher, download,
