@@ -4,7 +4,7 @@ Wie prüfe ich auf ein CGNAT?
 
 Alle Firewall Ausschlüsse und Port Weiterleitungsregeln sind korrekt eingerichtet, jedoch kann niemand deinem heim-gehosteten Server beitreten?
 
-Wenn du Verbindungsprobleme hast und einen Hosting Anbieter verwendest, kontaktiere diesen für Hilfe. Wenn du einen VPS verwenden möchtest oder keinen Server zuhause hosten kannst, sieh dir die [Liste unserer Hosting Partner](https://docs.beammp.com/server/create-a-server/#_1:~:text=our%20partnered%20Services!-,Paid%20Services%3A,-Horizon%20Hosting) (Server Anleitung) an.
+Wenn du Verbindungsprobleme hast und einen Hosting Anbieter verwendest, kontaktiere diesen für Hilfe. Wenn du einen VPS verwenden möchtest oder keinen Server zuhause hosten kannst, sieh dir die [Liste unserer Hosting Partner](https://docs.beammp.com/server/create-a-server/#_1:~:text=our%20partnered%20Services!-,Paid%20Services%3A,-Horizon%20Hosting) an.
 
 # Was ist CGNAT überhaupt?
 
@@ -18,10 +18,8 @@ Für eine detaillierte Erklärung, was CGNAT ist und warum es dich am heim-hosti
 
 !!!note
 
-```
-Der erste Hop wird dein Router/Modem/Gateway sein und kann sich zwischen Modellen unterscheiden.
-Die offiziellen Adressblöcke für lokale Netzwerke lauten wie folgt: ``10.0.0.xxx`` - ``192.168.xxx.xxx`` - ```172.16.xxx.xxx``
-```
+    Der erste Hop wird dein Router/Modem/Gateway sein und kann sich zwischen Modellen unterscheiden.
+    Die offiziellen Adressblöcke für lokale Netzwerke lauten wie folgt: ``10.0.0.xxx`` - ``192.168.xxx.xxx`` - ```172.16.xxx.xxx``
 
 ## Methode 2:
 
@@ -33,10 +31,8 @@ Rufe deinen Internet Anbieter an für Hilfe. Abhängig von deinem Anbieter, biet
 
 !!! warning
 
-```
-Internet Anbieter bieten eine dedizierte IP Adresse eventuell nur als **bezahlte Option** an.
-Bitte prüfe die Preise unserer Hosting-Partner, weil diese billiger sein könnten als eine statische IP.
-```
+    Internet Anbieter bieten eine dedizierte IP Adresse eventuell nur als **bezahlte Option** an.
+    Bitte prüfe die Preise unserer Hosting-Partner, weil diese billiger sein könnten als eine statische IP.
 
 Beispiel eines nicht-CGNAT Netzwerks:
 
