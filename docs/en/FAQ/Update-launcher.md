@@ -12,8 +12,9 @@ This quick guide explains how to manually update the Launcher.
 1. Head to the (GitHub Repository of the launcher)[https://github.com/BeamMP/BeamMP-Launcher/releases/latest]
 2. On the bottom in the 'Assets' section, click the blue 'BeamMP-Launcher.exe' to download the executeable.
 3. Head to the BeamMP-Launcher.exe directory. By default, this  folder is placed in 'C:\Users\<username>\AppData\Roaming\' . Replace <username> with the Username you want to play BeamNG/BeamMP with.
-4. If applicable, replace the existing Launcher with the new one in the BeamMP-Launcher folder.
-5. Start the BeamMP-Launcher as usual to see if it works.
+If you have installed BeamMP elsewhere, for example 'D:\BeamMP-Launcher', then place the Launcher in the respective BeamMP-Launcher folder.
+5. If applicable, replace the existing Launcher with the new one in the BeamMP-Launcher folder.
+6. Start the BeamMP-Launcher as usual to see if it works.
 
 ## Still facing issue?
 Create a support ticket on our (Discord Server)[]
