@@ -5,7 +5,7 @@ This quick guide explains how to manually update the Launcher.
 
 !!! note
 
-    You should have already used or installed BeamMP using the installer provided by https://beammp.com before continueing.
+    You should have already used or installed BeamMP using the installer provided by https://beammp.com before continuing.
 
 # Downloading and installing a new Launcher
 
