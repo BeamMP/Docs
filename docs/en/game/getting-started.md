@@ -33,6 +33,7 @@ Make sure you have [`vcpkg` installed](https://learn.microsoft.com/en-us/vcpkg/g
 - Fedora: `sudo dnf install @development-tools`
 - Arch: `sudo pacman -S base-devel`
 - openSUSE: `zypper in -t pattern devel-basis`
+- SteamOS (Arch): `sudo pacman -S base-devel linux-api-headers glibc libconfig` (You also need to do `sudo steamos-readonly disable` but make sure to enable it again after installing the packages)
 
 Clone the BeamMP-Launcher Repository to your system using `git`, for example:
 `git clone https://github.com/BeamMP/BeamMP-Launcher.git`
@@ -42,9 +43,9 @@ Checkout the tag that was used for the [latest release](https://github.com/BeamM
 
 In the root directory of the project,
 
-1. `cmake -DCMAKE_BUILD_TYPE=Release . -B bin -DCMAKE_TOOLCHAIN_FILE=~/vcpkg/scripts/buildsystems/vcpkg.cmake -DVCPKG_TARGET_TRIPLET=x64-linux`
+1. ```cmake -DCMAKE_BUILD_TYPE=Release . -B bin -DCMAKE_TOOLCHAIN_FILE=~/vcpkg/scripts/buildsystems/vcpkg.cmake -DVCPKG_TARGET_TRIPLET=x64-linux```
 
-2. `cmake --build bin --parallel --config Release`
+2. ```cmake --build bin --parallel --config Release```
 
 > Should you run out of RAM while building, you can ommit the --parallel instruction, it will then use less RAM due to building only on one CPU thread.
 
