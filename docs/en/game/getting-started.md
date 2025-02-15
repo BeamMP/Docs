@@ -43,9 +43,13 @@ Checkout the tag that was used for the [latest release](https://github.com/BeamM
 
 In the root directory of the project,
 
-1. ```cmake -DCMAKE_BUILD_TYPE=Release . -B bin -DCMAKE_TOOLCHAIN_FILE=~/vcpkg/scripts/buildsystems/vcpkg.cmake -DVCPKG_TARGET_TRIPLET=x64-linux```
+1. ```cmake
+cmake -DCMAKE_BUILD_TYPE=Release . -B bin -DCMAKE_TOOLCHAIN_FILE=~/vcpkg/scripts/buildsystems/vcpkg.cmake -DVCPKG_TARGET_TRIPLET=x64-linux
+```
 
-2. ```cmake --build bin --parallel --config Release```
+2. ```cmake
+cmake --build bin --parallel --config Release
+```
 
 > Should you run out of RAM while building, you can ommit the --parallel instruction, it will then use less RAM due to building only on one CPU thread.
 
