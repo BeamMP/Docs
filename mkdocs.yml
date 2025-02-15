@@ -112,7 +112,6 @@ plugins:
             Installing BeamMP: Instalación de BeamMP
             Error Codes: Códigos de error
             Customizing your setup: Personaliza tu configuración
-            Using BeamMP: Usando BeamMP
             Running a Server: Ejecutando un Servidor
             Server Installation: Instalación del Servidor
             Server Maintenance: Manutención del Servidor
@@ -156,7 +155,6 @@ plugins:
             Installing BeamMP: BeamMP Installation
             Error Codes: Fehlercodes
             Customizing your setup: Konfiguration anpassen
-            Using BeamMP: BeamMP verwenden
             Running a Server: Server ausführen
             Server Installation: Server Installation
             Server Maintenance: Server Wartung
@@ -200,7 +198,6 @@ plugins:
             Installing BeamMP: Installation de BeamMP
             Error Codes: Codes d'erreur
             Customizing your setup: Personnalisation de votre configuration
-            Using BeamMP: Utilisation de BeamMP
             Running a Server: Exécution d'un serveur
             Server Installation: Installation du serveur
             Server Maintenance: Maintenance du serveur
@@ -244,7 +241,6 @@ plugins:
             Installing BeamMP: Installazione di BeamMP
             Error Codes: Codici di errore
             Customizing your setup: Personalizza la tua configurazione
-            Using BeamMP: Utilizzare BeamMP
             Running a Server: Eseguire un server
             Server Installation: Installazione del server
             Server Maintenance: Manutenzione del server
@@ -288,7 +284,6 @@ plugins:
             Installing BeamMP: Установка BeamMP
             Error Codes: коды ошибок
             Customizing your setup: Настройка конфигурации
-            Using BeamMP: Использование BeamMP
             Running a Server: Запуск сервера
             Server Installation: Установка сервера
             Server Maintenance: Обслуживание сервера
@@ -356,7 +351,6 @@ nav:
       - Installing BeamMP: game/getting-started.md
       - Error Codes: game/error-codes.md
       - Customizing Your Setup: game/tailoring.md
-      - Using BeamMP: game/playing.md
     - Running a Server:
       - Server Installation: server/create-a-server.md
       - Port Forwarding: server/port-forwarding.md
