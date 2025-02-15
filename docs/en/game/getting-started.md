@@ -43,11 +43,13 @@ Checkout the tag that was used for the [latest release](https://github.com/BeamM
 
 In the root directory of the project,
 
-1. ```cmake
+1. 
+```cmake
 cmake -DCMAKE_BUILD_TYPE=Release . -B bin -DCMAKE_TOOLCHAIN_FILE=~/vcpkg/scripts/buildsystems/vcpkg.cmake -DVCPKG_TARGET_TRIPLET=x64-linux
 ```
 
-2. ```cmake
+2. 
+```cmake
 cmake --build bin --parallel --config Release
 ```
 
