@@ -49,6 +49,7 @@ It is therefore recommended to host a Server with one of our partnered Services!
 * [Zap Hosting](https://zap-hosting.com/en/beammp-server-hosting/)
 * [HostHavoc](https://hosthavoc.com/)
 * [PedalHost](https://pedal.host/)
+* [Vyper Hosting](https://vyperhosting.com/)
 
 *NOTE: if you host your server using one of our partners, the Port Forwarding step is not needed.*
 
