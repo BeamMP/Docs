@@ -50,6 +50,7 @@ It is therefore recommended to host a Server with one of our partnered Services!
 * [HostHavoc](https://hosthavoc.com/)
 * [PedalHost](https://pedal.host/)
 * [Vyper Hosting](https://vyperhosting.com/r/beammp)
+* [BisectHosting](https://www.bisecthosting.com/)
 
 *NOTE: if you host your server using one of our partners, the Port Forwarding step is not needed.*
 
