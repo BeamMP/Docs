@@ -1,4 +1,4 @@
-# Why do i need to deactivate my mods?
+# Why do I need to deactivate my mods?
 
 In BeamMP, the Server you decide to connect to, provides the mods.
 They get downloaded and activated automatically upon connecting.
