@@ -1,15 +1,17 @@
 # Getting Started
 
-## **Compatibility**
+## **1. Compatibility**
 
 BeamMP is fully compatible with Windows and Linux, compatibility with MacOS is being worked on.
 However, both Linux and MacOS are secondary platforms, this means bugs are to be expected.
 
-BeamMP might not work with pirated copies of the game.
+!!!warning
 
-## **Installation**
+      BeamMP does not support pirated copies of BeamNG.Drive!
 
-### **Windows Installation**
+## **2. Installation**
+
+### **2a. Windows Installation**
 1. Go to [beammp.com](https://beammp.com/) and click the "Download client" button.
 2. Extract the `BeamMP_Installer.zip` archive.
 3. Launch `BeamMP_Installer.exe` and follow the instructions.
@@ -22,7 +24,7 @@ BeamMP might not work with pirated copies of the game.
 
 Note: _As you are loading into a map with multiple vehicles spawned it might take longer than expected to join._
 
-### **Linux Installation**
+### **2b. Linux Installation**
 
 Currently you need to build the Launcher yourself.
 In order to do this, you need a basic understanding of how to build an application.
@@ -79,7 +81,7 @@ With the symlink in place between the userfolders and the launcher compiled, you
 
 Note that this assumes you put the launcher's binary you compiled earlier into `/home/user/BeamMP/`, so change it to match where you put the finished binary, and you will need to re-compile the launcher with the correct git branch each time a launcher update is released.
 
-#### **Adding an emoji-font to get in-text emojis**
+#### **3. Adding an emoji-font to get in-text emojis**
 
 In order to get emojis to show up in either the serverlist (As part of a servers customised name) or in the ingame chat, you need to have a font that contains emojis.
 
@@ -87,7 +89,7 @@ This can be done for example by adding the [Linux-port of the Windows Segoe-UI e
 
 ---
 
-## **Known Issues**
+## **4. Known Issues**
 - The native linux BeamMP-Launcher currently can only connect to a server once, after disconnecting you need to restart the launcher. You can do that without closing the game inbetween
 - If you don’t see the “Multiplayer” button. Make sure that the BeamMP mod is present and activated in the “Mod Manager” then try pressing CTRL + L.
 - VPNs of any type may cause connection issues.
