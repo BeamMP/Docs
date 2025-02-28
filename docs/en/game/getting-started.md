@@ -22,7 +22,9 @@ However, both Linux and MacOS are secondary platforms, this means bugs are to be
 8. You will be prompted to login or play as a guest (not all servers will allow guests). You can create an account on our [forum](https://forum.beammp.com) and then login to BeamMP with the same credentials.
 9. Select any server you like, and press `Connect`. Enjoy!
 
-Note: _As you are loading into a map with multiple vehicles spawned it might take longer than expected to join._
+!!!note
+
+            As you are loading into a map with multiple vehicles spawned it might take longer than expected to join.
 
 ### **2b. Linux Installation**
 
@@ -55,13 +57,15 @@ cmake -DCMAKE_BUILD_TYPE=Release . -B bin -DCMAKE_TOOLCHAIN_FILE=~/vcpkg/scripts
 cmake --build bin --parallel --config Release
 ```
 
-> Should you run out of RAM while building, you can ommit the --parallel instruction, it will then use less RAM due to building only on one CPU thread.
+!!!note
+
+            Should you run out of RAM while building, you can ommit the --parallel instruction, it will then use less RAM due to building only on one CPU thread.
 
 Move the finished application out of the `/bin` folder into its own folder and run it from there
 
 The native linux BeamMP-Launcher will start and use native linux BeamNG.drive
 
-#### **Using beamNG.drive with Proton**
+#### **2c. Using beamNG.drive with Proton**
 
 Should you want to use the native linux BeamMP-Launcher together with BeamNG.drive running through Proton, you can do so:
 
@@ -81,7 +85,7 @@ With the symlink in place between the userfolders and the launcher compiled, you
 
 Note that this assumes you put the launcher's binary you compiled earlier into `/home/user/BeamMP/`, so change it to match where you put the finished binary, and you will need to re-compile the launcher with the correct git branch each time a launcher update is released.
 
-#### **3. Adding an emoji-font to get in-text emojis**
+#### **2d. Adding an emoji-font to get in-text emojis**
 
 In order to get emojis to show up in either the serverlist (As part of a servers customised name) or in the ingame chat, you need to have a font that contains emojis.
 
@@ -89,7 +93,7 @@ This can be done for example by adding the [Linux-port of the Windows Segoe-UI e
 
 ---
 
-## **4. Known Issues**
+## **3. Known Issues**
 - The native linux BeamMP-Launcher currently can only connect to a server once, after disconnecting you need to restart the launcher. You can do that without closing the game inbetween
 - If you don’t see the “Multiplayer” button. Make sure that the BeamMP mod is present and activated in the “Mod Manager” then try pressing CTRL + L.
 - VPNs of any type may cause connection issues.
