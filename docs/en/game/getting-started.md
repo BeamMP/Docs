@@ -24,7 +24,7 @@ However, both Linux and MacOS are secondary platforms, this means bugs are to be
 
 !!!note
 
-            As you are loading into a map with multiple vehicles spawned it might take longer than expected to join.
+      As you are loading into a map with multiple vehicles spawned it might take longer than expected to join.
 
 ### **2b. Linux Installation**
 
