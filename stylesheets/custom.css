@@ -1,0 +1,13 @@
+@media screen {
+  [data-md-color-scheme=default] .logo-dark {
+    display: none !important;
+  }
+
+  [data-md-color-scheme=slate] .logo-light {
+    display: none !important;
+  }
+}
+
+a.md-header__button.md-logo > img {
+  height: 50px;
+}
