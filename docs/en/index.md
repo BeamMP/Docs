@@ -25,6 +25,6 @@ Thinking about creating your own BeamMP server? Our comprehensive guide [here](.
 
 ## For Developers
 
-Are you a modding enthusiast? Dive into the world of mod development for BeamNG.drive with our [Modding Guide](../guides/mod-creation/client/getting-started.md). Learn the fundamentals of Lua mod creation and explore how to make your mods multiplayer compatible for an even more immersive experience. Additionally, discover the ins and outs of creating resources for the BeamMP Server in our [Resource Development Guide](../guides/mod-creation/server/getting-started.md).
+Discover the ins and outs of creating resources for the BeamMP Server in our [Resource Development Guide](../guides/mod-creation/server/getting-started.md).
 
 Exciting updates are on the horizon, including a brand-new homepage designed to enhance your browsing experience. Stay tuned for more! :slight_smile:
