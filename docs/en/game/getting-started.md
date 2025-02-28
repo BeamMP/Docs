@@ -59,7 +59,7 @@ cmake --build bin --parallel --config Release
 
 !!!note
 
-            Should you run out of RAM while building, you can ommit the --parallel instruction, it will then use less RAM due to building only on one CPU thread.
+      Should you run out of RAM while building, you can ommit the --parallel instruction, it will then use less RAM due to building only on one CPU thread.
 
 Move the finished application out of the `/bin` folder into its own folder and run it from there
 
