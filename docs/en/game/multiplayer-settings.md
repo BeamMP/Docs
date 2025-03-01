@@ -211,3 +211,41 @@
     If disabled, nametag and role tags will be shown at full length
 
 ??? setting "Show spectators' nametag under vehicle nametags"
+
+    If enabled, a spectators name will be added underneath a players nametag
+
+    If disabled, no spectator names will be added to nametags
+
+??? setting "Same color for spectator nametags"
+
+    If enabled, a spectators name will always be surrounded by a grey background
+
+    If disabled, a spectators name will be surrounded by a colored background, reflecting the spectators role
+
+## **6. Others**
+
+??? setting "Show network activity in the console"
+
+    If enabled, the beamMP network activity will be shown in the console
+
+    If disabled, no further network activity will be shown in the console
+
+    !!! danger ""
+
+        Be careful with this setting, since all the console output gets also written into the log files
+        
+        They can grow by hundrets of MB in minutes with this setting enabled
+
+??? setting "Launcher port"
+
+    This setpoint defines the port used for communicating with the launcher
+
+    Should only be changed if the standard port 4444 can not be used
+
+    Dont forget to also change it on the launcher side, by modifying `launcher.cfg`
+
+    !!! tip ""
+
+        The port specified is only the first of two, the second port being used is directly following, set port + 1
+
+        The first port carries core network pakets, the second game network pakets, both over TCP

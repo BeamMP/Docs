@@ -17,7 +17,7 @@ a.md-header__button.md-logo > img {
 }
 .md-typeset .admonition.setting,
 .md-typeset details.setting {
-  border-color: rgb(255, 102, 0);
+  border-color: rgba(255, 102, 0, 0.2);
 }
 .md-typeset .setting > .admonition-title,
 .md-typeset .setting > summary {
@@ -25,7 +25,7 @@ a.md-header__button.md-logo > img {
 }
 .md-typeset .setting > .admonition-title::before,
 .md-typeset .setting > summary::before {
-  background-color: rgb(255, 102, 0);
+  background-color: rgba(255, 102, 0, 0.7);
   -webkit-mask-image: var(--md-admonition-icon--setting);
           mask-image: var(--md-admonition-icon--setting);
 }
