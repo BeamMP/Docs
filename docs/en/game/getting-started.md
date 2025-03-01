@@ -87,7 +87,7 @@ Note that this assumes you put the launcher's binary you compiled earlier into `
 
 !!! tip "Adding an emoji-font to get in-text emojis"
 
-In order to get emojis to show up in either the serverlist (As part of a servers customised name) or in the ingame chat, you need to have a font that contains emojis.
+    In order to get emojis to show up in either the serverlist (As part of a servers customised name) or in the ingame chat, you need to have a font that contains emojis.
 
 This can be done for example by adding the [Linux-port of the Windows Segoe-UI emoji font](https://github.com/mrbvrz/segoe-ui-linux)
 
