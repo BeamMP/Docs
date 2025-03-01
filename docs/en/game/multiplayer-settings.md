@@ -192,11 +192,15 @@
 
     !!! setting "Fade out"
 
-        `Fade distance` defines the distance at which a nametag will be drawn at minimal opacity. The opacity level is gradually increased, getting more visible, as it gets closer
+        Nametags are getting less visible the further away a player is
+
+        `Fade distance` defines the distance at which a nametag will be drawn at minimal opacity
 
     !!! setting "Fade in"
 
-        `Fade distance` defines the distance at which a nametag will be drawn at maximal opacity. The opacity level is gradually decreased, getting less visible, as it gets closer
+        Nametags are getting more visible the further away a player is
+
+        `Fade distance` defines the distance at which a nametag will be drawn at maximal opacity
 
 ??? setting "Don't fully hide nametags"
 
