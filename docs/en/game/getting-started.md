@@ -65,7 +65,7 @@ Move the finished application out of the `/bin` folder into its own folder and r
 
 The native linux BeamMP-Launcher will start and use native linux BeamNG.drive
 
-#### **2c. Using beamNG.drive with Proton**
+### **2c. Using beamNG.drive with Proton**
 
 Should you want to use the native linux BeamMP-Launcher together with BeamNG.drive running through Proton, you can do so:
 
