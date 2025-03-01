@@ -190,13 +190,13 @@
 
 ??? setting "Fade distance/Invert nametag fade direction"
 
-    ??? setting "Fade out"
+    !!! setting "Fade out"
 
-        `Fade distance` defines the distance at which a nametag will be drawn at minimal opacity. The opacity level is gradually increased over that distance, getting more visible the closer a vehicle gets
+        `Fade distance` defines the distance at which a nametag will be drawn at minimal opacity. The opacity level is gradually increased, getting more visible, as it gets closer
 
-    ??? setting "Fade in"
+    !!! setting "Fade in"
 
-        `Fade distance` defines the distance at which a nametag will be drawn at maximal opacity. The opacity level is gradually decreased over that distance, getting less visible the closer a vehicle gets
+        `Fade distance` defines the distance at which a nametag will be drawn at maximal opacity. The opacity level is gradually decreased, getting less visible, as it gets closer
 
 ??? setting "Don't fully hide nametags"
 
