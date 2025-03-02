@@ -238,7 +238,7 @@
 
         Be careful with this setting, since all the console output gets also written into the log files
         
-        They can grow by hundrets of MB in minutes with this setting enabled
+        They can grow by hundreds of MB in minutes with this setting enabled
 
 ??? setting "Launcher port"
 
