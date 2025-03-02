@@ -50,7 +50,7 @@
 
     If enabled, the mod security popup will not be shown when trying to connect to a server with mods
 
-    If disabled, the mod security popup will be shown when trying to connect to a server with mods the first time
+    If disabled, the mod security popup will be shown whenever you connect to a server with mods
 
 ??? setting "Enable player vehicle update/edit queuing"
 
@@ -108,7 +108,7 @@
 
 ??? setting "Automatically apply queued vehicle changes"
 
-    If enabled, the queued events will be automatically loaded once `Queue apply speed treshold` was not surpassed for `Queue apply timeout`
+    If enabled, the queued events will be automatically loaded once you've been going under the speed treshold for the amount of time set as the timeout
 
     If disabled, the queued events will only load manually, by clicking on either the `Events` button at the top of the screen or on a players name in the playerlist
 
