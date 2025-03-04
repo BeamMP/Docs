@@ -357,8 +357,7 @@ nav:
       - Server Maintenance: server/server-maintenance.md
       - Error Codes: server/error-codes.md
       - Server Manual: server/manual.md
-    - Mod & Resource Creation:  
-      - Client Side: guides/mod-creation/client/getting-started.md
+    - Mod & Resource Creation:
       - Server Side: guides/mod-creation/server/getting-started.md
   - FAQ:
     - How to check for CGNAT?: FAQ/How-to-check-for-CGNAT.md
@@ -372,7 +371,6 @@ nav:
     - guides/index.md
     - Development Environment Setup: guides/beammp-dev/beammp-dev.md
     - Mod Creation:  
-      - Client Mods: guides/mod-creation/client/getting-started.md
       - Client Scripting Reference: scripting/mod-reference.md
     - Resource Creation:  
       - Server Resources: guides/mod-creation/server/getting-started.md

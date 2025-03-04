@@ -24,6 +24,6 @@ Stai pensando di creare il tuo server BeamMP? La nostra guida completa [qui](../
 
 ## Per gli Sviluppatori
 
-Sei un appassionato di modding? Tuffati nel mondo dello sviluppo mod per BeamNG.drive con la nostra [Guida al Modding](../guides/mod-creation/client/getting-started.md). Impara i fondamenti della creazione di mod Lua e scopri come renderli compatibili con il multiplayer per un'esperienza ancora più coinvolgente. Inoltre, esplora tutti i dettagli sulla creazione di risorse per il server BeamMP nella nostra [Guida allo Sviluppo delle Risorse](../guides/mod-creation/server/getting-started.md).
+Esplora tutti i dettagli sulla creazione di risorse per il server BeamMP nella nostra [Guida allo Sviluppo delle Risorse](../guides/mod-creation/server/getting-started.md).
 
 Stiamo lavorando a entusiasmanti aggiornamenti, tra cui una nuova homepage progettata per migliorare la tua esperienza di navigazione. Resta sintonizzato per ulteriori novità! :slight_smile:

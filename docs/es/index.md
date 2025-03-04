@@ -27,6 +27,6 @@ Esto puede ser hecho en cualquier página.
 
 ## Para Desarrolladores
 
-¿Eres un entusiasta del modding? Sumérgete en el mundo del desarrollo de mods para BeamNG.drive con nuestra [Guía de Modding](../guides/mod-creation/client/getting-started.md). Aprende los fundamentos de la creación de Mods con Lua y explora cómo hacer tus mods compatibles con el modo Multijugador para una experiencia todavía más inmersiva. Adicionalmente, descubre los entresijos de la creación de recursos para los Servidores de BeamMP en nuestra [Guía de Desarrollo de Recursos](../guides/mod-creation/server/getting-started.md).
+Descubre los entresijos de la creación de recursos para los Servidores de BeamMP en nuestra [Guía de Desarrollo de Recursos](../guides/mod-creation/server/getting-started.md).
 
 Emocionantes actualizaciones están en camino, incluyendo una nueva página de inicio diseñada para mejorar tu experiencia de navegación. ¡Mantente al tanto para más novedades! :slight_smile:
