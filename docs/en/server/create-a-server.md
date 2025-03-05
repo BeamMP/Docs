@@ -233,13 +233,17 @@ That's it! Your modded map should now be available to join!
 
 How you and other players can join your server.
 
-#### 6.a. Joining your own server
+#### 6.a. Joining your own server (both private and public)
 
-If the server is hosted at home, you must join your server by direct connecting, to do this, click the **Direct Connect Tab** on the left from the server list. Leave the default info in there (should be 127.0.0.1 and corresponding port) then hit connect. If you server is hosted outside of your house (e.g. VPS) you must find its [public IP](https://whatismyipaddress.com/) on that machine and direct connect that way.
+If your server is hosted on the same PC as the game runs on, you must join your server by direct connecting, to do this, click the **Direct Connect Tab** on the left from the server list. Leave the default info in there (should be 127.0.0.1 and corresponding port) then hit connect.
+
+If your server is hosted on another PC in your local network, you must find the local IP of that machine and direct connect using this local IP.
+
+If your server is hosted outside of your house (e.g. VPS) you must find the [public IP](https://whatismyipaddress.com/) of that machine and direct connect that way.
 
 #### 6.b. Other people joining your private server
 
-Start the Server. You have to give other users the public IP Address of your Server. However, be careful sharing your public home Address! To join your private server the players must go to the **Direct Connect Tab** in BeamMP, then type your IP and Port.
+You have to give other users the public IP Address of your Server. However, be careful sharing your public IP address with strangers! To join your private server the players must go to the **Direct Connect Tab** in BeamMP, then type your IP and Port.
 
 #### 6.c. Other people joining your public server
 
