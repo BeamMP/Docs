@@ -49,17 +49,21 @@ In the root directory of the project,
 
 1. 
 ```cmake
-cmake -DCMAKE_BUILD_TYPE=Release . -B bin -DCMAKE_TOOLCHAIN_FILE=~/vcpkg/scripts/buildsystems/vcpkg.cmake -DVCPKG_TARGET_TRIPLET=x64-linux
+cmake . -B bin -DCMAKE_TOOLCHAIN_FILE=~/vcpkg/scripts/buildsystems/vcpkg.cmake -DVCPKG_TARGET_TRIPLET=x64-linux
 ```
 
 2. 
 ```cmake
-cmake --build bin --parallel --config Release
+cmake --build bin --parallel
 ```
 
-!!!note
+!!!note ""
 
       Should you run out of RAM while building, you can ommit the --parallel instruction, it will then use less RAM due to building only on one CPU thread.
+
+!!!note ""
+
+      By not specifying `-DCMAKE_BUILD_TYPE=Release` you are building a debug version, which is larger in filesize but does not cpntain the launcher-can-only-connect-to-a-server-once bug
 
 Move the finished application out of the `/bin` folder into its own folder and run it from there
 
