@@ -63,7 +63,7 @@ cmake --build bin --parallel
 
 !!!note ""
 
-      By not specifying `-DCMAKE_BUILD_TYPE=Release` you are building a debug version, which is larger in filesize but does not cpntain the launcher-can-only-connect-to-a-server-once bug
+      By not specifying `-DCMAKE_BUILD_TYPE=Release` you are building a debug version, which is larger in filesize but does not contain the launcher-can-only-connect-to-a-server-once bug
 
 Move the finished application out of the `/bin` folder into its own folder and run it from there
 
