@@ -9,6 +9,10 @@ hide:
 
 ## Our social media links
 
+!!!failure ""
+
+    BeamMP Forum - [https://forum.beammp.com](https://forum.beammp.com)
+
 !!!quote ""
 
     X (Twitter) - [https://x.com/BeamMPOfficial](https://x.com/BeamMPOfficial)
