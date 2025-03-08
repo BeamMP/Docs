@@ -4,8 +4,11 @@ hide:
 ---
 
 # Welcome to BeamMP Community Area!
-![BeamMP Multicolor-White](BeamMP-Multi-WhtLtr-512x512.png#only-dark){ width="300" }
-![BeamMP Multicolor-Black](BeamMP-Multi-BlkLtr-512x512.png#only-light){ width="300" }
+![BeamMP Multicolor-White](../../assets/content/BeamMP-Multi-WhtLtr-crop.png#only-dark){width="450"}
+![BeamMP Multicolor-Black](../../assets/content/BeamMP-Multi-BlkLtr-crop.png#only-light){width="450"}
+
+## Our social media links
+
 !!!quote ""
 
     X (Twitter) - [https://x.com/BeamMPOfficial](https://x.com/BeamMPOfficial)
