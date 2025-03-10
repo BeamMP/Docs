@@ -5,7 +5,7 @@ Having local mods installed and active often leads to BeamMP not functioning pro
 
 !!! warning
 
-    Remove any mods you have placed in the BeamNG.Drive\content\vehicles folder. That location is NOT meant for the use of mods and can lead to issues as stated in the Text file, located in the same location.
+    Remove any mods you have placed in the BeamNG.Drive\content\vehicles folder. That location is NOT meant for the installing mods and can lead to issues as stated in the `DO_NOT_INSTALL_MODS_HERE.txt` file, located in the same directory.
 
     !!! quote "DO_NOT_INSTALL_MODS_HERE.txt"
     
