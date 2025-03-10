@@ -17,7 +17,7 @@ Having local mods installed and active often leads to BeamMP not functioning pro
 There are 3 options to resolve possible issues when using BeamMP.
 
 ### 1. Deactivate mods 
-Before joining any Server, make sure you have no mods besides 'multiplayerbeammp' enabled.
+Before joining any server, make sure you have no mods besides 'multiplayerbeammp' enabled.
 If the game freezes or you still have issues, refer to the next option
 
 ### 2. Creating a new Userfolder
