@@ -22,7 +22,7 @@ If the game freezes or you still have issues, refer to the next option
 
 ### 2. Creating a new Userfolder
 Open the BeamNG.Drive userfolder and rename the folder of the latest version (e.g. 0.34) to for example 0.xx_OLD (0.34_OLD). Close BeamNG.drive before renaming it.
-![image](https://github.com/user-attachments/assets/377166df-6796-4eb1-bbec-3cfcfd95cd03)
+![image](../../assets/content/new-userfolder.png)
 
 ### 3. Removing mods from the content folders.
 To access the Beamng.drive\content\ folder and clean the folder of any mods, open the installation location of BeamNG.drive.
