@@ -33,7 +33,7 @@ The setup consists of the following steps, you should follow all of them.
 
             **Port forwarding is a risk**.
 
-            By Port forwarding you understand the risks of opening up ports on your home network to the public and therefore void the right to hold BeamMP accountable for **any and all** damages that may happen to you or your household.
+        By port forwarding, you understand the risks of opening up ports on your home network to the public and therefore void the right to hold BeamMP accountable for **any and all** damages that may happen to you or your household.
 
             We take no responsibility for any content on any externally linked services or websites.
 
