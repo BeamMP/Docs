@@ -31,7 +31,7 @@ The setup consists of the following steps, you should follow all of them.
 
     !!! danger ":material-scale-balance: DISCLAIMER:"
 
-            **Port forwarding is a risk**.
+        **Port forwarding is a risk**.
 
         By port forwarding, you understand the risks of opening up ports on your home network to the public and therefore void the right to hold BeamMP accountable for **any and all** damages that may happen to you or your household.
 
