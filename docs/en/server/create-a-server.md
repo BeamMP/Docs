@@ -37,7 +37,7 @@ The setup consists of the following steps, you should follow all of them.
 
             We take no responsibility for any content on any externally linked services or websites.
 
-      It is therefore recommended to host a Server with one of our partnered Services!
+    It is therefore recommended to host a server with one of our partnered services!
 
       Please see [this guide on how to port forward](port-forwarding.md)
 
