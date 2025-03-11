@@ -26,10 +26,10 @@ The setup consists of the following steps, you should follow all of them.
 
 !!! info
 
-      If you are on a VPS (Virtual Private Server), Rootserver or plan on hosting this server locally (with players in the same house as you), you can skip this step.
-      This step is necessary if you want someone **outside** of your household to join your home-hosted server (outside of your local network).
-      
-      !!! danger ":material-scale-balance: DISCLAIMER:"
+    If you are on a VPS (Virtual Private Server), Rootserver, or plan on hosting this server locally (with players in the same house as you), you can skip this step.
+    This step is necessary if you want someone **outside** of your household to join your home-hosted server (outside of your local network).
+
+    !!! danger ":material-scale-balance: DISCLAIMER:"
 
             **Port forwarding is a risk**.
 
