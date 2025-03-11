@@ -39,7 +39,7 @@ The setup consists of the following steps, you should follow all of them.
 
     It is therefore recommended to host a server with one of our partnered services!
 
-    Please see [this guide on how to port forward](port-forwarding.md)
+    *Please see [this guide on how to port forward](port-forwarding.md)*
 
 #### Partnered Hosting Services (paid):
 
