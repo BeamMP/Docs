@@ -24,22 +24,24 @@ The setup consists of the following steps, you should follow all of them.
 
 ### 1. Port forwarding
 
-_If you are on a VPS (Virtual Private Server), Rootserver or plan on hosting this server locally (with players in the same house as you), you can skip this step. If you're unsure about what a VPS or Rootserver is, you most likely aren't on one._
+!!! info
 
-This step is necessary if you want someone **outside** of your household to join your home-hosted server (outside of your local network).
+    If you are on a VPS (Virtual Private Server), Rootserver, or plan on hosting this server locally (with players in the same house as you), you can skip this step.
+    This step is necessary if you want someone **outside** of your household to join your home-hosted server (outside of your local network).
 
-####
-!!! danger ":material-scale-balance: DISCLAIMER:"
+    !!! danger ":material-scale-balance: DISCLAIMER:"
 
-    **Port forwarding is a risk**.
+        **Port forwarding is a risk**.
 
-    By Port forwarding you understand the risks of opening up ports on your home network to the public and therefore void the right to hold BeamMP accountable for **any and all** damages that may happen to you or your household.
+        By port forwarding, you understand the risks of opening up ports on your home network to the public and therefore void the right to hold BeamMP accountable for **any and all** damages that may happen to you or your household.
 
-    We take no responsibility for any content on any externally linked services or websites.
+        We take no responsibility for any content on any externally linked services or websites.
 
-It is therefore recommended to host a Server with one of our partnered Services!
+    It is therefore recommended to host a server with one of our partnered services!
 
-#### Paid Services:
+    *Please see [this guide on how to port forward](port-forwarding.md)*
+
+#### Partnered Hosting Services (paid):
 
 * [Horizon Hosting](https://hrzn.link/beammp)
 * [Snakecraft Hosting](https://schost.us/beammp-plans)
@@ -52,9 +54,6 @@ It is therefore recommended to host a Server with one of our partnered Services!
 * [Vyper Hosting](https://vyperhosting.com/r/beammp)
 * [BisectHosting](https://www.bisecthosting.com/)
 
-*NOTE: if you host your server using one of our partners, the Port Forwarding step is not needed.*
-
-Please see [this guide on how to port forward](port-forwarding.md)
 
 #### 1.1 Firewall
 
