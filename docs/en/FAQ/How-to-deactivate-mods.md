@@ -1,4 +1,4 @@
-# Why do I need to deactivate my mods?
+## Why do I need to deactivate my mods?
 
 In BeamMP, the Server you decide to connect to, provides the necessary mods. These get downloaded and activated automatically upon connecting.
 Having local mods installed and active often leads to BeamMP not functioning properly, even if you have just one additional mod besides BeamMP.
@@ -24,9 +24,9 @@ If the game freezes or you still have issues, refer to the next option
 Open the BeamNG.Drive userfolder and rename the folder of the latest version (e.g. 0.34) to for example 0.xx_OLD (0.34_OLD). Close BeamNG.drive before renaming it.
 ![image](https://github.com/user-attachments/assets/377166df-6796-4eb1-bbec-3cfcfd95cd03)
 
-### 3. Removing mods from the vehicles folder.
-To access the content\vehicles folder and clean the folder of any mods, open the installation location of BeamNG.drive.
-Click into the content folder. There, you delete the "vehicles" folder and proceed to verify the game files via Steam or Epic Games. This is going to download the vanilla vehicles again.
+### 3. Removing mods from the content folders.
+To access the Beamng.drive\content\ folder and clean the folder of any mods, open the installation location of BeamNG.drive.
+Right click the `content` folder and delete it. Proceed to verify the game files via Steam or Epic Games. This is going to download the files again.
 
 After you are done, start BeamNG.Drive via the BeamMP-Launcher and you should have 'multiplayerbeammp' as your only enabled mod available in the repository as well as the button on the Main Menu to enter BeamMP.
 If you still have issues joining modded server, they likely provide broken/outdated mods.
