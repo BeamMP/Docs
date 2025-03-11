@@ -26,7 +26,7 @@ Open the BeamNG.Drive userfolder and rename the folder of the latest version (e.
 
 ### 3. Removing mods from the content folders.
 To access the Beamng.drive\content\ folder and clean the folder of any mods, open the installation location of BeamNG.drive.
-Right click the "content" folder and delete it. Proceed to verify the game files via Steam or Epic Games. This is going to download the files again.
+Right click the `content` folder and delete it. Proceed to verify the game files via Steam or Epic Games. This is going to download the files again.
 
 After you are done, start BeamNG.Drive via the BeamMP-Launcher and you should have 'multiplayerbeammp' as your only enabled mod available in the repository as well as the button on the Main Menu to enter BeamMP.
 If you still have issues joining modded server, they likely provide broken/outdated mods.
