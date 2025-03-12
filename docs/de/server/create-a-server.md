@@ -251,7 +251,7 @@ Sollten du oder deine Freunde einen ,,Verbindung Fehlgeschlagen!" Fehler bekomme
 !!! warning "Ich möchte einen VPN wie RadminVPN, Hamachi oder ähnlich verwenden"
 
 ```
-BeamMP unterstützt diese VPNs nicht, weil diese oft Probleme verursachen. Eines davon ist das blockieren von UDP Verkehr. Um dies zu beheben, siehe Sektion 1.
+    BeamMP unterstützt diese VPNs nicht, weil diese oft Probleme verursachen. Eines davon ist das blockieren von UDP Verkehr. Um dies zu beheben, siehe Sektion 1.
         
 !!! question "Aber warum hat es vorher funktioniert?"
 
