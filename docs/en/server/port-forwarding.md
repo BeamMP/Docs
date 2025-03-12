@@ -41,7 +41,7 @@ There are 4 major steps in this guide.
 
     ---
 
-    This can normally be done by finding the 'Default Gateway' IP, which can be found when executing `ipconfig` in a command prompt and enter it in a web browsers address bar.
+    This can normally be done by finding the 'Default Gateway' IP, which can be found when executing `ipconfig` in a command prompt and entering it in a web browsers address bar.
 
 -   :material-lan-connect:{ .lg .middle } __Forward ports to your computer__
 
