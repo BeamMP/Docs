@@ -255,7 +255,7 @@ Sollten du oder deine Freunde einen ,,Verbindung Fehlgeschlagen!" Fehler bekomme
         
     !!! question "Aber warum hat es vorher funktioniert?"
 
-    Das passiert, weil die Entwickler dieser Applikationen updaten und Änderungen implementiere, über welche BeamMP keine Kontroll hat.
+        Das passiert, weil die Entwickler dieser Applikationen updaten und Änderungen implementiere, über welche BeamMP keine Kontroll hat.
     Es liegt an den Entwicklern diesen Applikationen, um Support für spezifische Fälle wie eines BeamMP-Servers zu unterstützen.
 
 ## Immer noch Probleme?
