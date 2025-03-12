@@ -27,7 +27,6 @@ Das Aufsetzen besteht aus folgenden Schritten. Du solltest alle davon durchgehen
 ### 1. Port Weiterleitung
 
 !!! info
-
 Wenn du auf einem VPS (Virtual Private Server), Rotoserver bist, oder planst einen Server lokal zu hosten (mit Spielern im selben Haus wie du), kannst du diesen Schritt überspringen.
 Dieser Schritt ist jedoch notwendig, wenn Spieler **außerhalb** deines Haushaltes deinem heim-gehosteten Server beitreten sollen (außerhalb von deinem lokalen Netzwerk)
 
