@@ -26,23 +26,26 @@ Das Aufsetzen besteht aus folgenden Schritten. Du solltest alle davon durchgehen
 
 ### 1. Port Weiterleitung
 
-*Wenn du auf einem VPS (Virtual Private Server) oder Rootserver bist, beziehungsweise planst den Server lokal zu hosten (mit Spielern im selben Haus wie du), kannst du diesen Schritt überspringen. Wenn du dir nicht sicher bist, was ein VPS oder Rootserver ist, bist du wahrscheinlich nicht auf einem.*
+!!! info
 
-Dieser Schritt ist nötig, wenn du möchtest, dass andere **außerhalb[/strong0} deines Haushalts deinem daheim-gehosteten Server beitreten können (außerhalb deines lokalen Netzwerks)**
+```
+Wenn du auf einem VPS (Virtual Private Server), Rotoserver bist, oder planst einen Server lokal zu hosten (mit Spielern im selben Haus wie du), kannst du diesen Schritt überspringen.
+Dieser Schritt ist jedoch notwendig, wenn Spieler **außerhalb** deines Haushaltes deinem heim-gehosteten Server beitreten sollen (außerhalb von deinem lokalen Netzwerk)
 
-####
+!!! danger ":material-scale-balance: ACHTUNG:"
 
-!!! danger ":material-scale-balance: WARNUNG:"
+    **Port forwarding ist ein Risiko**.
 
-    **Das weiterleiten von Ports ist ein Risiko**.
+    Wenn du Ports weiterleitest, sind dir die Risiken beim öffnen von Ports von deinem Heimnetz ins öffentliche Netz bewusst und verlierst das Recht, BeamMP für **jegliche Schäden**, welche deinem Haushalt passieren könnten, Haften zu lassen.
 
-    Durch das weiterleiten von Ports akzeptierst du das Risiko beim öffnen von Ports auf einem lokalen Netzwerk in das öffentliche Netzwerk. Dadurch kannst du BeamMP für **jegliche und alle** Schäden die an dir oder deinem Haushalt passieren können, nicht verantwortlich machen.
-    
-    Wir sind nicht verantwortlich für jegliches verlinktes Material auf externen Seiten oder Services.
+    Wir übernehmen keine Haftung für jegliche extern gelinkten Dienste oder Webseiten.
 
-Es ist zu empfehlen, einen Server mit einem unserer Partner-Services zu hosten!
+Es  ist somit zu empfehlen, einen Server mit einem unserer Partner zu hosten!
 
-#### Kostenpflichtige Dienste:
+*Siehe [Anleitung zur Port Weiterleitung](port-forwarding.md)*
+```
+
+#### Partner Hosting Services (bezahlt):
 
 - [Horizon Hosting](https://hrzn.link/beammp)
 - [Snakecraft Hosting](https://schost.us/beammp-plans)
@@ -52,10 +55,8 @@ Es ist zu empfehlen, einen Server mit einem unserer Partner-Services zu hosten!
 - [Zap Hosting](https://zap-hosting.com/en/beammp-server-hosting/)
 - [HostHavoc](https://hosthavoc.com/)
 - [PedalHost](https://pedal.host/)
-
-*Achtung: Wenn du einen Server mit unseren Partnern hostest, kannst du den ,,Port Weiterleitung" Schritt überspringen.*
-
-Schau dir [diese Anleitung zum Port Weiterleiten](port-forwarding.md) an.
+- [Vyper Hosting](https://vyperhosting.com/r/beammp)
+- [BisectHosting](https://www.bisecthosting.com/)
 
 #### 1.1 Firewall
 
@@ -191,7 +192,9 @@ Wenn du einen anderen **Port** als **30814** ausgewählt hast, achte darauf, ihn
 
 !!! info
 
-    Dein Server wird **NICHT** in der Serverliste aufscheinen, solange `Private = true` ist. _Wenn_ du ihn gelistet haben willst, stell den Parameter auf **`Private = false`**.
+```
+Dein Server wird **NICHT** in der Serverliste aufscheinen, solange `Private = true` ist. _Wenn_ du ihn gelistet haben willst, stell den Parameter auf **`Private = false`**.
+```
 
 ### 5. Validierung
 
@@ -229,13 +232,17 @@ Das wärs! Die modifizierte Karte sollte jetzt geladen werden!
 
 Wie du und andere Spieler deinem Server beitreten können.
 
-#### 6.a. Deinem eigenen Server beitreten
+#### 6.a. Deinem eigenen Server beitreten (öffentlich &amp; privat)
 
-Wenn der Server zuhause gehosted wird, musst du per direkter Verbindung beitreten. Um das zu tun, klicke **Direkte Verbindnug** zur Linken von der Serverliste. Lasse die Standard IP stehen (sollte 127.0.0.1 und der korrespondierende Port sein) dann klicke ,,Verbinden". Wenn dein Server außer Haus gehsoted wird (z.B. VPS), musst du dessen[öffentliche IP](https://whatismyipaddress.com/) der Maschine herausfinden und zu dieser eine Direkte Verbindung herstellen.
+Wenn der Server auf demselben PC, auf dem du spielst, gehostet wird, solltest du mittels direkter Verbindung beitreten. Um das zu tun, klick **Direkte Verbindung** auf der linken Seite der Serverliste. Belasse die Standarddaten (sollte 127.0.0.1 und der dazugehörige Port sein) danach klicke Verbinden.
+
+Wenn der Server auf einem anderen PC in deinem lokalen Netzwerk gehostet wird, solltest du die lokale IP von dieser Maschine herausfinden und diese zum direkt verbinden verwenden.
+
+Wenn der Server außerhalb deines Haushaltes gehostet wird (z.B. VPS), musst du die [öffentliche IP](https://whatismyipaddress.com/) von dieser Maschine herausfinden und mit dich mit dieser direkt verbinden.
 
 #### 6.b. Andere Spieler die deinem Server beitreten
 
-Starte den Server. Nun musst du die öffentliche IP des Servers anderen Spielern geben. Sei jedoch vorsichtig beim teilen deiner hauseigenen IP Adresse! Um deinem privaten Server beizutreten, müssen Spieler die **Direkte Verbindung** in BeamMP aufrufen, dann die IP und den Port des Servers eingeben.
+Du musst anderen Spielern die öffentliche IP Adresse des Servers geben. Sei jedoch vorsichtig beim teilen deiner IP mit unbekannten! Um deinem privaten Server beizutreten, müssen Spieler das **Direkt Verbindung** Menü aufrufen und die Server IP sowie dessen Port eingeben.
 
 #### 6.c. Andere Spieler treten deinem öffentlichen Server bei
 
@@ -245,12 +252,14 @@ Sollten du oder deine Freunde einen ,,Verbindung Fehlgeschlagen!" Fehler bekomme
 
 !!! warning "Ich möchte einen VPN wie RadminVPN, Hamachi oder ähnlich verwenden"
 
-    BeamMP unterstützt diese VPNs nicht, weil diese oft Probleme verursachen. Eines davon ist das blockieren von UDP Verkehr. Um dies zu beheben, siehe Sektion 1.
-            
-    !!! question "Aber warum hat es vorher funktioniert?"
+```
+BeamMP unterstützt diese VPNs nicht, weil diese oft Probleme verursachen. Eines davon ist das blockieren von UDP Verkehr. Um dies zu beheben, siehe Sektion 1.
+        
+!!! question "Aber warum hat es vorher funktioniert?"
 
-        Das passiert, weil die Entwickler dieser Applikationen updaten und Änderungen implementiere, über welche BeamMP keine Kontroll hat.
-        Es liegt an den Entwicklern diesen Applikationen, um Support für spezifische Fälle wie eines BeamMP-Servers zu unterstützen.
+    Das passiert, weil die Entwickler dieser Applikationen updaten und Änderungen implementiere, über welche BeamMP keine Kontroll hat.
+    Es liegt an den Entwicklern diesen Applikationen, um Support für spezifische Fälle wie eines BeamMP-Servers zu unterstützen.
+```
 
 ## Immer noch Probleme?
 
