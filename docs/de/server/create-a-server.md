@@ -41,7 +41,6 @@ Das Aufsetzen besteht aus folgenden Schritten. Du solltest alle davon durchgehen
 Es  ist somit zu empfehlen, einen Server mit einem unserer Partner zu hosten!
 
 *Siehe [Anleitung zur Port Weiterleitung](port-forwarding.md)*
-```
 
 #### Partner Hosting Services (bezahlt):
 
