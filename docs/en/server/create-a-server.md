@@ -22,7 +22,7 @@ Note: _The server only supports IPv4\. If you don't know which one you have, loo
 
 The setup consists of the following steps, you should follow all of them.
 
-### 1. Port forwarding
+### **1. Port forwarding**
 
 !!! info
 
@@ -57,15 +57,21 @@ The setup consists of the following steps, you should follow all of them.
 
 #### 1.1 Firewall
 
-Depending on your setup, you may need to let BeamMP-Server through your firewall. This is the case on Windows (turning the firewall off does **not** work usually), and on a lot of preinstalled Linux servers. 
+Depending on your setup, you may need to let BeamMP-Server through your firewall. This is the case on Windows (turning the firewall off usually does **not** work), and on a lot of preinstalled Linux servers. 
 
-There, just like with the port forwarding, you want to allow the BeamMP-Server through the firewall, **both incoming and outgoing connections**, and **both TCP and UDP**. If your firewall asks for a port instead, that will have to be the same port you used in step “1\. Port Forwarding” (usually 30814).
+There you want to allow the BeamMP-Server through the firewall, **both incoming and outgoing connections**, and **both TCP and UDP**. If your firewall asks for a port instead, that will have to be the same port you used in step “1\. Port Forwarding” (usually 30814).
 
 If you have issues, also feel free to ask on our [Forum](https://forum.beammp.com) or on our [Discord server](https://discord.gg/beammp) in the `#support` channel.
 
-### 2. Obtaining an Authentication Key
+### **2. Obtaining an Authentication Key**
 
-The “Authentication Key”, often called “AuthKey”, is necessary for making a **public** server, but **should** be done for private servers, too.
+The “Authentication Key”, often called “AuthKey”, is necessary for making a **public** server accessible by the serverlist. Though it is recommended to add the authkey to private servers as well.
+You have a limited number of keys. One key can be used on one server at a time, so you cannot start two servers at the same time with the same key.
+More keys can be obtained by supporting the project. Read [this article](https://docs.beammp.com/support/player-faq/) for more information.
+
+!!! warning
+
+        DO NOT EVER SHARE THIS KEY OR SHOW IT TO ANYONE. TREAT THIS LIKE A PASSWORD.
 
 You will need a [Discord](https://discord.com) account for this step. This is necessary to prevent spam.
 
@@ -100,10 +106,6 @@ It should, in the end, look something like this:
   ![](../../assets/content/keymaster_key_done.png)
 </figure>
 
-**DO NOT EVER SHARE THIS KEY OR SHOW IT TO ANYONE. TREAT THIS LIKE A PASSWORD.**
-
-You have a limited number of keys. One key can be used on one server at a time, so you cannot start two servers at the same time with the same key.
-
 #### 2.4. Copying the key
 
 Now copy the text in the “Key” field, in this example that is `3173a2e-6az0-4542-a3p0-ddqq5ff95558` and hold onto it for the next step. You can do this by clicking the clipboard on the right of the key:
@@ -112,7 +114,7 @@ Now copy the text in the “Key” field, in this example that is `3173a2e-6az0-
   ![](../../assets/content/keymaster_copy_key.png)
 </figure>
 
-### 3. Installation
+### **3. Installation**
 
 The BeamMP-Server is available for Windows and Linux. The next two sections are dedicated to Windows and Linux each. 
 
@@ -152,7 +154,7 @@ Other distributions in addition to the ones that already have a binary [here](ht
 
 At the end, make sure to run your server once with `./BeamMP-Server` and then proceed to the next step.
 
-### 4. Configuration
+### **4. Configuration**
 
 Now that you ran the server once, it should have created some files and probably uttered an error or two. This is because we are not yet done. Your folder should have these files:
 
@@ -196,7 +198,7 @@ If you picked a different **Port** other than **30814**, make sure to replace it
 
       Your server will **NOT** show in the server list as long as `Private = true`. _If_ you want it to show in the list, set that to **`Private = false`**.
 
-### 5. Validation
+### **5. Validation**
 
 Now run your server again, and see if it spits out any more `[ERROR]` or `[WARN]` messages. The server should stay open now. In the following steps (6.) below you can find out how to join the server.
 
@@ -228,7 +230,7 @@ Now, when someone joins your server, it should download the map automatically an
 
 That's it! Your modded map should now be available to join!
 
-### 6. How to join your server
+### **6. How to join your server**
 
 How you and other players can join your server.
 

@@ -26,23 +26,23 @@ Das Aufsetzen besteht aus folgenden Schritten. Du solltest alle davon durchgehen
 
 ### 1. Port Weiterleitung
 
-*Wenn du auf einem VPS (Virtual Private Server) oder Rootserver bist, beziehungsweise planst den Server lokal zu hosten (mit Spielern im selben Haus wie du), kannst du diesen Schritt überspringen. Wenn du dir nicht sicher bist, was ein VPS oder Rootserver ist, bist du wahrscheinlich nicht auf einem.*
+!!! info
+    Wenn du auf einem VPS (Virtual Private Server), Rotoserver bist, oder planst einen Server lokal zu hosten (mit Spielern im selben Haus wie du), kannst du diesen Schritt überspringen.
+    Dieser Schritt ist jedoch notwendig, wenn Spieler **außerhalb** deines Haushaltes deinem heim-gehosteten Server beitreten sollen (außerhalb von deinem lokalen Netzwerk)
 
-Dieser Schritt ist nötig, wenn du möchtest, dass andere **außerhalb[/strong0} deines Haushalts deinem daheim-gehosteten Server beitreten können (außerhalb deines lokalen Netzwerks)**
+    !!! danger ":material-scale-balance: ACHTUNG:"
 
-####
+        **Port forwarding ist ein Risiko**.
 
-!!! danger ":material-scale-balance: WARNUNG:"
+        Wenn du Ports weiterleitest, sind dir die Risiken beim öffnen von Ports von deinem Heimnetz ins öffentliche Netz bewusst und verlierst das Recht, BeamMP für **jegliche Schäden**, welche deinem Haushalt passieren könnten, Haften zu lassen.
 
-    **Das weiterleiten von Ports ist ein Risiko**.
+        Wir übernehmen keine Haftung für jegliche extern gelinkten Dienste oder Webseiten.
 
-    Durch das weiterleiten von Ports akzeptierst du das Risiko beim öffnen von Ports auf einem lokalen Netzwerk in das öffentliche Netzwerk. Dadurch kannst du BeamMP für **jegliche und alle** Schäden die an dir oder deinem Haushalt passieren können, nicht verantwortlich machen.
-    
-    Wir sind nicht verantwortlich für jegliches verlinktes Material auf externen Seiten oder Services.
+Es  ist somit zu empfehlen, einen Server mit einem unserer Partner zu hosten!
 
-Es ist zu empfehlen, einen Server mit einem unserer Partner-Services zu hosten!
+*Siehe [Anleitung zur Port Weiterleitung](port-forwarding.md)*
 
-#### Kostenpflichtige Dienste:
+#### Partner Hosting Services (bezahlt):
 
 - [Horizon Hosting](https://hrzn.link/beammp)
 - [Snakecraft Hosting](https://schost.us/beammp-plans)
@@ -52,10 +52,8 @@ Es ist zu empfehlen, einen Server mit einem unserer Partner-Services zu hosten!
 - [Zap Hosting](https://zap-hosting.com/en/beammp-server-hosting/)
 - [HostHavoc](https://hosthavoc.com/)
 - [PedalHost](https://pedal.host/)
-
-*Achtung: Wenn du einen Server mit unseren Partnern hostest, kannst du den ,,Port Weiterleitung" Schritt überspringen.*
-
-Schau dir [diese Anleitung zum Port Weiterleiten](port-forwarding.md) an.
+- [Vyper Hosting](https://vyperhosting.com/r/beammp)
+- [BisectHosting](https://www.bisecthosting.com/)
 
 #### 1.1 Firewall
 
@@ -75,29 +73,25 @@ Um einen Schlüssel zu erwerben ist ein [Discord](https://discord.com) Konto erf
 
 Melde dich mit Discord beim [Keymaster](https://beammp.com/keymaster) an. Klicke auf der Keymaster-Homepage links auf dem Bildschirm auf „Keys“:
 
-
-<figure markdown="">     ![](../../assets/content/keymaster_homepage.png) </figure>
+<figure markdown>![](../../assets/content/keymaster_homepage.png)</figure>
 
 #### 2.2. Einen Schlüssel erstellen
 
 Um einen Schlüssel zu erstellen, klicke das grüne ,,+" oben rechts.
 
-
-<figure markdown="">     ![](../../assets/content/keymaster_new_key.png) </figure>
+<figure markdown>![](../../assets/content/keymaster_new_key.png)</figure>
 
 #### 2.3. Schlüssel-Informationen eingeben
 
 Als nächstes, fülle das Feld für den Servernamen (das ist lediglich der Name des Schlüssels, nicht der Name vom Server in der Liste), dann klick ,,Create".<br>Beispiel:
 
-
-<figure class="image image_resized" style="width:44.84%;" markdown="">     ![](../../assets/content/keymaster_server_name.png) </figure>
+<figure class="image image_resized" style="width:44.84%;" markdown>![](../../assets/content/keymaster_server_name.png)</figure>
 
 es sollte am Ende wie folgt aussehen:
 
+<figure markdown>![](../../assets/content/keymaster_key_done.png)</figure>
 
-<figure markdown="">     ![](../../assets/content/keymaster_key_done.png) </figure>
-
-**GEBE DIESEN SCHLÜSSEL NIEMALS AN ANDERE WEITER UND ZEIGEN IHN AUCH NIEMANDEM. BEHANDLE IHN WIE EIN PASSWORT.**
+**GEBE DIESEN SCHLÜSSEL NIEMALS AN ANDERE WEITER UND ZEIGE IHN AUCH NIEMANDEM. BEHANDLE IHN WIE EIN PASSWORT.**
 
 Du hast die Möglichkeit, zwei kostenlose Schlüssel zu erstellen. Ein Schlüssel kann jeweils nur auf einem aktiven Server gleichzeitig verwendet werden. Du kannst also nicht zwei Server gleichzeitig mit demselben Schlüssel betreiben.
 
@@ -105,8 +99,7 @@ Du hast die Möglichkeit, zwei kostenlose Schlüssel zu erstellen. Ein Schlüsse
 
 Kopiere den Text im “Key” Feld. In diesem Beispiel wäre das  `3173a2e-6az0-4542-a3p0-ddqq5ff95558`. Klicke das ,,Klemmbrett Symbol" neben dem Schlüssel um diesen zu kopieren.
 
-
-<figure markdown="">     ![](../../assets/content/keymaster_copy_key.png) </figure>
+<figure markdown>![](../../assets/content/keymaster_copy_key.png)</figure>
 
 ### 3. Installation
 
@@ -152,12 +145,11 @@ Führe zum Abschluss den Server unbedingt einmal mit `./BeamMP-Server` aus und f
 
 Nachdem der Server einmal gestartet wurde, sollte er die nötigen Dateien erstellt haben und einen oder zwei Fehler in die Konsole schreiben. Das ist normal, da wir noch nicht fertig sind.<br>Es sollten nun folgende Dateien vorhanden sein:
 
-
-<figure markdown="">     ![](../../assets/content/after-running-once.png) </figure>
+<figure markdown>![](../../assets/content/after-running-once.png)</figure>
 
 Genannt ,,ServerConfig.toml”, ,,Server.log” und ,,BeamMP-Server.exe”! (Je nach deinen Einstellungen, siehst du möglicherweise die [.toml] [.log] [.exe] Erweiterungen nicht)
 
-Öffne die `ServerConfig.toml` mit einem Texteditor wie zum Beispiel `Notepad` . Dies kannst du mit <strong>[Rechtsklick] → „Öffnen mit…“</strong> und anschließender Auswahl eines Texteditors tun.
+Öffne die `ServerConfig.toml` mit einem Texteditor wie zum Beispiel `Notepad` . Dies kannst du mit **[Rechtsklick] → „Öffnen mit…“** und anschließender Auswahl eines Texteditors tun.
 
 Die Datei sollte ungefähr so aussehen
 
@@ -177,7 +169,7 @@ ResourceFolder = 'Resources'
 
 Das ist die Konfigurationsdatei. Sie nutzt das sogenannte ,,TOML" Format. Siehe die [Server Wartung](server-maintenance.md) Sektion für weitere Informationen bezüglich dieser Datei.
 
-Als erstes kümmern wir uns um den <code>AuthKey</code>. Dazu muss der Schlüssel zwischen die Anführungszeichen <code>" "</code> eingefügt werden.
+Als erstes kümmern wir uns um den `AuthKey`. Dazu muss der Schlüssel zwischen die Anführungszeichen `" "` eingefügt werden.
 
 Für unser Beispiel sollte der Eintrag so aussehen:
 
@@ -211,9 +203,9 @@ Wenn du nur modifizierte Fahrzeuge hinzufügen möchtest, lege die Zip-Datei der
 
 Alle originalen BeamNG.Drive Karten (Karten, die keine Mods sind) funktionieren ohne dass die Karte auf den Server kopiert werden muss. Du änderst einfach den `Map` Pfad in der `ServerConfig.toml` Datei auf eine von [diesen](server-maintenance.md#all-vanilla-maps-names). Für andere Mod Karten, siehe folgende Instruktionen.
 
-1. Legen die `.zip` Datei der Karte in den Ordner <br> `Resources/Client` des Servers.
+1. Legen die `.zip` Datei der Karte in den Ordner `Resources/Client` des Servers.
 2. Sieh dir als Nächstes in die Zip-Datei der Karte (entpacke sie nicht) und öffne den Ordner „ `levels` “. In diesem Ordner sollte sich lediglich ein weiterer Ordner mit dem Namen der Karte befinden, zum Beispiel „myawesomedriftmap2021“. Achte darauf, diesen Namen *genau so zu kopieren oder zu merken, wie er im Namen dieses Ordners geschrieben ist.*
-3. Öffne die `ServerConfig.toml`. In der `Map` Einstellung solltest du  `/levels/MAPNAME/info.json` sehen, wobei `MAPNAME` wahrscheinlich so etwas wie `gridmap_v2` ist. Ersetze diesen `MAPNAME` nun durch den Namen des Ordners aus dem letzten Schritt. In diesem Beispiel war es `myawesomedriftmap2021` . Am Ende sollte es so aussehen (für dieses Beispiel) und am Ende <code>/info.json</code> <em><strong>haben</strong></em> .
+3. Öffne die `ServerConfig.toml`. In der `Map` Einstellung solltest du `/levels/MAPNAME/info.json` sehen, wobei `MAPNAME` wahrscheinlich so etwas wie `gridmap_v2` ist. Ersetze diesen `MAPNAME` nun durch den Namen des Ordners aus dem letzten Schritt. In diesem Beispiel war es `myawesomedriftmap2021`. Am Ende sollte es so aussehen (für dieses Beispiel) und am Ende `/info.json` haben.
 
 ```TOML
 Map = '/levels/myawesomedriftmap2021/info.json'
@@ -229,13 +221,17 @@ Das wärs! Die modifizierte Karte sollte jetzt geladen werden!
 
 Wie du und andere Spieler deinem Server beitreten können.
 
-#### 6.a. Deinem eigenen Server beitreten
+#### 6.a. Deinem eigenen Server beitreten (öffentlich &amp; privat)
 
-Wenn der Server zuhause gehosted wird, musst du per direkter Verbindung beitreten. Um das zu tun, klicke **Direkte Verbindnug** zur Linken von der Serverliste. Lasse die Standard IP stehen (sollte 127.0.0.1 und der korrespondierende Port sein) dann klicke ,,Verbinden". Wenn dein Server außer Haus gehsoted wird (z.B. VPS), musst du dessen[öffentliche IP](https://whatismyipaddress.com/) der Maschine herausfinden und zu dieser eine Direkte Verbindung herstellen.
+Wenn der Server auf demselben PC, auf dem du spielst, gehostet wird, solltest du mittels direkter Verbindung beitreten. Um das zu tun, klick **Direkte Verbindung** auf der linken Seite der Serverliste. Belasse die Standarddaten (sollte 127.0.0.1 und der dazugehörige Port sein) danach klicke Verbinden.
+
+Wenn der Server auf einem anderen PC in deinem lokalen Netzwerk gehostet wird, solltest du die lokale IP von dieser Maschine herausfinden und diese zum direkt verbinden verwenden.
+
+Wenn der Server außerhalb deines Haushaltes gehostet wird (z.B. VPS), musst du die [öffentliche IP](https://whatismyipaddress.com/) von dieser Maschine herausfinden und mit dich mit dieser direkt verbinden.
 
 #### 6.b. Andere Spieler die deinem Server beitreten
 
-Starte den Server. Nun musst du die öffentliche IP des Servers anderen Spielern geben. Sei jedoch vorsichtig beim teilen deiner hauseigenen IP Adresse! Um deinem privaten Server beizutreten, müssen Spieler die **Direkte Verbindung** in BeamMP aufrufen, dann die IP und den Port des Servers eingeben.
+Du musst anderen Spielern die öffentliche IP Adresse des Servers geben. Sei jedoch vorsichtig beim teilen deiner IP mit unbekannten! Um deinem privaten Server beizutreten, müssen Spieler das **Direkt Verbindung** Menü aufrufen und die Server IP sowie dessen Port eingeben.
 
 #### 6.c. Andere Spieler treten deinem öffentlichen Server bei
 
@@ -246,7 +242,7 @@ Sollten du oder deine Freunde einen ,,Verbindung Fehlgeschlagen!" Fehler bekomme
 !!! warning "Ich möchte einen VPN wie RadminVPN, Hamachi oder ähnlich verwenden"
 
     BeamMP unterstützt diese VPNs nicht, weil diese oft Probleme verursachen. Eines davon ist das blockieren von UDP Verkehr. Um dies zu beheben, siehe Sektion 1.
-            
+        
     !!! question "Aber warum hat es vorher funktioniert?"
 
         Das passiert, weil die Entwickler dieser Applikationen updaten und Änderungen implementiere, über welche BeamMP keine Kontroll hat.
