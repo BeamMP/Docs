@@ -10,13 +10,16 @@
 
     <u>**If you do not understand this guide, please consider using one of our partners.**</u>
 
+!!! warning
+
+      Please make sure your Router is not a 4G/5G exclusive device. If it is a hybrid device, make sure to select the cable connected adapter later in section 3 of this guide!
 
 
-## How To Set Up a Port Forward
+## How to set up port forwarding.
 
-Setting up a port forward involves a few detailed network terms. Be prepared to write down a few notes as you go through the process.
+Creating a port forwarding rule involves a few detailed network terms. Be prepared to write down a few notes as you go through the process.
 
-There are 4 major steps to setting up a port forward.
+There are 4 major steps in this guide.
 
 ## A quick guide. (A more detailed guide is below)
 
@@ -38,13 +41,13 @@ There are 4 major steps to setting up a port forward.
 
     ---
 
-    This can normally be done by finding the Default Gateway IP, which can be found using `ipconfig` in command prompt and enter this in on a web browser.
+    This can normally be done by finding the 'Default Gateway' IP, which can be found when executing `ipconfig` in a command prompt and entering it in a web browsers address bar.
 
 -   :material-lan-connect:{ .lg .middle } __Forward ports to your computer__
 
     ---
 
-    Find the port forwarding section in your router menu. Most routers list the port forwarding section under Network, Advanced, or LAN.
+    Find the port forwarding section in your routers web interface. Most routers list the port forwarding section under Network, Advanced, or LAN.
 
 -   :material-test-tube:{ .lg .middle } __Test that your port is forwarded properly__
 
@@ -60,11 +63,9 @@ There are 4 major steps to setting up a port forward.
 
 ### 1. Assigning a static IP address
 
-### Method 1: Set Up a Static IP Address Using DHCP Reservations
+### Method 1: Set Up a Static IP Address Using DHCP reservations
 
-Another way to set up a static IP address is to use your router's DHCP reservations feature. Not all routers have this feature, so this may not be an option for you. Please search the internet with the model of your router to find out if you can.
-
-However, if your router does have this feature, it is an excellent choice for reserving a static IP address for all of the devices in your home. DHCP reservations allow you to centrally manage all of your home IP addresses from a single interface and will enable you to change settings on devices that you may otherwise not be able to edit. 
+Another way to set a static IP address in your local network is to use your router's DHCP reservation feature. Not all routers have this feature, so this may not be an option for you. Please search the internet with the model of your router to find a manual. 
 
 If you have managed to do this, please skip directly to [step 2](port-forwarding.md#2-log-in-to-your-router)
 
@@ -80,8 +81,6 @@ For this step, we are going to use command prompt.
 Open up a command prompt. The 3 main ways are:
 
 - Windows Key, then start typing the phrase "cmd", then press Enter when you see "Command Prompt" highlighted.
-- Windows Key + R (opens the Run dialog box), followed by 'cmd', then Enter
-- Right-click the Windows Icon, then choose 'Windows PowerShell' (white text on blue background)
 
 
 <figure class="image image_resized" style="width:62%;" markdown>
@@ -94,7 +93,7 @@ Once you are in the command prompt, run the following command:
 ipconfig /all
 ```
 
-You will see a lot of data. 
+You will see a lot of data.
 If you have virtual or multiple network adapters, then you will see even more data. 
 It is common to see many virtual adapters if you have either Hyper-V or Docker installed.
 
@@ -104,15 +103,11 @@ It is common to see many virtual adapters if you have either Hyper-V or Docker i
 </figure>
 
 It is recommended to use a wired network connection which will be running this server, however, it will work over a wireless connection.
-You will need to look for an adapter in this list which has valid settings. Scroll through the list and find one that has a Default Gateway assigned. 
+You will need to look for an adapter in this list which has an active internet connection. Scroll through the list and find one that has a Default Gateway assigned. 
 Many of the virtual adapters will not have a Default Gateway. 
-You need to find a Default Gateway that has a similar IP address to the IPv4 address listed for the adapter.
 
-For instance, if you find an adapter with an IPv4 address that is 192.168.0.100, and the Default Gateway is 192.168.0.1, this is a suitable adapter.
-
-You will need to note down the following information:
-
-IPv4 Address, examples: 
+Below are local IPv4 address examples, which atleast one of the adapters should have.
+You will need to note down the information of your adapter.
 
 - 192.168.x.x
 - 10.x.x.x.
@@ -127,7 +122,7 @@ Default Gateway (most likely 192.168.0.1 or 192.168.1.1)
 
 #### 1.2. Modify Adapter Settings
 
-Now we need to change the settings on your network card or ethernet adapter in order for your PC to keep the IP configuration it currently has. To get to the settings for your network, the fastest method is:
+Now we need to change the settings on your network adapter in order for your PC to keep the IP configuration it currently has. To get to the settings for your network, the fastest method is:
 
 - Single tap the Windows key
 - Type the phrase "network connections" until you see "View network connections".
@@ -171,7 +166,7 @@ Click Ok, then click Ok again, and your adapter is now changed from DHCP to stat
 
 ### 2. Log in to your router
 
-Now that you have a static IP address on your device, you are ready to forward your port for BeamMP!
+Now that you have a static IP address on your device, you are ready to forward the port for BeamMP!
 
 To start, we need to log in to your router. Earlier, one of the settings that you wrote down is your Default Gateway. That is the IP address of your router.
 
@@ -180,7 +175,7 @@ Most routers use a locally hosted web page for management. To view your router's
 - Open up a web browser. Firefox, Chrome or Edge should work fine.
 - In the address bar, type your Default Gateway IP address, such as 192.168.0.1 or 192.168.1.1 and press enter
 
-You should now see your router's login screen. Not all routers require a login, but most do. You need to know your router's username and password. If you have never logged in before, your username and password are most likely set to the factory default values or, in some cases, written on the bottom of your router.
+You should now see your router's login screen. Not all routers require a login, but most do. You need to know your router's username and password. If you have never logged in before, your username and password are most likely set to the factory default values or, in some cases, written on a sticker your router.
 
 Some of the most common factory usernames and passwords are listed here:
 
@@ -196,7 +191,7 @@ Try various combinations of admin, password, and leaving the entries blank. *Whe
 ### 3. Create the forwarding rules!
 
 #### 3.1. Find the forwarding section
-Find the port forwarding section in your router menu. Navigate around in your router by clicking the tabs or links at the top or left of each page. Most routers list the port forwarding section under Network, Advanced, or LAN. Look for the following keywords to help you find it:
+Find the port forwarding section in your router web interface. Navigate around in your router by clicking the tabs or links at the top or left of each page. Most routers list the port forwarding section under Network, Advanced, or LAN. Look for the following keywords to help you find it:
 
 - Port Forwarding
 - Forwarding
@@ -211,8 +206,8 @@ Your router will have a place to enter the ports to be forwarded and the destina
 BeamMP requires both UDP and TCP port 30814 (Unless you have changed this in your [ServerConfig.toml](create-a-server.md#4-configuration)). 
 
 
-!!! info "Something to note:"
-    While the default **Port** you want to “forward” is **30814**, you can choose any other number greater than 1024 but less than 65535, but you need to note down what you picked if it's not 30814\. You need to forward both **TCP** and **UDP**.
+!!! info "Note"
+    While the default **Port** is **30814**, you can choose any other number greater than 1024 but less than 65535, but you need to note down what you picked if it's not 30814\. You need to forward both **TCP** and **UDP**.
     </br>
     It is recommended to stick to the default port as that one is very unlikely to be used by another service on your PC.
     </br>
@@ -220,7 +215,7 @@ BeamMP requires both UDP and TCP port 30814 (Unless you have changed this in you
 
 On some routers you may need to create 2 rules, one for UDP and one for TCP, whilst others are nice and allow you to do both with a single rule!
 
-Most routers have a Save button, and some routers require a restart or reboot for the changes to take effect.
+Most routers have a 'save' button, and some routers require a restart or reboot for the changes to take effect.
 
 ### 4. Time to test!
 
@@ -240,10 +235,13 @@ Once you have entered in the information required, click on Run test and it shou
   ![](../../assets/content/probably-up-sucessful.png)
 </figure>
 
-If you get the output above you can now join your server!
-You have 2 ways to join, either directly with the details you entered into Probably UP, or, if your server is public, through the server-list.
+!!! success "Success! Server is reachable via TCP and UDP"
 
-## Still not working?
+      If you get the output above you can now join your server!
+      There are 2 ways to join, either directly with the details you entered into Probably UP, or, if your server is set to 'public', through the server-list.
+      Since you are hosting a server on-premise, use 127.0.0.1 (localhost) if the Server is running on the same PC as you play, or the LAN IPv4 of the local machine that is running the server.
 
-Your ISP could be using CGNAT (Carrier Grade Network Address Translation). For more details, please check [How to check for CGNAT?](../FAQ/How-to-check-for-CGNAT.md)
-Please open a Server Support ticket on our [Discord server](https://discord.gg/beammp) in the `#support` channel and one of our staff will get to your ticket!
+!!! failure "The connection timed out or got refused"
+
+      Your ISP could be using CGNAT (Carrier Grade Network Address Translation). For more details, please check [How to check for CGNAT?](../FAQ/How-to-check-for-CGNAT.md)
+      , or open a Server Support ticket on our [Discord server](https://discord.gg/beammp) in the `#support` channel and one of our staff will get to your ticket!
