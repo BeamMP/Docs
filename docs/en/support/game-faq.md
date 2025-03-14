@@ -18,7 +18,7 @@ The BeamMP support team does not assist users when non-genuine copies of the gam
 ---
 ### **Does BeamMP work on linux?**
 
-The Client is not officially  supported on Linux. However, you might be able to get it working by running the launcher in the same proton prefix as the game.
+The Client is not officially supported on Linux. However, you can follow our [guide on how to use BeamMP on Linux](../game/getting-started/#2b-linux-installation)
 
 ---
 ### **Why is the launcher flagged by my antivirus or by Windows Defender**
