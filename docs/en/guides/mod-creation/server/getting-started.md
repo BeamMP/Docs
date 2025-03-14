@@ -21,7 +21,7 @@ Resources/
          └─ further.lua
 ```
 
-The serverside lua is the bare minimum, if you want to add custom evnets, you also need at least a clientside lua as well as a modscript.lua
+The serverside lua is the bare minimum, if you want to add custom events, you also need at least a clientside lua as well as a modscript.lua
 
 The Server folder must contain subfolders, one for each server-side mod.
 It is good practice to only have a single main lua file and add further lua files into subfolders.
@@ -36,7 +36,7 @@ The modScript.lua will be read by BeamNG and instructs the game which plugin to 
 
 ## Serverside lua
 
-Theres more examples in the examplePlugin, but heres a very basic example, printing a players identifiers:
+There's more examples in the examplePlugin, but heres a very basic one, printing a players identifiers:
 
 ```lua
 function onInit() --runs when plugin is loaded
