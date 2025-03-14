@@ -71,7 +71,7 @@ More keys can be obtained by supporting the project. Read [this article](https:/
 
 !!! warning
 
-        DO NOT EVER SHARE THIS KEY OR SHOW IT TO ANYONE. TREAT THIS LIKE A PASSWORD.
+    DO NOT EVER SHARE THIS KEY OR SHOW IT TO ANYONE. TREAT THIS LIKE A PASSWORD.
 
 You will need a [Discord](https://discord.com) account for this step. This is necessary to prevent spam.
 
