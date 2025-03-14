@@ -7,8 +7,8 @@ However, both Linux and MacOS are secondary platforms, this means bugs are to be
 
 !!!warning
 
-    BeamMP does not support outdated versions of BeamNG.drive.
-    The BeamMP support team does not assist users when non-genuine copies of the game are being used.
+    BeamMP will not work with pirated or outdated versions of BeamNG.drive.
+    The BeamMP support team does not offer support for issues with pirated / outdated copies.
 
 ## **2. Installation**
 
