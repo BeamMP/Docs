@@ -125,6 +125,7 @@ plugins:
             Where can I find my IP address?: ¿Dónde puedo encontrar mi dirección IP?
             How to deactivate my mods?: ¿Cómo desactivar mis mods?
             Manually updating the Launcher: Actualizar manualmente el Launcher
+            Changing the Launcher port: Cambiar el puerto del Launcher
             Player FAQ: Preguntas frecuentes del jugador
             Game FAQ: Preguntas Frecuentes del Juego
             Server FAQ: Preguntas Frecuentes del Servidor
@@ -168,6 +169,7 @@ plugins:
             Where can I find my IP address?: Wo finde ich meine IP Adresse?
             How to deactivate my mods?: Wie deaktiviere ich meine Mods?
             Manually updating the Launcher: Den Launcher Manuell updaten
+            Changing the Launcher port: Ändern des Launcher Ports
             Player FAQ: Spieler-FAQ
             Game FAQ: Spiel FAQ
             Server FAQ: Server FAQ
@@ -211,6 +213,7 @@ plugins:
             Where can I find my IP address?: Où puis-je trouver mon adresse IP?
             How to deactivate my mods?: Comment désactiver mes mods?
             Manually updating the Launcher: Mise à jour manuelle du lanceur
+            Changing the Launcher port: Changer le port du lanceur
             Player FAQ: FAQ del giocatore
             Game FAQ: FAQ du jeu
             Server FAQ: FAQ du serveur
@@ -254,6 +257,7 @@ plugins:
             Where can I find my IP address?: Dove posso trovare il mio indirizzo IP?
             How to deactivate my mods?: Come disattivare le mie mod?
             Manually updating the Launcher: Aggiornamento manuale del Launcher
+            Changing the Launcher port: Cambiare la porta del Launcher
             Player FAQ: FAQ del giocatore
             Game FAQ: FAQ del gioco
             Server FAQ: FAQ del server
@@ -297,6 +301,7 @@ plugins:
             Where can I find my IP address?: Где я могу найти свой IP-адрес?
             How to deactivate my mods?: Как деактивировать мод?
             Manually updating the Launcher: Обновление лаунчера вручную
+            Changing the Launcher port: Изменение порта лаунчера
             Player FAQ: Игроки ЧаВо
             Game FAQ: Часто задаваемые вопросы об игре
             Server FAQ: Часто задаваемые вопросы о сервере
@@ -364,6 +369,7 @@ nav:
     - Where can I find my IP address?: FAQ/where-to-find-my-IP.md
     - How to deactivate my mods?: FAQ/How-to-deactivate-mods.md
     - Manually updating the Launcher: FAQ/Update-launcher.md
+    - Changing the Launcher port: FAQ/Change-launcher-port.md
     - Player FAQ: support/player-faq.md
     - Game FAQ: support/game-faq.md
     - Server FAQ: support/server-faq.md
