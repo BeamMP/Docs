@@ -5,28 +5,28 @@ List of commonly asked questions.
 ## **Client**
 
 ---
-#### **How do I install BeamMP?**
+### **How do I install BeamMP?**
 
 There is a full guide on how to install BeamMP on Windows, you can find it [here](https://docs.beammp.com/game/getting-started/).
 
 ---
-#### **Does BeamMP work on a cracked version of BeamNG?**
+### **Does BeamMP work on a cracked version of BeamNG?**
 
-BeamMP is not guaranted to work with cracked versions or outdated versions of BeamNG.drive.
-The BeamMP support team will not assist users when non-genuine copies of the game are being used.
-
----
-#### **Does BeamMP work on linux?**
-
-The Client is not officially  supported on Linux. However, you might be able to get it working by running the launcher in the same proton prefix as the game.
+BeamMP will not work with pirated or outdated versions of BeamNG.drive.
+The BeamMP support team does not offer support for issues with pirated / outdated copies.
 
 ---
-#### **Why is the launcher flagged by my antivirus or by Windows Defender**
+### **Does BeamMP work on linux?**
+
+The Client is not officially supported on Linux. However, you can follow our [guide on how to use BeamMP on Linux](../game/getting-started/#2b-linux-installation)
+
+---
+### **Why is the launcher flagged by my antivirus or by Windows Defender**
 
 Some antivirus programs may flag BeamMP as a threat, due to it interacting with the network and other stuff. There are **no viruses** in any of the code. The code for the launcher, server, and lua client can be found on our [GitHub](https://github.com/BeamMP).
 
 ---
-#### **I have poor gameplay performance, what should I do?**
+### **I have poor gameplay performance, what should I do?**
 
 We are working hard to make the Multiplayer experience as stable as possible. If you have already lowered your graphic settings and your performance is still poor, consider playing on a server with less players. The game is mainly CPU bound when you play with lots of people, so older CPUs (even quadcores) will suffer with more than a handful of people. (General Rule of Thumb: 1 car per CPU Thread)
 
@@ -34,7 +34,7 @@ We are working hard to make the Multiplayer experience as stable as possible. If
 ## **Miscellaneous**
 
 ---
-#### **Where can I find the code?**
+### **Where can I find the code?**
 
 All the source code can be found on our [GitHub](https://github.com/BeamMP).
 Before making any changes, keep in mind that the code is subject to our [Terms of Use](https://forum.beammp.com/t/terms-of-use-v1-0/43) and licenses:
@@ -46,7 +46,7 @@ Before making any changes, keep in mind that the code is subject to our [Terms o
 | Client Lua | [LICENSE](https://github.com/BeamMP/BeamMP/blob/development/LICENSE)    |
 
 ---
-#### **I have found a bug or an exploit what should I do?**
+### **I have found a bug or an exploit what should I do?**
 
 If the issue is code related and you know how to use Github, open a new "Issue" in the appropriate repository on our [GitHub](https://github.com/BeamMP). We use an issue-based workflow so even if you already have a fix for the bug, consider opening a new "Issue", then open a "Pull Request" with the solutions for the issue. More info on contributing can be found [here](https://github.com/BeamMP/BeamMP/blob/development/CONTRIBUTING.md).
 
