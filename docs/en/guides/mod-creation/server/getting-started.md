@@ -77,13 +77,15 @@ This largely follows the [BeamNG extensions](https://documentation.beamng.com/mo
 local M = {}
 
 if extensions.isExtensionLoaded("examplePlugin") then
-  log("E", "examplePlugin", "examplePlugin loaded on clientt side")
+  log("E", "examplePlugin", "examplePlugin loaded on client side")
   return
 end
 
 return M
 ```
-**WIP**
+Prints to the console that the examplePlugin was loaded
+
+Refer to the [beamNG documentation on debug prints](https://documentation.beamng.com/modding/programming/debugging/#a-add-a-log) to learn more
 
 ## modScript.lua
 
