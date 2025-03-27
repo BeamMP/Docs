@@ -31,6 +31,10 @@ Right click the `content` folder and delete it. Proceed to verify the game files
 After you are done, start BeamNG.Drive via the BeamMP-Launcher and you should have 'multiplayerbeammp' as your only enabled mod available in the repository as well as the button on the Main Menu to enter BeamMP.
 If you still have issues joining modded server, they likely provide broken/outdated mods.
 
+### 4. Cleaning up the BeamMP-Launcher cache
+To clean up cached mods from the BeamMP directories, go to the installation location of your BeamMP-Launcher. By default, the path would be 'C:\Users\AppData\BeamMP-Launcher\'. In there, you will find a 'Resources' folder.
+Delete the folder to delete all cached mods. This can be helpful if you need more space on your disk or want to clean out oudated BeamNG mods.
+
 !!! question "My settings and configs are gone! How can I restore them?"
 
     If you renamed the userfolder, you forced the game to create a new, clean userfolder. You may copy the 'settings' and 'vehicles' folder from the folder you renamed (e.g. 0.34_OLD) to the new folder it created.
