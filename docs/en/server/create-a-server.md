@@ -52,7 +52,7 @@ The setup consists of the following steps, you should follow all of them.
 * [HostHavoc](https://hosthavoc.com/)
 * [PedalHost](https://pedal.host/)
 * [Vyper Hosting](https://vyperhosting.com/r/beammp)
-* [BisectHosting](https://www.bisecthosting.com/)
+* [BisectHosting](https://www.bisecthosting.com/beammp-server-hosting)
 
 
 #### 1.1 Firewall
