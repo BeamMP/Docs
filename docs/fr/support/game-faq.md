@@ -23,7 +23,7 @@ Le client n'est pas officiellement supporté sur linux, cependant, vous pouvez s
 ---
 ### **Pourquoi le lanceur est détecté comme un virus par mon antivuris ou par Windows Defender**
 
-Certains logiciels antivirus pourrait identifier BeamMP comme une menace puisqu'il interact avec le réseau et d'autres aspects. Il n'y a **pas de virus ** nulle part dans le code. Le code pour le lancer, le serveur, et le client lua peut être trouvé sur notre [GitHub](https://github.com/BeamMP).
+Certains logiciels antivirus pourrait identifier BeamMP comme une menace puisqu'il interact avec le réseau et d'autres aspects. Il n'y a **pas de virus** nulle part dans le code. Le code pour le lancer, le serveur, et le client lua peut être trouvé sur notre [GitHub](https://github.com/BeamMP).
 
 ---
 ### **J'ai une baisse de performances en jeu, que puis-je faire?**
