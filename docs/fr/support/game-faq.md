@@ -52,5 +52,5 @@ Si le problème est en lien avec le code et que vous savez utiliser Github, ouvr
 
 Si vous n'avez pas de compte Github, ne savez pas comment utiliser Github ou si vous avez une n'importe quelle autre question, vous pouvez entrer en contact avec nous de ces deux façons:
 
-- Si c'est quelque chose qui n'est pas sensible/personel, vous pouvez créer un post sur notre [Forum BeamMP](https://forum.beammp.com) ou vous pouvez le signaler sur notre [Official Discord](https://discord.gg/beammp).
+- Si c'est quelque chose qui n'est pas sensible/personel, vous pouvez créer un post sur notre [Forum BeamMP](https://forum.beammp.com) ou vous pouvez le signaler sur notre [Discord Officiel](https://discord.gg/beammp).
 - Si l'information est sensible/personelle, vous pouvez signaler le problème directement à un(e) membre de notre équipe (Staff) sur notre [Discord](https://discord.gg/beammp).
