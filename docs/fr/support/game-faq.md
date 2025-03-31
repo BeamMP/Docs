@@ -36,7 +36,7 @@ Nous travaillons sans relâche pour rendre l'expérience multijoueur aussi stabl
 ---
 ### **Où est-ce que je peux trouver le code?**
 
-Le code source en entier peut être touvé sur notre [GitHub](https://github.com/BeamMP).
+Le code source en entier peut être retouvé sur notre [GitHub](https://github.com/BeamMP).
 Avant de faire n'importe quel changement, souvenez-vous que le code est assujettit à nos  [Conditions d'utilisation](https://forum.beammp.com/t/terms-of-use-v1-0/43) et licenses:
 
 |   Code     | License                                                                    |
