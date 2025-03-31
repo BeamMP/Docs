@@ -1,0 +1,255 @@
+# Paramètres du multijoueur
+
+## **1. Général**
+
+??? setting "Afficher les option avancées"
+
+    Si activé, permet de voir tout les paramètres du mode multijoueur
+
+    Si désactivé, permet de voir les paramètres de base du mode multijoueur
+
+??? setting "Activer la protéction contre le clonage de la configuration"
+
+    Si activé, votre configuration ne pourra pas être copiée par un autre joueur
+
+    Si désactivé, votre configuration pourra être copiée par un autre joueur
+
+??? setting "Désactiver les pauses causées par les instabilités"
+
+    Si activé, les instabilitées de la physique ne vont pas mettre votre jeu sur pause
+
+    Si activé, les instabilitées de la physique vont mettre votre jeu sur pause
+
+    !!! note ""
+
+        Il est recommendé de laisser cette option désactivée puisque que plusieurs instabilitées peuvent être la cause d'un plantage
+
+??? setting "Utiliser des véhicules simplifiés lorsqu'il sont disponibles"
+
+    If enabled, the game will replace vehicles of other players with their simplified versions (from AI traffic) if available
+
+    If disabled, the game will use the intended vehicle models
+
+??? setting "New chat menu"
+
+    If enabled, the ingame chat will be displayed in an [IMGUI](https://github.com/ocornut/imgui) window, that for example can be dragged out of the game onto another monitor
+
+    If disabled, the ingame chat will be displayed in the UI app
+
+    !!! note ""
+
+        Dragging IMGUI windows out of the main game window can cause performance issues, as well as trick screen recording software into recording the chat window instead of the main game window
+
+??? setting "Enable vehicle position smoothing"
+
+    If enabled, beamMP will use an algorithm to smooth vehicle position updates to regular intervalls. Can be beneficial between players with high ping or when a connection experiences a high package drop rate
+
+    If disabled, beamMP will update vehicle locations as they are received
+
+??? setting "Skip the mod security warning popusp"
+
+    If enabled, the mod security popup will not be shown when trying to connect to a server with mods
+
+    If disabled, the mod security popup will be shown whenever you connect to a server with mods
+
+??? setting "Enable player vehicle update/edit queuing"
+
+    If enabled, other players vehicle spawns and edits will be put into a queue. See the section `2. Event queue` for further details
+
+    If disabled, other players vehicle spawns and edits will be loaded by the game instantly
+
+??? setting "Enable automatic part sync"
+
+    If enabled, your vehicles parts will automatically be synced to other players after a few seconds
+
+    If disbaled, you need to click the part sync button in the part picker in order to send a sync out to other players
+
+??? setting "Disable switching to other players vehicles"
+
+    If enabled, tabbing trough vehicles will skip other players vehicles
+
+    If disabled, tabbing trough vehicles will cycle over every spawned vehicle
+
+??? setting "Fade out vehicles as they get closer"
+
+    If enabled, other vehicles will fade out as they get closer
+
+    If disbaled, other vehicles will stay fully visible regardless of distance
+
+    !!! note ""
+
+        This only affects the visible 3d mesh of a vehicle, not its physics node-beam-mesh. In order to also disable physics, you need to enable `Simplified collision physics` in the Gameplay settings
+
+??? setting "Show the player ID`s"
+
+    If enabled, the ingame playerlist will have an additional row showing each players ID. Useful for development or moderation
+
+    If disabled, the ingame playerlist will only show the rows for playername and ping
+
+??? setting "Allow the serverlist to refresh ingame"
+
+    If enabled, the serverlist will update in regular intervalls while playing. This can cause lag spikes
+
+    If disabled, the serverlist will only update once you open the main menu
+
+## **2. Événement en file d'attente**
+
+??? setting "Highlight queued players"
+
+    If enabled, players with a queued event will be highlighted in the ingame playerlist
+
+    If disabled, players will not be individually highlighted
+
+??? setting "Apply vehicle changes with"
+
+    If set to `Left mouse button`, clicking on a players name in the playerlist using the left mouse button will load the queued events. Clicking with the right mouse button will spectate said player
+
+    If set to `Right mouse button`, clicking on a players name in the playerlist using the right mouse button will load the queued events. Clicking with the left mouse button will spectate said player
+
+??? setting "Automatically apply queued vehicle changes"
+
+    If enabled, the queued events will be automatically loaded once you've been going under the speed treshold for the amount of time set as the timeout
+
+    If disabled, the queued events will only load manually, by clicking on either the `Events` button at the top of the screen or on a players name in the playerlist
+
+??? setting "Queue apply speed treshold"
+
+    This setpoint defines the speed treshold of the automatic event queue loading. Your vehicle has to be slower than this for longer than `Queue apply timeout` in order to load the queued events
+
+??? setting "Queue apply timeout"
+
+    This setpoint defines the time delay of the automatic event queue loading. Your vehicle has to be slower than `Queue apply speed treshold` for this time in order to load the queued events
+
+??? setting "Skip queue if spectating others"
+
+    If enabled, an event will instantly load if you are spectating another player
+
+    If disabled, an event will be queued just like it would when focused on your own vehicle
+
+??? setting "Don't queue Unicycles (Snowmen/Beamlings)"
+
+    If enabled, an event concerning a snowmen/beamling will be loaded instantly
+
+    If disabled, snowmen/beamlings will be queued just like other vehicles
+
+## **3. Configuration du monocycle par défaut**
+
+??? setting "Default Unicycle config"
+
+    This setpoint defines the unicycle variant to be loaded by default. You can choose between premade configs and your own should you have saved custom unicycle configs
+
+??? setting "Automatically save your last used Unicycle"
+
+    If enabled, your last used unicycle will be automatically saved and reloaded once you spawn it again
+
+    If disabled, your default unicycle config will spawn every time
+
+## **4. Blobs**
+
+??? setting "Enable blobs for unspawned vehicles"
+
+    If enabled, you will see a placeholder orb, or blob, in place of an unspawned vehicle
+
+    If disabled, an unspawned vehicle will be invisible
+
+??? setting "Tune colors"
+
+    ??? setting "Visible"
+
+        If enabled, a blob will be drawn, using the color below
+
+        If disabled, no blob will be drawn for the specified function
+
+    ??? setting "RGB HEX values"
+
+        Queued vehicle: The color a blob will use if a vehicle is queued for spawning. Standard value #FF6400
+
+        Illegal vehicle: The color a blob will use if a vehicle is illegal, for example trough a mod that was sideloaded. Standard value #000000
+
+        Deleted vehicle: The color a blob will use if a vehicle was deleted by the user. Standard value #333333
+
+## **5. Pseudo**
+
+??? setting "Hide player nametags"
+
+    If enabled, player nametags will not be drawn
+
+    If disabled, player nametags will be drawn according to their vehicles relative position
+
+??? setting "Show distance from other players"
+
+    If enabled, the nametag will be prepended by the distance to the respective vehicle
+
+    If disabled, no additional distance will be shown in the nametag
+
+??? setting "Fade nametags in/out"
+
+    If enabled, a nametag will be faded in/out according to `Fade distance` and `Invert nametag fade direction`
+
+    If disabled, anametag will be drawn at standard opacity regardless of distance to the respective vehicle
+
+??? setting "Fade distance/Invert nametag fade direction"
+
+    !!! setting "Fade out"
+
+        Nametags are getting less visible the further away a player is
+
+        `Fade distance` defines the distance at which a nametag will be drawn at minimal opacity
+
+    !!! setting "Fade in"
+
+        Nametags are getting more visible the further away a player is
+
+        `Fade distance` defines the distance at which a nametag will be drawn at maximal opacity
+
+??? setting "Don't fully hide nametags"
+
+    If enabled, a nametag can not get fully invisible, it will retain a minimal opacity regardless of distance
+
+    If disabled, nametags can get fully invisble
+
+??? setting "Shorten nametag and role tags"
+
+    If enabled, `Nametag length limit` will truncate nametags and roles to the set limit of characters
+
+    If disabled, nametag and role tags will be shown at full length
+
+??? setting "Show spectators' nametag under vehicle nametags"
+
+    If enabled, a spectators name will be added underneath a players nametag
+
+    If disabled, no spectator names will be added to nametags
+
+??? setting "Same color for spectator nametags"
+
+    If enabled, a spectators name will always be surrounded by a grey background
+
+    If disabled, a spectators name will be surrounded by a colored background, reflecting the spectators role
+
+## **6. Autres**
+
+??? setting "Show network activity in the console"
+
+    If enabled, the beamMP network activity will be shown in the console
+
+    If disabled, no further network activity will be shown in the console
+
+    !!! danger ""
+
+        Be careful with this setting, since all the console output gets also written into the log files
+        
+        They can grow by hundreds of MB in minutes with this setting enabled
+
+??? setting "Launcher port"
+
+    This setpoint defines the port used for communicating with the launcher
+
+    Should only be changed if the standard port 4444 can not be used
+
+    Dont forget to also change it on the launcher side, by modifying `launcher.cfg`
+
+    !!! tip ""
+
+        The port specified is only the first of two, the second port being used is directly following, set port + 1
+
+        The first port carries core network pakets, the second game network pakets, both over TCP
