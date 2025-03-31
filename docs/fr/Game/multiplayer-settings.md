@@ -22,19 +22,19 @@
 
     !!! note ""
 
-        Il est recommendé de laisser cette option désactivée puisque que plusieurs instabilitées peuvent être la cause d'un plantage
+        Il est recommendé de laisser cette option désactivée puisque que plusieurs instabilitées combinées peuvent être la cause d'un plantage
 
 ??? setting "Utiliser des véhicules simplifiés lorsqu'il sont disponibles"
 
-    If enabled, the game will replace vehicles of other players with their simplified versions (from AI traffic) if available
+    Si activé, le jeu remplacera les véhicules des autres joueurs par leurs versions simplifiées (comme le trafic IA) si ils sont disponibles
 
-    If disabled, the game will use the intended vehicle models
+    Si désactivé, le jeu va utiliser les véhicules normaux
 
-??? setting "New chat menu"
+??? setting "Nouveau menu de tchat"
 
-    If enabled, the ingame chat will be displayed in an [IMGUI](https://github.com/ocornut/imgui) window, that for example can be dragged out of the game onto another monitor
+    Si activé, le tchat en jeu va être sera affiché dans une fenêtre [IMGUI](https://github.com/ocornut/imgui), qui peut, par exemple, être déplacée hors du jeu vers un autre moniteur
 
-    If disabled, the ingame chat will be displayed in the UI app
+    Si désactivé, le tchat en jeu sera affiché dans une UI app
 
     !!! note ""
 
@@ -92,7 +92,7 @@
 
     If disabled, the serverlist will only update once you open the main menu
 
-## **2. Événement en file d'attente**
+## **2. Événements en file d'attente**
 
 ??? setting "Highlight queued players"
 
@@ -132,7 +132,7 @@
 
     If disabled, snowmen/beamlings will be queued just like other vehicles
 
-## **3. Configuration du monocycle par défaut**
+## **3. Définir le monocycle par défaut**
 
 ??? setting "Default Unicycle config"
 
@@ -144,7 +144,7 @@
 
     If disabled, your default unicycle config will spawn every time
 
-## **4. Blobs**
+## **4. Boules**
 
 ??? setting "Enable blobs for unspawned vehicles"
 
@@ -168,7 +168,7 @@
 
         Deleted vehicle: The color a blob will use if a vehicle was deleted by the user. Standard value #333333
 
-## **5. Pseudo**
+## **5. Pseudos**
 
 ??? setting "Hide player nametags"
 
