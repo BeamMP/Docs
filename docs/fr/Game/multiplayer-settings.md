@@ -4,21 +4,21 @@
 
 ??? setting "Afficher les option avancées"
 
-    Si activé, permet de voir tout les paramètres du mode multijoueur
+    Si activée, permet de voir tout les paramètres du mode multijoueur
 
-    Si désactivé, permet de voir les paramètres de base du mode multijoueur
+    Si désactivée, permet de voir les paramètres de base du mode multijoueur
 
 ??? setting "Activer la protéction contre le clonage de la configuration"
 
-    Si activé, votre configuration ne pourra pas être copiée par un autre joueur
+    Si activée, votre configuration ne pourra pas être copiée par un autre joueur
 
-    Si désactivé, votre configuration pourra être copiée par un autre joueur
+    Si désactivée, votre configuration pourra être copiée par un autre joueur
 
 ??? setting "Désactiver les pauses causées par les instabilités"
 
-    Si activé, les instabilitées de la physique ne vont pas mettre votre jeu sur pause
+    Si activée les instabilitées de la physique ne vont pas mettre votre jeu sur pause
 
-    Si activé, les instabilitées de la physique vont mettre votre jeu sur pause
+    Si activée, les instabilitées de la physique vont mettre votre jeu sur pause
 
     !!! note ""
 
@@ -26,25 +26,24 @@
 
 ??? setting "Utiliser des véhicules simplifiés lorsqu'il sont disponibles"
 
-    Si activé, le jeu remplacera les véhicules des autres joueurs par leurs versions simplifiées (comme le trafic IA) si ils sont disponibles
+    Si activée, le jeu remplacera les véhicules des autres joueurs par leurs versions simplifiées (comme le trafic IA) si ils sont disponibles
 
-    Si désactivé, le jeu va utiliser les véhicules normaux
+    Si désactivée, le jeu va utiliser les véhicules normaux
 
 ??? setting "Nouveau menu de tchat"
 
-    Si activé, le tchat en jeu va être sera affiché dans une fenêtre [IMGUI](https://github.com/ocornut/imgui), qui peut, par exemple, être déplacée hors du jeu vers un autre moniteur
+    Si activée, le tchat en jeu va être sera affiché dans une fenêtre [IMGUI](https://github.com/ocornut/imgui), qui peut, par exemple, être déplacée hors du jeu vers un autre moniteur
 
-    Si désactivé, le tchat en jeu sera affiché dans une UI app
+    Si désactivée, le tchat en jeu sera affiché dans une UI app
 
     !!! note ""
 
-        Dragging IMGUI windows out of the main game window can cause performance issues, as well as trick screen recording software into recording the chat window instead of the main game window
+        Glisser la fenêtre IMGUI hors de la fenêtre principale du jeu peut entraîner des problèmes de performances et tromper le logiciel d'enregistrement d'écran en enregistrant la fenêtre de discussion au lieu de la fenêtre principale du jeu.
 
-??? setting "Enable vehicle position smoothing"
+??? setting "Activer le lissage de la position du véhicule"
 
-    If enabled, beamMP will use an algorithm to smooth vehicle position updates to regular intervalls. Can be beneficial between players with high ping or when a connection experiences a high package drop rate
-
-    If disabled, beamMP will update vehicle locations as they are received
+    Si activée, BeamMP utilisera un algorithme pour lisser les mises à jour de position des véhicules à intervalles réguliers. Cela peut être utile pour les joueurs avec une latence élevé ou en cas de forte perte de paquets.
+    Si désactivée, beamMP mettra à jour les emplacements des véhicules dès leur réception.
 
 ??? setting "Skip the mod security warning popusp"
 
