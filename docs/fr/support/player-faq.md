@@ -1,9 +1,5 @@
 # FAQ joueurs
 
-## Comment est-ce que je lie mon compte Discord?
-Lier votre compte Discord est une nouvelle fonctionalitée de BeamMP. Pour lier votre compte, vous devez envoyez `!link` comme message à notre robot [BeamMP Accounts](https://discordapp.com/channels/@me/1201234743568634026/).
-Le robot va vous envoyer un lien pour vous connecter à votre compte beamMP en réponse à votre message. Connectez-vous à votre compte, une fois cette étape complétée vouas allez recevoir un deuxième message vous indicant que votre compte est correctement lié. 🎉
-
 ## Comment avoir accès à l'accès anticipé (early access)?
 
 L'accès anticipé (EA) (incluant le nom en jeu (nametag) mauve and d'autre bonus) peut être obtenus en nous supportant financièrement sur [Patreon](https://patreon.com/BeamMP) en achetant un niveau, faisant un don, ou en boostant notre serveur Discord.
