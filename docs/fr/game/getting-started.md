@@ -38,7 +38,7 @@ Assurez-vous d'avoir [`vcpkg`](https://learn.microsoft.com/en-us/vcpkg/get_start
 - Fedora: `sudo dnf install @development-tools`
 - Arch: `sudo pacman -S base-devel`
 - openSUSE: `zypper in -t pattern devel-basis`
-- SteamOS (Arch): `sudo pacman -S base-devel linux-api-headers glibc libconfig` (You also need to do `sudo steamos-readonly disable` but make sure to enable it again after installing the packages)
+- SteamOS (Arch): `sudo pacman -S base-devel linux-api-headers glibc libconfig` (Vous devez également faire `sudo steamos-readonly disable` mais assurez-vous de l'activer à nouveau après l'installation des paquets.)
 
 Clônez le répertoire BeamMP-Launcher sur votre système en utilisant `git`, exemple:
 `git clone https://github.com/BeamMP/BeamMP-Launcher.git`
