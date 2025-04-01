@@ -91,7 +91,7 @@ Avec le symlink configuré antre le lanceur compilé et les userfolders, vous po
 
 Notez que ceci assume que vous avez mis, les binairies du lanceur que vous avez compilé plus tôt, dans `/home/user/BeamMP/`, donc changez l'emplacement pour qu'il corresponde à où vous avez mis les binairies terminées et vous allez avoir besoin de recompiler le lanceur avec la bonne branche git à chaque fois qu'une nouvelle mise à jour sera disponible.
 
-!!! tip "Ajoutez une police d'écriture  pour les emojis pour avoir les emojis en jeu"
+!!! tip "Ajoutez une police d'écriture pour les emojis pour avoir les emojis en jeu"
 
     Pour avoir accès aux emojis soit dans la liste des serveurs (certains serveurs utilisent des emojis dans leur nom personalisé), soit dans le chat en jeu, vous avez besoin d'une police d'écriture qui contient certains emojis.
 
