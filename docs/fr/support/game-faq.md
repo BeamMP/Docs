@@ -12,7 +12,7 @@ Il y a un guide complet qui explique comment installer BeamMP sur Windows, vous 
 ---
 ### **Est-ce que BeamMP fonctionne avec une vresion piratée ou dépassée de BeamNG?**
 
-BeamMP ne fonctionnera pas avec une version piratée ou dépassée de BeamNG.DRIVE.
+BeamMP ne fonctionnera pas avec une version piratée ou dépassée de BeamNG.drive.
 L'équipe de soutient de BeamMP n'offre pas de soutient pour les versions piratées ou dépasées.
 
 ---
