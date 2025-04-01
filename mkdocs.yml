@@ -354,7 +354,7 @@ nav:
   - Support:
     - Playing BeamMP:
       - Installing BeamMP: game/getting-started.md
-      - Error Codes: game/error-codes.md
+      - Error Codes: support/error-codes.md
       - Multiplayer Settings: game/multiplayer-settings.md
     - Running a Server:
       - Server Installation: server/create-a-server.md
