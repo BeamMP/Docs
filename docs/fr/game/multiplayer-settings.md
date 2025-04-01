@@ -18,7 +18,7 @@
 
     Si activée les instabilitées de la physique ne vont pas mettre votre jeu sur pause
 
-    Si activée, les instabilitées de la physique vont mettre votre jeu sur pause
+    Si désactivée, les instabilitées de la physique vont mettre votre jeu sur pause
 
     !!! note ""
 
