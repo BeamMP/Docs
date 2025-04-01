@@ -33,7 +33,7 @@ Si d'autres joueurs essaient de se connecter et qu'ils reçoivent un code d'erre
 
 - Redirigez les deux protocol UDP et TCP du  port 30814 (ou le port que vous avez spécifié dans votre fichier ServerConfig.toml).
 - Authorisez BeamMP à passer au travers du parefeu Windows authorisez les connections entrantes et sortantes. En général, désactiver le parefeu **NE** fonctionnera **PAS**.
-- Assurez-vous que vous n'^tes pas en train d'utiliser un VPN (Cela peut causer des problèmes).
+- Assurez-vous que vous n'utilisez pas de VPN (Cela peut causer des problèmes).
 - Assurez-vous que le logiciel serveur est lancé et qu'il ne donne pas d'erreurs ni d'avertissements.
 
 Vous pouvez vérifier si vous avez correctement configuré la redirection de port en utilisant le site '[probablyup.net](https://probablyup.net/api)' lorsque le serveur est lancé.
