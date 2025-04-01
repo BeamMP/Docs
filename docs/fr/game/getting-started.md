@@ -7,7 +7,7 @@ Cependant, puisque Linux et MacOS sont des systèmes d'opération secondaire plu
 
 !!!warning
 
-    BeamMP ne fonctionnera pas avec une version piratée ou dépassée de BeamNG.DRIVE. 
+    BeamMP ne fonctionnera pas avec une version piratée ou dépassée de BeamNG.drive.
     L'équipe de soutient de BeamMP n'offre pas de soutient pour les versions piratées ou dépasées.
 
 ## **2. Installation**
