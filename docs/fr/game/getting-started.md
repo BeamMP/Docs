@@ -32,7 +32,7 @@ Cependant, puisque Linux et MacOS sont des systèmes d'opération secondaire plu
 Vous devrez construire le lanceur vous même pour le moment.
 Pour ce faire, vous avez besoin d'un minimum de connaissences de base pour construire (build) une application.
 
-Assurez-vous d'avoir [`vcpkg` installed](https://learn.microsoft.com/en-us/vcpkg/get_started/get-started?pivots=shell-bash#1---set-up-vcpkg) d'installé, ainse que des outil de dévellopement de base, souvent trouvé dans des packets (package) tel que (par exemple):
+Assurez-vous d'avoir [`vcpkg`](https://learn.microsoft.com/en-us/vcpkg/get_started/get-started?pivots=shell-bash#1---set-up-vcpkg) d'installé, ainse que des outil de dévelopement de base, souvent trouvé dans des packets (package) tel que (par exemple):
 
 - Debian: `sudo apt install build-essential`
 - Fedora: `sudo dnf install @development-tools`
