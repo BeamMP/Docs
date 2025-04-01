@@ -42,7 +42,7 @@ Assurez-vous d'avoir [`vcpkg`](https://learn.microsoft.com/en-us/vcpkg/get_start
 
 Clônez le répertoire BeamMP-Launcher sur votre système en utilisant `git`, exemple:
 `git clone https://github.com/BeamMP/BeamMP-Launcher.git`
-[Additional information about cloning a GitHub Repo](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
+[Informations complémentaires sur le clonage d'une réplique GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
 
 Assurez-vous d'avoir le bon identifiant de version utilisé pour la dernière version disponible (Latest version) [Dernière version](https://github.com/BeamMP/BeamMP-Launcher/releases/latest). Par exemple, si `v2.3.2` est utilisé dans la dernière version disponible, faites `git checkout v2.3.2`
 
