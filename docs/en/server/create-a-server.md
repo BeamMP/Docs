@@ -53,6 +53,7 @@ The setup consists of the following steps, you should follow all of them.
 * [PedalHost](https://pedal.host/)
 * [Vyper Hosting](https://vyperhosting.com/r/beammp)
 * [BisectHosting](https://www.bisecthosting.com/beammp-server-hosting)
+* [Four Seasons Hosting](https://fourseasonshosting.com)
 
 
 #### 1.1 Firewall
