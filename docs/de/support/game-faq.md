@@ -22,7 +22,7 @@ BeamMP funktioniert nicht mit Raubkopien oder veralteten Versionen von BeamNG.dr
 
 ### **Funktioniert BeamMP unter Linux?**
 
-Der Client wird unter Linux nicht offiziell unterstützt. Du kannst jedoch unserer [Anleitung zur Verwendung von BeamMP unter Linux](../game/getting-started/#2b-linux-installation) folgen.
+Der BeamMP-Launcher wird unter Linux nicht offiziell unterstützt. Du kannst jedoch unserer [Anleitung zur Verwendung von BeamMP unter Linux](../game/getting-started/#2b-linux-installation) folgen.
 
 ---
 
