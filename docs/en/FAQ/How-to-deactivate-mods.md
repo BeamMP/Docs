@@ -21,7 +21,7 @@ Before joining any server, make sure you have no mods besides 'multiplayerbeammp
 If the game freezes or you still have issues, refer to the next option
 
 ### 2. Creating a new Userfolder
-Open the BeamNG.Drive userfolder and rename the folder of the latest version (e.g. 0.34) to for example 0.xx_OLD (0.34_OLD). Close BeamNG.drive before renaming it.
+Open the BeamNG.Drive userfolder and rename the folder of the latest version (e.g. 0.35) to for example 0.xx_OLD (0.35_OLD). Close BeamNG.drive before renaming it.
 ![image](../../assets/content/new-userfolder.png)
 
 ### 3. Removing mods from the content folders.
