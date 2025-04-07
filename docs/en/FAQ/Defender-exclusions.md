@@ -25,12 +25,13 @@
 
 ## 2. Antivirus exclsuion for the BeamMP-Launcher.
 
-Open the 'Windows Security' app.
-Click the first item 'virus and threat protection'.
-Scroll down to navigate to the 'Exclusions' tab.
-There, click 'create' and select 'process'.
-Enter 'BeamMP-Launcher.exe' into the field and save it.
-Restart your PC.
+1 Open the 'Windows Security' app.
+2 Click the first item 'virus and threat protection'.
+3 Click 'Manage settings' beneath "Virus & threat protection settings".
+4 Scroll down to navigate to the 'Exclusions' tab.
+5 There, click 'Add an exclusion' and select 'process'.
+6 Enter 'BeamMP-Launcher.exe' into the field and save it.
+7 Restart your PC.
 
 ## Still facing issues?
 
