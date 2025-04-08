@@ -6,9 +6,9 @@
 
     !!! danger ":material-scale-balance: DISCLAIMER:"
 
-        **Firewall exclsuions are a risk**.
+        **Firewall / Defender exclsuions are a risk**.
 
-        By creating exclsuions, you understand the risks of opening up ports on your home network to the public and therefore void the right to hold BeamMP accountable for **any and all** damages that may happen to you or your household.
+        By creating exclsuions, you understand the risks of allowing programs on your PC and opening up ports on your home network to the public and therefore void the right to hold BeamMP accountable for **any and all** damages that may happen to you or your household.
 
         We take no responsibility for any content on any externally linked services or websites.
 
