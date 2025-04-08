@@ -126,6 +126,7 @@ plugins:
             How to deactivate my mods?: ¿Cómo desactivar mis mods?
             Manually updating the Launcher: Actualizar manualmente el Launcher
             Changing the Launcher port: Cambiar el puerto del Launcher
+            Creating Exclusions (Defender): Creación de exclusiones (Defender)
             Player FAQ: Preguntas frecuentes del jugador
             Game FAQ: Preguntas Frecuentes del Juego
             Server FAQ: Preguntas Frecuentes del Servidor
@@ -170,6 +171,7 @@ plugins:
             How to deactivate my mods?: Wie deaktiviere ich meine Mods?
             Manually updating the Launcher: Den Launcher Manuell updaten
             Changing the Launcher port: Ändern des Launcher Ports
+            Creating Exclusions (Defender): Ausnahmen erstellen (Defender) 
             Player FAQ: Spieler-FAQ
             Game FAQ: Spiel FAQ
             Server FAQ: Server FAQ
@@ -214,6 +216,7 @@ plugins:
             How to deactivate my mods?: Comment désactiver mes mods?
             Manually updating the Launcher: Mise à jour manuelle du lanceur
             Changing the Launcher port: Changer le port du lanceur
+            Creating Exclusions (Defender): Création d'exclusions (Defender)
             Player FAQ: FAQ del giocatore
             Game FAQ: FAQ du jeu
             Server FAQ: FAQ du serveur
@@ -258,6 +261,7 @@ plugins:
             How to deactivate my mods?: Come disattivare le mie mod?
             Manually updating the Launcher: Aggiornamento manuale del Launcher
             Changing the Launcher port: Cambiare la porta del Launcher
+            Creating Exclusions (Defender): Creazione di esclusioni (Defender)
             Player FAQ: FAQ del giocatore
             Game FAQ: FAQ del gioco
             Server FAQ: FAQ del server
@@ -302,6 +306,7 @@ plugins:
             How to deactivate my mods?: Как деактивировать мод?
             Manually updating the Launcher: Обновление лаунчера вручную
             Changing the Launcher port: Изменение порта лаунчера
+            Creating Exclusions (Defender): Создание исключений (Defender)
             Player FAQ: Игроки ЧаВо
             Game FAQ: Часто задаваемые вопросы об игре
             Server FAQ: Часто задаваемые вопросы о сервере
@@ -354,9 +359,9 @@ nav:
   - Support:
     - Playing BeamMP:
       - Installing BeamMP: game/getting-started.md
-      - Error Codes: support/error-codes.md
+      - Error Codes: game/error-codes.md
       - Multiplayer Settings: game/multiplayer-settings.md
-    - Running a Server:
+    - Running a BeamMP-Server:
       - Server Installation: server/create-a-server.md
       - Port Forwarding: server/port-forwarding.md
       - Server Maintenance: server/server-maintenance.md
@@ -370,9 +375,10 @@ nav:
     - How to deactivate my mods?: FAQ/How-to-deactivate-mods.md
     - Manually updating the Launcher: FAQ/Update-launcher.md
     - Changing the Launcher port: FAQ/Change-launcher-port.md
-    - Player FAQ: support/player-faq.md
-    - Game FAQ: support/game-faq.md
-    - Server FAQ: support/server-faq.md
+    - Creating Exclusions (Defender): FAQ/Defender-exclusions.md
+    - Player FAQ: FAQ/player-faq.md
+    - Game FAQ: FAQ/game-faq.md
+    - Server FAQ: FAQ/server-faq.md
   - Development Guides:
     - guides/index.md
     - Development Environment Setup: guides/beammp-dev/beammp-dev.md
