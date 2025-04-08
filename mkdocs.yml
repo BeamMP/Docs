@@ -359,9 +359,9 @@ nav:
   - Support:
     - Playing BeamMP:
       - Installing BeamMP: game/getting-started.md
-      - Error Codes: support/error-codes.md
+      - Error Codes: game/error-codes.md
       - Multiplayer Settings: game/multiplayer-settings.md
-    - Running a Server:
+    - Running a BeamMP-Server:
       - Server Installation: server/create-a-server.md
       - Port Forwarding: server/port-forwarding.md
       - Server Maintenance: server/server-maintenance.md
@@ -376,9 +376,9 @@ nav:
     - Manually updating the Launcher: FAQ/Update-launcher.md
     - Changing the Launcher port: FAQ/Change-launcher-port.md
     - Creating Exclusions (Defender): FAQ/Defender-exclusions.md
-    - Player FAQ: support/player-faq.md
-    - Game FAQ: support/game-faq.md
-    - Server FAQ: support/server-faq.md
+    - Player FAQ: FAQ/player-faq.md
+    - Game FAQ: FAQ/game-faq.md
+    - Server FAQ: FAQ/server-faq.md
   - Development Guides:
     - guides/index.md
     - Development Environment Setup: guides/beammp-dev/beammp-dev.md
