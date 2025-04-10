@@ -264,7 +264,7 @@ IPv6 Support is **NOT** yet implemented.
     
     !!! question "But why has it worked in the past?"
 
-        This is due to the developers of these applications updating their software and implementing changeswhich BeamMP has no control over.
+        This is due to the developers of these applications updating their software and implementing changes which BeamMP has no control over.
         It is up to the developers of these applications to provide support for specific use cases like a BeamMP-Server.
 
 ## Still facing issues?
