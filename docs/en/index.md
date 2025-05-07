@@ -17,7 +17,7 @@ Welcome to the new and improved documentation hub for BeamMP! Whether you're a p
 ## For Players
 
 New to BeamMP? Check out our [Getting Started](../game/getting-started.md) page to help you hit the road running and make the most out of your multiplayer adventures.
-For general questions and issues please check out the [Players FAQ](../support/player-faq.md).
+For general questions and issues please check out the [Players FAQ](../FAQ/player-faq.md).
 
 ## For Server Owners
 
