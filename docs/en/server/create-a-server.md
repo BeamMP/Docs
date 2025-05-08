@@ -47,13 +47,13 @@ The setup consists of the following steps, you should follow all of them.
 * [Snakecraft Hosting](https://schost.us/beammp-plans)
 * [Connect Hosting](https://connecthosting.net/beammp)
 * [Assetto Hosting](https://assettohosting.com/en/games/beamng)
-* [WinHeberg](https://winheberg.fr/offres/gaming/beammp?lang=en)
 * [Zap Hosting](https://zap-hosting.com/en/beammp-server-hosting/)
 * [HostHavoc](https://hosthavoc.com/)
 * [PedalHost](https://pedal.host/)
 * [Vyper Hosting](https://vyperhosting.com/r/beammp)
 * [BisectHosting](https://www.bisecthosting.com/beammp-server-hosting)
 * [Four Seasons Hosting](https://fourseasonshosting.com)
+* [Vertuo Hosting](https://vertuohosting.com)
 
 
 #### 1.1 Firewall
