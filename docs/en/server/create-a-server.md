@@ -44,7 +44,7 @@ The setup consists of the following steps, you should follow all of them.
 #### Partnered Hosting Services (paid):
 
 * [Horizon Hosting](https://hrzn.link/beammp)
-* [Snakecraft Hosting](https://schost.us/beammp-plans)
+* [RackGenius](https://rackgeni.us/beammp-plans)
 * [Connect Hosting](https://connecthosting.net/beammp)
 * [Assetto Hosting](https://assettohosting.com/en/games/beamng)
 * [Zap Hosting](https://zap-hosting.com/en/beammp-server-hosting/)
