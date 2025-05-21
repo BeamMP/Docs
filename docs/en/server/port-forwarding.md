@@ -198,6 +198,9 @@ Find the port forwarding section in your router web interface. Navigate around i
 - Port Range Forwarding
 - Virtual Servers
 - Apps & Gaming
+- Advanced Setup/Settings
+- NAT
+  
 #### 3.2. Enter in the details
 
 Once you find your router's port forwarding section, you are ready to enter the necessary information.
