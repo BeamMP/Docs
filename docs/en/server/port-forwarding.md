@@ -198,6 +198,9 @@ Find the port forwarding section in your router web interface. Navigate around i
 - Port Range Forwarding
 - Virtual Servers
 - Apps & Gaming
+- Advanced Setup/Settings
+- NAT
+  
 #### 3.2. Enter in the details
 
 Once you find your router's port forwarding section, you are ready to enter the necessary information.
@@ -221,27 +224,21 @@ Most routers have a 'save' button, and some routers require a restart or reboot 
 
 There are a few different ways to test the connection.
 
-Our recommend way is to use a tool called [Probably Up](https://probablyup.net/api) as this tests for BeamMP specific issues and protocols.
+Our recommend way is to use a tool called **CheckBeamMP** as this tests for BeamMP specific issues and protocols.
 
 This can be done by getting your public IPv4 Address, this once again can be done in a few different ways. The main way is to use a website called [whatsmyip.org](https://whatsmyip.org/). This is a simple website which displays your public IP Address. You should be looking for an IP address with the formatting: xxx.xxx.xxx.xxx
 
-<figure class="image image_resized" style="width:62%;" markdown>
-  ![](../../assets/content/probably-up.png)
-</figure>
+Visit the following Link and replace "IP" with your actual IPv4 address, and the "Port" with your servers port. Be sure to leave no spaces.
+https://check.beammp.com/api/v2/beammp/ip/port
 
-Once you have entered in the information required, click on Run test and it should put out something like this:
-
-<figure class="image image_resized" style="width:62%;" markdown>
-  ![](../../assets/content/probably-up-sucessful.png)
-</figure>
-
-!!! success "Success! Server is reachable via TCP and UDP"
+!!! success "status:ok"
 
       If you get the output above you can now join your server!
       There are 2 ways to join, either directly with the details you entered into Probably UP, or, if your server is set to 'public', through the server-list.
       Since you are hosting a server on-premise, use 127.0.0.1 (localhost) if the Server is running on the same PC as you play, or the LAN IPv4 of the local machine that is running the server.
 
-!!! failure "The connection timed out or got refused"
+!!! failure "status:error"
 
-      Your ISP could be using CGNAT (Carrier Grade Network Address Translation). For more details, please check [How to check for CGNAT?](../FAQ/How-to-check-for-CGNAT.md)
+      If the connection fails entirely, your ISP could be using CGNAT (Carrier Grade Network Address Translation). For more details, please check [How to check for CGNAT?](../FAQ/How-to-check-for-CGNAT.md)
       , or open a Server Support ticket on our [Discord server](https://discord.gg/beammp) in the `#support` channel and one of our staff will get to your ticket!
+      Should you only see TCP working and UDP failing, check Firewall and Port forwarding rules again.
