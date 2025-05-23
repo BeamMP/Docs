@@ -40,8 +40,6 @@ Das Aufsetzen besteht aus folgenden Schritten. Du solltest alle davon durchgehen
         Wir übernehmen keine Haftung für jegliche extern gelinkten Dienste oder Webseiten.
         *Sieh dir [diese Anleitung zum Port weiterleiten](port-forwarding.md) an*
 
-*Siehe [Anleitung zur Port Weiterleitung](port-forwarding.md)*
-
 #### Partner Hosting Services (bezahlt):
 
 * [Horizon Hosting](https://hrzn.link/beammp)
@@ -97,10 +95,6 @@ Als nächstes, fülle das Feld für den Servernamen (das ist lediglich der Name 
 es sollte am Ende wie folgt aussehen:
 
 <figure markdown>![](../../assets/content/keymaster_key_done.png)</figure>
-
-**GEBE DIESEN SCHLÜSSEL NIEMALS AN ANDERE WEITER UND ZEIGE IHN AUCH NIEMANDEM. BEHANDLE IHN WIE EIN PASSWORT.**
-
-Du hast die Möglichkeit, zwei kostenlose Schlüssel zu erstellen. Ein Schlüssel kann jeweils nur auf einem aktiven Server gleichzeitig verwendet werden. Du kannst also nicht zwei Server gleichzeitig mit demselben Schlüssel betreiben.
 
 #### 2.4. Den Schlüssel kopieren
 
