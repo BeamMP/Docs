@@ -44,16 +44,17 @@ Das Aufsetzen besteht aus folgenden Schritten. Du solltest alle davon durchgehen
 
 #### Partner Hosting Services (bezahlt):
 
-- [Horizon Hosting](https://hrzn.link/beammp)
-- [Snakecraft Hosting](https://schost.us/beammp-plans)
-- [Connect Hosting](https://connecthosting.net/beammp)
-- [Assetto Hosting](https://assettohosting.com/en/games/beamng)
-- [WinHeberg](https://winheberg.fr/offres/gaming/beammp?lang=en)
-- [Zap Hosting](https://zap-hosting.com/en/beammp-server-hosting/)
-- [HostHavoc](https://hosthavoc.com/)
-- [PedalHost](https://pedal.host/)
-- [Vyper Hosting](https://vyperhosting.com/r/beammp)
-- [BisectHosting](https://www.bisecthosting.com/)
+* [Horizon Hosting](https://hrzn.link/beammp)
+* [RackGenius](https://rackgeni.us/beammp-plans)
+* [Connect Hosting](https://connecthosting.net/beammp)
+* [Assetto Hosting](https://assettohosting.com/en/games/beamng)
+* [Zap Hosting](https://zap-hosting.com/en/beammp-server-hosting/)
+* [HostHavoc](https://hosthavoc.com/)
+* [PedalHost](https://pedal.host/)
+* [Vyper Hosting](https://vyperhosting.com/r/beammp)
+* [BisectHosting](https://www.bisecthosting.com/beammp-server-hosting)
+* [Four Seasons Hosting](https://fourseasonshosting.com)
+* [Vertuo Hosting](https://vertuohosting.com)
 
 #### 1.1 Firewall
 
@@ -66,6 +67,12 @@ Solltest du Probleme haben, frage auf unserem [Forum](https://forum.beammp.com) 
 ### 2. Authentifizierungsschlüssel
 
 Der Authentifizierungsschlüssel, auch “Authentication Key” oder “AuthKey” genannt, ist nötig, um einen Öffentlichen Server zu erstellen. Für einen privaten Server benötigst du nicht zwingend einen offiziellen Schlüssel, jedoch darf das Feld in der Konfigurationsdatei nicht leer gelassen werden.
+Du hast eine limitierte Anzahl an Schlüssel. Ein Schlüssel kann nur für einen Server auf einmal verwendet werden, also kannst du nicht 2 Server mitdemselben Schlüssel starten.
+Mehr Schlüssel können durch das Unterstützen des Projektes erworben werden. Lies [diesen Artikel](https://docs.beammp.com/support/player-faq/) für mehr Informationen.
+
+!!! warning
+
+    TEILE ODER ZEIGE DEN SCHLÜSSEL NICHT. BEHANDLE IHN WIE EIN PASSWORT.
 
 Um einen Schlüssel zu erwerben ist ein [Discord](https://discord.com) Konto erforderlich. Das ist wichtig um gegen Spam zu schützen.
 
