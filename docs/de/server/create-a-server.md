@@ -79,33 +79,33 @@ Um einen Schlüssel zu erwerben ist ein [Discord](https://discord.com) Konto erf
 Melde dich mit Discord beim [Keymaster](https://beammp.com/keymaster) an. Klicke auf der Keymaster-Homepage links auf dem Bildschirm auf „Keys“:
 
 
-<figure markdown="">![](../../assets/content/keymaster_homepage.png)</figure>
+<figure markdown>![](../../assets/content/keymaster_homepage.png)</figure>
 
 #### 2.2. Einen Schlüssel erstellen
 
 Um einen Schlüssel zu erstellen, klicke das grüne ,,+" oben rechts.
 
 
-<figure markdown="">![](../../assets/content/keymaster_new_key.png)</figure>
+<figure markdown>![](../../assets/content/keymaster_new_key.png)</figure>
 
 #### 2.3. Schlüssel-Informationen eingeben
 
 Als nächstes, fülle das Feld für den Servernamen (das ist lediglich der Name des Schlüssels, nicht der Name vom Server in der Liste), dann klick ,,Create".<br>Beispiel:
 
 
-<figure class="image image_resized" style="width:44.84%;" markdown="">![](../../assets/content/keymaster_server_name.png)</figure>
+<figure class="image image_resized" style="width:44.84%;" markdown>![](../../assets/content/keymaster_server_name.png)</figure>
 
 es sollte am Ende wie folgt aussehen:
 
 
-<figure markdown="">![](../../assets/content/keymaster_key_done.png)</figure>
+<figure markdown>![](../../assets/content/keymaster_key_done.png)</figure>
 
 #### 2.4. Den Schlüssel kopieren
 
 Kopiere den Text im “Key” Feld. In diesem Beispiel wäre das  `3173a2e-6az0-4542-a3p0-ddqq5ff95558`. Klicke das ,,Klemmbrett Symbol" neben dem Schlüssel um diesen zu kopieren.
 
 
-<figure markdown="">![](../../assets/content/keymaster_copy_key.png)</figure>
+<figure markdown>![](../../assets/content/keymaster_copy_key.png)</figure>
 
 ### **3. Installation**
 
@@ -152,7 +152,7 @@ Führe zum Abschluss den Server unbedingt einmal mit `./BeamMP-Server` aus und f
 Nachdem der Server einmal gestartet wurde, sollte er die nötigen Dateien erstellt haben und einen oder zwei Fehler in die Konsole schreiben. Das ist normal, da wir noch nicht fertig sind.<br>Es sollten nun folgende Dateien vorhanden sein:
 
 
-<figure markdown="">![](../../assets/content/after-running-once.png)</figure>
+<figure markdown>![](../../assets/content/after-running-once.png)</figure>
 
 Genannt ,,ServerConfig.toml”, ,,Server.log” und ,,BeamMP-Server.exe”! (Je nach deinen Einstellungen, siehst du möglicherweise die [.toml] [.log] [.exe] Erweiterungen nicht)
 
