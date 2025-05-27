@@ -28,19 +28,20 @@ Das Aufsetzen besteht aus folgenden Schritten. Du solltest alle davon durchgehen
 
 !!! info
 
-      Wenn du auf einem VPS (Virtual Private Server), Rotoserver bist, oder planst einen Server lokal zu hosten (mit Spielern im selben Haus wie du), kannst du diesen Schritt überspringen.
-      Dieser Schritt ist jedoch notwendig, wenn Spieler **außerhalb** deines Haushaltes deinem heim-gehosteten Server beitreten sollen (außerhalb von deinem lokalen Netzwerk)
+    Wenn du auf einem VPS (Virtual Private Server), Rotoserver bist, oder planst einen Server lokal zu hosten (mit Spielern im selben Haus wie du), kannst du diesen Schritt überspringen.
+    Dieser Schritt ist jedoch notwendig, wenn Spieler **außerhalb** deines Haushaltes deinem heim-gehosteten Server beitreten sollen (außerhalb von deinem lokalen Netzwerk)
 
-      !!! danger ":material-scale-balance: ACHTUNG:"
+    !!! danger ":material-scale-balance: ACHTUNG:"
 
-            **Port forwarding ist ein Risiko**.
+        **Port forwarding ist ein Risiko**.
 
-            Wenn du Ports weiterleitest, sind dir die Risiken beim öffnen von Ports von deinem Heimnetz ins öffentliche Netz bewusst und verlierst das Recht, BeamMP für **jegliche Schäden**, welche deinem Haushalt passieren könnten, Haften zu lassen.
+        Wenn du Ports weiterleitest, sind dir die Risiken beim öffnen von Ports von deinem Heimnetz ins öffentliche Netz bewusst und verlierst das Recht, BeamMP für **jegliche Schäden**, welche deinem Haushalt passieren könnten, Haften zu lassen.
 
-            Wir übernehmen keine Haftung für jegliche extern gelinkten Dienste oder Webseiten.
+        Wir übernehmen keine Haftung für jegliche extern gelinkten Dienste oder Webseiten.
 
-      Es wird daher empfohlen, BeamMP Server mit einen unserer Partner Hosting Services zu hosten. 
-      *Sieh dir [diese Anleitung zum Port weiterleiten](port-forwarding.md) an*
+    Es wird daher empfohlen, BeamMP Server mit einen unserer Partner Hosting Services zu hosten. 
+
+    *Sieh dir [diese Anleitung zum Port weiterleiten](port-forwarding.md) an*
 
 #### Partner Hosting Services (bezahlt):
 
@@ -248,12 +249,12 @@ Sollten du oder deine Freunde einen ,,Verbindung Fehlgeschlagen!" Fehler bekomme
 
 !!! warning "Ich möchte einen VPN wie RadminVPN, Hamachi oder ähnlich verwenden"
 
-      BeamMP unterstützt diese VPNs nicht, weil diese oft Probleme verursachen. Eines davon ist das blockieren von UDP Verkehr. Um dies zu beheben, siehe Sektion 1.
+    BeamMP unterstützt diese VPNs nicht, weil diese oft Probleme verursachen. Eines davon ist das blockieren von UDP Verkehr. Um dies zu beheben, siehe Sektion 1.
     
-      !!! question "Aber warum hat es vorher funktioniert?"
+    !!! question "Aber warum hat es vorher funktioniert?"
       
-            Das passiert, weil die Entwickler dieser Applikationen updaten und Änderungen implementiere, über welche BeamMP keine Kontroll hat.
-            Es liegt an den Entwicklern diesen Applikationen, um Support für spezifische Fälle wie eines BeamMP-Servers zu unterstützen.
+        Das passiert, weil die Entwickler dieser Applikationen updaten und Änderungen implementiere, über welche BeamMP keine Kontroll hat.
+        Es liegt an den Entwicklern diesen Applikationen, um Support für spezifische Fälle wie eines BeamMP-Servers zu unterstützen.
 
 ## Immer noch Probleme?
 
