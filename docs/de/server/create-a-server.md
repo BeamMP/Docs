@@ -33,11 +33,11 @@ Das Aufsetzen besteht aus folgenden Schritten. Du solltest alle davon durchgehen
 
       !!! danger ":material-scale-balance: ACHTUNG:"
 
-         **Port forwarding ist ein Risiko**.
+            **Port forwarding ist ein Risiko**.
 
-         Wenn du Ports weiterleitest, sind dir die Risiken beim öffnen von Ports von deinem Heimnetz ins öffentliche Netz bewusst und verlierst das Recht, BeamMP für **jegliche Schäden**, welche deinem Haushalt passieren könnten, Haften zu lassen.
+            Wenn du Ports weiterleitest, sind dir die Risiken beim öffnen von Ports von deinem Heimnetz ins öffentliche Netz bewusst und verlierst das Recht, BeamMP für **jegliche Schäden**, welche deinem Haushalt passieren könnten, Haften zu lassen.
 
-         Wir übernehmen keine Haftung für jegliche extern gelinkten Dienste oder Webseiten.
+            Wir übernehmen keine Haftung für jegliche extern gelinkten Dienste oder Webseiten.
 
       Es wird daher empfohlen, BeamMP Server mit einen unserer Partner Hosting Services zu hosten. 
       *Sieh dir [diese Anleitung zum Port weiterleiten](port-forwarding.md) an*
@@ -68,9 +68,9 @@ Solltest du Probleme haben, frage auf unserem [Forum](https://forum.beammp.com) 
 
 Der Authentifizierungsschlüssel, auch “Authentication Key” oder “AuthKey” genannt, ist nötig, um einen Öffentlichen Server zu erstellen. Für einen privaten Server benötigst du nicht zwingend einen offiziellen Schlüssel, jedoch darf das Feld in der Konfigurationsdatei nicht leer gelassen werden. Du hast eine limitierte Anzahl an Schlüssel. Ein Schlüssel kann nur für einen Server auf einmal verwendet werden, also kannst du nicht 2 Server mitdemselben Schlüssel starten. Mehr Schlüssel können durch das Unterstützen des Projektes erworben werden. Lies [diesen Artikel](https://docs.beammp.com/support/player-faq/) für mehr Informationen.
 
-!!! warning
+!!! warning "WARNUNG"
 
-TEILE ODER ZEIGE DEN SCHLÜSSEL NICHT. BEHANDLE IHN WIE EIN PASSWORT.
+      TEILE ODER ZEIGE DEN SCHLÜSSEL NICHT. BEHANDLE IHN WIE EIN PASSWORT.
 
 Um einen Schlüssel zu erwerben ist ein [Discord](https://discord.com) Konto erforderlich. Das ist wichtig um gegen Spam zu schützen.
 
@@ -190,9 +190,7 @@ Wenn du einen anderen **Port** als **30814** ausgewählt hast, achte darauf, ihn
 
 !!! info
 
-```
-Dein Server wird **NICHT** in der Serverliste aufscheinen, solange `Private = true` ist. _Wenn_ du ihn gelistet haben willst, stell den Parameter auf **`Private = false`**.
-```
+      Dein Server wird **NICHT** in der Serverliste aufscheinen, solange `Private = true` ist. _Wenn_ du ihn gelistet haben willst, stell den Parameter auf **`Private = false`**.
 
 ### **5. Validierung**
 
@@ -253,7 +251,7 @@ Sollten du oder deine Freunde einen ,,Verbindung Fehlgeschlagen!" Fehler bekomme
       BeamMP unterstützt diese VPNs nicht, weil diese oft Probleme verursachen. Eines davon ist das blockieren von UDP Verkehr. Um dies zu beheben, siehe Sektion 1.
     
       !!! question "Aber warum hat es vorher funktioniert?"
-
+      
             Das passiert, weil die Entwickler dieser Applikationen updaten und Änderungen implementiere, über welche BeamMP keine Kontroll hat.
             Es liegt an den Entwicklern diesen Applikationen, um Support für spezifische Fälle wie eines BeamMP-Servers zu unterstützen.
 
