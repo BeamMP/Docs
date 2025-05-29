@@ -24,55 +24,53 @@ Achtung: Der Server unterstützt nur IPv4 . Wenn du dir nicht sicher bist, welch
 
 Das Aufsetzen besteht aus folgenden Schritten. Du solltest alle davon durchgehen.
 
-### 1. Port Weiterleitung
+### **1. Port Weiterleitung**
 
 !!! info
 
-    Wenn du auf einem VPS (Virtual Private Server), Rotoserver bist, oder planst einen Server lokal zu hosten (mit Spielern im selben Haus wie du), kannst du diesen Schritt überspringen.
-    Dieser Schritt ist jedoch notwendig, wenn Spieler **außerhalb** deines Haushaltes deinem heim-gehosteten Server beitreten sollen (außerhalb von deinem lokalen Netzwerk)
+      Wenn du auf einem VPS (Virtual Private Server), Rotoserver bist, oder planst einen Server lokal zu hosten (mit Spielern im selben Haus wie du), kannst du diesen Schritt überspringen.
+      Dieser Schritt ist jedoch notwendig, wenn Spieler **außerhalb** deines Haushaltes deinem heim-gehosteten Server beitreten sollen (außerhalb von deinem lokalen Netzwerk)
 
-    !!! danger ":material-scale-balance: ACHTUNG:"
+      !!! danger ":material-scale-balance: ACHTUNG:"
 
-        **Port forwarding ist ein Risiko**.
+         **Port forwarding ist ein Risiko**.
 
-        Wenn du Ports weiterleitest, sind dir die Risiken beim öffnen von Ports von deinem Heimnetz ins öffentliche Netz bewusst und verlierst das Recht, BeamMP für **jegliche Schäden**, welche deinem Haushalt passieren könnten, Haften zu lassen.
+         Wenn du Ports weiterleitest, sind dir die Risiken beim öffnen von Ports von deinem Heimnetz ins öffentliche Netz bewusst und verlierst das Recht, BeamMP für **jegliche Schäden**, welche deinem Haushalt passieren könnten, Haften zu lassen.
 
-        Wir übernehmen keine Haftung für jegliche extern gelinkten Dienste oder Webseiten.
-        *Sieh dir [diese Anleitung zum Port weiterleiten](port-forwarding.md) an*
+         Wir übernehmen keine Haftung für jegliche extern gelinkten Dienste oder Webseiten.
 
-*Siehe [Anleitung zur Port Weiterleitung](port-forwarding.md)*
+      Es wird daher empfohlen, BeamMP Server mit einen unserer Partner Hosting Services zu hosten. 
+      *Sieh dir [diese Anleitung zum Port weiterleiten](port-forwarding.md) an*
 
 #### Partner Hosting Services (bezahlt):
 
-* [Horizon Hosting](https://hrzn.link/beammp)
-* [RackGenius](https://rackgeni.us/beammp-plans)
-* [Connect Hosting](https://connecthosting.net/beammp)
-* [Assetto Hosting](https://assettohosting.com/en/games/beamng)
-* [Zap Hosting](https://zap-hosting.com/en/beammp-server-hosting/)
-* [HostHavoc](https://hosthavoc.com/)
-* [PedalHost](https://pedal.host/)
-* [Vyper Hosting](https://vyperhosting.com/r/beammp)
-* [BisectHosting](https://www.bisecthosting.com/beammp-server-hosting)
-* [Four Seasons Hosting](https://fourseasonshosting.com)
-* [Vertuo Hosting](https://vertuohosting.com)
+- [Horizon Hosting](https://hrzn.link/beammp)
+- [RackGenius](https://rackgeni.us/beammp-plans)
+- [Connect Hosting](https://connecthosting.net/beammp)
+- [Assetto Hosting](https://assettohosting.com/en/games/beamng)
+- [Zap Hosting](https://zap-hosting.com/en/beammp-server-hosting/)
+- [HostHavoc](https://hosthavoc.com/)
+- [PedalHost](https://pedal.host/)
+- [Vyper Hosting](https://vyperhosting.com/r/beammp)
+- [BisectHosting](https://www.bisecthosting.com/beammp-server-hosting)
+- [Four Seasons Hosting](https://fourseasonshosting.com)
+- [Vertuo Hosting](https://vertuohosting.com)
 
 #### 1.1 Firewall
 
-Abhängig von deinem Setup, muss in der Firewall eine Ausnahme für den BeamMP-Server erstellt werden. Dies ist der Fall bei Windows (das ausschalten der Firewall funktioniert meistens **nicht**) und auf vielen vorinstallierten Linux Servern.
+Abhängig von deinem Setup musst du den BeamMP-Server möglicherweise durch die Firewall lassen. Dies ist unter Windows der Fall (das Ausschalten der Firewall funktioniert in der Regel **nicht** ) und auf vielen vorinstallierten Linux-Servern.
 
-Sowohl Ein- als auch Ausgehende Verbindungen auf **TCP** und **UDP** müssen als Firewall-Regel für die Anwendung BeamMP-Server.exe freigegeben werden. Wenn deine Firewall stattdessen nach einem Port fragt, muss dies derselbe Port sein, den du in Schritt „1. Portweiterleitung“ verwendet hast (Standard ist 30814).
+Dort lässt du den BeamMP-Server durch die Firewall, **sowohl eingehende als auch ausgehende Verbindungen** sowie **TCP und UDP** . Falls die Firewall stattdessen nach einem Port fragt, muss dieser derselbe sein, den du in Schritt „1. Portweiterleitung“ verwendet hast (standartmäßig 30814).
 
 Solltest du Probleme haben, frage auf unserem [Forum](https://forum.beammp.com) oder auf unserem [Discord server](https://discord.gg/beammp) im `#support` Kanal.
 
-### 2. Authentifizierungsschlüssel
+### **2. Authentifizierungsschlüssel**
 
-Der Authentifizierungsschlüssel, auch “Authentication Key” oder “AuthKey” genannt, ist nötig, um einen Öffentlichen Server zu erstellen. Für einen privaten Server benötigst du nicht zwingend einen offiziellen Schlüssel, jedoch darf das Feld in der Konfigurationsdatei nicht leer gelassen werden.
-Du hast eine limitierte Anzahl an Schlüssel. Ein Schlüssel kann nur für einen Server auf einmal verwendet werden, also kannst du nicht 2 Server mitdemselben Schlüssel starten.
-Mehr Schlüssel können durch das Unterstützen des Projektes erworben werden. Lies [diesen Artikel](https://docs.beammp.com/support/player-faq/) für mehr Informationen.
+Der Authentifizierungsschlüssel, auch “Authentication Key” oder “AuthKey” genannt, ist nötig, um einen Öffentlichen Server zu erstellen. Für einen privaten Server benötigst du nicht zwingend einen offiziellen Schlüssel, jedoch darf das Feld in der Konfigurationsdatei nicht leer gelassen werden. Du hast eine limitierte Anzahl an Schlüssel. Ein Schlüssel kann nur für einen Server auf einmal verwendet werden, also kannst du nicht 2 Server mitdemselben Schlüssel starten. Mehr Schlüssel können durch das Unterstützen des Projektes erworben werden. Lies [diesen Artikel](https://docs.beammp.com/support/player-faq/) für mehr Informationen.
 
 !!! warning
 
-    TEILE ODER ZEIGE DEN SCHLÜSSEL NICHT. BEHANDLE IHN WIE EIN PASSWORT.
+TEILE ODER ZEIGE DEN SCHLÜSSEL NICHT. BEHANDLE IHN WIE EIN PASSWORT.
 
 Um einen Schlüssel zu erwerben ist ein [Discord](https://discord.com) Konto erforderlich. Das ist wichtig um gegen Spam zu schützen.
 
@@ -80,35 +78,36 @@ Um einen Schlüssel zu erwerben ist ein [Discord](https://discord.com) Konto erf
 
 Melde dich mit Discord beim [Keymaster](https://beammp.com/keymaster) an. Klicke auf der Keymaster-Homepage links auf dem Bildschirm auf „Keys“:
 
-<figure markdown>![](../../assets/content/keymaster_homepage.png)</figure>
+
+<figure markdown="">![](../../assets/content/keymaster_homepage.png)</figure>
 
 #### 2.2. Einen Schlüssel erstellen
 
 Um einen Schlüssel zu erstellen, klicke das grüne ,,+" oben rechts.
 
-<figure markdown>![](../../assets/content/keymaster_new_key.png)</figure>
+
+<figure markdown="">![](../../assets/content/keymaster_new_key.png)</figure>
 
 #### 2.3. Schlüssel-Informationen eingeben
 
 Als nächstes, fülle das Feld für den Servernamen (das ist lediglich der Name des Schlüssels, nicht der Name vom Server in der Liste), dann klick ,,Create".<br>Beispiel:
 
-<figure class="image image_resized" style="width:44.84%;" markdown>![](../../assets/content/keymaster_server_name.png)</figure>
+
+<figure class="image image_resized" style="width:44.84%;" markdown="">![](../../assets/content/keymaster_server_name.png)</figure>
 
 es sollte am Ende wie folgt aussehen:
 
-<figure markdown>![](../../assets/content/keymaster_key_done.png)</figure>
 
-**GEBE DIESEN SCHLÜSSEL NIEMALS AN ANDERE WEITER UND ZEIGE IHN AUCH NIEMANDEM. BEHANDLE IHN WIE EIN PASSWORT.**
-
-Du hast die Möglichkeit, zwei kostenlose Schlüssel zu erstellen. Ein Schlüssel kann jeweils nur auf einem aktiven Server gleichzeitig verwendet werden. Du kannst also nicht zwei Server gleichzeitig mit demselben Schlüssel betreiben.
+<figure markdown="">![](../../assets/content/keymaster_key_done.png)</figure>
 
 #### 2.4. Den Schlüssel kopieren
 
 Kopiere den Text im “Key” Feld. In diesem Beispiel wäre das  `3173a2e-6az0-4542-a3p0-ddqq5ff95558`. Klicke das ,,Klemmbrett Symbol" neben dem Schlüssel um diesen zu kopieren.
 
-<figure markdown>![](../../assets/content/keymaster_copy_key.png)</figure>
 
-### 3. Installation
+<figure markdown="">![](../../assets/content/keymaster_copy_key.png)</figure>
+
+### **3. Installation**
 
 Es gibt Server-Anwendungen für Windows und Linux. Die folgenden zwei Abschnitte widmen sich Windows und Linux separat.
 
@@ -124,7 +123,7 @@ Sei sicher, dass du die nötigen Ports weitergeleitet hast. Ansonsten kann niema
 4. Mittels Doppelklick startet man den Server. Beim ersten Start erstellt der Server automatisch die benötigten Dateien, im anschluss schliesst sich das Serverfenster von selbst. Nun solltes du die `ServerConfig.toml` neben dem `BeamMP-Server.exe` sehen.
 5. (optional) Für schnellen Zugriff kannst du eine Desktop Verknüpfung zu `BeamMP-Server.exe` erstellen mittels **[Rechtsklick]** &gt; **Senden zu** &gt; **Desktop (erstelle Verknüpfung).**
 
-Nun springe zu Schritt "4. Konfiguration".
+Nun springe zu Schritt ,,4. Konfiguration".
 
 #### 3.b. Installation auf Linux
 
@@ -148,11 +147,12 @@ Andere Distributionen zusätzlich zu denen, für die es [hier](https://github.co
 
 Führe zum Abschluss den Server unbedingt einmal mit `./BeamMP-Server` aus und fahre dann mit dem nächsten Schritt fort.
 
-### 4. Konfiguration
+### **4. Konfiguration**
 
 Nachdem der Server einmal gestartet wurde, sollte er die nötigen Dateien erstellt haben und einen oder zwei Fehler in die Konsole schreiben. Das ist normal, da wir noch nicht fertig sind.<br>Es sollten nun folgende Dateien vorhanden sein:
 
-<figure markdown>![](../../assets/content/after-running-once.png)</figure>
+
+<figure markdown="">![](../../assets/content/after-running-once.png)</figure>
 
 Genannt ,,ServerConfig.toml”, ,,Server.log” und ,,BeamMP-Server.exe”! (Je nach deinen Einstellungen, siehst du möglicherweise die [.toml] [.log] [.exe] Erweiterungen nicht)
 
@@ -174,7 +174,7 @@ Private = false
 ResourceFolder = 'Resources'
 ```
 
-Das ist die Konfigurationsdatei. Sie nutzt das sogenannte ,,TOML" Format. Siehe die [Server Wartung](server-maintenance.md) Sektion für weitere Informationen bezüglich dieser Datei.
+Dies ist deine Konfigurationsdatei. Diese verwendet das Format TOML. Weitere Informationen zu dieser Datei findest du im Abschnitt [Serverwartung](server-maintenance.md) .
 
 Als erstes kümmern wir uns um den `AuthKey`. Dazu muss der Schlüssel zwischen die Anführungszeichen `" "` eingefügt werden.
 
@@ -190,9 +190,11 @@ Wenn du einen anderen **Port** als **30814** ausgewählt hast, achte darauf, ihn
 
 !!! info
 
-    Dein Server wird **NICHT** in der Serverliste aufscheinen, solange `Private = true` ist. _Wenn_ du ihn gelistet haben willst, stell den Parameter auf **`Private = false`**.
+```
+Dein Server wird **NICHT** in der Serverliste aufscheinen, solange `Private = true` ist. _Wenn_ du ihn gelistet haben willst, stell den Parameter auf **`Private = false`**.
+```
 
-### 5. Validierung
+### **5. Validierung**
 
 Nun führe den Server erneut aus und sieh nach, ob weitere `[ERROR]` oder `[WARN]` Meldungen erscheinen. Der Server sollte nun offen bleiben. In den folgenden Schritten (6.) erfährst du, wie man dem Server beitretet.
 
@@ -208,7 +210,7 @@ Wenn du nur modifizierte Fahrzeuge hinzufügen möchtest, lege die Zip-Datei der
 
 #### 5.3 Karten
 
-Alle originalen BeamNG.Drive Karten (Karten, die keine Mods sind) funktionieren ohne dass die Karte auf den Server kopiert werden muss. Du änderst einfach den `Map` Pfad in der `ServerConfig.toml` Datei auf eine von [diesen](server-maintenance.md#all-vanilla-maps-names). Für andere Mod Karten, siehe folgende Instruktionen.
+Alle Standardkarten (Karten, die keine Mods sind) funktionieren sofort und müssen nicht installiert werden. Ändere einfach die `Map` in der `ServerConfig.toml` Datei auf eine der [folgenden Optionen](server-maintenance.md#all-vanilla-maps-names) . Für alle anderen modifizierten Karten geht man wie folgt vor:
 
 1. Legen die `.zip` Datei der Karte in den Ordner `Resources/Client` des Servers.
 2. Sieh dir als Nächstes in die Zip-Datei der Karte (entpacke sie nicht) und öffne den Ordner „ `levels` “. In diesem Ordner sollte sich lediglich ein weiterer Ordner mit dem Namen der Karte befinden, zum Beispiel „myawesomedriftmap2021“. Achte darauf, diesen Namen *genau so zu kopieren oder zu merken, wie er im Namen dieses Ordners geschrieben ist.*
@@ -224,7 +226,7 @@ Wenn jemand deinem Server beitritt, sollte die Karte automatisch heruntergeladen
 
 Das wärs! Die modifizierte Karte sollte jetzt geladen werden!
 
-### 6. Wie du deinem Server beitrittst
+### **6. Wie du deinem Server beitrittst**
 
 Wie du und andere Spieler deinem Server beitreten können.
 
@@ -248,12 +250,12 @@ Sollten du oder deine Freunde einen ,,Verbindung Fehlgeschlagen!" Fehler bekomme
 
 !!! warning "Ich möchte einen VPN wie RadminVPN, Hamachi oder ähnlich verwenden"
 
-    BeamMP unterstützt diese VPNs nicht, weil diese oft Probleme verursachen. Eines davon ist das blockieren von UDP Verkehr. Um dies zu beheben, siehe Sektion 1.
-        
-    !!! question "Aber warum hat es vorher funktioniert?"
+      BeamMP unterstützt diese VPNs nicht, weil diese oft Probleme verursachen. Eines davon ist das blockieren von UDP Verkehr. Um dies zu beheben, siehe Sektion 1.
+    
+      !!! question "Aber warum hat es vorher funktioniert?"
 
-        Das passiert, weil die Entwickler dieser Applikationen updaten und Änderungen implementiere, über welche BeamMP keine Kontroll hat.
-        Es liegt an den Entwicklern diesen Applikationen, um Support für spezifische Fälle wie eines BeamMP-Servers zu unterstützen.
+            Das passiert, weil die Entwickler dieser Applikationen updaten und Änderungen implementiere, über welche BeamMP keine Kontroll hat.
+            Es liegt an den Entwicklern diesen Applikationen, um Support für spezifische Fälle wie eines BeamMP-Servers zu unterstützen.
 
 ## Immer noch Probleme?
 
