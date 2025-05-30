@@ -5,11 +5,13 @@ hide:
 
 !!! warning "Diese Seite befindet sich im Aufbau!"
 
-    Diese Seite steht unter aktiver Bearbeitung.
+```
+Diese Seite steht unter aktiver Bearbeitung.
 
-    Denkst du, dass du helfen könntest? Das kannst du tun, indem du auf das Editier Symbol auf der rechten Seite klickst!
+Denkst du, dass du helfen könntest? Das kannst du tun, indem du auf das Editier Symbol auf der rechten Seite klickst!
 
-    Das trifft auch auf alle anderen Seiten zu.
+Das trifft auch auf alle anderen Seiten zu.
+```
 
 # Willkommen bei BeamMP Docs! :tada:
 
@@ -17,7 +19,7 @@ Willkommen im neuen und verbesserten Dokumentationszentrum für BeamMP! Egal, ob
 
 ## Für Spieler
 
-Neu bei BeamMP? Schau dir unsere [Einstiegshilfe](../game/getting-started.md) an, um dir den Einstieg zu erleichtern und das Beste aus deinen Mehrspielerabenteuern herauszuholen.
+Neu bei BeamMP? Schau dir unsere [Erste Schritte](../game/getting-started.md) -Seite an, um sofort loszulegen und das Beste aus deinen Multiplayer-Abenteuern herauszuholen. Bei allgemeinen Fragen und Problemen schau dir bitte die [Spieler-FAQ](../FAQ/player-faq.md) an.
 
 ## Für Serverbesitzer
 
