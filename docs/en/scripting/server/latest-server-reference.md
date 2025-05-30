@@ -1171,14 +1171,14 @@ Triggered when a player sends a chat message. When cancelled, it will not show t
 Arguments: `player_id: number`, `vehicle_id: number`, `data: string`
 Cancellable: YES
 
-Triggered when a player spawns a new vehicle. The `data` argument contains the car's config as json. When cancelled, the car is not spawned.
+Triggered when a player spawns a new vehicle. The `data` argument contains the car's configuration and positional/rotational data for the vehicle as a json string.
 
 ##### `onVehicleEdited`
 
 Arguments: `player_id: number`, `vehicle_id: number`, `data: string`
 Cancellable: YES
 
-Triggered when a player edits their vehicle and applies the edit. The `data` argument contains the car's change config as json. When cancelled, the edit is not applied.
+Triggered when a player edits their vehicle and applies the edit. The `data` argument contains the car's updated configuration as a json string but does **not** include positional or rotational data.
 
 ##### `onVehicleDeleted`
 
@@ -1192,7 +1192,7 @@ Triggered when a player deletes their vehicle.
 Arguments: `player_id: number`, `vehicle_id: number`, `data: string`
 Cancellable: NO
 
-Triggered when a player resets their vehicle. `data` is the car's data as json.
+Triggered when a player resets their vehicle. `data` is the car's updated position and rotation however does **not** include the vehicles configuration.
 
 ##### `onFileChanged`
 
