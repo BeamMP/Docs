@@ -4,13 +4,11 @@ In BeamMP stellt der Server, mit dem du dich verbindest, die notwendigen Mods be
 
 !!! warning
 
-```
-Entferne alle Mods, die du im Ordner BeamNG.Drive\content\ oder in Unterordnern abgelegt hast. Dieser Speicherort ist NICHT für die Installation von Mods vorgesehen und kann zu Problemen führen, wie in der Datei `DO_NOT_INSTALL_MODS_HERE.txt` im selben Verzeichnis beschrieben.
+    Entferne alle Mods, die du im Ordner BeamNG.Drive\content\ oder in Unterordnern abgelegt hast. Dieser Speicherort ist NICHT für die Installation von Mods vorgesehen und kann zu Problemen führen, wie in der Datei `DO_NOT_INSTALL_MODS_HERE.txt` im selben Verzeichnis beschrieben.
 
-!!! Zitat "MODS_HERE_NOT_INSTALL_.txt"
+    !!! Zitat "DO_NOT_INSTALL_MODS_HERE.txt"
 
-Kopiere KEINE Mods in diesen Ordner: Dies kann zu beschädigten Mods, einer langsameren Installation von Updates, einem beschädigten Mod-Manager, einem beschädigten abgesicherten Modus und anderen Problemen führen.
-```
+        Kopiere KEINE Mods in diesen Ordner: Dies kann zu beschädigten Mods, einer langsameren Installation von Updates, einem beschädigten Mod-Manager, einem beschädigten abgesicherten Modus und anderen Problemen führen.
 
 ## Wie deaktiviere/entferne ich meine Mods?
 
@@ -22,7 +20,7 @@ Bevor du einem Server beitrittst, stelle sicher, dass du außer „multiplayerbe
 
 ### 2. Erstellen eines neuen Benutzerordners
 
-Öffne den Benutzerordner von BeamNG.Drive und benenne den Ordner der neuesten Version (z. B. 0.35) um, z. B. in 0.xx_OLD (0.35_OLD). Schließe BeamNG.drive, bevor du ihn umbenennst.<br>![Bild](https://gitlocalize.com/repo/9180/de/docs/assets/content/new-userfolder.png)
+Öffne den Benutzerordner von BeamNG.Drive und benenne den Ordner der neuesten Version (z. B. 0.35) um, z. B. in 0.xx_OLD (0.35_OLD). Schließe BeamNG.drive, bevor du ihn umbenennst.<br>![Bild](../../assets/content/new-userfolder.png)
 
 ### 3. Entfernen von Mods aus dem content Ordnern.
 
@@ -36,7 +34,5 @@ Um zwischengespeicherte Mods aus den BeamMP-Verzeichnissen zu entfernen, gehe zu
 
 !!! question "Meine Einstellungen und Konfigurationen sind weg! Wie kann ich sie wiederherstellen?"
 
-```
-Wenn du den Benutzerordner umbenannt hast, wurde das Spiel gezwungen, einen neuen, sauberen Benutzerordner zu erstellen. Du kannst die beiden Ordner „Einstellungen“ und „Fahrzeuge“ aus dem umbenannten Ordner (z. B. 0.34_OLD) in den neu erstellten Ordner kopieren.
-Stelle sicher, dass BeamNG.Drive geschlossen ist, und ersetze alle Elemente am Zielort. Alle Konfigurationen und Einstellungen sollten nun wiederhergestellt sein.
-```
+    Wenn du den Benutzerordner umbenannt hast, wurde das Spiel gezwungen, einen neuen, sauberen Benutzerordner zu erstellen. Du kannst die beiden Ordner „Einstellungen“ und „Fahrzeuge“ aus dem umbenannten Ordner (z. B. 0.34_OLD) in den neu erstellten Ordner kopieren.
+    Stelle sicher, dass BeamNG.Drive geschlossen ist, und ersetze alle Elemente am Zielort. Alle Konfigurationen und Einstellungen sollten nun wiederhergestellt sein.
