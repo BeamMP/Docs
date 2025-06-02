@@ -17,4 +17,5 @@ Code | Beschreibung | Mögliche Lösung
 10064 | Host nicht verfügbar | Unwahrscheinlicher Fehler, aber bedeutet, der Server ist nicht erreichbar.<br>Entweder weil der Server abgeschaltet ist, oder weil die Ports geschlossen wurden.
 10065 | Host nicht erreichbar | Kein Internet oder schlechtes Port Forwarding. Sieh dir die [Anleitung](create-a-server.md#1-port-forwarding) an.
 
-!!! Für codes, welche nicht in der Liste vorkommen, siehe [https://learn.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2](https://learn.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2) wenn du dich etwas mit Netzwerke / Sockets auskennst.
+!!! note
+    Für codes, welche nicht in der Liste vorkommen, siehe [https://learn.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2](https://learn.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2) wenn du dich etwas mit Netzwerke / Sockets auskennst.

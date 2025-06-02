@@ -1,12 +1,10 @@
 !!! warning „Diese Site befindet sich im Aufbau!“
 
-```
-An dieser Seite wird aktiv gearbeitet.
+    An dieser Seite wird aktiv gearbeitet.
 
-Du meinst, du könntest helfen? Dann klicke einfach auf die Seite mit dem Bleistift rechts!
+    Du meinst, du könntest helfen? Dann klicke einfach auf die Seite mit dem Bleistift rechts!
 
-Dies kann auch auf jeder Seite erfolgen.
-```
+    Dies kann auch auf jeder Seite erfolgen.
 
 # Erste Schritte
 
