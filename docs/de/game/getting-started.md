@@ -4,7 +4,7 @@
 
 BeamMP ist vollständig kompatibel mit Windows und Linux, an der Kompatibilität mit MacOS noch wird gearbeitet. Da es sich bei Linux und MacOS jedoch um sekundäre Plattformen handelt, sind Fehler zu erwarten.
 
-!!!warning
+!!! warning "Warnung"
 
     BeamMP funktioniert nicht mit Raubkopien oder veralteten Versionen von BeamNG.drive.
     Das BeamMP-Support Team bietet keinen Support für Probleme mit Raubkopien / veralteten Kopien.
@@ -23,7 +23,7 @@ BeamMP ist vollständig kompatibel mit Windows und Linux, an der Kompatibilität
 8. Du wirst aufgefordert, dich anzumelden oder als Gast zu spielen (nicht alle Server erlauben Gäste). Du kannst in unserem [Forum](https://forum.beammp.com) ein Konto erstellen und dich dann mit denselben Anmeldeinformationen bei BeamMP anmelden.
 9. Wählen einen beliebigen Server aus und drücken `Connect` . Viel Spaß!
 
-!!!note
+!!! note ""
 
     Wenn du in eine Sitzung mit mehreren bereits gespawnten Autos beitrittst, könnte das Laden eventuell etwas länger dauern.
 

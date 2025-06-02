@@ -131,7 +131,7 @@ Please ensure you have port-forwarded before attempting to host a server at home
 4. Start the server once by double-clicking on it. This will generate all the necessary files for you, once you see text you can close it and proceed to the next step. You should see a `ServerConfig.toml` file next to your `BeamMP-Server.exe`.
 5. (optional) For quick access in the future you can easily create a desktop shortcut to `BeamMP-Server.exe` using **[Right click]** > **Send to** > **Desktop (create shortcut).**
 
-Now proceed to step "4\. Configuration".
+Now proceed to step [4. Configuration](#4-configuration).
 
 #### 3.b. Installation on Linux
 
