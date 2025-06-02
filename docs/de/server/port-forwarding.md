@@ -48,8 +48,14 @@ Diese Anleitung besteht aus vier Hauptschritten.
 <li data-md-type="list_item" data-md-list-type="unordered">
 <p data-md-type="paragraph">:material-test-tube:{ .lg .middle } <strong data-md-type="double_emphasis">Teste, ob dein Port richtig weitergeleitet wird</strong></p>
 <hr data-md-type="hrule">
-<p data-md-type="paragraph">Verwenden Sie ein Tool wie ProbablyUp, um zu testen, ob die Regel funktioniert.</p>
-<p data-md-type="paragraph"><a href="https://probablyup.net/api" data-md-type="link">:octacons-arrow-right-24: Wahrscheinlich oben</a></p>
+<p data-md-type="paragraph">Verwenden Sie ein Tool wie CheckBEamMP, um zu testen, ob die Regel funktioniert.</p>
+<p data-md-type="paragraph"><form action="https://check.beammp.com/api/v2/beammp/" method="get" target="_blank">
+  <label for="ip">IP adress:</label>
+  <input type="text" id="ip" name="ip"><br>
+  <label for="port">Port:</label>
+  <input type="text" id="port" name="port"><br>
+  <input type="submit" value="CheckBeamMP">
+</form></p>
 </li>
 </ul>
 <div data-md-type="block_html"></div>
@@ -189,7 +195,15 @@ Die meisten Router verfügen über eine Schaltfläche „Speichern“ und bei ma
 
 Es gibt verschiedene Möglichkeiten, die Verbindung zu testen.
 
-Wir empfehlen die Verwendung eines Tools namens **CheckBeamMP** , da dieses auf BeamMP-spezifische Probleme und Protokolle testet.
+Wir empfehlen die Verwendung unseres Tools **CheckBeamMP**, da dieses auf BeamMP-spezifische Probleme und Protokolle testet.
+
+<form action="https://check.beammp.com/api/v2/beammp/" method="get" target="_blank">
+  <label for="ip">IP adress:</label>
+  <input type="text" id="ip" name="ip"><br>
+  <label for="port">Port:</label>
+  <input type="text" id="port" name="port"><br>
+  <input type="submit" value="CheckBeamMP">
+</form>
 
 Dies kann durch die Abfrage deiner öffentlichen IPv4-Adresse erfolgen. Auch hierfür gibt es verschiedene Möglichkeiten. Die häufigste Methode ist die Nutzung der Website [whatsmyip.org](https://whatsmyip.org/) . Diese einfache Website zeigt deine öffentliche IP-Adresse an. Du solltest nach einer IP-Adresse im Format xxx.xxx.xxx.xxx suchen.
 
@@ -199,7 +213,7 @@ Besuche den folgenden Link und ersetzen Sie "IP" durch deine tatsächliche IPv4-
 
 ```
   Wenn du die obige Ausgabe erhältst, kannst du des jetzt deinem Server beitreten!
-Es gibt zwei Möglichkeiten, beizutreten: entweder direkt mit den Daten, die du in probablyup eingegeben hast, oder, wenn dein Server auf „öffentlich“ eingestellt ist, über die Serverliste.
+Es gibt zwei Möglichkeiten, beizutreten: entweder direkt mit den Daten, die du in CheckBeamMP eingegeben hast, oder, wenn dein Server auf „öffentlich“ eingestellt ist, über die Serverliste.
 Da du einen Server vor Ort hostest, verwenden 127.0.0.1 (localhost), wenn der Server auf demselben PC läuft, auf dem du spielst, oder die LAN-IPv4 des lokalen Computers, auf dem der Server läuft.
 ```
 

@@ -36,7 +36,15 @@ Si d'autres joueurs essaient de se connecter et qu'ils reçoivent un code d'erre
 - Assurez-vous que vous n'utilisez pas de VPN (Cela peut causer des problèmes).
 - Assurez-vous que le logiciel serveur est lancé et qu'il ne donne pas d'erreurs ni d'avertissements.
 
-Vous pouvez vérifier si vous avez correctement configuré la redirection de port en utilisant le site '[probablyup.net](https://probablyup.net/api)' lorsque le serveur est lancé.
+Vous pouvez vérifier si vous avez correctement configuré la redirection de port en utilisant CheckBeamMP lorsque le serveur est lancé.
+
+<form action="https://check.beammp.com/api/v2/beammp/" method="get" target="_blank">
+  <label for="ip">IP adress:</label>
+  <input type="text" id="ip" name="ip"><br>
+  <label for="port">Port:</label>
+  <input type="text" id="port" name="port"><br>
+  <input type="submit" value="CheckBeamMP">
+</form>
 
 Notes:
 
