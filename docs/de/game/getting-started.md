@@ -6,10 +6,8 @@ BeamMP ist vollständig kompatibel mit Windows und Linux, an der Kompatibilität
 
 !!!warning
 
-```
-BeamMP funktioniert nicht mit Raubkopien oder veralteten Versionen von BeamNG.drive.
-Das BeamMP-Support Team bietet keinen Support für Probleme mit Raubkopien / veralteten Kopien.
-```
+    BeamMP funktioniert nicht mit Raubkopien oder veralteten Versionen von BeamNG.drive.
+    Das BeamMP-Support Team bietet keinen Support für Probleme mit Raubkopien / veralteten Kopien.
 
 ## **2. Installation**
 
@@ -27,9 +25,7 @@ Das BeamMP-Support Team bietet keinen Support für Probleme mit Raubkopien / ver
 
 !!!note
 
-```
-Wenn du in eine Sitzung mit mehreren bereits gespawnten Autos beitrittst, könnte das Laden eventuell etwas länger dauern.
-```
+    Wenn du in eine Sitzung mit mehreren bereits gespawnten Autos beitrittst, könnte das Laden eventuell etwas länger dauern.
 
 ### **2b. Linux Installation**
 
@@ -63,15 +59,11 @@ cmake --build bin --parallel
 
 !!!note ""
 
-```
-  Sollte dir während des Erstellens der RAM ausgehen, kannst du die Anweisung --parallel weglassen. Dann wird weniger RAM verwendet, da das Erstellen nur auf einem CPU-Thread erfolgt.
-```
+    Sollte dir während des Erstellens der RAM ausgehen, kannst du die Anweisung --parallel weglassen. Dann wird weniger RAM verwendet, da das Erstellen nur auf einem CPU-Thread erfolgt.
 
 !!!note ""
 
-```
-Wenn du -DCMAKE_BUILD_TYPE=Release nicht spezifizierst, erstellst du eine Debug-Version, die zwar eine größere Dateigröße hat, aber nicht den Fehler „Launcher kann sich nur einmal mit einem Server verbinden“ enthält.
-```
+    Wenn du -DCMAKE_BUILD_TYPE=Release nicht spezifizierst, erstellst du eine Debug-Version, die zwar eine größere Dateigröße hat, aber nicht den Fehler „Launcher kann sich nur einmal mit einem Server verbinden“ enthält.
 
 Verschiebe die fertige Anwendung aus dem `/bin` Ordner in einen eigenen Ordner und führe sie von dort aus aus.
 
@@ -99,11 +91,9 @@ Beachte, dass hierbei davon ausgegangen wird, dass die Binärdatei des Launchers
 
 !!! tip "Hinzufügen von emoji-font um in-text emojis zu erhalten"
 
-```
-Damit Emojis entweder in der Serverliste (als Teil eines benutzerdefinierten Servernamens) oder im Ingame-Chat angezeigt werden, benötigst du eine Schriftart, die Emojis enthält.
+    Damit Emojis entweder in der Serverliste (als Teil eines benutzerdefinierten Servernamens) oder im Ingame-Chat angezeigt werden, benötigst du eine Schriftart, die Emojis enthält.
 
-Dies kann beispielsweise durch Hinzufügen des [Linux-Ports der Windows Segoe-UI-Emoji-Schriftart](https://github.com/mrbvrz/segoe-ui-linux) erfolgen.
-```
+    Dies kann beispielsweise durch Hinzufügen des [Linux-Ports der Windows Segoe-UI-Emoji-Schriftart](https://github.com/mrbvrz/segoe-ui-linux) erfolgen.
 
 ---
 
