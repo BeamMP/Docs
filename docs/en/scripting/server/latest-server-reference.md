@@ -1178,7 +1178,7 @@ Triggered when a player spawns a new vehicle. The `data` argument contains the c
 Arguments: `player_id: number`, `vehicle_id: number`, `data: string`
 Cancellable: YES
 
-Triggered when a player edits their vehicle and applies the edit. The `data` argument contains the car's updated configuration as a json string but does **not** include positional or rotational data.
+Triggered when a player edits their vehicle and applies the edit. The `data` argument contains the car's updated configuration as a json string but does **not** include positional or rotational data. You can use [MP.GetPositionRaw](#mpgetpositionrawpid-number-vid-number-tablestring) to get positional and rotational data.
 
 ##### `onVehicleDeleted`
 
