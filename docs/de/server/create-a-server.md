@@ -28,19 +28,20 @@ Das Aufsetzen besteht aus folgenden Schritten. Du solltest alle davon durchgehen
 
 !!! info
 
-      Wenn du auf einem VPS (Virtual Private Server), Rotoserver bist, oder planst einen Server lokal zu hosten (mit Spielern im selben Haus wie du), kannst du diesen Schritt überspringen.
-      Dieser Schritt ist jedoch notwendig, wenn Spieler **außerhalb** deines Haushaltes deinem heim-gehosteten Server beitreten sollen (außerhalb von deinem lokalen Netzwerk)
+    Wenn du auf einem VPS (Virtual Private Server), Rotoserver bist, oder planst einen Server lokal zu hosten (mit Spielern im selben Haus wie du), kannst du diesen Schritt überspringen.
+    Dieser Schritt ist jedoch notwendig, wenn Spieler **außerhalb** deines Haushaltes deinem heim-gehosteten Server beitreten sollen (außerhalb von deinem lokalen Netzwerk)
 
-      !!! danger ":material-scale-balance: ACHTUNG:"
+    !!! danger ":material-scale-balance: ACHTUNG:"
 
-         **Port forwarding ist ein Risiko**.
+        **Port forwarding ist ein Risiko**.
 
-         Wenn du Ports weiterleitest, sind dir die Risiken beim öffnen von Ports von deinem Heimnetz ins öffentliche Netz bewusst und verlierst das Recht, BeamMP für **jegliche Schäden**, welche deinem Haushalt passieren könnten, Haften zu lassen.
+        Wenn du Ports weiterleitest, sind dir die Risiken beim öffnen von Ports von deinem Heimnetz ins öffentliche Netz bewusst und verlierst das Recht, BeamMP für **jegliche Schäden**, welche deinem Haushalt passieren könnten, Haften zu lassen.
 
-         Wir übernehmen keine Haftung für jegliche extern gelinkten Dienste oder Webseiten.
+        Wir übernehmen keine Haftung für jegliche extern gelinkten Dienste oder Webseiten.
 
-      Es wird daher empfohlen, BeamMP Server mit einen unserer Partner Hosting Services zu hosten. 
-      *Sieh dir [diese Anleitung zum Port weiterleiten](port-forwarding.md) an*
+    Es wird daher empfohlen, BeamMP Server mit einen unserer Partner Hosting Services zu hosten. 
+
+    *Sieh dir [diese Anleitung zum Port weiterleiten](port-forwarding.md) an*
 
 #### Partner Hosting Services (bezahlt):
 
@@ -68,9 +69,9 @@ Solltest du Probleme haben, frage auf unserem [Forum](https://forum.beammp.com) 
 
 Der Authentifizierungsschlüssel, auch “Authentication Key” oder “AuthKey” genannt, ist nötig, um einen Öffentlichen Server zu erstellen. Für einen privaten Server benötigst du nicht zwingend einen offiziellen Schlüssel, jedoch darf das Feld in der Konfigurationsdatei nicht leer gelassen werden. Du hast eine limitierte Anzahl an Schlüssel. Ein Schlüssel kann nur für einen Server auf einmal verwendet werden, also kannst du nicht 2 Server mitdemselben Schlüssel starten. Mehr Schlüssel können durch das Unterstützen des Projektes erworben werden. Lies [diesen Artikel](https://docs.beammp.com/support/player-faq/) für mehr Informationen.
 
-!!! warning
+!!! warning "WARNUNG"
 
-TEILE ODER ZEIGE DEN SCHLÜSSEL NICHT. BEHANDLE IHN WIE EIN PASSWORT.
+      TEILE ODER ZEIGE DEN SCHLÜSSEL NICHT. BEHANDLE IHN WIE EIN PASSWORT.
 
 Um einen Schlüssel zu erwerben ist ein [Discord](https://discord.com) Konto erforderlich. Das ist wichtig um gegen Spam zu schützen.
 
@@ -79,33 +80,33 @@ Um einen Schlüssel zu erwerben ist ein [Discord](https://discord.com) Konto erf
 Melde dich mit Discord beim [Keymaster](https://beammp.com/keymaster) an. Klicke auf der Keymaster-Homepage links auf dem Bildschirm auf „Keys“:
 
 
-<figure markdown="">![](../../assets/content/keymaster_homepage.png)</figure>
+<figure markdown>![](../../assets/content/keymaster_homepage.png)</figure>
 
 #### 2.2. Einen Schlüssel erstellen
 
 Um einen Schlüssel zu erstellen, klicke das grüne ,,+" oben rechts.
 
 
-<figure markdown="">![](../../assets/content/keymaster_new_key.png)</figure>
+<figure markdown>![](../../assets/content/keymaster_new_key.png)</figure>
 
 #### 2.3. Schlüssel-Informationen eingeben
 
 Als nächstes, fülle das Feld für den Servernamen (das ist lediglich der Name des Schlüssels, nicht der Name vom Server in der Liste), dann klick ,,Create".<br>Beispiel:
 
 
-<figure class="image image_resized" style="width:44.84%;" markdown="">![](../../assets/content/keymaster_server_name.png)</figure>
+<figure class="image image_resized" style="width:44.84%;" markdown>![](../../assets/content/keymaster_server_name.png)</figure>
 
 es sollte am Ende wie folgt aussehen:
 
 
-<figure markdown="">![](../../assets/content/keymaster_key_done.png)</figure>
+<figure markdown>![](../../assets/content/keymaster_key_done.png)</figure>
 
 #### 2.4. Den Schlüssel kopieren
 
 Kopiere den Text im “Key” Feld. In diesem Beispiel wäre das  `3173a2e-6az0-4542-a3p0-ddqq5ff95558`. Klicke das ,,Klemmbrett Symbol" neben dem Schlüssel um diesen zu kopieren.
 
 
-<figure markdown="">![](../../assets/content/keymaster_copy_key.png)</figure>
+<figure markdown>![](../../assets/content/keymaster_copy_key.png)</figure>
 
 ### **3. Installation**
 
@@ -152,7 +153,7 @@ Führe zum Abschluss den Server unbedingt einmal mit `./BeamMP-Server` aus und f
 Nachdem der Server einmal gestartet wurde, sollte er die nötigen Dateien erstellt haben und einen oder zwei Fehler in die Konsole schreiben. Das ist normal, da wir noch nicht fertig sind.<br>Es sollten nun folgende Dateien vorhanden sein:
 
 
-<figure markdown="">![](../../assets/content/after-running-once.png)</figure>
+<figure markdown>![](../../assets/content/after-running-once.png)</figure>
 
 Genannt ,,ServerConfig.toml”, ,,Server.log” und ,,BeamMP-Server.exe”! (Je nach deinen Einstellungen, siehst du möglicherweise die [.toml] [.log] [.exe] Erweiterungen nicht)
 
@@ -190,9 +191,7 @@ Wenn du einen anderen **Port** als **30814** ausgewählt hast, achte darauf, ihn
 
 !!! info
 
-```
-Dein Server wird **NICHT** in der Serverliste aufscheinen, solange `Private = true` ist. _Wenn_ du ihn gelistet haben willst, stell den Parameter auf **`Private = false`**.
-```
+      Dein Server wird **NICHT** in der Serverliste aufscheinen, solange `Private = true` ist. _Wenn_ du ihn gelistet haben willst, stell den Parameter auf **`Private = false`**.
 
 ### **5. Validierung**
 
@@ -250,12 +249,12 @@ Sollten du oder deine Freunde einen ,,Verbindung Fehlgeschlagen!" Fehler bekomme
 
 !!! warning "Ich möchte einen VPN wie RadminVPN, Hamachi oder ähnlich verwenden"
 
-      BeamMP unterstützt diese VPNs nicht, weil diese oft Probleme verursachen. Eines davon ist das blockieren von UDP Verkehr. Um dies zu beheben, siehe Sektion 1.
+    BeamMP unterstützt diese VPNs nicht, weil diese oft Probleme verursachen. Eines davon ist das blockieren von UDP Verkehr. Um dies zu beheben, siehe Sektion 1.
     
-      !!! question "Aber warum hat es vorher funktioniert?"
-
-            Das passiert, weil die Entwickler dieser Applikationen updaten und Änderungen implementiere, über welche BeamMP keine Kontroll hat.
-            Es liegt an den Entwicklern diesen Applikationen, um Support für spezifische Fälle wie eines BeamMP-Servers zu unterstützen.
+    !!! question "Aber warum hat es vorher funktioniert?"
+      
+        Das passiert, weil die Entwickler dieser Applikationen updaten und Änderungen implementiere, über welche BeamMP keine Kontroll hat.
+        Es liegt an den Entwicklern diesen Applikationen, um Support für spezifische Fälle wie eines BeamMP-Servers zu unterstützen.
 
 ## Immer noch Probleme?
 
