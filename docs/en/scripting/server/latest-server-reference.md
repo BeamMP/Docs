@@ -1192,7 +1192,7 @@ Triggered when a player deletes their vehicle.
 Arguments: `player_id: number`, `vehicle_id: number`, `data: string`
 Cancellable: NO
 
-Triggered when a player resets their vehicle. `data` is the car's updated position and rotation however does **not** include the vehicles configuration.
+Triggered when a player resets their vehicle. `data` is the car's updated position and rotation however does **not** include the vehicles configuration. You can use [MP.GetPlayerVehicles](#mpgetplayervehiclesplayer_id-number-table) to get the vehicles configuration.
 
 ##### `onFileChanged`
 
