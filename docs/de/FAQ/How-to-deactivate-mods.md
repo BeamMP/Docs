@@ -6,7 +6,7 @@ In BeamMP stellt der Server, mit dem du dich verbindest, die notwendigen Mods be
 
     Entferne alle Mods, die du im Ordner BeamNG.Drive\content\ oder in Unterordnern abgelegt hast. Dieser Speicherort ist NICHT für die Installation von Mods vorgesehen und kann zu Problemen führen, wie in der Datei `DO_NOT_INSTALL_MODS_HERE.txt` im selben Verzeichnis beschrieben.
 
-    !!! Zitat "DO_NOT_INSTALL_MODS_HERE.txt"
+    !!! quote "DO_NOT_INSTALL_MODS_HERE.txt"
 
         Kopiere KEINE Mods in diesen Ordner: Dies kann zu beschädigten Mods, einer langsameren Installation von Updates, einem beschädigten Mod-Manager, einem beschädigten abgesicherten Modus und anderen Problemen führen.
 

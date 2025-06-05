@@ -1,13 +1,3 @@
-!!! warning „Diese Site befindet sich im Aufbau!“
-
-```
-An dieser Seite wird aktiv gearbeitet.
-
-Du meinst, du könntest helfen? Dann klicke einfach auf die Seite mit dem Bleistift rechts!
-
-Dies kann auch auf jeder Seite erfolgen.
-```
-
 # Erste Schritte
 
 Um mit der Entwicklung für BeamMP zu beginnen, benötigst du mindestens:
