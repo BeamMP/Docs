@@ -40,7 +40,15 @@ Lies die Anleitung für das weiterleiten von Ports in [diesem Artikel](https://d
 - Stelle sicher, dass du keinen VPN verwendest (dies wird Probleme verursachen).
 - Stelle sicher, dass der Server ohne Probleme oder Fehlermeldungen läuft.
 
-Du kannst prüfen, ob du erfolgreich Ports weitergeleitet hast, indem du '[probablyup.net](https://probablyup.net/api)' verwendest während der Server läuft.
+Du kannst prüfen, ob du erfolgreich Ports weitergeleitet hast, indem du CheckBeamMP verwendest während der Server läuft.
+
+<form action="https://check.beammp.com/api/v2/beammp/" method="get" target="_blank">
+  <label for="ip">IP adress:</label>
+  <input type="text" id="ip" name="ip"><br>
+  <label for="port">Port:</label>
+  <input type="text" id="port" name="port"><br>
+  <input type="submit" value="CheckBeamMP">
+</form>
 
 Beachte:
 
