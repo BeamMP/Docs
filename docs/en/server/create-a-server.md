@@ -212,7 +212,7 @@ Vehicle mods and map mods are different to install, but both require you to put 
 !!! warning
 
     Should you receive a "done" or "start" message when trying to join your server after adding mods, you likely added an incompatible or broken mod to your server.
-    Mod incompatibilities can also occur between 2 or more mods. If you have client mods installed, check [this guide](../../FAQ/How-to-deactivate-mods.md)
+    Mod incompatibilities can also occur between 2 or more mods. If you have client mods installed, check [this guide](../../FAQ/How-to-deactivate-mods.md) about removing mods from your game.
 
 #### 5.2 General Mods
 
