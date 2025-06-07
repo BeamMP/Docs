@@ -54,6 +54,7 @@ The setup consists of the following steps, you should follow all of them.
 * [BisectHosting](https://www.bisecthosting.com/beammp-server-hosting)
 * [Four Seasons Hosting](https://fourseasonshosting.com)
 * [Vertuo Hosting](https://vertuohosting.com)
+* [Winheberg](https://winheberg.fr/offres/gaming/beammp?lang=en)
 
 
 #### 1.1 Firewall
