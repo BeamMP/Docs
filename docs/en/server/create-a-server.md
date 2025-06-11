@@ -54,6 +54,7 @@ The setup consists of the following steps, you should follow all of them.
 * [BisectHosting](https://www.bisecthosting.com/beammp-server-hosting)
 * [Four Seasons Hosting](https://fourseasonshosting.com)
 * [Vertuo Hosting](https://vertuohosting.com)
+* [Winheberg](https://winheberg.fr/offres/gaming/beammp?lang=en)
 
 
 #### 1.1 Firewall
@@ -131,7 +132,7 @@ Please ensure you have port-forwarded before attempting to host a server at home
 4. Start the server once by double-clicking on it. This will generate all the necessary files for you, once you see text you can close it and proceed to the next step. You should see a `ServerConfig.toml` file next to your `BeamMP-Server.exe`.
 5. (optional) For quick access in the future you can easily create a desktop shortcut to `BeamMP-Server.exe` using **[Right click]** > **Send to** > **Desktop (create shortcut).**
 
-Now proceed to step "4\. Configuration".
+Now proceed to step [4. Configuration](#4-configuration).
 
 #### 3.b. Installation on Linux
 
@@ -207,7 +208,12 @@ Now run your server again, and see if it spits out any more `[ERROR]` or `[WARN]
 
 #### 5.1 How to add mods to your server
 
-Vehicle mods and map mods are different to install, but both require you to put them in your server's (`Resources/Client`) folder. Simply slide any mod you want to add in that folder. 
+Vehicle mods and map mods are different to install, but both require you to put them in your server's (`Resources/Client`) folder. Simply slide any mod you want to add in that folder.
+
+!!! warning
+
+    Should you receive a "done" or "start" message when trying to join your server after adding mods, you likely added an incompatible or broken mod to your server.
+    Mod incompatibilities can also occur between 2 or more mods. If you have client mods installed, check [this guide](../../FAQ/How-to-deactivate-mods.md) about removing mods from your game.
 
 #### 5.2 General Mods
 

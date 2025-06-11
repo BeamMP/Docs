@@ -4,7 +4,7 @@ How to check for CGNAT?
 All Firewall exclusions and Port forwarding rules are set up correctly, yet nobody can join your home-hosted Server?
 
 If you have connection problems and you are using a Hosting-Service, contact them for assistance. If you want to use a VPS or cannot host a server at home, take a look at our
-[list of Partnered hosting services](https://docs.beammp.com/server/create-a-server/#_1:~:text=our%20partnered%20Services!-,Paid%20Services%3A,-Horizon%20Hosting) (Server setup documentation).
+[list of Partnered hosting services](../../server/create-a-server/#partnered-hosting-services-paid) (Server setup documentation).
 
 # What even is CGNAT?
 
@@ -16,7 +16,7 @@ For a detailed explanation, on what CGNAT is and why it's an issue when trying t
 Open a command prompt, run ``tracert -4 beammp.com``. This will output a series of network hops. Wait for the operation to finish (may take up to 30 hops). Check the first few IP addresses after the IP of your Router/Modem/Gateway.
 If multiple IP addresses within the range of ``100.64.x.x``-``100.127.x.x`` or ``10.xx.xx.xx`` appear after the first hop, you are most likely behind a CGNAT.
 
-!!!note
+!!! note
 
     The first hop will be your Router/Modem/Gateway and differs between Devices.
     The official ranges for local networks are as follows: ``10.0.0.xxx`` - ``192.168.xxx.xxx`` - ```172.16.xxx.xxx``

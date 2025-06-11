@@ -14,7 +14,6 @@
 
       Please make sure your Router is not a 4G/5G exclusive device. If it is a hybrid device, make sure to select the cable connected adapter later in section 3 of this guide!
 
-
 ## How to set up port forwarding.
 
 Creating a port forwarding rule involves a few detailed network terms. Be prepared to write down a few notes as you go through the process.
@@ -22,10 +21,6 @@ Creating a port forwarding rule involves a few detailed network terms. Be prepar
 There are 4 major steps in this guide.
 
 ## A quick guide. (A more detailed guide is below)
-
-        
-        
-        
 
 <div class="grid cards" markdown>
 
@@ -79,7 +74,6 @@ If you have managed to do this, please skip directly to [step 2](port-forwarding
 
 #### 1.1. Find your current IP Address, Gateway and DNS servers:
 
-
 Before we can set up a static IP address, we need to know your current network settings. 
 You are going to want to write these down, so get a notepad window ready. 
 For this step, we are going to use command prompt.
@@ -90,7 +84,7 @@ Open up a command prompt. The 3 main ways are:
 
 
 <figure class="image image_resized" style="width:62%;" markdown>
-  ![](../../assets/content/win11-open-cmd.png)
+![](../../assets/content/win11-open-cmd.png)
 </figure>
 
 Once you are in the command prompt, run the following command:
@@ -103,9 +97,8 @@ You will see a lot of data.
 If you have virtual or multiple network adapters, then you will see even more data. 
 It is common to see many virtual adapters if you have either Hyper-V or Docker installed.
 
-
 <figure class="image image_resized" style="width:62%;" markdown>
-  ![](../../assets/content/win11-command-prompt-ipconfig-highlighted.png)
+![](../../assets/content/win11-command-prompt-ipconfig-highlighted.png)
 </figure>
 
 It is recommended to use a wired network connection which will be running this server, however, it will work over a wireless connection.
@@ -136,7 +129,7 @@ Now we need to change the settings on your network adapter in order for your PC 
 
 
 <figure class="image image_resized" style="width:62%;" markdown>
-  ![](../../assets/content/win11-start-menu-view-network-connections.png)
+![](../../assets/content/win11-start-menu-view-network-connections.png)
 </figure>
 
 You should see a list of network connections on your computer. 
@@ -144,14 +137,14 @@ If you have Hyper-V or Docker installed, there can be many.
 Look for any adapters that are not named "Hyper-V".
 
 <figure class="image image_resized" style="width:62%;" markdown>
-  ![](../../assets/content/win11-network-connections.png)
+![](../../assets/content/win11-network-connections.png)
 </figure>
 
 
 Right-click on your adapter and choose properties. If `Internet Protocol Version 4` is not checked, then this is the wrong adapter. Choose a different one.
 
 <figure class="image image_resized" style="width:62%;" markdown>
-  ![](../../assets/content/win11-ethernet-properties-highlighted.png)
+![](../../assets/content/win11-ethernet-properties-highlighted.png)
 </figure>
 
 Double click on `Internet Protocol Version 4`. Change `Obtain an IP address automatically` to `Use the following IP address`.
@@ -165,7 +158,7 @@ Alternatively, instead of using your DNS servers, you can use either the CloudFl
 
 
 <figure class="image image_resized" style="width:62%;" markdown>
-  ![](../../assets/content/win11-network-settings-static-ip.png)
+![](../../assets/content/win11-network-settings-static-ip.png)
 </figure>
 
 Click Ok, then click Ok again, and your adapter is now changed from DHCP to static. Surf the web to make sure that you still have internet connectivity. If you do not, then change your settings back to Obtain an IP address automatically and try the next method.
@@ -197,6 +190,7 @@ Try various combinations of admin, password, and leaving the entries blank. *Whe
 ### 3. Create the forwarding rules!
 
 #### 3.1. Find the forwarding section
+
 Find the port forwarding section in your router web interface. Navigate around in your router by clicking the tabs or links at the top or left of each page. Most routers list the port forwarding section under Network, Advanced, or LAN. Look for the following keywords to help you find it:
 
 - Port Forwarding
@@ -206,14 +200,13 @@ Find the port forwarding section in your router web interface. Navigate around i
 - Apps & Gaming
 - Advanced Setup/Settings
 - NAT
-  
+
 #### 3.2. Enter in the details
 
 Once you find your router's port forwarding section, you are ready to enter the necessary information.
 Your router will have a place to enter the ports to be forwarded and the destination IP address to point those forwarded ports. If your router lists both Internal and External ports, make them the same. 
 
 BeamMP requires both UDP and TCP port 30814 (Unless you have changed this in your [ServerConfig.toml](create-a-server.md#4-configuration)). 
-
 
 !!! info "Note"
     While the default **Port** is **30814**, you can choose any other number greater than 1024 but less than 65535, but you need to note down what you picked if it's not 30814\. You need to forward both **TCP** and **UDP**.
@@ -245,14 +238,14 @@ This can be done by getting your public IPv4 Address, this once again can be don
 Visit the following Link and replace "IP" with your actual IPv4 address, and the "Port" with your servers port. Be sure to leave no spaces.
 https://check.beammp.com/api/v2/beammp/ip/port
 
-!!! success "status:ok"
+!!! success "status: ok"
 
       If you get the output above you can now join your server!
       There are 2 ways to join, either directly with the details you entered into Probably UP, or, if your server is set to 'public', through the server-list.
       Since you are hosting a server on-premise, use 127.0.0.1 (localhost) if the Server is running on the same PC as you play, or the LAN IPv4 of the local machine that is running the server.
 
-!!! failure "status:error"
+!!! failure "status: error"
 
-      If the connection fails entirely, your ISP could be using CGNAT (Carrier Grade Network Address Translation). For more details, please check [How to check for CGNAT?](../FAQ/How-to-check-for-CGNAT.md)
-      , or open a Server Support ticket on our [Discord server](https://discord.gg/beammp) in the `#support` channel and one of our staff will get to your ticket!
+      If the connection fails entirely, your ISP could be using CGNAT (Carrier Grade Network Address Translation). For more details, please check [How to check for CGNAT?](../FAQ/How-to-check-for-CGNAT.md),
+      or open a Server Support ticket on our [Discord server](https://discord.gg/beammp) in the `#support` channel and one of our staff will get to your ticket!
       Should you only see TCP working and UDP failing, check Firewall and Port forwarding rules again.

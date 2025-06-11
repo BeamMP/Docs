@@ -21,4 +21,4 @@ Primary Servers Offline! sorry for the inconvenience! | Der Launcher konnte nich
 Sorry Backend System Outage! Don't worry it will back on soon! | Das BeamMP-Backend hat nicht geantwortet | Überprüfe die Internetverbindung und Firewall-Regeln. Wenn kein Problem vorliegt, überprüfe bitte den [BeamMP-Updatekanal](https://discord.com/channels/601558901657305098/697596153943949352) auf unserem Discord.
 Stuck on updating | Der Launcher bleibt beim Aktualisieren hängen und fährt nicht mit dem nächsten Schritt fort | Führe den Launcher als Administrator aus und überprüfe deine Antivirenregeln, damit der Launcher nicht blockiert wird.
 
-Wenn der Launcher sofort geschlossen wird, überprüfe die Datei `Launcher.log` im Ordner, in BeamMP installiert wurde.
+Wenn der Launcher sofort geschlossen wird, überprüfe die Datei `Launcher.log` im Ordner, in welchem BeamMP installiert wurde.

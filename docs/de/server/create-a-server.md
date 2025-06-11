@@ -124,7 +124,7 @@ Sei sicher, dass du die nötigen Ports weitergeleitet hast. Ansonsten kann niema
 4. Mittels Doppelklick startet man den Server. Beim ersten Start erstellt der Server automatisch die benötigten Dateien, im anschluss schliesst sich das Serverfenster von selbst. Nun solltes du die `ServerConfig.toml` neben dem `BeamMP-Server.exe` sehen.
 5. (optional) Für schnellen Zugriff kannst du eine Desktop Verknüpfung zu `BeamMP-Server.exe` erstellen mittels **[Rechtsklick]** &gt; **Senden zu** &gt; **Desktop (erstelle Verknüpfung).**
 
-Nun springe zu Schritt ,,4. Konfiguration".
+Nun springe zu Schritt [4. Konfiguration](#4-konfiguration)
 
 #### 3.b. Installation auf Linux
 
@@ -191,11 +191,11 @@ Wenn du einen anderen **Port** als **30814** ausgewählt hast, achte darauf, ihn
 
 !!! info
 
-      Dein Server wird **NICHT** in der Serverliste aufscheinen, solange `Private = true` ist. _Wenn_ du ihn gelistet haben willst, stell den Parameter auf **`Private = false`**.
+      Dein Server wird **NICHT** in der Serverliste erscheinen, solange `Private = true` ist. _Wenn_ du ihn gelistet haben willst, stell den Parameter auf **`Private = false`**.
 
 ### **5. Validierung**
 
-Nun führe den Server erneut aus und sieh nach, ob weitere `[ERROR]` oder `[WARN]` Meldungen erscheinen. Der Server sollte nun offen bleiben. In den folgenden Schritten (6.) erfährst du, wie man dem Server beitretet.
+Nun führe den Server erneut aus und sieh nach, ob weitere `[ERROR]` oder `[WARN]` Meldungen erscheinen. Der Server sollte nun offen bleiben. In den folgenden Schritten (6.) erfährst du, wie man dem Server beitritt.
 
 ---
 
