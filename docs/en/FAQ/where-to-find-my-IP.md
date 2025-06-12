@@ -11,7 +11,7 @@ This will output the public IPv4 address you are being contacted with from the I
 Note, that 127.0.0.1 is the localhost address and can only be used by yourself, if the Server is hosted on the same Computer.
 If you are still having connection troubles with your home hosted server, check the [port forwardings](https://docs.beammp.com/server/port-forwarding/) as well as CheckBeamMP
 
-<form action="https://check.beammp.com/api/v2/beammp/" method="get" target="_blank">
+<form action="https://check.beammp.com/api/v2/beammp" method="get" target="_blank">
   <label for="ip">IP adress:</label>
   <input type="text" id="ip" name="ip"><br>
   <label for="port">Port:</label>
