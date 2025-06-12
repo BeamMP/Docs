@@ -38,7 +38,7 @@ If other players, trying to connect to your server, receive an error code 10060,
 
 You can check if you have successfully portforwarded using CheckBeamMP whilst the server is running.
 
-<form action="https://check.beammp.com/api/v2/beammp/" method="get" target="_blank">
+<form action="https://check.beammp.com/api/v2/beammp" method="get" target="_blank">
   <label for="ip">IP adress:</label>
   <input type="text" id="ip" name="ip"><br>
   <label for="port">Port:</label>
