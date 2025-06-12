@@ -50,7 +50,7 @@ Diese Anleitung besteht aus vier Hauptschritten.
 
     Verwenden Sie ein Tool wie CheckBeamMP, um zu testen, ob die Regel funktioniert.
 
-    <form action="https://check.beammp.com/api/v2/beammp/" method="get" target="_blank">
+    <form action="https://check.beammp.com/api/v2/beammp" method="get" target="_blank">
      <label for="ip">IP adress:</label>
      <input type="text" id="ip" name="ip"><br>
      <label for="port">Port:</label>
