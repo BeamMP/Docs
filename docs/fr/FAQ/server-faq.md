@@ -38,7 +38,7 @@ Si d'autres joueurs essaient de se connecter et qu'ils reçoivent un code d'erre
 
 Vous pouvez vérifier si vous avez correctement configuré la redirection de port en utilisant CheckBeamMP lorsque le serveur est lancé.
 
-<form action="https://check.beammp.com/api/v2/beammp/" method="get" target="_blank">
+<form action="https://check.beammp.com/api/v2/beammp" method="get" target="_blank">
   <label for="ip">IP adress:</label>
   <input type="text" id="ip" name="ip"><br>
   <label for="port">Port:</label>
