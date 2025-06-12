@@ -10,7 +10,7 @@ Für heim-gehostete Server, öffne [whatsmyip.org](https://whatsmyip.org) in ein
 
 Beachte, dass 127.0.0.1 die Localhost Adresse ist und nur von dir verwendet werde kann, wenn der Server auf demselben Computer läuft. Wenn du immer noch Verbindungsprobleme mit deinem heim-Server hast, prüfe die [Port Weiterleitung](https://docs.beammp.com/server/port-forwarding/) sowie CheckBeamMP
 
-<form action="https://check.beammp.com/api/v2/beammp/" method="get" target="_blank">
+<form action="https://check.beammp.com/api/v2/beammp" method="get" target="_blank">
   <label for="ip">IP adress:</label>
   <input type="text" id="ip" name="ip"><br>
   <label for="port">Port:</label>
