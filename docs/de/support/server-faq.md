@@ -42,7 +42,7 @@ Lies die Anleitung für das weiterleiten von Ports in [diesem Artikel](https://d
 
 Du kannst prüfen, ob du erfolgreich Ports weitergeleitet hast, indem du CheckBeamMP verwendest während der Server läuft.
 
-<form action="https://check.beammp.com/api/v2/beammp/" method="get" target="_blank">
+<form action="https://check.beammp.com/api/v2/beammp" method="get" target="_blank">
   <label for="ip">IP adress:</label>
   <input type="text" id="ip" name="ip"><br>
   <label for="port">Port:</label>
