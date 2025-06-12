@@ -36,7 +36,15 @@ If other players, trying to connect to your server, receive an error code 10060,
 - Make sure you're not using a VPN (this can cause issues).
 - Make sure the server is actually running, without any errors or warnings.
 
-You can check if you have successfully portforwarded using the site '[probablyup.net](https://probablyup.net/api)' whilst the server is running.
+You can check if you have successfully portforwarded using CheckBeamMP whilst the server is running.
+
+<form action="https://check.beammp.com/api/v2/beammp" method="get" target="_blank">
+  <label for="ip">IP adress:</label>
+  <input type="text" id="ip" name="ip"><br>
+  <label for="port">Port:</label>
+  <input type="text" id="port" name="port"><br>
+  <input type="submit" value="CheckBeamMP">
+</form>
 
 Notes:
 
