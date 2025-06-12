@@ -225,7 +225,7 @@ There are a few different ways to test the connection.
 
 Our recommend way is to use our tool **CheckBeamMP** as this tests for BeamMP specific issues and protocols.
 
-<form action="https://check.beammp.com/api/v2/beammp/" method="get" target="_blank">
+<form action="https://check.beammp.com/api/v2/beammp" method="get" target="_blank">
   <label for="ip">IP adress:</label>
   <input type="text" id="ip" name="ip"><br>
   <label for="port">Port:</label>
