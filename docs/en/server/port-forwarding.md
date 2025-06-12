@@ -50,7 +50,7 @@ There are 4 major steps in this guide.
 
     Use a tool such as CheckBeamMP to test if the rule is working.
 
-    <form action="https://check.beammp.com/api/v2/beammp/" method="get" target="_blank">
+    <form action="https://check.beammp.com/api/v2/beammp" method="get" target="_blank">
      <label for="ip">IP adress:</label>
      <input type="text" id="ip" name="ip"><br>
      <label for="port">Port:</label>
