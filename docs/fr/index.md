@@ -6,13 +6,13 @@ hide:
 
     Ce site est actuellement en cours de travail.
 
-    Pensez-vous pouvoir aider ? N'hésitez pas en cliquant sur la page avec un crayon à droite !
+    Pensez-vous pouvoir nous aider ? N'hésitez pas à cliquer sur la page avec un crayon à droite!
 
     Cela peut également être fait sur n'importe quelle page.
 
 # Bienvenue sur BeamMP Docs ! :tada:
 
-Bienvenue sur le centre de documentation amélioré pour BeamMP ! Que vous soyez joueur, propriétaire de serveur ou développeur, nous avons les ressources dont vous avez besoin pour améliorer votre expérience multijoueur sur BeamNG.drive.
+Bienvenue sur le centre de documentation amélioré pour BeamMP ! Que vous soyez un joueur, un propriétaire de serveur ou un développeur, nous disposons des ressources nécessaires pour améliorer votre expérience multijoueur sur BeamNG.drive.
 
 ## Pour les Joueurs
 
@@ -20,7 +20,7 @@ Nouveau sur BeamMP ? Consultez notre [Guide de Démarrage](../game/getting-start
 
 ## Pour les Propriétaires de Serveur
 
-Vous envisagez de créer votre propre serveur BeamMP ? Notre guide complet [ici](../server/create-a-server.md) vous guidera à travers le processus, en veillant à ce que vous disposiez de tous les outils et connaissances nécessaires pour configurer votre serveur de manière efficace.
+Vous envisagez de créer votre propre serveur BeamMP ? Notre guide [complet](../server/create-a-server.md) vous guidera à travers le processus. Veillez à ce que vous ayez tous les outils et connaissances nécessaires pour configurer votre serveur de manière efficace.
 
 ## Pour les Développeurs
 
