@@ -50,7 +50,13 @@ There are 4 major steps in this guide.
 
     Use a tool such as CheckBeamMP to test if the rule is working.
 
-    [:octicons-arrow-right-24: CheckBeamMP](https://check.beammp.com/api/v2/beammp/ip/port)
+    <form action="https://check.beammp.com/api/v2/beammp" method="get" target="_blank">
+     <label for="ip">IP adress:</label>
+     <input type="text" id="ip" name="ip"><br>
+     <label for="port">Port:</label>
+     <input type="text" id="port" name="port"><br>
+     <input type="submit" value="CheckBeamMP">
+    </form>
 
 </div>
 
@@ -217,7 +223,15 @@ Most routers have a 'save' button, and some routers require a restart or reboot 
 
 There are a few different ways to test the connection.
 
-Our recommend way is to use a tool called **CheckBeamMP** as this tests for BeamMP specific issues and protocols.
+Our recommend way is to use our tool **CheckBeamMP** as this tests for BeamMP specific issues and protocols.
+
+<form action="https://check.beammp.com/api/v2/beammp" method="get" target="_blank">
+  <label for="ip">IP adress:</label>
+  <input type="text" id="ip" name="ip"><br>
+  <label for="port">Port:</label>
+  <input type="text" id="port" name="port"><br>
+  <input type="submit" value="CheckBeamMP">
+</form>
 
 This can be done by getting your public IPv4 Address, this once again can be done in a few different ways. The main way is to use a website called [whatsmyip.org](https://whatsmyip.org/). This is a simple website which displays your public IP Address. You should be looking for an IP address with the formatting: xxx.xxx.xxx.xxx
 
