@@ -46,13 +46,11 @@ Lade das "Tag", das für die [neueste Version](https://github.com/BeamMP/BeamMP-
 Im Stammverzeichnis des Projekts, führe aus:
 
 1.
-
 ```cmake
 cmake . -B bin -DCMAKE_TOOLCHAIN_FILE=$VCPKG_ROOT/scripts/buildsystems/vcpkg.cmake -DVCPKG_TARGET_TRIPLET=x64-linux
 ```
 
-1.
-
+2.
 ```cmake
 cmake --build bin --parallel
 ```
