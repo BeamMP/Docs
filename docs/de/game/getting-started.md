@@ -34,7 +34,7 @@ Derzeit musst du den Launcher selbst erstellen. Dazu benötigst du grundlegende 
 Stelle sicher, dass [`vcpkg`](https://learn.microsoft.com/en-us/vcpkg/get_started/get-started?pivots=shell-bash#1---set-up-vcpkg) sowie grundlegende Entwicklungstools installiert sind, welche oft in Paketen enthalten sind, zum Beispiel:
 
 - Debian: `sudo apt install build-essential`
-- Fedora: `sudo dnf install @development-tools`
+- Fedora: `sudo dnf install cmake gcc-c++ perl-IPC-Cmd perl-FindBin perl-File-Compare perl-File-Copy`
 - Arch: `sudo pacman -S base-devel`
 - openSUSE: `zypper in -t pattern devel-basis`
 - SteamOS (Arch): `sudo pacman -S base-devel linux-api-headers glibc libconfig` (Du musst auch `sudo steamos-readonly disable` ausführen, schalte es jedoch nach der Installation wieder ein)
