@@ -3,11 +3,11 @@ hide:
   - navigation
 ---
 
-# Welcome to BeamMP Community Area!
+# Bienvenue dans l'espace communautaire de BeamMP!
 ![BeamMP Multicolor-White](../../assets/content/BeamMP-Multi-WhtLtr-crop.png#only-dark){width="450"}
 ![BeamMP Multicolor-Black](../../assets/content/BeamMP-Multi-BlkLtr-crop.png#only-light){width="450"}
 
-## Our social media links
+## Nos liens vers les médias sociaux
 
 !!!failure ""
 
@@ -33,5 +33,5 @@ hide:
 
     BlueSky - [https://bsky.app/profile/beammpofficial.bsky.social](https://bsky.app/profile/beammpofficial.bsky.social)
 
-## Our Rules
-You can find our rules [here](rules.md)
+## Nos règles :
+Vous pouvez consulter nos règles [ici](rules.md)
