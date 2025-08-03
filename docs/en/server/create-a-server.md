@@ -264,6 +264,17 @@ This means you eihter have a CGNAT IPv4, or you have done something wrong during
 To check if you have a CGNAT IPv4, look up the WAN IP Address on your routers interface. Compare it to your [public IP](https://www.whatsmyip.org/). If they're the same, you are not behind a CGNAT.
 IPv6 Support is **NOT** yet implemented.
 
+### **7. How to check the connectivity of your BeamMP-Server**
+
+Enter the servers public IPv4 and Port below, then click "CheckBeamMP".
+<form action="https://check.beammp.com/api/v2/beammp" method="get" target="_blank">
+  <label for="ip">IP adress:</label>
+  <input type="text" id="ip" name="ip"><br>
+  <label for="port">Port:</label>
+  <input type="text" id="port" name="port"><br>
+  <input type="submit" value="CheckBeamMP">
+</form>
+
 !!! warning "I want to use a VPN such as RadminVPN, Hamachi, or similar."
     
     BeamMP does not support these VPNs, as they often cause issues. One of these issues is UDP traffic not being forwarded. To resolve this, refer to section 1.
