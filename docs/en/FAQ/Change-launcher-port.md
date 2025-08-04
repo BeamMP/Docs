@@ -3,7 +3,6 @@
 The Launcher is not connecting to the game.
 This quick guide explains how to manually change the launcher port.
 
-
 # Changing the port manually
 
 1. Start BeamNG
@@ -21,5 +20,7 @@ This quick guide explains how to manually change the launcher port.
 If theres still no connection, try again with another port. Any number between ~2000 and 65535 is a valid port
 
 ## Still facing issue?
+
 Create a support ticket on our [Discord Server](https://discord.gg/BeamMP).
-Tags: Launcher, download,
+
+Tags: Launcher, Connection Failed, Port Number
