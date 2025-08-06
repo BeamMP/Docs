@@ -35,7 +35,7 @@ Pour ce faire, vous avez besoin d'un minimum de connaissences de base pour const
 Assurez-vous d'avoir [`vcpkg`](https://learn.microsoft.com/en-us/vcpkg/get_started/get-started?pivots=shell-bash#1---set-up-vcpkg) d'installé, ainse que des outil de dévelopement de base, souvent trouvé dans des packets (package) tel que (par exemple):
 
 - Debian: `sudo apt install build-essential`
-- Fedora: `sudo dnf install @development-tools`
+- Fedora: `sudo dnf install cmake gcc-c++ perl-IPC-Cmd perl-FindBin perl-File-Compare perl-File-Copy`
 - Arch: `sudo pacman -S base-devel`
 - openSUSE: `zypper in -t pattern devel-basis`
 - SteamOS (Arch): `sudo pacman -S base-devel linux-api-headers glibc libconfig` (Vous devez également faire `sudo steamos-readonly disable` mais assurez-vous de l'activer à nouveau après l'installation des paquets.)

@@ -50,8 +50,13 @@ Diese Anleitung besteht aus vier Hauptschritten.
 
     Verwenden Sie ein Tool wie CheckBeamMP, um zu testen, ob die Regel funktioniert.
 
-    [:octicons-arrow-right-24: CheckBeamMP](https://check.beammp.com/api/v2/beammp/ip/port)
-
+    <form action="https://check.beammp.com/api/v2/beammp" method="get" target="_blank">
+     <label for="ip">IP adress:</label>
+     <input type="text" id="ip" name="ip"><br>
+     <label for="port">Port:</label>
+     <input type="text" id="port" name="port"><br>
+     <input type="submit" value="CheckBeamMP">
+    </form>
 </div>
 
 ## Die ausführliche Anleitung
@@ -217,7 +222,15 @@ Die meisten Router verfügen über eine Schaltfläche „Speichern“ und bei ma
 
 Es gibt verschiedene Möglichkeiten, die Verbindung zu testen.
 
-Wir empfehlen die Verwendung eines Tools namens **CheckBeamMP** , da dieses auf BeamMP-spezifische Probleme und Protokolle testet.
+Wir empfehlen die Verwendung unseres Tools **CheckBeamMP**, da dieses auf BeamMP-spezifische Probleme und Protokolle testet.
+
+<form action="https://check.beammp.com/api/v2/beammp" method="get" target="_blank">
+  <label for="ip">IP adress:</label>
+  <input type="text" id="ip" name="ip"><br>
+  <label for="port">Port:</label>
+  <input type="text" id="port" name="port"><br>
+  <input type="submit" value="CheckBeamMP">
+</form>
 
 Dies kann durch die Abfrage deiner öffentlichen IPv4-Adresse erfolgen. Auch hierfür gibt es verschiedene Möglichkeiten. Die häufigste Methode ist die Nutzung der Website [whatsmyip.org](https://whatsmyip.org/) . Diese einfache Website zeigt deine öffentliche IP-Adresse an. Du solltest nach einer IP-Adresse im Format xxx.xxx.xxx.xxx suchen.
 
