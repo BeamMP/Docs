@@ -25,9 +25,9 @@ BeamMP目前仅与Windows系统原生兼容。
 
 注意：*当您加载到已有多辆载具的地图时，加入可能需要比预期更长的时间。*
 
-## **Linux安装**
+### **Linux安装**
 
-BeamMP应该可以用`wine`来使用，但（还）没有官方支持。
+请参考[英语文档](https://docs.beammp.com/game/getting-started/#2b-linux-installation)
 
 ---
 

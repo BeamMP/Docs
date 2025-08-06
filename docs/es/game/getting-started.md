@@ -25,9 +25,9 @@ BeamMP sólo es compatible de forma nativa con Windows, por ahora.
 
 Nota: *Si te estás uniendo a un mapa con múltiples vehículos cargados, tardarás más de lo esperado en unirte.*
 
-## **Instalación en Linux**
+### **Instalación en Linux**
 
-BeamMP debería funcionar con `wine`, pero no está oficialmente soportado (todavía).
+Consulte la [documentación en inglés](https://docs.beammp.com/game/getting-started/#2b-linux-installation).
 
 ---
 
