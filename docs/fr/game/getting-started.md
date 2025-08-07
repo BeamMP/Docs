@@ -5,7 +5,7 @@
 BeamMP est entièrement compatible avec Windows et Linux, la compatibilité avec MacOS est en cours de développement. 
 Cependant, puisque Linux et MacOS sont des systèmes d'opération secondaire plusieurs problèmes (bug) sont à prévoir.
 
-!!!Attention
+!!!warning "Attention"
 
     Aucune version piratée ou dépassée de BeamNG.drive ne sera compatible avec BeamMP.
     L'équipe de support de BeamMP ne fournit aucun soutien pour les versions piratées ou défectueuses.
