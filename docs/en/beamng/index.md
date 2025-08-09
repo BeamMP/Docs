@@ -1,9 +1,10 @@
-# Bienvenue dans la documentation de BeamNG.drive
-Cette documentation est non officielle et produite par l'équipe de modélisation BeamMP et la communauté BeamNG.
+# Welcome to the BeamNG.drive documentation
+This documentation is unofficial and produced by the BeamMP Mod Team and the BeamNG Community.
 
-## Comprendre la structure des fichiers
+## Understanding The File Structure
 ...
 
 
-## Extraits de code
-Des extraits de code utiles peuvent être trouvés ici : [Snippets](snippets.md)
+## Snippets
+
+Helpful code snippets can be found here: [Snippets](snippets.md)
