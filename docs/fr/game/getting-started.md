@@ -5,15 +5,15 @@
 BeamMP est entièrement compatible avec Windows et Linux, la compatibilité avec MacOS est en cours de développement. 
 Cependant, puisque Linux et MacOS sont des systèmes d'opération secondaire plusieurs problèmes (bug) sont à prévoir.
 
-!!!warning
+!!!warning "Attention"
 
-    BeamMP ne fonctionnera pas avec une version piratée ou dépassée de BeamNG.drive.
-    L'équipe de soutient de BeamMP n'offre pas de soutient pour les versions piratées ou dépasées.
+    Aucune version piratée ou dépassée de BeamNG.drive ne sera compatible avec BeamMP.
+    L'équipe de support de BeamMP ne fournit aucun soutien pour les versions piratées ou défectueuses.
 
 ## **2. Installation**
 
 ### **2a. Installation sur Windows**
-1. Allez à [beammp.com](https://beammp.com/) et cliquer sur le bouton "Download client".
+1. Accéder à [beammp.com](https://beammp.com/) et cliquer sur le bouton "Download client".
 2. Extractez l'archive `BeamMP_Installer.zip`.
 3. Exécutez `BeamMP_Installer.exe` et suivez les instructions.
 4. L'icone du lanceur BeamMP devrais apparaître sur le bureau de votre ordinateur. Si ce n'est pas le cas, cherchez "BeamMP" dans la barre de recherche Windows.
@@ -25,7 +25,7 @@ Cependant, puisque Linux et MacOS sont des systèmes d'opération secondaire plu
 
 !!!note
 
-      Si vous vous connectez à un serveur avec plusieurs joueurs et/ou véhicules, les temps de chargement peuvent s'allonger.
+      Lorsque vous vous connectez à un serveur avec plusieurs joueurs et/ou véhicules, les temps de chargement peuvent être prolongés.
 
 ### **2b. Installation sur Linux**
 
@@ -44,7 +44,7 @@ Clônez le répertoire BeamMP-Launcher sur votre système en utilisant `git`, ex
 `git clone https://github.com/BeamMP/BeamMP-Launcher.git`
 [Informations complémentaires sur le clonage d'une réplique GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
 
-Assurez-vous d'avoir le bon identifiant de version utilisé pour la dernière version disponible (Latest version) [Dernière version](https://github.com/BeamMP/BeamMP-Launcher/releases/latest). Par exemple, si `v2.3.2` est utilisé dans la dernière version disponible, faites `git checkout v2.3.2`
+Assurez-vous d'avoir le bon identifiant de version utilisé pour la [dernière version](https://github.com/BeamMP/BeamMP-Launcher/releases/latest) disponible (Latest version). Par exemple, si `v2.3.2` est utilisé dans la dernière version disponible, faites `git checkout v2.3.2`
 
 Dans la root directory du projet,
 
