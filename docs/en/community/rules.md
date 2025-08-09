@@ -28,14 +28,19 @@ hide:
 
 ## Discord Rules
 
-1. All Above Rules Apply Here :material-information-outline:{ title="All rules mentioned in this document apply to the voice chats." }
-2. Follow Discord ToS & Guidelines :material-information-outline:{ title="Follow all rules outlined by Discord in their ToS and Guidelines" }
-3. No NSFW Audio/Streams :material-information-outline:{ title="Players should not stream any content that violates BeamMP rules stated in Section 1 of this document." }
-4. No Excessive Audio :material-information-outline:{ title="The excessive use of soundboards, playing music loudly or other uses of audio channels to intentionally agitate or target others is not allowed." }
-5. No Join/Leave Spamming :material-information-outline:{ title="Most users will have sound effects enabled, do not join and leave chats rapidly." }
-6. No Badgering Others (`@'ing`) :material-information-outline:{ title="This includes asking others repeatedly for a response after being ignored or told no." }
-7. Keep bot commands in command specific channels
-8. No Role-Playing :material-information-outline:{ title="This is in place to prevent issues arising due to missing context or to prevent users from circumventing certain rules." }
+1.    All Above Rules Apply Here :material-information-outline:{ title="All rules mentioned in this document apply to the voice chats." }
+2.    Follow Discord ToS & Guidelines :material-information-outline:{ title="Follow all rules outlined by Discord in their ToS and Guidelines" }
+3.    No NSFW Audio/Streams :material-information-outline:{ title="Players should not stream any content that violates BeamMP rules and Discord TOS." }
+3.1.  This includes gambling Services/Websites.
+5.    No Excessive Audio :material-information-outline:{ title="Excessively using soundboards, playing loud music or other uses of audio channels to intentionally agitate or target others is prohibited." }
+6.    No Join/Leave Spamming :material-information-outline:{ title="Most users will have sound effects enabled, do not join and leave voice-chats rapidly." }
+7.    No Badgering Others (`@'ing`) :material-information-outline:{ title="This includes asking others repeatedly for a response after being ignored or told no." }
+8.    Keep bot commands in command specific channels.
+10.   No Role-Playing :material-information-outline:{ title="This is in place to prevent issues arising due to missing context or to prevent users from circumventing certain rules." }
+11.   Do not offer to remote into other users computers or send malicous files.
+12.   Do not explain/send links on how to pirate, acquire illegal copies of software, hacking accounts (Beaming), or paid mods.
+13.   Do not advertise non-BeamNG/BeamMP content. Sending Media of your own channel is only allowed in the dedicated [media channel](https://discord.com/channels/601558901657305098/705427325646274680).
+14.   Follow the instructions of Staff members. If you think a staff member is abusing their power, direct message their lead or project management.
 
 ## How to appeal actions against you:
 
