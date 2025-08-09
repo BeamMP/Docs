@@ -3,16 +3,16 @@ title: Guides
 description: This set of pages provides some basic guides for BeamMP
 status: new
 ---
-!!! warning "This site is under construction!"
+!!! warning "Ce site est en cours de construction !"
 
-    This site is being actively worked on. 
-    
-    Feel you could help? Please do by clicking on the page with a pencil on the right!
+    Ce site est actuellement en cours de travail.
 
-    This can be done any page too.
+    Pensez-vous pouvoir aider ? N'hésitez pas en cliquant sur la page avec un crayon à droite !
 
-# BeamMP Development Guides
+    Cela peut également être fait sur n'importe quelle page.
 
-This page will be the introduction and preface for both client and server content creation.
+# Guides de développement BeamMP
 
-This page needs developing still.
+Cette page servira d'introduction et de préface à la création de contenu pour le client et le serveur.
+
+Cette page doit encore être développée.
