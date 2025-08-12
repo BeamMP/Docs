@@ -31,7 +31,7 @@ hide:
 1.    All Above Rules Apply Here :material-information-outline:{ title="All rules mentioned in this document apply to the voice chats." }
 2.    Follow Discord ToS & Guidelines :material-information-outline:{ title="Follow all rules outlined by Discord in their ToS and Guidelines" }
 3.    No NSFW Audio/Streams :material-information-outline:{ title="Players should not stream any content that violates BeamMP rules and Discord TOS." }
-3.1.  This includes gambling Services/Websites.
+4.    The rule above includes gambling Services/Websites.
 5.    No Excessive Audio :material-information-outline:{ title="Excessively using soundboards, playing loud music or other uses of audio channels to intentionally agitate or target others is prohibited." }
 6.    No Join/Leave Spamming :material-information-outline:{ title="Most users will have sound effects enabled, do not join and leave voice-chats rapidly." }
 7.    No Badgering Others (`@'ing`) :material-information-outline:{ title="This includes asking others repeatedly for a response after being ignored or told no." }
