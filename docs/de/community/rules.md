@@ -5,47 +5,47 @@ hide:
 
 # BeamMP Gemeinschafts-Regeln
 
-!!! info BeamMP Staff are not bound to moderate strictly by these rules and may operate at their own discretion. In addition to these rules, Discord's [Community Guidelines](https://discord.com/guidelines/) and [Terms of Service](https://discord.com/terms/) apply, and are enforced.
+!!! info Die Mitwirkenden von BeamMP sind nicht an die strikte Einhaltung dieser Regeln gebunden und können nach eigenem Ermessen handeln. Zusätzlich zu diesen Regeln gelten [die Community-Richtlinien](https://discord.com/guidelines/) und [Nutzungsbedingungen](https://discord.com/terms/) von Discord und werden durchgesetzt.
 
-## BeamMP General Rules (Applies to Discord, Forum and In-Game)
+## Allgemeine BeamMP-Regeln (gilt für Discord, Forum und im Spiel)
 
-1. No Discrimination (e.g. sexism, racism, etc…) :material-information-outline:{ title="This includes using racial/sexual slurs or other vocabulary used to target an individual or group of people, either directly or with the intention of doing so." }
-2. No Bullying or Harassment :material-information-outline:{ title="This includes targeting individuals with the use of unwanted actions, unsolicited DM's or targeting them with messages, images or verbal communication." }
-3. No NSFW, Offensive or Malicious Content :material-information-outline:{ title="This includes content containing malicious links, nudity, pornography, excessive profanity, or material otherwise offensive, malicious and/or otherwise not suitable for public spaces." }
-4. No Spamming Text/Voice Channels or Posts :material-information-outline:{ title="This includes generating multiple posts or threads, spamming the same or similar messages and abusing voice communication channels or other actions that include join/leave spamming." }
-5. Speak English :material-information-outline:{ title="All communication within BeamMP should be in the English language where possible, except in specific areas designated otherwise." }
-6. No Inappropriate Profiles :material-information-outline:{ title="This includes profile names, photos, bios or other user-controlled content that doesn't align with BeamMP/BeamNG/Discord rules and ToS." }
-7. No Doxxing :material-information-outline:{ title="No publishing of personal information (“doxing”) (including, but not limited to, real names, addresses, emails, passwords, bank account and credit card information, etc...)." }
-8. No Politics :material-information-outline:{ title="This includes discussing past or current world events outside of BeamMP/BeamNG or gaming as a whole. There are places for valid discussion of these topics but BeamMP is not one of them." }
-9. No advertising Non-BeamMP/BeamNG Content :material-information-outline:{ title="This includes non-BeamMP communities, social media channels or other external links.  This applies to posting within the BeamMP community, as well as sending users unsolicited DM's for the purpose of personal advertising." }
-10. No Impersonating Staff :material-information-outline:{ title="This includes claiming to be a staff member of BeamMP, or claiming to have the abilities associated with being a staff member. This also includes the imitation of staff members." }
-11. No Exploitation :material-information-outline:{ title="This includes exploiting any bugs or oversights for personal gain or to negatively impact the experience of others." }
-12. Follow all given TOS :material-information-outline:{ title="This is important as restrictions such as the Discord age restriction (13+) must also be followed to use our Discord server." }
-13. Respect Everyone :material-information-outline:{ title="This should go unsaid, but you need to have respect for everyone around you and act accordingly." }
-14. Keep to the topic of the category or channel. :material-information-outline:{ title="This should go unsaid, but keep your content on the topic of the area that you are posting within. E.g. support should helping people or used when seeking support." }
-15. No excessive CAPS LOCK or Reactions/Emojis :material-information-outline:{ title="Users should refrain from using excessive caps or emojis/reactions as not to obscure the point at hand." }
-16. Check the [BeamMP FAQ](../../support/player-faq.md) &amp; [BeamMP Community FAQ](https://forum.beammp.com/c/faq/35) before posting in support areas.
+1. Keine Diskriminierung (z. B. Sexismus, Rassismus usw.) :material-information-outline:{ title="Dazu gehört die Verwendung rassistischer/sexueller Beleidigungen oder anderer Ausdrücke, die dazu dienen, eine Einzelperson oder eine Gruppe von Personen direkt oder mit der Absicht anzugreifen." }
+2. Kein Mobbing oder Belästigung :material-information-outline:{ title="Dazu gehört auch das gezielte Ansprechen von Personen durch unerwünschte Handlungen, unaufgeforderte DMs oder das gezielte Ansprechen von Nachrichten, Bildern oder verbaler Kommunikation." }
+3. Keine NSFW-, anstößigen oder bösartigen Inhalte :material-information-outline:{ title="Dies umfasst Inhalte mit bösartigen Links, Nacktheit, Pornografie, übermäßiger Obszönität oder anderweitig anstößigem, bösartigem und/oder anderweitig nicht für den öffentlichen Raum geeignetem Material." }
+4. Kein Spammen von Text-/Sprachkanälen oder Posts :material-information-outline:{ title="Dazu gehört das Erstellen mehrerer Posts oder Threads, das Spammen derselben oder ähnlicher Nachrichten und der Missbrauch von Sprachkommunikationskanälen oder andere Aktionen, die das Beitreten/Verlassen von Spamming beinhalten." }
+5. Sprich Englisch :material-information-outline:{ title="Die gesamte Kommunikation innerhalb von BeamMP sollte nach Möglichkeit in englischer Sprache erfolgen, außer in bestimmten Bereichen, die anders gekennzeichnet sind." }
+6. Keine unangemessenen Profile :material-information-outline:{ title="Dies umfasst Profilnamen, Fotos, Biografien oder andere benutzergesteuerte Inhalte, die nicht mit den Regeln und Nutzungsbedingungen von BeamMP/BeamNG/Discord übereinstimmen." }
+7. Kein Doxxing :material-information-outline:{ title="Keine Veröffentlichung persönlicher Informationen („Doxing“) (einschließlich, aber nicht beschränkt auf echte Namen, Adressen, E-Mails, Passwörter, Bankkonto- und Kreditkarteninformationen usw.)." }
+8. Keine Politik :material-information-outline:{ title="Dies schließt die Diskussion vergangener oder aktueller Weltereignisse außerhalb von BeamMP/BeamNG oder Gaming im Allgemeinen ein. Es gibt Orte für sinnvolle Diskussionen dieser Themen, aber BeamMP gehört nicht dazu." }
+9. Keine Werbung für Nicht-BeamMP/BeamNG-Inhalte :material-information-outline:{ title="Dies schließt Nicht-BeamMP-Communitys, Social-Media-Kanäle oder andere externe Links ein. Dies gilt für das Posten innerhalb der BeamMP-Community sowie für das Senden unerwünschter DMs an Benutzer zum Zweck persönlicher Werbung." }
+10. Keine Vortäuschung :material-information-outline:{ title="Dazu gehört auch die Behauptung, Mitarbeiter von BeamMP zu sein oder die damit verbundenen Fähigkeiten zu besitzen. Dies schließt auch die Nachahmung von Mitarbeitern ein." }
+11. Keine Ausnutzung :material-information-outline:{ title="Dies umfasst die Ausnutzung von Fehlern oder Versäumnissen zum persönlichen Vorteil oder zur negativen Beeinflussung der Erfahrung anderer." }
+12. Befolge alle angegebenen Nutzungsbedingungen :material-information-outline:{ title="Dies ist wichtig, da für die Nutzung unseres Discord-Servers auch Einschränkungen wie die Discord-Altersbeschränkung (13+) beachtet werden müssen." }
+13. Respektiere jeden :material-information-outline:{ title="Das sollte selbstverständlich sein, aber du musst Respekt vor allen Menschen um dich herum haben und dich entsprechend verhalten." }
+14. Bleibe beim Thema der Kategorie oder des Kanals. :material-information-outline:{ title="Das sollte selbstverständlich sein, aber beschränke deine Inhalte auf das Thema des Bereichs, in dem gepostet wird. Beispielsweise sollte „Support“ Nutzern helfen oder verwendet werden, wenn du Unterstützung benötigst." }
+15. Keine übermäßige nutzung der FESTELLTASTE oder Reaktionen/Emojis :material-information-outline:{ title="Benutzer sollten auf die Verwendung übermäßiger Großbuchstaben oder Emojis/Reaktionen verzichten, um den eigentlichen Punkt nicht zu verschleiern." }
+16. Lese die [BeamMP-FAQ](../../support/player-faq.md) und [die BeamMP-Community-FAQ,](https://forum.beammp.com/c/faq/35) bevor du im Supportbereichen postest.
 
-## Discord Rules
+## Discord-Regeln
 
-1. All Above Rules Apply Here :material-information-outline:{ title="All rules mentioned in this document apply to the voice chats." }
-2. Follow Discord ToS &amp; Guidelines :material-information-outline:{ title="Follow all rules outlined by Discord in their ToS and Guidelines" }
-3. No NSFW Audio/Streams :material-information-outline:{ title="Players should not stream any content that violates BeamMP rules and Discord TOS." }
-4. The rule above includes gambling Services/Websites.
-5. No Excessive Audio :material-information-outline:{ title="Excessively using soundboards, playing loud music or other uses of audio channels to intentionally agitate or target others is prohibited." }
-6. No Join/Leave Spamming :material-information-outline:{ title="Most users will have sound effects enabled, do not join and leave voice-chats rapidly." }
-7. No Badgering Others (`@'ing`) :material-information-outline:{ title="This includes asking others repeatedly for a response after being ignored or told no." }
-8. Keep bot commands in command specific channels.
-9. No Role-Playing :material-information-outline:{ title="This is in place to prevent issues arising due to missing context or to prevent users from circumventing certain rules." }
-10. Do not offer to remote into other users computers or send malicous files.
-11. Do not explain/send links on how to pirate, acquire illegal copies of software, hacking accounts (Beaming), or paid mods.
-12. Do not advertise non-BeamNG/BeamMP content. Sending Media of your own channel is only allowed in the dedicated [media channel](https://discord.com/channels/601558901657305098/705427325646274680).
-13. Follow the instructions of Staff members. If you think a staff member is abusing their power, direct message their lead or project management.
+1. Alle oben genannten Regeln gelten hier :material-information-outline:{ title="Alle in diesem Dokument genannten Regeln gelten für die Sprachchats." }
+2. Befolge die Nutzungsbedingungen und Richtlinien von Discord :material-information-outline:{ title="Befolge alle von Discord in den Nutzungsbedingungen und Richtlinien dargelegten Regeln" }
+3. Keine NSFW-Audio/Streams :material-information-outline:{ title="Spieler sollten keine Inhalte streamen, die gegen die BeamMP-Regeln und die Discord-Nutzungsbedingungen verstoßen." }
+4. Die obige Regel gilt auch für Glücksspieldienste/-websites.
+5. Kein übermäßiger Ton :material-information-outline:{ title="Die übermäßige Verwendung von Soundboards, das Abspielen lauter Musik oder andere Verwendungen von Audiokanälen, um andere absichtlich aufzuwiegeln oder anzugreifen, sind verboten." }
+6. Kein Beitritts-/Verlassens-Spamming :material-information-outline:{ title="Die meisten Benutzer haben Soundeffekte aktiviert. Betrete und Verlasse Voice Chats nicht in kurzen Abständen." }
+7. Andere nicht bedrängen ( `@'ing` ) :material-information-outline:{ title="Dazu gehört auch, andere wiederholt um eine Antwort zu bitten, nachdem diese ignoriert oder mit Nein beantwortet wurden." }
+8. Bot-Befehle sollten in befehlsspezifischen Kanälen bleiben.
+9. Kein Rollenspiel :material-information-outline:{ title="Dies soll verhindern, dass Probleme aufgrund fehlenden Kontexts auftreten oder dass Benutzer bestimmte Regeln umgehen." }
+10. Biete niemanden an, sich per Fernzugriff auf die Computer anderer Benutzer zuzugreifen oder schädliche Dateien zu teilen.
+11. Erkläre nicht, wie man Raubkopien, illegale Kopien von Software erwirbt, Konten hackt (Beaming) oder bezahlte Mods bekommt.
+12. Mache keine Werbung für Inhalte, die nicht von BeamNG/BeamMP stammen. Das Senden von Medien deines eigenen Kanals ist nur im dedizierten [Medienkanal](https://discord.com/channels/601558901657305098/705427325646274680) zulässig.
+13. Befolge die Anweisungen der Mitarbeiter. Wenn du den Eindruck hast, dass ein Mitarbeiter seine Macht missbraucht, wenden dich direkt an den Leiter des Teams oder das Projektmanagement.
 
-## How to appeal actions against you:
+## So legst du Einspruch gegen dich gerichtete Maßnahmen ein:
 
-### Ban appeals may be submitted at <a href="https://docs.google.com/forms/d/1MaTPKM-MHQU5lUtxeOKz3C7OoI6Xbu5RX5AJdX-UOz4" class="inline-onebox">Ban Appeal - BeamMP</a>.
+### Einsprüche gegen Bans können bei <a href="https://docs.google.com/forms/d/1MaTPKM-MHQU5lUtxeOKz3C7OoI6Xbu5RX5AJdX-UOz4" class="inline-onebox">Ban Appeal - BeamMP</a> eingereicht werden.
 
-All ban appeals are investigated thoroughly, involving at least two (2) members of the staff/moderation team that were not involved in the case-at-hand.  The issuing staff member will be allowed to comment, but will not be otherwise involved in the appeal decision.  These appeal outcomes are final. BeamMP reserves the right to allow or not allow members as they deem appropriate according to the BeamMP Community Rules (as above), [Discord ToS](https://discord.com/terms), and other factors.
+Alle Einsprüche gegen Sperren werden gründlich untersucht, wobei mindestens zwei (2) Mitglieder des Personals/Moderationsteams, die nicht in den vorliegenden Fall involviert waren, hinzugezogen werden. Der ausstellende Mitarbeiter darf Stellung nehmen, ist aber ansonsten nicht an der Entscheidung über den Einspruch beteiligt. Die Ergebnisse des Einspruchs sind endgültig. BeamMP behält sich das Recht vor, Mitglieder nach eigenem Ermessen gemäß den BeamMP-Community-Regeln (siehe oben), [den Discord-Nutzungsbedingungen](https://discord.com/terms) und anderen Faktoren zuzulassen oder abzulehnen.
 
-!!! warning In the event of action taken against you, you are prohibited from creating a new Discord or BeamMP account to circumvent the ban.
+!!! warning: Im Falle von Maßnahmen gegen dich, ist es untersagt, ein neues Discord- oder BeamMP-Konto zu erstellen, um die Sperre zu umgehen.
