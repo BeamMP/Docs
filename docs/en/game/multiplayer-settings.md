@@ -1,254 +1,255 @@
 # Mutliplayer Settings
 
-## **1. Général**
+## **1. General**
 
-??? setting "Afficher les options avancées"
+??? setting "Show advanced options"
 
-    Si cette option est activée, vous verrez tous les paramètres multijoueurs.
+    If enabled, you will see all multiplayer settings
 
-    Si cette option est désactivée, seuls les paramètres de base du mode multijoueur s'afficheront.
+    If disabled, you will see only basic multiplayer settings
 
-??? setting "Activer la protection contre le clonage de la configuration"
+??? setting "Enable config cloning protection"
 
-    Si cette option est activée, la configuration de votre véhicule sera protégée contre les sauvegardes par d'autres joueurs.
+    If enabled, your spawned vehicle config will be protected from other players saving it
 
-    Si cette option est désactivée, la configuration du véhicule créé peut être sauvegardée par d'autres joueurs.
+    If disabled, your spawned vehicle config can be saved by other players
 
-??? setting "Désactiver la mise en pause causée par des instabilités"
+??? setting "Disable pausing caused by instabilities"
 
-    Si cette option est activée, les instabilités physiques n'entraîneront pas la mise en pause du jeu.
+    If enabled, physics instabilities will not cause your game to pause
 
-    Si cette option est désactivée, les instabilités physiques entraîneront la mise en pause du jeu.
-
-    !!! note ""
-
-        Il est conseillé de le laisser désactivé, car des instabilités répétées peuvent faire planter le jeu.
-
-??? setting "Utiliser des véhicules simplifiés lorsqu'ils sont disponibles"
-
-    Si cette option est activée, le jeu remplacera les véhicules des autres joueurs par leurs versions simplifiées (provenant du trafic de l'IA) si elles sont disponibles.
-
-    Si cette option est désactivée, le jeu utilisera les modèles de véhicules prévus.
-
-??? setting "Nouveau menu de chat"
-
-    Si elle est activée, la discussion en cours de jeu sera affichée dans une fenêtre [IMGUI](https://github.com/ocornut/imgui), qui peut par exemple être déplacée hors du jeu sur un autre moniteur.
-
-    S'il est désactivé, le chat en cours de jeu sera affiché en jeu.
+    If disabled, physics instabilities will cause your game to pause
 
     !!! note ""
 
-        Le fait de faire glisser des fenêtres IMGUI hors de la fenêtre principale du jeu peut entraîner des problèmes de performance et tromper les logiciels d'enregistrement d'écran en leur faisant enregistrer la fenêtre de discussion au lieu de la fenêtre principale du jeu.
+        Its advised to leave disabled, since repeated instabilities can cause the game to crash
 
-??? setting "Activer le lissage de la position du véhicule"
+??? setting "Use simplified vehicles when available"
 
-    Si cette option est activée, BeamMP utilisera un algorithme pour lisser les mises à jour de la position du véhicule à intervalles réguliers. Cela peut être bénéfique pour les joueurs ayant un ping élevé ou lorsqu'une connexion connaît un taux élevé d'abandon de paquets.
+    If enabled, the game will replace vehicles of other players with their simplified versions (from AI traffic) if available
 
-    S'il est désactivé, BeamMP mettra à jour les positions des véhicules au fur et à mesure qu'elles sont reçues.
+    If disabled, the game will use the intended vehicle models
 
-??? setting "Ignorer l'avertissement de sécurité des mods"
+??? setting "New chat menu"
 
-    Si cette option est activée, la fenêtre contextuelle de sécurité des mods ne s'affichera pas lorsque vous essayez de vous connecter à un serveur avec des mods
+    If enabled, the ingame chat will be displayed in an [IMGUI](https://github.com/ocornut/imgui) window, that for example can be dragged out of the game onto another monitor
 
-    Si elle est désactivée, la fenêtre contextuelle de sécurité des mods s'affichera à chaque fois que vous vous connecterez à un serveur avec des mods.
-
-??? setting "Activation de la file d'attente pour les mises à jour/modifications des véhicules des joueurs"
-
-    Si cette option est activée, les véhicules des autres joueurs et les modifications seront placés dans une file d'attente. Voir la section `2. File d'attente d'événements` pour plus de détails
-
-    Si cette option est désactivée, les véhicules des autres joueurs seront chargés instantanément par le jeu.
-
-??? setting "Activer la synchronisation automatique des pièce des véhicules"
-
-    Si cette option est activée, les pièces de vos véhicules seront automatiquement synchronisées avec les autres joueurs après quelques secondes.
-
-    Si cette option est désactivée, vous devez cliquer sur le bouton de synchronisation des pièces dans le sélecteur de pièces pour envoyer une synchronisation aux autres joueurs.
-
-??? setting "Désactiver le passage aux véhicules des autres joueurs"
-
-    Si cette option est activée, le passage d'un véhicule à l'autre saute les véhicules des autres joueurs.
-
-    Si cette option est désactivée, la navigation dans les véhicules passe par tous les véhicules apparus.
-
-??? setting "Fondu enchaîné des véhicules à mesure qu'ils se rapprochent"
-
-    Si cette option est activée, les autres véhicules s'effacent au fur et à mesure qu'ils se rapprochent.
-
-    Si l'option est désactivée, les autres véhicules restent entièrement visibles quelle que soit la distance.
+    If disabled, the ingame chat will be displayed in the UI app
 
     !!! note ""
 
-        Cela n'affecte que le maillage 3D visible d'un véhicule, et non son maillage de faisceaux de nœuds physiques. Afin de désactiver également la physique, vous devez activer la « physique de collision simplifiée » dans les paramètres de jeu.
+        Dragging IMGUI windows out of the main game window can cause performance issues, as well as trick screen recording software into recording the chat window instead of the main game window
 
-??? setting "Afficher les identifiants des joueurs"
+??? setting "Enable vehicle position smoothing"
 
-    Si cette option est activée, la liste des joueurs en jeu comportera une ligne supplémentaire indiquant l'identifiant de chaque joueur. Utile pour le développement ou la modération
+    If enabled, beamMP will use an algorithm to smooth vehicle position updates to regular intervalls. Can be beneficial between players with high ping or when a connection experiences a high package drop rate
 
-    Si l'option est désactivée, la liste des joueurs en jeu n'affichera que les lignes du nom de joueur et du ping.
+    If disabled, beamMP will update vehicle locations as they are received
 
-??? setting "Autoriser le rafraîchissement de la liste des serveurs en cours de jeu"
+??? setting "Skip the mod security warning popusp"
 
-    Si cette option est activée, la liste des serveurs sera mise à jour à intervalles réguliers pendant le jeu. Cela peut provoquer des pics de lag
+    If enabled, the mod security popup will not be shown when trying to connect to a server with mods
 
-    Si cette option est désactivée, la liste des serveurs ne sera mise à jour qu'à l'ouverture du menu principal.
+    If disabled, the mod security popup will be shown whenever you connect to a server with mods
 
-## **2. File d'attente d'événements**
+??? setting "Enable player vehicle update/edit queuing"
 
-??? setting "Mettre en évidence les joueurs en file d'attente"
+    If enabled, other players vehicle spawns and edits will be put into a queue. See the section `2. Event queue` for further details
 
-    Si cette option est activée, les joueurs ayant un événement en attente seront mis en évidence dans la liste des joueurs en jeu.
+    If disabled, other players vehicle spawns and edits will be loaded by the game instantly
 
-    Si cette option est désactivée, les joueurs ne seront pas mis en évidence individuellement.
+??? setting "Enable automatic part sync"
 
-??? setting "Appliquer les changements de véhicule avec"
+    If enabled, your vehicles parts will automatically be synced to other players after a few seconds
 
-    S'il est réglé sur `Bouton gauche de la souris`, cliquer sur le nom d'un joueur dans la liste des joueurs en utilisant le bouton gauche de la souris chargera les événements en file d'attente. En cliquant avec le bouton droit de la souris, le joueur sera spectateur.
+    If disbaled, you need to click the part sync button in the part picker in order to send a sync out to other players
 
-    Si le réglage est `Bouton droit de la souris`, cliquer sur le nom d'un joueur dans la liste des joueurs en utilisant le bouton droit de la souris chargera les événements en attente. En cliquant avec le bouton gauche de la souris, le joueur sera spectateur.
+??? setting "Disable switching to other players vehicles"
 
-??? setting "Appliquer automatiquement les changements de véhicules en attente"
+    If enabled, tabbing trough vehicles will skip other players vehicles
 
-    Si cette option est activée, les événements en file d'attente seront automatiquement chargés une fois que vous aurez passé sous le seuil de vitesse pendant le temps défini comme délai d'attente.
+    If disabled, tabbing trough vehicles will cycle over every spawned vehicle
 
-    S'il est désactivé, les événements en file d'attente ne seront chargés que manuellement, en cliquant soit sur le bouton « Événements » en haut de l'écran à droite, soit sur le nom d'un joueur dans la liste des joueurs.
+??? setting "Fade out vehicles as they get closer"
 
-??? setting "Seuil de vitesse d'application de la file d'attente"
+    If enabled, other vehicles will fade out as they get closer
 
-    Ce point de consigne définit le seuil de vitesse du chargement automatique de la file d'attente d'événements. Votre véhicule doit être plus lent que ce seuil pendant plus longtemps que le délai d'application de la file d'attente pour que les événements en file d'attente soient chargés.
+    If disbaled, other vehicles will stay fully visible regardless of distance
 
-??? setting "Délai d'application de la file d'attente"
+    !!! note ""
 
-    Ce point de consigne définit le délai de chargement automatique de la file d'attente des événements. Votre véhicule doit être plus lent que le « Seuil de vitesse d'application de la file d'attente » pendant ce temps afin de charger les événements en file d'attente.
+        This only affects the visible 3d mesh of a vehicle, not its physics node-beam-mesh. In order to also disable physics, you need to enable `Simplified collision physics` in the Gameplay settings
 
-??? setting "Sauter la file d'attente si l'on est spectateur"
+??? setting "Show the player ID`s"
 
-    Si cette option est activée, un événement se chargera instantanément si vous êtes spectateur d'un autre joueur.
+    If enabled, the ingame playerlist will have an additional row showing each players ID. Useful for development or moderation
 
-    S'il est désactivé, un événement sera mis en file d'attente comme il le serait si vous étiez concentré sur votre propre véhicule.
+    If disabled, the ingame playerlist will only show the rows for playername and ping
 
-??? setting "Ne mets pas en file d'attente les Monocycles (Bonshommes de neige/Beamlings)"
+??? setting "Allow the serverlist to refresh ingame"
 
-    Si l'option est activée, un événement concernant un bonhomme de neige ou un phare sera chargé instantanément.
+    If enabled, the serverlist will update in regular intervalls while playing. This can cause lag spikes
 
-    Si cette option est désactivée, les bonshommes de neige et les phares seront mis en file d'attente comme les autres véhicules.
+    If disabled, the serverlist will only update once you open the main menu
 
-## **3. Définir Unicycle par défaut**
+## **2. Event queue**
 
-??? setting "Configuration par défaut de l'unicycle"
+??? setting "Highlight queued players"
 
-    Ce paramètre définit la variante de monocycle à charger par défaut. Vous pouvez choisir entre des configurations préétablies et les vôtres si vous avez enregistré des configurations d'unicycle personnalisées.
+    If enabled, players with a queued event will be highlighted in the ingame playerlist
 
-??? setting "Sauvegarde automatique de votre dernière utilisation d'unicycle"
+    If disabled, players will not be individually highlighted
 
-    Si cette option est activée, le dernier monocycle utilisé sera automatiquement sauvegardé et rechargé lorsque vous le ferez apparaître à nouveau.
+??? setting "Apply vehicle changes with"
 
-    Si désactivé, la configuration par défaut de l'unicycle sera utilisée à chaque fois.
+    If set to `Left mouse button`, clicking on a players name in the playerlist using the left mouse button will load the queued events. Clicking with the right mouse button will spectate said player
 
-## **4. Boules**
+    If set to `Right mouse button`, clicking on a players name in the playerlist using the right mouse button will load the queued events. Clicking with the left mouse button will spectate said player
 
-??? setting "Activer les boules pour les véhicules non chargées"
+??? setting "Automatically apply queued vehicle changes"
 
-    Si cette option est activée, vous verrez un orbe ou une boule à la place d'un véhicule non apparu.
+    If enabled, the queued events will be automatically loaded once you've been going under the speed treshold for the amount of time set as the timeout
 
-    Si cette option est désactivée, le véhicule non apparu sera invisible.
+    If disabled, the queued events will only load manually, by clicking on either the `Events` button at the top of the screen or on a players name in the playerlist
 
-??? setting "Accorder les couleurs"
+??? setting "Queue apply speed treshold"
 
-    ??? setting « Visible »
+    This setpoint defines the speed treshold of the automatic event queue loading. Your vehicle has to be slower than this for longer than `Queue apply timeout` in order to load the queued events
 
-        Si cette option est activée, une boule sera dessiné, en utilisant la couleur ci-dessous
+??? setting "Queue apply timeout"
 
-        S'il est désactivé, aucune boule ne sera dessiné pour la fonction spécifiée.
+    This setpoint defines the time delay of the automatic event queue loading. Your vehicle has to be slower than `Queue apply speed treshold` for this time in order to load the queued events
 
-    ??? setting "Valeurs RGB HEX"
+??? setting "Skip queue if spectating others"
 
-        Véhicule en attente : La couleur qu'une boule utilisera si un véhicule est en file d'attente. Valeur standard #FF6400
+    If enabled, an event will instantly load if you are spectating another player
 
-        Véhicule illégal : La couleur qu'une boule utilisera si un véhicule est illégal, par exemple à cause d'un mod qui a été "interdit". Valeur standard #000000
+    If disabled, an event will be queued just like it would when focused on your own vehicle
 
-        Véhicule supprimé : La couleur qu'une boule utilisera si un véhicule a été supprimé par l'utilisateur. Valeur standard #333333
-## **5. Étiquettes**
+??? setting "Don't queue Unicycles (Snowmen/Beamlings)"
 
-??? setting "Masquer les étiquettes des joueurs"
+    If enabled, an event concerning a snowmen/beamling will be loaded instantly
 
-    Si cette option est activée, les étiquettes des joueurs ne seront pas affiché.
+    If disabled, snowmen/beamlings will be queued just like other vehicles
 
-    Si cette option est désactivée, les étiquettes des joueurs seront affiché en fonction de la position relative de leur véhicule.
+## **3. Set default Unicycle**
 
-??? setting "Afficher la distance par rapport aux autres joueurs"
+??? setting "Default Unicycle config"
 
-    Si cette option est activée, le nom du véhicule sera précédé de la distance qui le sépare du véhicule concerné.
+    This setpoint defines the unicycle variant to be loaded by default. You can choose between premade configs and your own should you have saved custom unicycle configs
 
-    Si cette option est désactivée, aucune distance supplémentaire n'est indiquée.
+??? setting "Automatically save your last used Unicycle"
 
-??? setting "Les étiquettes s'estompent à l'intérieur et à l'extérieur."
+    If enabled, your last used unicycle will be automatically saved and reloaded once you spawn it again
 
-    Si cette option est activée, l'étiquette sera estompé en fonction de la « distance d'estompement » et de la « direction d'estompement de l'étiquette ».
+    If disabled, your default unicycle config will spawn every time
 
-    S'il est désactivé, l'étiquette sera affiché avec une opacité standard, quelle que soit la distance par rapport au véhicule concerné.
+## **4. Blobs**
 
-??? setting "Distance de fondu/direction de fondu de l'étiquette inversé"
+??? setting "Enable blobs for unspawned vehicles"
 
-    !!! setting "Fondu enchaîné"
+    If enabled, you will see a placeholder orb, or blob, in place of an unspawned vehicle
 
-        Les étiquettes sont de moins en moins visibles au fur et à mesure que le joueur s'éloigne.
+    If disabled, an unspawned vehicle will be invisible
 
-        `Distance de fondu` définit la distance à laquelle l'étiquette sera dessiné avec une opacité minimale.
+??? setting "Tune colors"
 
-    !!! setting "Fondu enchaîné"
+    ??? setting "Visible"
 
-        Les étiquettes sont de plus en plus visibles au fur et à mesure que le joueur s'éloigne
+        If enabled, a blob will be drawn, using the color below
 
-        `Distance de fondu` définit la distance à laquelle l'étiquette sera affiché avec une opacité maximale.
+        If disabled, no blob will be drawn for the specified function
 
-??? setting "Ne pas cacher complètement les étiquettes"
+    ??? setting "RGB HEX values"
 
-    Si cette option est activée, l'étiquette ne peut pas devenir totalement invisible, il conservera une opacité minimale quelle que soit la distance.
+        Queued vehicle: The color a blob will use if a vehicle is queued for spawning. Standard value #FF6400
 
-    Si cette option est désactivée, les étiquettes peuvent devenir totalement invisibles.
+        Illegal vehicle: The color a blob will use if a vehicle is illegal, for example trough a mod that was sideloaded. Standard value #000000
 
-??? setting "Raccourcir les étiquettes de noms et de rôles"
+        Deleted vehicle: The color a blob will use if a vehicle was deleted by the user. Standard value #333333
 
-    Si cette option est activée, `Limite de longueur du nom` tronquera les noms et les rôles jusqu'à la limite de caractères fixée.
+## **5. Nametags**
 
-    Si elle est désactivée, les étiquettes de nom et de rôle seront affichées dans leur intégralité.
+??? setting "Hide player nametags"
 
-??? setting "Faire affiché le nom des spectateurs sous le nom des véhicules."
+    If enabled, player nametags will not be drawn
 
-    Si cette option est activée, le nom d'un spectateur sera ajouté sous l'étiquette d'un joueur.
+    If disabled, player nametags will be drawn according to their vehicles relative position
 
-    Si cette option est désactivée, aucun nom de spectateur ne sera ajouté à l'étiquette.
+??? setting "Show distance from other players"
 
-??? setting "Même couleur pour les étiquettes des spectateurs"
+    If enabled, the nametag will be prepended by the distance to the respective vehicle
 
-    Si cette option est activée, le nom d'un spectateur sera toujours entouré d'un fond gris.
+    If disabled, no additional distance will be shown in the nametag
 
-    S'il est désactivé, le nom d'un spectateur sera entouré d'un arrière-plan coloré, reflétant le rôle du spectateur.
+??? setting "Fade nametags in/out"
 
-## **6. Autres**
+    If enabled, a nametag will be faded in/out according to `Fade distance` and `Invert nametag fade direction`
 
-??? setting "Afficher l'activité du réseau dans la console"
+    If disabled, anametag will be drawn at standard opacity regardless of distance to the respective vehicle
 
-    Si cette option est activée, l'activité du réseau beamMP sera affichée dans la console.
+??? setting "Fade distance/Invert nametag fade direction"
 
-    Si elle est désactivée, aucune autre activité réseau ne sera affichée dans la console.
+    !!! setting "Fade out"
+
+        Nametags are getting less visible the further away a player is
+
+        `Fade distance` defines the distance at which a nametag will be drawn at minimal opacity
+
+    !!! setting "Fade in"
+
+        Nametags are getting more visible the further away a player is
+
+        `Fade distance` defines the distance at which a nametag will be drawn at maximal opacity
+
+??? setting "Don't fully hide nametags"
+
+    If enabled, a nametag can not get fully invisible, it will retain a minimal opacity regardless of distance
+
+    If disabled, nametags can get fully invisble
+
+??? setting "Shorten nametag and role tags"
+
+    If enabled, `Nametag length limit` will truncate nametags and roles to the set limit of characters
+
+    If disabled, nametag and role tags will be shown at full length
+
+??? setting "Show spectators' nametag under vehicle nametags"
+
+    If enabled, a spectators name will be added underneath a players nametag
+
+    If disabled, no spectator names will be added to nametags
+
+??? setting "Same color for spectator nametags"
+
+    If enabled, a spectators name will always be surrounded by a grey background
+
+    If disabled, a spectators name will be surrounded by a colored background, reflecting the spectators role
+
+## **6. Others**
+
+??? setting "Show network activity in the console"
+
+    If enabled, the beamMP network activity will be shown in the console
+
+    If disabled, no further network activity will be shown in the console
 
     !!! danger ""
 
-        Soyez prudent avec ce paramètre, car toutes les sorties de la console sont également écrites dans les fichiers journaux
+        Be careful with this setting, since all the console output gets also written into the log files
         
-        Ceux-ci peuvent croître de plusieurs centaines de Mo en quelques minutes lorsque ce paramètre est activé.
+        They can grow by hundreds of MB in minutes with this setting enabled
 
-??? setting "Port du lanceur BeamMP"
+??? setting "Launcher port"
 
-    Ce paramètre définit le port utilisé pour communiquer avec le lanceur
+    This setpoint defines the port used for communicating with the launcher
 
-    Ne doit être modifié que si le port standard 4444 ne peut pas être utilisé
+    Should only be changed if the standard port 4444 can not be used
 
-    N'oubliez pas de le changer également du côté du lanceur, en modifiant `launcher.cfg`.
+    Dont forget to also change it on the launcher side, by modifying `launcher.cfg`
 
     !!! tip ""
 
-        Le port spécifié n'est que le premier de deux, le second port utilisé est directement suivant, set port + 1
+        The port specified is only the first of two, the second port being used is directly following, set port + 1
 
-        Le premier port transporte les paquets du réseau central, le second les paquets du réseau de jeu, tous deux via TCP.
+        The first port carries core network pakets, the second game network pakets, both over TCP

@@ -28,3 +28,7 @@ Thinking about creating your own BeamMP server? Our comprehensive guide [here](.
 Discover the ins and outs of creating resources for the BeamMP Server in our [Resource Development Guide](../guides/mod-creation/server/getting-started.md).
 
 Exciting updates are on the horizon, including a brand-new homepage designed to enhance your browsing experience. Stay tuned for more! :slight_smile:
+
+## Community Rules
+
+Read through the BeamMP [Community rules](https://docs.beammp.com/community/rules/) and how to appeal bans.
