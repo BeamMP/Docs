@@ -28,7 +28,6 @@ La configuration comprend les étapes suivantes, vous devez toutes les suivre.
 
 !!! info
 
-```
 Si vous êtes sur un VPS (Virtual Private Server), un Rootserver, ou si vous prévoyez d'héberger ce serveur localement (avec des joueurs dans la même maison que vous), vous pouvez sauter cette étape.
 Cette étape est nécessaire si vous voulez que quelqu'un **en dehors** de votre foyer rejoigne votre serveur hébergé localement (en dehors de votre réseau local).
 
@@ -43,7 +42,6 @@ Nous ne sommes pas responsables du contenu des services ou sites web externes.
 Il est donc recommandé d'héberger un serveur avec l'un de nos services partenaires !
 
 *Veuillez consulter [ce guide sur la façon de rediriger un port](port-forwarding.md)*.
-```
 
 #### Services d'hébergement partenaires (payants) :
 
@@ -74,9 +72,7 @@ La clé d'authentification, souvent appelée « AuthKey », est nécessaire po
 
 !!! warning
 
-```
 NE PARTAGEZ JAMAIS CETTE CLÉ ET NE LA MONTREZ À PERSONNE. TRAITEZ CECI COMME UN MOT DE PASSE.
-```
 
 Vous aurez besoin d'un compte [Discord](https://discord.com) pour cette étape. Ceci est indispensable pour éviter le spam.
 
@@ -190,9 +186,7 @@ Si vous avez choisi un **port** différent de **30814** , assurez-vous de le rem
 
 !!! info
 
-```
   Votre serveur n'apparaîtra **PAS** dans la liste des serveurs tant que le champ `Private = true` à comme option "True. _Si_ vous souhaitez qu'il apparaisse dans la liste, définissez-le sur **`Private = false`**.
-```
 
 ### **5. Validation**
 
@@ -206,10 +200,8 @@ L'installation des mods de véhicules et de cartes est différente, mais ils doi
 
 !!! warning
 
-```
 Si vous recevez un message « terminé » ou « démarrer » lorsque vous essayez de rejoindre votre serveur après avoir ajouté des mods, vous avez probablement ajouté un mod incompatible ou cassé à votre serveur.
 Des incompatibilités de mods peuvent également survenir entre deux ou plusieurs mods. Si vous avez installé des mods clients, consultez ce guide pour savoir comment les supprimer de votre jeu.
-```
 
 #### 5.2 Mods généraux
 
@@ -269,14 +261,12 @@ Saisissez l'IPv4 publique et le port des serveurs ci-dessous, puis cliquez sur �
 
 !!! warning "Je souhaite utiliser un VPN tel que RadminVPN, Hamachi ou similaire."
 
-```
 BeamMP ne prend pas en charge ces VPN, car ils posent souvent problème. L'un de ces problèmes est le non-transfert du trafic UDP. Pour résoudre ce problème, consultez la section 1.
 
 !!! question "Mais pourquoi cela a-t-il fonctionné dans le passé ?"
 
 Cela est dû au fait que les développeurs de ces applications mettent à jour leurs logiciels et mettent en œuvre des modifications sur lesquelles BeamMP n'a aucun contrôle.
 Il appartient aux développeurs de ces applications de fournir un support pour des cas d'utilisation spécifiques comme un serveur BeamMP.
-```
 
 ## Vous rencontrez toujours des problèmes ?
 
