@@ -18,10 +18,8 @@ Ouvrez une invite de commande et exécutez `tracert -4 beammp.com` . Cela affich
 
 !!! note
 
-```
 Le premier saut sera votre routeur/modem/passerelle et diffère selon les appareils.
 Les plages officielles pour les réseaux locaux sont les suivantes : « 10.0.0.xxx » - « 192.168.xxx.xxx » - « 172.16.xxx.xxx »
-```
 
 ## Méthode 2 :
 
@@ -33,10 +31,8 @@ Contactez votre fournisseur d'accès Internet pour obtenir de l'aide. Selon votr
 
 !!! warning
 
-```
 Les fournisseurs de services Internet ne peuvent proposer des adresses IP dédiées qu'en tant qu'**option payante**.
 Veuillez vérifier les prix de nos services d'hébergement partenaires car ils pourraient être moins chers que ces frais !
-```
 
 Exemple de réseau non-CGNAT :
 
