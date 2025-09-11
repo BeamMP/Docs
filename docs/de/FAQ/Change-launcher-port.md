@@ -20,6 +20,6 @@ Falls das Problem noch immer besteht, kann die Prozedur mit einer anderen Port-N
 
 ## Unterstützung gewünscht?
 
-Create a support ticket on our [Discord Server](https://discord.gg/BeamMP).
+Erstelle ein Support-Ticket auf unserem [Discord-Server](https://discord.gg/BeamMP) .
 
-Tags: Launcher, Connection Failed, Port Number
+Tags: Launcher, Verbindung fehlgeschlagen, Port, Portnummer
