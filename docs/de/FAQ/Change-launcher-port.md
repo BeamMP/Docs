@@ -4,12 +4,12 @@ Wenn sich der Launcher nicht mit dem Spiel verbinden kann, kann diese Kurzanleit
 
 # Manuelle Änderung des Ports
 
-1. BeamNG starten
+1. Starte BeamNG starten
 2. Im Hauptmenü "Optionen -&gt; Multiplayer" öffnen
 3. In den Mehrspieler-Optionen, `Show advanced options` aktivieren
 4. Ganz nach unten scrollen
 5. Im Feld `Launcher port` eine andere Port-Nummer einstellen, z.B. 4567
-6. BeamNG schließen
+6. Schließe BeamNG
 7. Rechtsklick auf die BeamMP-Launcher-Verknüpfung, anschließend im Kontextmenü `Dateispeicherort öffnen` auswählen
 8. Die Datei `launcher.cfg` in einem Text-Bearbeitungsprogramm öffnen
 9. Bei der Option `"Port": 4444,` die gleiche Nummer wie in den BeamNG-Optionen einstellen, in diesem Beispiel 4567
