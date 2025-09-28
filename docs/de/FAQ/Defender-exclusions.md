@@ -31,7 +31,7 @@ Bevor Änderungen an der Firewall vorgenommen werden, sollte sichergestellt werd
 2. Klicke auf das erste Element `Virus und Bedrohungsschutz` .
 3. Klicke im Unter-menü auf `Einstellungen verwalten`.
 4. Scrolle nach unten, um zur Registerkarte `Asschlüsse` zu navigieren.
-5. Klicke dort auf „Ausschluss hinzufügen“ und wähle  `Prozesss` aus.
+5. Klicke dort auf „Ausschluss hinzufügen“ und wähle  `Prozess` aus.
 6. Gieb `BeamMP-Launcher.exe` in das Feld ein und speichere es.
 7. Starte deinen PC neu.
 
