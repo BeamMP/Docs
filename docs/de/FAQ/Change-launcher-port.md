@@ -4,7 +4,7 @@ Wenn sich der Launcher nicht mit dem Spiel verbinden kann, kann diese Kurzanleit
 
 # Manuelle Änderung des Ports
 
-1. Starte BeamNG
+1. Starte BeamMP
 2. Im Hauptmenü "Optionen -&gt; Multiplayer" öffnen
 3. In den Mehrspieler-Optionen, `Show advanced options` aktivieren
 4. Ganz nach unten scrollen
