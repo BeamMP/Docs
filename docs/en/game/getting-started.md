@@ -32,13 +32,33 @@ However, both Linux and MacOS are secondary platforms, this means bugs are to be
 Currently you need to build the Launcher yourself.
 In order to do this, you need a basic understanding of how to build an application.
 
-Make sure you have [`vcpkg` installed](https://learn.microsoft.com/en-us/vcpkg/get_started/get-started?pivots=shell-bash#1---set-up-vcpkg), as well as basic development tools, often found in packages, for example:
+Make sure you have basic development tools installed, often found in packages, for example:
 
 - Debian: `sudo apt install build-essential`
 - Fedora: `sudo dnf install cmake gcc-c++ perl-IPC-Cmd perl-FindBin perl-File-Compare perl-File-Copy`
 - Arch: `sudo pacman -S base-devel`
 - openSUSE: `zypper in -t pattern devel-basis`
 - SteamOS (Arch): `sudo pacman -S base-devel linux-api-headers glibc libconfig` (You also need to do `sudo steamos-readonly disable` but make sure to enable it again after installing the packages)
+
+
+Clone `vcpkg`, bootstrap it and add it to PATH
+
+1. 
+```bash
+git clone https://github.com/microsoft/vcpkg.git
+```
+
+2. 
+```bash
+./vcpkg/bootstrap-vcpkg.sh
+```
+
+3. 
+```bash
+export VCPKG_ROOT="$(pwd)/vcpkg"
+export PATH=$VCPKG_ROOT:$PATH
+```
+
 
 Clone the BeamMP-Launcher Repository to your system using `git`, for example:
 `git clone https://github.com/BeamMP/BeamMP-Launcher.git`
