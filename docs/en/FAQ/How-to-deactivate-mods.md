@@ -21,7 +21,7 @@ Before joining any server, make sure you have no mods besides 'multiplayerbeammp
 If the game freezes or you still have issues, refer to the next option
 
 ### 2. Creating a new Userfolder
-Open the BeamNG.Drive userfolder and rename the folder of the latest version (e.g. 0.35) to for example 0.xx_OLD (0.35_OLD). Close BeamNG.drive before renaming it.
+Open the BeamNG.Drive userfolder and rename the `current` folder to for example `current_old`. Close BeamNG.drive before renaming it.
 ![image](../../assets/content/new-userfolder.png)
 
 ### 3. Removing mods from the content folders.
@@ -37,5 +37,5 @@ Delete the folder to delete all cached mods. This can be helpful if you need mor
 
 !!! question "My settings and configs are gone! How can I restore them?"
 
-    If you renamed the userfolder, you forced the game to create a new, clean userfolder. You may copy the 'settings' and 'vehicles' folder from the folder you renamed (e.g. 0.34_OLD) to the new folder it created.
+    If you renamed the userfolder, you forced the game to create a new, clean userfolder. You may copy the 'settings' and 'vehicles' folder from the folder you renamed (e.g. `current_old`) to the new folder it created.
     Make sure BeamNG.Drive is closed and replace all elements in the location you want to copy the folders to. You should now have all configs and settings as they were before.
