@@ -104,28 +104,6 @@ cd ~/beammp-launcher
 ./BeamMP-Launcher
 ```
 
-!!!note "Konfiguration des nativen Linux-Spielpfads"
-    Um die native Linux-Version von BeamNG.drive zu verwenden (was bessere Leistung als Proton bietet), konfiguriere den Spielpfad in der Datei `Launcher.cfg`:
-
-    Finde deine BeamNG-Installation:
-    ```bash
-    find ~/.steam ~/.local/share/Steam -name "BeamNG.drive.x64" 2>/dev/null
-    ```
-
-    Erstelle oder bearbeite `~/beammp-launcher/Launcher.cfg`:
-    ```json
-    {
-        "Port": 4444,
-        "Build": "Default",
-        "CachingDirectory": "./Resources",
-        "GamePath": "$HOME/.steam/steam/steamapps/common/BeamNG.drive/BinLinux/BeamNG.drive.x64"
-    }
-    ```
-
-    Häufige Pfade:
-    - `$HOME/.steam/steam/steamapps/common/BeamNG.drive/BinLinux/BeamNG.drive.x64`
-    - `$HOME/.local/share/Steam/steamapps/common/BeamNG.drive/BinLinux/BeamNG.drive.x64`
-
 Der native Linux BeamMP-Launcher wird gestartet und verwendet das native Linux BeamNG.drive
 
 ### **2c. Nutzung BeamNG.drive mit Proton**
