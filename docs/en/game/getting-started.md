@@ -88,13 +88,13 @@ cmake --build bin --parallel
 
 !!!note "Fedora Users"
     If vcpkg fails during OpenSSL compilation with kernel headers errors, ensure all dependencies are installed:
-```bash
+    ```bash
     sudo dnf install kernel-headers kernel-devel gcc gcc-c++ make perl
-```
+    ```
     Then clean the vcpkg cache:
-```bash
+    ```bash
     rm -rf ~/vcpkg/buildtrees/openssl
-```
+    ```
     And retry the cmake configuration command.
 
 Move the finished application out of the `/bin` folder into its own folder and run it from there:
