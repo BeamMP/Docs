@@ -93,7 +93,7 @@ cmake --build bin --parallel
     ```
     Then clean the vcpkg cache:
     ```bash
-    rm -rf ~/vcpkg/buildtrees/openssl
+    rm -rf $VCPKG_ROOT/buildtrees/openssl
     ```
     And retry the cmake configuration command.
 
