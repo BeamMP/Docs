@@ -29,9 +29,9 @@ BeamMP ist vollständig kompatibel mit Windows und Linux, an der Kompatibilität
 
 ### **2b. Linux Installation**
 
-Derzeit musst du den Launcher selbst erstellen. Dazu benötigst du grundlegende Kenntnisse zum Erstellen einer Anwendung.
+Derzeit musst du den Launcher selbst kompilieren (erstellen). Dazu benötigst du grundlegende Kenntnisse über den Prozess der Erstellung einer Anwendung (Kompilierung).
 
-Stelle sicher, dass grundlegende Entwicklungstools installiert sind, welche oft in Paketen enthalten sind, zum Beispiel:
+Stelle sicher, dass grundlegende Entwicklungstools (Build-Tools) installiert sind, die oft in folgenden Paketen enthalten sind:
 
 - Debian: `sudo apt install build-essential`
 - Fedora: `sudo dnf install cmake gcc gcc-c++ make perl perl-IPC-Cmd perl-FindBin perl-File-Compare perl-File-Copy kernel-headers kernel-devel`
@@ -40,7 +40,7 @@ Stelle sicher, dass grundlegende Entwicklungstools installiert sind, welche oft 
 - SteamOS (Arch): `sudo pacman -S base-devel linux-api-headers glibc libconfig` (Du musst auch `sudo steamos-readonly disable` ausführen, schalte es jedoch nach der Installation wieder ein)
 
 
-Klone `vcpkg`, initialisiere es und füge es zu PATH hinzu
+Klone vcpkg, initialisiere es und füge es zur PATH-Umgebungsvariable hinzu.
 
 1.
 ```bash
@@ -63,9 +63,9 @@ Klone das BeamMP-Launcher-Repository mit `git` auf dein System, zum Beispiel:
 `git clone https://github.com/BeamMP/BeamMP-Launcher.git`
 [Weitere Informationen zum Klonen eines GitHub-Repos](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
 
-Lade das "Tag", das für die [neueste Version](https://github.com/BeamMP/BeamMP-Launcher/releases/latest) verwendet wurde. Wenn beispielsweise `v2.3.2` in der neuesten Version verwendet wird, führe `git checkout v2.3.2` aus.
+Wechsle zum neuesten "Tag" (Versionsstand). Lade das "Tag" herunter, das für die neueste Version verwendet wurde. Wenn beispielsweise v2.3.2 in der neuesten Version verwendet wird, führe im Repository-Ordner `git checkout v2.3.2` aus.
 
-Im Stammverzeichnis des Projekts, führe aus:
+Führe im Stammverzeichnis des Projekts folgende Schritte aus:
 
 1.
 ```cmake
@@ -86,7 +86,7 @@ cmake --build bin --parallel
     Wenn du -DCMAKE_BUILD_TYPE=Release nicht spezifizierst, erstellst du eine Debug-Version, die zwar eine größere Dateigröße hat, aber nicht den Fehler „Launcher kann sich nur einmal mit einem Server verbinden" enthält.
 
 !!!note "Fedora Benutzer"
-    Wenn vcpkg während der OpenSSL-Kompilierung mit Kernel-Header-Fehlern fehlschlägt, stelle sicher, dass alle Abhängigkeiten installiert sind:
+    Wenn vcpkg während der OpenSSL-Kompilierung aufgrund von Kernel-Header-Fehlern fehlschlägt, stelle sicher, dass alle Abhängigkeiten installiert sind:
     ```bash
     sudo dnf install kernel-headers kernel-devel gcc gcc-c++ make perl
     ```
@@ -94,7 +94,7 @@ cmake --build bin --parallel
     ```bash
     rm -rf $VCPKG_ROOT/buildtrees/openssl
     ```
-    Und wiederhole den cmake-Konfigurationsbefehl.
+    Und wiederhole den cmake-Konfigurationsbefehl (Schritt 1).
 
 Verschiebe die fertige Anwendung aus dem `/bin` Ordner in einen eigenen Ordner und führe sie von dort aus aus:
 ```bash
@@ -105,7 +105,7 @@ cd ~/beammp-launcher
 ```
 
 !!!note "Konfiguration des nativen Linux-Spielpfads"
-    Um die native Linux-Version von BeamNG.drive zu verwenden (bessere Leistung als Proton), konfiguriere den Spielpfad in `Launcher.cfg`:
+    Um die native Linux-Version von BeamNG.drive zu verwenden (was bessere Leistung als Proton bietet), konfiguriere den Spielpfad in der Datei `Launcher.cfg`:
 
     Finde deine BeamNG-Installation:
     ```bash
