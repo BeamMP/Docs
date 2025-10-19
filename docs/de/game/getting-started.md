@@ -31,15 +31,37 @@ BeamMP ist vollständig kompatibel mit Windows und Linux, an der Kompatibilität
 
 Derzeit musst du den Launcher selbst erstellen. Dazu benötigst du grundlegende Kenntnisse zum Erstellen einer Anwendung.
 
-Stelle sicher, dass [`vcpkg`](https://learn.microsoft.com/en-us/vcpkg/get_started/get-started?pivots=shell-bash#1---set-up-vcpkg) sowie grundlegende Entwicklungstools installiert sind, welche oft in Paketen enthalten sind, zum Beispiel:
+Stelle sicher, dass grundlegende Entwicklungstools installiert sind, welche oft in Paketen enthalten sind, zum Beispiel:
 
 - Debian: `sudo apt install build-essential`
-- Fedora: `sudo dnf install cmake gcc-c++ perl-IPC-Cmd perl-FindBin perl-File-Compare perl-File-Copy`
+- Fedora: `sudo dnf install cmake gcc gcc-c++ make perl perl-IPC-Cmd perl-FindBin perl-File-Compare perl-File-Copy kernel-headers kernel-devel`
 - Arch: `sudo pacman -S base-devel`
 - openSUSE: `zypper in -t pattern devel-basis`
 - SteamOS (Arch): `sudo pacman -S base-devel linux-api-headers glibc libconfig` (Du musst auch `sudo steamos-readonly disable` ausführen, schalte es jedoch nach der Installation wieder ein)
 
-Klone das BeamMP-Launcher-Repository mit `git` auf dein System, zum Beispiel: `git clone https://github.com/BeamMP/BeamMP-Launcher.git` [Weitere Informationen zum Klonen eines GitHub-Repos](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
+
+Klone `vcpkg`, initialisiere es und füge es zu PATH hinzu
+
+1.
+```bash
+git clone https://github.com/microsoft/vcpkg.git
+```
+
+2.
+```bash
+./vcpkg/bootstrap-vcpkg.sh
+```
+
+3.
+```bash
+export VCPKG_ROOT="$(pwd)/vcpkg"
+export PATH=$VCPKG_ROOT:$PATH
+```
+
+
+Klone das BeamMP-Launcher-Repository mit `git` auf dein System, zum Beispiel:
+`git clone https://github.com/BeamMP/BeamMP-Launcher.git`
+[Weitere Informationen zum Klonen eines GitHub-Repos](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
 
 Lade das "Tag", das für die [neueste Version](https://github.com/BeamMP/BeamMP-Launcher/releases/latest) verwendet wurde. Wenn beispielsweise `v2.3.2` in der neuesten Version verwendet wird, führe `git checkout v2.3.2` aus.
 
@@ -61,9 +83,48 @@ cmake --build bin --parallel
 
 !!!note ""
 
-    Wenn du -DCMAKE_BUILD_TYPE=Release nicht spezifizierst, erstellst du eine Debug-Version, die zwar eine größere Dateigröße hat, aber nicht den Fehler „Launcher kann sich nur einmal mit einem Server verbinden“ enthält.
+    Wenn du -DCMAKE_BUILD_TYPE=Release nicht spezifizierst, erstellst du eine Debug-Version, die zwar eine größere Dateigröße hat, aber nicht den Fehler „Launcher kann sich nur einmal mit einem Server verbinden" enthält.
 
-Verschiebe die fertige Anwendung aus dem `/bin` Ordner in einen eigenen Ordner und führe sie von dort aus aus.
+!!!note "Fedora Benutzer"
+    Wenn vcpkg während der OpenSSL-Kompilierung mit Kernel-Header-Fehlern fehlschlägt, stelle sicher, dass alle Abhängigkeiten installiert sind:
+    ```bash
+    sudo dnf install kernel-headers kernel-devel gcc gcc-c++ make perl
+    ```
+    Bereinige dann den vcpkg-Cache:
+    ```bash
+    rm -rf $VCPKG_ROOT/buildtrees/openssl
+    ```
+    Und wiederhole den cmake-Konfigurationsbefehl.
+
+Verschiebe die fertige Anwendung aus dem `/bin` Ordner in einen eigenen Ordner und führe sie von dort aus aus:
+```bash
+mkdir -p ~/beammp-launcher
+cp bin/BeamMP-Launcher ~/beammp-launcher/
+cd ~/beammp-launcher
+./BeamMP-Launcher
+```
+
+!!!note "Konfiguration des nativen Linux-Spielpfads"
+    Um die native Linux-Version von BeamNG.drive zu verwenden (bessere Leistung als Proton), konfiguriere den Spielpfad in `Launcher.cfg`:
+
+    Finde deine BeamNG-Installation:
+    ```bash
+    find ~/.steam ~/.local/share/Steam -name "BeamNG.drive.x64" 2>/dev/null
+    ```
+
+    Erstelle oder bearbeite `~/beammp-launcher/Launcher.cfg`:
+    ```json
+    {
+        "Port": 4444,
+        "Build": "Default",
+        "CachingDirectory": "./Resources",
+        "GamePath": "$HOME/.steam/steam/steamapps/common/BeamNG.drive/BinLinux/BeamNG.drive.x64"
+    }
+    ```
+
+    Häufige Pfade:
+    - `$HOME/.steam/steam/steamapps/common/BeamNG.drive/BinLinux/BeamNG.drive.x64`
+    - `$HOME/.local/share/Steam/steamapps/common/BeamNG.drive/BinLinux/BeamNG.drive.x64`
 
 Der native Linux BeamMP-Launcher wird gestartet und verwendet das native Linux BeamNG.drive
 
@@ -98,8 +159,9 @@ Beachte, dass hierbei davon ausgegangen wird, dass die Binärdatei des Launchers
 ## **3. Bekannte Probleme**
 
 - Der native Linux BeamMP-Launcher kann sich derzeit nur einmal mit einem Server verbinden, nach dem Trennen der Verbindung muss der Launcher neu gestartet werden. Dies ist möglich, ohne das Spiel zwischendurch schließen zu müssen.
-- Wenn die Schaltfläche „Multiplayer“ nicht angezeigt wird, stelle sicher, dass der BeamMP-Mod im „Mod Manager“ vorhanden und aktiviert ist, und drücke dann STRG + L.
+- Wenn die Schaltfläche „Multiplayer" nicht angezeigt wird, stelle sicher, dass der BeamMP-Mod im „Mod Manager" vorhanden und aktiviert ist, und drücke dann STRG + L.
 - VPNs jeglicher Art können Verbindungsprobleme verursachen.
+- Beim ersten Start unter Linux Native erstellt der Launcher seine Konfigurationsdatei, was möglicherweise einen GNOME-Dialog „Reagiert nicht" auslöst. Klicke auf „Warten", dies tritt nur einmal auf.
 - Wenn der Launcher Fehler meldet, lies die [FAQ](https://forum.beammp.com/c/faq/35) .
 
 Solltest du weitere Hilfe bei der Installation benötigen, kannst du einen Beitrag in unserem [Forum](https://forum.beammp.com) erstellen oder auf unserem [Discord-Server](https://discord.gg/beammp) nachfragen.
