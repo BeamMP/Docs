@@ -105,7 +105,29 @@ cd ~/beammp-launcher
 ./BeamMP-Launcher
 ```
 
-The native linux BeamMP-Launcher will start and use native linux BeamNG.drive
+!!!note "Configuring Native Linux Game Path"
+    To use the native Linux version of BeamNG.drive (better performance than Proton), configure the game path in `Launcher.cfg`:
+    
+    Find your BeamNG installation:
+    ```bash
+    find ~/.steam ~/.local/share/Steam -name "BeamNG.drive.x64" 2>/dev/null
+    ```
+
+    Create or edit `~/beammp-launcher/Launcher.cfg`:
+    ```json
+    {
+        "Port": 4444,
+        "Build": "Default",
+        "CachingDirectory": "./Resources",
+        "GamePath": "$HOME/.steam/steam/steamapps/common/BeamNG.drive/BinLinux/BeamNG.drive.x64"
+    }
+    ```
+
+    Common paths:
+    - `$HOME/.steam/steam/steamapps/common/BeamNG.drive/BinLinux/BeamNG.drive.x64`
+    - `$HOME/.local/share/Steam/steamapps/common/BeamNG.drive/BinLinux/BeamNG.drive.x64`
+
+The native Linux BeamMP-Launcher will start and use native Linux BeamNG.drive
 
 ### **2c. Using beamNG.drive with Proton**
 
@@ -139,6 +161,7 @@ Note that this assumes you put the launcher's binary you compiled earlier into `
 - The native linux BeamMP-Launcher currently can only connect to a server once, after disconnecting you need to restart the launcher. You can do that without closing the game inbetween
 - If you don’t see the “Multiplayer” button. Make sure that the BeamMP mod is present and activated in the “Mod Manager” then try pressing CTRL + L.
 - VPNs of any type may cause connection issues.
+- On Linux Native first launch, the launcher creates its configuration file, which may trigger a GNOME "not responding" dialog. Click "Wait", this only occurs once.
 - If the Launcher reports any errors, read the [FAQ](https://forum.beammp.com/c/faq/35).
 
 Should you need further help with installation, you are welcome to create a post on our [forum](https://forum.beammp.com) or ask on our [Discord server](https://discord.gg/beammp).
