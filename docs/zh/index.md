@@ -6,11 +6,11 @@ hide:
 !!!警告“该网站正在建设当中！“
 
 ```
-This site is being actively worked on.
+这个网站正在积极建设中。
 
-Feel you could help? Please do by clicking on the page with a pencil on the right!
+觉得你能帮上忙吗？请用铅笔在右侧点击页面！
 
-This can be done on any page, too.
+这也可以在任何页面上完成。
 ```
 
 # 欢迎来到BeamMP文档！:tada:
@@ -19,18 +19,18 @@ This can be done on any page, too.
 
 ## 对于玩家
 
-New to BeamMP? Check out our [Getting Started](../game/getting-started.md) page to help you hit the road running and make the most out of your multiplayer adventures. For general questions and issues please check out the [Players FAQ](../FAQ/player-faq.md).
+首次体验BeamMP联机模组？请访问我们的[新手启航指南](../game/getting-started.md)，助您迅速完成配置部署，畅享多人模式下的高拟真驾驶盛宴。若遇基础性问题，建议优先查阅[玩家常见问题解答](../FAQ/player-faq.md)中的故障排查方案
 
 ## 对于服主
 
-Thinking about creating your own BeamMP server? Our comprehensive guide [here](../server/create-a-server.md) will walk you through the process, ensuring you have all the tools and knowledge to set up your server efficiently.
+考虑创建专属BeamMP服务器？我们的[完整指南](../server/create-a-server.md)将逐步指导您完成整个流程，确保您掌握所需工具和知识，助您高效搭建服务器
 
 ## 对于开发者
 
-Discover the ins and outs of creating resources for the BeamMP Server in our [Resource Development Guide](../guides/mod-creation/server/getting-started.md).
+想要了解如何为BeamMP服务器创建资源？请查看我们的[资源开发指南](../guides/mod-creation/server/getting-started.md)，获取完整的功能实现指引。
 
 令人兴奋的更新即将推出，包括旨在增强您的浏览体验的全新主页。请继续关注！:slight_smile:
 
-## Community Rules
+## 社会规则
 
-Read through the BeamMP [Community rules](https://docs.beammp.com/community/rules/) and how to appeal bans.
+请仔细查阅BeamMP [社区守则](https://docs.beammp.com/community/rules/)及封禁申诉流程说明。
