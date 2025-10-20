@@ -1,11 +1,11 @@
 !!! предупреждение "Этот сайт находится в стадии разработки!"
 
 ```
-This site is being actively worked on.
+Над этим сайтом ведется активная работа.
 
-Feel you could help? Please do by clicking on the page with a pencil on the right!
+Чувствуете, что можете помочь? Пожалуйста, сделайте это, нажав на страницу с карандашом справа!
 
-This can be done on any page too.
+Это можно сделать на любой странице.
 ```
 
 # Справочник по серверным скриптам
@@ -1315,3 +1315,5 @@ MP.RegisterEvent("onChatMessage", "handleChatMessage")
 ```
 
 Это лучше, чем называть обработчик тем же, что и событие, что вводит в заблуждение и сбивает с толку.
+
+
