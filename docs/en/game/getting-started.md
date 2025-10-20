@@ -139,7 +139,6 @@ Note that this assumes you put the launcher's binary you compiled earlier into `
 - The native linux BeamMP-Launcher currently can only connect to a server once, after disconnecting you need to restart the launcher. You can do that without closing the game inbetween
 - If you don’t see the “Multiplayer” button. Make sure that the BeamMP mod is present and activated in the “Mod Manager” then try pressing CTRL + L.
 - VPNs of any type may cause connection issues.
-- On Linux Native first launch, the launcher creates its configuration file, which may trigger a GNOME "not responding" dialog. Click "Wait", this only occurs once.
 - If the Launcher reports any errors, read the [FAQ](https://forum.beammp.com/c/faq/35).
 
 Should you need further help with installation, you are welcome to create a post on our [forum](https://forum.beammp.com) or ask on our [Discord server](https://discord.gg/beammp).
