@@ -1,8 +1,7 @@
 # Players FAQ
 
 ## How do I link my Discord account?
-Linking your Discord and BeamMP account is a new feature to BeamMP. To do this you will need send `!link` as a message to the [BeamMP Accounts](https://discordapp.com/channels/@me/1201234743568634026/) bot.
-The bot will respond with a link for you to sign into your BeamMP account. Simply sign in with your BeamMP account, once done you will receive a second message saying that it has successfully linked your accounts. 🎉
+Linking your Discord and BeamMP account is a new feature to BeamMP. To do this go to your [Forum Account Preferences](https://forum.beammp.com/my/preferences/account) and connect your discord under "Associated Accounts" (this is only visible when 2FA is disabled).
 
 ## How do I get early access?
 
