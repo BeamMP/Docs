@@ -1,7 +1,7 @@
 # Players FAQ
 
 ## How do I link my Discord account?
-Linking your Discord and BeamMP account is a new feature to BeamMP. To do this go to your [Forum Account Preferences](https://forum.beammp.com/my/preferences/account) and connect your discord under "Associated Accounts" (this is only visible when 2FA is disabled).
+Linking your Discord and BeamMP account is a new feature to BeamMP. To do this go to your [Forum Account Preferences](https://forum.beammp.com/my/preferences/account) and connect your Discord account under "Associated Accounts" (this is only visible when 2FA in the forum is disabled).
 
 ## How do I get early access?
 
@@ -13,7 +13,7 @@ Boosting gives you +4 Server keys in addition to EA benefits.
 
 Please ensure you do the following to automatically receive your perks:
 
-1. Link your Discord account on Patreon to receive the Roles and Access in the Discord server.
+1. Link your Discord account on [Patreon](https://www.patreon.com/settings/apps/discord) to receive the Roles and Access in the Discord server.
 2. Please ensure you use the same email address on Patreon as you do for your BeamMP account on the [Forum](https://forum.beammp.com/).
 
 Please be patient, it can take a few hours, sometimes up to 12, for the system to sync. If you have not received your perks after 12 hours and have completed the above steps please contact BeamMP support.
