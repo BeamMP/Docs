@@ -67,7 +67,7 @@ Clone the BeamMP-Launcher Repository to your system using `git`, for example:
 Checkout the tag that was used for the [latest release](https://github.com/BeamMP/BeamMP-Launcher/releases/latest). For example, if `v2.6.4` is used in the latest release, then do `git checkout v2.6.4`
 
 
-If you clone the repo using the example command it gets put in the current dir + BeamMP-Launcher (the repo name) just cd BeamMP-Launcher to go to the root
+If you've used the example clone command we provided, you can use `cd BeamMP-Launcher` to go to the project's root directory.
 
 In the root directory of the project,
 
