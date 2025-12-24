@@ -47,7 +47,7 @@ The setup consists of the following steps, you should follow all of them.
 * [RackGenius](https://rackgeni.us/beammp-plans)
 * [Connect Hosting](https://connecthosting.net/beammp)
 * [Assetto Hosting](https://assettohosting.com/en/games/beamng)
-* [ZAP-Hosting](https://zap-hosting.com/en/beammp-server-hosting/)
+* [ZAP-Hosting](https://zap-hosting.com/itsbeammp)
 * [HostHavoc](https://hosthavoc.com/)
 * [PedalHost](https://pedal.host/)
 * [Vyper Hosting](https://vyperhosting.com/r/beammp)
@@ -55,7 +55,7 @@ The setup consists of the following steps, you should follow all of them.
 * [Four Seasons Hosting](https://fourseasonshosting.com)
 * [Vertuo Hosting](https://vertuohosting.com)
 * [Winheberg](https://winheberg.fr/offres/gaming/beammp?lang=en)
-* [Wabbanode](https://wabbanode.com/games/beammp-server-hosting)
+* [Wabbanode](https://wabbanode.com/partner/beammp)
 
 
 #### 1.1 Firewall
