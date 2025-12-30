@@ -34,7 +34,7 @@ In order to do this, you need a basic understanding of how to build an applicati
 
 Make sure you have basic development tools installed, often found in packages, for example:
 
-- Debian: `sudo apt install build-essential`
+- Debian/Ubuntu: `sudo apt install build-essential`
 - Fedora: `sudo dnf install cmake gcc gcc-c++ make perl perl-IPC-Cmd perl-FindBin perl-File-Compare perl-File-Copy kernel-headers kernel-devel`
 - Arch: `sudo pacman -S base-devel`
 - openSUSE: `zypper in -t pattern devel-basis`
