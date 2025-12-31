@@ -56,6 +56,7 @@ The setup consists of the following steps, you should follow all of them.
 * [Vertuo Hosting](https://vertuohosting.com)
 * [Winheberg](https://winheberg.fr/offres/gaming/beammp?lang=en)
 * [Wabbanode](https://wabbanode.com/partner/beammp)
+* [Iceline Hosting](https://iceline-hosting.com/games/beammp)
 
 
 #### 1.1 Firewall
