@@ -34,8 +34,8 @@ In order to do this, you need a basic understanding of how to build an applicati
 
 Make sure you have basic development tools installed, often found in packages, for example:
 
-- Debian: `sudo apt install build-essential`
-- Fedora: `sudo dnf install cmake gcc-c++ perl-IPC-Cmd perl-FindBin perl-File-Compare perl-File-Copy`
+- Debian/Ubuntu: `sudo apt install build-essential`
+- Fedora: `sudo dnf install cmake gcc gcc-c++ make perl perl-IPC-Cmd perl-FindBin perl-File-Compare perl-File-Copy kernel-headers kernel-devel`
 - Arch: `sudo pacman -S base-devel`
 - openSUSE: `zypper in -t pattern devel-basis`
 - SteamOS (Arch): `sudo pacman -S base-devel linux-api-headers glibc libconfig` (You also need to do `sudo steamos-readonly disable` but make sure to enable it again after installing the packages)
@@ -66,6 +66,9 @@ Clone the BeamMP-Launcher Repository to your system using `git`, for example:
 
 Checkout the tag that was used for the [latest release](https://github.com/BeamMP/BeamMP-Launcher/releases/latest). For example, if `v2.6.4` is used in the latest release, then do `git checkout v2.6.4`
 
+
+If you've used the example clone command we provided, you can use `cd BeamMP-Launcher` to go to the project's root directory.
+
 In the root directory of the project,
 
 1. 
@@ -86,9 +89,26 @@ cmake --build bin --parallel
 
       By not specifying `-DCMAKE_BUILD_TYPE=Release` you are building a debug version, which is larger in filesize but does not contain the launcher-can-only-connect-to-a-server-once bug
 
-Move the finished application out of the `/bin` folder into its own folder and run it from there
+!!!note "Fedora Users"
+    If vcpkg fails during OpenSSL compilation with kernel headers errors, ensure all dependencies are installed:
+    ```bash
+    sudo dnf install kernel-headers kernel-devel gcc gcc-c++ make perl
+    ```
+    Then clean the vcpkg cache:
+    ```bash
+    rm -rf $VCPKG_ROOT/buildtrees/openssl
+    ```
+    And retry the cmake configuration command.
 
-The native linux BeamMP-Launcher will start and use native linux BeamNG.drive
+Move the finished application out of the `/bin` folder into its own folder and run it from there:
+```bash
+mkdir -p ~/beammp-launcher
+cp bin/BeamMP-Launcher ~/beammp-launcher/
+cd ~/beammp-launcher
+./BeamMP-Launcher
+```
+
+The native Linux BeamMP-Launcher will start and use native Linux BeamNG.drive
 
 ### **2c. Using beamNG.drive with Proton**
 

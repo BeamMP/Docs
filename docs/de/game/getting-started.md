@@ -29,21 +29,43 @@ BeamMP ist vollständig kompatibel mit Windows und Linux, an der Kompatibilität
 
 ### **2b. Linux Installation**
 
-Derzeit musst du den Launcher selbst erstellen. Dazu benötigst du grundlegende Kenntnisse zum Erstellen einer Anwendung.
+Derzeit musst du den Launcher selbst kompilieren (erstellen). Dazu benötigst du grundlegende Kenntnisse über den Prozess der Erstellung einer Anwendung (Kompilierung).
 
-Stelle sicher, dass [`vcpkg`](https://learn.microsoft.com/en-us/vcpkg/get_started/get-started?pivots=shell-bash#1---set-up-vcpkg) sowie grundlegende Entwicklungstools installiert sind, welche oft in Paketen enthalten sind, zum Beispiel:
+Stelle sicher, dass grundlegende Entwicklungstools (Build-Tools) installiert sind, die oft in folgenden Paketen enthalten sind:
 
 - Debian: `sudo apt install build-essential`
-- Fedora: `sudo dnf install cmake gcc-c++ perl-IPC-Cmd perl-FindBin perl-File-Compare perl-File-Copy`
+- Fedora: `sudo dnf install cmake gcc gcc-c++ make perl perl-IPC-Cmd perl-FindBin perl-File-Compare perl-File-Copy kernel-headers kernel-devel`
 - Arch: `sudo pacman -S base-devel`
 - openSUSE: `zypper in -t pattern devel-basis`
 - SteamOS (Arch): `sudo pacman -S base-devel linux-api-headers glibc libconfig` (Du musst auch `sudo steamos-readonly disable` ausführen, schalte es jedoch nach der Installation wieder ein)
 
-Klone das BeamMP-Launcher-Repository mit `git` auf dein System, zum Beispiel: `git clone https://github.com/BeamMP/BeamMP-Launcher.git` [Weitere Informationen zum Klonen eines GitHub-Repos](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
 
-Lade das "Tag", das für die [neueste Version](https://github.com/BeamMP/BeamMP-Launcher/releases/latest) verwendet wurde. Wenn beispielsweise `v2.3.2` in der neuesten Version verwendet wird, führe `git checkout v2.3.2` aus.
+Klone vcpkg, initialisiere es und füge es zur PATH-Umgebungsvariable hinzu.
 
-Im Stammverzeichnis des Projekts, führe aus:
+1.
+```bash
+git clone https://github.com/microsoft/vcpkg.git
+```
+
+2.
+```bash
+./vcpkg/bootstrap-vcpkg.sh
+```
+
+3.
+```bash
+export VCPKG_ROOT="$(pwd)/vcpkg"
+export PATH=$VCPKG_ROOT:$PATH
+```
+
+
+Klone das BeamMP-Launcher-Repository mit `git` auf dein System, zum Beispiel:
+`git clone https://github.com/BeamMP/BeamMP-Launcher.git`
+[Weitere Informationen zum Klonen eines GitHub-Repos](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
+
+Wechsle zum neuesten "Tag" (Versionsstand). Lade das "Tag" herunter, das für die neueste Version verwendet wurde. Wenn beispielsweise v2.3.2 in der neuesten Version verwendet wird, führe im Repository-Ordner `git checkout v2.3.2` aus.
+
+Führe im Stammverzeichnis des Projekts folgende Schritte aus:
 
 1.
 ```cmake
@@ -61,9 +83,26 @@ cmake --build bin --parallel
 
 !!!note ""
 
-    Wenn du -DCMAKE_BUILD_TYPE=Release nicht spezifizierst, erstellst du eine Debug-Version, die zwar eine größere Dateigröße hat, aber nicht den Fehler „Launcher kann sich nur einmal mit einem Server verbinden“ enthält.
+    Wenn du -DCMAKE_BUILD_TYPE=Release nicht spezifizierst, erstellst du eine Debug-Version, die zwar eine größere Dateigröße hat, aber nicht den Fehler „Launcher kann sich nur einmal mit einem Server verbinden" enthält.
 
-Verschiebe die fertige Anwendung aus dem `/bin` Ordner in einen eigenen Ordner und führe sie von dort aus aus.
+!!!note "Fedora Benutzer"
+    Wenn vcpkg während der OpenSSL-Kompilierung aufgrund von Kernel-Header-Fehlern fehlschlägt, stelle sicher, dass alle Abhängigkeiten installiert sind:
+    ```bash
+    sudo dnf install kernel-headers kernel-devel gcc gcc-c++ make perl
+    ```
+    Bereinige dann den vcpkg-Cache:
+    ```bash
+    rm -rf $VCPKG_ROOT/buildtrees/openssl
+    ```
+    Und wiederhole den cmake-Konfigurationsbefehl (Schritt 1).
+
+Verschiebe die fertige Anwendung aus dem `/bin` Ordner in einen eigenen Ordner und führe sie von dort aus aus:
+```bash
+mkdir -p ~/beammp-launcher
+cp bin/BeamMP-Launcher ~/beammp-launcher/
+cd ~/beammp-launcher
+./BeamMP-Launcher
+```
 
 Der native Linux BeamMP-Launcher wird gestartet und verwendet das native Linux BeamNG.drive
 
@@ -98,7 +137,7 @@ Beachte, dass hierbei davon ausgegangen wird, dass die Binärdatei des Launchers
 ## **3. Bekannte Probleme**
 
 - Der native Linux BeamMP-Launcher kann sich derzeit nur einmal mit einem Server verbinden, nach dem Trennen der Verbindung muss der Launcher neu gestartet werden. Dies ist möglich, ohne das Spiel zwischendurch schließen zu müssen.
-- Wenn die Schaltfläche „Multiplayer“ nicht angezeigt wird, stelle sicher, dass der BeamMP-Mod im „Mod Manager“ vorhanden und aktiviert ist, und drücke dann STRG + L.
+- Wenn die Schaltfläche „Multiplayer" nicht angezeigt wird, stelle sicher, dass der BeamMP-Mod im „Mod Manager" vorhanden und aktiviert ist, und drücke dann STRG + L.
 - VPNs jeglicher Art können Verbindungsprobleme verursachen.
 - Wenn der Launcher Fehler meldet, lies die [FAQ](https://forum.beammp.com/c/faq/35) .
 
