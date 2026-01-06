@@ -176,7 +176,7 @@ Here is an example configuration:
 [General]
 Port = 30814
 AuthKey = "auth-key"
-AllowGuests = true
+AllowGuests = false
 LogChat = false
 Debug = false
 IP = "::"
@@ -184,8 +184,8 @@ Private = true
 InformationPacket = true
 Name = "Test Server"
 Tags = "Freeroam,Modded,Racing,Police"
-MaxCars = 20
-MaxPlayers = 12
+MaxCars = 2
+MaxPlayers = 10
 Map = "/levels/ks_nord/info.json"
 Description = "Total Random Beam MP Server"
 ResourceFolder = "Resources"
