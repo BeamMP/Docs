@@ -20,11 +20,12 @@ hide:
 9. No advertising Non-BeamMP/BeamNG Content :material-information-outline:{ title="This includes non-BeamMP communities, social media channels or other external links.  This applies to posting within the BeamMP community, as well as sending users unsolicited DM's for the purpose of personal advertising." }
 10. No Impersonating Staff :material-information-outline:{ title="This includes claiming to be a staff member of BeamMP, or claiming to have the abilities associated with being a staff member. This also includes the imitation of staff members." }
 11. No Exploitation :material-information-outline:{ title="This includes exploiting any bugs or oversights for personal gain or to negatively impact the experience of others." }
-12. Follow all given TOS :material-information-outline:{ title="This is important as restrictions such as the Discord age restriction (13+) must also be followed to use our Discord server." }
-13. Respect Everyone :material-information-outline:{ title="This should go unsaid, but you need to have respect for everyone around you and act accordingly." }
-14. Keep to the topic of the category or channel. :material-information-outline:{ title="This should go unsaid, but keep your content on the topic of the area that you are posting within. E.g. support should helping people or used when seeking support." }
-15. No excessive CAPS LOCK or Reactions/Emojis :material-information-outline:{ title="Users should refrain from using excessive caps or emojis/reactions as not to obscure the point at hand." }
-16. Check the [BeamMP FAQ](../../support/player-faq.md) & [BeamMP Community FAQ](https://forum.beammp.com/c/faq/35) before posting in support areas.
+12. Authkey sharing and using alt-accounts to increase the key count beyond the given free amount is strictly prohibited.
+13. Follow all given TOS :material-information-outline:{ title="This is important as restrictions such as the Discord age restriction (13+) must also be followed to use our Discord server." }
+14. Respect Everyone :material-information-outline:{ title="This should go unsaid, but you need to have respect for everyone around you and act accordingly." }
+15. Keep to the topic of the category or channel. :material-information-outline:{ title="This should go unsaid, but keep your content on the topic of the area that you are posting within. E.g. support should helping people or used when seeking support." }
+16. No excessive CAPS LOCK or Reactions/Emojis :material-information-outline:{ title="Users should refrain from using excessive caps or emojis/reactions as not to obscure the point at hand." }
+17. Check the [BeamMP FAQ](../../support/player-faq.md) & [BeamMP Community FAQ](https://forum.beammp.com/c/faq/35) before posting in support areas.
 
 ## Discord Rules
 
