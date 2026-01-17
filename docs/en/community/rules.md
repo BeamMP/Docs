@@ -37,9 +37,9 @@ hide:
 7.    No Badgering Others (`@'ing`) :material-information-outline:{ title="This includes asking others repeatedly for a response after being ignored or told no." }
 8.    Keep bot commands in command specific channels.
 10.   No Role-Playing :material-information-outline:{ title="This is in place to prevent issues arising due to missing context or to prevent users from circumventing certain rules." }
-11.   Do not ask users which ask for help to dm you for help. Keep all Support Related stuff in the designated support area.
-12.   Do not offer to remote into other users computers or send malicous files.
-13.   Do not explain/send links on how to pirate, acquire illegal copies of software, hacking accounts (Beaming), or paid mods.
+11.   Do not ask users to dm you for help. Keep all support related topics in the designated support area on the BeamMP Discord Server.
+12.   Do not offer to remote into other users computers and refrain from sending any malicous files.
+13.   Do not explain and/or send links on how to pirate, acquire illegal copies of software, hacking accounts (beaming), or paid mods.
 14.   Do not advertise non-BeamNG/BeamMP content. Sending Media of your own channel is only allowed in the dedicated [media channel](https://discord.com/channels/601558901657305098/705427325646274680).
 15.   Follow the instructions of Staff members. If you think a staff member is abusing their power, direct message their lead or project management.
 
