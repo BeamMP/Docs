@@ -170,24 +170,28 @@ They are called “ServerConfig.toml”, “Server.log” and “BeamMP-Server.e
 
 Open the `ServerConfig.toml` with a text editor such as `Notepad`. You can do this with [Right Click] → “Open With…” and then selecting a text editor.
 
-You should see something like this:
+Here is an example configuration:
 
 ```TOML
 [General]
-AuthKey = ''
-Debug = false
-Description = 'BeamMP Default Description'
-Map = '/levels/gridmap_v2/info.json'
-MaxCars = 1
-MaxPlayers = 10
-Name = 'BeamMP Server'
 Port = 30814
-Private = false
-ResourceFolder = 'Resources'
+AuthKey = "auth-key"
+AllowGuests = false
+LogChat = false
+Debug = false
+IP = "::"
+Private = true
+InformationPacket = true
+Name = "Test Server"
+Tags = "Freeroam,Modded,Racing,Police"
+MaxCars = 2
+MaxPlayers = 10
+Map = "/levels/ks_nord/info.json"
+Description = "Total Random Beam MP Server"
+ResourceFolder = "Resources"
 ```
 
 This is your configuration file. It uses a format called TOML. Refer to the [Server Maintenance](server-maintenance.md) section for more info on this file.
-
 For now, we only care about the `AuthKey` field. Between the quotes `''`, you want to paste in your AuthKey you copied in the first step.
 
 For our example key, it should then look like this:
