@@ -1,5 +1,6 @@
 ---
 hide:
+
   - navigation
 ---
 !!! warning "This site is under construction!"
