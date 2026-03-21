@@ -192,7 +192,11 @@ Description = "Total Random Beam MP Server"
 ResourceFolder = "Resources"
 ```
 
-This is your configuration file. It uses a format called TOML. Refer to the [Server Maintenance](server-maintenance.md) section for more info on this file.
+!!! info
+
+      This is your configuration file. It uses a format called TOML. Refer to the [Server Maintenance](server-maintenance.md) section for more info on this file and the variables.
+      Your server will **NOT** show in the server list as long as `Private = true`. _If_ you want it to show in the list, set that to **`Private = false`**.
+
 For now, we only care about the `AuthKey` field. Between the quotes `''`, you want to paste in your AuthKey you copied in the first step.
 
 For our example key, it should then look like this:
@@ -202,10 +206,6 @@ AuthKey = '3173a2e-6az0-4542-a3p0-ddqq5ff95558'
 Give your server a name, too, in the `Name` field. You can format this with colors and more, please refer to [this section on Name customization](server-maintenance.md#customize-the-look-of-your-server-name) in the server maintenance page.
 
 If you picked a different **Port** other than **30814**, make sure to replace it here under `Port`.
-
-!!! info
-
-      Your server will **NOT** show in the server list as long as `Private = true`. _If_ you want it to show in the list, set that to **`Private = false`**.
 
 ### **5. Validation**
 
