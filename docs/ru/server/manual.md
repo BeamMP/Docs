@@ -2,19 +2,19 @@
 
 # Окружение
 
-The server is affected by the state of various external parameters:
+На сервер влияет состояние различных внешних параметров:
 
-- The "Resources" folder
+- Папка «Ресурсы»
 - ENV (переменные среды)
-- The commandline arguments
-- The ServerConfig.toml file
-- The working directory
+- Аргументы командной строки
+- Файл ServerConfig.toml
+- Рабочий каталог
 
 ## Папка Ресурсов
 
 Папка ресурсов создается при запуске сервера вместе с подкаталогами "Client" и "Server". Подкаталог "Server" принимает папки внутри себя, каждая из которых содержит как минимум один файл `.lua`. Каждая из этих папок в подкаталоге "Server" называется «плагином». Файлы `.lua`, содержащиеся в каталоге корневом каталоге плагина, перезагружаются на ходу при изменении. Подкаталог "Client" принимает *только* файлы `.zip`, которые загружаются при запуске сервера и, как предполагается, не изменяются во время выполнения.
 
-## ENV
+## ОКРУЖАЮЩАЯ СРЕДА
 
 ### Общие Настройки
 
@@ -37,15 +37,15 @@ The server is affected by the state of various external parameters:
 
 ### Настройки Провайдера
 
-These environment variables allow hosting providers (and other users with a larger number of servers), here called "providers", to overwrite certain provider-specific settings.
+Эти переменные среды позволяют хостинг-провайдерам (и другим пользователям с большим количеством серверов), далее именуемым «провайдерами», перезаписывать определенные настройки, специфичные для провайдера.
 
-#### `BEAMMP_PROVIDER_PORT_ENV` (since v3.3.0)
+#### `BEAMMP_PROVIDER_PORT_ENV` (начиная с версии 3.3.0)
 
 Если задана непустая строка, это заменяет переменную `BEAMMP_PORT` на другую, чтобы прочитать переменную из существующего ENV. Например, Pterodactyl может выставлять `SERVER_PORT` как ENV. Чтобы использовать его с BeamMP-Server, вам придется сделать `BEAMMP_PORT=${SERVER_PORT}`, что немного глупо.
 
 Вместо этого теперь можно использовать `BEAMMP_PROVIDER_PORT_ENV="SERVER_PORT"`, что заставит BeamMP-Server прочитать порт из переменной ENV `SERVER_PORT`.
 
-#### `BEAMMP_PROVIDER_DISABLE_CONFIG` (since v3.3.0)
+#### `BEAMMP_PROVIDER_DISABLE_CONFIG` (начиная с версии 3.3.0)
 
 Если установлено значение `1` или `true`, `ServerConfig.toml` **не создаётся** и **не считывается**, даже если существует. Для работы сервера необходимо установить `BEAMMP_AUTH_KEY`.
 
@@ -57,25 +57,25 @@ These environment variables allow hosting providers (and other users with a larg
 BEAMMP_PROVIDER_UPDATE_MESSAGE="NEW VERSION of the BeamMP-Server has been released: {}! Please follow the update guide here: https://example.com/update-guide"
 ```
 
-Which would result in an update message like
+Что приведет к появлению сообщения об обновлении, например:
 
 ```
 NEW VERSION of the BeamMP-Server has been released: v5.0.2! Please follow the update guide here: https://example.com/update-guide
 ```
 
-Please take care to make it clear to the users that they should update, and explain how to update.
+Пожалуйста, постарайтесь четко разъяснить пользователям необходимость обновления и объясните, как это сделать.
 
 ## Аргументы командной строки
 
-Run the BeamMP Server with the `--help` argument to learn more. For example: `./BeamMP-Server --help`.
+Запустите BeamMP Server с аргументом `--help` , чтобы узнать больше. Например: `./BeamMP-Server --help` .
 
 ## ServerConfig.toml
 
-This file is generated on first startup. Comments inside the file are the most up-to-date way to understand what each setting does.
+Этот файл генерируется при первом запуске. Комментарии внутри файла — самый современный способ понять, что делает каждая настройка.
 
 ## Рабочий каталог
 
-The working directory of the server, not the location of the server executable, is the deciding factor on where the ServerConfig.toml, server log files, and Resources folder, are generated.
+Решающим фактором при определении места создания ServerConfig.toml, файлов журналов сервера и папки Resources является рабочий каталог сервера, а не местоположение исполняемого файла сервера.
 
 # Ограничения
 
