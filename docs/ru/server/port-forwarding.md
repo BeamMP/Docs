@@ -3,19 +3,19 @@
 !!! опасность ":material-scale-balance: ОТКАЗ ОТ ОТВЕТСТВЕННОСТИ:"
 
 ```
-**Port forwarding is a risk**.
+**Переадресация портов — это риск**.
 
-By Port forwarding you understand the risks of opening up ports on your home network to the public and therefore void the right to hold BeamMP accountable for **any and all** damages that may happen to you or your household.
+Используя переадресацию портов, вы осознаете риски открытия портов в вашей домашней сети для публики и, следовательно, лишаете себя права привлекать BeamMP к ответственности за **любой** ущерб, который может быть причинен вам или вашему домохозяйству.
 
-We take no responsibility for any content on any externally linked services or websites.
+Мы не несем ответственности за какой-либо контент на любых внешних связанных сервисах или веб-сайтах.
 
-<u>**If you do not understand this guide, please consider using one of our partners.**</u>
+<u>**Если вы не понимаете это руководство, рассмотрите возможность обращения к одному из наших партнеров.**</u>
 ```
 
 !!! предупреждение
 
 ```
-  Please make sure your Router is not a 4G/5G exclusive device. If it is a hybrid device, make sure to select the cable connected adapter later in section 3 of this guide!
+  Пожалуйста, убедитесь, что ваш маршрутизатор не является устройством исключительно 4G/5G. Если это гибридное устройство, обязательно выберите адаптер с кабельным подключением далее в разделе 3 этого руководства!
 ```
 
 ## Как настроить переадресацию портов.
@@ -214,15 +214,15 @@ ipconfig /all
 !!! успех "статус:ok"
 
 ```
-  If you get the output above you can now join your server!
-  There are 2 ways to join, either directly with the details you entered into Probably UP, or, if your server is set to 'public', through the server-list.
-  Since you are hosting a server on-premise, use 127.0.0.1 (localhost) if the Server is running on the same PC as you play, or the LAN IPv4 of the local machine that is running the server.
+  Если вы получили результат, аналогичный приведенному выше, то теперь вы можете присоединиться к своему серверу!
+Присоединиться можно двумя способами: либо напрямую, используя данные, введенные вами в «Вероятно UP», либо, если ваш сервер настроен как «публичный», через список серверов.
+Поскольку вы размещаете сервер локально, используйте 127.0.0.1 (localhost), если сервер работает на том же компьютере, что и вы, или LAN IPv4 локальной машины, на которой работает сервер.
 ```
 
 !!! сбой "статус:ошибка"
 
 ```
-  If the connection fails entirely, your ISP could be using CGNAT (Carrier Grade Network Address Translation). For more details, please check [How to check for CGNAT?](../FAQ/How-to-check-for-CGNAT.md),
-  or open a Server Support ticket on our [Discord server](https://discord.gg/beammp) in the `#support` channel and one of our staff will get to your ticket!
-  Should you only see TCP working and UDP failing, check Firewall and Port forwarding rules again.
+  Если соединение полностью отсутствует, ваш интернет-провайдер может использовать CGNAT (трансляцию сетевых адресов операторского класса). Для получения более подробной информации, пожалуйста, проверьте [Как проверить наличие CGNAT?](../FAQ/How-to-check-for-CGNAT.md),
+или откройте тикет в службу поддержки сервера на нашем [сервере Discord](https://discord.gg/beammp) в канале `#support`, и один из наших сотрудников займется вашим тикетом!
+Если вы видите, что работает только TCP, а UDP не работает, еще раз проверьте правила брандмауэра и переадресации портов.
 ```
