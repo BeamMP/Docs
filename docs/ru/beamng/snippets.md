@@ -43,8 +43,8 @@
     return marker
   end
 
-  -- this can then be called in a loop to setup your markers.
-  -- NOTE: You should only do this once as part of your setup and not called on each frame.
+  -- Это затем можно вызывать в цикле для настройки ваших маркеров.
+  -- ПРИМЕЧАНИЕ: Делать это следует только один раз в процессе инициализации, а не на каждом кадре.
   if #markers == 0 then
     for k,v in pairs(nameMarkers) do
       local mk = scenetree.findObject(v)
@@ -135,13 +135,13 @@ guihooks.trigger('Message', {msg = "Message Text Here", ttl = 5.0, category = "s
 guihooks.trigger('ScenarioFlashMessage', {{"Message", 5.0, 0, true}} )
 guihooks.trigger('ScenarioFlashMessage', {{"Message Text Here", 5.0, 0, false}} )
 
---countdown example, when all executed at once, the items are queued and will follow eachother after the previous ttl expires
+-- Пример обратного отсчёта: когда все выполняются одновременно, элементы ставятся в очередь и будут следовать друг за другом после истечения предыдущего ttl
 guihooks.trigger('ScenarioFlashMessage', {{"3", 1.0, "Engine.Audio.playOnce('AudioGui', 'event:UI_Countdown1')", true}})
 guihooks.trigger('ScenarioFlashMessage', {{"2", 1.0, "Engine.Audio.playOnce('AudioGui', 'event:UI_Countdown2')", true}})
 guihooks.trigger('ScenarioFlashMessage', {{"1", 1.0, "Engine.Audio.playOnce('AudioGui', 'event:UI_Countdown3')", true}})
 guihooks.trigger('ScenarioFlashMessage', {{"GO!", 3.0, "Engine.Audio.playOnce('AudioGui', 'event:UI_CountdownGo')", true}})
 
---another sound example
+-- другой пример звука
 guihooks.trigger('ScenarioFlashMessage', {{"Teleported!", 3.0, "Engine.Audio.playOnce('AudioGui', 'event:UI_Checkpoint')", false}})
 ```
 
