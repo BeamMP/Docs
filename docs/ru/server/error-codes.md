@@ -1,20 +1,20 @@
 # Коды Ошибок
 
-This page contains all the error codes that the server may display.
+На этой странице содержатся все коды ошибок, которые может отображать сервер.
 
 ---
 
-Code | Description | Possible solution
+Код | Описание | Возможное решение
 --- | --- | ---
-10022 | There is an issue with binding to the port | Check if the port for the server is already in use by another service, if it is use another one.
-10048 | Address already in use | Another BeamMP server or program is running on that port, use another one.
-10051 | Network unreachable | Bad port forwarding or similar issues, verify that it is all set up correctly.
-10052 | Network reset | Happens if the network drops connection while a connection is being established. Retry the connection.
-10053 | Connection aborted | Caused by timeout or network error, retry the connection.
-10054 | Connection reset by peer | A client has disconnected from your server.
-10060 | Connection timed out | There is an issue with your port forwarding, please refer to the [guide steps](create-a-server.md#1-port-forwarding).
-10061 | Connection refused | There is an issue with your port forwarding, please refer to the [guide steps](create-a-server.md#1-port-forwarding).
-10064 | Хост недоступен | Unlikely error, but it means that the host is down because either it's shutdown or ports were closed.
-10065 | Хост недостижим | No internet or bad port forwarding, please refer to the [guide steps](create-a-server.md#1-port-forwarding).
+10022 | Возникла проблема с привязкой к порту | Проверьте, не используется ли порт сервера другой службой, если да, используйте другую.
+10048 | Адрес уже используется | На этом порту запущен другой сервер или программа BeamMP, используйте другой.
+10051 | Сеть недоступна | Неправильная переадресация портов или аналогичные проблемы. Проверьте, что все настроено правильно.
+10052 | Сброс сети | Происходит, если сеть обрывает соединение во время установки соединения. Повторите попытку соединения.
+10053 | Соединение прервано | Вызвано тайм-аутом или ошибкой сети. Повторите попытку подключения.
+10054 | Сброс соединения пиром | Клиент отключился от вашего сервера.
+10060 | Время ожидания соединения истекло | Возникла проблема с переадресацией портов. Ознакомьтесь с [пошаговыми инструкциями](create-a-server.md#1-port-forwarding) .
+10061 | В соединении отказано | Возникла проблема с переадресацией портов. Ознакомьтесь с [пошаговыми инструкциями](create-a-server.md#1-port-forwarding) .
+10064 | Хост недоступен | Маловероятная ошибка, но она означает, что хост вышел из строя из-за его отключения или закрытия портов.
+10065 | Хост недостижим | Нет интернета или плохая переадресация портов, пожалуйста, следуйте [инструкциям руководства](create-a-server.md#1-port-forwarding) .
 
-!!! note For any other code not in this list, you can refer to [https://learn.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2](https://learn.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2) if you know a bit how networks / sockets work.
+!!! Примечание. Если вы немного знаете, как работают сети/сокеты, для любого другого кода, не указанного в этом списке, вы можете обратиться к [https://learn.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2](https://learn.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2) .
