@@ -6,17 +6,19 @@
 
     This can be done any page too.
     
-# BeamNG.drive Snippets
+# BeamNG.drive Code Snippets
 
-## Lua Code Snippets
+## Lua
 
-### Drawing a marker & Vehicle detection
+### World
+
+#### Drawing a marker & Vehicle detection
 
 Drawing markers in the map can be one of the best ways to indicate to the user that there is some form of interaction that they can do there.
 
 Drawing a marker is fairly easy. Here is an example of how the bus route marker is drawn:
 
-```Lua
+```lua
   local function createBusMarker(markerName)
     local marker =  createObject('TSStatic')
     marker:setField('shapeName', 0, "art/shapes/interface/position_marker.dae")
@@ -58,7 +60,7 @@ Drawing a marker is fairly easy. Here is an example of how the bus route marker 
 
 Here is a custom marker example from [BeamNG-FuelStations](https://github.com/BeamMP/BeamNG-FuelStations/tree/master):
 
-```Lua
+```lua
   local stations = [
     { "location": [ -778.813,  485.973, 23.46 ], "type":"gas" },
     { "location": [  617.164, -192.107, 53.2  ], "type":"ev"  },
@@ -91,9 +93,13 @@ Here is a custom marker example from [BeamNG-FuelStations](https://github.com/Be
   end
 ```
 
-### guihooks examples
+### UI snippets
+
 #### Toast Notifications, Top right of screen
-![image](https://github.com/StanleyDudek/Docs/assets/49531350/c8a87842-b95a-4eca-84dc-93072ecc9158)
+
+<figure class="image image_resized" style="width:75%" markdown>
+  ![image](https://github.com/StanleyDudek/Docs/assets/49531350/c8a87842-b95a-4eca-84dc-93072ecc9158)
+</figure>
 
 ```lua
 --guihooks.trigger('toastrMsg', {type, title, msg, config = {timeOut}}) 
@@ -103,10 +109,16 @@ guihooks.trigger('toastrMsg', {type = "error", title = "Error Message:", msg = "
 ```
 
 #### Message notifications, top left of screen by default in Messages app
-![image](https://github.com/StanleyDudek/Docs/assets/49531350/6baef813-50cb-43c3-9c59-0de550b014b6)
+
+This requires the 'Messages' or 'Messages & Tasks' UI app. Icons can be found at `ui\ui-vue\src\assets\fonts\bngIcons\svg\`
+
+<figure class="image image_resized" style="width:75%" markdown>
+  ![image](https://github.com/StanleyDudek/Docs/assets/49531350/6baef813-50cb-43c3-9c59-0de550b014b6)
+</figure>
 
 ```lua
---guihooks.trigger('Message', {msg, ttl, category, icon}) --requires Messages app
+--guihooks.trigger('Message', {msg, ttl, category, icon})
+--ui_message(msg, ttl, category, icon)
 guihooks.trigger('Message', {msg = "Message Text Here", ttl = 5.0, category = "arrow_upward", icon = "arrow_upward"}) 
 guihooks.trigger('Message', {msg = "Message Text Here", ttl = 5.0, category = "arrow_downward", icon = "arrow_downward"}) 
 guihooks.trigger('Message', {msg = "Message Text Here", ttl = 5.0, category = "flag", icon = "flag"}) 
@@ -120,9 +132,16 @@ guihooks.trigger('Message', {msg = "Message Text Here", ttl = 5.0, category = "t
 guihooks.trigger('Message', {msg = "Message Text Here", ttl = 5.0, category = "save", icon = "save"}) 
 guihooks.trigger('Message', {msg = "Message Text Here", ttl = 5.0, category = "settings", icon = "settings"}) 
 ```
+
 #### Center large or small display flash
-![image](https://github.com/StanleyDudek/Docs/assets/49531350/d0cf754f-83f8-4d15-9159-27350da127de)
-![image](https://github.com/StanleyDudek/Docs/assets/49531350/1df6fc9b-756f-484e-b8d9-5df346dc4c26)
+
+<figure class="image image_resized" style="width:75%" markdown>
+  ![image](https://github.com/StanleyDudek/Docs/assets/49531350/d0cf754f-83f8-4d15-9159-27350da127de)
+</figure>
+
+<figure class="image image_resized" style="width:75%" markdown>
+  ![image](https://github.com/StanleyDudek/Docs/assets/49531350/1df6fc9b-756f-484e-b8d9-5df346dc4c26)
+</figure>
 
 ```lua
 --guihooks.trigger('ScenarioFlashMessage', {{msg, ttl, sound, big}} ) -- requires RaceCountdown ui app
@@ -140,7 +159,13 @@ guihooks.trigger('ScenarioFlashMessage', {{"Teleported!", 3.0, "Engine.Audio.pla
 ```
 
 #### Center mid-size persistent display
-![image](https://github.com/StanleyDudek/Docs/assets/49531350/6290e018-6b3d-4674-98f2-34282a723258)
+
+This requires the 'Race Realtime Display' UI app.
+
+<figure class="image image_resized" style="width:75%" markdown>
+  ![image](https://github.com/StanleyDudek/Docs/assets/49531350/6290e018-6b3d-4674-98f2-34282a723258)
+</figure>
+
 ```lua
 --guihooks.trigger('ScenarioRealtimeDisplay', {msg = msg} ) -- requires Race Realtime Display ui app
 guihooks.trigger('ScenarioRealtimeDisplay', {msg = "Message Text Here"} )
@@ -149,6 +174,125 @@ guihooks.trigger('ScenarioRealtimeDisplay', {msg = "Message Text Here"} )
 guihooks.trigger('ScenarioRealtimeDisplay', {msg = ""} )
 ```
 
+#### Confirmation Dialog
+
+ConfirmationDialog is a simplistic popup with up to two buttons.
+
+```lua
+-- Open a ConfirmationDialog with a title, body text, and up to two buttons
+guihooks.trigger("ConfirmationDialogOpen",
+    "Example Title",
+    "Example Body Text",
+    "Okay",
+    "", --gelua. empty string
+    "Cancel",
+    "" --gelua
+)
+
+-- Close any open ConfirmationDialog with the provided title
+guihooks.trigger("ConfirmationDialogClose", "Example Title")
+```
+
+<figure class="image image_resized" style="width:75%" markdown>
+  ![Example of a ConfirmationDialog](../../assets/content/ConfirmationDialog.png)
+</figure>
+
+Both fields of a button must be strings in order for the button to appear.
+
+If the Okay button is provided, pressing the *OK / Primary action* action is equivalent to pressing the Okay button.
+
+If the Cancel button is provided, pressing the *Menu* action is equivalent to pressing the Cancel button.
+
+HTML is supported and can be used to add images/icons, for example.
+
+Multiple can be displayed at once, displayed sequentially.
+
+!!! bug
+
+    Providing no buttons prevents the player from escaping the dialog without using the console.
+
+!!! bug
+
+    The SDF parts of the Minimap UI app remain visible while a ConfirmationDialog is active.
+
+    `#!lua guihooks.trigger('ShowApps', false)` to hide UI apps can be used as a hacky workaround.
+
+<figure class="image image_resized" style="width:75%" markdown>
+  ![ConfirmationDialog being used for an inactivity kick system](../../assets/content/ConfirmationDialog_Example.png)
+</figure>
+
+#### introPopupMission
+
+introPopupMission is a more advanced and visually striking popup system. It supports any number of buttons, embedding HTML, and has a larger window than ConfirmationDialog.
+
+It has three built-in button themes to choose from:
+
+* main - orange
+* secondary - cyan
+* attention - red
+
+```lua
+guihooks.trigger('introPopupMission', {
+    title="introPopupMission title",
+    text="introPopupMission description"..
+    "\n\n\n\n\n\n\n\n\n\n\n\n\n\n<div />",
+    buttons = {
+        { default=true,  class="main",      label="main button",      clickLua="" },
+        { default=false, class="secondary", label="secondary button", clickLua="" },
+        { default=false, class="attention", label="attention button", clickLua="" }
+    }
+})
+```
+
+<figure class="image image_resized" style="width:75%" markdown>
+  ![The introPopupMission snippet displayed in BeamNG.drive](../../assets/content/introPopupMission.png)
+</figure>
+
+!!! bug
+
+    The background blur has a minimum height, causing popups with short content to have excess blur below its window.
+
+    As a workaround, you can repeat `\n` and end with `#!html <div />` until the window covers the blur. 
+
+#### Dialogue
+
+Dialogue is used in the *A Rocky Start* campaign to display information about a mission. It is a centered, vertically aligned popup with a specific layout. It does not support embedding HTML.
+
+```lua
+ui_missionInfo.openDialogue({
+    title    = "Dialogue title",
+    type     = "Custom", -- isn't actually displayed
+    typeName = "typeName",
+    data     = {
+        {label = "objective",  value = "reward"}
+        -- add more...
+    },
+    buttons  = {
+        {action = "accept", text = "Accept",  cmd = ""},
+        {action = 'decline',text = "Decline", cmd = ""}
+        -- add more...
+    }
+})
+
+ui_missionInfo.closeDialogue()
+```
+
+<figure class="image image_resized" style="width:75%" markdown>
+  ![The Dialogue snippet displayed in BeamNG.drive](../../assets/content/Dialogue.png)
+</figure>
+
+Only one Dialogue can be displayed at once. Any existing Dialogue is overridden.
+
+!!! info
+
+    `#!lua ui_missionInfo.closeDialogue()` must be used to close a dialogue.
+
+    Make sure you call this function when any button is pressed.
+
 ## IMGUI Code Snippets
 
+todo
+
 ## CEF UI Code Snippets
+
+todo
