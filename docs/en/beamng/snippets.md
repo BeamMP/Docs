@@ -8,7 +8,7 @@
     
 # BeamNG.drive Code Snippets
 
-## Lua
+## Lua Code Snippets
 
 ### World
 
