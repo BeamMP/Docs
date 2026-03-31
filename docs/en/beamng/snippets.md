@@ -221,27 +221,115 @@ Multiple can be displayed at once, displayed sequentially.
   ![ConfirmationDialog being used for an inactivity kick system](../../assets/content/ConfirmationDialog_Example.png)
 </figure>
 
+#### introPopupTutorial
+
+introPopupTutorial is a highly customizable popup that is largely defined with embedded HTML. It is standard to load from a standalone HTML file located in `/gameplay/tutorials/pages/*/content.html`.
+
+```lua
+guihooks.trigger("introPopupTutorial", {
+    {
+        content = readFile("/gameplay/tutorials/pages/template/content.html"):gsub("\r\n",""),
+        flavour = "onlyOk"
+    }
+})
+
+guihooks.trigger("introPopupClose")
+```
+
+If multiple pages are provided, or the hook is triggered multiple times, then the pages are combined into the same popup. If the hook is triggered while a introPopup is active, then it is displayed in a separate popup after the existing popup is closed.
+
+Flavours controls which buttons are displayed. Four flavours exist:
+
+* `withLogbook`
+  * Buttons: Career Logbook, Okay
+* `onlyOk`
+  * Buttons: Okay
+* `onlyLogbook`
+  * Buttons: Career Logbook
+* `noButtons`
+  * Provides no buttons
+
+!!! warning
+
+    When using the noButtons flavour on the page, providing no extra JavaScript in the page content to close the popup causes a softlock. Pages are not combined into one popup in this flavour. It is not recommended to use this flavour.
+
+#### introPopupCareer
+
+introPopupCareer is an easy to use, but open ended popup that supports embedding HTML, if needed.
+
+If multiple pages are provided, or the hook is triggered multiple times, then the pages are combined into the same popup. If the hook is triggered while a introPopup is active, then it is displayed in a separate popup after the existing popup is closed.
+
+```lua
+guihooks.trigger("introPopupCareer", {
+    {
+        title   = "Example title",
+        text    = "Example text",
+        image   = "/gameplay/tutorials/pages/template/image.jpg",
+        ratio   = "16x9",
+        flavour = "default"
+    }
+})
+
+guihooks.trigger("introPopupClose")
+```
+
+<figure class="image image_resized" style="width:75%" markdown>
+  ![The introPopupCareer snippet displayed in BeamNG.drive](../../assets/content/introPopupCareer.png)
+</figure>
+
+Flavours control which buttons are displayed and the default image aspect ratio. Four flavours exist:
+
+* `default`
+  * Default image aspect ratio: 16x9
+  * Buttons: Later, Okay
+* `welcome`
+  * Default image aspect ratio: 16x9
+  * Buttons: Career Logbook, Okay
+* `branch-info`
+  * Default image aspect ratio: 16x9
+  * Buttons: Career Logbook, Okay
+* `garage`
+  * Buttons: Later, Okay
+
+!!! bug
+
+    The background blur has a minimum height, causing popups with short content to have excess blur below its window. Two main workarounds exist:
+
+    * Repeat `\n` and end with `#!html <div />` until the window covers the blur
+    * Use an empty or missing `image` path and adjust the aspect ratio until the window covers the blur
+
 #### introPopupMission
 
-introPopupMission is a more advanced and visually striking popup system. It supports any number of buttons, embedding HTML, and has a larger window than ConfirmationDialog.
+introPopupMission is almost identical to introPopupCareer, but requires defining buttons rather than picking a preset for buttons.
 
-It has three built-in button themes to choose from:
+If multiple pages are provided, or the hook is triggered multiple times, then the pages are combined into the same popup. If the hook is triggered while a introPopup is active, then it is displayed in a separate popup after the existing popup is closed.
 
-* main - orange
-* secondary - cyan
-* attention - red
+Button styles are combined as *bng-button-*`style`. Built-in button styles are:
+
+* `main` - orange
+* `secondary` - cyan
+* `attention` - red
+* `white` - white
+* `link`  - translucent
+* `outline` - orange outline
 
 ```lua
 guihooks.trigger('introPopupMission', {
-    title="introPopupMission title",
-    text="introPopupMission description"..
-    "\n\n\n\n\n\n\n\n\n\n\n\n\n\n<div />",
+    title   = "introPopupMission title",
+    text    = "introPopupMission description",
+    image   = "/gameplay/tutorials/pages/template/image.jpg",
+    ratio   = "16x9",
     buttons = {
         { default=true,  class="main",      label="main button",      clickLua="" },
         { default=false, class="secondary", label="secondary button", clickLua="" },
-        { default=false, class="attention", label="attention button", clickLua="" }
+        { default=false, class="attention", label="attention button", clickLua="" },
+        { default=false, class="white",     label="white button",     clickLua="" },
+        { default=false, class="link",      label="link button",      clickLua="" },
+        { default=false, class="outline",   label="outline button",   clickLua="" }
     }
 })
+
+guihooks.trigger("introPopupClose")
 ```
 
 <figure class="image image_resized" style="width:75%" markdown>
@@ -250,9 +338,10 @@ guihooks.trigger('introPopupMission', {
 
 !!! bug
 
-    The background blur has a minimum height, causing popups with short content to have excess blur below its window.
+    The background blur has a minimum height, causing popups with short content to have excess blur below its window. Two main workarounds exist:
 
-    As a workaround, you can repeat `\n` and end with `#!html <div />` until the window covers the blur. 
+    * Repeat `\n` and end with `#!html <div />` until the window covers the blur
+    * Use an empty or missing `image` path and adjust the aspect ratio until the window covers the blur
 
 #### Dialogue
 
