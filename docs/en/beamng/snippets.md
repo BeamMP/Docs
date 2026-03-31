@@ -236,7 +236,9 @@ guihooks.trigger("introPopupTutorial", {
 guihooks.trigger("introPopupClose")
 ```
 
-If multiple pages are provided, or the hook is triggered multiple times, then the pages are combined into the same popup. If the hook is triggered while a introPopup is active, then it is displayed in a separate popup after the existing popup is closed.
+<figure class="image image_resized" style="width:75%" markdown>
+  ![The introPopupTutorial snippet displayed in BeamNG.drive](../../assets/content/introPopupTutorial.png)
+</figure>
 
 Flavours controls which buttons are displayed. Four flavours exist:
 
@@ -253,11 +255,25 @@ Flavours controls which buttons are displayed. Four flavours exist:
 
     When using the noButtons flavour on the page, providing no extra JavaScript in the page content to close the popup causes a softlock. Pages are not combined into one popup in this flavour. It is not recommended to use this flavour.
 
+If multiple pages are provided, or the hook is triggered multiple times, then the pages are combined into the same popup. If the hook is triggered while a introPopup is active, or when a different introPopup type has already been triggered, then it is displayed in a separate popup after the existing popup is closed.
+
 #### introPopupCareer
 
 introPopupCareer is an easy to use, but open ended popup that supports embedding HTML, if needed.
 
-If multiple pages are provided, or the hook is triggered multiple times, then the pages are combined into the same popup. If the hook is triggered while a introPopup is active, then it is displayed in a separate popup after the existing popup is closed.
+Flavours control which buttons are displayed and the default image aspect ratio. Four flavours exist:
+
+* `default`
+  * Default image aspect ratio: 16x9
+  * Buttons: Later, Okay
+* `welcome`
+  * Default image aspect ratio: 16x9
+  * Buttons: Career Logbook, Okay
+* `branch-info`
+  * Default image aspect ratio: 16x9
+  * Buttons: Career Logbook, Okay
+* `garage`
+  * Buttons: Later, Okay
 
 ```lua
 guihooks.trigger("introPopupCareer", {
@@ -277,19 +293,7 @@ guihooks.trigger("introPopupClose")
   ![The introPopupCareer snippet displayed in BeamNG.drive](../../assets/content/introPopupCareer.png)
 </figure>
 
-Flavours control which buttons are displayed and the default image aspect ratio. Four flavours exist:
-
-* `default`
-  * Default image aspect ratio: 16x9
-  * Buttons: Later, Okay
-* `welcome`
-  * Default image aspect ratio: 16x9
-  * Buttons: Career Logbook, Okay
-* `branch-info`
-  * Default image aspect ratio: 16x9
-  * Buttons: Career Logbook, Okay
-* `garage`
-  * Buttons: Later, Okay
+If multiple pages are provided, or the hook is triggered multiple times, then the pages are combined into the same popup. If the hook is triggered while a introPopup is active, or when a different introPopup type has already been triggered, then it is displayed in a separate popup after the existing popup is closed.
 
 !!! bug
 
@@ -300,9 +304,7 @@ Flavours control which buttons are displayed and the default image aspect ratio.
 
 #### introPopupMission
 
-introPopupMission is almost identical to introPopupCareer, but requires defining buttons rather than picking a preset for buttons.
-
-If multiple pages are provided, or the hook is triggered multiple times, then the pages are combined into the same popup. If the hook is triggered while a introPopup is active, then it is displayed in a separate popup after the existing popup is closed.
+introPopupMission is almost identical to introPopupCareer, but needs buttons to be defined rather than picking a preset for buttons.
 
 Button styles are combined as *bng-button-*`style`. Built-in button styles are:
 
@@ -335,6 +337,8 @@ guihooks.trigger("introPopupClose")
 <figure class="image image_resized" style="width:75%" markdown>
   ![The introPopupMission snippet displayed in BeamNG.drive](../../assets/content/introPopupMission.png)
 </figure>
+
+If multiple pages are provided, or the hook is triggered multiple times, then the pages are combined into the same popup. If the hook is triggered while a introPopup is active, or when a different introPopup type has already been triggered, then it is displayed in a separate popup after the existing popup is closed.
 
 !!! bug
 
