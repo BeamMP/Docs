@@ -6,13 +6,11 @@
 
     This can be done any page too.
     
-# BeamNG.drive Code Snippets
+# BeamNG.drive Lua Code Snippets
 
-## Lua Code Snippets
+## World
 
-### World
-
-#### Drawing a marker & Vehicle detection
+### Drawing a marker & Vehicle detection
 
 Drawing markers in the map can be one of the best ways to indicate to the user that there is some form of interaction that they can do there.
 
@@ -93,9 +91,9 @@ Here is a custom marker example from [BeamNG-FuelStations](https://github.com/Be
   end
 ```
 
-### UI snippets
+## User Interface
 
-#### Toast Notifications, Top right of screen
+### Toast Notifications, Top right of screen
 
 <figure class="image image_resized" style="width:75%" markdown>
   ![image](https://github.com/StanleyDudek/Docs/assets/49531350/c8a87842-b95a-4eca-84dc-93072ecc9158)
@@ -108,7 +106,7 @@ guihooks.trigger('toastrMsg', {type = "warning", title = "Warning Message:", msg
 guihooks.trigger('toastrMsg', {type = "error", title = "Error Message:", msg = "Error Message Text Here", config = {timeOut = 5000}}) 
 ```
 
-#### Message notifications, top left of screen by default in Messages app
+### Message notifications, top left of screen by default in Messages app
 
 This requires the 'Messages' or 'Messages & Tasks' UI app. Icons can be found at `ui\ui-vue\src\assets\fonts\bngIcons\svg\`
 
@@ -133,7 +131,7 @@ guihooks.trigger('Message', {msg = "Message Text Here", ttl = 5.0, category = "s
 guihooks.trigger('Message', {msg = "Message Text Here", ttl = 5.0, category = "settings", icon = "settings"}) 
 ```
 
-#### Center large or small display flash
+### Center large or small display flash
 
 <figure class="image image_resized" style="width:75%" markdown>
   ![image](https://github.com/StanleyDudek/Docs/assets/49531350/d0cf754f-83f8-4d15-9159-27350da127de)
@@ -158,7 +156,7 @@ guihooks.trigger('ScenarioFlashMessage', {{"GO!", 3.0, "Engine.Audio.playOnce('A
 guihooks.trigger('ScenarioFlashMessage', {{"Teleported!", 3.0, "Engine.Audio.playOnce('AudioGui', 'event:UI_Checkpoint')", false}}) 
 ```
 
-#### Center mid-size persistent display
+### Center mid-size persistent display
 
 This requires the 'Race Realtime Display' UI app.
 
@@ -174,7 +172,7 @@ guihooks.trigger('ScenarioRealtimeDisplay', {msg = "Message Text Here"} )
 guihooks.trigger('ScenarioRealtimeDisplay', {msg = ""} )
 ```
 
-#### Confirmation Dialog
+### Confirmation Dialog
 
 ConfirmationDialog is a simplistic popup with up to two buttons.
 
@@ -221,7 +219,7 @@ Multiple can be displayed at once, displayed sequentially.
   ![ConfirmationDialog being used for an inactivity kick system](../../assets/content/ConfirmationDialog_Example.png)
 </figure>
 
-#### introPopupTutorial
+### introPopupTutorial
 
 introPopupTutorial is a highly customizable popup that is largely defined with embedded HTML. It is standard to load from a standalone HTML file located in `/gameplay/tutorials/pages/*/content.html`.
 
@@ -240,16 +238,16 @@ guihooks.trigger("introPopupClose")
   ![The introPopupTutorial snippet displayed in BeamNG.drive](../../assets/content/introPopupTutorial.png)
 </figure>
 
-Flavours controls which buttons are displayed. Four flavours exist:
+`flavour` controls which buttons are displayed. Four flavours exist:
 
 * `withLogbook`
-  * Buttons: Career Logbook, Okay
+    * Buttons: Career Logbook, Okay
 * `onlyOk`
-  * Buttons: Okay
+    * Buttons: Okay
 * `onlyLogbook`
-  * Buttons: Career Logbook
+    * Buttons: Career Logbook
 * `noButtons`
-  * Provides no buttons
+    * Provides no buttons
 
 !!! warning
 
@@ -257,7 +255,7 @@ Flavours controls which buttons are displayed. Four flavours exist:
 
 If multiple pages are provided, or the hook is triggered multiple times, then the pages are combined into the same popup. If the hook is triggered while a introPopup is active, or when a different introPopup type has already been triggered, then it is displayed in a separate popup after the existing popup is closed.
 
-#### introPopupCareer
+### introPopupCareer
 
 introPopupCareer is an easy to use, but open ended popup that supports embedding HTML, if needed.
 
@@ -302,7 +300,7 @@ If multiple pages are provided, or the hook is triggered multiple times, then th
     * Repeat `\n` and end with `#!html <div />` until the window covers the blur
     * Use an empty or missing `image` path and adjust the aspect ratio until the window covers the blur
 
-#### introPopupMission
+### introPopupMission
 
 introPopupMission is almost identical to introPopupCareer, but needs buttons to be defined rather than picking a preset for buttons.
 
@@ -347,45 +345,6 @@ If multiple pages are provided, or the hook is triggered multiple times, then th
     * Repeat `\n` and end with `#!html <div />` until the window covers the blur
     * Use an empty or missing `image` path and adjust the aspect ratio until the window covers the blur
 
-#### Dialogue
-
-Dialogue is used in the *A Rocky Start* campaign to display information about a mission. It is a centered, vertically aligned popup with a specific layout. It does not support embedding HTML.
-
-```lua
-ui_missionInfo.openDialogue({
-    title    = "Dialogue title",
-    type     = "Custom", -- isn't actually displayed
-    typeName = "typeName",
-    data     = {
-        {label = "objective",  value = "reward"}
-        -- add more...
-    },
-    buttons  = {
-        {action = "accept", text = "Accept",  cmd = ""},
-        {action = 'decline',text = "Decline", cmd = ""}
-        -- add more...
-    }
-})
-
-ui_missionInfo.closeDialogue()
-```
-
-<figure class="image image_resized" style="width:75%" markdown>
-  ![The Dialogue snippet displayed in BeamNG.drive](../../assets/content/Dialogue.png)
-</figure>
-
-Only one Dialogue can be displayed at once. Any existing Dialogue is overridden.
-
-!!! info
-
-    `#!lua ui_missionInfo.closeDialogue()` must be used to close a dialogue.
-
-    Make sure you call this function when any button is pressed.
-
-## IMGUI Code Snippets
-
-todo
-
-## CEF UI Code Snippets
+### Dialogue
 
 todo
