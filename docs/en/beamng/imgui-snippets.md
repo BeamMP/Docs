@@ -8,8 +8,6 @@
     
 # BeamNG.drive ImGui Code Snippets
 
-todo
-
 ## Setup
 
 ### Setup ImGui
