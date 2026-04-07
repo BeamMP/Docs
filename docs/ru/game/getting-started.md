@@ -7,8 +7,8 @@ BeamMP полностью совместим с Windows и Linux, совмест
 !!!предупреждение
 
 ```
-BeamMP will not work with pirated or outdated versions of BeamNG.drive.
-The BeamMP support team does not offer support for issues with pirated / outdated copies.
+BeamMP не будет работать с пиратскими или устаревшими версиями BeamNG.drive.
+Служба поддержки BeamMP не оказывает помощь по вопросам, связанным с пиратскими/устаревшими копиями.
 ```
 
 ---
@@ -20,19 +20,19 @@ The BeamMP support team does not offer support for issues with pirated / outdate
 !!!примечание
 
 ```
-As of April 1st, 2026, the MSI installer is an "unrecognized app" according to Windows Defender SmartScreen.
+По состоянию на 1 апреля 2026 года, согласно Windows Defender SmartScreen, установщик MSI является «неопознанным приложением».
 
-To bypass this warning, click 'More info', then click 'Run anyway'.
+Чтобы проигнорировать это предупреждение, нажмите «Подробнее», а затем нажмите «Запустить в любом случае».
 ```
 
-1. Go to [beammp.com](https://beammp.com/) and click the 'Download Now' button.
-2. Run the `BeamMP_Installer.msi` installer and follow the instructions.
-3. The BeamMP Launcher icon should appear on your desktop. If not, just search for “BeamMP” in the Windows search bar.
+1. Перейдите на [сайт beammp.com](https://beammp.com/) и нажмите кнопку «Скачать сейчас».
+2. Запустите установщик `BeamMP_Installer.msi` и следуйте инструкциям.
+3. Значок BeamMP Launcher должен появиться на рабочем столе. Если нет, просто введите «BeamMP» в строку поиска Windows.
 
-!!!note
+!!!примечание
 
 ```
-  As you are loading into a map with multiple vehicles spawned it might take longer than expected to join.
+  Поскольку при загрузке на карту с множеством созданных транспортных средств подключение может занять больше времени, чем ожидалось.
 ```
 
 ### **2б. Установка Linux**
@@ -91,16 +91,16 @@ cmake --build bin --parallel
 !!!примечание ""
 
 ```
-  Should you run out of RAM while building, you can ommit the --parallel instruction, it will then use less RAM due to building only on one CPU thread.
+  Если во время сборки не хватит оперативной памяти, можно исключить параметр --parallel — в этом случае сборка будет выполняться только в одном потоке процессора, что позволит сократить объем используемой оперативной памяти.
 ```
 
 !!!примечание ""
 
 ```
-  By not specifying `-DCMAKE_BUILD_TYPE=Release` you are building a debug version, which is larger in filesize but does not contain the launcher-can-only-connect-to-a-server-once bug
+  Не указывая `-DCMAKE_BUILD_TYPE=Release`, вы создаете отладочную версию, которая больше по размеру файла, но не содержит ошибки, из-за которой программа запуска может подключиться к серверу только один раз.
 ```
 
-!!!note "Fedora Users" If vcpkg fails during OpenSSL compilation with kernel headers errors, ensure all dependencies are installed: `bash sudo dnf install kernel-headers kernel-devel gcc gcc-c++ make perl ` Then clean the vcpkg cache: `bash rm -rf $VCPKG_ROOT/buildtrees/openssl ` And retry the cmake configuration command.
+!!!примечание "Пользователи Fedora" Если vcpkg выдаёт ошибку при компиляции OpenSSL из-за заголовков ядра, убедитесь, что все зависимости установлены: `bash sudo dnf install kernel-headers kernel-devel gcc gcc-c++ make perl` Затем очистите кэш vcpkg: `bash rm -rf $VCPKG_ROOT/buildtrees/openssl` И повторите команду конфигурации cmake.
 
 Переместите готовое приложение из папки `/bin` в отдельную папку и запустите его оттуда:
 
@@ -136,24 +136,24 @@ cd ~/beammp-launcher
 !!! совет "Добавление шрифта эмодзи для получения эмодзи в тексте"
 
 ```
-In order to get emojis to show up in either the serverlist (As part of a servers customised name) or in the ingame chat, you need to have a font that contains emojis.
+Для того чтобы эмодзи отображались в списке серверов (как часть пользовательского имени сервера) или во внутриигровом чате, вам нужен шрифт, содержащий эмодзи.
 
-This can be done for example by adding the [Linux-port of the Windows Segoe-UI emoji font](https://github.com/mrbvrz/segoe-ui-linux)
+Это можно сделать, например, добавив [Linux-версию шрифта эмодзи Segoe-UI для Windows](https://github.com/mrbvrz/segoe-ui-linux)
 ```
 
 ---
 
-## **3. Using BeamMP**
+## **3. Использование BeamMP**
 
-1. Once you have started the launcher, you should see a terminal window. Shortly after, the standard BeamNG launcher should start. **Do not** close the terminal window.
-2. In the BeamNG.drive main menu, click the `Repository` button and check to make sure that `multiplayerbeammp` is **the only** enabled mod.
+1. После запуска лаунчера вы увидите окно терминала. Вскоре после этого должен запуститься стандартный лаунчер BeamNG. **Не** закрывайте окно терминала.
+2. В главном меню BeamNG.drive нажмите кнопку `Repository` и убедитесь, что включен <strong>только</strong> мод <code>multiplayerbeammp</code> .
 3. Выйдите в главное меню, нажмите «Ещё..», затем кнопку «Мультиплеер», чтобы начать игру по сети.
 4. Вам будет предложено войти или играть в качестве гостя (не все серверы допускают гостей). Вы можете создать учетную запись на нашем [форуме](https://forum.beammp.com), а затем войти в BeamMP с теми же учетными данными.
 5. Выберите любой понравившийся вам сервер и нажмите `Connect`. Наслаждайтесь!
 
 ---
 
-## **4. Known Issues**
+## **4. Известные проблемы**
 
 - Нативный linux BeamMP-Launcher в настоящее время может подключиться к серверу только один раз, после отключения вам нужно перезапустить лаунчер. Вы можете сделать это, не закрывая игру между
 - Если вы не видите кнопку «Мультиплеер». Убедитесь, что мод BeamMP присутствует и активирован в «Менеджере модов», затем попробуйте нажать CTRL + L.
