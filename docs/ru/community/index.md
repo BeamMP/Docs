@@ -3,7 +3,7 @@ hide:
   - навигация
 ---
 
-# Welcome to BeamMP Community Area!
+# Добро пожаловать в Сообщество BeamMP!
 
 ![BeamMP Multicolor-White](../../assets/content/BeamMP-Multi-WhtLtr-crop.png#only-dark){width="450"} ![BeamMP Multicolor-Black](../../assets/content/BeamMP-Multi-BlkLtr-crop.png#only-light){width="450"}
 
@@ -12,7 +12,7 @@ hide:
 !!!сбой ""
 
 ```
-BeamMP Forum - [https://forum.beammp.com](https://forum.beammp.com)
+BeamMP Форум - [https://forum.beammp.com](https://forum.beammp.com)
 ```
 
 !!!цитата ""
