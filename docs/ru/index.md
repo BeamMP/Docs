@@ -31,6 +31,6 @@ hide:
 
 На горизонте нас ждут захватывающие обновления, включая совершенно новую домашнюю страницу, разработанную для улучшения вашего опыта просмотра. Оставайтесь с нами, чтобы узнать больше! :slight_smile:
 
-## Community Rules
+## Правила Cообщества
 
-Read through the BeamMP [Community rules](https://docs.beammp.com/community/rules/) and how to appeal bans.
+Ознакомьтесь с [Правилами Cообщества](https://docs.beammp.com/community/rules/) BeamMP и узнайте, как обжаловать блокировку.
