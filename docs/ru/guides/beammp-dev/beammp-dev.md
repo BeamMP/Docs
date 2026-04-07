@@ -25,18 +25,18 @@ BeamMP разделен на три основные части:
 
 Для эффективной работы с модами в BeamNG рекомендуется использовать `unpacked` папку, а не упаковывать zip-архивы после каждого изменения.
 
-Open up the BeamNG userfolder by navigating to `%appdata%/Local/BeamNG.drive/0.xx/mods` where `xx` is the most recent BeamNG version. Create a folder called `unpacked` inside the `mods` folder.
+Откройте папку пользователя BeamNG, перейдя в `%appdata%/Local/BeamNG.drive/0.xx/mods`, где `xx` — последняя версия BeamNG. Создайте папку с именем `unpacked` внутри папки `mods`.
 
 Дополнительную информацию о папке пользователя можно найти по адресу [https://documentation.beamng.com/support/userfolder/](https://documentation.beamng.com/support/userfolder/)
 
 ## Включение режима разработчика в лаунчере BeamMP
 
-In order to prevent auto-update deleting your local git clone, it's necessary to disable it, using `--no-download`. If you also don't want the launcher to start BeamNG, and would like to see debug prints, then using `--dev` is advised.
+Чтобы предотвратить удаление вашего локального клона git автоматическим обновлением, необходимо отключить его с помощью `--no-download`. Если вы также не хотите, чтобы лаунчер запускал BeamNG, и хотели бы видеть отладочные распечатки, то рекомендуется использовать `--dev`.
 
 Аргумент | Примечание
 :-- | :--
 `--help` или `-h` | Выведет следующий список аргументов
-`--port <port>` или `-p` | Change the default listen port to `<port>`. This must be configured ingame too
+`--port <port>` или `-p` | Измените порт прослушивания по умолчанию на `<port>`. Это также должно быть настроено в игре
 `--verbose` или `-v` | Подробный режим, выводит отладочные сообщения
 `--no-download` | Пропустить загрузку и установку мода BeamMP Lua
 `--no-update` | Пропустить применение обновлений лаунчера (необходимо выполнить обновление вручную)
@@ -50,7 +50,7 @@ In order to prevent auto-update deleting your local git clone, it's necessary to
 
 Наиболее эффективным было бы клонировать репозиторий непосредственно в `unpacked` папку.
 
-For `git`, run `git clone https://github.com/yourName/BeamMP` from a PowerShell or CMD window started from the `unpacked` folder. While in the userfolder, make sure theres no `multiplayer` folder left in `mods` and that now there's `unpacked/beammp`.
+Для `git` запустите `git clone https://github.com/yourName/BeamMP` из PowerShell или окна CMD, запущенного из `unpacked` папки. Находясь в папке userfolder, убедитесь, что в `mods` не осталось папки `multiplayer` и что теперь есть `unpacked/beammp`.
 
 Теперь попробуйте режим разработчика. Запустите лаунчер BeamMP, запустите BeamNG вручную, после входа в игру убедитесь, что BeamMP — единственный активный мод. Вы должны иметь возможность использовать BeamMP как обычно.
 
@@ -58,7 +58,7 @@ For `git`, run `git clone https://github.com/yourName/BeamMP` from a PowerShell 
 
 Как только вы будете довольны своими изменениями, вы можете зафиксировать их через git. Посетите [веб-сайт Git-SCM](https://git-scm.com/doc) для получения руководств и документации по использованию Git. Как только ваши изменения будут зафиксированы и отправлены (в ваш форк), вы можете сделать запрос на извлечение.
 
-Feel free to ask in the #scripting channel in our [Discord](https://discord.gg/beammp) if you encounter any issues.
+Если у вас возникнут какие-либо проблемы, смело задавайте их на канале #scripting в нашем [Discord](https://discord.gg/beammp).
 
 ---
 
@@ -66,10 +66,10 @@ Feel free to ask in the #scripting channel in our [Discord](https://discord.gg/b
 
 При работе с BeamMP может быть полезно использовать локальный сервер. Вы можете следовать общей [установке сервера](../../server/create-a-server.md) , пропуская первые два шага для чисто локальных подключений.
 
-Set the server to private in the `serverConfig.toml` while using any string as the `AuthKey`.
+Установите сервер как закрытый в `serverConfig.toml`, используя любую строку в качестве `AuthKey`.
 
 ---
 
-# Contribution Guidelines
+# Правила Внесения Вклада
 
 Подробную информацию о формате кода, формате сообщения о коммите, общих рекомендациях по разработке и т. д. см. в файле `CONTRIBUTING.md` в каждом репозитории. Этот файл содержит более подробную информацию о том, как внести свой вклад. Файл `README.md` в каждом репозитории обычно также содержит шаги сборки (для скомпилированных проектов).
