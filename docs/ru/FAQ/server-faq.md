@@ -10,13 +10,13 @@
 
 ### **Как мне настроить свои собственные серверы?**
 
-All the information to set up your own server can be found [here](https://docs.beammp.com/server/create-a-server/).
+Всю информацию о настройке собственного сервера можно найти [здесь](https://docs.beammp.com/server/create-a-server/).
 
 ---
 
 ### **Можно ли создать сервер с использованием Linux?**
 
-We provide binaries for many Linux distributions [here](https://github.com/BeamMP/BeamMP-Server/releases/latest). If there are no binaries for your Operating System/Distribution, you can build it yourself by downloading the source on our [GitHub](https://github.com/BeamMP/BeamMP-Server), a tutorial can be found [here](https://github.com/BeamMP/BeamMP-Server#build-instructions).
+Мы предоставляем бинарные файлы для многих дистрибутивов Linux [здесь](https://github.com/BeamMP/BeamMP-Server/releases/latest). Если для вашей операционной системы/дистрибутива нет бинарных файлов, вы можете собрать их самостоятельно, загрузив исходный код на нашем [GitHub](https://github.com/BeamMP/BeamMP-Server), руководство можно найти [здесь](https://github.com/BeamMP/BeamMP-Server#build-instructions).
 
 ---
 
@@ -33,19 +33,19 @@ We provide binaries for many Linux distributions [here](https://github.com/BeamM
 
 ## **Игроки за пределами моей сети не могут присоединиться к моему серверу, размещенному на моем собственном сервере.**
 
-Read the port forwarding guide that's available [here](https://docs.beammp.com/server/port-forwarding/). Below there's a brief summary of the most noteworthy steps. If other players, trying to connect to your server, receive an error code 10060, 10061 or 10038 in their BeamMP launcher, then you should check the following steps:
+Прочитайте руководство по переадресации портов, которое доступно [здесь](https://docs.beammp.com/server/port-forwarding/). Ниже приведен краткий обзор наиболее важных шагов. Если другие игроки, пытаясь подключиться к вашему серверу, получают код ошибки 10060, 10061 или 10038 в своем лаунчере BeamMP, то вам следует проверить следующие шаги:
 
 - Перенаправьте порт 30814 (или любой другой порт, указанный в ServerConfig.toml), протоколы TCP и UDP.
 - Разрешить BeamMP через брандмауэр Windows, разрешить как входящие, так и исходящие соединения. Отключение брандмауэра обычно НЕ работает.
 - Убедитесь, что вы не используете VPN (это может вызвать проблемы).
 - Убедитесь, что сервер действительно работает, без ошибок и предупреждений.
 
-You can check if you have successfully portforwarded using CheckBeamMP whilst the server is running.
+Вы можете проверить, успешно ли выполнен проброс портов, с помощью CheckBeamMP, пока сервер работает.
 
 <form action="https://check.beammp.com/api/v2/beammp" method="get" target="_blank">
-  <label for="ip">IP adress:</label>
+  <label for="ip">IP-адрес:</label>
   <input type="text" id="ip" name="ip"><br>
-  <label for="port">Port:</label>
+  <label for="port">Порт:</label>
   <input type="text" id="port" name="port"><br>
   <input type="submit" value="CheckBeamMP">
 </form>
@@ -57,9 +57,9 @@ You can check if you have successfully portforwarded using CheckBeamMP whilst th
 
 ---
 
-### **I can see my self-hosted server in the server-list, but i cannot join it myself**
+### **Я вижу свой сервер, размещенный на собственном сервере, в списке серверов, но не могу подключиться к нему сам**
 
-If the server is running on the same machine as the game, you yourself have to use Direct Connect to join, with the IP 127.0.0.1 and your server's port. For you to be able to join your own, self-hosted server trough the server-list, your router needs to support NAT-loopback, but this is a function not many home routers support.
+Если сервер запущен на той же машине, что и игра, вам самим придется использовать Direct Connect для присоединения с IP 127.0.0.1 и портом вашего сервера. Чтобы вы могли присоединиться на свой собственный сервер через список серверов, ваш маршрутизатор должен поддерживать NAT-loopback, но эту функцию поддерживают не многие домашние маршрутизаторы.
 
 ---
 
@@ -69,7 +69,7 @@ If the server is running on the same machine as the game, you yourself have to u
 
 ### **Где я могу найти код?**
 
-All the source code can be found on our [GitHub](https://github.com/BeamMP). Before doing anything keep in mind that the code is subject to our [Terms of Use](https://forum.beammp.com/t/terms-of-use-v1-0/43) and licenses:
+Весь исходный код можно найти на нашем [GitHub](https://github.com/BeamMP). Прежде чем что-либо делать, помните, что код подчиняется нашим [Условиям использования](https://forum.beammp.com/t/terms-of-use-v1-0/43) и лицензиям:
 
 Код | Лицензия
 --- | :-:
@@ -81,9 +81,9 @@ All the source code can be found on our [GitHub](https://github.com/BeamMP). Bef
 
 ### **Я нашел ошибку или эксплойт, что мне делать?**
 
-If the issue is code related and you know how to use Github, create a new "Issue" in the appropriate repository on our [GitHub](https://github.com/BeamMP). We use an issue-based workflow so even if you already have a fix for the bug, consider opening a new "Issue", then asking a "Pull Request" that solves your "Issue". More info on contributing can be found [here](https://github.com/BeamMP/BeamMP/blob/development/CONTRIBUTING.md).
+Если проблема связана с кодом, и вы знаете, как использовать GitHub, создайте новую «Проблему» в соответствующем репозитории на нашем [GitHub](https://github.com/BeamMP). Мы используем рабочий процесс, основанный на проблемах, поэтому даже если у вас уже есть исправление ошибки, рассмотрите возможность открытия новой «Проблемы», а затем подайте «Запрос на извлечение», который решит вашу «Проблему». Более подробную информацию о содействии можно найти [здесь](https://github.com/BeamMP/BeamMP/blob/development/CONTRIBUTING.md).
 
 Если у вас нет учетной записи GitHub или вы не знаете, как пользоваться GitHub, вы можете связаться с нами следующими способами:
 
-- If it is not something sensitive, you can create a post on our [BeamMP Forum](https://forum.beammp.com) or you can report this on our [Official Discord](https://discord.gg/beammp).
-- If the information is sensitive you can directly report the issue to a Staff member on our [Discord](https://discord.gg/beammp).
+- Если это не что-то деликатное, вы можете создать сообщение на нашем [Форуме BeamMP](https://forum.beammp.com) или сообщить об этом на нашем [Официальном Discord](https://discord.gg/beammp).
+- Если информация конфиденциальная, вы можете напрямую сообщить о проблеме нашему сотруднику в [Discord](https://discord.gg/beammp).
