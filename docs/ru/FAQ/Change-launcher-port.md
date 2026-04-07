@@ -5,10 +5,10 @@
 # Изменение порта вручную
 
 1. Запустить BeamNG
-2. In the main menu, go to Options, then Multiplayer
-3. In the multiplayer options, enable `Show advanced options`
+2. В главном меню выберите «Параметры», затем «Мультиплеер»
+3. В параметрах многопользовательской игры включите `Show advanced options`
 4. Прокрутите страницу вниз
-5. In `Launcher port` change the port number to something else, for example 4567
+5. В `Launcher port` измените номер порта на другой, например, 4567
 6. Закрыть BeamNG
 7. Щелкните правой кнопкой мыши по ярлыку BeamMP-launcher и выберите в контекстном меню `Open file location`
 8. Откройте файл `launcher.cfg` в текстовом редакторе.
@@ -20,6 +20,6 @@
 
 ## Проблема все еще не решена?
 
-Create a support ticket on our [Discord Server](https://discord.gg/BeamMP).
+Создайте заявку в службу поддержки на нашем [Discord Сервере](https://discord.gg/BeamMP).
 
-Tags: Launcher, Connection Failed, Port Number
+Теги: Лаунчер, Ошибка Соединения, Номер Порта
