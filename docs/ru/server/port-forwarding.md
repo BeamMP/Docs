@@ -1,6 +1,6 @@
 # Переадресация Портов
 
-!!! danger ":material-scale-balance: DISCLAIMER:"
+!!! опасность ":material-scale-balance: ОТКАЗ ОТ ОТВЕТСТВЕННОСТИ:"
 
 ```
 **Port forwarding is a risk**.
@@ -12,43 +12,43 @@ We take no responsibility for any content on any externally linked services or w
 <u>**If you do not understand this guide, please consider using one of our partners.**</u>
 ```
 
-!!! warning
+!!! предупреждение
 
 ```
   Please make sure your Router is not a 4G/5G exclusive device. If it is a hybrid device, make sure to select the cable connected adapter later in section 3 of this guide!
 ```
 
-## How to set up port forwarding.
+## Как настроить переадресацию портов.
 
-Creating a port forwarding rule involves a few detailed network terms. Be prepared to write down a few notes as you go through the process.
+Создание правила переадресации портов включает несколько подробных сетевых терминов. Будьте готовы записать несколько заметок по мере прохождения процесса.
 
-There are 4 major steps in this guide.
+В этом руководстве 4 основных шага.
 
-## A quick guide. (A more detailed guide is below)
+## Краткое руководство. (Более подробное руководство приведено ниже)
 
 <div class="grid cards" markdown>
 </div>
 <ul data-md-type="list" data-md-list-type="unordered" data-md-list-tight="false">
 <li data-md-type="list_item" data-md-list-type="unordered">
-<p data-md-type="paragraph">:material-dns:{ .lg .middle } <strong data-md-type="double_emphasis">Assign a static IP address to your computer or devices</strong></p>
+<p data-md-type="paragraph">:material-dns:{ .lg .middle } <strong data-md-type="double_emphasis">Назначьте статический IP-адрес вашему компьютеру или устройствам</strong></p>
 <hr data-md-type="hrule">
-<p data-md-type="paragraph">This is needed to prevent the IP of your device changing and breaking the port forwarding rule.</p>
-<p data-md-type="paragraph"><a href="https://portforward.com/router.htm#1" data-md-type="link">:octicons-arrow-right-24: See info about your router</a></p>
+<p data-md-type="paragraph">Это необходимо для предотвращения изменения IP-адреса вашего устройства и нарушения правила переадресации портов.</p>
+<p data-md-type="paragraph"><a href="https://portforward.com/router.htm#1" data-md-type="link">:octicons-arrow-right-24: Просмотр информации о вашем маршрутизаторе</a></p>
 </li>
 <li data-md-type="list_item" data-md-list-type="unordered">
-<p data-md-type="paragraph">:material-router-wireless:{ .lg .middle } <strong data-md-type="double_emphasis">Log in to your router</strong></p>
+<p data-md-type="paragraph">:material-router-wireless:{ .lg .middle } <strong data-md-type="double_emphasis">Войдите в свой маршрутизатор</strong></p>
 <hr data-md-type="hrule">
-<p data-md-type="paragraph">This can normally be done by finding the 'Default Gateway' IP, which can be found when executing <code data-md-type="codespan">ipconfig</code> in a command prompt and entering it in a web browsers address bar.</p>
+<p data-md-type="paragraph">Обычно это можно сделать, найдя IP-адрес «шлюза по умолчанию», который можно найти, выполнив <code data-md-type="codespan">ipconfig</code> в командной строке и введя его в адресную строку веб-браузера.</p>
 </li>
 <li data-md-type="list_item" data-md-list-type="unordered">
-<p data-md-type="paragraph">:material-lan-connect:{ .lg .middle } <strong data-md-type="double_emphasis">Forward ports to your computer</strong></p>
+<p data-md-type="paragraph">:material-lan-connect:{ .lg .middle } <strong data-md-type="double_emphasis">Перенаправьте порты на ваш компьютер</strong></p>
 <hr data-md-type="hrule">
-<p data-md-type="paragraph">Find the port forwarding section in your routers web interface. Most routers list the port forwarding section under Network, Advanced, or LAN.</p>
+<p data-md-type="paragraph">Найдите раздел переадресации портов в веб-интерфейсе маршрутизатора. Большинство маршрутизаторов перечисляют раздел переадресации портов в разделе «Сеть», «Дополнительно» или «Локальная сеть».</p>
 </li>
 <li data-md-type="list_item" data-md-list-type="unordered">
-<p data-md-type="paragraph">:material-test-tube:{ .lg .middle } <strong data-md-type="double_emphasis">Test that your port is forwarded properly</strong></p>
+<p data-md-type="paragraph">:material-test-tube:{ .lg .middle } <strong data-md-type="double_emphasis">Проверьте, что ваш порт правильно перенаправлен</strong></p>
 <hr data-md-type="hrule">
-<p data-md-type="paragraph">Use a tool such as CheckBeamMP to test if the rule is working.</p>
+<p data-md-type="paragraph">Используйте такой инструмент, как CheckBeamMP, чтобы проверить, работает ли правило.</p>
 <div data-md-type="block_html">
 <form action="https://check.beammp.com/api/v2/beammp" method="get" target="_blank">
  <label for="ip">IP-адрес:</label>
@@ -62,140 +62,140 @@ There are 4 major steps in this guide.
 </ul>
 <div data-md-type="block_html"></div>
 
-## The detailed guide
+## Подробное руководство
 
-### 1. Assigning a static IP address
+### 1. Назначение статического IP-адреса
 
-### Method 1: Set Up a Static IP Address Using DHCP reservations
+### Метод 1: настройка статического IP-адреса с использованием резервирования DHCP
 
-Another way to set a static IP address in your local network is to use your router's DHCP reservation feature. Not all routers have this feature, so this may not be an option for you. Please search the internet with the model of your router to find a manual.
+Другой способ задать статический IP-адрес в локальной сети — использовать функцию резервирования DHCP вашего маршрутизатора. Не все маршрутизаторы имеют эту функцию, поэтому это может быть неподходящим вариантом для вас. Пожалуйста, найдите в Интернете модель вашего маршрутизатора, чтобы найти руководство.
 
-If you have managed to do this, please skip directly to [step 2](port-forwarding.md#2-log-in-to-your-router)
+Если вам удалось это сделать, перейдите сразу к [шагу 2.](port-forwarding.md#2-log-in-to-your-router)
 
-### Method 2: Assign a static IP in Windows
+### Метод 2: Назначение статического IP-адреса в Windows
 
-#### 1.1. Find your current IP Address, Gateway and DNS servers:
+#### 1.1. Найдите свой текущий IP-адрес, шлюз и DNS-серверы:
 
-Before we can set up a static IP address, we need to know your current network settings. You are going to want to write these down, so get a notepad window ready. For this step, we are going to use command prompt.
+Прежде чем мы сможем настроить статический IP-адрес, нам нужно знать ваши текущие сетевые настройки. Вам нужно будет записать их, поэтому приготовьте блокнот. Для этого шага мы воспользуемся командной строкой.
 
-Open up a command prompt. The 3 main ways are:
+Откройте командную строку. 3 основных способа:
 
-- Windows Key, then start typing the phrase "cmd", then press Enter when you see "Command Prompt" highlighted.
+- Нажмите клавишу Windows, затем начните вводить фразу «cmd», затем нажмите Enter, когда увидите выделенную строку «Командная строка».
 
 
-<figure class="image image_resized" style="width:62%;" markdown=""> ![](../../assets/content/win11-open-cmd.png) </figure>
+<figure class="image image_resized" style="width:62%;" markdown="">![](../../assets/content/win11-open-cmd.png)</figure>
 
-Once you are in the command prompt, run the following command:
+После того, как вы окажетесь в командной строке, выполните следующую команду:
 
 ```
 ipconfig /all
 ```
 
-You will see a lot of data. If you have virtual or multiple network adapters, then you will see even more data. It is common to see many virtual adapters if you have either Hyper-V or Docker installed.
+Вы увидите много данных. Если у вас есть виртуальные или несколько сетевых адаптеров, то вы увидите еще больше данных. Обычно можно увидеть много виртуальных адаптеров, если у вас установлен Hyper-V или Docker.
 
 
-<figure class="image image_resized" style="width:62%;" markdown=""> ![](../../assets/content/win11-command-prompt-ipconfig-highlighted.png) </figure>
+<figure class="image image_resized" style="width:62%;" markdown="">![](../../assets/content/win11-command-prompt-ipconfig-highlighted.png)</figure>
 
-It is recommended to use a wired network connection which will be running this server, however, it will work over a wireless connection. You will need to look for an adapter in this list which has an active internet connection. Scroll through the list and find one that has a Default Gateway assigned. Many of the virtual adapters will not have a Default Gateway.
+Рекомендуется использовать проводное сетевое соединение, которое будет запускать этот сервер, однако он будет работать и через беспроводное соединение. Вам нужно будет найти в этом списке адаптер, который имеет активное подключение к Интернету. Прокрутите список и найдите тот, которому назначен шлюз по умолчанию. Многие из виртуальных адаптеров не будут иметь шлюза по умолчанию.
 
-Below are local IPv4 address examples, which atleast one of the adapters should have. You will need to note down the information of your adapter.
+Ниже приведены примеры локальных адресов IPv4, которые должен иметь хотя бы один из адаптеров. Вам нужно будет записать информацию о вашем адаптере.
 
-- 192.168.x.x
-- 10.x.x.x.
-- 172.16.x.x - 172.31.x.x
+- 192.168.xx
+- 10.xxx
+- 172.16.xx - 172.31.xx
 
-Subnet Mask (most likely 255.255.255.0)  Default Gateway (most likely 192.168.0.1 or 192.168.1.1)
+Маска подсети (скорее всего 255.255.255.0) Основной шлюз (скорее всего 192.168.0.1 или 192.168.1.1)
 
-!!! info "Please Note" BeamMP currently does not support IPv6 for hosting a server.
+!!! info "Обратите внимание" BeamMP в настоящее время не поддерживает IPv6 для хостинга сервера.
 
-#### 1.2. Modify Adapter Settings
+#### 1.2.Изменение настроек адаптера
 
-Now we need to change the settings on your network adapter in order for your PC to keep the IP configuration it currently has. To get to the settings for your network, the fastest method is:
+Теперь нам нужно изменить настройки вашего сетевого адаптера, чтобы ваш ПК сохранил текущую конфигурацию IP. Чтобы получить доступ к настройкам вашей сети, самый быстрый способ:
 
-- Single tap the Windows key
-- Type the phrase "network connections" until you see "View network connections".
-- Press the Enter key
-
-
-<figure class="image image_resized" style="width:62%;" markdown=""> ![](../../assets/content/win11-start-menu-view-network-connections.png) </figure>
-
-You should see a list of network connections on your computer. If you have Hyper-V or Docker installed, there can be many. Look for any adapters that are not named "Hyper-V".
+- Нажмите один раз клавишу Windows.
+- Введите фразу «сетевые подключения», пока не увидите «Просмотр сетевых подключений».
+- Нажмите клавишу Enter.
 
 
-<figure class="image image_resized" style="width:62%;" markdown=""> ![](../../assets/content/win11-network-connections.png) </figure>
+<figure class="image image_resized" style="width:62%;" markdown="">![](../../assets/content/win11-start-menu-view-network-connections.png)</figure>
 
-Right-click on your adapter and choose properties. If `Internet Protocol Version 4` is not checked, then this is the wrong adapter. Choose a different one.
+Вы должны увидеть список сетевых подключений на вашем компьютере. Если у вас установлены Hyper-V или Docker, их может быть много. Найдите все адаптеры, которые не называются "Hyper-V".
 
 
-<figure class="image image_resized" style="width:62%;" markdown=""> ![](../../assets/content/win11-ethernet-properties-highlighted.png) </figure>
+<figure class="image image_resized" style="width:62%;" markdown="">![](../../assets/content/win11-network-connections.png)</figure>
 
-Double click on `Internet Protocol Version 4`. Change `Obtain an IP address automatically` to `Use the following IP address`.
+Щелкните правой кнопкой мыши по вашему адаптеру и выберите свойства. Если `Internet Protocol Version 4` не отмечен, то это неправильный адаптер. Выберите другой.
 
-Fill out the IP address, Subnet mask, Default gateway, and Preferred DNS server with the information from command prompt (ipconfig /all).
 
-Alternatively, instead of using your DNS servers, you can use either the CloudFlare or Google DNS servers:
+<figure class="image image_resized" style="width:62%;" markdown="">![](../../assets/content/win11-ethernet-properties-highlighted.png)</figure>
+
+Дважды щелкните по `Internet Protocol Version 4` Измените `Obtain an IP address automatically` на `Use the following IP address` .
+
+Заполните поля IP-адрес, маска подсети, шлюз по умолчанию и предпочитаемый DNS-сервер, используя информацию из командной строки (ipconfig /all).
+
+В качестве альтернативы вместо использования своих DNS-серверов вы можете использовать DNS-серверы CloudFlare или Google:
 
 - CloudFlare DNS: 1.1.1.1, 1.0.0.1
 - Google DNS: 8.8.8.8, 8.8.4.4
 
 
-<figure class="image image_resized" style="width:62%;" markdown=""> ![](../../assets/content/win11-network-settings-static-ip.png) </figure>
+<figure class="image image_resized" style="width:62%;" markdown="">![](../../assets/content/win11-network-settings-static-ip.png)</figure>
 
-Click Ok, then click Ok again, and your adapter is now changed from DHCP to static. Surf the web to make sure that you still have internet connectivity. If you do not, then change your settings back to Obtain an IP address automatically and try the next method.
+Нажмите Ok, затем нажмите Ok еще раз, и ваш адаптер теперь изменен с DHCP на статический. Поищите в Интернете, чтобы убедиться, что у вас все еще есть подключение к Интернету. Если нет, то измените настройки обратно на Получить IP-адрес автоматически и попробуйте следующий метод.
 
-### 2. Log in to your router
+### 2. Войдите в свой маршрутизатор.
 
-Now that you have a static IP address on your device, you are ready to forward the port for BeamMP!
+Теперь, когда на вашем устройстве есть статический IP-адрес, вы готовы перенаправить порт для BeamMP!
 
-To start, we need to log in to your router. Earlier, one of the settings that you wrote down is your Default Gateway. That is the IP address of your router.
+Для начала нам нужно войти в ваш роутер. Ранее одна из настроек, которую вы записали, это ваш Default Gateway. Это IP-адрес вашего роутера.
 
-Most routers use a locally hosted web page for management. To view your router's menu and settings:
+Большинство маршрутизаторов используют локально размещенную веб-страницу для управления. Чтобы просмотреть меню и настройки маршрутизатора:
 
-- Open up a web browser. Firefox, Chrome or Edge should work fine.
-- In the address bar, type your Default Gateway IP address, such as 192.168.0.1 or 192.168.1.1 and press enter
+- Откройте веб-браузер. Firefox, Chrome или Edge должны работать нормально.
+- В адресной строке введите IP-адрес вашего шлюза по умолчанию, например 192.168.0.1 или 192.168.1.1, и нажмите Enter.
 
-You should now see your router's login screen. Not all routers require a login, but most do. You need to know your router's username and password. If you have never logged in before, your username and password are most likely set to the factory default values or, in some cases, written on a sticker your router.
+Теперь вы должны увидеть экран входа в систему вашего маршрутизатора. Не все маршрутизаторы требуют входа в систему, но большинство требуют. Вам необходимо знать имя пользователя и пароль вашего маршрутизатора. Если вы никогда не входили в систему раньше, ваши имя пользователя и пароль, скорее всего, установлены на заводские значения по умолчанию или, в некоторых случаях, написаны на наклейке вашего маршрутизатора.
 
-Some of the most common factory usernames and passwords are listed here:
+Ниже перечислены некоторые из наиболее распространенных заводских имен пользователей и паролей:
 
-Username | Password
+Имя пользователя | Пароль
 --- | ---
-admin | admin
-admin | password
-{blank} | admin
-{blank} | password
+админ | админ
+админ | пароль
+{пустой} | админ
+{пустой} | пароль
 
-Try various combinations of admin, password, and leaving the entries blank. *Where it says blank, try leaving the value blank.*
+Попробуйте различные комбинации admin, password и оставьте записи пустыми. *Там, где написано blank, попробуйте оставить значение пустым.*
 
-### 3. Create the forwarding rules!
+### 3. Создайте правила пересылки!
 
-#### 3.1. Find the forwarding section
+#### 3.1. Найдите раздел пересылки
 
-Find the port forwarding section in your router web interface. Navigate around in your router by clicking the tabs or links at the top or left of each page. Most routers list the port forwarding section under Network, Advanced, or LAN. Look for the following keywords to help you find it:
+Найдите раздел переадресации портов в веб-интерфейсе маршрутизатора. Перемещайтесь по маршрутизатору, нажимая вкладки или ссылки в верхней или левой части каждой страницы. Большинство маршрутизаторов перечисляют раздел переадресации портов в разделе «Сеть», «Дополнительно» или «Локальная сеть». Найдите его по следующим ключевым словам:
 
-- Port Forwarding
-- Forwarding
-- Port Range Forwarding
-- Virtual Servers
-- Apps &amp; Gaming
-- Advanced Setup/Settings
-- NAT
+- Переадресация портов
+- Пересылка
+- Переадресация диапазона портов
+- Виртуальные серверы
+- Приложения и игры
+- Расширенные настройки/параметры
+- НАТ
 
-#### 3.2. Enter in the details
+#### 3.2. Введите данные
 
-Once you find your router's port forwarding section, you are ready to enter the necessary information. Your router will have a place to enter the ports to be forwarded and the destination IP address to point those forwarded ports. If your router lists both Internal and External ports, make them the same.
+Как только вы найдете раздел переадресации портов вашего маршрутизатора, вы готовы ввести необходимую информацию. На вашем маршрутизаторе будет место для ввода портов, которые нужно переадресовать, и IP-адрес назначения, чтобы указать эти переадресованные порты. Если на вашем маршрутизаторе указаны как внутренние, так и внешние порты, сделайте их одинаковыми.
 
-BeamMP requires both UDP and TCP port 30814 (Unless you have changed this in your [ServerConfig.toml](create-a-server.md#4-configuration)).
+Для BeamMP требуются как UDP-, так и TCP-порт 30814 (если вы не изменили это в [ServerConfig.toml](create-a-server.md#4-configuration) ).
 
-!!! info "Note" While the default **Port** is **30814**, you can choose any other number greater than 1024 but less than 65535, but you need to note down what you picked if it's not 30814. You need to forward both **TCP** and **UDP**.  It is recommended to stick to the default port as that one is very unlikely to be used by another service on your PC.  However, If you are hosting multiple servers on one machine, each server needs a different Port. Server 1: 30814, Server 2: 30815 for example.
+!!! info "Примечание" Хотя **порт** по умолчанию - **30814** , вы можете выбрать любой другой номер больше 1024, но меньше 65535, но вам нужно записать, что вы выбрали, если это не 30814. Вам нужно перенаправить как **TCP** , так и **UDP** . Рекомендуется придерживаться порта по умолчанию, так как он вряд ли будет использоваться другой службой на вашем ПК. Однако, если вы размещаете несколько серверов на одной машине, каждому серверу нужен свой порт. Например, сервер 1: 30814, сервер 2: 30815.
 
-On some routers you may need to create 2 rules, one for UDP and one for TCP, whilst others are nice and allow you to do both with a single rule!
+На некоторых маршрутизаторах вам может потребоваться создать два правила: одно для UDP и одно для TCP, в то время как другие удобны и позволяют сделать и то, и другое с помощью одного правила!
 
-Most routers have a 'save' button, and some routers require a restart or reboot for the changes to take effect.
+На большинстве маршрутизаторов есть кнопка «Сохранить», а на некоторых маршрутизаторах требуется перезапуск или перезагрузка, чтобы изменения вступили в силу.
 
-### 4. Time to test!
+### 4. Время тестировать!
 
-There are a few different ways to test the connection.
+Есть несколько способов проверить соединение.
 
 Наш рекомендуемый способ — использовать наш инструмент **CheckBeamMP**, так как он проверяет проблемы и протоколы, специфичные для BeamMP.
 
@@ -207,11 +207,11 @@ There are a few different ways to test the connection.
   <input type="submit" value="CheckBeamMP">
 </form>
 
-This can be done by getting your public IPv4 Address, this once again can be done in a few different ways. The main way is to use a website called [whatsmyip.org](https://whatsmyip.org/). This is a simple website which displays your public IP Address. You should be looking for an IP address with the formatting: xxx.xxx.xxx.xxx
+Это можно сделать, получив свой публичный IPv4-адрес, это опять же можно сделать несколькими способами. Основной способ — использовать веб-сайт [whatsmyip.org](https://whatsmyip.org/) . Это простой веб-сайт, который отображает ваш публичный IP-адрес. Вам следует искать IP-адрес в формате: xxx.xxx.xxx.xxx
 
-Visit the following Link and replace "IP" with your actual IPv4 address, and the "Port" with your servers port. Be sure to leave no spaces. https://check.beammp.com/api/v2/beammp/ip/port
+Перейдите по следующей ссылке и замените «IP» на ваш реальный адрес IPv4, а «Port» на порт вашего сервера. Не оставляйте пробелов. https://check.beammp.com/api/v2/beammp/ip/port
 
-!!! success "status: ok"
+!!! успех "статус:ok"
 
 ```
   If you get the output above you can now join your server!
@@ -219,7 +219,7 @@ Visit the following Link and replace "IP" with your actual IPv4 address, and the
   Since you are hosting a server on-premise, use 127.0.0.1 (localhost) if the Server is running on the same PC as you play, or the LAN IPv4 of the local machine that is running the server.
 ```
 
-!!! failure "status: error"
+!!! сбой "статус:ошибка"
 
 ```
   If the connection fails entirely, your ISP could be using CGNAT (Carrier Grade Network Address Translation). For more details, please check [How to check for CGNAT?](../FAQ/How-to-check-for-CGNAT.md),
