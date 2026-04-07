@@ -2,17 +2,17 @@
 
 ## **Создание Сервера**
 
-Basics of setting up the server application
+Основы настройки серверного приложения
 
 ---
 
-### **Overview**
+### **Обзор**
 
-**Creating a Home Server is free, hosting one with a VPS is easier and more secure**
+**Создание домашнего сервера бесплатно, размещение его на VPS проще и безопаснее**
 
-Servers are an integral part of BeamMP; players are connected to each other through the server. They run natively on Windows and Linux.
+Серверы являются неотъемлемой частью BeamMP; игроки подключаются друг к другу через сервер. Они работают нативно на Windows и Linux.
 
-You can make private servers, which only people you invite can join, or public servers, which will show in our official server list.
+Вы можете создавать частные серверы, к которым смогут присоединиться только приглашенные вами люди, или публичные серверы, которые будут отображаться в нашем официальном списке серверов.
 
 Запуск сервера — это процесс из нескольких шагов! Если у вас возникнут какие-либо проблемы, смело задавайте их на нашем [форуме](https://forum.beammp.com) или на нашем [сервере Discord](https://discord.gg/beammp) в канале `#support`. Также обратитесь к разделу [«Обслуживание сервера»](server-maintenance.md) для получения дополнительной информации.
 
@@ -22,11 +22,11 @@ You can make private servers, which only people you invite can join, or public s
 
 ## Настройка Сервера
 
-The setup consists of the following steps, you should follow all of them.
+Настройка состоит из следующих шагов, вам следует выполнить их все.
 
-### **1. Port forwarding**
+### **1. Переадресация портов**
 
-!!! info
+!!! информация
 
 ```
 If you are on a VPS (Virtual Private Server), Rootserver, or plan on hosting this server locally (with players in the same house as you), you can skip this step.
@@ -45,36 +45,36 @@ It is therefore recommended to host a server with one of our partnered services!
 *Please see [this guide on how to port forward](port-forwarding.md)*
 ```
 
-#### Partnered Hosting Services (paid):
+#### Партнерские услуги хостинга (платные):
 
-- [Horizon Hosting](https://hrzn.link/beammp)
+- [Хостинг Горизонта](https://hrzn.link/beammp)
 - [RackGenius](https://rackgeni.us/beammp-plans)
-- [Connect Hosting](https://connecthosting.net/beammp)
-- [Assetto Hosting](https://assettohosting.com/en/games/beamng)
+- [Подключить хостинг](https://connecthosting.net/beammp)
+- [Хостинг Assetto](https://assettohosting.com/en/games/beamng)
 - [ZAP-Хостинг](https://zap-hosting.com/itsbeammp)
 - [HostHavoc](https://hosthavoc.com/)
 - [PedalHost](https://pedal.host/)
-- [Vyper Hosting](https://vyperhosting.com/r/beammp)
+- [Хостинг Vyper](https://vyperhosting.com/r/beammp)
 - [BisectHosting](https://www.bisecthosting.com/beammp-server-hosting)
-- [Four Seasons Hosting](https://fourseasonshosting.com)
-- [Vertuo Hosting](https://vertuohosting.com)
+- [Хостинг Four Seasons](https://fourseasonshosting.com)
+- [Vertuo Хостинг](https://vertuohosting.com)
 - [Winheberg](https://winheberg.fr/offres/gaming/beammp?lang=en)
 - [Ваббанод](https://wabbanode.com/partner/beammp)
 - [Айcлайн Хостинг](https://iceline-hosting.com/games/beammp)
 
-#### 1.1 Firewall
+#### 1.1 Брандмауэр
 
-Depending on your setup, you may need to let BeamMP-Server through your firewall. This is the case on Windows (turning the firewall off usually does **not** work), and on a lot of preinstalled Linux servers. 
+В зависимости от настроек вам может потребоваться разрешить BeamMP-Server проходить через ваш брандмауэр. Это касается Windows (отключение брандмауэра обычно **не** работает) и многих предустановленных серверов Linux.
 
 Там вы хотите разрешить BeamMP-Server через брандмауэр, **как входящие, так и исходящие соединения**, и **как TCP, так и UDP**. Если ваш брандмауэр запрашивает порт вместо этого, это должен быть тот же порт, который вы использовали на шаге «1. Переадресация портов» (обычно 30814).
 
 For a more detailed guide, refer to [this documentation page](https://docs.beammp.com/FAQ/Defender-exclusions/). If you have issues, also feel free to ask on our [Forum](https://forum.beammp.com) or on our [Discord server](https://discord.gg/beammp) in the `#support` channel.
 
-### **2. Obtaining an Authentication Key**
+### **2. Получение ключа аутентификации**
 
-The “Authentication Key”, often called “AuthKey”, is necessary for making a **public** server accessible by the serverlist. Though it is recommended to add the authkey to private servers as well. You have a limited number of keys. One key can be used on one server at a time, so you cannot start two servers at the same time with the same key. More keys can be obtained by supporting the project. Read [this article](https://docs.beammp.com/support/player-faq/) for more information.
+«Ключ аутентификации», часто называемый «AuthKey», необходим для того, чтобы сделать **общедоступный** сервер доступным для списка серверов. Хотя рекомендуется добавлять authkey и к частным серверам. У вас есть ограниченное количество ключей. Один ключ может использоваться на одном сервере одновременно, поэтому вы не можете запустить два сервера одновременно с одним и тем же ключом. Дополнительные ключи можно получить, поддержав проект. Прочитайте [эту статью](https://docs.beammp.com/support/player-faq/) для получения дополнительной информации.
 
-!!! warning
+!!! предупреждение
 
 ```
 НИКОГДА НЕ ДЕЛИТЕСЬ ЭТИМ КЛЮЧОМ И НЕ ПОКАЗЫВАЙТЕ ЕГО НИКОМУ. ОТНОСИТЕСЬ К НЕМУ КАК К ПАРОЛЮ.
@@ -82,60 +82,60 @@ The “Authentication Key”, often called “AuthKey”, is necessary for makin
 
 Для этого шага вам понадобится учетная запись [Discord](https://discord.com). Это необходимо для предотвращения спама.
 
-#### 2.1. Accessing the keys page
+#### 2.1. Доступ к странице ключей
 
-Login with Discord to the [Keymaster](https://beammp.com/keymaster). From the Keymaster homepage click on "Keys" on the left of the screen:
-
-
-<figure markdown="">   ![](../../assets/content/keymaster_homepage.png) </figure>
-
-#### 2.2. Creating a key
-
-To create your key, click on the green "+" button in the top right. 
+Войдите в [Keymaster](https://beammp.com/keymaster) через Discord. На домашней странице Keymaster нажмите «Ключи» в левой части экрана:
 
 
-<figure markdown="">   ![](../../assets/content/keymaster_new_key.png) </figure>
+<figure markdown="">![](../../assets/content/keymaster_homepage.png)</figure>
 
-#### 2.3. Filling out the key information
+#### 2.2 Создание ключа
 
-Next, fill out the Server Name field (this is just the keys name and not the actual name of the server on the list), then click "Create". Example:
-
-
-<figure class="image image_resized" style="width:44.84%;" markdown="">   ![](../../assets/content/keymaster_server_name.png) </figure>
-
-It should, in the end, look something like this:
+Чтобы создать свой ключ, нажмите на зеленую кнопку «+» в правом верхнем углу.
 
 
-<figure markdown="">   ![](../../assets/content/keymaster_key_done.png) </figure>
+<figure markdown="">![](../../assets/content/keymaster_new_key.png)</figure>
 
-#### 2.4. Copying the key
+#### 2.3. Заполнение ключевой информации
 
-Now copy the text in the “Key” field, in this example that is `3173a2e-6az0-4542-a3p0-ddqq5ff95558` and hold onto it for the next step. You can do this by clicking the clipboard on the right of the key:
+Далее заполните поле Имя сервера (это просто имя ключа, а не фактическое имя сервера в списке), затем нажмите «Создать». Пример:
 
 
-<figure markdown="">   ![](../../assets/content/keymaster_copy_key.png) </figure>
+<figure class="image image_resized" style="width:44.84%;" markdown="">![](../../assets/content/keymaster_server_name.png)</figure>
 
-### **3. Installation**
+В конечном итоге это должно выглядеть примерно так:
 
-The BeamMP-Server is available for Windows and Linux. The next two sections are dedicated to Windows and Linux each. 
 
-#### 3.a. Installation on Windows
+<figure markdown="">![](../../assets/content/keymaster_key_done.png)</figure>
 
-For the Linux installation, see the next step.
+#### 2.4 Копирование ключа
 
-Please ensure you have port-forwarded before attempting to host a server at home! Without you ports being forwarded, you cannot host a server to the public!
+Теперь скопируйте текст в поле «Ключ», в этом примере это `3173a2e-6az0-4542-a3p0-ddqq5ff95558` и сохраните его для следующего шага. Вы можете сделать это, щелкнув по буферу обмена справа от ключа:
+
+
+<figure markdown="">![](../../assets/content/keymaster_copy_key.png)</figure>
+
+### **3. Установка**
+
+BeamMP-Server доступен для Windows и Linux. Следующие два раздела посвящены Windows и Linux.
+
+#### 3.а. Установка на Windows
+
+Для установки Linux см. следующий шаг.
+
+Пожалуйста, убедитесь, что у вас перенаправлены порты, прежде чем пытаться разместить сервер дома! Без перенаправления портов вы не сможете разместить сервер для общественности!
 
 1. Для запуска сервера убедитесь, что у вас установлены [Visual C++ Redistributables](https://aka.ms/vs/17/release/vc_redist.x64.exe).
 2. Загрузите исполняемый файл сервера с [beammp.com](https://www.beammp.com/). У вас должен получиться исполняемый файл, который называется примерно так: `BeamMP-Server.exe`.
 3. После загрузки создайте где-нибудь папку и поместите туда `BeamMP-Server.exe`. Это то место, где будет находиться ваш сервер.
 4. Запустите сервер один раз, дважды щелкнув по нему. Это сгенерирует все необходимые файлы для вас, как только вы увидите текст, вы можете закрыть его и перейти к следующему шагу. Вы должны увидеть файл `ServerConfig.toml` рядом с вашим `BeamMP-Server.exe`.
-5. (optional) For quick access in the future you can easily create a desktop shortcut to `BeamMP-Server.exe` using **[Right click]** &gt; **Send to** &gt; **Desktop (create shortcut).**
+5. (необязательно) Для быстрого доступа в будущем вы можете легко создать ярлык на рабочем столе для `BeamMP-Server.exe` используя **[Щелкните правой кнопкой мыши]** &gt; **Отправить на** &gt; **Рабочий стол (создать ярлык).**
 
 Теперь перейдите к шагу [4. Конфигурация](#4-configuration).
 
-#### 3.b. Installation on Linux
+#### 3.б. Установка на Linux
 
-##### Using our build (recommended)
+##### Использование нашей сборки (рекомендуется)
 
 This step will work on all distributions we provide binaries for [here](https://github.com/BeamMP/BeamMP-Server/releases/latest). If you're on a different distribution or architecture, refer to the "Building from source” step below.
 
@@ -145,24 +145,24 @@ This step will work on all distributions we provide binaries for [here](https://
 4. После загрузки вы должны увидеть один файл с именем `BeamMP-Server-xxx`, среди прочих, которые вы можете пока проигнорировать. Создайте где-нибудь папку и поместите туда `BeamMP-Server-xxx`. Это то место, где будет находиться ваш сервер.
 5. Откройте терминал, перейдите в папку, в которую вы поместили `BeamMP-Server-xxx`, и выполните `chmod +x BeamMP-Server-xxx`. Это гарантирует, что у вас есть разрешения на его запуск.
 6. Запустите сервер один раз, запустив его с помощью `./BeamMP-Server-xxx`. Это сгенерирует все необходимые файлы для вас, как только вы увидите текст, вы можете закрыть его и перейти к следующему шагу. Вы должны увидеть файл `ServerConfig.toml` рядом с вашим `BeamMP-Server-xxx`.
-7. (optional) It is heavily recommended to set up a user called `beammpserver` (or similar), as we do NOT recommend running the server as root, sudo or with your personal user account. You should then take steps to make sure that you start the server as this user only.
+7. (необязательно) Настоятельно рекомендуется настроить пользователя с именем `beammpserver` (или похожим), поскольку мы НЕ рекомендуем запускать сервер как root, sudo или с вашей личной учетной записью пользователя. Затем вам следует предпринять шаги, чтобы убедиться, что вы запускаете сервер только как этот пользователь.
 
-Now proceed to step "4. Configuration".
+Теперь перейдите к шагу «4. Конфигурация».
 
-##### Building from source
+##### Сборка из источника
 
 Другие дистрибутивы в дополнение к тем, которые уже имеют [здесь](https://github.com/BeamMP/BeamMP-Server/releases/latest) двоичный файл, вероятно, тоже будут работать, но официально не поддерживаются. Если вы хотите собрать его самостоятельно, вы можете сделать это, загрузив исходный код на нашем [GitHub](https://github.com/BeamMP/BeamMP-Server), руководство можно найти [здесь](https://github.com/BeamMP/BeamMP-Server#build-instructions).
 
 В конце обязательно запустите свой сервер один раз с помощью `./BeamMP-Server`, а затем переходите к следующему шагу.
 
-### **4. Configuration**
+### **4. Конфигурация**
 
-Now that you ran the server once, it should have created some files and probably uttered an error or two. This is because we are not yet done. Your folder should have these files:
+Теперь, когда вы запустили сервер один раз, он должен был создать некоторые файлы и, вероятно, выдать одну или две ошибки. Это потому, что мы еще не закончили. В вашей папке должны быть эти файлы:
 
 
-<figure markdown="">   ![](../../assets/content/after-running-once.png) </figure>
+<figure markdown="">![](../../assets/content/after-running-once.png)</figure>
 
-They are called “ServerConfig.toml”, “Server.log” and “BeamMP-Server.exe”! (Depending on your settings, you might not see the [.toml] [.log] [.exe] extentions)
+Они называются «ServerConfig.toml», «Server.log» и «BeamMP-Server.exe»! (В зависимости от ваших настроек вы можете не увидеть расширения [.toml] [.log] [.exe])
 
 Откройте `ServerConfig.toml` с помощью текстового редактора, например `Notepad`. Это можно сделать с помощью [Правый клик] → «Открыть с помощью…» и выбора текстового редактора.
 
@@ -187,7 +187,7 @@ Description = "Total Random Beam MP Server"
 ResourceFolder = "Resources"
 ```
 
-!!! info
+!!! информация
 
 ```
   This is your configuration file. It uses a format called TOML. Refer to the [Server Maintenance](server-maintenance.md) section for more info on this file and the variables.
@@ -196,7 +196,7 @@ ResourceFolder = "Resources"
 
 For now, we only care about the `AuthKey` field. Between the quotes `''`, you want to paste in your AuthKey you copied in the first step.
 
-For our example key, it should then look like this:
+Для нашего примера ключ должен выглядеть следующим образом:
 
 ```TOML
 AuthKey = '3173a2e-6az0-4542-a3p0-ddqq5ff95558'
@@ -206,13 +206,13 @@ Give your server a name, too, in the `Name` field. You can format this with colo
 
 Если вы выбрали другой **порт**, отличный от **30814**, обязательно замените его здесь в разделе `Port`.
 
-### **5. Validation**
+### **5. Проверка**
 
 Теперь снова запустите сервер и посмотрите, выдает ли он еще сообщения `[ERROR]` или `[WARN]`. Теперь сервер должен оставаться открытым. В следующих шагах (6.) ниже вы можете узнать, как присоединиться к серверу.
 
 ---
 
-#### 5.1 How to add mods to your server
+#### 5.1 Как добавить моды на свой сервер
 
 Моды транспортных средств и моды карт устанавливаются по-разному, но оба требуют, чтобы вы поместили их в папку вашего сервера (`Resources/Client`). Просто перетащите любой мод, который вы хотите добавить, в эту папку.
 
@@ -223,11 +223,11 @@ Should you receive a "done" or "start" message when trying to join your server a
 Mod incompatibilities can also occur between 2 or more mods. If you have client mods installed, check [this guide](../../FAQ/How-to-deactivate-mods.md) about removing mods from your game.
 ```
 
-#### 5.2 General Mods
+#### 5.2 Общие моды
 
 If you only wanted to add modded vehicles, you simply put the zip file of the mod in the `Resources/Client` folder. They will automatically be downloaded by anyone who joins your server.
 
-#### 5.3 Maps
+#### 5.3 Карты
 
 Все стандартные карты (карты, которые не являются модами) работают сразу «из коробки» и не требуют установки. Вам нужно лишь изменить параметр `Map` в файле `ServerConfig.toml` на любое из [этих](server-maintenance.md#all-vanilla-maps-names). Для любых других, модифицированных карт, сделайте следующее:
 
@@ -239,27 +239,27 @@ If you only wanted to add modded vehicles, you simply put the zip file of the mo
 Map = '/levels/myawesomedriftmap2021/info.json'
 ```
 
-Now, when someone joins your server, it should download the map automatically and work as expected. 
+Теперь, когда кто-то присоединится к вашему серверу, он должен автоматически загрузить карту и работать так, как и ожидалось.
 
 **Если это НЕ работает**, установите карту в одиночную игру BeamNG.drive, запустите ее и войдите в карту. Затем откройте консоль, нажав клавишу `~` (*тильда*) (если у вас не американская раскладка клавиатуры, посмотрите на действие **Toggle System Console** в меню **Options &gt; Controls &gt; Bindings** в разделе **General Debug**), и запустите `print(getMissionFilename())`. Это должно показать вам имя для использования.
 
-That's it! Your modded map should now be available to join!
+Вот и все! Ваша модифицированная карта теперь должна быть доступна для присоединения!
 
-### **6. How to join your server**
+### **6. Как присоединиться к вашему серверу**
 
-How you and other players can join your server.
+Как вы и другие игроки можете присоединиться к вашему серверу.
 
-#### 6.a. Joining your own server (both private and public)
+#### 6.a. Присоединение к собственному серверу (как частному, так и публичному)
 
-If your server is hosted on the same PC as the game runs on, you must join your server by direct connecting, to do this, click the **Direct Connect Tab** on the left from the server list. Leave the default info in there (should be 127.0.0.1 and corresponding port) then hit connect.
+Если ваш сервер размещен на том же ПК, на котором работает игра, вы должны присоединиться к серверу с помощью прямого подключения, для этого нажмите **вкладку Direct Connect** слева от списка серверов. Оставьте там информацию по умолчанию (должно быть 127.0.0.1 и соответствующий порт), затем нажмите Connect.
 
-If your server is hosted on another PC in your local network, you must find the local IP of that machine and direct connect using this local IP.
+Если ваш сервер размещен на другом ПК в вашей локальной сети, вам необходимо найти локальный IP-адрес этой машины и напрямую подключиться, используя этот локальный IP-адрес.
 
-If your server is hosted outside of your house (e.g. VPS) you must find the [public IP](https://whatismyipaddress.com/) of that machine and direct connect that way.
+Если ваш сервер размещен за пределами вашего дома (например, VPS), вам необходимо найти [публичный IP-адрес](https://whatismyipaddress.com/) этой машины и подключиться напрямую через него.
 
 #### 6.b. Other people joining your private server
 
-You have to give other users the public IP Address of your Server. However, be careful sharing your public IP address with strangers! To join your private server the players must go to the **Direct Connect Tab** in BeamMP, then type your IP and Port.
+Вам необходимо предоставить другим пользователям публичный IP-адрес вашего сервера. Однако будьте осторожны, сообщая свой публичный IP-адрес незнакомцам! Чтобы присоединиться к вашему частному серверу, игроки должны перейти на **вкладку Direct Connect** в BeamMP, затем ввести свой IP и порт.
 
 #### 6.c. Other people joining your public server
 
@@ -279,7 +279,7 @@ You have to give other users the public IP Address of your Server. However, be c
   <input type="submit" value="CheckBeamMP">
 </form>
 
-!!! warning "I want to use a VPN such as RadminVPN, Hamachi, or similar."
+!!! предупреждение «Я хочу использовать VPN, например RadminVPN, Hamachi или аналогичный».
 
 ```
 BeamMP не поддерживает эти VPN, так как они часто вызывают проблемы. Одна из этих проблем — непереадресация трафика UDP. Чтобы решить эту проблему, обратитесь к разделу 1.
@@ -290,6 +290,6 @@ BeamMP не поддерживает эти VPN, так как они часто
 Разработчики этих приложений должны обеспечить поддержку конкретных вариантов использования, таких как BeamMP-Server.
 ```
 
-## Still facing issues?
+## Все еще сталкиваетесь с проблемами?
 
 Откройте тему на [форуме](https://forum.beammp.com) или на нашем [сервере Discord](https://discord.gg/beammp) в канале `#support`.
