@@ -29,20 +29,20 @@
 !!! информация
 
 ```
-If you are on a VPS (Virtual Private Server), Rootserver, or plan on hosting this server locally (with players in the same house as you), you can skip this step.
-This step is necessary if you want someone **outside** of your household to join your home-hosted server (outside of your local network).
+Если вы используете VPS (виртуальный частный сервер), корневой сервер или планируете разместить этот сервер локально (с игроками в одном доме с вами), вы можете пропустить этот шаг.
+Этот шаг необходим, если вы хотите, чтобы кто-то **вне** вашего домохозяйства присоединился к вашему домашнему серверу (за пределами вашей локальной сети).
 
-!!! danger ":material-scale-balance: DISCLAIMER:"
+!!! опасность ":material-scale-balance: ОТКАЗ ОТ ОТВЕТСТВЕННОСТИ:"
 
-    **Port forwarding is a risk**.
+**Переадресация портов — это риск**.
 
-    By port forwarding, you understand the risks of opening up ports on your home network to the public and therefore void the right to hold BeamMP accountable for **any and all** damages that may happen to you or your household.
+Переадресуя порты, вы осознаете риски открытия портов в вашей домашней сети для публики и, следовательно, лишаете себя права привлекать BeamMP к ответственности за **любой** ущерб, который может быть причинен вам или вашему домохозяйству.
 
-    We take no responsibility for any content on any externally linked services or websites.
+Мы не несем ответственности за какой-либо контент на любых внешних связанных сервисах или веб-сайтах.
 
-It is therefore recommended to host a server with one of our partnered services!
+Поэтому рекомендуется разместить сервер на одном из наших партнерских сервисов!
 
-*Please see [this guide on how to port forward](port-forwarding.md)*
+*Пожалуйста, ознакомьтесь с [этим руководством по переадресации портов](port-forwarding.md)*
 ```
 
 #### Партнерские услуги хостинга (платные):
@@ -58,7 +58,7 @@ It is therefore recommended to host a server with one of our partnered services!
 - [BisectHosting](https://www.bisecthosting.com/beammp-server-hosting)
 - [Хостинг Four Seasons](https://fourseasonshosting.com)
 - [Vertuo Хостинг](https://vertuohosting.com)
-- [Winheberg](https://winheberg.fr/offres/gaming/beammp?lang=en)
+- [Винхеберг](https://winheberg.fr/offres/gaming/beammp?lang=en)
 - [Ваббанод](https://wabbanode.com/partner/beammp)
 - [Айcлайн Хостинг](https://iceline-hosting.com/games/beammp)
 
@@ -216,11 +216,11 @@ AuthKey = '3173a2e-6az0-4542-a3p0-ddqq5ff95558'
 
 Моды транспортных средств и моды карт устанавливаются по-разному, но оба требуют, чтобы вы поместили их в папку вашего сервера (`Resources/Client`). Просто перетащите любой мод, который вы хотите добавить, в эту папку.
 
-!!! warning
+!!! предупреждение
 
 ```
-Should you receive a "done" or "start" message when trying to join your server after adding mods, you likely added an incompatible or broken mod to your server.
-Mod incompatibilities can also occur between 2 or more mods. If you have client mods installed, check [this guide](../../FAQ/How-to-deactivate-mods.md) about removing mods from your game.
+Если вы получили сообщение «Готово» или «Начало» при попытке присоединиться к серверу после добавления модов, скорее всего, вы добавили на сервер несовместимый или сломанный мод.
+Несовместимость модов может также возникнуть между 2 или более модами. Если у вас установлены клиентские моды, проверьте [это руководство](../../FAQ/How-to-deactivate-mods.md) об удалении модов из вашей игры.
 ```
 
 #### 5.2 Общие моды
