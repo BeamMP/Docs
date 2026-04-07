@@ -19,7 +19,7 @@ hide:
 
 ## Для игроков
 
-New to BeamMP? Check out our [Getting Started](../game/getting-started.md) page to help you hit the road running and make the most out of your multiplayer adventures. For general questions and issues please check out the [Players FAQ](../FAQ/player-faq.md).
+Впервые в BeamMP? Ознакомьтесь с нашей страницей [Начало работы](../game/getting-started.md), которая поможет вам быстро начать и получить максимум от игры по сети. По общим вопросам и проблемам, пожалуйста, ознакомьтесь с [Часто задаваемыми вопросами игроков](../FAQ/player-faq.md).
 
 ## Для владельцев серверов
 
