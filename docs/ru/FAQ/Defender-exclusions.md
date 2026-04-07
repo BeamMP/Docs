@@ -14,38 +14,38 @@
     Мы не несём ответственности за любой контент, размещённый на внешних сервисах или сайтах, на которые ведут ссылки.
 ```
 
-## 1. Defender Firewall exclusion for the BeamMP-Launcher.
+## 1. Исключение для BeamMP-Launcher в брандмауэре Защитника.
 
 1. Откройте `Windows Defender Firewall with advanced setting`.
 2. В окне нажмите `Inbound`, чтобы открыть вкладку исключений для входящих подключений.
 3. Нажмите `Create new rule` в правом верхнем углу, чтобы создать новое исключение.
 4. Выберите `Program`, чтобы создать исключение для конкретной программы.
-5. Enter the full qualified path towards the `BeamMP-Launcher.exe`. The default would be `%appdata%\BeamMP-Launcher\BeamMP-Launcher.exe` (without quotes).
+5. Введите полный путь к файлу `BeamMP-Launcher.exe`. По умолчанию это `%appdata%\BeamMP-Launcher\BeamMP-Launcher.exe` (без кавычек).
 6. Обязательно разрешите подключение
 7. Дайте исключению имя (например, «BeamMP-Launcher») и сохраните его.
 8. Перезагрузите компьютер.
 
-## 1.1 Defender Firewwall exclusion for the BeamMP-Server.
+## 1.1 Исключение сервера BeamMP из списка блокировки брандмауэра Защитника.
 
-1. Open the `Windows Defender Firewall with advanced setting`.
-2. In the Window, click `Inbound` to open the inbound exclusions tab.
-3. Click `Create new rule` in the top right to create a new exclusion.
-4. Select `Port` to create a program specific exclusion.
-5. Enter the same port as in the ServerConfig.toml.
-6. Enter the full qualified path towards the `BeamMP-Server.exe`. The file is located whereever you placed it after downloading it.
-7. Make sure to allow the connection
-8. Give the exclusion a name (e.g. "BeamMP-Server") and save it.
+1. Откройте `Windows Defender Firewall with advanced setting`.
+2. В окне нажмите `Inbound`, чтобы открыть вкладку «Исключения для входящих».
+3. Нажмите `Create new rule` в правом верхнем углу, чтобы создать новое исключение.
+4. Выберите`Port` чтобы создать исключение для конкретной программы.
+5. Укажите тот же порт, что и в ServerConfig.toml.
+6. Введите полный путь к файлу `BeamMP-Server.exe`. Файл находится в той папке, в которую вы его поместили после загрузки.
+7. Убедитесь, что вы разрешили подключения
+8. Дайте имя исключению (прим. "BeamMP-Server") и сохраните его.
 9. Перезагрузите компьютер.
 
-## 2. Defender Antivirus exclsuion for the BeamMP-Launcher/Server.
+## 2. Исключение BeamMP-Launcher/Server из списка мониторинга Антивируса Защитника.
 
 1. Откройте приложение `Windows Security`.
 2. Нажмите на первый пункт `virus and threat protection`.
 3. Нажмите `Manage settings` в разделе «Параметры защиты от вирусов и угроз».
 4. Прокрутите страницу вниз, чтобы перейти на вкладку `Exclusions`.
 5. Там нажмите «Добавить исключение» и выберите `process`.
-6. Enter `BeamMP-Launcher.exe` or `BeamMP-Server.exe`into the field and save it.
-7. Restart your PC.
+6. Введите `BeamMP-Launcher.exe` или `BeamMP-Server.exe` в поле и сохраните.
+7. Перезагрузите компьютер.
 
 ## Все еще сталкиваетесь с проблемами?
 
