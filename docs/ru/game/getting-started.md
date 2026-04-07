@@ -39,7 +39,7 @@ To bypass this warning, click 'More info', then click 'Run anyway'.
 
 В настоящее время вам необходимо самостоятельно собрать Launcher. Для этого вам необходимо базовое понимание того, как собрать приложение.
 
-Make sure you have basic development tools installed, often found in packages, for example:
+Убедитесь, что у вас установлены базовые инструменты разработки, которые обычно входят в пакеты, например:
 
 - Debian/Ubuntu: `sudo apt install build-essential`
 - Fedora: `sudo dnf install cmake gcc gcc-c++ make perl perl-IPC-Cmd perl-FindBin perl-File-Compare perl-File-Copy kernel-headers kernel-devel`
@@ -47,7 +47,7 @@ Make sure you have basic development tools installed, often found in packages, f
 - openSUSE: `zypper in -t pattern devel-basis`
 - SteamOS (Arch): `sudo pacman -S base-devel linux-api-headers glibc libconfig` (Вам также необходимо выполнить команду `sudo steamos-readonly disable` , но не забудьте включить ее снова после установки пакетов)
 
-Clone `vcpkg`, bootstrap it and add it to PATH
+Склонируйте `vcpkg`, выполните его начальную сборку (bootstrap) и добавьте в PATH
 
 1.
 
@@ -68,11 +68,11 @@ export VCPKG_ROOT="$(pwd)/vcpkg"
 export PATH=$VCPKG_ROOT:$PATH
 ```
 
-Clone the BeamMP-Launcher Repository to your system using `git`, for example: `git clone https://github.com/BeamMP/BeamMP-Launcher.git` [Additional information about cloning a GitHub Repo](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
+Клонируйте репозиторий BeamMP-Launcher в свою систему с помощью `git`, например: `git clone https://github.com/BeamMP/BeamMP-Launcher.git` [Дополнительная информация о клонировании репозитория GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
 
-Checkout the tag that was used for the [latest release](https://github.com/BeamMP/BeamMP-Launcher/releases/latest). For example, if `v2.6.4` is used in the latest release, then do `git checkout v2.6.4`
+Переключитесь на тег, который использовался для [последнего релиза](https://github.com/BeamMP/BeamMP-Launcher/releases/latest). Например, если в последнем релизе использовался `v2.6.4`, выполните команду `git checkout v2.6.4`
 
-If you've used the example clone command we provided, you can use `cd BeamMP-Launcher` to go to the project's root directory.
+Если вы использовали пример команды клонирования, который мы предоставили, вы можете использовать `cd BeamMP-Launcher`, чтобы перейти в корневой каталог проекта.
 
 В корневом каталоге проекта,
 
@@ -102,7 +102,7 @@ cmake --build bin --parallel
 
 !!!note "Fedora Users" If vcpkg fails during OpenSSL compilation with kernel headers errors, ensure all dependencies are installed: `bash sudo dnf install kernel-headers kernel-devel gcc gcc-c++ make perl ` Then clean the vcpkg cache: `bash rm -rf $VCPKG_ROOT/buildtrees/openssl ` And retry the cmake configuration command.
 
-Move the finished application out of the `/bin` folder into its own folder and run it from there:
+Переместите готовое приложение из папки `/bin` в отдельную папку и запустите его оттуда:
 
 ```bash
 mkdir -p ~/beammp-launcher
@@ -111,7 +111,7 @@ cd ~/beammp-launcher
 ./BeamMP-Launcher
 ```
 
-The native Linux BeamMP-Launcher will start and use native Linux BeamNG.drive
+Нативный Linux-ланчер BeamMP запустится и будет использовать нативную версию BeamNG.drive для Linux
 
 ### **2c. Использование beamNG.drive с Proton**
 
@@ -123,15 +123,15 @@ The native Linux BeamMP-Launcher will start and use native Linux BeamNG.drive
 
 Это можно сделать, например, создав символическую ссылку
 
-- Note the Linux-BeamNG.drive userfolder location (this is usually found in `~/.local/share/BeamNG.drive`) and rename it, for example to `BeamNG.drive_old`
-- Note the Proton-BeamNG.drive userfolder location (this is usually found in `~/.local/share/Steam/steamapps/compatdata/284160/pfx/drive_c/users/steamuser/AppData/Local/BeamNG.drive`)
+- Запомните местоположение пользовательской папки Linux-BeamNG.drive (обычно она находится в `~/.local/share/BeamNG.drive`) и переименуйте ее, например, в `BeamNG.drive_old`
+- Обратите внимание на расположение пользовательской папки Proton-BeamNG.drive (обычно она находится в `~/.local/share/Steam/steamapps/compatdata/284160/pfx/drive_c/users/steamuser/AppData/Local/BeamNG.drive`)
 - Создайте символическую ссылку между обеими папками пользователей `ln -s ~/.local/share/Steam/steamapps/compatdata/284160/pfx/drive_c/users/steamuser/AppData/Local/BeamNG.drive ~/.local/share`
 
 После установки символической ссылки между пользовательскими папками и скомпилированным лаунчером вы можете заставить Steam запустить игру через Proton, при этом лаунчер автоматически запустится со следующей заменой параметров запуска для оригинальной игры, которые можно найти в окне «Свойства» игры в ее записи в Steam:
 
 - `~/BeamMP/BeamMP-Launcher --no-launch & %command% ; killall BeamMP-Launcher`
 
-Note that this assumes you put the launcher's binary you compiled earlier into `/home/user/BeamMP/`, so change it to match where you put the finished binary, and you will need to re-compile the launcher with the correct git branch each time a launcher update is released.
+Обратите внимание, что это предполагает, что вы поместили скомпилированный ранее двоичный файл лаунчера в `/home/user/BeamMP/`, поэтому измените его так, чтобы он соответствовал месту, куда вы поместили готовый двоичный файл, и вам придется перекомпилировать лаунчер с правильной веткой git каждый раз при выпуске обновления лаунчера.
 
 !!! совет "Добавление шрифта эмодзи для получения эмодзи в тексте"
 
@@ -147,9 +147,9 @@ This can be done for example by adding the [Linux-port of the Windows Segoe-UI e
 
 1. Once you have started the launcher, you should see a terminal window. Shortly after, the standard BeamNG launcher should start. **Do not** close the terminal window.
 2. In the BeamNG.drive main menu, click the `Repository` button and check to make sure that `multiplayerbeammp` is **the only** enabled mod.
-3. Return to the main menu, click on 'More..' and the 'Multiplayer' button to start multiplayer.
-4. You will be prompted to login or play as a guest (not all servers will allow guests). You can create an account on our [forum](https://forum.beammp.com) and then login to BeamMP with the same credentials.
-5. Select any server you like, and press `Connect`. Enjoy!
+3. Выйдите в главное меню, нажмите «Ещё..», затем кнопку «Мультиплеер», чтобы начать игру по сети.
+4. Вам будет предложено войти или играть в качестве гостя (не все серверы допускают гостей). Вы можете создать учетную запись на нашем [форуме](https://forum.beammp.com), а затем войти в BeamMP с теми же учетными данными.
+5. Выберите любой понравившийся вам сервер и нажмите `Connect`. Наслаждайтесь!
 
 ---
 
@@ -158,6 +158,6 @@ This can be done for example by adding the [Linux-port of the Windows Segoe-UI e
 - Нативный linux BeamMP-Launcher в настоящее время может подключиться к серверу только один раз, после отключения вам нужно перезапустить лаунчер. Вы можете сделать это, не закрывая игру между
 - Если вы не видите кнопку «Мультиплеер». Убедитесь, что мод BeamMP присутствует и активирован в «Менеджере модов», затем попробуйте нажать CTRL + L.
 - VPN любого типа могут вызывать проблемы с подключением.
-- If the Launcher reports any errors, read the [FAQ](https://forum.beammp.com/c/faq/35).
+- Если Launcher сообщает о каких-либо ошибках, прочтите [FAQ](https://forum.beammp.com/c/faq/35).
 
-Should you need further help with installation, you are welcome to create a post on our [forum](https://forum.beammp.com) or ask on our [Discord server](https://discord.gg/beammp).
+Если вам потребуется дополнительная помощь с установкой, вы можете создать сообщение на нашем [форуме](https://forum.beammp.com) или задать вопрос на нашем [сервере Discord](https://discord.gg/beammp).
