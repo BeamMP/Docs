@@ -1,5 +1,3 @@
-# BeamMP Client-Side API Documentation
-
 ## Table of Contents
 
 ### MPVehicleGE
