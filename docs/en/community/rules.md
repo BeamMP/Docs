@@ -43,6 +43,7 @@ hide:
 13.   Do not explain and/or send links on how to pirate, acquire illegal copies of software, hacking accounts (beaming), or paid mods.
 14.   Do not advertise non-BeamNG/BeamMP content. Sending Media of your own channel is only allowed in the dedicated [media channel](https://discord.com/channels/601558901657305098/705427325646274680).
 15.   Follow the instructions of Staff members. If you think a staff member is abusing their power, direct message their lead or project management.
+16.   Do not ping random Users, Staff members or Teams (roles) for no reason or unrelated matters.
 
 ## How to appeal actions against you:
 
