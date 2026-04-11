@@ -3,38 +3,50 @@
 !!! информация
 
 ```
-Before tampering with the firewall, make sure that your network within the windows networking settings is set to private (assuming you are in a private network).
+Перед изменением настроек брандмауэра убедитесь, что ваша сеть в параметрах Windows настроена как частная (при условии, что вы действительно находитесь в частной сети).
 
 !!! danger ":material-scale-balance: DISCLAIMER:"
 
-    **Firewall / Defender exclsuions are a risk**.
+    **Исключения в Firewall / Defender представляют собой риск**.
 
-    By creating exclsuions, you understand the risks of allowing programs on your PC and opening up ports on your home network to the public and therefore void the right to hold BeamMP accountable for **any and all** damages that may happen to you or your household.
+    Создавая исключения, вы осознаёте риски, связанные с разрешением программам на вашем ПК и открытием портов вашей домашней сети для публичного доступа, и, следовательно, лишаете себя права привлекать BeamMP к ответственности за **любые** возможные убытки или ущерб, которые могут возникнуть у вас или вашего домохозяйства.
 
-    We take no responsibility for any content on any externally linked services or websites.
+    Мы не несём ответственности за любой контент, размещённый на внешних сервисах или сайтах, на которые ведут ссылки.
 ```
 
-## 1. Исключение брандмауэра для BeamMP-Launcher.
+## 1. Исключение для BeamMP-Launcher в брандмауэре Защитника.
 
-1. Откройте `Windows Defender Firewall with advanced setting` .
-2. В окне нажмите `Inbound` , чтобы открыть вкладку исключений для входящих подключений.
+1. Откройте `Windows Defender Firewall with advanced setting`.
+2. В окне нажмите `Inbound`, чтобы открыть вкладку исключений для входящих подключений.
 3. Нажмите `Create new rule` в правом верхнем углу, чтобы создать новое исключение.
-4. Выберите `Program` , чтобы создать исключение для конкретной программы.
-5. Введите полный путь к `BeamMP-Launcher.exe` . По умолчанию это будет `%appdata%\BeamMP-Launcher\BeamMP-Launcher.exe` без кавычек.
+4. Выберите `Program`, чтобы создать исключение для конкретной программы.
+5. Введите полный путь к файлу `BeamMP-Launcher.exe`. По умолчанию это `%appdata%\BeamMP-Launcher\BeamMP-Launcher.exe` (без кавычек).
 6. Обязательно разрешите подключение
 7. Дайте исключению имя (например, «BeamMP-Launcher») и сохраните его.
 8. Перезагрузите компьютер.
 
-## 2. Исключение антивируса для BeamMP-Launcher.
+## 1.1 Исключение сервера BeamMP из списка блокировки брандмауэра Защитника.
 
-1. Откройте приложение `Windows Security` .
-2. Нажмите на первый пункт `virus and threat protection` .
+1. Откройте `Windows Defender Firewall with advanced setting`.
+2. В окне нажмите `Inbound`, чтобы открыть вкладку «Исключения для входящих».
+3. Нажмите `Create new rule` в правом верхнем углу, чтобы создать новое исключение.
+4. Выберите`Port` чтобы создать исключение для конкретной программы.
+5. Укажите тот же порт, что и в ServerConfig.toml.
+6. Введите полный путь к файлу `BeamMP-Server.exe`. Файл находится в той папке, в которую вы его поместили после загрузки.
+7. Убедитесь, что вы разрешили подключения
+8. Дайте имя исключению (прим. "BeamMP-Server") и сохраните его.
+9. Перезагрузите компьютер.
+
+## 2. Исключение BeamMP-Launcher/Server из списка мониторинга Антивируса Защитника.
+
+1. Откройте приложение `Windows Security`.
+2. Нажмите на первый пункт `virus and threat protection`.
 3. Нажмите `Manage settings` в разделе «Параметры защиты от вирусов и угроз».
-4. Прокрутите страницу вниз, чтобы перейти на вкладку `Exclusions` .
-5. Там нажмите «Добавить исключение» и выберите `process` .
-6. Введите `BeamMP-Launcher.exe` в поле и сохраните его.
+4. Прокрутите страницу вниз, чтобы перейти на вкладку `Exclusions`.
+5. Там нажмите «Добавить исключение» и выберите `process`.
+6. Введите `BeamMP-Launcher.exe` или `BeamMP-Server.exe` в поле и сохраните.
 7. Перезагрузите компьютер.
 
 ## Все еще сталкиваетесь с проблемами?
 
-Откройте тему на [форуме](https://forum.beammp.com) или на нашем [сервере Discord](https://discord.gg/beammp) в канале `#support` .
+Откройте тему на [форуме](https://forum.beammp.com) или на нашем [сервере Discord](https://discord.gg/beammp) в канале `#support`.

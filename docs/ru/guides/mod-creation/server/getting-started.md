@@ -21,7 +21,7 @@ Resources/
          └─ further.lua
 ```
 
-Серверный lua — это необходимый минимум, если вы хотите добавлять пользовательские события, вам также понадобится как минимум клиентский lua, а также modscript.lua.
+Серверный lua — это необходимый минимум, если вы хотите добавлять пользовательские события, вам также понадобится как минимум клиентский lua, а также modscript.lua
 
 Папка Server должна содержать подпапки, по одной для каждого серверного мода. Хорошей практикой является наличие только одного основного файла lua и добавление дополнительных файлов lua в подпапки. Однако вам не обязательно это делать, сервер загрузит файлы lua в алфавитном порядке, если их несколько.
 
@@ -62,11 +62,11 @@ function onPlayerAuth(playerName, playerRole, isGuest, identifiers)
 end
 ```
 
-Дополнительную информацию о серверных функциях, предоставляемых BeamMP, можно найти в [последнем справочнике по серверу.](../../../scripting/server/latest-server-reference.md)
+Дополнительную информацию о серверных функциях, предоставляемых BeamMP, можно найти в [последнем справочнике по серверу](../../../scripting/server/latest-server-reference.md)
 
 ## Клиентская часть lua
 
-Это в значительной степени соответствует [расширениям BeamNG.](https://documentation.beamng.com/modding/programming/extensions/)
+Это в значительной степени соответствует [расширениям BeamNG](https://documentation.beamng.com/modding/programming/extensions/)
 
 ```lua
 local M = {}
@@ -81,7 +81,7 @@ return M
 
 Выводит на консоль информацию о том, что examplePlugin был загружен
 
-Более подробную информацию см. в [документации beamNG по отладочным распечаткам.](https://documentation.beamng.com/modding/programming/debugging/#a-add-a-log)
+Более подробную информацию см. в [документации BeamNG по отладочным распечаткам](https://documentation.beamng.com/modding/programming/debugging/#a-add-a-log)
 
 ## modScript.lua
 
@@ -92,7 +92,7 @@ load('examplePlugin')
 setExtensionUnloadMode('examplePlugin', 'manual')
 ```
 
-Вы можете добавить вывод журнала, если хотите видеть в журналах, когда ваш modScript обрабатывается BeamNG.
+Вы можете добавить вывод журнала, если хотите видеть в журналах, когда ваш modScript обрабатывается BeamNG
 
 ```lua
 load('examplePlugin')
