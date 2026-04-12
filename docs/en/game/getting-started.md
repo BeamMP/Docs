@@ -141,7 +141,8 @@ Note that this assumes you put the launcher's binary you compiled earlier into `
 
 ### **2d. Updating the Launcher**
 
-If you already built the launcher and want to update it, enter the BeamMP-Launcher folder where the build process happened and run these:
+If you already built the launcher and want to update it:
+
 ```bash
 cd BeamMP-Launcher
 git fetch --tags
