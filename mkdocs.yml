@@ -381,6 +381,7 @@ nav:
     - Player FAQ: FAQ/player-faq.md
     - Game FAQ: FAQ/game-faq.md
     - Server FAQ: FAQ/server-faq.md
+    - Player with VPN: FAQ/player-vpn-faq.md
   - Development Guides:
     - guides/index.md
     - Development Environment Setup: guides/beammp-dev/beammp-dev.md
