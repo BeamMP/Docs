@@ -141,10 +141,15 @@ Note that this assumes you put the launcher's binary you compiled earlier into `
 
 ### **2d. Updating the Launcher**
 
-If you already build the launcher and want to update it, enter the BeamMP-Launcher folder where the build process happened and run these:
+If you already built the launcher and want to update it, enter the BeamMP-Launcher folder where the build process happened and run these:
 ```bash
 git fetch --tags
 git checkout 2.x.x
+cmake . -B bin -DCMAKE_TOOLCHAIN_FILE=$VCPKG_ROOT/scripts/buildsystems/vcpkg.cmake -DVCPKG_TARGET_TRIPLET=x64-linux
+cmake --build bin --parallel
+cp bin/BeamMP-Launcher ~/beammp-launcher/
+cd ~/beammp-launcher
+./BeamMP-Launcher
 ```
 
 
