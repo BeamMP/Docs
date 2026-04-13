@@ -43,18 +43,18 @@
 # Проверка лаунчера
 
 
-На момент создания данного FAQ, у меня не получилось воспроизвести проблему...
+На момент создания данного FAQ, у меня не получилось воспроизвести проблему... (пока-что закоментирую места где должны быть скриншоты, вернусь позже)
 ...
-![image](../../assets/content/win11-launcher-beammp-vpn-test-ru.png)
+<!-- ![image](../../assets/content/win11-launcher-beammp-vpn-test-ru.png) -->
 
 Переходите к содержанию `Рекомендации по выбору протокола`
 
 # Проверка авторизации
 
-На момент создания данного FAQ, у меня не получилось воспроизвести проблему, но мы имеем ситуацию когда backend запрашивается но не можем получить результат списка серверов
+На момент создания данного FAQ, у меня не получилось воспроизвести проблему, но мы имеем ситуацию когда backend запрашивается но не можем получить результат списка серверов (Временно закоментировал пару плейсхолдеров для скринов)
 ...
-![image](../../assets/content/win11-auth-laucher-beammp-vpn-test-ru.png)
-![image](../../assets/content/win11-auth-laucher-terminal-beammp-vpn-test-ru.png)
+<!--![image](../../assets/content/win11-auth-laucher-beammp-vpn-test-ru.png)
+![image](../../assets/content/win11-auth-laucher-terminal-beammp-vpn-test-ru.png) -->
 ![image](../../assets/content/win11-beammp-serverlist-vpn-test-ru.png)
 
 
