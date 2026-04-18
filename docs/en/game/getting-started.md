@@ -146,7 +146,8 @@ If you already built the launcher and want to update it:
 ```bash
 cd BeamMP-Launcher
 git fetch --tags
-git checkout 2.x.x
+```
+Checkout the tag that was used for the [latest release](https://github.com/BeamMP/BeamMP-Launcher/releases/latest). For example, if `v2.8.0` is used in the latest release, then do `git checkout v2.8.0`
 cmake . -B bin -DCMAKE_TOOLCHAIN_FILE=$VCPKG_ROOT/scripts/buildsystems/vcpkg.cmake -DVCPKG_TARGET_TRIPLET=x64-linux
 cmake --build bin --parallel
 cp bin/BeamMP-Launcher ~/beammp-launcher/
