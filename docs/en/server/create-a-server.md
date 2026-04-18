@@ -82,7 +82,7 @@ You will need a [Discord](https://discord.com) account for this step. This is ne
 
 #### 2.1. Accessing the keys page
 
-Login with Discord to the [Keymaster](https://beammp.com/keymaster).
+Login with Discord to the [Keymaster](https://keymaster.beammp.com).
 From the Keymaster homepage click on "Keys" on the left of the screen:
 
 <figure markdown>
