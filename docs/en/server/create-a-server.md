@@ -264,7 +264,7 @@ You have to give other users the public IP Address of your Server. However, be c
 
 To join your public server they can simply go to the server list, type the name of the server, and click connect. If you are unsure of what your server name is, it will be the name you put in the `ServerConfig.toml`.
 Make sure search filters are disabled and the Map set to "Any" if you can't find it.
-You can also check the [Keymaster](https://beammp.com/keymaster) Website for the Servers IP Address.
+You can also check the [Keymaster](https://keymaster.beammp.com/) Website for the Servers IP Address.
 
 Should you or your friends experience a "Connection Failed!" Error, check the Launcher Window for codes like 10060, 10061, 10030.
 This means you eihter have a CGNAT IPv4, or you have done something wrong during Step **1 Port Forwarding** or **1.1. Firewall**.
