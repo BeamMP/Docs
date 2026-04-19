@@ -11,6 +11,7 @@ Before joining any server, make sure you have no mods besides 'multiplayerbeammp
 If this method does not work, for example the game freezes / shows a blackscreen, or you still have issues, refer to the next option.
 
 ### 2. Removing mods from the content folders.
+If you have placed mods in the content folder, you should remove them.
 To access the Beamng.drive\content\ folder and clean the folder of any mods, open the installation location of BeamNG.drive.
 Right click the `content` folder and delete it. Proceed to verify the game files via Steam or Epic Games. This is going to download the base files again.
 
