@@ -143,6 +143,7 @@ Note that this assumes you put the launcher's binary you compiled earlier into `
 If you already built the launcher and want to update it:
 
 ```bash
+export VCPKG_ROOT="$(pwd)/vcpkg"
 cd BeamMP-Launcher
 git fetch --tags
 ```
