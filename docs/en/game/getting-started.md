@@ -138,6 +138,24 @@ Note that this assumes you put the launcher's binary you compiled earlier into `
 
     This can be done for example by adding the [Linux-port of the Windows Segoe-UI emoji font](https://github.com/mrbvrz/segoe-ui-linux)
 
+### **2d. Updating the Launcher**
+
+If you already built the launcher and want to update it:
+
+```bash
+cd BeamMP-Launcher
+git fetch --tags
+```
+Checkout the tag that was used for the [latest release](https://github.com/BeamMP/BeamMP-Launcher/releases/latest). For example, if `v2.8.0` is used in the latest release, then do `git checkout v2.8.0`
+```
+cmake . -B bin -DCMAKE_TOOLCHAIN_FILE=$VCPKG_ROOT/scripts/buildsystems/vcpkg.cmake -DVCPKG_TARGET_TRIPLET=x64-linux
+cmake --build bin --parallel
+cp bin/BeamMP-Launcher ~/beammp-launcher/
+cd ~/beammp-launcher
+./BeamMP-Launcher
+```
+
+
 ---
 
 ## **3. Using BeamMP**
