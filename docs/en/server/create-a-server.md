@@ -244,6 +244,13 @@ Now, when someone joins your server, it should download the map automatically an
 
 That's it! Your modded map should now be available to join!
 
+#### 5.4 Protecting mods from download (Paid/Private Mods)
+
+You can now protect mods! This will allow you to host a server with protected or restricted content without actually redistributing the content. 
+This is ideal for if you have what is frequently referred to as "Paid Mods" or you are a mod creator and wish to have a limited access to your latest work.
+Just run `protectmod <filename with .zip> <true/false>` in the server console to protect a mod. Users that join a server with protected mods will need to obtain the file themselves from another source such as direct from the creator or via platforms like Patreon. Once obtained they need to put it in their launcher's resources folder. 
+The launcher will inform the user about this if the file is missing.
+
 ### **6. How to join your server**
 
 How you and other players can join your server.
