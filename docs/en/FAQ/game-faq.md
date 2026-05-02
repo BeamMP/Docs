@@ -10,7 +10,7 @@ List of commonly asked questions.
 There is a full guide on how to install BeamMP on Windows, you can find it [here](https://docs.beammp.com/game/getting-started/).
 
 ---
-### **Does BeamMP work with modified versions of BeamNG?**
+### **Does BeamMP work with pirated / modified versions of BeamNG?**
 
 BeamMP will not work with pirated or outdated versions of BeamNG.drive.
 Modifications such as, but not limited to, 3rd party mods, may interfere with BeamMP. (See [How to clear mods](https://github.com/Protogen187/Docs/blob/main/docs/en/FAQ/Clearing-mods.md))
