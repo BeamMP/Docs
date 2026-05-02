@@ -35,7 +35,7 @@ hide:
 4.    The rule above includes gambling Services/Websites.
 5.    No Excessive Audio :material-information-outline:{ title="Excessively using soundboards, playing loud music or other uses of audio channels to intentionally agitate or target others is prohibited." }
 6.    No Join/Leave Spamming :material-information-outline:{ title="Most users will have sound effects enabled, do not join and leave voice-chats rapidly." }
-7.    No Badgering Others (`@'ing`) :material-information-outline:{ title="This includes asking others repeatedly for a response after being ignored or told no." }
+7.    No Badgering Others (`@'ing`). Do not ping Staff members or Teams (roles) for no reason or unrelated matters. :material-information-outline:{ title="This includes asking others repeatedly for a response after being ignored or told no." }
 8.    Keep bot commands in command specific channels.
 10.   No Role-Playing :material-information-outline:{ title="This is in place to prevent issues arising due to missing context or to prevent users from circumventing certain rules." }
 11.   Do not ask users to DM you for help. Keep all support-related topics in the designated support area on the BeamMP Discord Server.
