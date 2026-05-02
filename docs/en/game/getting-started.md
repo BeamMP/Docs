@@ -67,10 +67,9 @@ Clone the BeamMP-Launcher Repository to your system using `git`, for example:
 `git clone https://github.com/BeamMP/BeamMP-Launcher.git`
 [Additional information about cloning a GitHub Repo](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
 
-Checkout the tag that was used for the [latest release](https://github.com/BeamMP/BeamMP-Launcher/releases/latest). For example, if `v2.6.4` is used in the latest release, then do `git checkout v2.6.4`
-
-
 If you've used the example clone command we provided, you can use `cd BeamMP-Launcher` to go to the project's root directory.
+
+Checkout the tag that was used for the [latest release](https://github.com/BeamMP/BeamMP-Launcher/releases/latest). For example, if `v2.8.0` is used in the latest release, then do `git checkout v2.8.0`
 
 In the root directory of the project,
 
@@ -138,6 +137,25 @@ Note that this assumes you put the launcher's binary you compiled earlier into `
     In order to get emojis to show up in either the serverlist (As part of a servers customised name) or in the ingame chat, you need to have a font that contains emojis.
 
     This can be done for example by adding the [Linux-port of the Windows Segoe-UI emoji font](https://github.com/mrbvrz/segoe-ui-linux)
+
+### **2d. Updating the Launcher**
+
+If you already built the launcher and want to update it:
+
+```bash
+export VCPKG_ROOT="$(pwd)/vcpkg"
+cd BeamMP-Launcher
+git fetch --tags
+```
+Checkout the tag that was used for the [latest release](https://github.com/BeamMP/BeamMP-Launcher/releases/latest). For example, if `v2.8.0` is used in the latest release, then do `git checkout v2.8.0`
+```
+cmake . -B bin -DCMAKE_TOOLCHAIN_FILE=$VCPKG_ROOT/scripts/buildsystems/vcpkg.cmake -DVCPKG_TARGET_TRIPLET=x64-linux
+cmake --build bin --parallel
+cp bin/BeamMP-Launcher ~/beammp-launcher/
+cd ~/beammp-launcher
+./BeamMP-Launcher
+```
+
 
 ---
 
