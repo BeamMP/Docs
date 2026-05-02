@@ -353,6 +353,8 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
 
 nav:
   - Home: index.md
@@ -392,13 +394,16 @@ nav:
       - Introduction: beamng/dev/index.md
       - Programming:
         - UI Apps (HTML): beamng/dev/modding/ui-apps.md
-        - IMGUI Windows (Lua): beamng/dev/modding/imgui-windows.md
+        - ImGui Window Tutorial: beamng/dev/modding/imgui-window-tutorial.md
         - Lua Mods (Scripts): beamng/dev/modding/lua-mods.md
       - Content:
         - Maps: beamng/dev/content/maps.md
         - Props: beamng/dev/content/props.md
         - Vehicles: beamng/dev/content/vehicles.md
-    - Helpful Code Snippets: beamng/snippets.md
+    - Lua Code Snippets: beamng/lua-snippets.md
+    - CSS Code Snippets: beamng/css-snippets.md
+    - ImGui Code Snippets: beamng/imgui-snippets.md
+    - CEF Code Snippets: beamng/cef-snippets.md
   - Scripting Reference:
     - Mod (In-Game): scripting/mod-reference.md
     - Server: 
