@@ -123,7 +123,7 @@ plugins:
             FAQ: FAQ
             How to check for CGNAT?: Cómo comprobar si hay CGNAT?
             Where can I find my IP address?: ¿Dónde puedo encontrar mi dirección IP?
-            How to deactivate my mods?: ¿Cómo desactivar mis mods?
+            How to remove mods?: ¿Cómo se eliminan los mods?
             Manually updating the Launcher: Actualizar manualmente el Launcher
             Changing the Launcher port: Cambiar el puerto del Launcher
             Creating Exclusions (Defender): Creación de exclusiones (Defender)
@@ -168,7 +168,7 @@ plugins:
             FAQ: FAQ
             How to check for CGNAT?: Wie überprüft man auf CGNAT?
             Where can I find my IP address?: Wo finde ich meine IP Adresse?
-            How to deactivate my mods?: Wie deaktiviere ich meine Mods?
+            How to remove mods?: Wie entferne ich Mods?
             Manually updating the Launcher: Den Launcher Manuell updaten
             Changing the Launcher port: Ändern des Launcher Ports
             Creating Exclusions (Defender): Ausnahmen erstellen (Defender) 
@@ -213,7 +213,7 @@ plugins:
             FAQ: FAQ
             How to check for CGNAT?: Comment puis-je vérifier cgnat?
             Where can I find my IP address?: Où puis-je trouver mon adresse IP?
-            How to deactivate my mods?: Comment désactiver mes mods?
+            How to remove mods?: Comment supprimer des mods ?
             Manually updating the Launcher: Mise à jour manuelle du lanceur
             Changing the Launcher port: Changer le port du lanceur
             Creating Exclusions (Defender): Création d'exclusions (Defender)
@@ -258,7 +258,7 @@ plugins:
             FAQ: FAQ
             How to check for CGNAT?: Come verificare la presenza di CGNAT?
             Where can I find my IP address?: Dove posso trovare il mio indirizzo IP?
-            How to deactivate my mods?: Come disattivare le mie mod?
+            How to remove mods?: Come si rimuovono le mod?
             Manually updating the Launcher: Aggiornamento manuale del Launcher
             Changing the Launcher port: Cambiare la porta del Launcher
             Creating Exclusions (Defender): Creazione di esclusioni (Defender)
@@ -303,7 +303,7 @@ plugins:
             FAQ: FAQ
             How to check for CGNAT?: Как проверить наличие CGNAT?
             Where can I find my IP address?: Где я могу найти свой IP-адрес?
-            How to deactivate my mods?: Как деактивировать мод?
+            How to remove mods?: Как удалить моды?
             Manually updating the Launcher: Обновление лаунчера вручную
             Changing the Launcher port: Изменение порта лаунчера
             Creating Exclusions (Defender): Создание исключений (Defender)
@@ -374,7 +374,7 @@ nav:
   - FAQ:
     - How to check for CGNAT?: FAQ/How-to-check-for-CGNAT.md
     - Where can I find my IP address?: FAQ/where-to-find-my-IP.md
-    - How to deactivate my mods?: FAQ/How-to-deactivate-mods.md
+    - How to remove mods?: FAQ/Clearing-mods.md
     - Manually updating the Launcher: FAQ/Update-launcher.md
     - Changing the Launcher port: FAQ/Change-launcher-port.md
     - Creating Exclusions (Defender): FAQ/Defender-exclusions.md
