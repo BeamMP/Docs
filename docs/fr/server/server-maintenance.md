@@ -16,14 +16,23 @@ La configuration comporte une section par défaut, appelée `[General]` , qui co
 
 Key | Type de valeur | Description
 --- | --- | ---
-AuthKey | Format AuthKey `xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx` où tous les x sont des caractères alphanumériques (chiffres et lettres) | Utilisé pour identifier votre serveur auprès du backend. Vous devriez en avoir obtenu un en suivant les instructions d'installation.
+Port | 1024-65535 | Le port réseau sur lequel le serveur sera accessible. (Il doit être unique et ne pas être utilisé par un autre service sur le même hôte).
+AuthKey | Format AuthKey `xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx` où tous les x sont des caractères alphanumériques (chiffres et lettres) | Permet d'identifier un serveur de set public avec le backend.
+AllowGuests | true/false | Détermine si les invités sont autorisés à se connecter au serveur ou non.
+LogChat | true /false | Lorsque cette option est activée (true), les messages de chat sont enregistrés dans le fichier server.log.
 Debug | true /false | Si cette option est activée (true), davantage de messages seront affichés dans le journal et des informations supplémentaires seront fournies. Activez-la en cas de problème. L'activation de cette option augmentera considérablement la taille du fichier journal.
+IP | Adresse de classe locale d'une des cartes réseau connectées à l'hôte. (Par défaut : « 0.0.0.0 » ou « :: ») | Le serveur tentera de se connecter à l'adresse IP fournie. Veuillez ne pas modifier ce champ sauf si vous savez ce que vous faites. Il n'est pas nécessaire de modifier cette valeur pour que le serveur fonctionne.
 Private | true/false | Si cette option est activée (true), votre serveur n'apparaîtra pas dans la liste des serveurs. Toute personne disposant de l'adresse IP et du port corrects pourra se connecter.
-Description | Tout « texte » | Affiché comme description du serveur dans la liste des serveurs (si le serveur est public). Vous pouvez utiliser des caractères spéciaux pour le formater avec des couleurs et des styles.
+InformationPacket | true/false | Lorsque cette option est activée (true), le serveur autorisera les clients non authentifiés à obtenir les mêmes informations que celles figurant sur la liste des serveurs, mais directement via le serveur.
 Name | Tout « texte » | Affiché comme nom/titre de votre serveur dans la liste des serveurs. Vous pouvez utiliser des caractères spéciaux pour le formater avec des couleurs et des styles.
-Map | Un emplacement de carte valide, tel que `/levels/gridmap_v2/info.json` | La carte que votre serveur hébergera. Elle doit être installée soit par défaut (liste ci-dessous), soit en tant que mod de serveur.
+Tags | Voir la liste des tags autorisés ci-dessous. | Mots clés pour la recherche, par exemple : Police, Racing, etc.
 MaxCars | Tout nombre ≥ 1 | Nombre maximal de voitures par joueur. Toute voiture supplémentaire qu'un joueur tentera de faire apparaître sera supprimée instantanément.
-Port | 1024-65535 | Le port réseau sur lequel le serveur sera accessible. Pour qu'un joueur puisse se connecter directement à votre serveur, il aura besoin de votre adresse IP et de ce port.
+MaxPlayers | Tout nombre ≥ 1 | Le nombre maximal de joueurs par serveur. Cela n'a aucune incidence sur le nombre de véhicules.
+Map | Un emplacement de carte valide, tel que `/levels/gridmap_v2/info.json` | La carte que votre serveur hébergera. Elle doit être installée soit par défaut (liste ci-dessous), soit en tant que mod de serveur.
+Description | Tout « texte » | Affiché comme description du serveur dans la liste des serveurs (si le serveur est public). Vous pouvez utiliser des caractères spéciaux pour le formater avec des couleurs et des styles.
+ResourceFolder | Un chemin d'accès valide vers un dossier, tel que « D:\Server\BeamMP\Resources » | Utile pour stocker séparément le serveur et le dossier de ressources.
+ImScaredOfUpdates | true/false | Cette option permet de définir si le serveur doit se mettre à jour automatiquement ou non lorsqu'une nouvelle version est disponible.
+UpdateReminderTime | Tout nombre suivi de s, min, h, d. (30s) | Définit l'intervalle du message de rappel de mise à jour affiché dans le terminal.
 
 D'autres sections peuvent et doivent être utilisées par les plugins du serveur (API Lua à venir), comme ceci : `[MyMod]` .
 
