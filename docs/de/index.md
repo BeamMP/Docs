@@ -5,13 +5,10 @@ hide:
 
 !!! warning "Diese Seite befindet sich im Aufbau!"
 
-```
-Diese Seite steht unter aktiver Bearbeitung.
+  Diese Seite steht unter aktiver Bearbeitung.
+  Denkst du, dass du helfen könntest? Das kannst du tun, indem du auf das Editier Symbol auf der rechten Seite klickst!
+  Das trifft auch auf alle anderen Seiten zu.
 
-Denkst du, dass du helfen könntest? Das kannst du tun, indem du auf das Editier Symbol auf der rechten Seite klickst!
-
-Das trifft auch auf alle anderen Seiten zu.
-```
 
 # Willkommen bei BeamMP Docs! :tada:
 
