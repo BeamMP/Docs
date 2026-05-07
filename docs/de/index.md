@@ -30,3 +30,7 @@ Du möchtest deinen eigenen BeamMP-Server erstellen? Unsere umfassende Anleitung
 Erfahre alles Wissenswerte zur Erstellung von Ressourcen für den BeamMP-Server in unserer [Anleitung zur Ressourcenentwicklung](../guides/mod-creation/server/getting-started.md).
 
 Aufregende Updates stehen bevor, einschließlich einer brandneuen Homepage, die entwickelt wurde, um dein Browsing-Erlebnis zu verbessern. Bleib dran für weitere Neuigkeiten! :slight_smile:
+
+## Community Regeln
+
+Lies dir die [Community-Regeln](https://docs.beammp.com/community/rules/) von BeamMP durch und informiere dich darüber, wie du gegen Bans Einspruch einlegen kannst.
