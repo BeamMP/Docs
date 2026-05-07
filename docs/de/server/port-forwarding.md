@@ -2,21 +2,15 @@
 
 !!! danger ":material-scale-balance: ACHTUNG"
 
-```
-**Das weiterleiten von Ports ist ein Risiko**.
+  **Das weiterleiten von Ports ist ein Risiko**.
+  Durch die Portweiterleitung bist du dir den Risiken bewusst, die mit der Öffnung von Ports in das öffentliche Netz verbunden sind. Daher verlierst du das Recht, BeamMP für **alle** Schäden haftbar zu machen, die dir oder deinem Haushalt entstehen können.
+  Wir übernehmen keine Verantwortung für Inhalte auf extern verlinkten Diensten oder Websites.
+  <u>**Wenn du diese Anleitung nicht verstehst, ziehe die Nutzung eines unserer Hosting Partner in Betracht.**</u>
 
-Durch die Portweiterleitung bist du dir den Risiken bewusst, die mit der Öffnung von Ports in das öffentliche Netz verbunden sind. Daher verlierst du das Recht, BeamMP für **alle** Schäden haftbar zu machen, die dir oder deinem Haushalt entstehen können.
+    !!! warning "Warnung"
 
-Wir übernehmen keine Verantwortung für Inhalte auf extern verlinkten Diensten oder Websites.
+      Bitte stelle sicher, dass dein Router kein 4G/5G-exklusives Gerät ist. Wenn es sich um ein Hybridgerät handelt, wähle später in Abschnitt 3 dieser Anleitung unbedingt den kabelgebundenen Adapter aus!
 
-<u>**Wenn du diese Anleitung nicht verstehst, ziehe die Nutzung eines unserer Hosting Partner in Betracht.**</u>
-```
-
-!!! warning "Warnung"
-
-```
-Bitte stelle sicher, dass dein Router kein 4G/5G-exklusives Gerät ist. Wenn es sich um ein Hybridgerät handelt, wähle später in Abschnitt 3 dieser Anleitung unbedingt den kabelgebundenen Adapter aus!
-```
 
 ## So richtest du die Portweiterleitung ein.
 
@@ -213,16 +207,13 @@ Besuche den folgenden Link und ersetzen Sie "IP" durch deine tatsächliche IPv4-
 
 !!! success "status: ok"
 
-```
-Wenn du die obige Ausgabe erhältst, kannst du des jetzt deinem Server beitreten!
-Es gibt zwei Möglichkeiten, beizutreten: entweder direkt mit den Daten, die du in probablyup eingegeben hast, oder, wenn dein Server auf „öffentlich“ eingestellt ist, über die Serverliste.
-Da du einen Server vor Ort hostest, verwenden 127.0.0.1 (localhost), wenn der Server auf demselben PC läuft, auf dem du spielst, oder die LAN-IPv4 des lokalen Computers, auf dem der Server läuft.
-```
+  Wenn du die obige Ausgabe erhältst, kannst du des jetzt deinem Server beitreten!
+  Es gibt zwei Möglichkeiten, beizutreten: entweder direkt mit den Daten, die du in probablyup eingegeben hast, oder, wenn dein Server auf „öffentlich“ eingestellt ist, über die Serverliste.
+  Da du einen Server vor Ort hostest, verwenden 127.0.0.1 (localhost), wenn der Server auf demselben PC läuft, auf dem du spielst, oder die LAN-IPv4 des lokalen Computers, auf dem der Server läuft.
 
 !!! failure "status: error"
 
-```
-Wenn die Verbindung vollständig fehlschlägt, verwendet dein Anbieter möglicherweise CGNAT (Carrier Grade Network Address Translation). Weitere Informationen findest du unter [Wie kann ich auf CGNAT prüfen?](../FAQ/How-to-check-for-CGNAT.md),
-oder öffne ein Server-Support-Ticket auf unserem [Discord-Server](https://discord.gg/beammp) im Kanal „#support“ und einer unserer Mitarbeiter wird sich um dein Ticket kümmern!
-Wenn du nur siehst, dass TCP funktioniert und UDP fehlschlägt, überprüfe die Firewall- und Portweiterleitungsregeln erneut.
-```
+  Wenn die Verbindung vollständig fehlschlägt, verwendet dein Anbieter möglicherweise CGNAT (Carrier Grade Network Address Translation). Weitere Informationen findest du unter [Wie kann ich auf CGNAT prüfen?](../FAQ/How-to-check-for-CGNAT.md),
+  oder öffne ein Server-Support-Ticket auf unserem [Discord-Server](https://discord.gg/beammp) im Kanal „#support“ und einer unserer Mitarbeiter wird sich um dein Ticket kümmern!
+  Wenn du nur siehst, dass TCP funktioniert und UDP fehlschlägt, überprüfe die Firewall- und Portweiterleitungsregeln erneut.
+
