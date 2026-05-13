@@ -5,13 +5,10 @@ hide:
 
 !!! warning "Diese Seite befindet sich im Aufbau!"
 
-```
-Diese Seite steht unter aktiver Bearbeitung.
+  Diese Seite steht unter aktiver Bearbeitung.
+  Denkst du, dass du helfen könntest? Das kannst du tun, indem du auf das Editier Symbol auf der rechten Seite klickst!
+  Das trifft auch auf alle anderen Seiten zu.
 
-Denkst du, dass du helfen könntest? Das kannst du tun, indem du auf das Editier Symbol auf der rechten Seite klickst!
-
-Das trifft auch auf alle anderen Seiten zu.
-```
 
 # Willkommen bei BeamMP Docs! :tada:
 
@@ -30,3 +27,7 @@ Du möchtest deinen eigenen BeamMP-Server erstellen? Unsere umfassende Anleitung
 Erfahre alles Wissenswerte zur Erstellung von Ressourcen für den BeamMP-Server in unserer [Anleitung zur Ressourcenentwicklung](../guides/mod-creation/server/getting-started.md).
 
 Aufregende Updates stehen bevor, einschließlich einer brandneuen Homepage, die entwickelt wurde, um dein Browsing-Erlebnis zu verbessern. Bleib dran für weitere Neuigkeiten! :slight_smile:
+
+## Community Regeln
+
+Lies dir die [Community-Regeln](https://docs.beammp.com/community/rules/) von BeamMP durch und informiere dich darüber, wie du gegen Bans Einspruch einlegen kannst.
