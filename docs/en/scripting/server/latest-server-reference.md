@@ -1171,14 +1171,14 @@ Triggered when a player sends a chat message. When cancelled, it will not show t
 Arguments: `player_id: number`, `vehicle_id: number`, `data: string`
 Cancellable: YES
 
-Triggered when a player spawns a new vehicle. The `data` argument contains the car's configuration and positional/rotational data for the vehicle as a json string.
+Triggered when a player spawns a new vehicle. Note that vehicle swaps/replacements instead fire [`onVehicleEdited`](#onvehicleedited). The `data` argument contains the car's configuration and positional/rotational data for the vehicle as a json string.
 
 ##### `onVehicleEdited`
 
 Arguments: `player_id: number`, `vehicle_id: number`, `data: string`
 Cancellable: YES
 
-Triggered when a player edits their vehicle and applies the edit. The `data` argument contains the car's updated configuration as a json string but does **not** include positional or rotational data. You can use [MP.GetPositionRaw](#mpgetpositionrawpid-number-vid-number-tablestring) to get positional and rotational data.
+Triggered when a player edits or replaces their vehicle. The `data` argument contains the car's updated configuration as a json string but does **not** include positional or rotational data. You can use [MP.GetPositionRaw](#mpgetpositionrawpid-number-vid-number-tablestring) to get positional and rotational data.
 
 ##### `onVehicleDeleted`
 
