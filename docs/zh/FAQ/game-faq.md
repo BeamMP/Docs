@@ -8,7 +8,7 @@ List of commonly asked questions.
 
 ---
 
-### **How do I install BeamMP?**
+### **如何安装 BeamMP？**
 
 There is a full guide on how to install BeamMP on Windows, you can find it [here](https://docs.beammp.com/game/getting-started/).
 
@@ -20,7 +20,7 @@ BeamMP will not work with pirated or outdated versions of BeamNG.drive. Modifica
 
 ---
 
-### **Does BeamMP work on linux?**
+### **BeamMP 可以在 Linux 上运行吗？**
 
 The Client is not officially supported on Linux. However, you can follow our [guide on how to use BeamMP on Linux](../game/getting-started/#2b-linux-installation)
 
@@ -42,7 +42,7 @@ We are working hard to make the Multiplayer experience as stable as possible. If
 
 ---
 
-### **Where can I find the code?**
+### **我在哪里可以找到代码？**
 
 All the source code can be found on our [GitHub](https://github.com/BeamMP). Before making any changes, keep in mind that the code is subject to our [Terms of Use](https://forum.beammp.com/t/terms-of-use-v1-0/43) and licenses:
 
@@ -54,11 +54,11 @@ Client Lua | [LICENSE](https://github.com/BeamMP/BeamMP/blob/development/LICENSE
 
 ---
 
-### **I have found a bug or an exploit what should I do?**
+### **我发现了错误或漏洞，我该怎么办？**
 
 If the issue is code related and you know how to use Github, open a new "Issue" in the appropriate repository on our [GitHub](https://github.com/BeamMP). We use an issue-based workflow so even if you already have a fix for the bug, consider opening a new "Issue", then open a "Pull Request" with the solutions for the issue. More info on contributing can be found [here](https://github.com/BeamMP/BeamMP/blob/development/CONTRIBUTING.md).
 
 If you don't have a GitHub account or you don't know how to use GitHub or have any other questions, you can get in touch with us in the following ways:
 
-- If it is not something sensitive, you can create a post on our [BeamMP Forum](https://forum.beammp.com) or you can report this on our [Official Discord](https://discord.gg/beammp).
-- If the information is sensitive you can directly report the issue to a Staff member on our [Discord](https://discord.gg/beammp).
+- 如果不是敏感内容，您可以在我们的[BeamMP 论坛](https://forum.beammp.com)上创建帖子，或者您可以在我们[的官方 Discord](https://discord.gg/beammp)上报告此问题。
+- 如果信息敏感，您可以直接向我们的[Discord](https://discord.gg/beammp)上的工作人员报告问题。
