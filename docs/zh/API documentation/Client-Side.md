@@ -2,13 +2,13 @@
 
 ### MPVehicleGE
 
-- [Vehicle Functions](#vehicle-functions)
+- [Vehicle Functions（车辆函数）](#vehicle-functions)
 - [Player Functions（玩家函数）](#player-functions)
 - [Nametag Functions（昵称标签函数）](#nametag-functions)
 - [Role Functions（角色函数）](#role-functions)
 - [Navigation Functions（导航函数）](#navigation-functions)
 - [Object Methods（对象方法）](#object-methods)
-- [Event Hooks](#event-hooks)
+- [Event Hooks（事件钩子）](#event-hooks)
 
 ### MPConfig
 
@@ -20,37 +20,37 @@
 
 ### MPGameNetwork
 
-- [Event System Functions](#event-system-functions)
-- [Keypress Functions](#keypress-functions)
-- [UI Functions](#ui-functions)
-- [MPGameNetwork Callbacks](#mpgamenetwork-callbacks)
+- [事件系统功能](#event-system-functions)
+- [按键功能](#keypress-functions)
+- [用户界面功能](#ui-functions)
+- [MPGameNetwork 回调](#mpgamenetwork-callbacks)
 
 ### MPHelpers
 
-- [Encoding Functions](#encoding-functions)
-- [Color Functions](#color-functions)
-- [String Functions](#string-functions)
-- [Table Functions](#table-functions)
-- [Debug Functions](#debug-functions)
+- [编码函数](#encoding-functions)
+- [颜色函数](#color-functions)
+- [字符串函数](#string-functions)
+- [表函数](#table-functions)
+- [调试函数](#debug-functions)
 
 ---
 
-## Vehicle Functions
+## 车辆函数
 
 ### `getGameVehicleID(serverVehicleID)`
 
-Resolves a serverVehicleID into the gameVehicleID
+将 serverVehicleID 解析为 gameVehicleID
 
-**Parameters:**
+**参数：**
 
-- `serverVehicleID` (string) - Format: "X-Y" where X is PlayerID and Y is VehicleID
+- `serverVehicleID` （字符串）- 格式：“X-Y”，其中 X 为玩家 ID，Y 为车辆 ID
 
-**Returns:**
+**返回：**
 
-- (number) - The game's internal vehicle ID
-- (number) `-1` - If vehicle is unknown
+- （数字）- 游戏内部车辆 ID
+- （编号） `-1` - 如果车辆未知
 
-**Usage:**
+**用法：**
 
 ```lua
 local gameID = extensions.MPVehicleGE.getGameVehicleID("0-0")
@@ -60,18 +60,18 @@ local gameID = extensions.MPVehicleGE.getGameVehicleID("0-0")
 
 ### `getServerVehicleID(gameVehicleID)`
 
-Resolves a gameVehicleID into the serverVehicleID
+将 gameVehicleID 解析为 serverVehicleID
 
-**Parameters:**
+**参数：**
 
-- `gameVehicleID` (number) - The game's internal vehicle ID
+- `gameVehicleID` （数字）- 游戏内部车辆 ID
 
-**Returns:**
+**返回：**
 
-- (string) - Server vehicle ID (e.g., "0-0")
-- (nil) - If gameVehicleID is unknown
+- （字符串）- 服务器车辆 ID（例如，“0-0”）
+- （nil）- 如果 gameVehicleID 未知
 
-**Usage:**
+**用法：**
 
 ```lua
 local serverID = extensions.MPVehicleGE.getServerVehicleID(11171)
@@ -81,18 +81,18 @@ local serverID = extensions.MPVehicleGE.getServerVehicleID(11171)
 
 ### `getVehicleByServerID(serverVehicleID)`
 
-Returns the complete vehicle table for this vehicle
+返回此车辆的完整车辆表
 
-**Parameters:**
+**参数：**
 
-- `serverVehicleID` (string) - Format: "X-Y"
+- `serverVehicleID` （字符串）- 格式：“X-Y”
 
-**Returns:**
+**返回：**
 
-- (table) - Vehicle information (name, gameVehicleID, jbeam, ownerID, ownerName, isLocal, isSpawned, etc.)
-- (nil) - If serverVehicleID is invalid
+- （表）- 车辆信息（名称、游戏车辆 ID、jbeam、所有者 ID、所有者名称、是否本地、是否已生成等）
+- （nil）- 如果服务器车辆 ID 无效
 
-**Usage:**
+**用法：**
 
 ```lua
 local vehicle = extensions.MPVehicleGE.getVehicleByServerID("0-0")
@@ -105,18 +105,18 @@ end
 
 ### `getVehicleByGameID(gameVehicleID)`
 
-Returns the complete vehicle table for this vehicle
+返回此车辆的完整车辆表
 
-**Parameters:**
+**参数：**
 
-- `gameVehicleID` (number) - The game's internal vehicle ID
+- `gameVehicleID` （数字）- 游戏内部车辆 ID
 
-**Returns:**
+**返回：**
 
-- (table) - Vehicle information
-- (nil) - If gameVehicleID is invalid
+- （表）- 车辆信息
+- (nil) - 如果 gameVehicleID 无效
 
-**Usage:**
+**用法：**
 
 ```lua
 local vehicle = extensions.MPVehicleGE.getVehicleByGameID(11171)
@@ -126,17 +126,17 @@ local vehicle = extensions.MPVehicleGE.getVehicleByGameID(11171)
 
 ### `isOwn(gameVehicleID)`
 
-Checks if the given vehicle belongs to this client
+检查给定车辆是否属于此客户端
 
-**Parameters:**
+**参数：**
 
-- `gameVehicleID` (number) - The game's internal vehicle ID
+- `gameVehicleID` （数字）- 游戏内部车辆 ID
 
-**Returns:**
+**返回：**
 
-- (boolean) - True if vehicle belongs to this client
+- （boolean）- 如果车辆属于此客户端，则返回 true
 
-**Usage:**
+**用法：**
 
 ```lua
 if extensions.MPVehicleGE.isOwn(11171) then
@@ -148,17 +148,17 @@ end
 
 ### `getOwnMap()`
 
-Returns a table containing all vehicles owned by this client
+返回一个包含此客户端拥有的所有车辆的表。
 
-**Parameters:**
+**参数：**
 
-- None
+- 无
 
-**Returns:**
+**返回：**
 
-- (table) - Map of owned vehicles `{[gameVehicleID] = vehicles_subtable}`
+- （表）- 已拥有车辆地图`{[gameVehicleID] = vehicles_subtable}`
 
-**Usage:**
+**用法：**
 
 ```lua
 local myVehicles = extensions.MPVehicleGE.getOwnMap()
@@ -168,17 +168,17 @@ local myVehicles = extensions.MPVehicleGE.getOwnMap()
 
 ### `getVehicleMap()`
 
-Returns a table of all known multiplayer vehicles
+返回一个包含所有已知多人游戏载具的表。
 
-**Parameters:**
+**参数：**
 
-- None
+- 无
 
-**Returns:**
+**返回：**
 
-- (table) - Map of all vehicles `{[serverVehicleID] = gameVehicleID}`
+- （表）- 所有车辆的地图`{[serverVehicleID] = gameVehicleID}`
 
-**Usage:**
+**用法：**
 
 ```lua
 local allVehicles = extensions.MPVehicleGE.getVehicleMap()
@@ -188,17 +188,17 @@ local allVehicles = extensions.MPVehicleGE.getVehicleMap()
 
 ### `getDistanceMap()`
 
-Returns the distance from each multiplayer vehicle to this client's point of view
+返回每个多人游戏载具到此客户端视角的距离
 
-**Parameters:**
+**参数：**
 
-- None
+- 无
 
-**Returns:**
+**返回：**
 
-- (table) - Map of distances `{[gameVehicleID] = distanceInMeters}`
+- （表）- 距离地图`{[gameVehicleID] = distanceInMeters}`
 
-**Usage:**
+**用法：**
 
 ```lua
 local distances = extensions.MPVehicleGE.getDistanceMap()
@@ -208,17 +208,17 @@ local distances = extensions.MPVehicleGE.getDistanceMap()
 
 ### `getNicknameMap()`
 
-Returns all multiplayer gameVehicleIDs with their owner names
+返回所有多人游戏车辆 ID 及其所有者名称
 
-**Parameters:**
+**参数：**
 
-- None
+- 无
 
-**Returns:**
+**返回：**
 
-- (table) - Map of nicknames `{[gameVehicleID] = ownerName}`
+- （表）- 昵称映射表`{[gameVehicleID] = ownerName}`
 
-**Usage:**
+**用法：**
 
 ```lua
 local nicknameMap = extensions.MPVehicleGE.getNicknameMap()
@@ -228,17 +228,17 @@ local nicknameMap = extensions.MPVehicleGE.getNicknameMap()
 
 ### `getVehicles()`
 
-Returns the complete vehicles table
+返回完整的车辆表
 
-**Parameters:**
+**参数：**
 
-- None
+- 无
 
-**Returns:**
+**返回：**
 
-- (table) - All vehicles `{[serverVehicleID] = vehicles_subtable}`
+- （表）- 所有车辆`{[serverVehicleID] = vehicles_subtable}`
 
-**Usage:**
+**用法：**
 
 ```lua
 local vehicles = extensions.MPVehicleGE.getVehicles()
@@ -249,23 +249,23 @@ end
 
 ---
 
-## Player Functions
+## 玩家函数
 
 ### `getPlayerByName(name)`
 
-Returns this player's table and ID
+返回该玩家的信息表和 ID
 
-**Parameters:**
+**参数：**
 
-- `name` (string) - The player's name
+- `name` （字符串）- 玩家名称
 
-**Returns:**
+**返回：**
 
-- (table) - Player information (name, playerID, role, vehicles, etc.)
-- (number) - The player's ID
-- (nil) - If player not found
+- （表）- 玩家信息（姓名、玩家ID、角色、载具等）
+- （数字）- 玩家 ID
+- （nil）- 如果未找到玩家
 
-**Usage:**
+**用法：**
 
 ```lua
 local player, playerID = extensions.MPVehicleGE.getPlayerByName("John")
@@ -278,17 +278,17 @@ end
 
 ### `getPlayers()`
 
-Returns the complete players table
+返回完整的玩家表
 
-**Parameters:**
+**参数：**
 
-- None
+- 无
 
-**Returns:**
+**返回：**
 
-- (table) - All players `{[playerID] = players_subtable}`
+- （表）- 所有玩家`{[playerID] = players_subtable}`
 
-**Usage:**
+**用法：**
 
 ```lua
 local players = extensions.MPVehicleGE.getPlayers()
@@ -299,19 +299,19 @@ end
 
 ---
 
-## Nametag Functions
+## 昵称标签函数
 
 ### `setPlayerNickPrefix(targetName, tagSource, text)`
 
-Adds a prefix to a player's nametag (displayed before the name)
+给玩家的名字标签添加前缀（显示在名字前面）
 
-**Parameters:**
+**参数：**
 
-- `targetName` (string) - The player's name
-- `tagSource` (string) - Unique identifier for this prefix
-- `text` (string) - Text to display before the name
+- `targetName` （字符串）- 玩家名称
+- `tagSource` （字符串）- 此前缀的唯一标识符
+- `text` （字符串）- 显示在名称之前的文本
 
-**Usage:**
+**用法：**
 
 ```lua
 extensions.MPVehicleGE.setPlayerNickPrefix("John", "RANK", "1st.")
@@ -322,15 +322,15 @@ extensions.MPVehicleGE.setPlayerNickPrefix("John", "RANK", "1st.")
 
 ### `setPlayerNickSuffix(targetName, tagSource, text)`
 
-Adds a suffix to a player's nametag (displayed after the name)
+给玩家的名字标签添加后缀（显示在名字后面）
 
-**Parameters:**
+**参数：**
 
-- `targetName` (string) - The player's name
-- `tagSource` (string) - Unique identifier for this suffix
-- `text` (string) - Text to display after the name
+- `targetName` （字符串）- 玩家名称
+- `tagSource` （字符串）- 此后缀的唯一标识符
+- `text` （字符串）- 名称后显示的文本
 
-**Usage:**
+**用法：**
 
 ```lua
 extensions.MPVehicleGE.setPlayerNickSuffix("John", "STATUS", "[AFK]")
@@ -341,13 +341,13 @@ extensions.MPVehicleGE.setPlayerNickSuffix("John", "STATUS", "[AFK]")
 
 ### `hideNicknames(hide)`
 
-Turns on or off the nametag drawing from BeamMP
+开启或关闭 BeamMP 的姓名标签绘制功能
 
-**Parameters:**
+**参数：**
 
-- `hide` (boolean) - True to hide nametags, false to show them
+- `hide` （boolean） - True 表示隐藏姓名标签，False 表示显示姓名标签
 
-**Usage:**
+**用法：**
 
 ```lua
 extensions.MPVehicleGE.hideNicknames(true)  -- Hide
@@ -358,13 +358,13 @@ extensions.MPVehicleGE.hideNicknames(false) -- Show
 
 ### `toggleNicknames()`
 
-Toggles the displaying of nametags
+切换显示姓名标签
 
-**Parameters:**
+**参数：**
 
-- None
+- 无
 
-**Usage:**
+**用法：**
 
 ```lua
 extensions.MPVehicleGE.toggleNicknames()
@@ -372,28 +372,28 @@ extensions.MPVehicleGE.toggleNicknames()
 
 ---
 
-## Role Functions
+## 角色函数
 
 ### `setPlayerRole(playerID, tag, shorttag, red, green, blue)`
 
-Sets a custom role for a player
+为玩家设置自定义角色
 
-**Parameters:**
+**参数：**
 
-- `playerID` (number) - ID of the player
-- `tag` (string) - Role tag (e.g., "VIP")
-- `shorttag` (string) - Short version (e.g., "V")
-- `red` (number) - Red channel (0-255)
-- `green` (number) - Green channel (0-255)
-- `blue` (number) - Blue channel (0-255)
+- `playerID` （数字）- 玩家的ID
+- `tag` （字符串）- 角色标签（例如，“VIP”）
+- `shorttag` （字符串）- 简短版本（例如，“V”）
+- `red` （数字）- 红色通道（0-255）
+- `green` （数字）- 绿色通道（0-255）
+- `blue` （数字）- 蓝色通道（0-255）
 
-**Returns:**
+**返回：**
 
-- (boolean, string) - `false, "player not found"` if player doesn't exist
-- (boolean, string) - `false, error` if invalid arguments
-- (nil) - Nothing on success
+- （布尔值，字符串）- 如果玩家不存在`false, "player not found"`
+- （布尔值，字符串）- 如果参数无效，则`false, error`
+- （无）——关于成功无信息
 
-**Usage:**
+**用法：**
 
 ```lua
 local success, error = extensions.MPVehicleGE.setPlayerRole(0, "VIP", "V", 255, 215, 0)
@@ -406,17 +406,17 @@ end
 
 ### `clearPlayerRole(playerID)`
 
-Clears a custom role for a player
+清除玩家的自定义角色
 
-**Parameters:**
+**参数：**
 
-- `playerID` (number) - ID of the player
+- `playerID` （数字）- 玩家的ID
 
-**Returns:**
+**返回：**
 
-- (boolean) - Always returns `false` (implementation quirk - use to check if player exists)
+- （布尔值）- 始终返回`false` （实现怪癖 - 用于检查玩家是否存在）
 
-**Usage:**
+**用法：**
 
 ```lua
 extensions.MPVehicleGE.clearPlayerRole(0)
@@ -426,24 +426,24 @@ extensions.MPVehicleGE.clearPlayerRole(0)
 
 ### `setVehicleRole(playerIDVehicleID, tag, shorttag, red, green, blue)`
 
-Sets a custom role for a specific vehicle
+为特定车辆设置自定义角色
 
-**Parameters:**
+**参数：**
 
-- `playerIDVehicleID` (string) - Vehicle ID (format: "0-0")
-- `tag` (string) - Role tag
-- `shorttag` (string) - Short version
-- `red` (number) - Red (0-255)
-- `green` (number) - Green (0-255)
-- `blue` (number) - Blue (0-255)
+- `playerIDVehicleID` （字符串）- 车辆 ID（格式：“0-0”）
+- `tag` （字符串）- 角色标签
+- `shorttag` （字符串）- 短版本
+- `red` （数字）- 红色（0-255）
+- `green` （数字）- 绿色（0-255）
+- `blue` （数字）- 蓝色（0-255）
 
-**Returns:**
+**返回：**
 
-- (boolean, string) - `false, "vehicle not found"` if vehicle doesn't exist
-- (boolean, string) - `false, error` if invalid arguments
-- (nil) - Nothing on success
+- （布尔值，字符串）- 如果车辆不存在`false, "vehicle not found"`
+- （布尔值，字符串）- 如果参数无效，则`false, error`
+- （无）——关于成功无信息
 
-**Usage:**
+**用法：**
 
 ```lua
 local success, error = extensions.MPVehicleGE.setVehicleRole("0-0", "Police", "POL", 0, 0, 255)
@@ -456,17 +456,17 @@ end
 
 ### `clearVehicleRole(playerIDVehicleID)`
 
-Clears a custom role for a vehicle
+清除车辆的自定义角色
 
-**Parameters:**
+**参数：**
 
-- `playerIDVehicleID` (string) - Vehicle ID (format: "0-0")
+- `playerIDVehicleID` （字符串）- 车辆 ID（格式：“0-0”）
 
-**Returns:**
+**返回：**
 
-- (boolean) - Always returns `false` (implementation quirk - use to check if vehicle exists)
+- （布尔值）- 始终返回`false` （实现特性 - 用于检查车辆是否存在）
 
-**Usage:**
+**用法：**
 
 ```lua
 extensions.MPVehicleGE.clearVehicleRole("0-0")
@@ -474,17 +474,17 @@ extensions.MPVehicleGE.clearVehicleRole("0-0")
 
 ---
 
-## Navigation Functions
+## 导航函数
 
 ### `groundmarkerToPlayer(targetName)`
 
-Sets a ground marker route to target player's position (static)
+设置一条通往目标玩家位置的地面标记路线（静态）
 
-**Parameters:**
+**参数：**
 
-- `targetName` (string) - Player's name, or nil to clear
+- `targetName` （字符串）- 玩家名称，如果为 nil 则清除
 
-**Usage:**
+**用法：**
 
 ```lua
 extensions.MPVehicleGE.groundmarkerToPlayer("John")  -- Set
@@ -495,14 +495,14 @@ extensions.MPVehicleGE.groundmarkerToPlayer(nil)     -- Clear
 
 ### `groundmarkerFollowPlayer(targetName, dontfollow)`
 
-Sets a ground marker route that follows target player
+设置跟随目标玩家的地面标记路线
 
-**Parameters:**
+**参数：**
 
-- `targetName` (string) - Player's name, or nil to stop
-- `dontfollow` (boolean) - If true, creates static marker
+- `targetName` （字符串）- 玩家名称，如果为 nil 则停止
+- `dontfollow` （布尔值）- 如果为true，则创建静态标记
 
-**Usage:**
+**用法：**
 
 ```lua
 extensions.MPVehicleGE.groundmarkerFollowPlayer("John")       -- Follow
@@ -514,19 +514,19 @@ extensions.MPVehicleGE.groundmarkerFollowPlayer(nil)          -- Stop
 
 ### `queryRoadNodeToPosition(targetPosition, owner)`
 
-Finds the closest road nodes to a target position
+查找距离目标位置最近的道路节点
 
-**Parameters:**
+**参数：**
 
-- `targetPosition` (vec3 or table) - Target position with x, y, z
-- `owner` (string) - Optional identifier (default: "target")
+- `targetPosition` （vec3 或表）- 目标位置，包含 x、y、z 坐标
+- `owner` （字符串）- 可选标识符（默认值：“target”）
 
-**Returns:**
+**返回：**
 
-- (boolean) - Success status
-- (number) - nodeID (if successful)
+- （布尔值）- 成功状态
+- （数字）- 节点 ID（如果成功）
 
-**Usage:**
+**用法：**
 
 ```lua
 local pos = vec3(100, 200, 50)
@@ -535,20 +535,20 @@ local success, nodeID = extensions.MPVehicleGE.queryRoadNodeToPosition(pos)
 
 ---
 
-## Object Methods
+## 对象方法
 
-### Player Object Methods
+### 玩家对象方法
 
 #### `player:setNickPrefix(tagSource, text)`
 
-Sets a prefix for this player's nametag
+设置该玩家名称标签的前缀
 
-**Parameters:**
+**参数：**
 
-- `tagSource` (string) - Unique identifier
-- `text` (string) - Text to display (or nil to remove)
+- `tagSource` （字符串）- 唯一标识符
+- `text` （字符串）- 要显示的文本（或 nil 表示不显示）
 
-**Usage:**
+**用法：**
 
 ```lua
 local player = extensions.MPVehicleGE.getPlayerByName("John")
@@ -561,14 +561,14 @@ end
 
 #### `player:setNickSuffix(tagSource, text)`
 
-Sets a suffix for this player's nametag
+为该玩家的姓名标签设置后缀
 
-**Parameters:**
+**参数：**
 
-- `tagSource` (string) - Unique identifier
-- `text` (string) - Text to display (or nil to remove)
+- `tagSource` （字符串）- 唯一标识符
+- `text` （字符串）- 要显示的文本（或 nil 表示不显示）
 
-**Usage:**
+**用法：**
 
 ```lua
 local player = extensions.MPVehicleGE.getPlayerByName("John")
@@ -581,13 +581,13 @@ end
 
 #### `player:setCustomRole(role)`
 
-Sets a custom role for this player
+为该玩家设置自定义角色
 
-**Parameters:**
+**参数：**
 
-- `role` (table) - Role table: `{backcolor = {r, g, b}, tag = string, shorttag = string}`
+- `role` （表）- 角色表： `{backcolor = {r, g, b}, tag = string, shorttag = string}`
 
-**Usage:**
+**用法：**
 
 ```lua
 local player = extensions.MPVehicleGE.getPlayerByName("John")
@@ -604,9 +604,9 @@ end
 
 #### `player:clearCustomRole()`
 
-Clears the custom role for this player
+清除该玩家的自定义角色
 
-**Usage:**
+**用法：**
 
 ```lua
 local player = extensions.MPVehicleGE.getPlayerByName("John")
@@ -617,18 +617,18 @@ end
 
 ---
 
-### Vehicle Object Methods
+### 车辆对象方法
 
 #### `vehicle:getOwner()`
 
-Returns the owner of this vehicle
+返回此车辆的所有者
 
-**Returns:**
+**返回：**
 
-- (table) - Player object
-- (number) - Player's ID
+- （表）- 玩家对象
+- （数字）- 玩家 ID
 
-**Usage:**
+**用法：**
 
 ```lua
 local vehicle = extensions.MPVehicleGE.getVehicleByServerID("0-0")
@@ -642,13 +642,13 @@ end
 
 #### `vehicle:setCustomRole(role)`
 
-Sets a custom role for this vehicle
+为这辆车设置自定义角色
 
-**Parameters:**
+**参数：**
 
-- `role` (table) - Role table: `{backcolor = {r, g, b}, tag = string, shorttag = string}`
+- `role` （表）- 角色表： `{backcolor = {r, g, b}, tag = string, shorttag = string}`
 
-**Usage:**
+**用法：**
 
 ```lua
 local vehicle = extensions.MPVehicleGE.getVehicleByServerID("0-0")
@@ -665,9 +665,9 @@ end
 
 #### `vehicle:clearCustomRole()`
 
-Clears the custom role for this vehicle
+清除此车辆的自定义角色
 
-**Usage:**
+**用法：**
 
 ```lua
 local vehicle = extensions.MPVehicleGE.getVehicleByServerID("0-0")
@@ -680,13 +680,13 @@ end
 
 #### `vehicle:setDisplayName(displayName)`
 
-Sets a custom display name for this vehicle
+为这辆车设置自定义显示名称
 
-**Parameters:**
+**参数：**
 
-- `displayName` (string) - Custom name to display
+- `displayName` （字符串）- 要显示的自定义名称
 
-**Usage:**
+**用法：**
 
 ```lua
 local vehicle = extensions.MPVehicleGE.getVehicleByServerID("0-0")
@@ -697,13 +697,13 @@ end
 
 ---
 
-## Event Hooks
+## 事件钩子
 
-BeamMP provides event hooks that you can override to execute custom code when specific events occur. **Do not call these functions directly** - instead, override them while preserving the original functionality.
+BeamMP 提供事件钩子，您可以重写这些钩子以在特定事件发生时执行自定义代码。**请勿直接调用这些函数**，而应在保留原始功能的前提下对其进行重写。
 
-### Hook Pattern
+### 钩子模式
 
-Always preserve the original function when overriding:
+重写函数时，务必保留原函数：
 
 ```lua
 -- Save the original function
@@ -721,17 +721,17 @@ end
 
 ---
 
-### Available Event Hooks
+### 可用的事件钩子
 
 #### `onUpdate(dt)`
 
-Called every frame while connected to multiplayer
+连接到多人游戏时，每一帧都会被调用
 
-**Parameters:**
+**参数：**
 
-- `dt` (number) - Delta time in seconds since last frame
+- `dt` （数值）- 自上一帧以来的时间间隔（秒）。
 
-**Usage:**
+**用法：**
 
 ```lua
 local originalOnUpdate = MPVehicleGE.onUpdate
@@ -745,15 +745,15 @@ end
 
 #### `onPreRender(dt)`
 
-Called every frame before rendering
+在渲染每一帧之前调用
 
-**Parameters:**
+**参数：**
 
-- `dt` (number) - Delta time in seconds
+- `dt` （数值）- 时间差（秒）
 
-**Note:** This handles nametag rendering, distance calculations, and ground markers internally.
+**注意：**此功能在内部处理名称标签渲染、距离计算和地面标记。
 
-**Usage:**
+**用法：**
 
 ```lua
 local originalOnPreRender = MPVehicleGE.onPreRender
@@ -767,13 +767,13 @@ end
 
 #### `onVehicleSpawned(gameVehicleID)`
 
-Called when a vehicle spawns (both local and remote)
+当车辆生成时调用（包括本地和远程车辆）
 
-**Parameters:**
+**参数：**
 
-- `gameVehicleID` (number) - The game's internal vehicle ID
+- `gameVehicleID` （数字）- 游戏内部车辆 ID
 
-**Usage:**
+**用法：**
 
 ```lua
 local originalOnVehicleSpawned = MPVehicleGE.onVehicleSpawned
@@ -791,13 +791,13 @@ end
 
 #### `onVehicleDestroyed(gameVehicleID)`
 
-Called when a vehicle is destroyed/removed
+车辆被销毁/移除时调用
 
-**Parameters:**
+**参数：**
 
-- `gameVehicleID` (number) - The game's internal vehicle ID
+- `gameVehicleID` （数字）- 游戏内部车辆 ID
 
-**Usage:**
+**用法：**
 
 ```lua
 local originalOnVehicleDestroyed = MPVehicleGE.onVehicleDestroyed
@@ -815,14 +815,14 @@ end
 
 #### `onVehicleSwitched(oldGameVehicleID, newGameVehicleID)`
 
-Called when player switches between vehicles
+当玩家切换车辆时调用
 
-**Parameters:**
+**参数：**
 
-- `oldGameVehicleID` (number) - Previous vehicle ID (or -1)
-- `newGameVehicleID` (number) - New vehicle ID (or -1)
+- `oldGameVehicleID` （数字）- 先前的车辆 ID（或 -1）
+- `newGameVehicleID` （数字）- 新车辆 ID（或 -1）
 
-**Usage:**
+**用法：**
 
 ```lua
 local originalOnVehicleSwitched = MPVehicleGE.onVehicleSwitched
@@ -837,13 +837,13 @@ end
 
 #### `onVehicleResetted(gameVehicleID)`
 
-Called when a vehicle is reset (local vehicles only)
+车辆重置时调用（仅限本地车辆）
 
-**Parameters:**
+**参数：**
 
-- `gameVehicleID` (number) - The game's internal vehicle ID
+- `gameVehicleID` （数字）- 游戏内部车辆 ID
 
-**Usage:**
+**用法：**
 
 ```lua
 local originalOnVehicleResetted = MPVehicleGE.onVehicleResetted
@@ -858,15 +858,15 @@ end
 
 #### `onVehicleColorChanged(gameVehicleID, index, paint)`
 
-Called when a vehicle's paint color is changed
+当车辆的涂装颜色发生变化时调用
 
-**Parameters:**
+**参数：**
 
-- `gameVehicleID` (number) - The game's internal vehicle ID
-- `index` (number) - Paint slot index (0, 1, or 2)
-- `paint` (table) - Paint data with color information
+- `gameVehicleID` （数字）- 游戏内部车辆 ID
+- `index` （数字）- 涂装槽索引（0、1 或 2）
+- `paint` （表） - 包含颜色信息的油漆数据
 
-**Usage:**
+**用法：**
 
 ```lua
 local originalOnVehicleColorChanged = MPVehicleGE.onVehicleColorChanged
@@ -881,15 +881,15 @@ end
 
 #### `onVehicleReady(gameVehicleID)`
 
-Called when a vehicle's extensions have loaded and the vehicle is fully ready
+当车辆的扩展设备加载完毕且车辆完全准备就绪时，就会发出此通知。
 
-**Parameters:**
+**参数：**
 
-- `gameVehicleID` (number) - The game's internal vehicle ID
+- `gameVehicleID` （数字）- 游戏内部车辆 ID
 
-**Note:** Use this instead of `onVehicleSpawned` if you need vehicle extensions to be loaded.
+**注意：**如果需要加载车辆扩展，请使用此方法代替`onVehicleSpawned` 。
 
-**Usage:**
+**用法：**
 
 ```lua
 local originalOnVehicleReady = MPVehicleGE.onVehicleReady
@@ -908,9 +908,9 @@ end
 
 #### `onUIInitialised()`
 
-Called when the BeamMP UI is initialized
+在 BeamMP 用户界面初始化时调用
 
-**Usage:**
+**用法：**
 
 ```lua
 local originalOnUIInitialised = MPVehicleGE.onUIInitialised
@@ -925,9 +925,9 @@ end
 
 #### `onSettingsChanged()`
 
-Called when BeamMP settings are changed
+当 BeamMP 设置更改时调用
 
-**Usage:**
+**用法：**
 
 ```lua
 local originalOnSettingsChanged = MPVehicleGE.onSettingsChanged
@@ -940,17 +940,17 @@ end
 
 ---
 
-## MPConfig Functions
+## MPConfig 函数
 
 ### `MPConfig.getPlayerServerID()`
 
-Returns the local player's server-assigned ID
+返回本地玩家的服务器分配 ID
 
-**Returns:**
+**返回：**
 
-- (number) - The player's server ID (-1 if not set)
+- （数字）- 玩家的服务器 ID（如果未设置则为 -1）
 
-**Usage:**
+**用法：**
 
 ```lua
 local myID = extensions.MPConfig.getPlayerServerID()
@@ -960,13 +960,13 @@ local myID = extensions.MPConfig.getPlayerServerID()
 
 ### `MPConfig.getNickname()`
 
-Returns the local player's nickname
+返回本地玩家的昵称
 
-**Returns:**
+**返回：**
 
-- (string) - The player's current nickname
+- （字符串）- 玩家当前的昵称
 
-**Usage:**
+**用法：**
 
 ```lua
 local name = extensions.MPConfig.getNickname()
@@ -976,14 +976,14 @@ local name = extensions.MPConfig.getNickname()
 
 ### `MPConfig.getConfig()`
 
-Returns the BeamMP configuration settings
+返回 BeamMP 配置设置
 
-**Returns:**
+**返回：**
 
-- (table) - Configuration table with all BeamMP settings
-- (nil) - If config file doesn't exist
+- （表）- 包含所有 BeamMP 设置的配置表
+- （nil）- 如果配置文件不存在
 
-**Usage:**
+**用法：**
 
 ```lua
 local config = extensions.MPConfig.getConfig()
@@ -993,14 +993,14 @@ local config = extensions.MPConfig.getConfig()
 
 ### `MPConfig.setConfig(settingName, settingVal)`
 
-Sets a specific configuration value
+设置特定配置值
 
-**Parameters:**
+**参数：**
 
-- `settingName` (string) - Name of the setting
-- `settingVal` (any) - Value to set
+- `settingName` （字符串）- 设置的名称
+- `settingVal` （任意值） - 要设置的值
 
-**Usage:**
+**用法：**
 
 ```lua
 extensions.MPConfig.setConfig("myCustomSetting", true)
@@ -1008,18 +1008,18 @@ extensions.MPConfig.setConfig("myCustomSetting", true)
 
 ---
 
-## MPCoreNetwork Functions
+## MPCoreNetwork 函数
 
 ### `MPCoreNetwork.getCurrentServer()`
 
-Returns information about the current connected server
+返回有关当前连接服务器的信息
 
-**Returns:**
+**返回：**
 
-- (table) - Server data (ip, port, name, map)
-- (nil) - If not connected
+- （表）- 服务器数据（IP 地址、端口、名称、映射）
+- （nil）- 如果未连接
 
-**Usage:**
+**用法：**
 
 ```lua
 local server = extensions.MPCoreNetwork.getCurrentServer()
@@ -1031,20 +1031,20 @@ end
 
 ---
 
-## Event System Functions
+## 事件系统功能
 
 ### `TriggerServerEvent(name, data)`
 
-Sends an event to the server
+向服务器发送事件
 
-**Parameters:**
+**参数：**
 
-- `name` (string) - Event name
-- `data` (string) - Data to send
+- `name` （字符串）- 事件名称
+- `data` （字符串）- 要发送的数据
 
-**Note:** Global function. The server must have a registered handler for this event.
+**注意：**这是一个全局函数。服务器必须已注册此事件的处理程序。
 
-**Usage:**
+**用法：**
 
 ```lua
 TriggerServerEvent("playerReady", "ready")
@@ -1058,16 +1058,16 @@ TriggerServerEvent("updatePlayer", jsonEncode(data))
 
 ### `TriggerClientEvent(name, data)`
 
-Triggers a local client event
+触发本地客户端事件
 
-**Parameters:**
+**参数：**
 
-- `name` (string) - Event name
-- `data` (string) - Data to send
+- `name` （字符串）- 事件名称
+- `data` （字符串）- 要发送的数据
 
-**Note:** Global function. Triggers locally without sending to server.
+**注意：**全局函数。在本地触发，无需发送到服务器。
 
-**Usage:**
+**用法：**
 
 ```lua
 TriggerClientEvent("localUpdate", "data")
@@ -1077,17 +1077,17 @@ TriggerClientEvent("localUpdate", "data")
 
 ### `AddEventHandler(event_name, func, name)`
 
-Registers a function to handle a specific event
+注册一个用于处理特定事件的函数
 
-**Parameters:**
+**参数：**
 
-- `event_name` (string) - Name of the event to handle
-- `func` (function) - Handler function (receives event data)
-- `name` (string) - Optional internal name
+- `event_name` （字符串）- 要处理的事件的名称
+- `func` （函数）- 处理函数（接收事件数据）
+- `name` （字符串）- 可选的内部名称
 
-**Note:** Global function.
+**注意：**全局函数。
 
-**Usage:**
+**用法：**
 
 ```lua
 AddEventHandler("playerDamage", function(data)
@@ -1105,16 +1105,16 @@ end)
 
 ### `RemoveEventHandler(event_name, name)`
 
-Removes an event handler
+移除事件处理程序
 
-**Parameters:**
+**参数：**
 
-- `event_name` (string) - Name of the event
-- `name` (string) - Optional internal name
+- `event_name` （字符串）- 事件名称
+- `name` （字符串）- 可选的内部名称
 
-**Note:** Global function.
+**注意：**全局函数。
 
-**Usage:**
+**用法：**
 
 ```lua
 RemoveEventHandler("playerDamage")
@@ -1122,20 +1122,20 @@ RemoveEventHandler("playerDamage")
 
 ---
 
-## Keypress Functions
+## 按键功能
 
 ### `onKeyPressed(keyname, func)`
 
-Registers a function to be called when a key is pressed
+注册一个按键按下时要调用的函数
 
-**Parameters:**
+**参数：**
 
-- `keyname` (string) - Name of the key (e.g., "NUMPAD1", "F1")
-- `func` (function) - Function to call (receives boolean)
+- `keyname` （字符串）- 按键的名称（例如，“NUMPAD1”、“F1”）
+- `func` （函数）- 要调用的函数（接收布尔值）
 
-**Note:** Global function.
+**注意：**全局函数。
 
-**Usage:**
+**用法：**
 
 ```lua
 onKeyPressed("NUMPAD1", function(state)
@@ -1147,16 +1147,16 @@ end)
 
 ### `onKeyReleased(keyname, func)`
 
-Registers a function to be called when a key is released
+注册一个在按键释放时要调用的函数
 
-**Parameters:**
+**参数：**
 
-- `keyname` (string) - Name of the key
-- `func` (function) - Function to call (receives boolean)
+- `keyname` （字符串）- 键的名称
+- `func` （函数）- 要调用的函数（接收布尔值）
 
-**Note:** Global function.
+**注意：**全局函数。
 
-**Usage:**
+**用法：**
 
 ```lua
 onKeyReleased("NUMPAD1", function(state)
@@ -1168,17 +1168,17 @@ end)
 
 ### `addKeyEventListener(keyname, func, type)`
 
-Registers a key event listener with customizable trigger type
+注册一个具有可自定义触发类型的按键事件监听器
 
-**Parameters:**
+**参数：**
 
-- `keyname` (string) - Name of the key
-- `func` (function) - Function to call
-- `type` (string) - Event type: "down", "up", or "both" (default: "both")
+- `keyname` （字符串）- 键的名称
+- `func` （函数）- 要调用的函数
+- `type` （字符串）- 事件类型：“向下”、“向上”或“两者”（默认值：“两者”）
 
-**Note:** Global function.
+**注意：**全局函数。
 
-**Usage:**
+**用法：**
 
 ```lua
 addKeyEventListener("F1", function(isPressed)
@@ -1194,19 +1194,19 @@ end, "both")
 
 ### `getKeyState(keyname)`
 
-Returns the current state of a key
+返回键的当前状态
 
-**Parameters:**
+**参数：**
 
-- `keyname` (string) - Name of the key
+- `keyname` （字符串）- 按键名称
 
-**Returns:**
+**返回：**
 
-- (boolean) - True if pressed, false otherwise
+- （布尔值）- 按下时为true，否则为false
 
-**Note:** Global function. Only works for keys registered with addKeyEventListener.
+**注意：**全局函数。仅适用于通过 addKeyEventListener 注册的键。
 
-**Usage:**
+**用法：**
 
 ```lua
 local isPressed = getKeyState("NUMPAD1")
@@ -1217,24 +1217,24 @@ end
 
 ---
 
-## UI Functions
+## UI 函数
 
 ### `MPGameNetwork.spawnUiDialog(dialogInfo)`
 
-Creates a custom interactive dialog box
+创建自定义交互式对话框
 
-**Parameters:**
+**参数：**
 
-- `dialogInfo` (table) - Dialog configuration:
-    - `title` (string) - Dialog title (optional)
-    - `body` (string) - Dialog message (optional)
-    - `buttons` (table) - Button configurations (optional)
-    - `class` (string) - "experimental" for hazard lines (optional)
-    - `interactionID` (string) - Interaction identifier (optional)
-    - `reportToServer` (boolean) - Send to server (optional, default: false)
-    - `reportToExtensions` (boolean) - Trigger local event (optional, default: false)
+- `dialogInfo` （表）- 对话框配置：
+    - `title` （字符串）- 对话框标题（可选）
+    - `body` （字符串）- 对话框消息（可选）
+    - `buttons` （表） - 按钮配置（可选）
+    - `class` （字符串）- “experimental” 用于危险警示线（可选）
+    - `interactionID` （字符串）- 交互标识符（可选）
+    - `reportToServer` （布尔值）- 发送到服务器（可选，默认值：false）
+    - `reportToExtensions` （布尔值）- 触发本地事件（可选，默认值：false）
 
-**Usage:**
+**用法：**
 
 ```lua
 -- Simple dialog
@@ -1258,17 +1258,17 @@ extensions.MPGameNetwork.spawnUiDialog({
 
 ---
 
-## MPGameNetwork Callbacks
+## MPGameNetwork 回调
 
 ### `MPGameNetwork.onUpdate(dt)`
 
-Called every frame while connected to multiplayer
+连接到多人游戏时，每一帧都会被调用
 
-**Parameters:**
+**参数：**
 
-- `dt` (number) - Delta time in seconds
+- `dt` （数值）- 时间差（秒）
 
-**Usage:**
+**用法：**
 
 ```lua
 local originalOnUpdate = MPGameNetwork.onUpdate
@@ -1282,13 +1282,13 @@ end
 
 ### `MPGameNetwork.onVehicleReady(gameVehicleID)`
 
-Called when a vehicle is ready and extensions are loaded
+当车辆准备就绪且扩展设备已加载完毕时，会发出呼叫。
 
-**Parameters:**
+**参数：**
 
-- `gameVehicleID` (number) - The game's internal vehicle ID
+- `gameVehicleID` （数字）- 游戏内部车辆 ID
 
-**Usage:**
+**用法：**
 
 ```lua
 local originalOnVehicleReady = MPGameNetwork.onVehicleReady
@@ -1300,21 +1300,21 @@ end
 
 ---
 
-## Encoding Functions
+## 编码函数
 
 ### `MPHelpers.b64encode(string)`
 
-Encodes a string to Base64 (RFC 2045)
+将字符串编码为 Base64（RFC 2045）
 
-**Parameters:**
+**参数：**
 
-- `string` (string) - String to encode
+- `string` （字符串）- 要编码的字符串
 
-**Returns:**
+**返回：**
 
-- (string) - Base64-encoded string
+- （字符串）- Base64 编码的字符串
 
-**Usage:**
+**用法：**
 
 ```lua
 local encoded = extensions.MPHelpers.b64encode("Hello World")
@@ -1329,17 +1329,17 @@ TriggerServerEvent("sendData", encoded)
 
 ### `MPHelpers.b64decode(string)`
 
-Decodes a Base64 string (RFC 2045)
+解码 Base64 字符串（RFC 2045）
 
-**Parameters:**
+**参数：**
 
-- `string` (string) - Base64-encoded string
+- `string` （string）- Base64 编码的字符串
 
-**Returns:**
+**返回：**
 
-- (string) - Decoded string
+- （字符串）- 解码后的字符串
 
-**Usage:**
+**用法：**
 
 ```lua
 local decoded = extensions.MPHelpers.b64decode("SGVsbG8gV29ybGQ=")
@@ -1353,24 +1353,24 @@ end)
 
 ---
 
-## Color Functions
+## 颜色函数
 
 ### `MPHelpers.hex2rgb(hex)`
 
-Converts a hexadecimal color code to RGB values
+将十六进制颜色代码转换为 RGB 值
 
-**Parameters:**
+**参数：**
 
-- `hex` (string) - Hex color code (e.g., "#FF5733" or "#F57")
+- `hex` （字符串）- 十六进制颜色代码（例如，“#FF5733”或“#F57”）
 
-**Returns:**
+**返回：**
 
-- (table) - RGB values `{r, g, b}` in 0-1 range
-- (table) - `{0, 0, 0}` if invalid
+- （表）- RGB 值`{r, g, b}`范围为 0-1
+- （表）- 如果无效则为`{0, 0, 0}`
 
-**Note:** Supports both 3-character and 6-character hex codes.
+**注意：**支持 3 位和 6 位十六进制代码。
 
-**Usage:**
+**用法：**
 
 ```lua
 local rgb = extensions.MPHelpers.hex2rgb("#FF5733")
@@ -1382,26 +1382,26 @@ local rgb = extensions.MPHelpers.hex2rgb("#F57")
 
 ---
 
-## String Functions
+## 字符串函数
 
 ### `MPHelpers.splitStringToTable(string, delimiter, convert_into)`
 
-Splits a string by delimiter and optionally converts values
+按分隔符拆分字符串，并可选择转换值
 
-**Parameters:**
+**参数：**
 
-- `string` (string) - String to split
-- `delimiter` (string) - Delimiter to split by
-- `convert_into` (number) - Conversion type (optional):
-    - `nil` or `0` - Keep as strings (default)
-    - `1` - Convert to numbers
-    - `2` - Convert to booleans
+- `string` （字符串）- 要拆分的字符串
+- `delimiter` （字符串） - 用于分割的分隔符
+- `convert_into` (number) - 转换类型（可选）：
+    - `nil`或`0` - 保留为字符串（默认值）
+    - `1` - 转换为数字
+    - `2` - 转换为布尔值
 
-**Returns:**
+**返回：**
 
-- (table) - Array of split values
+- （表）- 分割值的数组
 
-**Usage:**
+**用法：**
 
 ```lua
 -- Strings
@@ -1419,24 +1419,24 @@ local x, y, z = coords[1], coords[2], coords[3]
 
 ---
 
-## Table Functions
+## 表函数
 
 ### `MPHelpers.tableDiff(old, new)`
 
-Compares two tables and returns their differences
+比较两个表并返回它们的差异
 
-**Parameters:**
+**参数：**
 
-- `old` (table) - First table to compare
-- `new` (table) - Second table to compare
+- `old`表 - 要比较的第一个表
+- `new` （表）——第二个用于比较的表
 
-**Returns:**
+**返回：**
 
-- (table) `diff` - All keys that differ
-- (table) `o` - Values from old that differ
-- (table) `n` - Values from new that differ
+- （表） `diff` - 所有不同的键
+- （表） `o` - 与旧值不同的值
+- （表） `n` - 与新值不同的数值
 
-**Usage:**
+**用法：**
 
 ```lua
 local oldConfig = {speed = 100, damage = 50, armor = 30}
@@ -1452,22 +1452,22 @@ end
 
 ---
 
-## Debug Functions
+## 调试函数
 
 ### `MPHelpers.simpletraces(level)`
 
-Returns formatted caller information as string
+返回格式化的调用者信息字符串。
 
-**Parameters:**
+**参数：**
 
-- `level` (number) - Stack level (optional, default: 2)
+- `level` （数字）- 堆栈层级（可选，默认值：2）
 
-**Returns:**
+**返回：**
 
-- (string) - Formatted string: `"source:line, namewhat name"`
-- (string) - `"unknown"` if info not available
+- （字符串）- 格式化字符串： `"source:line, namewhat name"`
+- （字符串）- 如果信息不可用，则为`"unknown"`
 
-**Usage:**
+**用法：**
 
 ```lua
 local function myFunction()
@@ -1480,15 +1480,15 @@ end
 
 ### `MPHelpers.simpletrace(level)`
 
-Logs caller information to console
+将调用者信息记录到控制台
 
-**Parameters:**
+**参数：**
 
-- `level` (number) - Stack level (optional, default: 1)
+- `level` （数字）- 堆栈层级（可选，默认值：1）
 
-**Note:** Logs the calling location to the console.
+**注意：**将调用位置记录到控制台。
 
-**Usage:**
+**用法：**
 
 ```lua
 local function myFunction()
@@ -1499,4 +1499,4 @@ end
 
 ---
 
-*Last updated: 01.01.2026*
+*最后更新日期：2026年1月1日*
