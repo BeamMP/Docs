@@ -1,23 +1,23 @@
 ## 目录
 
-### Global
+### 全局
 
 - [全局函数](#global-functions)
 
 ### MP
 
-- [Players](#mp--players)
+- [玩家](#mp--players)
 - [车辆](#mp--vehicles)
-- [Communication](#mp--communication)
-- [Events](#mp--events)
-- [Utilities](#mp--utilities)
+- [通信](#mp--communication)
+- [事件](#mp--events)
+- [工具](#mp--utilities)
 
 ### Util
 
 - [日志记录](#util--logging)
 - [JSON](#util--json)
-- [Random](#util--random)
-- [Profiling](#util--profiling)
+- [随机数](#util--random)
+- [性能分析](#util--profiling)
 
 ### Http
 
@@ -26,10 +26,10 @@
 ### FS
 
 - [检查](#fs--checks)
-- [Operations](#fs--operations)
+- [操作](#fs--operations)
 - [路径](#fs--paths)
 
-### Events
+### 事件
 
 - [事件参考](#events)
 
@@ -43,7 +43,7 @@
 
 **参数：**
 
-- `...` (any) - Values of any type. Tables are printed with their contents.
+- `...` （任意）——任何类型的值。表会连同其内容一起打印出来。
 
 **用法：**
 
@@ -66,7 +66,7 @@ print("Hello, I'm", name, "and I'm", 32)
 
 ### `exit()`
 
-Shuts down the server gracefully. Triggers the `onShutdown` event.
+正常关闭服务器。触发`onShutdown`事件。
 
 ---
 
@@ -84,17 +84,17 @@ Shuts down the server gracefully. Triggers the `onShutdown` event.
 
 ### `MP.GetPlayers() -> table`
 
-Returns a table of all connected players.
+返回所有已连接玩家的表。
 
 **返回：**
 
-- (table) - Map of `{[playerID] = playerName}`.
+- （表）- `{[playerID] = playerName}`的映射。
 
 ---
 
 ### `MP.GetPlayerName(playerID) -> string`
 
-Returns the name of a player by ID.
+根据ID返回玩家名称。
 
 **参数：**
 
@@ -102,7 +102,7 @@ Returns the name of a player by ID.
 
 **返回：**
 
-- (string) - The player's name, or `""` if not found.
+- （字符串）- 玩家名称，如果找不到则为`""` 。
 
 **用法：**
 
@@ -119,7 +119,7 @@ print(MP.GetPlayerName(player_id))
 
 **参数：**
 
-- `name` (string) - The player's name.
+- `name` （字符串）- 玩家的名称。
 
 **返回：**
 
@@ -137,7 +137,7 @@ print(MP.GetPlayerName(player_id))
 
 **返回：**
 
-- (table) - Table with keys `ip`, `beammp`, `discord` (only if linked).
+- （表）- 包含键`ip` 、 `beammp` 、 `discord` （仅当已链接时）的表。
 - （nil）- 如果未找到玩家。
 
 **用法：**
@@ -167,7 +167,7 @@ print(MP.GetPlayerIdentifiers(player_id))
 
 ### `MP.IsPlayerConnected(playerID) -> boolean`
 
-Returns whether a UDP packet has been received from the player, i.e. whether the connection is fully established.
+返回是否已收到来自玩家的 UDP 数据包，即连接是否已完全建立。
 
 **参数：**
 
@@ -226,7 +226,7 @@ end
 
 ### `MP.GetPlayerVehicles(playerID) -> table`
 
-Returns all vehicles of a player.
+返回玩家的所有车辆。
 
 **参数：**
 
@@ -234,7 +234,7 @@ Returns all vehicles of a player.
 
 **返回：**
 
-- (table) - Map of `{[vehicleID] = dataString}` where dataString is a raw JSON string.
+- （表）- `{[vehicleID] = dataString}`的映射，其中 dataString 是原始 JSON 字符串。
 - （nil）- 如果玩家没有车辆或未被找到。
 
 **用法：**
@@ -259,11 +259,11 @@ end
 **参数：**
 
 - `playerID` （数字）- 玩家的 ID。
-- `vehicleID` (number) - The vehicle's ID.
+- `vehicleID` （number）- 车辆的 ID。
 
 **返回：**
 
-- (table) - Table with keys: `pos`, `rot`, `vel`, `rvel`, `tim`, `ping`.
+- （表）- 包含以下键的表： `pos` 、 `rot` 、 `vel` 、 `rvel` 、 `tim` 、 `ping` 。
 - （字符串）- 如果发生错误，则显示错误信息；成功时显示空字符串。
 
 **注意：** `pos` 、 `rot` 、 `vel` 、 `rvel`中的每个值都是一个表，索引为`1, 2, 3` （ `rot`的索引为`4` ）。
@@ -292,7 +292,7 @@ end
 **参数：**
 
 - `playerID` （数字）- 玩家的 ID。
-- `vehicleID` (number) - The vehicle's ID.
+- `vehicleID` （number）- 车辆的 ID。
 
 **用法：**
 
@@ -362,7 +362,7 @@ MP.SendChatMessage(-1, "Hello World!")
 - `playerID` （数字）- 玩家的 ID， `-1`表示所有人。
 - `title` （字符串）- 对话框标题。
 - `body` （字符串）- 对话框正文。
-- `buttons` (table) - Array of buttons.
+- `buttons` （表）- 按钮数组。
 - `interactionID` （字符串）- 此交互的唯一标识符。
 - `warning` （布尔值，可选）- 显示警告样式（默认值： `false` ）。
 - `reportToServer` （布尔值，可选）- 向服务器发送响应（默认值： `true` ）。
@@ -374,7 +374,7 @@ MP.SendChatMessage(-1, "Hello World!")
 
 ### `MP.TriggerClientEvent(playerID, eventName, data) -> boolean, string`
 
-Sends an event to a specific client or everyone.
+将事件发送给特定客户端或所有人。
 
 **参数：**
 
@@ -406,7 +406,7 @@ Sends an event to a specific client or everyone.
 
 ---
 
-## MP — Events
+## MP — 事件
 
 ### `MP.RegisterEvent(eventName, functionName)`
 
@@ -445,7 +445,7 @@ MP.RegisterEvent("onChatMessage", "ChatHandler")
 
 **返回：**
 
-- (table) - Table of return values from all handlers.
+- （表）- 所有处理程序的返回值表。
 
 **用法：**
 
@@ -463,11 +463,11 @@ print(Results)
 **参数：**
 
 - `eventName` （字符串）- 事件名称。
-- `...` (any, optional) - Arguments. Supported types: string, number, boolean, table.
+- `...` （任意，可选）- 参数。支持的类型：字符串、数字、布尔值、表。
 
 **返回：**
 
-- (table) - Future-like object with:
+- （表）- 类似 Future 的对象，包含：
     - `:IsDone() -> boolean` — 所有处理程序是否已完成。
     - `:GetResults() -> table` — 返回所有处理程序的值。
 
@@ -525,7 +525,7 @@ MP.CreateEventTimer("EverySecond", 1000)
 
 ---
 
-## MP — Utilities
+## MP — 工具
 
 ### `MP.CreateTimer() -> table`
 
@@ -533,7 +533,7 @@ MP.CreateEventTimer("EverySecond", 1000)
 
 **返回：**
 
-- (table) - Object with:
+- （表）- 对象包含：
     - `:GetCurrent() -> float` — 自上次开始以来经过的秒数。
     - `:Start()` — 重置计时器。
 
@@ -565,7 +565,7 @@ print(mytimer:GetCurrent())
 
 - （数字）- 主要
 - （数字）- 次要
-- (number) - patch
+- （number）- 补丁
 
 **用法：**
 
@@ -676,7 +676,7 @@ end
 
 ---
 
-## Util — Logging
+## Util — 日志记录
 
 ### `Util.LogInfo(...)` 、 `Util.LogWarn(...)` 、 `Util.LogError(...)` 、 `Util.LogDebug(...)`
 
@@ -703,7 +703,7 @@ Util.LogDebug("hi")
 
 ### `Util.JsonEncode(table) -> string`
 
-Encodes a Lua table into a JSON string.
+将 Lua 表编码为 JSON 字符串。
 
 **参数：**
 
@@ -739,7 +739,7 @@ local json = Util.JsonEncode(player)
 
 **返回：**
 
-- (table) - The decoded table.
+- （表）——解码后的表。
 - （nil）- 如果 JSON 无效。
 
 **用法：**
@@ -845,7 +845,7 @@ print(Util.JsonFlatten(json))
 
 ---
 
-## Util — Random
+## Util — 随机
 
 ### `Util.Random() -> float`
 
@@ -853,7 +853,7 @@ print(Util.JsonFlatten(json))
 
 **返回：**
 
-- (float)
+- （float）
 
 **用法：**
 
@@ -876,7 +876,7 @@ print("rand: " .. rand)
 
 **返回：**
 
-- (float)
+- （float）
 
 **用法：**
 
@@ -911,7 +911,7 @@ print("randInt: " .. randInt)
 
 ---
 
-## Util — Profiling
+## Util — 分析
 
 ### `Util.DebugStartProfile(name)`
 
@@ -939,7 +939,7 @@ print("randInt: " .. randInt)
 
 **返回：**
 
-- (table) - Per handler: `mean`, `stdev`, `min`, `max`, `n` (all in ms).
+- （表）- 每个处理程序： `mean` 、 `stdev` 、 `min` 、 `max` 、 `n` （全部以毫秒为单位）。
 
 **用法：**
 
@@ -971,11 +971,11 @@ end
 **参数：**
 
 - `host` （字符串）- 服务器地址。
-- `port` (number) - Port number.
+- `port` （number）- 端口号。
 
 **返回：**
 
-- (table) - Connection object with method `:Get(path, headers)`.
+- （表）- 具有方法的连接对象`:Get(path, headers)` 。
 
 ---
 
@@ -986,7 +986,7 @@ end
 **参数：**
 
 - `path` （字符串）- 请求路径。
-- `headers` (table) - Headers as `{[string] = string}`.
+- `headers` （表）- 表头作为`{[string] = string}` 。
 
 ---
 
@@ -1038,7 +1038,7 @@ end
 
 ---
 
-## FS — Operations
+## FS — 操作
 
 ### `FS.CreateDirectory(path) -> boolean, string`
 
@@ -1122,7 +1122,7 @@ end
 
 **返回：**
 
-- (table) - Array of file names.
+- （表）- 文件名数组。
 - （nil）- 如果路径不存在。
 
 **用法：**
@@ -1156,7 +1156,7 @@ print(FS.ListDirectories("Resources"))
 
 ---
 
-## FS — Paths
+## FS — 路径
 
 ### `FS.GetFilename(path) -> string`
 
@@ -1246,9 +1246,9 @@ FS.ConcatPaths("a", "b", "/c/d/e/", "/f/", "g", "h.txt")
 
 ---
 
-## Events
+## 事件
 
-### Player connection order
+### 玩家连接顺序
 
 ```
 onPlayerAuth → onPlayerConnecting → onPlayerJoining → onPlayerJoin
@@ -1268,7 +1268,7 @@ onPlayerAuth → onPlayerConnecting → onPlayerJoining → onPlayerJoin
 
 当服务器控制台收到输入时触发。
 
-**Arguments:**
+**参数：**
 
 - `input` （字符串）- 输入的文本。
 
@@ -1304,7 +1304,7 @@ MP.RegisterEvent("onConsoleInput", "handleConsoleInput")
 
 当玩家尝试连接时触发，在任何其他连接事件之前触发。
 
-**Arguments:**
+**参数：**
 
 - `name` （字符串）- 玩家名称。
 - `role` （字符串）- 后端玩家角色。
@@ -1333,7 +1333,7 @@ MP.RegisterEvent("onPlayerAuth", "myPlayerAuthorizer")
 
 无论玩家是否被接受或拒绝，都会在`onPlayerAuth`之后触发。
 
-**Arguments:**
+**参数：**
 
 - `wasRejected` （布尔值）- 玩家是否被拒绝。
 - `reason` （字符串）- 如果被拒绝，则显示拒绝原因。
@@ -1350,7 +1350,7 @@ MP.RegisterEvent("onPlayerAuth", "myPlayerAuthorizer")
 
 当玩家开始连接时触发，在`onPlayerAuth`之后。
 
-**Arguments:**
+**参数：**
 
 - `playerID` （数字）
 
@@ -1362,7 +1362,7 @@ MP.RegisterEvent("onPlayerAuth", "myPlayerAuthorizer")
 
 玩家完成所有模组下载后触发。
 
-**Arguments:**
+**参数：**
 
 - `playerID` （数字）
 
@@ -1374,7 +1374,7 @@ MP.RegisterEvent("onPlayerAuth", "myPlayerAuthorizer")
 
 玩家完成同步并进入游戏后触发。
 
-**Arguments:**
+**参数：**
 
 - `playerID` （数字）
 
@@ -1386,7 +1386,7 @@ MP.RegisterEvent("onPlayerAuth", "myPlayerAuthorizer")
 
 当玩家断开连接时触发。
 
-**Arguments:**
+**参数：**
 
 - `playerID` （数字）
 
@@ -1398,7 +1398,7 @@ MP.RegisterEvent("onPlayerAuth", "myPlayerAuthorizer")
 
 当玩家发送聊天消息时触发。
 
-**Arguments:**
+**参数：**
 
 - `playerID` （数字）
 - `playerName` （字符串）
@@ -1426,7 +1426,7 @@ MP.RegisterEvent("onChatMessage", "MyChatMessageHandler")
 
 在`onChatMessage`之后触发。
 
-**Arguments:**
+**参数：**
 
 - `wasSent` （布尔值）- 消息是否已发送。
 - `playerID` （数字）
@@ -1439,12 +1439,12 @@ MP.RegisterEvent("onChatMessage", "MyChatMessageHandler")
 
 ### `onVehicleSpawn`
 
-Triggered when a player spawns a new vehicle.
+当玩家生成新车辆时触发。
 
-**Arguments:**
+**参数：**
 
 - `playerID` （数字）
-- `vehicleID` (number)
+- `vehicleID` （number）
 - `data` （字符串）- 包含车辆配置和位置数据的 JSON 字符串。
 
 **可取消：**是——返回非`0`值可阻止生成。
@@ -1455,11 +1455,11 @@ Triggered when a player spawns a new vehicle.
 
 在`onVehicleSpawn`之后触发。
 
-**Arguments:**
+**参数：**
 
 - `wasSpawned` （布尔值）- 车辆是否实际生成。
 - `playerID` （数字）
-- `vehicleID` (number)
+- `vehicleID` （number）
 - `data` （字符串）
 
 **可取消：**否
@@ -1470,10 +1470,10 @@ Triggered when a player spawns a new vehicle.
 
 当玩家编辑现有车辆时触发。
 
-**Arguments:**
+**参数：**
 
 - `playerID` （数字）
-- `vehicleID` (number)
+- `vehicleID` （number）
 - `data` （字符串）- 新配置的 JSON 字符串（不包含位置数据）。
 
 **可取消：**是——返回非`0`值将取消编辑。
@@ -1484,11 +1484,11 @@ Triggered when a player spawns a new vehicle.
 
 在`onVehicleEdited`之后触发。
 
-**Arguments:**
+**参数：**
 
 - `wasAllowed` （布尔值）- 是否允许编辑。
 - `playerID` （数字）
-- `vehicleID` (number)
+- `vehicleID` （number）
 - `data` （字符串）
 
 **可取消：**否
@@ -1499,10 +1499,10 @@ Triggered when a player spawns a new vehicle.
 
 当车辆被删除时触发。
 
-**Arguments:**
+**参数：**
 
 - `playerID` （数字）
-- `vehicleID` (number)
+- `vehicleID` （number）
 
 **可取消：**否
 
@@ -1510,12 +1510,12 @@ Triggered when a player spawns a new vehicle.
 
 ### `onVehicleReset`
 
-Triggered when a player resets a vehicle.
+当玩家重置车辆时触发。
 
-**Arguments:**
+**参数：**
 
 - `playerID` （数字）
-- `vehicleID` (number)
+- `vehicleID` （number）
 - `data` （字符串）- 新位置和旋转的 JSON 字符串（不包含配置）。
 
 **可取消：**否
@@ -1526,10 +1526,10 @@ Triggered when a player resets a vehicle.
 
 当车辆油漆发生变化时触发。
 
-**Arguments:**
+**参数：**
 
 - `playerID` （数字）
-- `vehicleID` (number)
+- `vehicleID` （number）
 - `data` （字符串）- 包含新绘制数据的 JSON 字符串。
 
 **可取消：**否
@@ -1540,7 +1540,7 @@ Triggered when a player resets a vehicle.
 
 当插件目录中的文件发生更改时触发。
 
-**Arguments:**
+**参数：**
 
 - `path` （字符串）- 相对于服务器根目录的已更改文件的路径。
 
