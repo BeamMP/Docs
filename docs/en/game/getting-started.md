@@ -122,9 +122,9 @@ Change the userfolder location of Proton-BeamNG.drive to the location of Linux-B
 
 This can be done for example by creating a symlink
 
-- Note the Linux-BeamNG.drive userfolder location (this is usually found in `~/.local/share/BeamNG.drive`) and rename it, for example to `BeamNG.drive_old`
-- Note the Proton-BeamNG.drive userfolder location (this is usually found in `~/.local/share/Steam/steamapps/compatdata/284160/pfx/drive_c/users/steamuser/AppData/Local/BeamNG.drive`)
-- Create a symlink between both userfolders `ln -s ~/.local/share/Steam/steamapps/compatdata/284160/pfx/drive_c/users/steamuser/AppData/Local/BeamNG.drive ~/.local/share`
+- Note the Linux-BeamNG.drive userfolder location (this is usually found in `~/.local/share/BeamNG/BeamNG.drive`) and rename it, for example to `BeamNG.drive_old`
+- Note the Proton-BeamNG.drive userfolder location (this is usually found in `~/.local/share/Steam/steamapps/compatdata/284160/pfx/drive_c/users/steamuser/AppData/Local/BeamNG/BeamNG.drive`)
+- Create a symlink between both userfolders `ln -s ~/.local/share/Steam/steamapps/compatdata/284160/pfx/drive_c/users/steamuser/AppData/Local/BeamNG/BeamNG.drive ~/.local/share/BeamNG`
 
 With the symlink in place between the userfolders and the launcher compiled, you can have Steam run the game via Proton, while also automatically executing the launcher with the following replacement for your launch options for the vanilla game, found in the game's Properties window in its entry in Steam:
 
