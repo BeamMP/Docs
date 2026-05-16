@@ -20,7 +20,7 @@ S!!! warning "This site is under construction!"
     var(--bng-orange-shade2opaque)
     ```
 
-=== 'Monochrome"
+=== "Monochrome"
 
     ```css
     --- Monochrome
