@@ -1,4 +1,4 @@
-!!! warning "This site is under construction!"
+S!!! warning "This site is under construction!"
 
     This site is being actively worked on. 
     
@@ -10,7 +10,7 @@
 
 ## Common variables
 
-=== BeamNG Orange
+=== "BeamNG Orange"
 
     ```css
     var(--bng-orange) /*Common orange*/
@@ -20,7 +20,7 @@
     var(--bng-orange-shade2opaque)
     ```
 
-=== Monochrome
+=== 'Monochrome"
 
     ```css
     --- Monochrome
@@ -43,9 +43,9 @@
     var(--white-3) /*20% opacity*/
     ```
 
-=== BeamNG UI Color Palette
+=== "BeamNG UI Color Palette"
 
-    === Orange
+    === "Orange"
 
         ```css
         var(--bng-orange-50)
@@ -60,7 +60,7 @@
         var(--bng-orange-900)
         ```
     
-    === Cool Gray
+    === "Cool Gray"
 
         ```css
         var(--bng-cool-gray-50)
@@ -75,7 +75,7 @@
         var(--bng-cool-gray-900)
         ```
     
-    === Ter Blue
+    === "Ter Blue"
 
         ```css
         var(--bng-ter-blue-50)
@@ -90,7 +90,7 @@
         var(--bng-ter-blue-900)
         ```
     
-    === Add Blue
+    === "Add Blue"
 
         ```css
         var(--bng-add-blue-50)
@@ -105,7 +105,7 @@
         var(--bng-add-blue-900)
         ```
     
-    === Add Green
+    === "Add Green"
 
         ```css
         var(--bng-add-green-50)
@@ -120,7 +120,7 @@
         var(--bng-add-green-900)
         ```
     
-    === Add Yellow
+    === "Add Yellow"
 
         ```css
         var(--bng-add-yellow-50)
@@ -135,7 +135,7 @@
         var(--bng-add-yellow-900)
         ```
     
-    === Add Peach
+    === "Add Peach"
 
         ```css
         var(--bng-add-peach-50)
@@ -150,7 +150,7 @@
         var(--bng-add-peach-900)
         ```
 
-    === Add Red
+    === "Add Red"
 
         ```css
         var(--bng-add-red-50)
@@ -166,7 +166,7 @@
         ```
     
 
-=== Extra color presets
+=== "Extra color presets"
 
     ```css
     var(--bng-filter-orange) /*Filter preset to force SVGs to use bng-orange*/
@@ -176,7 +176,7 @@
     var(--bng-black-o2) /*20% opacity*/
     ```
 
-=== Corner rounding presets
+=== "Corner rounding presets"
 
     ```css
     var(--bng-corners-1) /*0.25rem*/

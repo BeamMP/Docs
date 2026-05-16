@@ -31,7 +31,7 @@ im.End()
 
 ## General
 
-=== Basic Formatting
+=== "Basic Formatting"
 
     ```lua
     im.Text("")
@@ -52,7 +52,7 @@ im.End()
     im.Unindent()
     ```
 
-=== Inputs
+=== "Inputs"
 
     ```lua
     im.Button("", im.ImVec2(0,0)) -- 0 = fit to content
@@ -66,7 +66,7 @@ im.End()
     im.RadioButton2("", im.IntPtr(), 0) -- arg. 3: 0 or 1 for disabled or enabled
     ```
 
-=== Other
+=== "Other"
 
     ```lua
     im.Bullet()
