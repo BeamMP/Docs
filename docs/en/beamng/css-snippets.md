@@ -123,16 +123,16 @@
     === "Add Yellow"
 
         ```css
-        var(--bng-add-yellow-50)
-        var(--bng-add-yellow-100)
-        var(--bng-add-yellow-200)
-        var(--bng-add-yellow-300)
-        var(--bng-add-yellow-400)
-        var(--bng-add-yellow-500)
-        var(--bng-add-yellow-600)
-        var(--bng-add-yellow-700)
-        var(--bng-add-yellow-800)
-        var(--bng-add-yellow-900)
+        var(--bng-ter-yellow-50)
+        var(--bng-ter-yellow-100)
+        var(--bng-ter-yellow-200)
+        var(--bng-ter-yellow-300)
+        var(--bng-ter-yellow-400)
+        var(--bng-ter-yellow-500)
+        var(--bng-ter-yellow-600)
+        var(--bng-ter-yellow-700)
+        var(--bng-ter-yellow-800)
+        var(--bng-ter-yellow-900)
         ```
     
     === "Add Peach"
