@@ -91,6 +91,9 @@ extra:
     - name: Pусский
       link: /ru/
       lang: ru
+    - name: 中文
+      link: /zh/
+      lang: zh
   homepage: /
 
 plugins:
@@ -327,6 +330,51 @@ plugins:
             Contributing: Участие
             Getting Started: Начало работы
             Community: Сообщество
+        - locale: zh
+          name: 中文
+          build: true
+          nav_translations:
+            Home: 首页
+            Support: 支持
+            Playing BeamMP: 游玩 BeamMP
+            Installing BeamMP: 安装 BeamMP
+            Error Codes: 错误代码
+            Multiplayer Settings: 多人模式设置
+            Running a Server: 运行服务器
+            Server Installation: 服务器端的安装
+            Server Maintenance: 服务器维护
+            Error Codes: 错误代码
+            Server Manual: 服务器手册
+            Mod & Resource Creation: 模组与资源制作
+            Client Side: 客户端
+            Server Side: 服务器端
+            FAQ: 常见问题解答
+            How to check for CGNAT?: 如何检查CGNAT?
+            Where can I find my IP address?: 我怎样才能找到我服务器的IP？
+            How to remove mods?: 如何删除模组？
+            Manually updating the Launcher: 手动更新启动器
+            Changing the Launcher port: 更改启动器端口
+            Creating Exclusions (Defender): 创建 Defender 排除项
+            Player FAQ: 面向玩家的疑难解答
+            Game FAQ: 游戏常见问题
+            Server FAQ: 服务器常见问题
+            Development Guides: 开发指南
+            Mod Creation: 模组制作
+            UI Apps: 图形界面-应用程序 
+            IMGUI Windows: IMGUI 窗口
+            Lua Mods: Lua 模组
+            Resource Creation: 资源制作
+            UI Apps: 图形界面-应用程序 
+            Snippets: 片段
+            BeamNG Documentation: BeamNG.drive 文档
+            Installation: 安装
+            Helpful Snippets: 实用代码片段
+            Scripting Reference: 脚本参考
+            Mod (In-Game): 游戏内模组
+            Server: 服务器
+            Contributing: 参与贡献
+            Getting Started: 快速开始
+            Community: 社区
         - locale: en
           default: true
           name: English
