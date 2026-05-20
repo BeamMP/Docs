@@ -4,7 +4,6 @@ This documentation is unofficial and produced by the BeamMP Mod Team and the Bea
 ## Understanding The File Structure
 ...
 
-
 ## Snippets
 
-Helpful code snippets can be found here: [Snippets](snippets.md)
+Helpful code snippets can be found here: [Lua Snippets](lua-snippets.md)

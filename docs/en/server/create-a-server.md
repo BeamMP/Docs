@@ -65,6 +65,7 @@ Depending on your setup, you may need to let BeamMP-Server through your firewall
 
 There you want to allow the BeamMP-Server through the firewall, **both incoming and outgoing connections**, and **both TCP and UDP**. If your firewall asks for a port instead, that will have to be the same port you used in step “1\. Port Forwarding” (usually 30814).
 
+For a more detailed guide, refer to [this documentation page](https://docs.beammp.com/FAQ/Defender-exclusions/).
 If you have issues, also feel free to ask on our [Forum](https://forum.beammp.com) or on our [Discord server](https://discord.gg/beammp) in the `#support` channel.
 
 ### **2. Obtaining an Authentication Key**
@@ -81,7 +82,7 @@ You will need a [Discord](https://discord.com) account for this step. This is ne
 
 #### 2.1. Accessing the keys page
 
-Login with Discord to the [Keymaster](https://beammp.com/keymaster).
+Login with Discord to the [Keymaster](https://keymaster.beammp.com).
 From the Keymaster homepage click on "Keys" on the left of the screen:
 
 <figure markdown>
@@ -191,7 +192,11 @@ Description = "Total Random Beam MP Server"
 ResourceFolder = "Resources"
 ```
 
-This is your configuration file. It uses a format called TOML. Refer to the [Server Maintenance](server-maintenance.md) section for more info on this file.
+!!! info
+
+      This is your configuration file. It uses a format called TOML. Refer to the [Server Maintenance](server-maintenance.md) section for more info on this file and the variables.
+      Your server will **NOT** show in the server list as long as `Private = true`. _If_ you want it to show in the list, set that to **`Private = false`**.
+
 For now, we only care about the `AuthKey` field. Between the quotes `''`, you want to paste in your AuthKey you copied in the first step.
 
 For our example key, it should then look like this:
@@ -201,10 +206,6 @@ AuthKey = '3173a2e-6az0-4542-a3p0-ddqq5ff95558'
 Give your server a name, too, in the `Name` field. You can format this with colors and more, please refer to [this section on Name customization](server-maintenance.md#customize-the-look-of-your-server-name) in the server maintenance page.
 
 If you picked a different **Port** other than **30814**, make sure to replace it here under `Port`.
-
-!!! info
-
-      Your server will **NOT** show in the server list as long as `Private = true`. _If_ you want it to show in the list, set that to **`Private = false`**.
 
 ### **5. Validation**
 
@@ -263,7 +264,7 @@ You have to give other users the public IP Address of your Server. However, be c
 
 To join your public server they can simply go to the server list, type the name of the server, and click connect. If you are unsure of what your server name is, it will be the name you put in the `ServerConfig.toml`.
 Make sure search filters are disabled and the Map set to "Any" if you can't find it.
-You can also check the [Keymaster](https://beammp.com/keymaster) Website for the Servers IP Address.
+You can also check the [Keymaster](https://keymaster.beammp.com/) Website for the Servers IP Address.
 
 Should you or your friends experience a "Connection Failed!" Error, check the Launcher Window for codes like 10060, 10061, 10030.
 This means you eihter have a CGNAT IPv4, or you have done something wrong during Step **1 Port Forwarding** or **1.1. Firewall**.

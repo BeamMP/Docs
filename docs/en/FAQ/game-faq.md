@@ -10,10 +10,11 @@ List of commonly asked questions.
 There is a full guide on how to install BeamMP on Windows, you can find it [here](https://docs.beammp.com/game/getting-started/).
 
 ---
-### **Does BeamMP work on a cracked version of BeamNG?**
+### **Does BeamMP work with pirated / modified versions of BeamNG?**
 
 BeamMP will not work with pirated or outdated versions of BeamNG.drive.
-The BeamMP support team does not offer support for issues with pirated / outdated copies.
+Modifications such as, but not limited to, 3rd party mods, may interfere with BeamMP. (See [How to clear mods](https://github.com/Protogen187/Docs/blob/main/docs/en/FAQ/Clearing-mods.md))
+The BeamMP support team is unable to provide support for issues related to: pirated, outdated or otherwise modified versions of BeamNG.drive.
 
 ---
 ### **Does BeamMP work on linux?**
@@ -23,7 +24,7 @@ The Client is not officially supported on Linux. However, you can follow our [gu
 ---
 ### **Why is the launcher flagged by my antivirus or by Windows Defender**
 
-Some antivirus programs may flag BeamMP as a threat, due to it interacting with the network and other stuff. There are **no viruses** in any of the code. The code for the launcher, server, and lua client can be found on our [GitHub](https://github.com/BeamMP).
+Some antivirus programs may flag BeamMP as a threat, due to it interacting with the network and other factors. There are **no viruses** in any of the code. The code for the launcher, server, and lua client can be found on our [GitHub](https://github.com/BeamMP).
 
 ---
 ### **I have poor gameplay performance, what should I do?**

@@ -37,8 +37,8 @@ BeamMP支持团队不提供盗版/过期副本问题的支持。
 
 确保你已经安装了基本的开发工具，通常可以在包中找到，例如：
 
-- Debian: `sudo apt install build-essential`
-- Fedora: `sudo dnf install cmake gcc-c++ perl-IPC-Cmd perl-FindBin perl-File-Compare perl-File-Copy`
+- Debian/Ubuntu: `sudo apt install build-essential`
+- Fedora: `sudo dnf install cmake gcc gcc-c++ make perl perl-IPC-Cmd perl-FindBin perl-File-Compare perl-File-Copy kernel-headers kernel-devel`
 - Arch: `sudo pacman -S base-devel`
 - openSUSE: `zypper in -t pattern devel-basis`
 - SteamOS (Arch): `sudo pacman -S base-devel linux-api-headers glibc libconfig` (You also need to do `sudo steamos-readonly disable` but make sure to enable it again after installing the packages)
@@ -68,6 +68,8 @@ export PATH=$VCPKG_ROOT:$PATH
 
 检出[最新发布版本](https://github.com/BeamMP/BeamMP-Launcher/releases/latest)所使用的标签。例如，若最新版本使用`v2.6.4`，则执行`git checkout v2.6.4`
 
+如果你使用了我们提供的示例克隆命令，你可以使用以下命令进入项目的根目录：  <br>`cd BeamMP-Launcher`
+
 在项目的根目录中，
 
 1.
@@ -94,9 +96,18 @@ cmake --build bin --parallel
 通过不指定‘ -DCMAKE_BUILD_TYPE=Release ’，您正在编译一个调试版本，该版本的文件大小较大，但不包含launcher-can-only-connect-to- server-once错误
 ```
 
-将完成的应用程序从`/bin`文件夹移到它自己的文件夹中，并从那里运行它
+!!!注意 "Fedora 用户" 如果 vcpkg 在编译 OpenSSL 时因内核头文件（kernel headers）错误而失败，请确保已安装所有依赖项: `bash sudo dnf install kernel-headers kernel-devel gcc gcc-c++ make perl ` 然后清理 vcpkg 缓存：`bash rm -rf $VCPKG_ROOT/buildtrees/openssl `最后重新运行 cmake 配置命令。
 
-本机linux BeamMP-Launcher将启动并使用本机linux beammp .drive
+将已编译完成的应用程序从`/bin`移出，放到它自己的文件夹中，然后从该文件夹运行它：
+
+```bash
+mkdir -p ~/beammp-launcher
+cp bin/BeamMP-Launcher ~/beammp-launcher/
+cd ~/beammp-launcher
+./BeamMP-Launcher
+```
+
+原生的 Linux 版 BeamMP 启动器将会启动，并使用原生的 Linux 版 BeamNG.drive。
 
 ### **2c. 在Proton兼容层上游玩BeamNG.drive**
 
