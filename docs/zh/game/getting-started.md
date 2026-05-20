@@ -11,19 +11,23 @@ BeamMP将无法与盗版或过时版本的BeamNG.drive一起工作。
 BeamMP支持团队不提供盗版/过期副本问题的支持。
 ```
 
+---
+
 ## **2. 安装**
 
 ### **2a. Windows 安装**
 
-1. 访问[beammp.com](https://beammp.com/)并点击“Download Client”按钮。
-2. 解压`BeamMP_Installer.zip`。
-3. 运行`BeamMP_Installer.exe`并按照说明进行操作。
-4. BeamMP启动器图标应将出现在您的桌​​面上。如果没有，只需在Windows搜索栏中搜索“BeamMP”即可。
-5. 启动器运行后，您应该会看到一个终端窗口，随即 BeamNG.drive将自动运行。**请勿**关闭终端窗口。
-6. BeamNG启动后，在主菜单中点击`Repository`按钮，确保`multiplayerbeammp`是**唯一启用**的mod。
-7. 返回主菜单，点击“More..”和“多人模式”按钮开始多人模式。
-8. 系统将提示您登录或以访客身份游玩（并非所有服务器都允许访客）。您可以在我们的[论坛](https://forum.beammp.com)上创建一个帐户，然后使用相同的凭据登录BeamMP。
-9. 选择您感兴趣的任何服务器，然后点击`连接` 。尽情享受吧！
+!!!注意
+
+```
+截至 2026 年 4 月 1 日，Windows Defender SmartScreen 会将该 MSI 安装程序识别为“未知应用”。
+
+若要跳过此警告，请点击“更多信息”，然后点击“仍要运行”。
+```
+
+1. 前往 [beammp.com](https://beammp.com/) 然后点击“下载”按钮
+2. 运行 `BeamMP_Installer.msi`安装程序并按照提示进行操作。
+3. BeamMP启动器的图标应该会出现在您的桌面上。如果没有出现，只需在 Windows 搜索栏中搜索“BeamMP”即可。
 
 !!!注意
 
@@ -66,9 +70,9 @@ export PATH=$VCPKG_ROOT:$PATH
 
 使用`git`将BeamMP-Launcher仓库克隆至本地，操作示例如下：`git clone https://github.com/BeamMP/BeamMP-Launcher.git`。[查看GitHub仓库克隆操作完整指南](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
 
-检出[最新发布版本](https://github.com/BeamMP/BeamMP-Launcher/releases/latest)所使用的标签。例如，若最新版本使用`v2.6.4`，则执行`git checkout v2.6.4`
-
 如果你使用了我们提供的示例克隆命令，你可以使用以下命令进入项目的根目录：  <br>`cd BeamMP-Launcher`
+
+查看用于 [最新发布版本](https://github.com/BeamMP/BeamMP-Launcher/releases/latest) 的标签（Tag）。例如，如果最新版本使用的是 `v2.8.0`，则执行命令：`git checkout v2.8.0`
 
 在项目的根目录中，
 
@@ -135,9 +139,39 @@ cd ~/beammp-launcher
 若需在服务器列表（作为服务器自定义名称组成部分）或游戏内聊天中显示表情符号，您需部署包含表情符号的字形库。例如，可通过安装Windows Segoe UI 表情符号字体的 Linux 移植版实现。
 ```
 
+### **2d. 更新启动器**
+
+如果您已经构建了启动器并想要对其进行更新：
+
+```bash
+export VCPKG_ROOT="$(pwd)/vcpkg"
+cd BeamMP-Launcher
+git fetch --tags
+```
+
+检出用于 [最新发布版本](https://github.com/BeamMP/BeamMP-Launcher/releases/latest) 的标签。例如，如果最新版本使用的是 `v2.8.0`，则执行 `git checkout v2.8.0`。
+
+```
+cmake . -B bin -DCMAKE_TOOLCHAIN_FILE=$VCPKG_ROOT/scripts/buildsystems/vcpkg.cmake -DVCPKG_TARGET_TRIPLET=x64-linux
+cmake --build bin --parallel
+cp bin/BeamMP-Launcher ~/beammp-launcher/
+cd ~/beammp-launcher
+./BeamMP-Launcher
+```
+
 ---
 
-## **3. 已知的问题**
+## **3. 使用BeamMP**
+
+1. 启动程序后，您应该会看到一个终端窗口。紧接着，标准的 BeamNG 启动程序也会随之启动。**请勿**关闭该终端窗口。
+2. 在 BeamNG.drive 的主菜单中，点击 `Repository（仓库）` 按钮，并检查确认 `multiplayerbeammp` 是 **唯一** 启用的插件（Mod）。
+3. 返回主菜单，点击“More..”和“多人模式”按钮开始多人模式。
+4. 系统将提示您登录或以访客身份游玩（并非所有服务器都允许访客）。您可以在我们的[论坛](https://forum.beammp.com)上创建一个帐户，然后使用相同的凭据登录BeamMP。
+5. 选择您感兴趣的任何服务器，然后点击`连接` 。尽情享受吧！
+
+---
+
+## **4. 已知问题**
 
 - 当前原生Linux版BeamMP启动器存在单会话限制：成功连接服务器并断开后需重启启动器。可通过热重载方案实现不关闭游戏进程的快速重启
 - 若未显示多人游戏按钮，请确认以下操作：<br>检查BeamMP模组是否已安装并在模组管理器中启用<br>尝试执行热重载快捷键 Ctrl + L
