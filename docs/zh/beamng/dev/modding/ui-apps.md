@@ -254,7 +254,7 @@ ui\modules\apps\ExampleApp\app.json
 
 该指令需要与<b>Javascript</b>文件中的指令相同
 
-# 车祸模拟器为图形界面应用程序提供的Javascript函数
+# BeamNG为图形界面应用程序提供的Javascript函数
 
 ```js
 bngApi.engineLua("lua_path.function()")
@@ -262,7 +262,7 @@ bngApi.engineLua("lua_path.function()")
 
 用于运行带或不带参数的lua函数
 
-# 车祸模拟器为图形界面应用程序提供的Lua函数
+# BeamNG为图形界面应用程序提供的Lua函数
 
 ```lua
 guihooks.trigger("EventName", Payload)
