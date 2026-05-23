@@ -31,6 +31,6 @@ hide:
 
 令人兴奋的更新即将推出，包括旨在增强您的浏览体验的全新主页。请继续关注！:slight_smile:
 
-## 社会规则
+## 社区规则
 
-请仔细查阅BeamMP [社区守则](https://docs.beammp.com/community/rules/)及封禁申诉流程说明。
+请仔细查阅BeamMP [社区规则](https://docs.beammp.com/community/rules/)及封禁申诉流程说明。
