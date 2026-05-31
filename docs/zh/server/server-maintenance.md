@@ -21,6 +21,7 @@ AuthKey | 认证密钥格式为`xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx`，其中所
 AllowGuests | true/false | 决定游客是否可以加入服务器。
 LogChat | true/false | 当启用（设置为“true”）时，聊天消息会被记录在 server.log 文件中。
 Debug | true /false | 当启用（true）时，将在日志中显示更多消息并提供更多信息。如果遇到问题，请启用此选项。启用此选项将显著增加日志文件的大小。
+IP | 连接到主机的其中一个网卡（NIC）的本地分类地址。（默认值："0.0.0.0" 或 "::"） | 服务器将尝试绑定到所提供的 IP。除非您清楚自己在做什么，否则请勿随意修改IP字段。此数值无需更改即可使服务器正常运行。
 Private | true/false | 当启用（true）时，您的服务器将不会显示在服务器列表中。任何拥有正确IP地址和端口的人仍然可以连接。
 InformationPacket | true/false | 当启用（true）时，服务器将允许未经身份验证的客户端直接通过服务器获取与服务器列表中相同的信息。
 Name | Any "text" | 在服务器列表中显示为您的服务器名称/标题。您可以使用特殊字符来为其添加颜色和样式。
