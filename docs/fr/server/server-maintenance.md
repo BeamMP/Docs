@@ -40,7 +40,7 @@ La clé d'authentification DOIT être définie par vous. Elle est vide par défa
 
 ### Tous les noms de cartes vanilla
 
-Voici toutes les cartes en stock :
+Voici toutes les cartes disponibles par défault:
 
 - /levels/gridmap_v2/info.json
 - /levels/johnson_valley/info.json
