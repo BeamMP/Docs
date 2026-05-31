@@ -222,7 +222,7 @@ La mise à jour du serveur se fait en remplaçant l'ancien exécutable par le no
 
 Si vous avez compilé à partir des sources, il vous suffit de reconstruire. Assurez-vous d'exécuter `git submodule update --init --recursive` avant de reconstruire.
 
-#### On Windows
+#### Sur Windows
 
 1. Assurez-vous d’avoir installé les fichiers [redistribuables de Visual C++](https://aka.ms/vs/17/release/vc_redist.x64.exe) afin d’exécuter le serveur.
 2. Accédez à [BeamMP.com](https://beammp.com/) et cliquez sur le bouton « Télécharger le serveur ».
