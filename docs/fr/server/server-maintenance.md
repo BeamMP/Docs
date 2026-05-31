@@ -228,7 +228,7 @@ Si vous avez compilé à partir des sources, il vous suffit de reconstruire. Ass
 2. Accédez à [BeamMP.com](https://beammp.com/) et cliquez sur le bouton « Télécharger le serveur ».
 3. Une fois téléchargé, vous devriez voir un fichier nommé `BeamMP-Server.exe` . Nous l'appellerons « nouvel exécutable ».
 4. Accédez au dossier où se trouve votre exécutable `BeamMP-Server.exe` actuel (généralement le même dossier que votre fichier `ServerConfig.toml` ). Nous l'appellerons « ancien exécutable ».
-5. Replace the old executable with the new executable (for example by copying or moving the new executable into the folder).
+5. Remplacez l'ancien exécutable par le nouveau (en copiant ou en déplaçant le nouveau dans le fichier, par example).
 
 #### Sur Linux
 
