@@ -28,17 +28,22 @@ Das Aufsetzen besteht aus folgenden Schritten. Du solltest alle davon durchgehen
 
 !!! info
 
-      Wenn du auf einem VPS (Virtual Private Server), Rotoserver bist, oder planst einen Server lokal zu hosten (mit Spielern im selben Haus wie du), kannst du diesen Schritt überspringen.
-      Dieser Schritt ist jedoch notwendig, wenn Spieler **außerhalb** deines Haushaltes deinem heim-gehosteten Server beitreten sollen (außerhalb von deinem lokalen Netzwerk)
+```
+Wenn du einen VPS (Virtual Private Server), einen Rootserver nutzt oder planst, diesen Server lokal zu hosten (mit Spielern im selben Haus wie du), kannst du diesen Schritt überspringen.
+Dieser Schritt ist notwendig, wenn, jemand **außerhalb** des Haushalts einem selbst gehosteten Server beitreten soll (außerhalb Ihres lokalen Netzwerks).
 
-      !!! danger ":material-scale-balance: ACHTUNG:"
-            **Port forwarding ist ein Risiko**.
-            Wenn du Ports weiterleitest, sind dir die Risiken beim öffnen von Ports von deinem Heimnetz ins öffentliche Netz bewusst und verlierst das Recht, BeamMP für **jegliche Schäden**, welche deinem Haushalt passieren könnten, Haften zu lassen.
-            Wir übernehmen keine Haftung für jegliche extern gelinkten Dienste oder Webseiten.
+!!! danger :material-scale-balance: HAFTUNGSAUSSCHLUSS:"
 
-Es wird daher empfohlen, BeamMP Server mit einen unserer Partner Hosting Services zu hosten.
+**Portweiterleitung birgt Risiken.**
 
-*Sieh dir [diese Anleitung zum Port weiterleiten](port-forwarding.md) an*
+Mit der Portweiterleitung erklären Sie sich mit den Risiken einverstanden, Ports in Ihrem Heimnetzwerk für die Öffentlichkeit zu öffnen, und verzichten daher auf das Recht, BeamMP für **jegliche** Schäden haftbar zu machen, die Ihnen oder Ihrem Haushalt entstehen könnten.
+
+Wir übernehmen keine Verantwortung für Inhalte auf extern verlinkten Diensten oder Websites.
+
+Es wird daher empfohlen, einen Server bei einem unserer Partnerdienste zu hosten!
+
+*Bitte lese [diese Anleitung zur Portweiterleitung](port-forwarding.md)*
+```
 
 #### Partner Hosting Services (bezahlt):
 
@@ -71,8 +76,9 @@ Der Authentifizierungsschlüssel, auch “Authentication Key” oder “AuthKey�
 
 !!! warning "WARNUNG"
 
-      TEILE ODER ZEIGE DEN SCHLÜSSEL NICHT. BEHANDLE IHN WIE EIN PASSWORT.
-
+```
+  TEILE ODER ZEIGE DEN SCHLÜSSEL NICHT. BEHANDLE IHN WIE EIN PASSWORT.
+```
 
 Um einen Schlüssel zu erwerben ist ein [Discord](https://discord.com) Konto erforderlich. Das ist wichtig um gegen Spam zu schützen.
 
@@ -141,7 +147,7 @@ Dieser Schritt funktioniert auf allen Distributionen für die wir Binaries anbie
 6. Start den Server mittels `./BeamMP-Server-xxx`. Der Server erstellt automatisch die benötigten Dateien. <br>Wenn Text im Server Feld erscheint, kannst du diesen wieder schließen. Du solltest eine `ServerConfig.toml` neben dem `BeamMP-Server.exe` sehen.
 7. (optional) Es wird empfohlen einen User namens `beammpserver` (oder ähnlich) zu erstellen, da wir empfehlen, NICHT den Server als root, sudo oder mit dem persönlichen Useraccount auszuführen. Du solltest dann die nötigen Schritte tätigen um den Server als den Server-user zu starten.
 
-Nun springe zu Schritt "4. Konfiguration".
+Fahre nun mit Schritt „4. Konfiguration“ fort.
 
 ##### Binary selbst erstellen
 
@@ -183,9 +189,10 @@ ResourceFolder = "Resources"
 
 !!! info
 
-      Dies ist deine Konfigurationsdatei. Sie verwendet das Format TOML. Weitere Informationen zu dieser Datei und den Variablen findest du im Abschnitt [Serverwartung](server-maintenance.md).
-      Der Server wird **NICHT** in der Serverliste angezeigt, solange `Private = true` eingestellt ist. _Wenn_ er in der Liste angezeigt werden soll, setze die Einstellung auf **`Private = false`**.
-
+```
+  Dies ist deine Konfigurationsdatei. Sie verwendet das Format TOML. Weitere Informationen zu dieser Datei und den Variablen findest du im Abschnitt [Serverwartung](server-maintenance.md).
+  Der Server wird **NICHT** in der Serverliste angezeigt, solange `Private = true` eingestellt ist. _Wenn_ er in der Liste angezeigt werden soll, setze die Einstellung auf **`Private = false`**.
+```
 
 Fürs Erste ist nur das Feld `AuthKey` relevant. Zwischen den Anführungszeichen `''` fügt man den AuthKey ein, den du im ersten Schritt kopiert hast.
 
@@ -211,8 +218,10 @@ Fahrzeug- und Karten-Mods werden unterschiedlich installiert, müssen aber beide
 
 !!! warning
 
-      Solltest du beim Versuch, deinem Server nach dem Hinzufügen von Mods beizutreten, die Meldung „Fertig“ oder „Start“ erhalten, hast du wahrscheinlich eine inkompatible oder fehlerhafte Mod dem Server hinzugefügt.
-      Inkompatibilitäten zwischen zwei oder mehr Mods können ebenfalls auftreten. Falls du Client-Mods installiert hast, lies bitte [diese Anleitung](../../FAQ/How-to-deactivate-mods.md) zum Entfernen von Mods aus deinem Spiel.
+```
+  Solltest du beim Versuch, deinem Server nach dem Hinzufügen von Mods beizutreten, die Meldung „Fertig“ oder „Start“ erhalten, hast du wahrscheinlich eine inkompatible oder fehlerhafte Mod dem Server hinzugefügt.
+  Inkompatibilitäten zwischen zwei oder mehr Mods können ebenfalls auftreten. Falls du Client-Mods installiert hast, lies bitte [diese Anleitung](../../FAQ/How-to-deactivate-mods.md) zum Entfernen von Mods aus deinem Spiel.
+```
 
 #### 5.2 Allgemeine Mods
 
@@ -272,12 +281,14 @@ Gib unten die öffentliche IPv4-Adresse und den Port des Servers ein und klicke 
 
 !!! warning "Ich möchte einen VPN wie RadminVPN, Hamachi oder ähnlich verwenden"
 
-      BeamMP unterstützt diese VPNs nicht, weil diese oft Probleme verursachen. Eines davon ist das blockieren von UDP Verkehr. Um dies zu beheben, siehe Sektion 1.
+```
+  BeamMP unterstützt diese VPNs nicht, weil diese oft Probleme verursachen. Eines davon ist das blockieren von UDP Verkehr. Um dies zu beheben, siehe Sektion 1.
 
-      !!! question "Aber warum hat es vorher funktioniert?"
-  
-        Das passiert, weil die Entwickler dieser Applikationen updaten und Änderungen implementiere, über welche BeamMP keine Kontroll hat.
-         Es liegt an den Entwicklern diesen Applikationen, um Support für spezifische Fälle wie eines BeamMP-Servers zu unterstützen.
+  !!! question "Aber warum hat es vorher funktioniert?"
+
+    Das passiert, weil die Entwickler dieser Applikationen updaten und Änderungen implementiere, über welche BeamMP keine Kontroll hat.
+     Es liegt an den Entwicklern diesen Applikationen, um Support für spezifische Fälle wie eines BeamMP-Servers zu unterstützen.
+```
 
 ## Immer noch Probleme?
 
