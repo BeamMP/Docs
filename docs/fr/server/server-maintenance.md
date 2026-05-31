@@ -36,7 +36,7 @@ UpdateReminderTime | Tout nombre suivi de s, min, h, d. (30s) | Définit l'inter
 
 D'autres sections peuvent et doivent être utilisées par les plugins du serveur (API Lua à venir), comme ceci : `[MyMod]` .
 
-Vous **devez** définir la clé d'authentification. Elle est vide par défaut et doit être renseignée avec la clé d'authentification obtenue lors de l'installation précédente. Ne la partagez avec personne et floutez-la complètement sur les captures d'écran.
+La clé d'authentification DOIT être définie par vous. Elle est vide par défaut et la clé utilisé doit être celle obtenue lors des étapes précédente. Ne la partagez avec personne et floutez-la complètement sur les captures d'écran.
 
 ### Tous les noms de cartes vanilla
 
