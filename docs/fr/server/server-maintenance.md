@@ -212,7 +212,7 @@ Pour recevoir des nouvelles des mises à jour dès leur sortie, suivez le canal 
 
 ### Comment mettre à jour
 
-#### Si vous utilisez un fournisseur d'hébergement partenaire BeamMP
+#### Si vous utilisez un fournisseur d'hébergement en partenariat avec BeamMP
 
 Si vous utilisez un hébergeur partenaire de BeamMP, les instructions ci-dessous ne fonctionneront probablement pas. Nous vous recommandons d'attendre plus d'informations de votre hébergeur ou de le contacter pour obtenir de l'aide.
 
