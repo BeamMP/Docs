@@ -49,11 +49,14 @@ Questo passo è necessario se vuoi che qualcuno all'esterno della tua casa ("all
 * [Zap Hosting](https://zap-hosting.com/en/beammp-server-hosting/)
 * [HostHavoc](https://hosthavoc.com/)
 * [PedalHost](https://pedal.host/)
-- [AxentHost](https://axenthost.com/games/beamng/)
 
 *NOTA: se se sceglie di acquistare il server da uno dei partner, il passo di Port Forwarding è superfluo.*
 
 Per effettuare il port forwarding, affidarsi [a questa guida esterna](https://www.aranzulla.it/come-aprire-le-porte-del-router-31808.html).
+
+#### Servizi di hosting partner (gratuiti):
+
+- [AxentHost](https://axenthost.com/games/beamng/)
 
 #### 1.1 Firewall
 

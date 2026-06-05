@@ -61,6 +61,9 @@
 - [Winheberg](https://winheberg.fr/offres/gaming/beammp?lang=en)
 - [Wabbanode](https://wabbanode.com/partner/beammp)
 - [Iceline Hosting](https://iceline-hosting.com/games/beammp)
+
+#### 合作托管服务（免费）：
+
 - [AxentHost](https://axenthost.com/games/beamng/)
 
 #### 1.1 防火墙

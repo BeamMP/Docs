@@ -61,6 +61,9 @@
 - [Винхеберг](https://winheberg.fr/offres/gaming/beammp?lang=en)
 - [Ваббанод](https://wabbanode.com/partner/beammp)
 - [Айcлайн Хостинг](https://iceline-hosting.com/games/beammp)
+
+#### Партнерские услуги хостинга (бесплатно):
+
 - [AxentHost](https://axenthost.com/games/beamng/)
 
 #### 1.1 Брандмауэр
