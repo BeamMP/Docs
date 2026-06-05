@@ -57,6 +57,7 @@ The setup consists of the following steps, you should follow all of them.
 * [Winheberg](https://winheberg.fr/offres/gaming/beammp?lang=en)
 * [Wabbanode](https://wabbanode.com/partner/beammp)
 * [Iceline Hosting](https://iceline-hosting.com/games/beammp)
+* [AxentHost](https://axenthost.com/games/beamng/)
 
 
 #### 1.1 Firewall

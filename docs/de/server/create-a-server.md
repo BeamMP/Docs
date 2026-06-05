@@ -61,6 +61,7 @@ Es wird daher empfohlen, einen Server bei einem unserer Partnerdienste zu hosten
 - [Winheberg](https://winheberg.fr/offres/gaming/beammp?lang=en)
 - [Wabbanode](https://wabbanode.com/partner/beammp)
 - [Iceline Hosting](https://iceline-hosting.com/games/beammp)
+- [AxentHost](https://axenthost.com/de/games/beamng/)
 
 #### 1.1 Firewall
 

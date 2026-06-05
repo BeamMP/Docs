@@ -57,6 +57,7 @@ Il est donc recommandé d'héberger un serveur avec l'un de nos services partena
 - [Four Seasons Hosting](https://fourseasonshosting.com)
 - [Vertuo Hosting](https://vertuohosting.com)
 - [Winheberg](https://winheberg.fr/offres/gaming/beammp?lang=en)
+- [AxentHost](https://axenthost.com/fr/games/beamng/)
 
 #### 1.1 Pare-feu
 
