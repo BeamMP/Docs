@@ -2,6 +2,8 @@
 
 ## **Creating a Server**
 Basics of setting up the server application
+This guide mostly covers needed steps to host a server **at home**
+For a quick-start guide for your VPS hosted server, visit <setup-vps>
 
 ---
 ### **Overview**
