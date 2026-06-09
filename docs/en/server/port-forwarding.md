@@ -51,7 +51,7 @@ There are 4 major steps in this guide.
     Use a tool such as CheckBeamMP to test if the rule is working.
 
     <form action="https://check.beammp.com/api/v2/beammp" method="get" target="_blank">
-     <label for="ip">IP adress:</label>
+     <label for="ip">IP address:</label>
      <input type="text" id="ip" name="ip"><br>
      <label for="port">Port:</label>
      <input type="text" id="port" name="port"><br>
@@ -226,7 +226,7 @@ There are a few different ways to test the connection.
 Our recommend way is to use our tool **CheckBeamMP** as this tests for BeamMP specific issues and protocols.
 
 <form action="https://check.beammp.com/api/v2/beammp" method="get" target="_blank">
-  <label for="ip">IP adress:</label>
+  <label for="ip">IP address:</label>
   <input type="text" id="ip" name="ip"><br>
   <label for="port">Port:</label>
   <input type="text" id="port" name="port"><br>
