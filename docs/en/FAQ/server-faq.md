@@ -86,4 +86,4 @@ If you don't have a GitHub account or you don't know how to use GitHub you can g
 
 ### **My AuthKey was compromised, what should I do?**
 
-If you believe that one of your AuthKeys are compromised, please create an Account Support ticket via our [Discord](https://discord.gg/beammp).
+If you believe that one of your AuthKeys are compromised, please create an **Account Support** ticket via our [Discord](https://discord.gg/beammp).
