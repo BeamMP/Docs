@@ -81,3 +81,9 @@ If you don't have a GitHub account or you don't know how to use GitHub you can g
 
 - If it is not something sensitive, you can create a post on our [BeamMP Forum](https://forum.beammp.com) or you can report this on our [Official Discord](https://discord.gg/beammp).
 - If the information is sensitive you can directly report the issue to a Staff member on our [Discord](https://discord.gg/beammp).
+
+---
+
+### **My AuthKey was compromised, what should I do?**
+
+If you believe that one of your AuthKey's are compromised, then please create an Account Support Ticket via our [Discord](https://discord.gg/beammp).
