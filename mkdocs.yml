@@ -116,7 +116,8 @@ plugins:
             Error Codes: Códigos de error
             Multiplayer Settings: Ajustes multijugador
             Running a Server: Ejecutando un Servidor
-            Server Installation: Instalación del Servidor
+            Server Setup (Home): Configuración del servidor (Inicio)
+            Server Setup (VPS): Configuración del servidor (VPS)
             Server Maintenance: Manutención del Servidor
             Error Codes: Códigos de error
             Server Manual: Manual del Servidor
@@ -161,7 +162,8 @@ plugins:
             Error Codes: Fehlercodes
             Multiplayer Settings: Einstellungen anpassen
             Running a Server: Server ausführen
-            Server Installation: Server Installation
+            Server Setup (ome): Server Einrichtung (Zuhause)
+            Server Setup (VPS): Server Einrichtung (VPS)
             Server Maintenance: Server Wartung
             Error Codes: Fehlercodes
             Server Manual: Server Handbuch
@@ -206,7 +208,8 @@ plugins:
             Error Codes: Codes d'erreur
             Multiplayer Settings: Paramètres multijoueurs
             Running a Server: Exécution d'un serveur
-            Server Installation: Installation du serveur
+            Server Setup (Home): Configuration du serveur (Accueil)
+            Server Setup (VPS): Configuration du serveur (VPS)
             Server Maintenance: Maintenance du serveur
             Error Codes: Codes d'erreur
             Server Manual: Manuel du serveur
@@ -251,7 +254,8 @@ plugins:
             Error Codes: Codici di errore
             Multiplayer Settings: Impostazioni multigiocatore
             Running a Server: Eseguire un server
-            Server Installation: Installazione del server
+            Server Setup (Home): Configurazione del server (Home)
+            Server Setup (VPS): Configurazione del server (VPS)
             Server Maintenance: Manutenzione del server
             Error Codes: Codici di errore
             Server Manual: Manuale del server
@@ -296,7 +300,8 @@ plugins:
             Error Codes: коды ошибок
             Multiplayer Settings: Настройки мультиплеера
             Running a Server: Запуск сервера
-            Server Installation: Установка сервера
+            Server Setup (Home): Настройка сервера (Главная)
+            Server Setup (VPS): Настройка сервера (VPS)
             Server Maintenance: Обслуживание сервера
             Error Codes: коды ошибок
             Server Manual: Руководство по серверу
@@ -341,7 +346,8 @@ plugins:
             Error Codes: 错误代码
             Multiplayer Settings: 多人模式设置
             Running a Server: 运行服务器
-            Server Installation: 服务器端的安装
+            Server Setup (Home): 服务器设置（首页）
+            Server Setup (VPS): 服务器设置（VPS）
             Server Maintenance: 服务器维护
             Error Codes: 错误代码
             Server Manual: 服务器手册
@@ -412,7 +418,8 @@ nav:
       - Error Codes: game/error-codes.md
       - Multiplayer Settings: game/multiplayer-settings.md
     - Running a BeamMP-Server:
-      - Server Installation: server/create-a-server.md
+      - Server Setup (Home): server/create-a-server.md
+      - Server Setup (VPS): server/setup-vps.md
       - Port Forwarding: server/port-forwarding.md
       - Server Maintenance: server/server-maintenance.md
       - Error Codes: server/error-codes.md
