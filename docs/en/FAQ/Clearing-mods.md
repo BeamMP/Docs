@@ -20,7 +20,7 @@ The result should be a clean new userfolder.
     If you have renamed the userfolder, you forced the game to create a new, clean userfolder. You may copy the 'settings' and 'vehicles' folder from the folder you renamed (e.g. `current_old`) to the new folder it created.
     Make sure BeamNG.Drive is closed and replace all elements in the location you want to copy the folders to. You should now have all configs and settings as they were before.
 
-    !!! warning "Be careful when moving back files/folders to the new userfolder.
+    ::: warning "Be careful when moving back files/folders to the new userfolder.
            
         If you resolved any issues by renaming the userfolder, moving back the old files may cause any issues you had to possibly re-occur.
 

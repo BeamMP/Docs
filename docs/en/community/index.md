@@ -9,29 +9,29 @@ hide:
 
 ## Our social media links
 
-!!!failure ""
+:::warning {{''}}
+BeamMP Forum - [https://forum.beammp.com](https://forum.beammp.com)
+:::
 
-    BeamMP Forum - [https://forum.beammp.com](https://forum.beammp.com)
+:::quote {{''}}
+X (Twitter) - [https://x.com/BeamMPOfficial](https://x.com/BeamMPOfficial)
+:::
 
-!!!quote ""
+:::danger {{''}}
+YouTube - [https://www.youtube.com/@BeamMPOfficial](https://www.youtube.com/@BeamMPOfficial)
+:::
 
-    X (Twitter) - [https://x.com/BeamMPOfficial](https://x.com/BeamMPOfficial)
+:::warning {{''}}
+Patreon - [https://www.patreon.com/c/BeamMP](https://www.patreon.com/c/BeamMP)
+:::
 
-!!!danger ""
+:::note {{''}}
+Discord - [https://discord.com/invite/beammp](https://discord.com/invite/beammp)
+:::
 
-    YouTube - [https://www.youtube.com/@BeamMPOfficial](https://www.youtube.com/@BeamMPOfficial)
-
-!!!warning ""
-
-    Patreon - [https://www.patreon.com/c/BeamMP](https://www.patreon.com/c/BeamMP)
-
-!!!note ""
-
-    Discord - [https://discord.com/invite/beammp](https://discord.com/invite/beammp)
-
-!!!info ""
-
-    BlueSky - [https://bsky.app/profile/beammpofficial.bsky.social](https://bsky.app/profile/beammpofficial.bsky.social)
+:::info {{''}}
+BlueSky - [https://bsky.app/profile/beammpofficial.bsky.social](https://bsky.app/profile/beammpofficial.bsky.social)
+:::
 
 ## Our Rules
 You can find our rules [here](rules.md)

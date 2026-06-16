@@ -3,7 +3,7 @@
 The Launcher can't update or shows a blank screen?
 This quick guide explains how to manually update the Launcher.
 
-!!! note
+::: note
 
     You should have already used or installed BeamMP using the installer provided by [our website](https://beammp.com) before continuing.
 

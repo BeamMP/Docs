@@ -17,4 +17,6 @@
 10064 | Хост недоступен | Маловероятная ошибка, но она означает, что хост вышел из строя из-за его отключения или закрытия портов.
 10065 | Хост недостижим | Нет интернета или плохая переадресация портов, пожалуйста, следуйте [инструкциям руководства](create-a-server.md#1-port-forwarding) .
 
-!!! Примечание. Если вы немного знаете, как работают сети/сокеты, для любого другого кода, не указанного в этом списке, вы можете обратиться к [https://learn.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2](https://learn.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2) .
+::: note
+
+Если вы немного знаете, как работают сети / сокеты, для любого другого кода, не указанного в этом списке, вы можете обратиться к [https://learn.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2](https://learn.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2) .

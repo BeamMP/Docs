@@ -9,37 +9,37 @@ hide:
 
 ## Наши страницы в социальных сетях
 
-!!!сбой ""
+:::сбой ""
 
 ```
 BeamMP Форум - [https://forum.beammp.com](https://forum.beammp.com)
 ```
 
-!!!цитата ""
+:::цитата ""
 
 ```
 X (Twitter) - [https://x.com/BeamMPOfficial](https://x.com/BeamMPOfficial)
 ```
 
-!!!опасность ""
+:::опасность ""
 
 ```
 YouTube - [https://www.youtube.com/@BeamMPOfficial](https://www.youtube.com/@BeamMPOfficial)
 ```
 
-!!!внимание ""
+:::внимание ""
 
 ```
 Patreon - [https://www.patreon.com/c/BeamMP](https://www.patreon.com/c/BeamMP)
 ```
 
-!!!примечание ""
+:::примечание ""
 
 ```
 Discord - [https://discord.com/invite/beammp](https://discord.com/invite/beammp)
 ```
 
-!!!информация ""
+:::информация ""
 
 ```
 BlueSky - [https://bsky.app/profile/beammpofficial.bsky.social](https://bsky.app/profile/beammpofficial.bsky.social)

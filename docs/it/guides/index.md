@@ -3,7 +3,7 @@ title: Guides
 description: This set of pages provides some basic guides for BeamMP
 status: new
 ---
-!!! Attenzione "Questo sito è ancora in costruzione"
+::: warning "Questo sito è ancora in costruzione"
 
 	Questo sito è in fase di lavorazione.
 	

@@ -16,7 +16,7 @@ For a detailed explanation, on what CGNAT is and why it's an issue when trying t
 Open a command prompt, run ``tracert -4 beammp.com``. This will output a series of network hops. Wait for the operation to finish (may take up to 30 hops). Check the first few IP addresses after the IP of your Router/Modem/Gateway.
 If multiple IP addresses within the range of ``100.64.x.x``-``100.127.x.x`` or ``10.xx.xx.xx`` appear after the first hop, you are most likely behind a CGNAT.
 
-!!! note
+::: note
 
     The first hop will be your Router/Modem/Gateway and differs between Devices.
     The official ranges for local networks are as follows: ``10.0.0.xxx`` - ``192.168.xxx.xxx`` - ```172.16.xxx.xxx``
@@ -28,7 +28,7 @@ Find out the WAN IP on your router by looking it up on its interface. Compare it
 Call your Internet Service Provider for assistance.
 Depending on your ISP, they might not offer dedicated *dynamic* IP adresses. Keep in mind, that a static IP is not necessary.
 
-!!! warning
+::: warning
 
     Internet Service Providers may only offer dedicated IP addresses as a **paid option**.
     Please check the prices of our partnered hosting services as they could be cheaper than this fee!

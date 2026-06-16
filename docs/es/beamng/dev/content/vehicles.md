@@ -1,4 +1,4 @@
-¡¡¡ ADVERTENCIA !!! "¡Esta página está bajo construcción!"
+::: warning "¡Esta página está bajo construcción!"
 
 ```
 Se está trabajando en este sitio.

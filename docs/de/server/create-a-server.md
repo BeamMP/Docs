@@ -26,13 +26,13 @@ Das Aufsetzen besteht aus folgenden Schritten. Du solltest alle davon durchgehen
 
 ### **1. Port Weiterleitung**
 
-!!! info
+::: info
 
 ```
 Wenn du einen VPS (Virtual Private Server), einen Rootserver nutzt oder planst, diesen Server lokal zu hosten (mit Spielern im selben Haus wie du), kannst du diesen Schritt überspringen.
 Dieser Schritt ist notwendig, wenn, jemand **außerhalb** des Haushalts einem selbst gehosteten Server beitreten soll (außerhalb Ihres lokalen Netzwerks).
 
-!!! danger :material-scale-balance: HAFTUNGSAUSSCHLUSS:"
+::: danger ":material-scale-balance: HAFTUNGSAUSSCHLUSS:"
 
 **Portweiterleitung birgt Risiken.**
 
@@ -74,7 +74,7 @@ Eine detailliertere Anleitung findest du unter [dieser Dokumentationsseite](http
 
 Der Authentifizierungsschlüssel, auch “Authentication Key” oder “AuthKey” genannt, ist nötig, um einen Öffentlichen Server zu erstellen. Für einen privaten Server benötigst du nicht zwingend einen offiziellen Schlüssel, jedoch darf das Feld in der Konfigurationsdatei nicht leer gelassen werden. Du hast eine limitierte Anzahl an Schlüssel. Ein Schlüssel kann nur für einen Server auf einmal verwendet werden, also kannst du nicht 2 Server mitdemselben Schlüssel starten. Mehr Schlüssel können durch das Unterstützen des Projektes erworben werden. Lies [diesen Artikel](https://docs.beammp.com/support/player-faq/) für mehr Informationen.
 
-!!! warning "WARNUNG"
+::: warning "WARNUNG"
 
 ```
   TEILE ODER ZEIGE DEN SCHLÜSSEL NICHT. BEHANDLE IHN WIE EIN PASSWORT.
@@ -187,7 +187,7 @@ Description = "Total Random Beam MP Server"
 ResourceFolder = "Resources"
 ```
 
-!!! info
+::: info
 
 ```
   Dies ist deine Konfigurationsdatei. Sie verwendet das Format TOML. Weitere Informationen zu dieser Datei und den Variablen findest du im Abschnitt [Serverwartung](server-maintenance.md).
@@ -216,7 +216,7 @@ Nun führe den Server erneut aus und sieh nach, ob weitere `[ERROR]` oder `[WARN
 
 Fahrzeug- und Karten-Mods werden unterschiedlich installiert, müssen aber beide im Serverordner ( `Resources/Client` ) abgelegt werden. Ziehe einfach die gewünschten Mods in diesen Ordner.
 
-!!! warning
+::: warning
 
 ```
   Solltest du beim Versuch, deinem Server nach dem Hinzufügen von Mods beizutreten, die Meldung „Fertig“ oder „Start“ erhalten, hast du wahrscheinlich eine inkompatible oder fehlerhafte Mod dem Server hinzugefügt.
@@ -279,12 +279,12 @@ Gib unten die öffentliche IPv4-Adresse und den Port des Servers ein und klicke 
   <input type="submit" value="CheckBeamMP">
 </form>
 
-!!! warning "Ich möchte einen VPN wie RadminVPN, Hamachi oder ähnlich verwenden"
+::: warning "Ich möchte einen VPN wie RadminVPN, Hamachi oder ähnlich verwenden"
 
 ```
   BeamMP unterstützt diese VPNs nicht, weil diese oft Probleme verursachen. Eines davon ist das blockieren von UDP Verkehr. Um dies zu beheben, siehe Sektion 1.
 
-  !!! question "Aber warum hat es vorher funktioniert?"
+  ::: question "Aber warum hat es vorher funktioniert?"
 
     Das passiert, weil die Entwickler dieser Applikationen updaten und Änderungen implementiere, über welche BeamMP keine Kontroll hat.
      Es liegt an den Entwicklern diesen Applikationen, um Support für spezifische Fälle wie eines BeamMP-Servers zu unterstützen.

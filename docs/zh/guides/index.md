@@ -4,7 +4,7 @@ description: 这组页面为BeamMP提供了一些基本指南
 status: 新的
 ---
 
-!!! 警告"这个网站正在建设中！"
+::: warning "这个网站正在建设中！"
 
 ```
 This site is being actively worked on.

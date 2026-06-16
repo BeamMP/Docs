@@ -2,11 +2,11 @@
 
 In BeamMP stellt der Server, mit dem du dich verbindest, die notwendigen Mods bereit. Diese werden beim Verbinden automatisch heruntergeladen und aktiviert. Sind lokale Mods installiert und aktiviert, funktioniert BeamMP oft nicht richtig, selbst wenn du nur einen zusätzlichen Mod neben BeamMP hast.
 
-!!! warning
+::: warning
 
     Entferne alle Mods, die du im Ordner BeamNG.Drive\content\ oder in Unterordnern abgelegt hast. Dieser Speicherort ist NICHT für die Installation von Mods vorgesehen und kann zu Problemen führen, wie in der Datei `DO_NOT_INSTALL_MODS_HERE.txt` im selben Verzeichnis beschrieben.
 
-    !!! quote "DO_NOT_INSTALL_MODS_HERE.txt"
+    ::: quote "DO_NOT_INSTALL_MODS_HERE.txt"
 
         Kopiere KEINE Mods in diesen Ordner: Dies kann zu beschädigten Mods, einer langsameren Installation von Updates, einem beschädigten Mod-Manager, einem beschädigten abgesicherten Modus und anderen Problemen führen.
 
@@ -32,7 +32,7 @@ Starte anschließend BeamNG.Drive über den BeamMP-Launcher. Im Repository sollt
 
 Um zwischengespeicherte Mods aus den BeamMP-Verzeichnissen zu entfernen, gehe zum Installationsort deines BeamMP-Launchers. Standardmäßig lautet der Pfad „C:\Benutzer\AppData\BeamMP-Launcher“. Dort findest du den Ordner „Ressourcen“. Lösche diesen Ordner, um alle zwischengespeicherten Mods zu löschen. Dies kann hilfreich sein, wenn du mehr Speicherplatz auf deiner Festplatte benötigst oder veraltete BeamNG-Mods entfernen möchtest.
 
-!!! question "Meine Einstellungen und Konfigurationen sind weg! Wie kann ich sie wiederherstellen?"
+::: question "Meine Einstellungen und Konfigurationen sind weg! Wie kann ich sie wiederherstellen?"
 
     Wenn du den Benutzerordner umbenannt hast, wurde das Spiel gezwungen, einen neuen, sauberen Benutzerordner zu erstellen. Du kannst die beiden Ordner „Einstellungen“ und „Fahrzeuge“ aus dem umbenannten Ordner (z. B. 0.34_OLD) in den neu erstellten Ordner kopieren.
     Stelle sicher, dass BeamNG.Drive geschlossen ist, und ersetze alle Elemente am Zielort. Alle Konfigurationen und Einstellungen sollten nun wiederhergestellt sein.

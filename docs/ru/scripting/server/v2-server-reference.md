@@ -1,4 +1,4 @@
-!!! предупреждение "Этот сайт находится в стадии разработки!"
+::: warning "Этот сайт находится в стадии разработки!"
 
 ```
 This site is being actively worked on.
@@ -12,7 +12,7 @@ This can be done any page too.
 
 ## Версия сервера 2.X
 
-!!! предупреждение
+::: предупреждение
 
 ```
 BeamMP server version 2.X is now unsupported. This documentation is provided as a reference only.

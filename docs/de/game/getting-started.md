@@ -4,7 +4,7 @@
 
 BeamMP ist vollständig kompatibel mit Windows und Linux, an der Kompatibilität mit MacOS noch wird gearbeitet. Da es sich bei Linux und MacOS jedoch um sekundäre Plattformen handelt, sind Fehler zu erwarten.
 
-!!! warning "Warnung"
+::: warning "Warnung"
 
     BeamMP funktioniert nicht mit Raubkopien oder veralteten Versionen von BeamNG.drive.
     Das BeamMP-Support Team bietet keinen Support für Probleme mit Raubkopien / veralteten Kopien.
@@ -23,9 +23,9 @@ BeamMP ist vollständig kompatibel mit Windows und Linux, an der Kompatibilität
 8. Du wirst aufgefordert, dich anzumelden oder als Gast zu spielen (nicht alle Server erlauben Gäste). Du kannst in unserem [Forum](https://forum.beammp.com) ein Konto erstellen und dich dann mit denselben Anmeldeinformationen bei BeamMP anmelden.
 9. Wählen einen beliebigen Server aus und drücken `Connect` . Viel Spaß!
 
-!!! note ""
-
-    Wenn du in eine Sitzung mit mehreren bereits gespawnten Autos beitrittst, könnte das Laden eventuell etwas länger dauern.
+::: note
+Wenn du in eine Sitzung mit mehreren bereits gespawnten Autos beitrittst, könnte das Laden eventuell etwas länger dauern.
+:::
 
 ### **2b. Linux Installation**
 
@@ -77,15 +77,15 @@ cmake . -B bin -DCMAKE_TOOLCHAIN_FILE=$VCPKG_ROOT/scripts/buildsystems/vcpkg.cma
 cmake --build bin --parallel
 ```
 
-!!!note ""
+:::note ""
 
     Sollte dir während des Erstellens der RAM ausgehen, kannst du die Anweisung --parallel weglassen. Dann wird weniger RAM verwendet, da das Erstellen nur auf einem CPU-Thread erfolgt.
 
-!!!note ""
+:::note ""
 
     Wenn du -DCMAKE_BUILD_TYPE=Release nicht spezifizierst, erstellst du eine Debug-Version, die zwar eine größere Dateigröße hat, aber nicht den Fehler „Launcher kann sich nur einmal mit einem Server verbinden" enthält.
 
-!!!note "Fedora Benutzer"
+:::note "Fedora Benutzer"
     Wenn vcpkg während der OpenSSL-Kompilierung aufgrund von Kernel-Header-Fehlern fehlschlägt, stelle sicher, dass alle Abhängigkeiten installiert sind:
     ```bash
     sudo dnf install kernel-headers kernel-devel gcc gcc-c++ make perl
@@ -126,7 +126,7 @@ Wenn der symbolische Link zwischen den Benutzerordnern und dem kompilierten Laun
 
 Beachte, dass hierbei davon ausgegangen wird, dass die Binärdatei des Launchers, die Sie zuvor kompiliert wurde, in `/home/user/BeamMP/` abgelegt wurde. Ändere diese daher so, dass sie mit der Stelle übereinstimmt, an der du die fertige Binärdatei abgelegt hast. Außerdem musst du  den Launcher jedes Mal mit dem richtigen Git-Zweig neu kompilieren, wenn ein Launcher-Update veröffentlicht wird.
 
-!!! tip "Hinzufügen von emoji-font um in-text emojis zu erhalten"
+::: tip "Hinzufügen von emoji-font um in-text emojis zu erhalten"
 
     Damit Emojis entweder in der Serverliste (als Teil eines benutzerdefinierten Servernamens) oder im Ingame-Chat angezeigt werden, benötigst du eine Schriftart, die Emojis enthält.
 

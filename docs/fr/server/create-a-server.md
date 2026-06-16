@@ -26,7 +26,7 @@ La configuration comprend les étapes suivantes, vous devez toutes les suivre.
 
 ### **1. Redirection de port**
 
-!!! info
+::: info
 
 Si vous êtes sur un VPS (Virtual Private Server), un Rootserver, ou si vous prévoyez d'héberger ce serveur localement (avec des joueurs dans la même maison que vous), vous pouvez sauter cette étape.
 Cette étape est nécessaire si vous voulez que quelqu'un **en dehors** de votre foyer rejoigne votre serveur hébergé localement (en dehors de votre réseau local).
@@ -70,7 +70,7 @@ Si vous rencontrez des problèmes, n'hésitez pas à les poser également sur no
 
 La clé d'authentification, souvent appelée « AuthKey », est nécessaire pour rendre un serveur **public** accessible à la liste des serveurs. Il est toutefois recommandé d'ajouter également la clé d'authentification aux serveurs privés. Le nombre de clés est limité. Une clé peut être utilisée sur un serveur à la fois ; vous ne pouvez donc pas démarrer deux serveurs simultanément avec la même clé. Vous pouvez obtenir davantage de clés en soutenant le projet. Consultez [cet article](https://docs.beammp.com/support/player-faq/) pour plus d'informations.
 
-!!! warning
+::: warning
 
 NE PARTAGEZ JAMAIS CETTE CLÉ ET NE LA MONTREZ À PERSONNE. TRAITEZ CECI COMME UN MOT DE PASSE.
 
@@ -184,7 +184,7 @@ Donnez également un nom à votre serveur dans le champ `Name` . Vous pouvez le 
 
 Si vous avez choisi un **port** différent de **30814** , assurez-vous de le remplacer ici sous `Port` .
 
-!!! info
+::: info
 
   Votre serveur n'apparaîtra **PAS** dans la liste des serveurs tant que le champ `Private = true` à comme option "True. _Si_ vous souhaitez qu'il apparaisse dans la liste, définissez-le sur **`Private = false`**.
 
@@ -198,7 +198,7 @@ Redémarrez votre serveur et vérifiez s'il affiche d'autres messages `[ERROR]` 
 
 L'installation des mods de véhicules et de cartes est différente, mais ils doivent tous deux être placés dans le dossier `Resources/Client` de votre serveur. Il vous suffit de glisser le mod souhaité dans ce dossier.
 
-!!! warning
+::: warning
 
 Si vous recevez un message « terminé » ou « démarrer » lorsque vous essayez de rejoindre votre serveur après avoir ajouté des mods, vous avez probablement ajouté un mod incompatible ou cassé à votre serveur.
 Des incompatibilités de mods peuvent également survenir entre deux ou plusieurs mods. Si vous avez installé des mods clients, consultez ce guide pour savoir comment les supprimer de votre jeu.
@@ -259,11 +259,11 @@ Saisissez l'IPv4 publique et le port des serveurs ci-dessous, puis cliquez sur �
   <input type="submit" value="CheckBeamMP">
 </form>
 
-!!! warning "Je souhaite utiliser un VPN tel que RadminVPN, Hamachi ou similaire."
+::: warning "Je souhaite utiliser un VPN tel que RadminVPN, Hamachi ou similaire."
 
 BeamMP ne prend pas en charge ces VPN, car ils posent souvent problème. L'un de ces problèmes est le non-transfert du trafic UDP. Pour résoudre ce problème, consultez la section 1.
 
-!!! question "Mais pourquoi cela a-t-il fonctionné dans le passé ?"
+::: question "Mais pourquoi cela a-t-il fonctionné dans le passé ?"
 
 Cela est dû au fait que les développeurs de ces applications mettent à jour leurs logiciels et mettent en œuvre des modifications sur lesquelles BeamMP n'a aucun contrôle.
 Il appartient aux développeurs de ces applications de fournir un support pour des cas d'utilisation spécifiques comme un serveur BeamMP.

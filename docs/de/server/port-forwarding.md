@@ -1,13 +1,13 @@
 # Port Weiterleitung
 
-!!! danger ":material-scale-balance: ACHTUNG"
+::: danger ":material-scale-balance: ACHTUNG"
 
   **Das weiterleiten von Ports ist ein Risiko**.
   Durch die Portweiterleitung bist du dir den Risiken bewusst, die mit der Öffnung von Ports in das öffentliche Netz verbunden sind. Daher verlierst du das Recht, BeamMP für **alle** Schäden haftbar zu machen, die dir oder deinem Haushalt entstehen können.
   Wir übernehmen keine Verantwortung für Inhalte auf extern verlinkten Diensten oder Websites.
   <u>**Wenn du diese Anleitung nicht verstehst, ziehe die Nutzung eines unserer Hosting Partner in Betracht.**</u>
 
-    !!! warning "Warnung"
+    ::: warning "Warnung"
 
       Bitte stelle sicher, dass dein Router kein 4G/5G-exklusives Gerät ist. Wenn es sich um ein Hybridgerät handelt, wähle später in Abschnitt 3 dieser Anleitung unbedingt den kabelgebundenen Adapter aus!
 
@@ -100,7 +100,11 @@ Nachfolgend findest du Beispiele für lokale IPv4-Adressen, die mindestens einer
 
 Subnetzmaske (höchstwahrscheinlich 255.255.255.0)  Standard-Gateway (höchstwahrscheinlich 192.168.0.1 oder 192.168.1.1)
 
-!!! Info „Beachte“ BeamMP unterstützt derzeit kein IPv6 zum Hosten eines Servers.
+::: info "Beachte"
+
+BeamMP unterstützt derzeit kein IPv6 zum Hosten eines Servers.
+
+:::
 
 #### 1.2. Adaptereinstellungen ändern
 
@@ -181,7 +185,11 @@ Sobald du den Bereich für die Portweiterleitung gefunden hast, kannst du die er
 
 BeamMP erfordert sowohl UDP- als auch TCP-Port 30814 (es sei denn, du hast diesen in deiner [ServerConfig.toml](create-a-server.md#4-configuration) geändert).
 
-!!!! info "Hinweis" Der **Standardport** ist **30814.** Du kannst aber auch andere Ports größer als 1024 und kleiner als 65535 wählen. Notiere dir deine Wahl, falls diese nicht 30814 ist. Du musst sowohl **TCP** als auch **UDP** weiterleiten.  Es wird empfohlen, den Standardport beizubehalten, da dieser höchstwahrscheinlich nicht von einem anderen Dienst auf Ihrem PC verwendet wird.  Wenn du jedoch mehrere Server auf einem Rechner hostest, benötigt jeder Server einen anderen Port. Server 1: 30814, Server 2: 30815 zum Beispiel.
+::: info "Hinweis"
+
+Der **Standardport** ist **30814.** Du kannst aber auch andere Ports größer als 1024 und kleiner als 65535 wählen. Notiere dir deine Wahl, falls diese nicht 30814 ist. Du musst sowohl **TCP** als auch **UDP** weiterleiten.  Es wird empfohlen, den Standardport beizubehalten, da dieser höchstwahrscheinlich nicht von einem anderen Dienst auf Ihrem PC verwendet wird.  Wenn du jedoch mehrere Server auf einem Rechner hostest, benötigt jeder Server einen anderen Port. Server 1: 30814, Server 2: 30815 zum Beispiel.
+
+:::
 
 Auf einigen Routern muss man möglicherweise zwei Regeln erstellen, eine für UDP und eine für TCP, während andere praktisch sind und dir beides mit einer einzigen Regel ermöglichen!
 
@@ -205,13 +213,13 @@ Dies kann durch die Abfrage deiner öffentlichen IPv4-Adresse erfolgen. Auch hie
 
 Besuche den folgenden Link und ersetzen Sie "IP" durch deine tatsächliche IPv4-Adresse und "Port" durch den Port deines Servers. Achte darauf, keine Leerzeichen zu hinterlassen. https://check.beammp.com/api/v2/beammp/ip/port
 
-!!! success "status: ok"
+::: success "status: ok"
 
   Wenn du die obige Ausgabe erhältst, kannst du des jetzt deinem Server beitreten!
   Es gibt zwei Möglichkeiten, beizutreten: entweder direkt mit den Daten, die du in probablyup eingegeben hast, oder, wenn dein Server auf „öffentlich“ eingestellt ist, über die Serverliste.
   Da du einen Server vor Ort hostest, verwenden 127.0.0.1 (localhost), wenn der Server auf demselben PC läuft, auf dem du spielst, oder die LAN-IPv4 des lokalen Computers, auf dem der Server läuft.
 
-!!! failure "status: error"
+::: failure "status: error"
 
   Wenn die Verbindung vollständig fehlschlägt, verwendet dein Anbieter möglicherweise CGNAT (Carrier Grade Network Address Translation). Weitere Informationen findest du unter [Wie kann ich auf CGNAT prüfen?](../FAQ/How-to-check-for-CGNAT.md),
   oder öffne ein Server-Support-Ticket auf unserem [Discord-Server](https://discord.gg/beammp) im Kanal „#support“ und einer unserer Mitarbeiter wird sich um dein Ticket kümmern!

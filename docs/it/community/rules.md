@@ -4,7 +4,7 @@ hide:
 ---
 # Regole della comunità di BeamMP
 
-!!! info
+::: info
     I moderatori non sono strettamente legati a queste regole e applicano queste ultime secondo loro discrezioni. In aggiunta a queste regole, si applicano anche le regole delle [community di Discord](https://discord.com/guidelines/) e i [Termini di Servizio](https://discord.com/terms/).
 	
 ## Regole generali di BeamMP (applicate al Discord, forum e in gioco):
@@ -43,5 +43,5 @@ hide:
 
 Tutti gli appelli sono investigati scrupolosamente, da almeno due (2) membri dello staff/moderatori che non erano coinvolti nel caso in questione. Il membro dello staff che ha emesso il ban potrà commentare, ma non potrà decidere il risultato dell'appello. Il risultato dell'appello al ban è definitivo e non può essere controbattuto. BeamMP si riserva il diritto di ammettere o meno i membri come ritiene opportuno in base alle [Linee guida della comunità BeamMP](https://forum.beammp.com/t/beammp-rules/282059), ai [ToS di Discord](https://discord.com/terms) e ad [altri fattori](https://forum.beammp.com/category/28/ban-appeal).
 
-!!! warning
+::: warning
     Nel caso il tuo account (Discord o BeamMP) sia stato bannato, non puoi crearne uno nuovo per aggirare il ban.

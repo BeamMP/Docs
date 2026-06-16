@@ -20,7 +20,7 @@
 
     If disabled, physics instabilities will cause your game to pause
 
-    !!! note ""
+    ::: note ""
 
         Its advised to leave disabled, since repeated instabilities can cause the game to crash
 
@@ -36,7 +36,7 @@
 
     If disabled, the ingame chat will be displayed in the UI app
 
-    !!! note ""
+    ::: note ""
 
         Dragging IMGUI windows out of the main game window can cause performance issues, as well as trick screen recording software into recording the chat window instead of the main game window
 
@@ -76,7 +76,7 @@
 
     If disbaled, other vehicles will stay fully visible regardless of distance
 
-    !!! note ""
+    ::: note ""
 
         This only affects the visible 3d mesh of a vehicle, not its physics node-beam-mesh. In order to also disable physics, you need to enable `Simplified collision physics` in the Gameplay settings
 
@@ -190,13 +190,13 @@
 
 ??? setting "Fade distance/Invert nametag fade direction"
 
-    !!! setting "Fade out"
+    ::: setting "Fade out"
 
         Nametags are getting less visible the further away a player is
 
         `Fade distance` defines the distance at which a nametag will be drawn at minimal opacity
 
-    !!! setting "Fade in"
+    ::: setting "Fade in"
 
         Nametags are getting more visible the further away a player is
 
@@ -234,7 +234,7 @@
 
     If disabled, no further network activity will be shown in the console
 
-    !!! danger ""
+    ::: danger ""
 
         Be careful with this setting, since all the console output gets also written into the log files
         
@@ -248,7 +248,7 @@
 
     Dont forget to also change it on the launcher side, by modifying `launcher.cfg`
 
-    !!! tip ""
+    ::: tip ""
 
         The port specified is only the first of two, the second port being used is directly following, set port + 1
 

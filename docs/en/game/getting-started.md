@@ -5,30 +5,29 @@
 BeamMP is fully compatible with Windows and Linux, compatibility with MacOS is being worked on.
 However, both Linux and MacOS are secondary platforms, this means bugs are to be expected.
 
-!!!warning
-
-    BeamMP will not work with pirated or outdated versions of BeamNG.drive.
-    The BeamMP support team does not offer support for issues with pirated / outdated copies.
-
+::: warning
+BeamMP will not work with pirated or outdated versions of BeamNG.drive.
+The BeamMP support team does not offer support for issues with pirated / outdated copies.
+:::
 ---
 
 ## **2. Installation**
 
 ### **2a. Windows Installation**
 
-!!!note
+::: note
+As of April 1st, 2026, the MSI installer is an "unrecognized app" according to Windows Defender SmartScreen.
 
-    As of April 1st, 2026, the MSI installer is an "unrecognized app" according to Windows Defender SmartScreen.
-    
-    To bypass this warning, click 'More info', then click 'Run anyway'.
+To bypass this warning, click 'More info', then click 'Run anyway'.
+:::
 
 1. Go to [beammp.com](https://beammp.com/) and click the 'Download Now' button.
 2. Run the `BeamMP_Installer.msi` installer and follow the instructions.
 3. The BeamMP Launcher icon should appear on your desktop. If not, just search for “BeamMP” in the Windows search bar.
 
-!!!note
-
-      As you are loading into a map with multiple vehicles spawned it might take longer than expected to join.
+::: note
+As you are loading into a map with multiple vehicles spawned it might take longer than expected to join.
+:::
 
 ### **2b. Linux Installation**
 
@@ -83,24 +82,25 @@ cmake . -B bin -DCMAKE_TOOLCHAIN_FILE=$VCPKG_ROOT/scripts/buildsystems/vcpkg.cma
 cmake --build bin --parallel
 ```
 
-!!!note ""
+::: note
+Should you run out of RAM while building, you can ommit the --parallel instruction, it will then use less RAM due to building only on one CPU thread.
+:::
 
-      Should you run out of RAM while building, you can ommit the --parallel instruction, it will then use less RAM due to building only on one CPU thread.
+:::note ""
+By not specifying `-DCMAKE_BUILD_TYPE=Release` you are building a debug version, which is larger in filesize but does not contain the launcher-can-only-connect-to-a-server-once bug
+:::
 
-!!!note ""
-
-      By not specifying `-DCMAKE_BUILD_TYPE=Release` you are building a debug version, which is larger in filesize but does not contain the launcher-can-only-connect-to-a-server-once bug
-
-!!!note "Fedora Users"
-    If vcpkg fails during OpenSSL compilation with kernel headers errors, ensure all dependencies are installed:
-    ```bash
-    sudo dnf install kernel-headers kernel-devel gcc gcc-c++ make perl
-    ```
-    Then clean the vcpkg cache:
-    ```bash
-    rm -rf $VCPKG_ROOT/buildtrees/openssl
-    ```
-    And retry the cmake configuration command.
+:::note Fedora Users
+If vcpkg fails during OpenSSL compilation with kernel headers errors, ensure all dependencies are installed:
+```bash
+sudo dnf install kernel-headers kernel-devel gcc gcc-c++ make perl
+```
+Then clean the vcpkg cache:
+```bash
+rm -rf $VCPKG_ROOT/buildtrees/openssl
+```
+And retry the cmake configuration command.
+:::
 
 Move the finished application out of the `/bin` folder into its own folder and run it from there:
 ```bash
@@ -132,11 +132,11 @@ With the symlink in place between the userfolders and the launcher compiled, you
 
 Note that this assumes you put the launcher's binary you compiled earlier into `/home/user/BeamMP/`, so change it to match where you put the finished binary, and you will need to re-compile the launcher with the correct git branch each time a launcher update is released.
 
-!!! tip "Adding an emoji-font to get in-text emojis"
+::: tip "Adding an emoji-font to get in-text emojis"
+In order to get emojis to show up in either the serverlist (As part of a servers customised name) or in the ingame chat, you need to have a font that contains emojis.
 
-    In order to get emojis to show up in either the serverlist (As part of a servers customised name) or in the ingame chat, you need to have a font that contains emojis.
-
-    This can be done for example by adding the [Linux-port of the Windows Segoe-UI emoji font](https://github.com/mrbvrz/segoe-ui-linux)
+This can be done for example by adding the [Linux-port of the Windows Segoe-UI emoji font](https://github.com/mrbvrz/segoe-ui-linux)
+:::
 
 ### **2d. Updating the Launcher**
 

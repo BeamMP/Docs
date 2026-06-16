@@ -4,9 +4,8 @@
 
 BeamMP与Windows和Linux完全兼容，与MacOS的兼容性正在研究中。然而，Linux和MacOS都是次要平台，这意味着bug在所难免。
 
-!!!警告
+::: warning
 
-```
 BeamMP将无法与盗版或过时版本的BeamNG.drive一起工作。
 BeamMP支持团队不提供盗版/过期副本问题的支持。
 ```
@@ -17,9 +16,8 @@ BeamMP支持团队不提供盗版/过期副本问题的支持。
 
 ### **2a. Windows 安装**
 
-!!!注意
+::: note
 
-```
 截至 2026 年 4 月 1 日，Windows Defender SmartScreen 会将该 MSI 安装程序识别为“未知应用”。
 
 若要跳过此警告，请点击“更多信息”，然后点击“仍要运行”。
@@ -29,9 +27,8 @@ BeamMP支持团队不提供盗版/过期副本问题的支持。
 2. 运行 `BeamMP_Installer.msi`安装程序并按照提示进行操作。
 3. BeamMP启动器的图标应该会出现在您的桌面上。如果没有出现，只需在 Windows 搜索栏中搜索“BeamMP”即可。
 
-!!!注意
+::: note
 
-```
 当你加载到一个有多个车辆的地图时，它可能需要比预期更长的时间才能加入。
 ```
 
@@ -88,19 +85,17 @@ cmake . -B bin -DCMAKE_TOOLCHAIN_FILE=$VCPKG_ROOT/scripts/buildsystems/vcpkg.cma
 cmake --build bin --parallel
 ```
 
-!!!注意 ""
+::: note
 
-```
 如果在编译时内存耗尽，可以提交——parallel指令，由于只在一个CPU线程上编译，它将使用更少的RAM。
 ```
 
-!!!注意 ""
+::: note
 
-```
 通过不指定‘ -DCMAKE_BUILD_TYPE=Release ’，您正在编译一个调试版本，该版本的文件大小较大，但不包含launcher-can-only-connect-to- server-once错误
 ```
 
-!!!注意 "Fedora 用户" 如果 vcpkg 在编译 OpenSSL 时因内核头文件（kernel headers）错误而失败，请确保已安装所有依赖项: `bash sudo dnf install kernel-headers kernel-devel gcc gcc-c++ make perl ` 然后清理 vcpkg 缓存：`bash rm -rf $VCPKG_ROOT/buildtrees/openssl `最后重新运行 cmake 配置命令。
+:::注意 "Fedora 用户" 如果 vcpkg 在编译 OpenSSL 时因内核头文件（kernel headers）错误而失败，请确保已安装所有依赖项: `bash sudo dnf install kernel-headers kernel-devel gcc gcc-c++ make perl ` 然后清理 vcpkg 缓存：`bash rm -rf $VCPKG_ROOT/buildtrees/openssl `最后重新运行 cmake 配置命令。
 
 将已编译完成的应用程序从`/bin`移出，放到它自己的文件夹中，然后从该文件夹运行它：
 
@@ -133,7 +128,7 @@ cd ~/beammp-launcher
 
 请注意：此配置默认假设您已将编译完成的启动器二进制文件存放于`/home/user/BeamMP/`。请根据实际二进制文件存放路径调整配置，且每次启动器版本更新时需切换至官方Git仓库对应分支重新执行编译流程。
 
-!!! 提示 "安装表情符号字体实现文本内嵌表情"
+::: 提示 "安装表情符号字体实现文本内嵌表情"
 
 ```
 若需在服务器列表（作为服务器自定义名称组成部分）或游戏内聊天中显示表情符号，您需部署包含表情符号的字形库。例如，可通过安装Windows Segoe UI 表情符号字体的 Linux 移植版实现。

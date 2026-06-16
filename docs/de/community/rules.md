@@ -5,7 +5,8 @@ hide:
 
 # BeamMP Gemeinschafts-Regeln
 
-!!! info Die Mitwirkenden von BeamMP sind nicht an die strikte Einhaltung dieser Regeln gebunden und können nach eigenem Ermessen handeln. Zusätzlich zu diesen Regeln gelten [die Community-Richtlinien](https://discord.com/guidelines/) und [Nutzungsbedingungen](https://discord.com/terms/) von Discord und werden durchgesetzt.
+::: info Die Mitwirkenden von BeamMP sind nicht an die strikte Einhaltung dieser Regeln gebunden und können nach eigenem Ermessen handeln. Zusätzlich zu diesen Regeln gelten [die Community-Richtlinien](https://discord.com/guidelines/) und [Nutzungsbedingungen](https://discord.com/terms/) von Discord und werden durchgesetzt.
+:::
 
 ## Allgemeine BeamMP-Regeln (gilt für Discord, Forum und im Spiel)
 
@@ -48,4 +49,5 @@ hide:
 
 Alle Einsprüche gegen Sperren werden gründlich untersucht, wobei mindestens zwei (2) Mitglieder des Personals/Moderationsteams, die nicht in den vorliegenden Fall involviert waren, hinzugezogen werden. Der ausstellende Mitarbeiter darf Stellung nehmen, ist aber ansonsten nicht an der Entscheidung über den Einspruch beteiligt. Die Ergebnisse des Einspruchs sind endgültig. BeamMP behält sich das Recht vor, Mitglieder nach eigenem Ermessen gemäß den BeamMP-Community-Regeln (siehe oben), [den Discord-Nutzungsbedingungen](https://discord.com/terms) und anderen Faktoren zuzulassen oder abzulehnen.
 
-!!! warning: Im Falle von Maßnahmen gegen dich, ist es untersagt, ein neues Discord- oder BeamMP-Konto zu erstellen, um die Sperre zu umgehen.
+::: warning: Im Falle von Maßnahmen gegen dich, ist es untersagt, ein neues Discord- oder BeamMP-Konto zu erstellen, um die Sperre zu umgehen.
+:::

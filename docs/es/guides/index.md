@@ -4,7 +4,7 @@ description: Este conjunto de páginas ofrece algunas guías básicas para BeamM
 status: nuevo
 ---
 
-¡¡¡ ADVERTENCIA !!! "¡Esta página está bajo construcción!"
+::: warning "¡Esta página está bajo construcción!"
 
 ```
 Se está trabajando en este sitio.

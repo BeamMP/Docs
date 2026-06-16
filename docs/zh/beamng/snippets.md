@@ -1,4 +1,4 @@
-!!!警告“该网站正在建设当中！“
+::: warning "该网站正在建设当中！"
 
 ```
 该网站仍在积极开发中。
@@ -7,6 +7,8 @@
 
 这也可以在任何页面上完成。
 ```
+
+:::
 
 # BeamNG.drive 代码的片段
 
@@ -197,13 +199,13 @@ guihooks.trigger("ConfirmationDialogClose", "Example Title")
 
 可以同时显示多个，并将按顺序依次呈现。
 
-!!! bug
+::: bug
 
 ```
 不提供任何按钮会导致玩家在不使用控制台的情况下无法退出该对话框。
 ```
 
-!!! bug
+::: bug
 
 ```
 当 **ConfirmationDialog**（确认对话框）处于活动状态时，小地图 (Minimap) UI 插件的 **SDF 部分** 依然保持可见。
@@ -241,7 +243,7 @@ Flavours控制显示的按钮类型。共有四种预设模式：
 - `noButtons`
     - Provides no buttons
 
-!!! 警告
+::: warning
 
 ```
 当页面使用noButtons模式时，如果页面内容中未提供用于关闭弹出窗口的额外 JavaScript 代码，则会导致软锁定。在这种模式下，多个页面不会合并到同一个弹出窗口中。因此，不建议使用该模式。
@@ -285,7 +287,7 @@ guihooks.trigger("introPopupClose")
 
 如果提供了多个页面，或者该hook被多次触发，这些页面将合并到同一个弹出窗口中。<br>如果在introPopup处于活动状态时触发了hook，或者已经触发了另一种类型的introPopup，则新内容将在当前弹出窗口关闭后，以独立的弹出窗口形式显示。
 
-!!! bug
+::: bug
 
 ```
 背景模糊具有最小高度限制，这会导致内容较短的弹出窗口下方出现多余的模糊区域。目前主要有两种规避方案：
@@ -330,7 +332,7 @@ guihooks.trigger("introPopupClose")
 
 如果提供了多个页面，或者该hook被多次触发，这些页面将合并到同一个弹出窗口中。<br>如果在introPopup处于活动状态时触发了hook，或者已经触发了另一种类型的introPopup，则新内容将在当前弹出窗口关闭后，以独立的弹出窗口形式显示。
 
-!!! bug
+::: bug
 
 ```
 背景模糊具有最小高度限制，这会导致内容较短的弹出窗口在其窗口下方出现多余的模糊区域。目前主要有两种规避方案：
@@ -366,7 +368,7 @@ ui_missionInfo.closeDialogue()
 
 同时只能显示一个Dialogue。任何现有的Dialogue都会被直接覆盖。
 
-!!! info
+::: info
 
 ```
 `#!lua ui_missionInfo.closeDialogue()` 必须使用该函数来关闭对话框。

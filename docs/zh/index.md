@@ -1,23 +1,47 @@
 ---
-hide:
-  - 导航
+layout: home
+
+hero:
+  name: BeamMP 文档
+  text: 你需要知道的一切
+  tagline: 为玩家、服务器所有者和开发者提供的完整指南
+  image:
+    src: /assets/core/beammp_dark.png
+    alt: BeamMP
+  actions:
+    - theme: brand
+      text: 开始
+      link: /zh/game/getting-started
+    - theme: alt
+      text: 在 GitHub 上查看
+      link: https://github.com/beammp/docs
+
+features:
+  - icon: 🎮
+    title: 对于玩家
+    details: 了解如何安装 BeamMP、连接到服务器并充分享受您的多人游戏体验
+    link: /zh/game/getting-started
+  - icon: 🖥️
+    title: 对于服务器所有者
+    details: 通过我们全面的指南和故障排除资源来设置和管理您自己的 BeamMP 服务器
+    link: /zh/server/create-a-server
+  - icon: 💻
+    title: 对于开发者
+    details: 使用详细的 API 文档和代码示例创建 mod、资源和 UI 应用
+    link: /zh/guides/index
+  - icon: ❓
+    title: 常见问题
+    details: 找到关于设置、故障排除和最佳实践的常见问题的快速答案
+    link: /zh/FAQ/player-faq
+  - icon: 📋
+    title: 社区规则
+    details: 了解我们的社区指南以及如何报告问题或上诉决定
+    link: /zh/community/rules
+  - icon: 🔗
+    title: 社区
+    details: 加入我们的 Discord、在社交媒体上关注我们并与其他 BeamMP 玩家和开发者连接
+    link: /zh/community/index
 ---
-
-!!!警告“该网站正在建设当中！“
-
-```
-这个网站正在积极建设中。
-
-觉得你能帮上忙吗？请用铅笔在右侧点击页面！
-
-这也可以在任何页面上完成。
-```
-
-# 欢迎来到BeamMP文档！:tada:
-
-欢迎来到全新改进的BeamMP文档中心！无论您是玩家，服主，还是开发者，我们都能为您提供增强BeamNG.drive多人游戏体验所需的资源。
-
-## 对于玩家
 
 首次体验BeamMP联机模组？请访问我们的[新手启航指南](../game/getting-started.md)，助您迅速完成配置部署，畅享多人模式下的高拟真驾驶盛宴。若遇基础性问题，建议优先查阅[玩家常见问题解答](../FAQ/player-faq.md)中的故障排查方案
 

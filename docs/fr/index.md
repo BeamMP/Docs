@@ -1,22 +1,47 @@
 ---
-hide:
-  - navigation
+layout: home
+
+hero:
+  name: Documentation BeamMP
+  text: Tout ce que vous devez savoir
+  tagline: Guides complets pour les joueurs, propriétaires de serveurs et développeurs
+  image:
+    src: /assets/core/beammp_dark.png
+    alt: BeamMP
+  actions:
+    - theme: brand
+      text: Commencer
+      link: /fr/game/getting-started
+    - theme: alt
+      text: View on GitHub
+      link: https://github.com/beammp/docs
+
+features:
+  - icon: 🎮
+    title: Pour les Joueurs
+    details: Apprenez comment installer BeamMP, vous connecter aux serveurs et tirer le meilleur parti de votre expérience multijoueur
+    link: /fr/game/getting-started
+  - icon: 🖥️
+    title: Pour les Propriétaires de Serveur
+    details: Configurez et gérez votre propre serveur BeamMP avec nos guides complets et ressources de dépannage
+    link: /fr/server/create-a-server
+  - icon: 💻
+    title: Pour les Développeurs
+    details: Créez des mods, des ressources et des applications UI avec la documentation API détaillée et des exemples de code
+    link: /fr/guides/index
+  - icon: ❓
+    title: FAQ
+    details: Trouvez des réponses rapides aux questions fréquemment posées sur la configuration, le dépannage et les meilleures pratiques
+    link: /fr/FAQ/player-faq
+  - icon: 📋
+    title: Règles de la Communauté
+    details: Découvrez nos directives communautaires et comment signaler des problèmes ou contester des décisions
+    link: /fr/community/rules
+  - icon: 🔗
+    title: Communauté
+    details: Rejoignez notre Discord, suivez-nous sur les réseaux sociaux et connectez-vous avec d'autres joueurs et développeurs BeamMP
+    link: /fr/community/index
 ---
-!!! warning "Ce site est en construction !"
-
-    Ce site est actuellement en cours de travail.
-
-    Pensez-vous pouvoir nous aider ? N'hésitez pas à cliquer sur la page avec un crayon à droite!
-
-    Cela peut également être fait sur n'importe quelle page.
-
-# Bienvenue sur BeamMP Docs ! :tada:
-
-Bienvenue sur le centre de documentation amélioré pour BeamMP ! Que vous soyez un joueur, un propriétaire de serveur ou un développeur, nous disposons des ressources nécessaires pour améliorer votre expérience multijoueur sur BeamNG.drive.
-
-## Pour les Joueurs
-
-Nouveau sur BeamMP ? Consultez notre [Guide de Démarrage](../game/getting-started.md) pour vous aider à commencer et profiter au maximum de vos aventures multijoueurs.
 
 ## Pour les Propriétaires de Serveur
 

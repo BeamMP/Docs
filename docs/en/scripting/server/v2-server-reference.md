@@ -1,4 +1,4 @@
-!!! warning "This site is under construction!"
+::: warning "This site is under construction!"
 
     This site is being actively worked on. 
     
@@ -8,7 +8,7 @@
 
 # Server Scripting Reference
 ## Server Version 2.X
-!!! warning
+::: warning
 
     BeamMP server version 2.X is now unsupported. This documentation is provided as a reference only.
     Please update to the latest version for maintenance and support.

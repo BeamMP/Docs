@@ -17,4 +17,4 @@
 10064 | 主机宕机 | 罕见错误，但表示主机已宕机，可能是因为主机已关闭或端口被关闭。
 10065 | 无法访问主机 | 无网络或端口转发错误，请参考 [指南步骤](create-a-server.md#1-port-forwarding)。
 
-!!! note “对于本列表中未包含的任何其他错误代码，如果你对网络/套接字有一定了解，可以参考 [https://learn.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2](https://learn.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2)。
+::: note “对于本列表中未包含的任何其他错误代码，如果你对网络/套接字有一定了解，可以参考 [https://learn.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2](https://learn.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2)。

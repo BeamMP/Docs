@@ -27,7 +27,7 @@ Resources/
 
 Папка Client содержит zip-файлы, которые отправляются клиенту, который затем загружает их как мод. Любые другие файлы в папке Client вызовут ошибку при запуске сервера, но за исключением этого будут игнорироваться сервером. ModScript.lua будет прочитан BeamNG и укажет игре, какой плагин загружать.
 
-!!!example "" [Загрузите examplePlugin.zip](../../../../assets/content/ResourcesForExamplePlugin.zip)
+:::example "" [Загрузите examplePlugin.zip](../../../../assets/content/ResourcesForExamplePlugin.zip)
 
 ## Серверный lua
 

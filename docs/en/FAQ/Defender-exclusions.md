@@ -1,10 +1,10 @@
 # How to create exclusions in the Windows Defender Firewall and Antivirus?
 
-!!! info
+::: info
     
     Before tampering with the firewall, make sure that your network within the windows networking settings is set to private (assuming you are in a private network).
 
-    !!! danger ":material-scale-balance: DISCLAIMER:"
+    ::: danger ":material-scale-balance: DISCLAIMER:"
 
         **Firewall / Defender exclsuions are a risk**.
 

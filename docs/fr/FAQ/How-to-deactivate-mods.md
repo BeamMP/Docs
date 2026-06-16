@@ -2,11 +2,11 @@
 
 Dans BeamMP, le serveur auquel vous vous connectez fournit les mods nécessaires. Ceux-ci sont téléchargés et activés automatiquement lors de la connexion. L'installation et l'activation de mods locaux peuvent souvent entraîner un dysfonctionnement de BeamMP, même avec un seul mod supplémentaire.
 
-!!! warning
+::: warning
 
 Supprimez tous les mods placés dans le dossier BeamNG.Drive\content\ ou ses sous-dossiers. Cet emplacement n'est PAS destiné à l'installation de mods et peut entraîner des problèmes, comme indiqué dans le fichier « DO_NOT_INSTALL_MODS_HERE.txt », situé dans le même répertoire.
 
-!!! quote 'DO_NOT_INSTALL_MODS_HERE.txt"
+::: quote 'DO_NOT_INSTALL_MODS_HERE.txt"
 
 NE copiez PAS les mods dans ce dossier : cela peut entraîner des mods cassés, une installation plus lente des mises à jour, un gestionnaire de mods cassé, un mode sans échec cassé et autres.
 
@@ -32,7 +32,7 @@ Une fois terminé, lancez BeamNG.Drive via le lanceur BeamMP. Le seul mod activ�
 
 Pour nettoyer les mods en cache des répertoires BeamMP, accédez à l'emplacement d'installation de votre lanceur BeamMP. Par défaut, le chemin est « C:\Users\AppData\BeamMP-Launcher ». Vous y trouverez un dossier « Resources ». Supprimez ce dossier pour supprimer tous les mods en cache. Cela peut être utile si vous avez besoin de plus d'espace disque ou si vous souhaitez supprimer des mods BeamNG obsolètes.
 
-!!! question "Mes paramètres et configurations ont disparu ! Comment puis-je les restaurer ?"
+::: question "Mes paramètres et configurations ont disparu ! Comment puis-je les restaurer ?"
 
 Si vous avez renommé le dossier utilisateur, vous avez forcé le jeu à créer un nouveau dossier utilisateur propre. Vous pouvez copier les dossiers « paramètres » et « véhicules » du dossier renommé (par exemple, 0.34_OLD) vers le nouveau dossier créé.
 Assurez-vous que BeamNG.Drive est fermé et remplacez tous les éléments à l'emplacement où vous souhaitez copier les dossiers. Toutes les configurations et tous les paramètres devraient maintenant être identiques.

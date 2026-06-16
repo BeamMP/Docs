@@ -1,6 +1,6 @@
 # Multiplayer mod creation
 
-## Folderstructure and file basics
+## Folder structure and file basics
 
 The basic folder and file structure needs to look like this:
 
@@ -31,8 +31,9 @@ The Client folder contains the zip files that are sent to a client, which then w
 Any other files in the Client folder will cause an error on server startup, but apart from that will be ignored by the server.
 The modScript.lua will be read by BeamNG and instructs the game which plugin to load.
 
-!!!example ""
-    [Download the examplePlugin.zip](../../../../assets/content/ResourcesForExamplePlugin.zip)
+:::example ""
+[Download the examplePlugin.zip](../../../../assets/content/ResourcesForExamplePlugin.zip)
+:::
 
 ## Serverside lua
 

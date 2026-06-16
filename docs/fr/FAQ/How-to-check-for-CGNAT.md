@@ -16,7 +16,7 @@ Pour une explication détaillée de ce qu'est CGNAT et pourquoi c'est un problè
 
 Ouvrez une invite de commande et exécutez `tracert -4 beammp.com` . Cela affichera une série de sauts réseau. Attendez la fin de l'opération (jusqu'à 30 sauts peuvent être nécessaires). Vérifiez les premières adresses IP après celle de votre routeur/modem/passerelle. Si plusieurs adresses IP comprises entre `100.64.xx` et `100.127.xx` ou `10.xx.xx.xx` apparaissent après le premier saut, vous êtes probablement derrière un CGNAT.
 
-!!! note
+::: note
 
 Le premier saut sera votre routeur/modem/passerelle et diffère selon les appareils.
 Les plages officielles pour les réseaux locaux sont les suivantes : « 10.0.0.xxx » - « 192.168.xxx.xxx » - « 172.16.xxx.xxx »
@@ -29,7 +29,7 @@ Trouvez l'adresse IP WAN de votre routeur en la consultant sur son interface. Co
 
 Contactez votre fournisseur d'accès Internet pour obtenir de l'aide. Selon votre fournisseur d'accès, il se peut qu'il ne propose pas d'adresses IP *dynamiques* dédiées. N'oubliez pas qu'une adresse IP statique n'est pas nécessaire.
 
-!!! warning
+::: warning
 
 Les fournisseurs de services Internet ne peuvent proposer des adresses IP dédiées qu'en tant qu'**option payante**.
 Veuillez vérifier les prix de nos services d'hébergement partenaires car ils pourraient être moins chers que ces frais !

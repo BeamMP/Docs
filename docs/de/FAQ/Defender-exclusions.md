@@ -1,18 +1,18 @@
 # Wie erstelle ich Ausnahmen für Windows Defender Firewall und Antivirus?
 
-!!! info
+::: info
 
 ```
 Bevor Änderungen an der Firewall vorgenommen werden, sollte sichergestellt werden, dass das aktive Netzwerk in den Windows Netzwerk-Einstellungen als "privat" gekennzeichnet ist (vorausgesetzt, das Netzwerk ist tatsächlich ein privates).
 
-!!! danger ":material-scale-balance: ACHTUNG:"
+::: danger ":material-scale-balance: ACHTUNG:"
 
     **Firewall-/Defender-Ausnahmen stellen ein Sicherheitsrisiko dar**.
 
     Es wird vorausgesetzt, dass der/die Leser*in die Risiken versteht, die mit dem Deaktivieren des Virenschutzes für ein Programm und dem Öffnen von Firewall-Ports in seinem/ihrem Heimnetzwerk einhergehen. BeamMP kann für keine daraus resultierenden Schäden jeglicher Art zur Verantwortung gezogen werden.
 
     Für externe, auf dieser Webseite verlinkte Inhalte wird keine Haftung übernommen.
-```
+:::
 
 ## 1. Firewall-Ausnahme für den BeamMP-Launcher
 

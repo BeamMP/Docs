@@ -17,6 +17,6 @@ This page contains all the error codes that the server may display.
 | 10064 | Host down                                  | Unlikely error, but it means that the host is down because either it's shutdown or ports were closed.                 |
 | 10065 | Host not reachable                         | No internet or bad port forwarding, please refer to the [guide steps](create-a-server.md#1-port-forwarding).          |
 
-!!! note
+::: note
 	For any other code not in this list, you can refer to <https://learn.microsoft.com/en-us/windows/win32/winsock/windows-sockets-error-codes-2> if you know a bit how networks / sockets work.
 

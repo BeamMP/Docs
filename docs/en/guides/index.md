@@ -3,7 +3,7 @@ title: Guides
 description: This set of pages provides some basic guides for BeamMP
 status: new
 ---
-!!! warning "This site is under construction!"
+::: warning "This site is under construction!"
 
     This site is being actively worked on. 
     

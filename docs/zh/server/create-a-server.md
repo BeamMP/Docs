@@ -26,13 +26,13 @@
 
 ### **1. 端口转发**
 
-!!! info
+::: info
 
 ```
 如果你使用的是 VPS（虚拟专用服务器）、Rootserver，或者计划在本地托管服务器（与家里其他玩家在同一屋檐下），可以跳过此步骤。
 如果你希望家外的人加入你本地托管的服务器（即在本地网络之外），则必须执行此步骤。
 
-!!! danger ":material-scale-balance: 免责声明："
+::: danger ":material-scale-balance: 免责声明："
 
     **端口转发存在风险**.
 
@@ -74,11 +74,11 @@
 
 ‘认证密钥’，通常称为 ‘AuthKey’，是使 **公共** 服务器可以通过服务器列表访问所必需的。虽然也建议将 AuthKey 添加到私人服务器。你拥有的密钥数量有限。一个密钥一次只能用于一台服务器，因此不能用同一个密钥同时启动两台服务器。通过支持该项目可以获得更多密钥。更多信息请参阅 [这篇文章](https://docs.beammp.com/support/player-faq/)。
 
-!!! 警告
+::: warning
 
-```
 千万不要把密钥给别人看，把它当作密码！
-```
+
+:::
 
 此步骤需要一个 [Discord](https://discord.com) 账号。此举是为了防止垃圾信息。
 
@@ -181,7 +181,7 @@ Description = "Total Random Beam MP Server"
 ResourceFolder = "Resources"
 ```
 
-!!! info
+::: info
 
 ```
 这是您的配置文件。它采用了一种名为 TOML的格式。有关该文件及其变量的更多信息，请参考 [Server Maintenance（服务器维护）](server-maintenance.md) 章节。
@@ -211,7 +211,7 @@ AuthKey = '3173a2e-6az0-4542-a3p0-ddqq5ff95558'
 
 车辆模组和地图模组的安装方式不同，但都需要将它们放入服务器的 (`Resources/Client`) 文件夹中。只需将你想添加的模组放入该文件夹即可。
 
-!!! 警告
+::: 警告
 
 ```
 如果在添加模组后尝试加入服务器时收到“done”或“start”消息，很可能是因为你向服务器添加了不兼容或损坏的模组。
@@ -275,12 +275,12 @@ Map = '/levels/myawesomedriftmap2021/info.json'
   <input type="submit" value="CheckBeamMP">
 </form>
 
-!!! warning "我想使用 RadminVPN、Hamachi 或类似的 VPN。"
+::: warning "我想使用 RadminVPN、Hamachi 或类似的 VPN。"
 
 ```
 BeamMP 不支持这些 VPN，因为它们经常引发问题。其中一个问题是 UDP 流量无法转发。要解决此问题，请参考第 1 节。
 
-!!! question "那为什么以前可以用？"
+::: question "那为什么以前可以用？"
 
     这是因为这些应用程序的开发者更新了软件并实施了 BeamMP 无法控制的更改。
 是否支持像 BeamMP-Server 这样的特定使用场景，由这些应用程序的开发者决定。

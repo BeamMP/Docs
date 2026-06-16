@@ -1,6 +1,6 @@
 # Port Forwarding
 
-!!! danger ":material-scale-balance: DISCLAIMER:"
+::: danger ":material-scale-balance: DISCLAIMER:"
 
     **Port forwarding is a risk**.
 
@@ -10,7 +10,7 @@
 
     <u>**If you do not understand this guide, please consider using one of our partners.**</u>
 
-!!! warning
+::: warning
 
       Please make sure your Router is not a 4G/5G exclusive device. If it is a hybrid device, make sure to select the cable connected adapter later in section 3 of this guide!
 
@@ -116,7 +116,7 @@ Subnet Mask (most likely 255.255.255.0)
 </br>
 Default Gateway (most likely 192.168.0.1 or 192.168.1.1)
 
-!!! info "Please Note"
+::: info "Please Note"
     BeamMP currently does not support IPv6 for hosting a server. 
 
 #### 1.2. Modify Adapter Settings
@@ -208,7 +208,7 @@ Your router will have a place to enter the ports to be forwarded and the destina
 
 BeamMP requires both UDP and TCP port 30814 (Unless you have changed this in your [ServerConfig.toml](create-a-server.md#4-configuration)). 
 
-!!! info "Note"
+::: info "Note"
     While the default **Port** is **30814**, you can choose any other number greater than 1024 but less than 65535, but you need to note down what you picked if it's not 30814\. You need to forward both **TCP** and **UDP**.
     </br>
     It is recommended to stick to the default port as that one is very unlikely to be used by another service on your PC.
@@ -238,13 +238,13 @@ This can be done by getting your public IPv4 Address, this once again can be don
 Visit the following Link and replace "IP" with your actual IPv4 address, and the "Port" with your servers port. Be sure to leave no spaces.
 https://check.beammp.com/api/v2/beammp/ip/port
 
-!!! success "status: ok"
+::: success "status: ok"
 
       If you get the output above you can now join your server!
       There are 2 ways to join, either directly with the details you entered into Probably UP, or, if your server is set to 'public', through the server-list.
       Since you are hosting a server on-premise, use 127.0.0.1 (localhost) if the Server is running on the same PC as you play, or the LAN IPv4 of the local machine that is running the server.
 
-!!! failure "status: error"
+::: failure "status: error"
 
       If the connection fails entirely, your ISP could be using CGNAT (Carrier Grade Network Address Translation). For more details, please check [How to check for CGNAT?](../FAQ/How-to-check-for-CGNAT.md),
       or open a Server Support ticket on our [Discord server](https://discord.gg/beammp) in the `#support` channel and one of our staff will get to your ticket!

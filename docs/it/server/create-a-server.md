@@ -29,7 +29,7 @@ La configurazione consiste di pochi passi che sono obbligatori da seguire.
 Questo passo è necessario se vuoi che qualcuno all'esterno della tua casa ("all'esterno del tuo network locale o LAN") possa accedere al server.
 
 ####
-!!! danger ":material-scale-balance: LIMITAZIONE DI RESPONSABILITA':"
+::: danger ":material-scale-balance: LIMITAZIONE DI RESPONSABILITA':"
 	
     **Port forward è rischioso**
 

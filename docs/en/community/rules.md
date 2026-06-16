@@ -4,7 +4,7 @@ hide:
 ---
 # BeamMP Community Rules
 
-!!! info
+::: info
     BeamMP Staff are not bound to moderate strictly by these rules and may operate at their own discretion. In addition to these rules, Discord's [Community Guidelines](https://discord.com/guidelines/) and [Terms of Service](https://discord.com/terms/) apply, and are enforced.
 
 ## BeamMP General Rules (Applies to Discord, Forum and In-Game)
@@ -50,5 +50,5 @@ hide:
 
 All ban appeals are investigated thoroughly, involving at least two (2) members of the staff/moderation team that were not involved in the case-at-hand.  The issuing staff member will be allowed to comment, but will not be otherwise involved in the appeal decision.  These appeal outcomes are final. BeamMP reserves the right to allow or not allow members as they deem appropriate according to the BeamMP Community Rules (as above), [Discord ToS](https://discord.com/terms), and other factors. 
 
-!!! warning
+::: warning
     In the event of action taken against you, you are prohibited from creating a new Discord or BeamMP account to circumvent the ban.
