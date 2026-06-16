@@ -8,19 +8,19 @@ Liste häufig gestellter Fragen und bekannter Probleme.
 
 ---
 
-#### **Wie kann ich meine eigenen Server einrichten?**
+### **Wie kann ich meine eigenen Server einrichten?**
 
 Alle Informationen um einen eigenen Server zu erstellen findest du [hier](https://docs.beammp.com/server/create-a-server/).
 
 ---
 
-#### **Kann man unter Linux einen Server erstellen?**
+### **Kann man unter Linux einen Server erstellen?**
 
 Wir bieten Binaries für mehrere Linux Distributionen [hier](https://github.com/BeamMP/BeamMP-Server/releases/latest) an. Wenn es keine Binaries für dein OS oder deine Distro gibt, kannst du diese selber bauen, indem du dir die Source von unserem [GitHub](https://github.com/BeamMP/BeamMP-Server) runter lädst. Ein Tutorial kannst du [hier](https://github.com/BeamMP/BeamMP-Server#build-instructions) finden.
 
 ---
 
-#### **Was sind die Hardware Mindestanforderungen für einen BeamMP-Server?**
+### **Was sind die Hardware Mindestanforderungen für einen BeamMP-Server?**
 
 - RAM: 50+ MiB nutzbar (ohne Betriebssystem puffer)
 - CPU: &gt;1GHz, multicore bevorzugt
@@ -31,7 +31,7 @@ Wir bieten Binaries für mehrere Linux Distributionen [hier](https://github.com/
 
 ---
 
-### **Spieler außerhalb meines Netzwerks können meinem selbst gehosteten Server nicht beitreten**
+## **Spieler außerhalb meines Netzwerks können meinem selbst gehosteten Server nicht beitreten**
 
 Lies die Anleitung für das weiterleiten von Ports in [diesem Artikel](https://docs.beammp.com/server/port-forwarding/). Unten findest du die wichtigsten Schritte. Wenn andere Spieler versuchen deinen Server beizutreten, erhalten aber Fehlercodes wie 10060, 10061 oder 10038 in ihrem BeamMP-Launcher, dann beachte folgende Schritte.
 
@@ -67,7 +67,7 @@ Wenn der Server auf demselben Computer wie das Spiel läuft, du selbst musst in 
 
 ---
 
-#### **Wo kann ich den Code finden?**
+### **Wo kann ich den Code finden?**
 
 Der Source Code kann auf unserem [GitHub](https://github.com/BeamMP) gefunden werden. Bevor du etwas damit anstellst, vergiss nicht, dass der Code unseren [Nutzungsbedingungen](https://forum.beammp.com/t/terms-of-use-v1-0/43) und Lizenzen unterliegt:
 
@@ -79,7 +79,7 @@ Client Lua | [LIZENZ](https://github.com/BeamMP/BeamMP/blob/development/LICENSE.
 
 ---
 
-#### **Ich habe einen Bug oder Exploit gefunden. Was soll ich tun?**
+### **Ich habe einen Bug oder Exploit gefunden. Was soll ich tun?**
 
 Wenn das Problem auf den Code zurückzuführen ist, erstelle eine neue "Issue" im korrekten Repository auf [GitHub](https://github.com/BeamMP). Wir nutzen einen issue-basierten Workflow. Wenn du einen Fix für das Problem gefunden hast, erstelle am besten trotzdem eine "Issue", dann erstelle einen "Pull Request" der deine "Issue" löst. Weitere Informationen zum mitmachen findest du [hier](https://github.com/BeamMP/BeamMP/blob/development/CONTRIBUTING.md).
 
@@ -87,3 +87,9 @@ Wenn du keinen GitHub account hast oder nicht weißt, wie man GitHub nutzt, kann
 
 - Wenn etwas nicht Empfindlich ist, kannst du es auf dem [BeamMP Forum](https://forum.beammp.com) posten, oder du kannst es auf unserem [Offiziellen Discord Server](https://discord.gg/beammp) melden.
 - Wenn die Information empfindlich ist, melde diese direkt an ein Teammitglied auf unserem [Discord Server](https://discord.gg/beammp).
+
+---
+
+### **Mein Authentifizierungsschlüssel wurde kompromittiert, was soll ich tun?**
+
+Falls du glaubst, dass einer deiner Authentifizierungsschlüssel kompromittiert wurde, erstelle bitte ein **Support** -Ticket über unseren [Discord-Server](https://discord.gg/beammp) .
