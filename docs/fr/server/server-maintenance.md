@@ -16,22 +16,31 @@ La configuration comporte une section par défaut, appelée `[General]` , qui co
 
 Key | Type de valeur | Description
 --- | --- | ---
-AuthKey | Format AuthKey `xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx` où tous les x sont des caractères alphanumériques (chiffres et lettres) | Utilisé pour identifier votre serveur auprès du backend. Vous devriez en avoir obtenu un en suivant les instructions d'installation.
+Port | 1024-65535 | Le port réseau sur lequel le serveur sera accessible. (Il doit être unique et ne pas être utilisé par un autre service sur le même hôte).
+AuthKey | Format AuthKey `xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx` où tous les x sont des caractères alphanumériques (chiffres et lettres) | Permet d'identifier un serveur de set public avec le backend.
+AllowGuests | true/false | Détermine si les invités sont autorisés à se connecter au serveur ou non.
+LogChat | true /false | Lorsque cette option est activée (true), les messages de chat sont enregistrés dans le fichier server.log.
 Debug | true /false | Si cette option est activée (true), davantage de messages seront affichés dans le journal et des informations supplémentaires seront fournies. Activez-la en cas de problème. L'activation de cette option augmentera considérablement la taille du fichier journal.
+IP | Adresse de classe locale d'une des cartes réseau connectées à l'hôte. (Par défaut : « 0.0.0.0 » ou « :: ») | Le serveur tentera de se connecter à l'adresse IP fournie. Veuillez ne pas modifier ce champ sauf si vous savez ce que vous faites. Il n'est pas nécessaire de modifier cette valeur pour que le serveur fonctionne.
 Private | true/false | Si cette option est activée (true), votre serveur n'apparaîtra pas dans la liste des serveurs. Toute personne disposant de l'adresse IP et du port corrects pourra se connecter.
-Description | Tout « texte » | Affiché comme description du serveur dans la liste des serveurs (si le serveur est public). Vous pouvez utiliser des caractères spéciaux pour le formater avec des couleurs et des styles.
+InformationPacket | true/false | Lorsque cette option est activée (true), le serveur autorisera les clients non authentifiés à obtenir les mêmes informations que celles figurant sur la liste des serveurs, mais directement via le serveur.
 Name | Tout « texte » | Affiché comme nom/titre de votre serveur dans la liste des serveurs. Vous pouvez utiliser des caractères spéciaux pour le formater avec des couleurs et des styles.
-Map | Un emplacement de carte valide, tel que `/levels/gridmap_v2/info.json` | La carte que votre serveur hébergera. Elle doit être installée soit par défaut (liste ci-dessous), soit en tant que mod de serveur.
+Tags | Voir la liste des tags autorisés ci-dessous. | Mots clés pour la recherche, par exemple : Police, Racing, etc.
 MaxCars | Tout nombre ≥ 1 | Nombre maximal de voitures par joueur. Toute voiture supplémentaire qu'un joueur tentera de faire apparaître sera supprimée instantanément.
-Port | 1024-65535 | Le port réseau sur lequel le serveur sera accessible. Pour qu'un joueur puisse se connecter directement à votre serveur, il aura besoin de votre adresse IP et de ce port.
+MaxPlayers | Tout nombre ≥ 1 | Le nombre maximal de joueurs par serveur. Cela n'a aucune incidence sur le nombre de véhicules.
+Map | Un emplacement de carte valide, tel que `/levels/gridmap_v2/info.json` | La carte que votre serveur hébergera. Elle doit être installée soit par défaut (liste ci-dessous), soit en tant que mod de serveur.
+Description | Tout « texte » | Affiché comme description du serveur dans la liste des serveurs (si le serveur est public). Vous pouvez utiliser des caractères spéciaux pour le formater avec des couleurs et des styles.
+ResourceFolder | Un chemin d'accès valide vers un dossier, tel que « D:\Server\BeamMP\Resources » | Utile pour stocker séparément le serveur et le dossier de ressources.
+ImScaredOfUpdates | true/false | Cette option permet de définir si le serveur doit se mettre à jour automatiquement ou non lorsqu'une nouvelle version est disponible.
+UpdateReminderTime | Tout nombre suivi de s, min, h, d. (30s) | Définit l'intervalle du message de rappel de mise à jour affiché dans le terminal.
 
 D'autres sections peuvent et doivent être utilisées par les plugins du serveur (API Lua à venir), comme ceci : `[MyMod]` .
 
-Vous **devez** définir la clé d'authentification. Elle est vide par défaut et doit être renseignée avec la clé d'authentification obtenue lors de l'installation précédente. Ne la partagez avec personne et floutez-la complètement sur les captures d'écran.
+La clé d'authentification DOIT être définie par vous. Elle est vide par défaut et la clé utilisé doit être celle obtenue lors des étapes précédente. Ne la partagez avec personne et floutez-la complètement sur les captures d'écran.
 
 ### Tous les noms de cartes vanilla
 
-Voici toutes les cartes en stock :
+Voici toutes les cartes disponibles par défault:
 
 - /levels/gridmap_v2/info.json
 - /levels/johnson_valley/info.json
@@ -203,7 +212,7 @@ Pour recevoir des nouvelles des mises à jour dès leur sortie, suivez le canal 
 
 ### Comment mettre à jour
 
-#### Si vous utilisez un fournisseur d'hébergement partenaire BeamMP
+#### Si vous utilisez un fournisseur d'hébergement en partenariat avec BeamMP
 
 Si vous utilisez un hébergeur partenaire de BeamMP, les instructions ci-dessous ne fonctionneront probablement pas. Nous vous recommandons d'attendre plus d'informations de votre hébergeur ou de le contacter pour obtenir de l'aide.
 
@@ -213,15 +222,15 @@ La mise à jour du serveur se fait en remplaçant l'ancien exécutable par le no
 
 Si vous avez compilé à partir des sources, il vous suffit de reconstruire. Assurez-vous d'exécuter `git submodule update --init --recursive` avant de reconstruire.
 
-#### On Windows
+#### Sur Windows
 
 1. Assurez-vous d’avoir installé les fichiers [redistribuables de Visual C++](https://aka.ms/vs/17/release/vc_redist.x64.exe) afin d’exécuter le serveur.
 2. Accédez à [BeamMP.com](https://beammp.com/) et cliquez sur le bouton « Télécharger le serveur ».
 3. Une fois téléchargé, vous devriez voir un fichier nommé `BeamMP-Server.exe` . Nous l'appellerons « nouvel exécutable ».
 4. Accédez au dossier où se trouve votre exécutable `BeamMP-Server.exe` actuel (généralement le même dossier que votre fichier `ServerConfig.toml` ). Nous l'appellerons « ancien exécutable ».
-5. Replace the old executable with the new executable (for example by copying or moving the new executable into the folder).
+5. Remplacez l'ancien exécutable par le nouveau (en copiant ou en déplaçant le nouveau dans le fichier, par example).
 
-#### Sous Linux
+#### Sur Linux
 
 1. Accédez à [BeamMP.com](https://beammp.com/) et cliquez sur le bouton « Télécharger le serveur », vous serez redirigé vers la page de publication Github du serveur.
 2. Téléchargez la version adaptée à votre distribution. Par souci de simplicité, elle s'appellera désormais `BeamMP-Server-xxx` , où `xxx` désigne la version de la distribution que vous utilisez.
