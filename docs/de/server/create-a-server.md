@@ -2,7 +2,7 @@
 
 ## **Einen Server erstellen**
 
-Die Grundlagen für das Erstellen eines Servers
+Grundlagen der Serveranwendungseinrichtung. Diese Anleitung beschreibt die vollständige Einrichtung zum Hosten eines Servers **zu Hause** . Eine Kurzanleitung für deinen VPS-Server findest du unter [„So erstellt man einen Server“.](https://docs.beammp.com/server/setup-vps/)
 
 ---
 
@@ -206,28 +206,29 @@ Gib dem Server im Feld `Name` ebenfalls einen Namen. Du kannst diesen mit Farben
 
 Wenn du einen anderen **Port** als **30814** ausgewählt hast, achte darauf, ihn hier unter `Port` zu ersetzen.
 
-### **5. Validierung**
+#### **4.1. Überprüfung**
 
 Nun führe den Server erneut aus und sieh nach, ob weitere `[ERROR]` oder `[WARN]` Meldungen erscheinen. Der Server sollte nun offen bleiben. In den folgenden Schritten (6.) erfährst du, wie man dem Server beitritt.
 
 ---
 
-#### 5.1 Wie man dem Server Mods hinzufügt
+### 5. Wie man Mods dem Server hinzufügt
 
 Fahrzeug- und Karten-Mods werden unterschiedlich installiert, müssen aber beide im Serverordner ( `Resources/Client` ) abgelegt werden. Ziehe einfach die gewünschten Mods in diesen Ordner.
 
 !!! warning
 
 ```
-  Solltest du beim Versuch, deinem Server nach dem Hinzufügen von Mods beizutreten, die Meldung „Fertig“ oder „Start“ erhalten, hast du wahrscheinlich eine inkompatible oder fehlerhafte Mod dem Server hinzugefügt.
-  Inkompatibilitäten zwischen zwei oder mehr Mods können ebenfalls auftreten. Falls du Client-Mods installiert hast, lies bitte [diese Anleitung](../../FAQ/How-to-deactivate-mods.md) zum Entfernen von Mods aus deinem Spiel.
+Mods können mit BeamNG, BeamMP oder anderen Mods inkompatibel sein oder werden. Falls Probleme auftreten, solltest du beginnen, Mods  zu entfernen.
+Solltest du beim Versuch, deinem Server nach dem Hinzufügen von Mods beizutreten, die Meldung „Fertig“ oder „Start“ erhalten, haast du wahrscheinlich eine inkompatible oder fehlerhafte Mod zu deinem Server hinzugefügt.
+Inkompatibilitäten zwischen zwei oder mehr Mods können ebenfalls auftreten. Falls du Client-Mods installiert hast, lies bitte [diese Anleitung](../../FAQ/How-to-deactivate-mods.md) zum Entfernen von Mods aus deinem Spiel.
 ```
 
-#### 5.2 Allgemeine Mods
+#### 5.1 Allgemeine Mods
 
 Wenn du nur modifizierte Fahrzeuge hinzufügen möchtest, lege die Zip-Datei der Mods einfach in den Ordner `Resources/Client`. Diese werden automatisch von jedem heruntergeladen, der dem Server beitritt.
 
-#### 5.3 Karten
+#### 5.2 Karten
 
 Alle Standardkarten (Karten, die keine Mods sind) funktionieren sofort und müssen nicht installiert werden. Ändere einfach die `Map` in der Datei `ServerConfig.toml` auf eine der [folgenden Optionen](server-maintenance.md#all-vanilla-maps-names) . Für alle anderen modifizierten Karten gehe wie folgt vor:
 
@@ -292,4 +293,4 @@ Gib unten die öffentliche IPv4-Adresse und den Port des Servers ein und klicke 
 
 ## Immer noch Probleme?
 
-Öffne ein Post auf dem [Forum](https://forum.beammp.com) oder auf dem [Discord server](https://discord.gg/beammp) im `#support` Kanal.
+Öffne einen Thread im [Forum](https://forum.beammp.com) oder reiche ein **Server-Support-Ticket** auf unserem [Discord-Server](https://discord.gg/beammp) im Kanal `#support` ein.
