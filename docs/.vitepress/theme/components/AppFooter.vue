@@ -123,7 +123,7 @@ const socials = [
           </a>
           <span aria-hidden="true">·</span>
           <a
-            href="https://forum.beammp.com/topic/95/privacy-policy-v1-0"
+            href="https://beammp.com/privacy"
             target="_blank"
             rel="noopener noreferrer"
             class="bm-footer__legal-link"
@@ -132,7 +132,7 @@ const socials = [
           </a>
           <span aria-hidden="true">·</span>
           <a
-            href="https://forum.beammp.com/topic/94/terms-of-use-v1-0"
+            href="https://beammp.com/terms"
             target="_blank"
             rel="noopener noreferrer"
             class="bm-footer__legal-link"

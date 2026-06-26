@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /en/game/getting-started
+      link: /en/get-started/index
     - theme: alt
       text: View on GitHub
       link: https://github.com/beammp/docs
@@ -20,19 +20,19 @@ features:
   - icon: 🎮
     title: For Players
     details: Learn how to install BeamMP, connect to servers, and get the most out of your multiplayer experience
-    link: /en/game/getting-started
+    link: /en/players/gameplay-basics
   - icon: 🖥️
     title: For Server Owners
     details: Set up and manage your own BeamMP server with our comprehensive guides and troubleshooting resources
-    link: /en/server/create-a-server
+    link: /en/server-owners/host-a-server
   - icon: 💻
     title: For Developers
     details: Create mods, resources, and UI apps with detailed API documentation and code examples
-    link: /en/guides/index
+    link: /en/developers/index
   - icon: ❓
     title: FAQ
     details: Find quick answers to common questions about setup, troubleshooting, and best practices
-    link: /en/FAQ/player-faq
+    link: /en/troubleshooting/index
   - icon: 📋
     title: Community Rules
     details: Learn about our community guidelines and how to report issues or appeal decisions

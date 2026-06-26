@@ -70,7 +70,7 @@ const localizeItems = (locale: LocaleKey, items: NavItem[]): DefaultTheme.NavIte
   })
 }
 
-const baseNav: NavItem[] = [
+const legacyBaseNav: NavItem[] = [
   { text: 'Home', link: '/' },
   {
     text: 'Support',
@@ -163,9 +163,161 @@ const baseNav: NavItem[] = [
   }
 ]
 
-const localeNav = (locale: LocaleKey) => localizeItems(locale, baseNav)
+const baseNav: NavItem[] = [
+  { text: 'Home', link: '/' },
+  {
+    text: 'Get Started',
+    items: [
+      { text: 'Install BeamMP', link: '/get-started/install-beammp' },
+      { text: 'Join Your First Server', link: '/get-started/join-first-server' },
+      { text: 'First-Time Multiplayer Settings', link: '/get-started/multiplayer-settings-quickstart' }
+    ]
+  },
+  {
+    text: 'Players',
+    items: [
+      { text: 'Gameplay Basics', link: '/players/gameplay-basics' },
+      { text: 'Multiplayer Settings', link: '/players/multiplayer-settings' },
+      { text: 'Player FAQ', link: '/players/faq' },
+      { text: 'Mod Safety', link: '/players/mod-safety' }
+    ]
+  },
+  {
+    text: 'Server Owners',
+    items: [
+      { text: 'Host a Server', link: '/server-owners/host-a-server' },
+      { text: 'Port Forwarding', link: '/server-owners/port-forwarding' },
+      { text: 'Check for CGNAT', link: '/server-owners/cgnat' },
+      { text: 'Server Maintenance', link: '/server-owners/maintenance' },
+      { text: 'Server FAQ', link: '/server-owners/faq' },
+      { text: 'Server Error Codes', link: '/server-owners/error-codes' }
+    ]
+  },
+  {
+    text: 'Developers',
+    items: [
+      { text: 'Development Environment Setup', link: '/developers/dev-environment-setup' },
+      { text: 'Mod & Resource Creation', link: '/developers/mod-and-resource-creation' },
+      {
+        text: 'BeamMP Scripting Reference',
+        items: [
+          { text: 'Mod (In-Game)', link: '/developers/beammp-scripting/mod-in-game' },
+          {
+            text: 'Server',
+            link: '/developers/beammp-scripting/server/latest',
+            items: [
+              { text: 'Version 3.X (Latest)', link: '/developers/beammp-scripting/server/latest' },
+              { text: 'Version 2.X (Deprecated)', link: '/developers/beammp-scripting/server/legacy-v2' }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    text: 'Game Documentation',
+    items: [
+      {
+        text: 'Content Development',
+        items: [
+          { text: 'Introduction', link: '/game-documentation/content-development/index' },
+          {
+            text: 'Programming',
+            items: [
+              { text: 'UI Apps (HTML)', link: '/game-documentation/programming/ui-apps-html-cef' },
+              { text: 'ImGui Window Tutorial', link: '/game-documentation/programming/imgui' },
+              { text: 'Lua Mods (Scripts)', link: '/game-documentation/programming/lua' }
+            ]
+          },
+          {
+            text: 'Content',
+            items: [
+              { text: 'Maps', link: '/game-documentation/content-development/maps' },
+              { text: 'Props', link: '/game-documentation/content-development/props' },
+              { text: 'Vehicles', link: '/game-documentation/content-development/vehicles' }
+            ]
+          }
+        ]
+      },
+      { text: 'Lua Code Snippets', link: '/game-documentation/snippets/lua-snippets' },
+      { text: 'CSS Code Snippets', link: '/game-documentation/snippets/css-snippets' },
+      { text: 'ImGui Code Snippets', link: '/game-documentation/snippets/imgui-snippets' },
+      { text: 'CEF Code Snippets', link: '/game-documentation/snippets/cef-snippets' }
+    ]
+  },
+  {
+    text: 'Troubleshooting',
+    items: [
+      { text: 'Launcher Update Issues', link: '/troubleshooting/launcher-update' },
+      { text: 'Connection / Networking Issues', link: '/troubleshooting/connection-networking' },
+      { text: 'Defender / Firewall Exclusions', link: '/troubleshooting/defender-exclusions' },
+      { text: 'Error Codes', link: '/troubleshooting/error-codes' }
+    ]
+  },
+  {
+    text: 'Community',
+    items: [
+      { text: 'Community Info', link: '/community/index' },
+      { text: 'Rules', link: '/community/rules' },
+      { text: 'Contributing', link: '/community/contributing' }
+    ]
+  }
+]
 
-const localeSidebar = (locale: LocaleKey) => localizeItems(locale, baseNav)
+const navByLocale = (_locale: LocaleKey) => baseNav
+
+const localeNav = (locale: LocaleKey) => localizeItems(locale, navByLocale(locale))
+
+const localeSidebar = (locale: LocaleKey) => localizeItems(locale, navByLocale(locale))
+
+const docsLocales = ['en', 'de', 'fr', 'es', 'it', 'ru', 'zh'] as const
+
+const legacyRewritePairs: Record<string, string> = {
+  'game/getting-started': 'get-started/index',
+  'game/multiplayer-settings': 'players/multiplayer-settings',
+
+  'server/create-a-server': 'server-owners/host-a-server',
+  'server/port-forwarding': 'server-owners/port-forwarding',
+  'server/server-maintenance': 'server-owners/maintenance',
+  'server/error-codes': 'server-owners/error-codes',
+
+  'FAQ/player-faq': 'players/faq',
+  'FAQ/Clearing-mods': 'players/mod-safety',
+  'FAQ/server-faq': 'server-owners/faq',
+  'FAQ/How-to-check-for-CGNAT': 'server-owners/cgnat',
+  'FAQ/Update-launcher': 'troubleshooting/launcher-update',
+  'FAQ/where-to-find-my-IP': 'troubleshooting/connection-networking',
+  'FAQ/Defender-exclusions': 'troubleshooting/defender-exclusions',
+
+  'guides/index': 'developers/index',
+  'guides/beammp-dev/beammp-dev': 'developers/dev-environment-setup',
+  'guides/mod-creation/server/getting-started': 'developers/mod-and-resource-creation',
+
+  'scripting/mod-reference': 'developers/beammp-scripting/mod-in-game',
+  'scripting/server/latest-server-reference': 'developers/beammp-scripting/server/latest',
+  'scripting/server/v2-server-reference': 'developers/beammp-scripting/server/legacy-v2',
+
+  'beamng/dev/index': 'game-documentation/content-development/index',
+  'beamng/dev/content/maps': 'game-documentation/content-development/maps',
+  'beamng/dev/content/props': 'game-documentation/content-development/props',
+  'beamng/dev/content/vehicles': 'game-documentation/content-development/vehicles',
+  'beamng/dev/modding/ui-apps': 'game-documentation/programming/ui-apps-html-cef',
+  'beamng/dev/modding/lua-mods': 'game-documentation/programming/lua',
+  'beamng/dev/modding/imgui-window-tutorial': 'game-documentation/programming/imgui',
+  'beamng/lua-snippets': 'game-documentation/snippets/lua-snippets',
+  'beamng/css-snippets': 'game-documentation/snippets/css-snippets',
+  'beamng/imgui-snippets': 'game-documentation/snippets/imgui-snippets',
+  'beamng/cef-snippets': 'game-documentation/snippets/cef-snippets',
+
+  contributing: 'community/contributing'
+}
+
+const rewrites = docsLocales.reduce<Record<string, string>>((acc, locale) => {
+  for (const [from, to] of Object.entries(legacyRewritePairs)) {
+    acc[`${locale}/${from}`] = `${locale}/${to}`
+  }
+  return acc
+}, {})
 
 const makeLocale = (locale: LocaleKey, label: string, lang: string, link?: string) => ({
   label,
@@ -182,6 +334,9 @@ export default defineConfig({
   title: 'BeamMP Docs',
   description:
     'This website serves as the new BeamMP Documentation site for general self serve support, guides and documentation.',
+  head: [
+    ['script', { defer: "true", src: 'https://analytics.beammp.com/script.js', 'data-website-id': 'cb3be456-00ee-4da1-a261-e17317f6feb2' }]
+  ],
   lastUpdated: true,
   locales: {
     root: makeLocale('root', 'English', 'en', '/en/'),
@@ -192,6 +347,7 @@ export default defineConfig({
     ru: makeLocale('ru', 'Pусский', 'ru', '/ru/'),
     zh: makeLocale('zh', '中文', 'zh', '/zh/')
   },
+  rewrites,
   markdown: {
     config(md) {
       md.use(tabsMarkdownPlugin)

@@ -242,6 +242,39 @@ docs/
 4. Add cross-links and “Start here” blocks on section index pages.
 5. Optionally reorganize URLs later if needed.
 
+## Migration Status (Current)
+
+### Completed
+- New EN audience-first navigation is implemented in [docs/.vitepress/config.mts](docs/.vitepress/config.mts).
+- EN content has been copied into the new folder structure under:
+  - [docs/en/get-started](docs/en/get-started)
+  - [docs/en/players](docs/en/players)
+  - [docs/en/server-owners](docs/en/server-owners)
+  - [docs/en/developers](docs/en/developers)
+  - [docs/en/game-documentation](docs/en/game-documentation)
+  - [docs/en/troubleshooting](docs/en/troubleshooting)
+  - [docs/en/community](docs/en/community)
+- New EN section index pages created:
+  - [docs/en/players/index.md](docs/en/players/index.md)
+  - [docs/en/server-owners/index.md](docs/en/server-owners/index.md)
+  - [docs/en/developers/beammp-scripting/index.md](docs/en/developers/beammp-scripting/index.md)
+  - [docs/en/troubleshooting/index.md](docs/en/troubleshooting/index.md)
+- Legacy EN paths are preserved via rewrites in [docs/.vitepress/config.mts](docs/.vitepress/config.mts), so old links continue to resolve.
+- Non-English locales currently remain on the legacy nav to avoid disruption.
+
+### Safety / Data Retention
+- No markdown content has been deleted.
+- Legacy EN files remain in their original locations.
+- New EN files exist in parallel for validation.
+
+### Pending
+- Validate UX and navigation flow with team feedback.
+- Decide whether to:
+  - keep dual-path support longer, or
+  - switch to new EN canonical paths and deprecate old EN paths later.
+- If approved, repeat migration process for DE/FR/ES/IT/RU/ZH.
+- Optional clean-up phase (only after approval and backup): remove EN duplicates no longer needed.
+
 ## Open Questions for Team
 1. Should “Troubleshooting” be a top-level item or integrated into each audience section?
 2. Should “Game Documentation” appear before “Developers” for visibility?
