@@ -212,8 +212,8 @@ Fahrzeug- und Karten-Mods werden unterschiedlich installiert, müssen aber beide
 
 !!! warning
 
-    Mods können mit BeamNG, BeamMP oder anderen Mods inkompatibel sein oder werden. Falls Probleme auftreten, solltest du beginnen, Mods  zu entfernen.
-    Solltest du beim Versuch, deinem Server nach dem Hinzufügen von Mods beizutreten, die Meldung „Fertig“ oder „Start“ erhalten, haast du wahrscheinlich eine inkompatible oder fehlerhafte Mod zu deinem Server hinzugefügt.
+    Mods können mit BeamNG, BeamMP oder anderen Mods inkompatibel sein oder werden. Falls Probleme auftreten, solltest du beginnen, Mods zu entfernen.
+    Solltest du beim Versuch, deinem Server nach dem Hinzufügen von Mods beizutreten, die Meldung „Fertig“ oder „Start“ erhalten, hast du wahrscheinlich eine inkompatible oder fehlerhafte Mod zu deinem Server hinzugefügt.
     Inkompatibilitäten zwischen zwei oder mehr Mods können ebenfalls auftreten. Falls du Client-Mods installiert hast, lies bitte [diese Anleitung](../../FAQ/How-to-deactivate-mods.md) zum Entfernen von Mods aus deinem Spiel.
 
 #### 5.1 Allgemeine Mods
@@ -274,7 +274,7 @@ Gib unten die öffentliche IPv4-Adresse und den Port des Servers ein und klicke 
 
 !!! warning "Ich möchte einen VPN wie RadminVPN, Hamachi oder ähnlich verwenden"
 
-    BeamMP unterstützt diese VPNs nicht, weil diese oft Probleme verursachen. Eines davon ist das blockieren von UDP Verkehr. Um dies zu beheben, siehe Sektion 1.
+    BeamMP unterstützt diese VPNs nicht, weil diese oft Probleme verursachen. Eines davon ist das Blockieren von UDP Verkehr. Um dies zu beheben, siehe Sektion 1.
 
     !!! question "Aber warum hat es vorher funktioniert?"
 
