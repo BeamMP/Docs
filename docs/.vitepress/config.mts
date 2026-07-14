@@ -335,7 +335,7 @@ export default defineConfig({
   description:
     'This website serves as the new BeamMP Documentation site for general self serve support, guides and documentation.',
   head: [
-    ['script', { defer: "true", src: 'https://analytics.beammp.com/script.js', 'data-website-id': 'cb3be456-00ee-4da1-a261-e17317f6feb2' }]
+    ['script', { defer: "true", src: 'https://analytics.beammp.com/api/script.js', 'data-site-id': '632c87f003fc', async: "true" }]
   ],
   lastUpdated: true,
   locales: {
