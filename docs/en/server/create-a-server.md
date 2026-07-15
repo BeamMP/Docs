@@ -3,7 +3,7 @@
 ## **Creating a Server**
 Basics of setting up the server application
 This guide covers the full setup to host a server **at home**.
-For a quick-start guide for your VPS hosted server, visit [How to create a aserver](https://docs.beammp.com/server/setup-vps/)
+For a quick-start guide for your VPS hosted server, visit [How to create a server](https://docs.beammp.com/server/setup-vps/)
 
 ---
 ### **Overview**
