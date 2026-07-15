@@ -279,7 +279,7 @@ Gib unten die öffentliche IPv4-Adresse und den Port des Servers ein und klicke 
     !!! question "Aber warum hat es vorher funktioniert?"
 
         Das passiert, weil die Entwickler dieser Applikationen Updates und Änderungen implementieren, über welche BeamMP keine Kontrolle hat.
-        Es liegt an den Entwicklern diesen Applikationen, um Support für spezifische Fälle wie die eines BeamMP-Servers zu unterstützen.
+        Es liegt an den Entwicklern dieser Applikationen, um Support für spezifische Fälle wie die eines BeamMP-Servers zu unterstützen.
 
 ## Immer noch Probleme?
 
