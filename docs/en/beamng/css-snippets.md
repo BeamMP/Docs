@@ -132,9 +132,13 @@
         var(--bng-add-green-300)
         var(--bng-add-green-400)
         var(--bng-add-green-500)
+        var(--bng-add-green-550)
         var(--bng-add-green-600)
+        var(--bng-add-green-650)
         var(--bng-add-green-700)
+        var(--bng-add-green-750)
         var(--bng-add-green-800)
+        var(--bng-add-green-850)
         var(--bng-add-green-900)
         ```
     
@@ -166,9 +170,13 @@
         var(--bng-add-blue-300)
         var(--bng-add-blue-400)
         var(--bng-add-blue-500)
+        var(--bng-add-blue-550)
         var(--bng-add-blue-600)
+        var(--bng-add-blue-650)
         var(--bng-add-blue-700)
+        var(--bng-add-blue-750)
         var(--bng-add-blue-800)
+        var(--bng-add-blue-850)
         var(--bng-add-blue-900)
         ```
     
