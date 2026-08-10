@@ -2,7 +2,7 @@
 
 ## **创建服务器**
 
-设置服务器应用程序的基础知识
+服务器应用程序基础设置<br>本指南将完整介绍如何在{strong0家里云上搭建服务器。<br>如果你想快速了解如何创建基于 VPS 托管的服务器，请访问 [如何创建服务器](https://docs.beammp.com/server/setup-vps/)
 
 ---
 
@@ -18,7 +18,7 @@
 
 请在使用服务器前务必阅读 [许可协议](https://raw.githubusercontent.com/BeamMP/BeamMP-Server/master/LICENSE)。
 
-*服务器仅支持 IPv4。如果你不确定自己使用的是哪种协议，可以查看在 [*whatsmyip.org*](https://www.whatsmyip.org/) 上看到的 IP 地址——如果它包含 `:` *冒号，则为 **IPv6**。在这种情况下，你需要进一步确认自己是否也拥有 IPv4。你可以联系你的 ISP 查询，或者问问与你同住的人（如果他们懂技术，可能知道！）。计划将来支持 IPv6。**
+服务器仅支持 IPv4。如果你不确定自己使用的是哪种协议，可以查看在 [*whatsmyip.org*](https://www.whatsmyip.org/) 上看到的 IP 地址——如果它包含 `:` *冒号，则为 **IPv6**。在这种情况下，你需要进一步确认自己是否也拥有 IPv4。你可以联系你的 ISP 查询，或者问问与你同住的人（如果他们懂技术，可能知道！）。计划将来支持 IPv6。*
 
 ## 设置服务器
 
@@ -86,11 +86,13 @@
 
 通过 Discord 登录至 [Keymaster](https://keymaster.beammp.com)。在 Keymaster 主页中，点击屏幕左侧的“Keys（密钥）”：
 
+
 <figure markdown="">   ![](../../assets/content/keymaster_homepage.png) </figure>
 
 #### 2.2. 创建密钥
 
 要创建密钥，请单击右上角的绿色“+”按钮。
+
 
 <figure markdown="">   ![](../../assets/content/keymaster_new_key.png) </figure>
 
@@ -98,15 +100,18 @@
 
 接下来，填写服务器名称字段（这只是密钥的名称，而不是服务器列表上显示的实际名称），然后点击“Create”。范例：
 
+
 <figure class="image image_resized" style="width:44.84%;" markdown="">   ![](../../assets/content/keymaster_server_name.png) </figure>
 
 最后，它看起来应该是这样的：
+
 
 <figure markdown="">   ![](../../assets/content/keymaster_key_done.png) </figure>
 
 #### 2.4. 复制密钥
 
 现在复制“Key”字段中的文本，在此范例中为 `3173a2e-6az0-4542-a3p0-ddqq5ff95558`，并保存以便下一步使用。你可以点击密钥右侧的剪贴板图标来完成复制：
+
 
 <figure markdown="">   ![](../../assets/content/keymaster_copy_key.png) </figure>
 
@@ -153,6 +158,7 @@ BeamMP-Server适用于Windows和Linux。接下来的两节分别介绍Windows和
 ### **4. 配置**
 
 现在你已经运行过一次服务器，它应该已经生成了一些文件，并可能出现了一两个错误。这是正常的，因为我们还没有完成。你的文件夹中应该包含以下文件：
+
 
 <figure markdown="">   ![](../../assets/content/after-running-once.png) </figure>
 
@@ -201,29 +207,31 @@ AuthKey = '3173a2e-6az0-4542-a3p0-ddqq5ff95558'
 
 如果你选择了除 **30814** 之外的其他 **端口**，请确保在 `Port` 下进行替换。
 
-### **5. 验证**
+#### **4.1. 验证服务器是否可以正常运行**
 
 现在再次运行你的服务器，看看是否还会出现 `[ERROR]` 或 `[WARN]` 消息。此时服务器应该会保持开启状态。在下面的步骤（6.）中，你可以了解如何加入服务器。
 
 ---
 
-#### 5.1 怎么添加模组到我的服务器中
+### 5. 怎么在你的服务器上添加模组
 
 车辆模组和地图模组的安装方式不同，但都需要将它们放入服务器的 (`Resources/Client`) 文件夹中。只需将你想添加的模组放入该文件夹即可。
 
 !!! 警告
 
 ```
-如果在添加模组后尝试加入服务器时收到“done”或“start”消息，很可能是因为你向服务器添加了不兼容或损坏的模组。
-模组之间也可能存在不兼容的情况。如果你在客户端安装了模组，请查阅本指南
-了解如何从游戏中移除模组。
+模组可能会与 BeamNG、BeamMP，甚至其他模组不兼容，或者随着版本变化而变得不兼容。如果遇到问题，请尝试开始移除模组。
+
+如果你在添加模组后尝试加入服务器时收到"done"或"start"消息，那么很可能是你的服务器中添加了一个不兼容或损坏的模组。
+
+模组之间也可能存在兼容性问题，尤其是在同时使用两个或多个模组时。如果你安装了客户端模组，请查看[此指南](../../FAQ/How-to-deactivate-mods.md)，了解如何从你的游戏中移除模组。
 ```
 
-#### 5.2 一般的模组
+#### 5.1 通用模组
 
-如果你只想添加带模组的车辆，只需将模组的 zip 文件放入 `Resources/Client` 文件夹。加入你服务器的任何人都会自动下载这些模组。
+如果你只想添加车辆的模组，只需将模组的 zip 文件放入 `Resources/Client` 文件夹。加入你服务器的任何人都会自动下载这些模组。
 
-#### 5.3 地图
+#### 5.2 地图
 
 所有默认地图（非模组的地图）都可以开箱即用，无需安装。您只需在 `ServerConfig.toml` 文件中将 `Map` 设置更改为 [这些](server-maintenance.md#all-vanilla-maps-names) 中的任意一个。对于任何其他模组地图，请执行以下操作：
 
@@ -240,6 +248,10 @@ Map = '/levels/myawesomedriftmap2021/info.json'
 **如果这不起作用**，请在你的单人模式 BeamNG.drive 中安装该地图，启动并进入地图。然后，通过按 `~`（*波浪号*）键打开控制台（如果你使用非美式键盘，请在 **选项 &gt; 控制 &gt; 绑定** 菜单的 **通用调试** 部分中查看 **切换系统控制台** 的操作），并运行 `print(getMissionFilename())`。这样就会显示你需要使用的地图名称。
 
 就这样！你添加的模组地图现在应该可以加入了！
+
+#### 5.4 保护模组不被下载（付费/私有模组）
+
+现在你可以保护模组了！这允许你在不实际重新分发内容的情况下，托管包含受保护或受限制内容的服务器。这非常适用于通常所说的“付费模组（Paid Mods）”，或者当你是一名模组作者，并希望限制他人访问你最新作品时使用。<br>只需在服务器控制台中运行：<br>`protectmod <filename with .zip> <true/false>`<br>即可保护一个模组。<br>加入包含受保护模组的服务器的用户，需要自行从其他来源获取该文件，例如直接从作者处获取，或通过 Patreon 等平台获取。<br>获取文件后，用户需要将其放入启动器的 resources 文件夹中。<br>如果文件缺失，启动器会向用户提示相关信息。此外，用户也会在游戏内看到一条通知，其中会显示缺少的文件以及解决方法。
 
 ### **6. 怎么加入你的服务器**
 
@@ -288,4 +300,4 @@ BeamMP 不支持这些 VPN，因为它们经常引发问题。其中一个问题
 
 ## 还有问题吗？
 
-在 [论坛](https://forum.beammp.com) 或我们的 [Discord 服务器](https://discord.gg/beammp) 的 `#support` 频道中发起一个讨论帖。
+在 [论坛](https://forum.beammp.com) 中创建一个主题，或者在我们的 [Discord 服务器](https://discord.gg/beammp) 的 `#support` 频道提交一个 **服务器支持工单**。
