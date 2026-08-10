@@ -50,9 +50,15 @@ var(--white-3) /* 20% 透明度 */
 === "BeamNG Vue UI 配色"
 
 ```
-All of these support adding `-rgb` to the end of the variable name to convert them to raw red, green, blue values. Use -rgb like so: `rgba(var(--bng-orange-500-rgb), 0.5)` for 50% opacity bng-orange-500.
+所有这些颜色变量都支持在变量名末尾添加 `-rgb`，以转换为原始的红、绿、蓝（RGB）数值。
 
-=== "Add Red"
+使用方式如下：
+
+`rgba(var(--bng-orange-500-rgb), 0.5)`
+
+例如，上述代码可以将 `bng-orange-500` 颜色设置为 50% 的透明度。
+
+=== "Add Red（附加红）"
 
     ```css
     var(--bng-add-red-50)
@@ -71,7 +77,7 @@ All of these support adding `-rgb` to the end of the variable name to convert th
     var(--bng-add-red-900)
     ```
 
-=== "Orange"
+=== "Orange（橙色）"
 
     ```css
     var(--bng-orange-50)
@@ -90,7 +96,7 @@ All of these support adding `-rgb` to the end of the variable name to convert th
     var(--bng-orange-900)
     ```
 
-=== "Ter Peach"
+=== "Ter Peach（三级桃色）"
 
     ```css
     var(--bng-ter-peach-50)
@@ -109,7 +115,7 @@ All of these support adding `-rgb` to the end of the variable name to convert th
     var(--bng-ter-peach-900)
     ```
 
-=== "Ter Yellow"
+=== "Ter Yellow（三级黄色）"
 
     ```css
     var(--bng-ter-yellow-50)
@@ -128,7 +134,7 @@ All of these support adding `-rgb` to the end of the variable name to convert th
     var(--bng-ter-yellow-900)
     ```
 
-=== "Add Green"
+=== "Add Green（附加绿）"
 
     ```css
     var(--bng-add-green-50)
@@ -147,7 +153,7 @@ All of these support adding `-rgb` to the end of the variable name to convert th
     var(--bng-add-green-900)
     ```
 
-=== "Baby Blue"
+=== "Baby Blue（浅蓝）"
 
     ```css
     var(--bng-add-babyblue-50)
@@ -166,7 +172,7 @@ All of these support adding `-rgb` to the end of the variable name to convert th
     var(--bng-add-babyblue-900)
     ```
 
-=== "Add Blue"
+=== "Add Blue（附加蓝）"
 
     ```css
     var(--bng-add-blue-50)
@@ -185,7 +191,7 @@ All of these support adding `-rgb` to the end of the variable name to convert th
     var(--bng-add-blue-900)
     ```
 
-=== "Indigo Blue"
+=== "Indigo Blue（靛蓝）"
 
     ```css
     var(--bng-add-indigoblue-50)
@@ -204,7 +210,7 @@ All of these support adding `-rgb` to the end of the variable name to convert th
     var(--bng-add-indigoblue-900)
     ```
 
-=== "Add Magenta"
+=== "Add Magenta（附加品红）"
 
     ```css
     var(--bng-add-magenta-50)
@@ -223,7 +229,7 @@ All of these support adding `-rgb` to the end of the variable name to convert th
     var(--bng-add-magenta-900)
     ```
 
-=== "Ter Blue Gray"
+=== "Ter Blue Gray（三级蓝灰）"
 
     ```css
     var(--bng-ter-blue-gray-50)
@@ -242,7 +248,7 @@ All of these support adding `-rgb` to the end of the variable name to convert th
     var(--bng-ter-blue-gray-900)
     ```
 
-=== "Cool Gray"
+=== "Cool Gray（冷灰）"
 
     ```css
     var(--bng-cool-gray-50)
@@ -261,12 +267,12 @@ All of these support adding `-rgb` to the end of the variable name to convert th
     var(--bng-cool-gray-900)
     ```
 
-=== "Other"
+=== "Other（其他）"
 
     ```css
-    var(--bng-off-black) /*Used in Vue for buttons and some headers*/
-    var(--bng-off-white) /*Used in Vue for interactable elements*/
-    var(--bng-off-white-brighter) /*Used in Vue for headers*/
+    var(--bng-off-black) /* 在 Vue 中用于按钮和部分标题 */
+    var(--bng-off-white) /* 在 Vue 中用于可交互元素 */
+    var(--bng-off-white-brighter) /* 在 Vue 中用于标题 */
     ```
 ```
 
