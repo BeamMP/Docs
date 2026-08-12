@@ -74,7 +74,7 @@ If you have issues, also feel free to ask on our [Forum](https://forum.beammp.co
 
 The “Authentication Key”, often called “AuthKey”, is necessary for making a **public** server accessible by the serverlist. Though it is recommended to add the authkey to private servers as well.
 You have a limited number of keys. One key can be used on one server at a time, so you cannot start two servers at the same time with the same key.
-More keys can be obtained by supporting the project. Read [this article](https://docs.beammp.com/support/player-faq/) for more information.
+More keys can be obtained by supporting the project. Read [this article](https://docs.beammp.com/FAQ/player-faq/) for more information.
 
 !!! warning
 
