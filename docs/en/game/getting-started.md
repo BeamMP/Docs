@@ -43,6 +43,15 @@ Make sure you have basic development tools installed, often found in packages, f
 - openSUSE: `zypper in -t pattern devel-basis`
 - SteamOS (Arch): `sudo pacman -S base-devel linux-api-headers glibc libconfig` (You also need to do `sudo steamos-readonly disable` but make sure to enable it again after installing the packages)
 
+!!!note "Unofficial Packages"
+
+      Some distributions have community-maintained BeamMP packages available.
+      Keep in mind that these packages are unofficial, and may not always be up-to-date.
+      
+      - Arch / SteamOS: [`beammp-launcher-git`](https://aur.archlinux.org/packages/beammp-launcher-git) *⁽ᴬᵁᴿ⁾*
+      
+        Install with an AUR helper (i.e. `yay`, `paru`, etc.) or with `makepkg`. SteamOS users should make sure they have disabled read-only with `sudo steamos-readonly disable`
+
 
 Clone `vcpkg`, bootstrap it and add it to PATH
 
