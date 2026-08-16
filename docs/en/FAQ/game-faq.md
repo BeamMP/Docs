@@ -19,7 +19,7 @@ The BeamMP support team is unable to provide support for issues related to: pira
 ---
 ### **Does BeamMP work on linux?**
 
-The Client is not officially supported on Linux. However, you can follow our [guide on how to use BeamMP on Linux](../game/getting-started/#2b-linux-installation)
+The Client is not officially supported on Linux. However, you can follow our [guide on how to use BeamMP on Linux](../../game/getting-started.md#2b-linux-installation)
 
 ---
 ### **Why is the launcher flagged by my antivirus or by Windows Defender**

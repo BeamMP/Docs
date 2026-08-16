@@ -22,7 +22,7 @@ BeamMP è nativamente compatibile solo con Windows al momento.
 Nota: _Se ti connetti ad un server con molti giocatori potresti impiegare più tempo ad entrare in gioco._
 
 ### **Installazione su Linux**
-Consultare la [documentazione in inglese](https://docs.beammp.com/game/getting-started/#2b-linux-installation).
+Consultare la [documentazione in inglese](/game/getting-started#2b-linux-installation).
 
 ---
 

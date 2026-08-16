@@ -7,7 +7,7 @@ Linking your Discord and BeamMP account is a new feature to BeamMP. To do this g
 
 Early access (including the purple nametag and other benefits) can be obtained by supporting us financially on [Patreon](https://patreon.com/BeamMP) by buying a tier, donating, or by boosting the Discord Server.
 Donating **x** amount US$ = **x** additional server key(s) including EA benefits.
-Boosting gives you +4 Server keys in addition to EA benefits.
+Boosting gives you +5 Server keys (in total, not accumulative per boost) in addition to EA benefits.
 
 ## I subscribed on Patreon. How do I get my perks?
 

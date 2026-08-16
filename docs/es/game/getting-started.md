@@ -27,7 +27,7 @@ Nota: *Si te estás uniendo a un mapa con múltiples vehículos cargados, tardar
 
 ### **Instalación en Linux**
 
-Consulte la [documentación en inglés](https://docs.beammp.com/game/getting-started/#2b-linux-installation).
+Consulte la [documentación en inglés](/game/getting-started#2b-linux-installation).
 
 ---
 

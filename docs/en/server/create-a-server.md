@@ -2,6 +2,8 @@
 
 ## **Creating a Server**
 Basics of setting up the server application
+This guide covers the full setup to host a server **at home**.
+For a quick-start guide for your VPS hosted server, visit [How to create a server](https://docs.beammp.com/server/setup-vps/)
 
 ---
 ### **Overview**
@@ -72,7 +74,7 @@ If you have issues, also feel free to ask on our [Forum](https://forum.beammp.co
 
 The “Authentication Key”, often called “AuthKey”, is necessary for making a **public** server accessible by the serverlist. Though it is recommended to add the authkey to private servers as well.
 You have a limited number of keys. One key can be used on one server at a time, so you cannot start two servers at the same time with the same key.
-More keys can be obtained by supporting the project. Read [this article](https://docs.beammp.com/support/player-faq/) for more information.
+More keys can be obtained by supporting the project. Read [this article](https://docs.beammp.com/FAQ/player-faq/) for more information.
 
 !!! warning
 
@@ -207,26 +209,27 @@ Give your server a name, too, in the `Name` field. You can format this with colo
 
 If you picked a different **Port** other than **30814**, make sure to replace it here under `Port`.
 
-### **5. Validation**
+#### **4.1. Validation**
 
 Now run your server again, and see if it spits out any more `[ERROR]` or `[WARN]` messages. The server should stay open now. In the following steps (6.) below you can find out how to join the server.
 
 ---
 
-#### 5.1 How to add mods to your server
+### 5. How to add mods to your server
 
 Vehicle mods and map mods are different to install, but both require you to put them in your server's (`Resources/Client`) folder. Simply slide any mod you want to add in that folder.
 
 !!! warning
 
+    Mods can be, and/or become incompatible with BeamNG, BeamMP or even other mods. Start removing mods if you are encountering issues.
     Should you receive a "done" or "start" message when trying to join your server after adding mods, you likely added an incompatible or broken mod to your server.
     Mod incompatibilities can also occur between 2 or more mods. If you have client mods installed, check [this guide](../../FAQ/How-to-deactivate-mods.md) about removing mods from your game.
 
-#### 5.2 General Mods
+#### 5.1 General Mods
 
 If you only wanted to add modded vehicles, you simply put the zip file of the mod in the `Resources/Client` folder. They will automatically be downloaded by anyone who joins your server.
 
-#### 5.3 Maps
+#### 5.2 Maps
 
 All default maps (maps which aren't mods) work out-of-the-box and do not have to be installed. You simply change the `Map` setting in the `ServerConfig.toml` file to any of [these](server-maintenance.md#all-vanilla-maps-names). For any other modded maps, do this:
 
@@ -244,6 +247,13 @@ Now, when someone joins your server, it should download the map automatically an
 
 That's it! Your modded map should now be available to join!
 
+#### 5.4 Protecting mods from download (Paid/Private Mods)
+
+You can now protect mods! This will allow you to host a server with protected or restricted content without actually redistributing the content. 
+This is ideal for if you have what is frequently referred to as "Paid Mods" or you are a mod creator and wish to have a limited access to your latest work.
+Just run `protectmod <filename with .zip> <true/false>` in the server console to protect a mod. Users that join a server with protected mods will need to obtain the file themselves from another source such as direct from the creator or via platforms like Patreon. Once obtained they need to put it in their launcher's resources folder. 
+The launcher will inform the user about this if the file is missing additionally the user will also see a notification in-game that shows the missing file and how to fix it
+
 ### **6. How to join your server**
 
 How you and other players can join your server.
@@ -254,7 +264,7 @@ If your server is hosted on the same PC as the game runs on, you must join your 
 
 If your server is hosted on another PC in your local network, you must find the local IP of that machine and direct connect using this local IP.
 
-If your server is hosted outside of your house (e.g. VPS) you must find the [public IP](https://whatismyipaddress.com/) of that machine and direct connect that way.
+If your server is hosted outside of your house (e.g. VPS) you must find the public IP of that machine and direct connect that way.
 
 #### 6.b. Other people joining your private server
 
@@ -293,4 +303,4 @@ Enter the servers public IPv4 and Port below, then click "CheckBeamMP".
 
 ## Still facing issues?
 
-Open a Thread on the [Forum](https://forum.beammp.com) or on our [Discord server](https://discord.gg/beammp) in the `#support` channel.
+Open a Thread on the [Forum](https://forum.beammp.com) or file a **Server Support Ticket** on our [Discord server](https://discord.gg/beammp) in the `#support` channel.

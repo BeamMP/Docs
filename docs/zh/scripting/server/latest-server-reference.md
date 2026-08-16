@@ -243,7 +243,7 @@ print(mytimer:GetCurrent()) -- print how much time elapsed
 
 #### `MP.GetServerVersion() -> number,number,number`
 
-以主要、次要、补丁格式返回当前服务器版本。例如，v3.0.0版本将返回` 3,0,0 `。
+以主要、次要、补丁格式返回当前服务器版本。例如，v3.0.0版本将返回`3,0,0`。
 
 范例:
 
@@ -336,7 +336,7 @@ print(Results)
 - `IsDone() -> boolean` 会告知您所有处理程序是否已完成。还可以通过检查它的`MP.Sleep`-来等待变为True
 - `GetResults() -> table` 返回一个未注释且未命名的表，其中包含所有处理程序的所有返回值，这是一个数组
 
- 一定要用`Obj:Function()` 语法 (`:`, 不要 `.`).
+一定要用`Obj:Function()` 语法 (`:`, 不要 `.`).
 
 范例:
 
@@ -1221,13 +1221,422 @@ MP.RegisterEvent("onPlayerAuth", "myPlayerAuthorizer")
 
 参数: `player_id: number`, `vehicle_id: number`, `data: string` 可取消: YES
 
-当玩家生成一辆新车辆时触发。参数 `data`包含该车辆的配置，以及位置和旋转等信息，格式为 JSON 字符串。
+当玩家生成一辆新车辆时触发。请注意，车辆切换/替换则会触发 [`onVehicleEdited`](#onvehicleedited)。<br>`data` 参数包含该车辆的配置以及位置/旋转数据，并以 JSON 字符串形式提供。
+
+<details>
+</details>
+
+<summary><code>data</code> 值示例</summary>
+
+该数据字符串以一个唯一的车辆标识符开头，其格式为玩家 ID、一个连字符，以及车辆 ID。随后是一个 JSON 对象，其中包含车辆的配置信息以及位置数据。
+
+```
+0-0: {
+    "abs": "realistic",
+    "ign": 3,
+    "jbm": "van",
+    "pid": 0,
+    "pos": [
+        907.93902587891,
+        773.50201416016,
+        238.87800598145
+    ],
+    "pro": "0",
+    "rot": [
+        0,
+        0,
+        0.99999994039536,
+        0
+    ],
+    "vcf": {
+        "licenseName": "H30 9VV",
+        "mainPartName": "van",
+        "mainPartPath": "/van",
+        "model": "van",
+        "paints": [
+            {
+                "baseColor": [
+                    0.21999999880791,
+                    0.37000000476837003,
+                    0.33000001311302,
+                    1.2000000476837
+                ],
+                "clearcoat": 0,
+                "clearcoatRoughness": 0,
+                "metallic": 0,
+                "roughness": 0.070000000298023
+            },
+            {
+                "baseColor": [
+                    0.62300002574921,
+                    0.62300002574921,
+                    0.62300002574921,
+                    1.2000000476837
+                ],
+                "clearcoat": 0.80000001192093,
+                "clearcoatRoughness": 0.070000000298023,
+                "metallic": 0.80000001192093,
+                "roughness": 0.64999997615814
+            },
+            {
+                "baseColor": [
+                    0.21999999880791,
+                    0.37000000476837003,
+                    0.33000001311302,
+                    1.2000000476837
+                ],
+                "clearcoat": 0,
+                "clearcoatRoughness": 0,
+                "metallic": 0,
+                "roughness": 0.070000000298023
+            }
+        ],
+        "partConfigFilename": "vehicles/van/h15_xt_passenger.pc",
+        "parts": {
+            "brakepad_F": "brakepad_F_premium",
+            "brakepad_R": "brakepad_R_premium",
+            "gps": "",
+            "licenseplate_design_2_1": "",
+            "linelock": "",
+            "load_seat_FR": "",
+            "n2o_system": "",
+            "paint_design": "van_skin_twotone",
+            "pickup_engine_v8_ecu": "pickup_engine_v8_ecu",
+            "pickup_engine_v8_internals": "pickup_engine_v8_internals",
+            "pickup_enginemounts": "pickup_enginemounts",
+            "pickup_oilpan_v8": "pickup_oilpan_v8",
+            "pickup_reversewarn": "",
+            "pickup_sparetire": "pickup_sparetire_5l",
+            "pickup_towhitch": "",
+            "skin_glass": "van_skin_glass_tint",
+            "skin_interior": "van_skin_interior_black",
+            "soundscape_horn": "soundscape_horn_115",
+            "tire_F_16x7_alt": "tire_F_225_75_16_alt_standard",
+            "tire_R_16x7_alt": "tire_R_225_75_16_alt_standard",
+            "van_ABS": "van_ABS",
+            "van_ESC": "",
+            "van_ac": "van_ac",
+            "van_body": "van_body_passenger",
+            "van_brake_F": "van_brake_F",
+            "van_brake_R": "van_brake_R_drum",
+            "van_bumper_F": "van_bumper_F_altb",
+            "van_bumper_F_lip": "",
+            "van_bumper_R": "van_bumper_R_altb",
+            "van_bumper_accessory_F": "",
+            "van_bumpersignal_FL": "van_bumpersignal_FL",
+            "van_bumpersignal_FR": "van_bumpersignal_FR",
+            "van_coilover_IFS": "van_coilover_IFS",
+            "van_converter": "van_converter",
+            "van_differential_F": "",
+            "van_differential_R": "van_differential_R",
+            "van_door_FL": "van_door_FL",
+            "van_door_FR": "van_door_FR",
+            "van_doordetent_FL": "van_doordetent_FL",
+            "van_doordetent_FR": "van_doordetent_FR",
+            "van_doordetent_RL": "van_doordetent_RL",
+            "van_doordetent_RR": "van_doordetent_RR",
+            "van_doorglass_L": "van_doorglass_L",
+            "van_doorglass_R": "van_doorglass_R",
+            "van_doorpanel_FL": "van_doorpanel_FL",
+            "van_doorpanel_FR": "van_doorpanel_FR",
+            "van_driveshaft_R": "van_driveshaft_R",
+            "van_engine": "van_engine_v8_4.5",
+            "van_exhaust_v8": "van_exhaust_v8",
+            "van_fascia_F": "van_fascia_F_high",
+            "van_fender_L": "van_fender_L",
+            "van_fender_R": "van_fender_R",
+            "van_fenderflare_FL": "",
+            "van_fenderflare_FR": "",
+            "van_fenderflare_RL": "",
+            "van_fenderflare_RR_sidedoor": "",
+            "van_finaldrive_R": "van_finaldrive_R_355",
+            "van_frame": "van_frame",
+            "van_fueltank": "van_fueltank",
+            "van_header": "van_exhmanifold",
+            "van_headlight_L_high": "van_headlight_L_high",
+            "van_headlight_R_high": "van_headlight_R_high",
+            "van_hood": "van_hood",
+            "van_hub_F": "van_hub_F_5",
+            "van_hub_R": "van_hub_R_5",
+            "van_intake_v8": "van_intake_v8",
+            "van_intcarpet_roof": "van_intcarpet_roof",
+            "van_interior": "van_interior",
+            "van_lettering_doors_F": "van_lettering_doors_F_h15",
+            "van_lettering_reardoor_L": "van_lettering_gavril_reardoor_L",
+            "van_lettering_reardoor_R": "van_lettering_h15_xt_reardoor_R",
+            "van_licenseplate_F": "van_licenseplate_F",
+            "van_licenseplate_R": "van_licenseplate_R",
+            "van_lightbar": "",
+            "van_mirror_L": "van_mirror_L",
+            "van_mirror_R": "van_mirror_R",
+            "van_mod": "",
+            "van_muffler": "van_muffler",
+            "van_power_steering": "",
+            "van_radiator": "van_radiator",
+            "van_radio": "van_radio",
+            "van_reardoor_L": "van_reardoor_L",
+            "van_reardoor_R": "van_reardoor_R",
+            "van_reardoorglass_L": "van_reardoorglass_L",
+            "van_reardoorglass_R": "van_reardoorglass_R",
+            "van_reardoorpanel_L": "van_reardoorpanel_L",
+            "van_reardoorpanel_R": "van_reardoorpanel_R",
+            "van_rollcage": "",
+            "van_roof": "van_roof",
+            "van_roof_accessory": "",
+            "van_runningboard": "",
+            "van_seat_1R": "van_seat_1R",
+            "van_seat_2R": "van_seat_2R",
+            "van_seat_3R": "van_seat_3R",
+            "van_seat_FL": "van_seat_FL",
+            "van_seat_FR": "van_seat_FR",
+            "van_shifter": "van_shifter_A",
+            "van_shock_R": "van_shock_R",
+            "van_sidedoor_FR": "van_sidedoor_FR_alt",
+            "van_sidedoor_RR": "van_sidedoor_RR_alt",
+            "van_sidedoorglass_FR": "van_sidedoorglass_FR",
+            "van_sidedoorglass_RR": "van_sidedoorglass_RR",
+            "van_sidedoorpanel_FR": "van_sidedoorpanel_FR",
+            "van_sidedoorpanel_RR": "van_sidedoorpanel_RR",
+            "van_sideglass_FL": "van_sideglass_FL",
+            "van_sideglass_ML": "van_sideglass_ML",
+            "van_sideglass_RL": "van_sideglass_RL",
+            "van_sideglass_RR": "van_sideglass_RR",
+            "van_snorkel": "",
+            "van_spring_R": "van_spring_R",
+            "van_steer": "van_steer",
+            "van_steering": "van_steering",
+            "van_suspension_F": "van_IFS",
+            "van_suspension_R": "van_axle_R",
+            "van_swaybar_F": "van_swaybar_F",
+            "van_swaybar_R": "",
+            "van_taillight_L": "van_taillight_L",
+            "van_taillight_R": "van_taillight_R",
+            "van_taillightguard_L": "",
+            "van_taillightguard_R": "",
+            "van_transfer_case": "van_transfer_case_RWD",
+            "van_transmission": "van_transmission_4A",
+            "van_tubs": "van_tubs",
+            "van_valance_F": "van_valance_F",
+            "van_wheeldata_F": "van_wheeldata_F",
+            "van_wheeldata_R": "van_wheeldata_R",
+            "van_windshield": "van_windshield",
+            "wheel_F_5": "wheel_25a_16x7_5_F",
+            "wheel_R_5": "wheel_25a_16x7_5_R"
+        },
+        "vars": {}
+    },
+    "vid": 29339
+}
+```
+
+
+
 
 ##### `onVehicleEdited`
 
 参数: `player_id: number`, `vehicle_id: number`, `data: string` 可取消: YES
 
-当玩家编辑并应用其车辆修改时触发。参数 `data` 包含车辆更新后的配置，格式为 JSON 字符串， 但 **不**包含位置或旋转数据。你可以使用 [MP.GetPositionRaw](#mpgetpositionrawpid-number-vid-number-tablestring) 来获取位置和旋转数据。
+当玩家编辑或替换其车辆时触发。`data` 参数包含车辆更新后的配置，并以 JSON 字符串形式提供，但 **不** 包含位置或旋转数据。<br>你可以使用 [MP.GetPositionRaw](#mpgetpositionrawpid-number-vid-number-tablestring) 来获取位置与旋转数据。
+
+<details>
+</details>
+
+<summary><code>data</code> 值示例</summary>
+
+该数据字符串以一个唯一的车辆标识符开头，其格式为玩家 ID、一个连字符，以及车辆 ID。随后是一个 JSON 对象，其中包含车辆配置信息。
+
+```
+0-0: {
+  "abs": "realistic",
+  "ign": 3,
+  "jbm": "van",
+  "pid": 0,
+  "pro": "0",
+  "vcf": {
+    "licenseName": "P60 1EP",
+    "mainPartName": "van",
+    "mainPartPath": "/van",
+    "model": "van",
+    "paints": [
+      {
+        "baseColor": [
+          0.40000000596046,
+          0.050000000745058,
+          0.050000000745058,
+          1.2000000476837
+        ],
+        "clearcoat": 0,
+        "clearcoatRoughness": 0,
+        "metallic": 0,
+        "roughness": 0.070000000298023
+      },
+      {
+        "baseColor": [
+          0.40000000596046,
+          0.050000000745058,
+          0.050000000745058,
+          1.2000000476837
+        ],
+        "clearcoat": 0,
+        "clearcoatRoughness": 0,
+        "metallic": 0,
+        "roughness": 0.070000000298023
+      },
+      {
+        "baseColor": [
+          0.40000000596046,
+          0.050000000745058,
+          0.050000000745058,
+          1.2000000476837
+        ],
+        "clearcoat": 0,
+        "clearcoatRoughness": 0,
+        "metallic": 0,
+        "roughness": 0.070000000298023
+      }
+    ],
+    "partConfigFilename": "vehicles/van/h15_passenger.pc",
+    "parts": {
+      "brakepad_F": "brakepad_F_premium",
+      "brakepad_R": "brakepad_R_premium",
+      "gps": "",
+      "hubcap_F_16": "hubcap_09c_F_altd",
+      "hubcap_R_16": "hubcap_09c_R_altd",
+      "licenseplate_design_2_1": "",
+      "linelock": "",
+      "load_seat_FR": "",
+      "n2o_system": "",
+      "paint_design": "",
+      "pickup_engine_v8_ecu": "pickup_engine_v8_ecu_late",
+      "pickup_engine_v8_internals": "pickup_engine_v8_internals",
+      "pickup_enginemounts": "pickup_enginemounts",
+      "pickup_oilpan_v8": "pickup_oilpan_v8",
+      "pickup_reversewarn": "",
+      "pickup_sparetire": "pickup_sparetire_6l",
+      "pickup_towhitch": "",
+      "skin_glass": "",
+      "skin_interior": "van_skin_interior_ivory",
+      "soundscape_horn": "soundscape_horn_115",
+      "tire_F_16x7_alt": "tire_F_225_75_16_alt_standard",
+      "tire_R_16x7_alt": "tire_R_225_75_16_alt_standard",
+      "trimring_F_16x7": "",
+      "trimring_R_16x7": "",
+      "van_ABS": "van_ABS",
+      "van_ac": "van_ac",
+      "van_body": "van_body_passenger",
+      "van_brake_F": "van_brake_F",
+      "van_brake_R": "van_brake_R",
+      "van_bumper_accessory_F_late": "",
+      "van_bumper_F": "van_bumper_F_late_alt",
+      "van_bumper_F_lip_late": "",
+      "van_bumper_R": "van_bumper_R_late_alt",
+      "van_coilover_IFS": "van_coilover_IFS",
+      "van_converter": "van_converter",
+      "van_differential_F": "",
+      "van_differential_R": "van_differential_R",
+      "van_door_FL": "van_door_FL",
+      "van_door_FR": "van_door_FR",
+      "van_doordetent_FL": "van_doordetent_FL",
+      "van_doordetent_FR": "van_doordetent_FR",
+      "van_doordetent_RL": "van_doordetent_RL",
+      "van_doordetent_RR": "van_doordetent_RR",
+      "van_doorglass_L": "van_doorglass_L",
+      "van_doorglass_R": "van_doorglass_R",
+      "van_doorpanel_FL": "van_doorpanel_FL",
+      "van_doorpanel_FR": "van_doorpanel_FR",
+      "van_driveshaft_R": "van_driveshaft_R",
+      "van_engine": "van_engine_v8_4.5",
+      "van_ESC": "van_ESC",
+      "van_exhaust_v8": "van_exhaust_v8",
+      "van_fascia_F": "van_fascia_F_late",
+      "van_fender_L": "van_fender_L",
+      "van_fender_R": "van_fender_R",
+      "van_fenderflare_FL": "",
+      "van_fenderflare_FR": "",
+      "van_fenderflare_RL": "",
+      "van_fenderflare_RR_sidedoor": "",
+      "van_finaldrive_R": "van_finaldrive_R_355",
+      "van_frame": "van_frame",
+      "van_fueltank": "van_fueltank",
+      "van_grille_F_late": "van_grille_F_late",
+      "van_header": "van_exhmanifold",
+      "van_headlight_L_late": "van_headlight_L_late",
+      "van_headlight_R_late": "van_headlight_R_late",
+      "van_hood": "van_hood_late",
+      "van_hub_F": "van_hub_F_6",
+      "van_hub_R": "van_hub_R_6",
+      "van_intake_v8": "van_intake_v8_late",
+      "van_intcarpet_roof": "van_intcarpet_roof",
+      "van_interior": "van_interior",
+      "van_lettering_doors_F": "van_lettering_doors_F_h15",
+      "van_lettering_reardoor_L": "van_lettering_gavril_reardoor_L",
+      "van_lettering_reardoor_R": "van_lettering_h15_reardoor_R",
+      "van_licenseplate_F_late": "van_licenseplate_F_late",
+      "van_licenseplate_R_late": "van_licenseplate_R_late",
+      "van_lightbar": "",
+      "van_mirror_L": "van_mirror_L",
+      "van_mirror_R": "van_mirror_R",
+      "van_mod": "",
+      "van_muffler": "van_muffler",
+      "van_power_steering": "",
+      "van_radiator": "van_radiator",
+      "van_radio": "van_radio",
+      "van_reardoor_L": "van_reardoor_L",
+      "van_reardoor_R": "van_reardoor_R",
+      "van_reardoorglass_L": "van_reardoorglass_L",
+      "van_reardoorglass_R": "van_reardoorglass_R",
+      "van_reardoorpanel_L": "van_reardoorpanel_L",
+      "van_reardoorpanel_R": "van_reardoorpanel_R",
+      "van_rollcage": "",
+      "van_roof": "van_roof",
+      "van_roof_accessory": "",
+      "van_runningboard": "",
+      "van_seat_1R": "van_seat_1R",
+      "van_seat_2R": "van_seat_2R",
+      "van_seat_3R": "van_seat_3R",
+      "van_seat_FL": "van_seat_FL",
+      "van_seat_FR": "van_seat_FR",
+      "van_shifter": "van_shifter_A",
+      "van_shock_R": "van_shock_R",
+      "van_sidedoor_FR": "van_sidedoor_FR_alt",
+      "van_sidedoor_RR": "van_sidedoor_RR_alt",
+      "van_sidedoorglass_FR": "van_sidedoorglass_FR",
+      "van_sidedoorglass_RR": "van_sidedoorglass_RR",
+      "van_sidedoorpanel_FR": "van_sidedoorpanel_FR",
+      "van_sidedoorpanel_RR": "van_sidedoorpanel_RR",
+      "van_sideglass_FL": "van_sideglass_FL",
+      "van_sideglass_ML": "van_sideglass_ML",
+      "van_sideglass_RL": "van_sideglass_RL",
+      "van_sideglass_RR": "van_sideglass_RR",
+      "van_snorkel": "",
+      "van_spring_R": "van_spring_R",
+      "van_steer": "van_steer_facelift",
+      "van_steering": "van_steering",
+      "van_suspension_F": "van_IFS",
+      "van_suspension_R": "van_axle_R",
+      "van_swaybar_F": "van_swaybar_F",
+      "van_swaybar_R": "",
+      "van_taillight_L": "van_taillight_L",
+      "van_taillight_R": "van_taillight_R",
+      "van_taillightguard_L": "",
+      "van_taillightguard_R": "",
+      "van_transfer_case": "van_transfer_case_RWD",
+      "van_transmission": "van_transmission_4A",
+      "van_tubs": "van_tubs",
+      "van_valance_F": "van_valance_F_late",
+      "van_wheeldata_F": "van_wheeldata_F",
+      "van_wheeldata_R": "van_wheeldata_R",
+      "van_windshield": "van_windshield",
+      "wheel_F_6": "steelwheel_02b_16x7_F",
+      "wheel_R_6": "steelwheel_02b_16x7_R"
+    },
+    "vars": {}
+  }
+}
+```
+
+
+
 
 ##### `onVehicleDeleted`
 

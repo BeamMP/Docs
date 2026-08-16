@@ -14,21 +14,21 @@ Eine vollständige Anleitung zur Installation von BeamMP unter Windows findet ma
 
 ---
 
-### **Funktioniert BeamMP mit einer gecrackten Version von BeamNG?**
+### **Funktioniert BeamMP mit raubkopierten/modifizierten Versionen von BeamNG?**
 
-BeamMP funktioniert nicht mit Raubkopien oder veralteten Versionen von BeamNG.drive. Das BeamMP-Supportteam bietet keinen Support bei Problemen mit gecrackten/veralteten Kopien.
+BeamMP funktioniert möglicherweise nicht mit Raubkopien oder veralteten Versionen von BeamNG.drive. Modifikationen, wie beispielsweise Mods von Drittanbietern, können zu Problemen mit BeamMP führen. (Siehe [„Mods entfernen“](https://github.com/Protogen187/Docs/blob/main/docs/en/FAQ/Clearing-mods.md) .) Das BeamMP-Supportteam kann keinen Support für Probleme im Zusammenhang mit Raubkopien, veralteten oder anderweitig modifizierten Versionen von BeamNG.drive leisten.
 
 ---
 
 ### **Funktioniert BeamMP unter Linux?**
 
-Der BeamMP-Launcher wird unter Linux nicht offiziell unterstützt. Du kannst jedoch unserer [Anleitung zur Verwendung von BeamMP unter Linux](../game/getting-started/#2b-linux-installation) folgen.
+Der BeamMP-Launcher wird unter Linux nicht offiziell unterstützt. Du kannst jedoch unserer [Anleitung zur Verwendung von BeamMP unter Linux](../../game/getting-started.md#2b-linux-installation) folgen.
 
 ---
 
 ### **Warum wird der Launcher von meinem Antivirenprogramm oder Windows Defender als Virus erkannt?**
 
-Einige Antivirus Programme Melden BeamMP möglicherweise als Bedrohung, weil es mit dem Netzwerk und anderen Komponenten interagiert. Es gibt **keine Schadsoftware** im Code. Der Code für den Launcher, Server und Lua Client können auf unserem [GitHub](https://github.com/BeamMP) gefunden werden.
+Manche Antivirenprogramme könnten BeamMP aufgrund von Netzwerkinteraktionen und anderen Faktoren als Bedrohung einstufen. Der Code enthält jedoch **keine Viren** . Den Code für Launcher, Server und Lua-Client findst du auf unserem [GitHub-Repository](https://github.com/BeamMP) .
 
 ---
 

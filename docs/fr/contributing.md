@@ -1,43 +1,63 @@
 # Contribuer à la documentation de BeamMP
 
-BeamMP utilise [Material for MkDocs](https://squidfunk.github.io/mkdocs-material) pour son thème. C'est un thème pour [MkDocs](https://www.mkdocs.org). Les documentations peuvent être retrouvées sur leurs site web respectifs.
+BeamMP utilise [Material for MkDocs](https://squidfunk.github.io/mkdocs-material) comme thème pour sa documentation. Material for MkDocs est un thème conçu pour [MkDocs](https://www.mkdocs.org). Vous pouvez consulter la documentation officielle de ces deux projets sur leurs sites respectifs.
 
 ## Pour commencer
 
-Vous pouvez utiliser une des deux méthodes ci-dessous pour contribuer à la documentation:
+Vous pouvez contribuer à la documentation de deux façons différentes :
 
-### 1. Modifiez directement les fichiers markdown
+### 1. Modifier directement les fichiers Markdown
 
-Modifier directement les fichiers markdown est la façon la plus rapide pour les petites modifications tel que les erreurs de frappes, erreurs de grammaires ou les petits ajouts de contenus. Cette approche nécessite une compréhension des fichiers markdown puisque vous devez comprendre les changement que vos modifications vont produire.
+La modification directe des fichiers Markdown est la méthode la plus rapide pour effectuer de petites corrections, comme des fautes de frappe, des erreurs grammaticales ou de petits ajouts de contenu.
 
-Si vous décider d'utiliser cette méthode, veuillez suivre ces étapes:
+Cette méthode nécessite toutefois une certaine connaissance du format Markdown, car vous devez comprendre l'impact de vos modifications sur la documentation finale.
 
-1. Cliquez sur edit sur la page que vous souhaitez modifier.
-2. Faites une fork du projet et intégrez le à votre propre compte GitHub.
-3. Faites les modifications que vous pensez nécessaires.
-4. Vérifiez les modifications que votre fork apporte.
-5. Faite une requête de pour intégrer vos changement à notre répertoire [ici](https://github.com/BeamMP/Docs).
+Si vous choisissez cette méthode, suivez les étapes suivantes :
 
-Une fois que vous avez fait votre demande d'intégration, une personne de l'équipe de modération de BeamMP va réviser vos modifications et va, soit approuver les changements, soit demander de faire des modifications nécessaires. Si des modifications ont été demandées et que vous les avez effectuées nous allons réévaluer votre requête d'intégration. Les modifications que vous avez apporter seront ensuite appliquées automatiquement due à notre intégration continue.
+1. Cliquez sur **Edit** sur la page que vous souhaitez modifier.
+2. Faites un **fork** du dépôt et ajoutez-le à votre propre compte GitHub.
+3. Effectuez les modifications que vous jugez nécessaires.
+4. Vérifiez les modifications apportées par votre fork.
+5. Créez une **Pull Request** afin de proposer vos changements au dépôt principal : [BeamMP/Docs sur GitHub](https://github.com/BeamMP/Docs).
 
-### 2. Faire des modifications avec un aperçu en direct
+Une fois votre Pull Request créée, un membre de l'équipe de modération de BeamMP examinera vos modifications.
 
-Modifier notre documentation de cette façon ressemble à l'option 1, cependant, vous allez pouvoir apercevoir vos changements en direct.
+Les changements pourront être :
 
-1. Cliquez sur edit sur la page que vous souhaitez modifier.
-2. Faites une fork du projet et intégrez le à votre propre compte GitHub.
-3. Faite une copie local du projet.
-4. Configurez: «Material for MkDocs» en suivant leur guide [ici](https://squidfunk.github.io/mkdocs-material/getting-started/)
-5. Exécutez `mkdocs serve` pour démarrer le serveur de documentation de rechargement en direct à partir duquel vous avez cloné le fork.
-6. Faites les modifications que vous pensez nécessaires.
-7. Vérifiez les modifications que votre fork apporte.
-8. Faite une requête de pour intégrer vos changement à notre répertoire  [here](https://github.com/BeamMP/Docs).
+* **acceptés directement** ;
+* **modifiés à votre demande** avant d'être acceptés.
 
-## Présentation du projet
+Si des modifications supplémentaires sont demandées, vous pourrez les effectuer directement sur votre branche. La Pull Request sera alors réexaminée.
 
+Une fois les changements approuvés et fusionnés, ils seront automatiquement déployés grâce au système d'intégration continue.
+
+### 2. Modifier la documentation avec un aperçu en direct
+
+Cette méthode est similaire à la première, mais elle vous permet de **visualiser vos modifications en temps réel** avant de les proposer.
+
+1. Cliquez sur **Edit** sur la page que vous souhaitez modifier.
+2. Faites un **fork** du dépôt et ajoutez-le à votre compte GitHub.
+3. Clonez votre fork du projet sur votre ordinateur.
+4. Configurez **Material for MkDocs** en suivant le guide officiel : [Guide d'installation de Material for MkDocs](https://squidfunk.github.io/mkdocs-material/getting-started/).
+5. Exécutez la commande suivante pour démarrer le serveur de développement avec rechargement automatique :
+
+```bash
+mkdocs serve
 ```
-mkdocs.yml    # The configuration file.
+
+6. Effectuez les modifications que vous souhaitez apporter.
+7. Vérifiez le résultat directement dans votre navigateur.
+8. Une fois satisfait, créez une **Pull Request** vers le dépôt principal : [BeamMP/Docs sur GitHub](https://github.com/BeamMP/Docs).
+
+Cette méthode est particulièrement recommandée pour les modifications importantes ou lorsqu'une page contient beaucoup de formatage Markdown, de code ou de composants Material for MkDocs.
+
+## Structure du projet
+
+L'organisation générale du projet est la suivante :
+
+```text
+mkdocs.yml    # Fichier de configuration de MkDocs.
 docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
+    index.md  # Page d'accueil de la documentation.
+    ...       # Autres pages Markdown, images et fichiers.
 ```
