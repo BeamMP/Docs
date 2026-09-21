@@ -16,14 +16,8 @@ However, both Linux and MacOS are secondary platforms, this means bugs are to be
 
 ### **2a. Windows Installation**
 
-!!!note
-
-    As of April 1st, 2026, the MSI installer is an "unrecognized app" according to Windows Defender SmartScreen.
-    
-    To bypass this warning, click 'More info', then click 'Run anyway'.
-
 1. Go to [beammp.com](https://beammp.com/) and click the 'Download Now' button.
-2. Run the `BeamMP_Installer.msi` installer and follow the instructions.
+2. Run the `BeamMP_Installer.exe` installer and follow the instructions.
 3. The BeamMP Launcher icon should appear on your desktop. If not, just search for “BeamMP” in the Windows search bar.
 
 !!!note
