@@ -246,6 +246,46 @@ end
 
 ---
 
+### `getPlayerVehicles(playerID)`
+Returns the vehicles table of a player
+
+**Parameters:**
+- `playerID` (number) - ID of the player
+
+**Returns:**
+- (table) - `{IDs = {[serverVehicleID] = serverVehicleID}, objects = {[serverVehicleID] = vehicle_object}}`
+- (table) - `{IDs = {}, objects = {}}` if the player is unknown
+
+**Usage:**
+```lua
+local vehicles = extensions.MPVehicleGE.getPlayerVehicles(0)
+for serverID, _ in pairs(vehicles.IDs) do
+    print("Vehicle: " .. serverID)
+end
+```
+
+---
+
+### `getPlayerVehicleIDs(playerID)`
+Returns the serverVehicleIDs of every vehicle owned by a player
+
+**Parameters:**
+- `playerID` (number) - ID of the player
+
+**Returns:**
+- (table) - `{[serverVehicleID] = serverVehicleID}`
+- (table) - Empty table if the player is unknown
+
+**Usage:**
+```lua
+local ids = extensions.MPVehicleGE.getPlayerVehicleIDs(0)
+for serverID, _ in pairs(ids) do
+    print(serverID)
+end
+```
+
+---
+
 ## Nametag Functions
 
 ### `setPlayerNickPrefix(targetName, tagSource, text)`
@@ -429,12 +469,12 @@ extensions.MPVehicleGE.groundmarkerFollowPlayer(nil)          -- Stop
 Finds the closest road nodes to a target position
 
 **Parameters:**
-- `targetPosition` (vec3 or table) - Target position with x, y, z
+- `targetPosition` (vec3) - Target position
 - `owner` (string) - Optional identifier (default: "target")
 
 **Returns:**
 - (boolean) - Success status
-- (number) - nodeID (if successful)
+- nodeID of the closest road node (if successful)
 
 **Usage:**
 ```lua
@@ -830,11 +870,11 @@ local name = extensions.MPConfig.getNickname()
 ---
 
 ### `MPConfig.getConfig()`
-Returns the BeamMP configuration settings
+Returns the contents of the BeamMP config file (`/settings/BeamMP/config.json`)
 
 **Returns:**
-- (table) - Configuration table with all BeamMP settings
-- (nil) - If config file doesn't exist
+- (table) - The config data
+- (nil) - If the config file doesn't exist
 
 **Usage:**
 ```lua
@@ -844,7 +884,7 @@ local config = extensions.MPConfig.getConfig()
 ---
 
 ### `MPConfig.setConfig(settingName, settingVal)`
-Sets a specific configuration value
+Sets a value in the BeamMP config file (`/settings/BeamMP/config.json`)
 
 **Parameters:**
 - `settingName` (string) - Name of the setting
@@ -863,7 +903,7 @@ extensions.MPConfig.setConfig("myCustomSetting", true)
 Returns information about the current connected server
 
 **Returns:**
-- (table) - Server data (ip, port, name, map)
+- (table) - Server data (ip, port, name, skipModWarning)
 - (nil) - If not connected
 
 **Usage:**
@@ -1056,7 +1096,7 @@ Creates a custom interactive dialog box
   - `title` (string) - Dialog title (optional)
   - `body` (string) - Dialog message (optional)
   - `buttons` (table) - Button configurations (optional)
-  - `class` (string) - "experimental" for hazard lines (optional)
+  - `class` (string) - Only `"experimental"` is accepted (optional)
   - `interactionID` (string) - Interaction identifier (optional)
   - `reportToServer` (boolean) - Send to server (optional, default: false)
   - `reportToExtensions` (boolean) - Trigger local event (optional, default: false)
@@ -1178,15 +1218,12 @@ Converts a hexadecimal color code to RGB values
 - (table) - `{0, 0, 0}` if invalid
 
 **Note:**
-Supports both 3-character and 6-character hex codes.
+Only the `#RRGGBB` format is accepted.
 
 **Usage:**
 ```lua
 local rgb = extensions.MPHelpers.hex2rgb("#FF5733")
 print(rgb[1], rgb[2], rgb[3]) -- 1.0, 0.341, 0.2
-
--- Short format
-local rgb = extensions.MPHelpers.hex2rgb("#F57")
 ```
 
 ---
@@ -1206,6 +1243,9 @@ Splits a string by delimiter and optionally converts values
 
 **Returns:**
 - (table) - Array of split values
+
+**Note:**
+`convert_into = 2` always produces `false`.
 
 **Usage:**
 ```lua
@@ -1255,7 +1295,7 @@ end
 
 ## Debug Functions
 
-### `MPHelpers.simpletraces(level)`
+### `simpletraces(level)`
 Returns formatted caller information as string
 
 **Parameters:**
@@ -1265,33 +1305,36 @@ Returns formatted caller information as string
 - (string) - Formatted string: `"source:line, namewhat name"`
 - (string) - `"unknown"` if info not available
 
+**Note:**
+Global function, it is not exposed on `MPHelpers`.
+
 **Usage:**
 ```lua
 local function myFunction()
-    local caller = extensions.MPHelpers.simpletraces()
+    local caller = simpletraces()
     print("Called from: " .. caller)
 end
 ```
 
 ---
 
-### `MPHelpers.simpletrace(level)`
+### `simpletrace(level)`
 Logs caller information to console
 
 **Parameters:**
 - `level` (number) - Stack level (optional, default: 1)
 
 **Note:**
-Logs the calling location to the console.
+Global function, it is not exposed on `MPHelpers`.
 
 **Usage:**
 ```lua
 local function myFunction()
-    extensions.MPHelpers.simpletrace()
+    simpletrace()
     -- Logs: "Code was called from: lua/ge/extensions/mymod.lua:42"
 end
 ```
 
 ---
 
-*Last updated: 01.01.2026*
+*Last updated: 08.09.2026*
