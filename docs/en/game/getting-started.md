@@ -38,6 +38,7 @@ Make sure you have basic development tools installed, often found in packages, f
 - SteamOS (Arch): `sudo steamos-readonly disable` (be able to install packages, might want to reenable after youre done)
   `sudo pacman-key --init && sudo pacman-key --populate` (set up pacman keyring)
   `sudo pacman -S base-devel linux-api-headers glibc libconfig`
+  You may need to set a password with `passwd`
 
 Clone `vcpkg`, bootstrap it and add it to PATH
 
