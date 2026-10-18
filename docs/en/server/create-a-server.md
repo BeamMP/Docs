@@ -18,7 +18,7 @@ Getting a server up and running is a process of a few steps! If you run into any
 
 Please make sure to read the [LICENSE](https://raw.githubusercontent.com/BeamMP/BeamMP-Server/master/LICENSE) of the server before use.
 
-Note: _The server only supports IPv4\. If you don't know which one you have, look at the IP address you see on [_whatsmyip.org_](https://www.whatsmyip.org/) - if it contains_ `_:_` _colons, it's **IPv6**. In that case, you should investigate further whether you also have an IPv4\. You can call your ISP to find this out, or ask someone who lives with you (if they're tech-savvy, they might know!). IPv6 support is planned._
+Note: _The server only supports IPv4\. If you don't know which one you have, look at the IP address you see on [_whatsmyip.org_](https://www.whatsmyip.org/) - if it contains_ `_:_` _colons, it's **IPv6**. In that case, you should investigate further whether you also have an IPv4. You can call your ISP to find this out, or ask someone who lives with you (if they're tech-savvy, they might know!). IPv6 support is planned.
 
 ## Setting up the Server
 
@@ -277,7 +277,7 @@ Make sure search filters are disabled and the Map set to "Any" if you can't find
 You can also check the [Keymaster](https://keymaster.beammp.com/) Website for the Servers IP Address.
 
 Should you or your friends experience a "Connection Failed!" Error, check the Launcher Window for codes like 10060, 10061, 10030.
-This means you eihter have a CGNAT IPv4, or you have done something wrong during Step **1 Port Forwarding** or **1.1. Firewall**.
+This means you either have a CGNAT IPv4, or you have done something wrong during Step **1 Port Forwarding** or **1.1. Firewall**.
 To check if you have a CGNAT IPv4, look up the WAN IP Address on your routers interface. Compare it to your [public IP](https://www.whatsmyip.org/). If they're the same, you are not behind a CGNAT.
 IPv6 Support is **NOT** yet implemented.
 
@@ -285,7 +285,7 @@ IPv6 Support is **NOT** yet implemented.
 
 Enter the servers public IPv4 and Port below, then click "CheckBeamMP".
 <form action="https://check.beammp.com/api/v2/beammp" method="get" target="_blank">
-  <label for="ip">IP adress:</label>
+  <label for="ip">IP address:</label>
   <input type="text" id="ip" name="ip"><br>
   <label for="port">Port:</label>
   <input type="text" id="port" name="port"><br>
